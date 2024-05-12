@@ -454,7 +454,16 @@ fairy_locations = {
             logic=lambda l: l.camera and l.punch and l.chunky,
             natural_index=0,
         ),
-        relocated_5ds_fairy,
+        FairyData(
+            name="Inside Tiny 5-Door Ship",
+            map=Maps.Galleon5DShipDKTiny,
+            region=Regions.SaxophoneShip,
+            is_vanilla=True,
+            fence=Fence(916, 1703, 1217, 1854),
+            natural_index=1,
+            spawn_y=62,
+            is_5ds_fairy=True,
+        ),
         FairyData(
             name="Tiny Slam Button",
             map=Maps.GloomyGalleon,
