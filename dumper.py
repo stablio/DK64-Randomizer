@@ -22,6 +22,7 @@ from randomizer.Lists.DoorLocations import door_locations
 from randomizer.Lists.FairyLocations import fairy_locations
 from randomizer.Lists.KasplatLocations import KasplatLocationList
 from randomizer.Enums.Maps import Maps
+from randomizer.Logic import RegionsOriginal
 
 # USAGE OF FILE
 # - python ./dumper.py {format} {desired-files}
@@ -38,6 +39,7 @@ class Dumpers(IntEnum):
     Doors = auto()
     Fairies = auto()
     Kasplats = auto()
+    RegionsOriginal = auto()
     RandomSettings = auto()
 
 
@@ -60,12 +62,28 @@ def dump_to_dict(class_instance, deleted=[], enum_value=[], enum_name=[], logic_
         if item in as_dict:
             if isinstance(as_dict[item], list):
                 for ai, a in enumerate(as_dict[item]):
-                    as_dict[item][ai] = a.name
+                    if hasattr(a, 'name'):
+                        as_dict[item][ai] = a.name
+                    elif hasattr(a, 'id'):
+                        as_dict[item][ai] = a.id
+                    elif hasattr(a, 'dest'):
+                        as_dict[item][ai] = a.dest
+            elif as_dict[item] is None:
+                as_dict[item] = None
             else:
-                as_dict[item] = as_dict[item].name
+                if hasattr(a, 'name'):
+                    as_dict[item] = a.name
+                elif hasattr(a, 'id'):
+                    as_dict[item] = a.id
+                elif hasattr(a, 'dest'):
+                    as_dict[item] = a.dest
+                else:
+                    as_dict[item] = a.name
+
     if logic_var is not None:
         if logic_var in as_dict:
-            logic_raw = " ".join([x.strip() for x in inspect.getsourcelines(as_dict[logic_var])[0]]).replace("\n", "").replace("\t", "")
+            logic_raw = " ".join([x.strip() for x in inspect.getsourcelines(
+                as_dict[logic_var])[0]]).replace("\n", "").replace("\t", "")
             if "lambda l: True" in logic_raw:
                 del as_dict[logic_var]
             else:
@@ -172,7 +190,8 @@ def dump_to_file(name="temp", data={}, format="json", dumper: Dumpers = Dumpers.
                         csv_data.append(x[y])
                     else:
                         csv_data.append("")
-                fh.write(", ".join([filterCSVCell(x) for x in csv_data]) + "\n")
+                fh.write(", ".join([filterCSVCell(x)
+                         for x in csv_data]) + "\n")
         elif format == "md":
             if isinstance(data, dict):
                 for x in data:
@@ -199,32 +218,41 @@ def dump_to_file(name="temp", data={}, format="json", dumper: Dumpers = Dumpers.
                         fh.write("| Map | Name | Banned Types | Logic |\n")
                         fh.write("| --- | ---- | ------------ | ----- |\n")
                     elif dumper == Dumpers.Doors:
-                        fh.write("| Map | Name | Door types acceptable in location | Logic |\n")
-                        fh.write("| --- | ---- | --------------------------------- | ----- |\n")
+                        fh.write(
+                            "| Map | Name | Door types acceptable in location | Logic |\n")
+                        fh.write(
+                            "| --- | ---- | --------------------------------- | ----- |\n")
                     groupings = {}
                     for y in data[x]:
                         if dumper in (Dumpers.ColoredBananas, Dumpers.Coins):
                             if dumper == Dumpers.Coins:
                                 if y["map"] not in groupings:
                                     groupings[y["map"]] = []
-                                groupings[y["map"]].append(f"| {y['name']} | {len(y['locations'])} | `{y.get('logic', '')}` | \n")
+                                groupings[y["map"]].append(
+                                    f"| {y['name']} | {len(y['locations'])} | `{y.get('logic', '')}` | \n")
                             elif y["class"] == "cb":
                                 if y["map"] not in groupings:
                                     groupings[y["map"]] = []
-                                groupings[y["map"]].append(f"| {y['name']} | {sum([a[0] for a in y['locations']])} | `{y.get('logic', '')}` | \n")
+                                groupings[y["map"]].append(
+                                    f"| {y['name']} | {sum([a[0] for a in y['locations']])} | `{y.get('logic', '')}` | \n")
                             elif y["class"] == "balloon":
                                 if y["map"] not in groupings:
                                     groupings[y["map"]] = []
-                                groupings[y["map"]].append(f"| {y['name']} | Balloon | `{y.get('logic', '')}` | \n")
+                                groupings[y["map"]].append(
+                                    f"| {y['name']} | Balloon | `{y.get('logic', '')}` | \n")
                         elif dumper == Dumpers.Fairies:
-                            fh.write(f"| {getMapNameFromIndex(y['map'])} | {y['name']} | `{y.get('logic', '')}` | \n")
+                            fh.write(
+                                f"| {getMapNameFromIndex(y['map'])} | {y['name']} | `{y.get('logic', '')}` | \n")
                         elif dumper == Dumpers.CustomLocations:
                             banned_types = y.get("banned_types", [])
-                            fh.write(f"| {getMapNameFromIndex(y['map'])} | {y['name']} | {', '.join([x.name for x in banned_types])} | `{y.get('logic', '')}` | \n")
+                            fh.write(
+                                f"| {getMapNameFromIndex(y['map'])} | {y['name']} | {', '.join([x.name for x in banned_types])} | `{y.get('logic', '')}` | \n")
                         elif dumper == Dumpers.Kasplats:
-                            fh.write(f"| {getMapNameFromIndex(y['map'])} | {y['name']} | `{y.get('additional_logic', '')}` | \n")
+                            fh.write(
+                                f"| {getMapNameFromIndex(y['map'])} | {y['name']} | `{y.get('additional_logic', '')}` | \n")
                         elif dumper == Dumpers.Doors:
-                            fh.write(f"| {getMapNameFromIndex(y['map'])} | {y['name']} | {y['door_type'].title()} | `{y.get('logic', '')}` | \n")
+                            fh.write(
+                                f"| {getMapNameFromIndex(y['map'])} | {y['name']} | {y['door_type'].title()} | `{y.get('logic', '')}` | \n")
                     for group in groupings:
                         if dumper in (Dumpers.ColoredBananas, Dumpers.Coins):
                             # fh.write("<details>\n")
@@ -275,18 +303,21 @@ def dump_cb(format: str):
         level_dump = []
         cb_lst = level_data[level]["cb"]
         for cb in cb_lst:
-            as_dict = dump_to_dict(cb, ["group", "selected"], ["map", "kongs"], ["region"], "logic")
+            as_dict = dump_to_dict(cb, ["group", "selected"], [
+                                   "map", "kongs"], ["region"], "logic")
             as_dict["class"] = "cb"
             level_dump.append(as_dict)
         bln_lst = level_data[level]["balloons"]
         for bln in bln_lst:
-            as_dict = dump_to_dict(bln, ["id", "selected"], ["map", "kongs"], ["region"], "logic")
+            as_dict = dump_to_dict(bln, ["id", "selected"], [
+                                   "map", "kongs"], ["region"], "logic")
             as_dict["class"] = "balloon"
             level_dump.append(as_dict)
         if format == "md":
             dumps[level] = level_dump
         else:
-            dump_to_file(f"colored_bananas_{level.name}", level_dump, format, Dumpers.ColoredBananas)
+            dump_to_file(
+                f"colored_bananas_{level.name}", level_dump, format, Dumpers.ColoredBananas)
     if format == "md":
         dump_to_file("colored_bananas", dumps, format, Dumpers.ColoredBananas)
 
@@ -313,14 +344,35 @@ def dump_custom_location(format: str):
         custom_location_data = []
         for custom_location in CustomLocations[level]:
             custom_location_data.append(
-                dump_to_dict(custom_location, ["is_vanilla", "is_rotating_room", "default_index", "placement_subindex"], ["map"], ["region"], "logic", getCustomX, getCustomY, getCustomZ)
+                dump_to_dict(custom_location, ["is_vanilla", "is_rotating_room", "default_index", "placement_subindex"], [
+                             "map"], ["region"], "logic", getCustomX, getCustomY, getCustomZ)
             )
         if format == "md":
             dumps[level] = custom_location_data
         else:
-            dump_to_file(f"custom_locations_{level.name}", custom_location_data, format, Dumpers.CustomLocations)
+            dump_to_file(
+                f"custom_locations_{level.name}", custom_location_data, format, Dumpers.CustomLocations)
     if format == "md":
         dump_to_file("miscellaneous", dumps, format, Dumpers.CustomLocations)
+
+
+def dump_logic(format: str):
+    """Dump logic regions locations."""
+    dumps = {}
+    custom_location_data = []
+
+    for region_key, region_value in RegionsOriginal.items():
+        custom_location_data.append(
+            dump_to_dict(region_value, [], [], [
+                         "locations", "events", "exits","deathwarp"], "logic")
+        )
+    if format == "md":
+        dumps = custom_location_data
+    else:
+        dump_to_file(f"logic_regions", custom_location_data,
+                     format, Dumpers.RegionsOriginal)
+    if format == "md":
+        dump_to_file("miscellaneous", dumps, format, Dumpers.RegionsOriginal)
 
 
 def getDoorX(item: dict):
@@ -345,12 +397,14 @@ def dump_door(format: str):
         door_data = []
         for door in door_locations[level]:
             door_data.append(
-                dump_to_dict(door, ["rx", "rz", "group", "placed", "default_kong", "default_placed", "assigned_kong"], ["map", "kongs"], ["logicregion"], "logic", getDoorX, getDoorY, getDoorZ)
+                dump_to_dict(door, ["rx", "rz", "group", "placed", "default_kong", "default_placed", "assigned_kong"], [
+                             "map", "kongs"], ["logicregion"], "logic", getDoorX, getDoorY, getDoorZ)
             )
         if format == "md":
             dumps[level] = door_data
         else:
-            dump_to_file(f"doors_{level.name}", door_data, format, Dumpers.Doors)
+            dump_to_file(f"doors_{level.name}",
+                         door_data, format, Dumpers.Doors)
     if format == "md":
         dump_to_file("doors", dumps, format, Dumpers.Doors)
 
@@ -361,7 +415,8 @@ def dump_fairy(format: str):
     for level in fairy_locations:
         fairy_data = []
         for fairy in fairy_locations[level]:
-            as_dict = dump_to_dict(fairy, ["fence", "is_5ds_fairy", "is_vanilla", "natural_index"], ["map"], ["region"], "logic")
+            as_dict = dump_to_dict(fairy, ["fence", "is_5ds_fairy", "is_vanilla", "natural_index"], [
+                                   "map"], ["region"], "logic")
             if getattr(fairy, "fence") is not None:
                 fence_dict = dump_to_dict(fairy.fence)
                 for attr in fence_dict:
@@ -380,7 +435,8 @@ def dump_fairy(format: str):
         if format == "md":
             dumps[level] = fairy_data
         else:
-            dump_to_file(f"fairies_{level.name}", fairy_data, format, Dumpers.Fairies)
+            dump_to_file(f"fairies_{level.name}",
+                         fairy_data, format, Dumpers.Fairies)
     if format == "md":
         dump_to_file("fairies", dumps, format, Dumpers.Fairies)
 
@@ -406,11 +462,13 @@ def dump_kasplat(format: str):
     for level in KasplatLocationList:
         kasplat_data = []
         for kasplat in KasplatLocationList[level]:
-            kasplat_data.append(dump_to_dict(kasplat, ["selected", "vanilla"], ["map", "kong_lst"], ["region_id"], "additional_logic", getKasplatX, getKasplatY, getKasplatZ))
+            kasplat_data.append(dump_to_dict(kasplat, ["selected", "vanilla"], ["map", "kong_lst"], [
+                                "region_id"], "additional_logic", getKasplatX, getKasplatY, getKasplatZ))
         if format == "md":
             dumps[level] = kasplat_data
         else:
-            dump_to_file(f"kasplats_{level.name}", kasplat_data, format, Dumpers.Kasplats)
+            dump_to_file(f"kasplats_{level.name}",
+                         kasplat_data, format, Dumpers.Kasplats)
     if format == "md":
         dump_to_file("kasplats", dumps, format, Dumpers.Kasplats)
 
@@ -420,7 +478,8 @@ def dump_coin(format: str):
     dumps = {}
     for level in BananaCoinGroupList:
         for coin_group in BananaCoinGroupList[level]:
-            as_dict = dump_to_dict(coin_group, ["group"], ["map", "kongs"], ["region"], "logic")
+            as_dict = dump_to_dict(coin_group, ["group"], [
+                                   "map", "kongs"], ["region"], "logic")
             if level not in dumps:
                 dumps[level] = []
             dumps[level].append(as_dict)
@@ -428,7 +487,8 @@ def dump_coin(format: str):
         dump_to_file("coins", dumps, format, Dumpers.Coins)
     else:
         for level in dumps:
-            dump_to_file(f"coins_{level.name}", dumps[level], format, Dumpers.Coins)
+            dump_to_file(f"coins_{level.name}",
+                         dumps[level], format, Dumpers.Coins)
 
 
 def checkIfMatchingList(list1: list, list2: list) -> bool:
@@ -444,7 +504,8 @@ def checkIfMatchingList(list1: list, list2: list) -> bool:
 def getDisplayName(internal_name: str):
     """Get the displayed name on the site for an internal name."""
     directory = "./templates"
-    templates = [x for x in os.listdir(directory) if ".html.jinja2" in x and x not in ["spoiler.html.jinja2", "settings.html.jinja2"]]
+    templates = [x for x in os.listdir(directory) if ".html.jinja2" in x and x not in [
+        "spoiler.html.jinja2", "settings.html.jinja2"]]
     old_text = " ".join([x.capitalize() for x in internal_name.split("_")])
     for template in templates:
         with open(f"{directory}/{template}", "r") as jinja:
@@ -468,7 +529,7 @@ def getDisplayName(internal_name: str):
             start_of_disp_name = text.find(disp_name_text)
             if start_of_disp_name < 0:
                 continue
-            text = text[start_of_disp_name + len(disp_name_text) :]
+            text = text[start_of_disp_name + len(disp_name_text):]
             end_of_disp_name = text.find('"')
             if end_of_disp_name < 0:
                 continue
@@ -493,7 +554,8 @@ def dump_random_settings(format: str):
         with open(f"{LIST_DIRECTORY}/RandomSettings{file['name'].title().replace(' ','')}.MD", "w") as fh:
             fh.write(f"{file['description']}\n")
             excluded_settings = ["name", "description"]
-            included_settings = [x for x in list(file.keys()) if x not in excluded_settings]
+            included_settings = [x for x in list(
+                file.keys()) if x not in excluded_settings]
             always_on = []
             always_off = []
             others = {}
@@ -523,7 +585,8 @@ def dump_random_settings(format: str):
                         continue
                     else:
                         # Multiple Options
-                        others[setting_name] = "".join([f"\n\t- {' '.join([x.capitalize() for x in k.split('_')])}: {int(setting_desc[k] * 100)}%" for k in sub_dict_keys])
+                        others[setting_name] = "".join(
+                            [f"\n\t- {' '.join([x.capitalize() for x in k.split('_')])}: {int(setting_desc[k] * 100)}%" for k in sub_dict_keys])
                         continue
             # Sort lists for tidyness
             # always_off.sort()
@@ -538,25 +601,32 @@ def dump_random_settings(format: str):
                 fh.write("\n")
             if len(others) > 0:
                 fh.write("\n# Other Settings\n")
-                fh.write("\n".join([f"- {x}: {others[x]}" for x in list(others.keys())]))
+                fh.write(
+                    "\n".join([f"- {x}: {others[x]}" for x in list(others.keys())]))
                 fh.write("\n")
 
 
-all_args = ["cb", "coin", "custom_location", "door", "fairy", "kasplat", "random_settings"]
-valid_args = all_args + ["all"]
-args = sys.argv[2:]
-if "all" in args:
-    args = all_args.copy()
-elif sum([1 for x in args if x not in valid_args]) > 0:
-    print(f"ERROR: Invalid files \"{', '.join([x for x in args if x not in valid_args])}\". Select from {', '.join(valid_args)}")
-    sys.exit()
-valid_formats = ["json", "csv", "md"]
-if sys.argv[1] not in valid_formats:
-    print(f"ERROR: Invalid format \"{sys.argv[1]}\". Select from {', '.join(valid_formats)}")
-    sys.exit()
-for arg in args:
-    print(f"Dumping {arg.title()}...")
-    arg_f = globals()[f"dump_{arg}"]
-    arg_f(sys.argv[1])
-    print("Dumping complete")
-subprocess.call(["python", "./update_wiki.py"])
+# all_args = ["cb", "coin", "custom_location", "door", "fairy", "kasplat", "logic", "random_settings"]
+# valid_args = all_args + ["all"]
+# args = sys.argv[2:]
+# if "all" in args:
+#     args = all_args.copy()
+# elif sum([1 for x in args if x not in valid_args]) > 0:
+#     print(f"ERROR: Invalid files \"{', '.join([x for x in args if x not in valid_args])}\". Select from {', '.join(valid_args)}")
+#     sys.exit()
+# valid_formats = ["json", "csv", "md"]
+# if sys.argv[1] not in valid_formats:
+#     print(f"ERROR: Invalid format \"{sys.argv[1]}\". Select from {', '.join(valid_formats)}")
+#     sys.exit()
+# for arg in args:
+#     print(f"Dumping {arg.title()}...")
+#     arg_f = globals()[f"dump_{arg}"]
+#     arg_f(sys.argv[1])
+#     print("Dumping complete")
+# subprocess.call(["python", "./update_wiki.py"])
+
+
+print(f"Dumping..")
+arg_f = globals()[f"dump_logic"]
+arg_f('json')
+print("Dumping complete")
