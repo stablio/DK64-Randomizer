@@ -10498,9 +10498,7 @@
                     "Requires": true
                 }
             },
-            "Collectibles": [
-                "ChunkyRoomPlatformChunkyBunch60"
-            ]
+            "Collectibles": []
         },
         "PowerHut": {
             "Name": "Power Hut",
@@ -10583,8 +10581,8 @@
                 }
             },
             "Collectibles": [
-                "PowerHutDonkeyBunch65",
-                "PowerHutDonkeyCoin67"
+                "PowerHutDonkeyBunch63",
+                "PowerHutDonkeyCoin65"
             ]
         },
         "BeyondHatch": {
@@ -11178,24 +11176,25 @@
                 }
             },
             "Collectibles": [
-                "BeyondHatchDonkeyBanana70",
-                "BeyondHatchDonkeyBanana71",
-                "BeyondHatchDonkeyBalloon72",
-                "BeyondHatchDiddyBanana73",
-                "BeyondHatchDiddyBanana74",
-                "BeyondHatchDiddyBunch75",
-                "BeyondHatchLankyBanana76",
-                "BeyondHatchLankyBanana77",
-                "BeyondHatchTinyBunch78",
-                "BeyondHatchTinyBunch79",
-                "BeyondHatchChunkyBanana80",
-                "BeyondHatchChunkyBunch81",
-                "BeyondHatchDonkeyCoin83",
-                "BeyondHatchDiddyCoin84",
-                "BeyondHatchLankyCoin85",
-                "BeyondHatchTinyCoin86",
-                "BeyondHatchChunkyCoin87",
-                "BeyondHatchChunkyCoin88"
+                "BeyondHatchDonkeyBanana68",
+                "BeyondHatchDonkeyBanana69",
+                "BeyondHatchDonkeyBalloon70",
+                "BeyondHatchDiddyBanana71",
+                "BeyondHatchDiddyBanana72",
+                "BeyondHatchDiddyBunch73",
+                "BeyondHatchLankyBanana74",
+                "BeyondHatchLankyBanana75",
+                "BeyondHatchTinyBunch76",
+                "BeyondHatchTinyBunch77",
+                "BeyondHatchChunkyBanana78",
+                "BeyondHatchChunkyBunch79",
+                "BeyondHatchChunkyBunch80",
+                "BeyondHatchDonkeyCoin82",
+                "BeyondHatchDiddyCoin83",
+                "BeyondHatchLankyCoin84",
+                "BeyondHatchTinyCoin85",
+                "BeyondHatchChunkyCoin86",
+                "BeyondHatchChunkyCoin87"
             ]
         },
         "FactoryBaboonBlast": {
@@ -11246,7 +11245,7 @@
                 }
             },
             "Collectibles": [
-                "FactoryBaboonBlastDonkeyBunch91"
+                "FactoryBaboonBlastDonkeyBunch90"
             ]
         },
         "LowerCore": {
@@ -11574,9 +11573,9 @@
                 }
             },
             "Collectibles": [
-                "InsideCoreDonkeyBunch95",
-                "InsideCoreLankyBalloon96",
-                "InsideCoreLankyCoin98"
+                "InsideCoreDonkeyBunch94",
+                "InsideCoreLankyBalloon95",
+                "InsideCoreLankyCoin97"
             ]
         },
         "MiddleCore": {
@@ -11672,12 +11671,12 @@
                 }
             },
             "Collectibles": [
-                "MiddleCoreLankyBunch104",
-                "MiddleCoreTinyBalloon105",
-                "MiddleCoreChunkyBunch106",
-                "MiddleCoreLankyCoin108",
-                "MiddleCoreTinyCoin109",
-                "MiddleCoreChunkyCoin110"
+                "MiddleCoreLankyBunch103",
+                "MiddleCoreTinyBalloon104",
+                "MiddleCoreChunkyBunch105",
+                "MiddleCoreLankyCoin107",
+                "MiddleCoreTinyCoin108",
+                "MiddleCoreChunkyCoin109"
             ]
         },
         "UpperCore": {
@@ -11847,14 +11846,14 @@
                 }
             },
             "Collectibles": [
-                "UpperCoreDiddyBunch113",
+                "UpperCoreDiddyBunch112",
+                "UpperCoreLankyBunch113",
                 "UpperCoreLankyBunch114",
-                "UpperCoreLankyBunch115",
-                "UpperCoreLankyBalloon116",
+                "UpperCoreLankyBalloon115",
+                "UpperCoreTinyBunch116",
                 "UpperCoreTinyBunch117",
-                "UpperCoreTinyBunch118",
-                "UpperCoreLankyCoin120",
-                "UpperCoreTinyCoin121"
+                "UpperCoreLankyCoin119",
+                "UpperCoreTinyCoin120"
             ]
         },
         "FactoryBossLobby": {
@@ -25691,6 +25690,14 @@
                                     {
                                         "Name": "advanced_platforming",
                                         "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "bonus_barrels",
+                                        "Params": [
+                                            "skip",
+                                            true
+                                        ],
+                                        "isFunction": true
                                     }
                                 ]
                             }
@@ -49876,25 +49883,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "ChunkyRoomPlatformChunkyBunch60": {
-            "Name": "Chunky Bunch",
-            "Key": "ChunkyRoomPlatformChunkyBunch60",
-            "Rewards": {
-                "Name": "bunch_factory_chunky",
-                "Amount": 3
-            },
-            "Persona": {
-                "Name": "chunky"
-            },
-            "Requires": {
-                "Name": "primatepunch"
-            },
-            "Class": "Collectible",
-            "Level": "FranticFactory"
-        },
-        "PowerHutDonkeyBunch65": {
+        "PowerHutDonkeyBunch63": {
             "Name": "Donkey Bunch",
-            "Key": "PowerHutDonkeyBunch65",
+            "Key": "PowerHutDonkeyBunch63",
             "Rewards": {
                 "Name": "bunch_factory_donkey",
                 "Amount": 3
@@ -49906,9 +49897,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "PowerHutDonkeyCoin67": {
+        "PowerHutDonkeyCoin65": {
             "Name": "Donkey Coin",
-            "Key": "PowerHutDonkeyCoin67",
+            "Key": "PowerHutDonkeyCoin65",
             "Rewards": {
                 "Name": "coin_factory_donkey",
                 "Amount": 1
@@ -49920,9 +49911,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDonkeyBanana70": {
+        "BeyondHatchDonkeyBanana68": {
             "Name": "Donkey Banana",
-            "Key": "BeyondHatchDonkeyBanana70",
+            "Key": "BeyondHatchDonkeyBanana68",
             "Rewards": {
                 "Name": "banana_factory_donkey",
                 "Amount": 6
@@ -49934,9 +49925,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDonkeyBanana71": {
+        "BeyondHatchDonkeyBanana69": {
             "Name": "Donkey Banana",
-            "Key": "BeyondHatchDonkeyBanana71",
+            "Key": "BeyondHatchDonkeyBanana69",
             "Rewards": {
                 "Name": "banana_factory_donkey",
                 "Amount": 4
@@ -49948,9 +49939,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDonkeyBalloon72": {
+        "BeyondHatchDonkeyBalloon70": {
             "Name": "Donkey Balloon",
-            "Key": "BeyondHatchDonkeyBalloon72",
+            "Key": "BeyondHatchDonkeyBalloon70",
             "Rewards": {
                 "Name": "balloon_factory_donkey",
                 "Amount": 1
@@ -49964,9 +49955,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDiddyBanana73": {
+        "BeyondHatchDiddyBanana71": {
             "Name": "Diddy Banana",
-            "Key": "BeyondHatchDiddyBanana73",
+            "Key": "BeyondHatchDiddyBanana71",
             "Rewards": {
                 "Name": "banana_factory_diddy",
                 "Amount": 5
@@ -49978,9 +49969,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDiddyBanana74": {
+        "BeyondHatchDiddyBanana72": {
             "Name": "Diddy Banana",
-            "Key": "BeyondHatchDiddyBanana74",
+            "Key": "BeyondHatchDiddyBanana72",
             "Rewards": {
                 "Name": "banana_factory_diddy",
                 "Amount": 12
@@ -49992,9 +49983,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDiddyBunch75": {
+        "BeyondHatchDiddyBunch73": {
             "Name": "Diddy Bunch",
-            "Key": "BeyondHatchDiddyBunch75",
+            "Key": "BeyondHatchDiddyBunch73",
             "Rewards": {
                 "Name": "bunch_factory_diddy",
                 "Amount": 1
@@ -50006,9 +49997,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchLankyBanana76": {
+        "BeyondHatchLankyBanana74": {
             "Name": "Lanky Banana",
-            "Key": "BeyondHatchLankyBanana76",
+            "Key": "BeyondHatchLankyBanana74",
             "Rewards": {
                 "Name": "banana_factory_lanky",
                 "Amount": 5
@@ -50020,9 +50011,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchLankyBanana77": {
+        "BeyondHatchLankyBanana75": {
             "Name": "Lanky Banana",
-            "Key": "BeyondHatchLankyBanana77",
+            "Key": "BeyondHatchLankyBanana75",
             "Rewards": {
                 "Name": "banana_factory_lanky",
                 "Amount": 5
@@ -50036,9 +50027,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchTinyBunch78": {
+        "BeyondHatchTinyBunch76": {
             "Name": "Tiny Bunch",
-            "Key": "BeyondHatchTinyBunch78",
+            "Key": "BeyondHatchTinyBunch76",
             "Rewards": {
                 "Name": "bunch_factory_tiny",
                 "Amount": 1
@@ -50050,9 +50041,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchTinyBunch79": {
+        "BeyondHatchTinyBunch77": {
             "Name": "Tiny Bunch",
-            "Key": "BeyondHatchTinyBunch79",
+            "Key": "BeyondHatchTinyBunch77",
             "Rewards": {
                 "Name": "bunch_factory_tiny",
                 "Amount": 2
@@ -50064,9 +50055,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchChunkyBanana80": {
+        "BeyondHatchChunkyBanana78": {
             "Name": "Chunky Banana",
-            "Key": "BeyondHatchChunkyBanana80",
+            "Key": "BeyondHatchChunkyBanana78",
             "Rewards": {
                 "Name": "banana_factory_chunky",
                 "Amount": 10
@@ -50078,9 +50069,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchChunkyBunch81": {
+        "BeyondHatchChunkyBunch79": {
             "Name": "Chunky Bunch",
-            "Key": "BeyondHatchChunkyBunch81",
+            "Key": "BeyondHatchChunkyBunch79",
             "Rewards": {
                 "Name": "bunch_factory_chunky",
                 "Amount": 1
@@ -50092,9 +50083,25 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDonkeyCoin83": {
+        "BeyondHatchChunkyBunch80": {
+            "Name": "Chunky Bunch",
+            "Key": "BeyondHatchChunkyBunch80",
+            "Rewards": {
+                "Name": "bunch_factory_chunky",
+                "Amount": 3
+            },
+            "Persona": {
+                "Name": "chunky"
+            },
+            "Requires": {
+                "Name": "primatepunch"
+            },
+            "Class": "Collectible",
+            "Level": "FranticFactory"
+        },
+        "BeyondHatchDonkeyCoin82": {
             "Name": "Donkey Coin",
-            "Key": "BeyondHatchDonkeyCoin83",
+            "Key": "BeyondHatchDonkeyCoin82",
             "Rewards": {
                 "Name": "coin_factory_donkey",
                 "Amount": 3
@@ -50106,9 +50113,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchDiddyCoin84": {
+        "BeyondHatchDiddyCoin83": {
             "Name": "Diddy Coin",
-            "Key": "BeyondHatchDiddyCoin84",
+            "Key": "BeyondHatchDiddyCoin83",
             "Rewards": {
                 "Name": "coin_factory_diddy",
                 "Amount": 3
@@ -50131,9 +50138,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchLankyCoin85": {
+        "BeyondHatchLankyCoin84": {
             "Name": "Lanky Coin",
-            "Key": "BeyondHatchLankyCoin85",
+            "Key": "BeyondHatchLankyCoin84",
             "Rewards": {
                 "Name": "coin_factory_lanky",
                 "Amount": 3
@@ -50145,9 +50152,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchTinyCoin86": {
+        "BeyondHatchTinyCoin85": {
             "Name": "Tiny Coin",
-            "Key": "BeyondHatchTinyCoin86",
+            "Key": "BeyondHatchTinyCoin85",
             "Rewards": {
                 "Name": "coin_factory_tiny",
                 "Amount": 5
@@ -50159,9 +50166,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchChunkyCoin87": {
+        "BeyondHatchChunkyCoin86": {
             "Name": "Chunky Coin",
-            "Key": "BeyondHatchChunkyCoin87",
+            "Key": "BeyondHatchChunkyCoin86",
             "Rewards": {
                 "Name": "coin_factory_chunky",
                 "Amount": 5
@@ -50173,9 +50180,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "BeyondHatchChunkyCoin88": {
+        "BeyondHatchChunkyCoin87": {
             "Name": "Chunky Coin",
-            "Key": "BeyondHatchChunkyCoin88",
+            "Key": "BeyondHatchChunkyCoin87",
             "Rewards": {
                 "Name": "coin_factory_chunky",
                 "Amount": 3
@@ -50198,9 +50205,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "FactoryBaboonBlastDonkeyBunch91": {
+        "FactoryBaboonBlastDonkeyBunch90": {
             "Name": "Donkey Bunch",
-            "Key": "FactoryBaboonBlastDonkeyBunch91",
+            "Key": "FactoryBaboonBlastDonkeyBunch90",
             "Rewards": {
                 "Name": "bunch_factory_donkey",
                 "Amount": 4
@@ -50212,9 +50219,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "InsideCoreDonkeyBunch95": {
+        "InsideCoreDonkeyBunch94": {
             "Name": "Donkey Bunch",
-            "Key": "InsideCoreDonkeyBunch95",
+            "Key": "InsideCoreDonkeyBunch94",
             "Rewards": {
                 "Name": "bunch_factory_donkey",
                 "Amount": 3
@@ -50228,9 +50235,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "InsideCoreLankyBalloon96": {
+        "InsideCoreLankyBalloon95": {
             "Name": "Lanky Balloon",
-            "Key": "InsideCoreLankyBalloon96",
+            "Key": "InsideCoreLankyBalloon95",
             "Rewards": {
                 "Name": "balloon_factory_lanky",
                 "Amount": 1
@@ -50244,9 +50251,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "InsideCoreLankyCoin98": {
+        "InsideCoreLankyCoin97": {
             "Name": "Lanky Coin",
-            "Key": "InsideCoreLankyCoin98",
+            "Key": "InsideCoreLankyCoin97",
             "Rewards": {
                 "Name": "coin_factory_lanky",
                 "Amount": 3
@@ -50258,9 +50265,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "MiddleCoreLankyBunch104": {
+        "MiddleCoreLankyBunch103": {
             "Name": "Lanky Bunch",
-            "Key": "MiddleCoreLankyBunch104",
+            "Key": "MiddleCoreLankyBunch103",
             "Rewards": {
                 "Name": "bunch_factory_lanky",
                 "Amount": 3
@@ -50272,9 +50279,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "MiddleCoreTinyBalloon105": {
+        "MiddleCoreTinyBalloon104": {
             "Name": "Tiny Balloon",
-            "Key": "MiddleCoreTinyBalloon105",
+            "Key": "MiddleCoreTinyBalloon104",
             "Rewards": {
                 "Name": "balloon_factory_tiny",
                 "Amount": 1
@@ -50288,9 +50295,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "MiddleCoreChunkyBunch106": {
+        "MiddleCoreChunkyBunch105": {
             "Name": "Chunky Bunch",
-            "Key": "MiddleCoreChunkyBunch106",
+            "Key": "MiddleCoreChunkyBunch105",
             "Rewards": {
                 "Name": "bunch_factory_chunky",
                 "Amount": 4
@@ -50302,9 +50309,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "MiddleCoreLankyCoin108": {
+        "MiddleCoreLankyCoin107": {
             "Name": "Lanky Coin",
-            "Key": "MiddleCoreLankyCoin108",
+            "Key": "MiddleCoreLankyCoin107",
             "Rewards": {
                 "Name": "coin_factory_lanky",
                 "Amount": 2
@@ -50316,9 +50323,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "MiddleCoreTinyCoin109": {
+        "MiddleCoreTinyCoin108": {
             "Name": "Tiny Coin",
-            "Key": "MiddleCoreTinyCoin109",
+            "Key": "MiddleCoreTinyCoin108",
             "Rewards": {
                 "Name": "coin_factory_tiny",
                 "Amount": 5
@@ -50330,9 +50337,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "MiddleCoreChunkyCoin110": {
+        "MiddleCoreChunkyCoin109": {
             "Name": "Chunky Coin",
-            "Key": "MiddleCoreChunkyCoin110",
+            "Key": "MiddleCoreChunkyCoin109",
             "Rewards": {
                 "Name": "coin_factory_chunky",
                 "Amount": 4
@@ -50344,9 +50351,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreDiddyBunch113": {
+        "UpperCoreDiddyBunch112": {
             "Name": "Diddy Bunch",
-            "Key": "UpperCoreDiddyBunch113",
+            "Key": "UpperCoreDiddyBunch112",
             "Rewards": {
                 "Name": "bunch_factory_diddy",
                 "Amount": 3
@@ -50358,9 +50365,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreLankyBunch114": {
+        "UpperCoreLankyBunch113": {
             "Name": "Lanky Bunch",
-            "Key": "UpperCoreLankyBunch114",
+            "Key": "UpperCoreLankyBunch113",
             "Rewards": {
                 "Name": "bunch_factory_lanky",
                 "Amount": 1
@@ -50372,9 +50379,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreLankyBunch115": {
+        "UpperCoreLankyBunch114": {
             "Name": "Lanky Bunch",
-            "Key": "UpperCoreLankyBunch115",
+            "Key": "UpperCoreLankyBunch114",
             "Rewards": {
                 "Name": "bunch_factory_lanky",
                 "Amount": 4
@@ -50397,9 +50404,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreLankyBalloon116": {
+        "UpperCoreLankyBalloon115": {
             "Name": "Lanky Balloon",
-            "Key": "UpperCoreLankyBalloon116",
+            "Key": "UpperCoreLankyBalloon115",
             "Rewards": {
                 "Name": "balloon_factory_lanky",
                 "Amount": 1
@@ -50413,9 +50420,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreTinyBunch117": {
+        "UpperCoreTinyBunch116": {
             "Name": "Tiny Bunch",
-            "Key": "UpperCoreTinyBunch117",
+            "Key": "UpperCoreTinyBunch116",
             "Rewards": {
                 "Name": "bunch_factory_tiny",
                 "Amount": 4
@@ -50427,9 +50434,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreTinyBunch118": {
+        "UpperCoreTinyBunch117": {
             "Name": "Tiny Bunch",
-            "Key": "UpperCoreTinyBunch118",
+            "Key": "UpperCoreTinyBunch117",
             "Rewards": {
                 "Name": "bunch_factory_tiny",
                 "Amount": 1
@@ -50443,9 +50450,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreLankyCoin120": {
+        "UpperCoreLankyCoin119": {
             "Name": "Lanky Coin",
-            "Key": "UpperCoreLankyCoin120",
+            "Key": "UpperCoreLankyCoin119",
             "Rewards": {
                 "Name": "coin_factory_lanky",
                 "Amount": 1
@@ -50457,9 +50464,9 @@
             "Class": "Collectible",
             "Level": "FranticFactory"
         },
-        "UpperCoreTinyCoin121": {
+        "UpperCoreTinyCoin120": {
             "Name": "Tiny Coin",
-            "Key": "UpperCoreTinyCoin121",
+            "Key": "UpperCoreTinyCoin120",
             "Rewards": {
                 "Name": "coin_factory_tiny",
                 "Amount": 3
