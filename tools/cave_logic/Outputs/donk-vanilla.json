@@ -9885,7 +9885,7 @@
         },
         "FranticFactoryEntryHandler": {
             "Name": "Frantic Factory Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Frantic Factory Entry Handler",
             "Level": "FranticFactory",
             "Checks": {},
             "Neighbourhood": {
@@ -14680,7 +14680,7 @@
         },
         "CrystalCavesEntryHandler": {
             "Name": "Crystal Caves Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Crystal Caves Entry Handler",
             "Level": "CreepyCastle",
             "Checks": {},
             "Neighbourhood": {
@@ -18701,7 +18701,7 @@
         },
         "JungleJapesEntryHandler": {
             "Name": "Jungle Japes Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Jungle Japes Entry Handler",
             "Level": "JungleJapes",
             "Checks": {},
             "Neighbourhood": {
@@ -23164,7 +23164,7 @@
         },
         "FungiForestEntryHandler": {
             "Name": "Fungi Forest Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Fungi Forest Entry Handler",
             "Level": "FungiForest",
             "Checks": {},
             "Neighbourhood": {
@@ -27287,7 +27287,7 @@
         },
         "CreepyCastleEntryHandler": {
             "Name": "Creepy Castle Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Creepy Castle Entry Handler",
             "Level": "CreepyCastle",
             "Checks": {},
             "Neighbourhood": {
@@ -31399,7 +31399,7 @@
         },
         "AngryAztecEntryHandler": {
             "Name": "Angry Aztec Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Angry Aztec Entry Handler",
             "Level": "AngryAztec",
             "Checks": {},
             "Neighbourhood": {
@@ -38929,7 +38929,7 @@
         },
         "GloomyGalleonEntryHandler": {
             "Name": "Gloomy Galleon Entry Handler",
-            "HintName": "This should not be hinted",
+            "HintName": "Gloomy Galleon Entry Handler",
             "Level": "GloomyGalleon",
             "Checks": {},
             "Neighbourhood": {
