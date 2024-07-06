@@ -295,9 +295,20 @@
     "HideoutHelmKey": {
       "AltNames": ["Key8", "HelmKey", "HelmKeyTurnedIn"]
     },
-    "IceTrap": {
-      "Key": "IceTrap",
-      "Name": "Ice Trap",
+    "IceTrapBubble": {
+      "Key": "IceTrapBubble",
+      "Name": "Ice Trap (Bubble)",
+      "AltNames": ["IceTrap"],
+      "Type": "Item"
+    },
+    "IceTrapReverse": {
+      "Key": "IceTrapReverse",
+      "Name": "Ice Trap (Reverse)",
+      "Type": "Item"
+    },
+    "IceTrapSlow": {
+      "Key": "IceTrapSlow",
+      "Name": "Ice Trap (Slow)",
       "Type": "Item"
     },
     "BananaHoard": {

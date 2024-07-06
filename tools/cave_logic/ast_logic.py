@@ -77,9 +77,13 @@ def ast_to_json(node, params):
         }
         return {"combinator": "AND", "rules": [cond3, cond2]}
     elif isinstance(node, ast.Compare) and not hasattr(node.left, 'func') and isinstance(node.ops[0], ast.GtE):
+        amount = node.comparators[0].value
+        if (isinstance(amount, ast.Attribute)):
+            return {"Name": 'Compare', "Params": [node.left.attr, node.ops[0].__doc__, node.comparators[0].attr],  "isFunction": True}
+
         return {
             "Name": normalise_name(f"{node.left.attr}"),
-            "Amount": f"{node.comparators[0].value}",
+            "Amount": f"{amount}",
         }
     elif isinstance(node, ast.Compare) and not hasattr(node.left, 'func'):
         if (node.left.value.attr == "settings"):
