@@ -63,7 +63,7 @@
 | Behind stump in beehive area | 10 | `` | 
 | Above Melon Crate behind mountain | 5 | `` | 
 | Above melon crate behind boulder | 5 | `` | 
-| Inside Free Diddy cage | 5 | `l.CanFreeDiddy()` | 
+| Inside Free Diddy cage | 5 | `Events.JapesFreeKongOpenGates in l.Events` | 
 | Between starting vines (Donkey) | 5 | `l.vines or (l.advanced_platforming and l.isdonkey and (not l.isKrushaAdjacent(Kongs.donkey)))` | 
 | On top of slippery slope in BP cave (Lanky) | 5 | `l.handstand` | 
 | W3 bunches (Donkey) | 10 | `` | 
@@ -331,7 +331,7 @@
 | W1 (1 custom, 1 Lanky bunch) | 10 | `` | 
 | Behind and above llama | 10 | `` | 
 | All around Llama Temple (Donkey) | 15 | `` | 
-| Llama Temple Water Corners | 20 | `l.CanLlamaSpit() and l.swim` | 
+| Llama Temple Water Corners | 20 | `Events.AztecLlamaSpit in l.Events and l.swim` | 
 | To lava room (Tiny) | 3 | `` | 
 | To lava room (Tiny) | 2 | `` | 
 | On Tiny switches in lava room (Tiny) | 10 | `(l.CanSlamSwitch(Levels.AngryAztec, 1) or (l.twirl and l.advanced_platforming)) and l.istiny` | 
@@ -645,7 +645,7 @@
 | W3 (Tiny) | 5 | `` | 
 | W3 (Tiny) | 5 | `` | 
 | In front of Tiny's treasure chest (Tiny) | 5 | `` | 
-| In cannon game room over planks (Tiny) | 15 | `(Events.WaterRaised in l.Events or (l.advanced_platforming and (l.ischunky or l.islanky)))` | 
+| In cannon game room over planks (Tiny) | 15 | `(Events.WaterRaised in l.Events or (l.advanced_platforming and ((l.islanky and not l.isKrushaAdjacent(Kongs.lanky)) or l.ischunky)))` | 
 | On seafloor around lighthouse (Chunky) | 10 | `` | 
 | W2 (Chunky) | 5 | `Events.WaterRaised in l.Events` | 
 | W2 (Chunky) | 5 | `` | 
@@ -667,7 +667,7 @@
 | Around lighthouse (Donkey) | Balloon | `` | 
 | In chests room (Donkey) | Balloon | `` | 
 | In gold tower room (Diddy) | Balloon | `` | 
-| By cannon in cannon game room (Chunky) | Balloon | `(Events.WaterRaised in l.Events or (l.advanced_platforming and (l.islanky or l.ischunky)))` | 
+| By cannon in cannon game room (Chunky) | Balloon | `(Events.WaterRaised in l.Events or (l.advanced_platforming and ((l.islanky and not l.isKrushaAdjacent(Kongs.lanky)) or l.ischunky)))` | 
 | Above 2DS (Chunky) | Balloon | `` | 
 | Above 5DS (Lanky) | Balloon | `` | 
 | In front of Snide (Tiny) | Balloon | `Events.WaterRaised in l.Events` | 
