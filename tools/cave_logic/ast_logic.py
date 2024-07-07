@@ -34,7 +34,7 @@ level_names = {
 }
 
 glitches = ["CanSTS", "phasewalk", "CanSkew", "CanPhaseswim",
-            "phaseswim", "ledgeclip", "CanMoonkick", "CanOStandTBSNoclip",
+            "phaseswim", "ledgeclip", "CanMoonkick", "CanMoontail", "CanOStandTBSNoclip",
             "CanAccessRNDRoom", "generalclips", "tbs", "spawn_snags", "advanced_platforming"]
 
 

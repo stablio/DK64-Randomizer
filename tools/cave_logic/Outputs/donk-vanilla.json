@@ -6186,7 +6186,8 @@
                             {
                                 "Name": "CanMoontail",
                                 "Params": [],
-                                "isFunction": true
+                                "isFunction": true,
+                                "isGlitch": true
                             }
                         ]
                     }
@@ -10168,7 +10169,8 @@
                                     {
                                         "Name": "CanMoontail",
                                         "Params": [],
-                                        "isFunction": true
+                                        "isFunction": true,
+                                        "isGlitch": true
                                     }
                                 ]
                             },
@@ -10410,7 +10412,8 @@
                                             {
                                                 "Name": "CanMoontail",
                                                 "Params": [],
-                                                "isFunction": true
+                                                "isFunction": true,
+                                                "isGlitch": true
                                             }
                                         ]
                                     },
@@ -10487,7 +10490,8 @@
                             {
                                 "Name": "CanMoontail",
                                 "Params": [],
-                                "isFunction": true
+                                "isFunction": true,
+                                "isGlitch": true
                             }
                         ]
                     }
@@ -18337,7 +18341,8 @@
                                     {
                                         "Name": "CanMoontail",
                                         "Params": [],
-                                        "isFunction": true
+                                        "isFunction": true,
+                                        "isGlitch": true
                                     }
                                 ]
                             },
@@ -18378,7 +18383,8 @@
                                     {
                                         "Name": "CanMoontail",
                                         "Params": [],
-                                        "isFunction": true
+                                        "isFunction": true,
+                                        "isGlitch": true
                                     }
                                 ]
                             },
@@ -18423,7 +18429,8 @@
                                     {
                                         "Name": "CanMoontail",
                                         "Params": [],
-                                        "isFunction": true
+                                        "isFunction": true,
+                                        "isGlitch": true
                                     }
                                 ]
                             },
@@ -25953,7 +25960,8 @@
                                     {
                                         "Name": "CanMoontail",
                                         "Params": [],
-                                        "isFunction": true
+                                        "isFunction": true,
+                                        "isGlitch": true
                                     }
                                 ]
                             },
@@ -31038,7 +31046,8 @@
                                                     {
                                                         "Name": "CanMoontail",
                                                         "Params": [],
-                                                        "isFunction": true
+                                                        "isFunction": true,
+                                                        "isGlitch": true
                                                     }
                                                 ]
                                             }
@@ -50760,7 +50769,8 @@
                     {
                         "Name": "CanMoontail",
                         "Params": [],
-                        "isFunction": true
+                        "isFunction": true,
+                        "isGlitch": true
                     }
                 ]
             },
@@ -51530,7 +51540,8 @@
                     {
                         "Name": "CanMoontail",
                         "Params": [],
-                        "isFunction": true
+                        "isFunction": true,
+                        "isGlitch": true
                     }
                 ]
             },
@@ -53334,7 +53345,8 @@
                             {
                                 "Name": "CanMoontail",
                                 "Params": [],
-                                "isFunction": true
+                                "isFunction": true,
+                                "isGlitch": true
                             }
                         ]
                     }
@@ -56202,7 +56214,8 @@
                     {
                         "Name": "CanMoontail",
                         "Params": [],
-                        "isFunction": true
+                        "isFunction": true,
+                        "isGlitch": true
                     }
                 ]
             },
