@@ -366,7 +366,14 @@ def ast_to_json(node, params):
     elif isinstance(node, ast.Name):
         return {"Name": normalise_name(node.id)}
     elif isinstance(node, ast.Lambda):
-        return {"Requires": ast_to_json(node.body, params)}
+        requires = ast_to_json(node.body, params)
+
+        # if rules is an object, but doesn't have a "combinator" key or a "rules" keys
+        # then format the rules with a combinator of "AND"
+        if isinstance(requires, dict) and not ("combinator" in requires and "rules" in requires):
+            return {"Requires": {"combinator": "AND", "rules": [requires]}}
+
+        return {"Requires": requires}
     elif isinstance(node, ast.Constant):
         return node.value
     elif isinstance(node, ast.NameConstant):

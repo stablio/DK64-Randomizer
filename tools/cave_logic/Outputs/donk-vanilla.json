@@ -3164,25 +3164,45 @@
                 "IslesVinesTrainingBarrel": {
                     "Key": "IslesVinesTrainingBarrel",
                     "Requires": {
-                        "Name": "fast_start_beginning_of_game"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "fast_start_beginning_of_game"
+                            }
+                        ]
                     }
                 },
                 "IslesSwimTrainingBarrel": {
                     "Key": "IslesSwimTrainingBarrel",
                     "Requires": {
-                        "Name": "fast_start_beginning_of_game"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "fast_start_beginning_of_game"
+                            }
+                        ]
                     }
                 },
                 "IslesOrangesTrainingBarrel": {
                     "Key": "IslesOrangesTrainingBarrel",
                     "Requires": {
-                        "Name": "fast_start_beginning_of_game"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "fast_start_beginning_of_game"
+                            }
+                        ]
                     }
                 },
                 "IslesBarrelsTrainingBarrel": {
                     "Key": "IslesBarrelsTrainingBarrel",
                     "Requires": {
-                        "Name": "fast_start_beginning_of_game"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "fast_start_beginning_of_game"
+                            }
+                        ]
                     }
                 },
                 "ShopOwner_Location00": {
@@ -3204,7 +3224,12 @@
                 "IslesFirstMove": {
                     "Key": "IslesFirstMove",
                     "Requires": {
-                        "Name": "fast_start_beginning_of_game"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "fast_start_beginning_of_game"
+                            }
+                        ]
                     }
                 },
                 "PreGiven_Location00": {
@@ -3593,7 +3618,12 @@
                     "Key": "IslesMain",
                     "Name": "Game Start to Isles Main",
                     "Requires": {
-                        "Name": "fast_start_beginning_of_game"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "fast_start_beginning_of_game"
+                            }
+                        ]
                     }
                 },
                 "Treehouse": {
@@ -3701,9 +3731,14 @@
                 "BananaHoard": {
                     "Key": "BananaHoard",
                     "Requires": {
-                        "Name": "WinConditionMet",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "WinConditionMet",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -3759,8 +3794,13 @@
                 "IslesVinesTrainingBarrel": {
                     "Key": "IslesVinesTrainingBarrel",
                     "Requires": {
-                        "Name": "TrainingBarrelsSpawned",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "TrainingBarrelsSpawned",
+                                "Events": true
+                            }
+                        ]
                     },
                     "MiniGame": {
                         "Name": "TrainingBarrel"
@@ -3769,8 +3809,13 @@
                 "IslesSwimTrainingBarrel": {
                     "Key": "IslesSwimTrainingBarrel",
                     "Requires": {
-                        "Name": "TrainingBarrelsSpawned",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "TrainingBarrelsSpawned",
+                                "Events": true
+                            }
+                        ]
                     },
                     "MiniGame": {
                         "Name": "TrainingBarrel"
@@ -3779,8 +3824,13 @@
                 "IslesOrangesTrainingBarrel": {
                     "Key": "IslesOrangesTrainingBarrel",
                     "Requires": {
-                        "Name": "TrainingBarrelsSpawned",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "TrainingBarrelsSpawned",
+                                "Events": true
+                            }
+                        ]
                     },
                     "MiniGame": {
                         "Name": "TrainingBarrel"
@@ -3789,8 +3839,13 @@
                 "IslesBarrelsTrainingBarrel": {
                     "Key": "IslesBarrelsTrainingBarrel",
                     "Requires": {
-                        "Name": "TrainingBarrelsSpawned",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "TrainingBarrelsSpawned",
+                                "Events": true
+                            }
+                        ]
                     },
                     "MiniGame": {
                         "Name": "TrainingBarrel"
@@ -4149,7 +4204,12 @@
                     "Key": "CrankyIsles",
                     "Name": "Training Grounds to Cranky Isles",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 },
                 "DKIslesMedals": {
@@ -4539,8 +4599,13 @@
                     "Key": "KremIsleTopLevel",
                     "Name": "Isles Main to Krem Isle Top Level",
                     "Requires": {
-                        "Name": "tbs",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "tbs",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "KRool": {
@@ -4647,7 +4712,12 @@
                 "IslesBananaFairyIsland": {
                     "Key": "IslesBananaFairyIsland",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "IslesW5bTagged": {
@@ -4872,10 +4942,15 @@
                     "Key": "AztecLobbyRoof",
                     "Name": "Isles Main Upper to Aztec Lobby Roof",
                     "Requires": {
-                        "Name": "CanMoonkick",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanMoonkick",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "AngryAztecLobby": {
@@ -5203,7 +5278,12 @@
                     "Key": "FactoryKeyTurnedIn",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "FactoryKey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "FactoryKey"
+                            }
+                        ]
                     },
                     "Level": "DKIsles",
                     "Rewards": {
@@ -5306,7 +5386,12 @@
                     "Key": "HelmKeyTurnedIn",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "HelmKey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmKey"
+                            }
+                        ]
                     },
                     "Level": "DKIsles",
                     "Rewards": {
@@ -5462,9 +5547,14 @@
                     "Key": "RarewareGBRoom",
                     "Name": "Banana Fairy Room to Rareware Gbroom",
                     "Requires": {
-                        "Name": "CanGetRarewareGB",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanGetRarewareGB",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DKIslesMedals": {
@@ -5650,11 +5740,16 @@
                     "Key": "JungleJapesEntryHandler",
                     "Name": "JungleJapesEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "JungleJapes"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "JungleJapes"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToJapes"
@@ -5968,11 +6063,16 @@
                     "Key": "AngryAztecEntryHandler",
                     "Name": "AngryAztecEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "AngryAztec"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "AngryAztec"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToAztec"
@@ -6196,11 +6296,16 @@
                     "Key": "KremIsleTopLevel",
                     "Name": "Krem Isle to Krem Isle Top Level",
                     "Requires": {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "IslesMonkeyport"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "hasMoveSwitchsanity",
+                                "Params": [
+                                    "IslesMonkeyport"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DKIslesMedals": {
@@ -6360,7 +6465,12 @@
                 "IslesBananaFairyCrocodisleIsle": {
                     "Key": "IslesBananaFairyCrocodisleIsle",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "IslesChunkyBarrelSpawn": {
@@ -6565,9 +6675,14 @@
                     "Key": "KremIsleBeyondLift",
                     "Name": "Krem Isle Mouth to Krem Isle Beyond Lift",
                     "Requires": {
-                        "Name": "CanSurviveFallDamage",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanSurviveFallDamage",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "IslesMain": {
@@ -6719,7 +6834,12 @@
                     "Key": "Snide",
                     "Name": "Isles Snide Room to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "DKIslesMedals": {
@@ -7176,11 +7296,16 @@
                     "Key": "FranticFactoryEntryHandler",
                     "Name": "FranticFactoryEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "FranticFactory"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "FranticFactory"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToFactory"
@@ -7471,18 +7596,28 @@
                     "Key": "GloomyGalleonLobbyEntrance",
                     "Name": "Gloomy Galleon Lobby to Gloomy Galleon Lobby Entrance",
                     "Requires": {
-                        "Name": "swim"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "swim"
+                            }
+                        ]
                     }
                 },
                 "GloomyGalleonEntryHandler": {
                     "Key": "GloomyGalleonEntryHandler",
                     "Name": "GloomyGalleonEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "GloomyGalleon"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "GloomyGalleon"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToGalleon"
@@ -7740,8 +7875,13 @@
                     "Key": "IslesMainUpper",
                     "Name": "Isles Above Waterfall to Isles Main Upper",
                     "Requires": {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "advanced_platforming",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "CabinIsle": {
@@ -7941,10 +8081,15 @@
                     "Key": "IslesAboveWaterfall",
                     "Name": "Aztec Lobby Roof to Isles Above Waterfall",
                     "Requires": {
-                        "Name": "CanMoonkick",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanMoonkick",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "DKIslesMedals": {
@@ -8239,11 +8384,16 @@
                     "Key": "FungiForestEntryHandler",
                     "Name": "FungiForestEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "FungiForest"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "FungiForest"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToForest"
@@ -8573,7 +8723,12 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "rocketbarrelboost"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "rocketbarrelboost"
+                            }
+                        ]
                     }
                 },
                 "CrystalCavesLobby": {
@@ -8732,11 +8887,16 @@
                     "Key": "CrystalCavesEntryHandler",
                     "Name": "CrystalCavesEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "CrystalCaves"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "CrystalCaves"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToCaves"
@@ -9102,11 +9262,16 @@
                     "Key": "CreepyCastleEntryHandler",
                     "Name": "CreepyCastleEntryHandler",
                     "Requires": {
-                        "Name": "IsLevelEnterable",
-                        "Params": [
-                            "CreepyCastle"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsLevelEnterable",
+                                "Params": [
+                                    "CreepyCastle"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "IslesToCastle"
@@ -10235,7 +10400,12 @@
                 "FactoryBananaFairybyCounting": {
                     "Key": "FactoryBananaFairybyCounting",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "FactoryBananaFairybyFunky": {
@@ -10569,14 +10739,24 @@
                     "Key": "Snide",
                     "Name": "Testing to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "FunkyFactory": {
                     "Key": "FunkyFactory",
                     "Name": "Testing to Funky Factory",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 },
                 "FactoryBossLobby": {
@@ -11617,9 +11797,14 @@
                 "ChunkyKong": {
                     "Key": "ChunkyKong",
                     "Requires": {
-                        "Name": "CanFreeChunky",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanFreeChunky",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "NintendoCoin": {
@@ -11699,9 +11884,14 @@
                 "FactoryLankyFreeChunky": {
                     "Key": "FactoryLankyFreeChunky",
                     "Requires": {
-                        "Name": "CanFreeChunky",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanFreeChunky",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "FactoryTinybyArcade": {
@@ -11923,7 +12113,12 @@
                     "Key": "TestingGateOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "Slam"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "Slam"
+                            }
+                        ]
                     },
                     "Level": "FranticFactory",
                     "Rewards": {
@@ -12165,14 +12360,24 @@
                     "Key": "CrankyFactory",
                     "Name": "Beyond Hatch to Cranky Factory",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 },
                 "CandyFactory": {
                     "Key": "CandyFactory",
                     "Name": "Beyond Hatch to Candy Factory",
                     "Requires": {
-                        "Name": "candyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "candyAccess"
+                            }
+                        ]
                     }
                 },
                 "FactoryBossLobby": {
@@ -12252,7 +12457,12 @@
                     "Key": "ArcadeLeverSpawned",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     },
                     "Level": "FranticFactory",
                     "Rewards": {
@@ -12309,11 +12519,16 @@
                     "Key": "MainCoreActivated",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "checkBarrier",
-                        "Params": [
-                            "factory_production_room"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "factory_production_room"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "FranticFactory",
                     "Rewards": {
@@ -12495,8 +12710,13 @@
                     "Key": "MiddleCore",
                     "Name": "Lower Core to Middle Core",
                     "Requires": {
-                        "Name": "MainCoreActivated",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "MainCoreActivated",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -12681,16 +12901,26 @@
                     "Key": "UpperCore",
                     "Name": "Middle Core to Upper Core",
                     "Requires": {
-                        "Name": "MainCoreActivated",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "MainCoreActivated",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "InsideCore": {
                     "Key": "InsideCore",
                     "Name": "InsideCore",
                     "Requires": {
-                        "Name": "ledgeclip",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ledgeclip",
+                                "isGlitch": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "FactoryBeyondHatchToInsideCore"
@@ -12796,7 +13026,12 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "ponytailtwirl"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ponytailtwirl"
+                            }
+                        ]
                     }
                 },
                 "UpperportionofProductionRoom": {
@@ -12894,11 +13129,16 @@
                     "Key": "FactoryBoss",
                     "Name": "Factory Boss Lobby to Factory Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "FranticFactory"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "FranticFactory"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -12911,11 +13151,16 @@
                 "FactoryKey": {
                     "Key": "FactoryKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "FranticFactory"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "FranticFactory"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -13170,12 +13415,17 @@
                     "Key": "HelmDoorsOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "helm_setting",
-                        "Params": [
-                            "default",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "helm_setting",
+                                "Params": [
+                                    "default",
+                                    false
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "HideoutHelm",
                     "Rewards": {
@@ -13186,12 +13436,17 @@
                     "Key": "HelmGatesPunched",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "helm_setting",
-                        "Params": [
-                            "default",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "helm_setting",
+                                "Params": [
+                                    "default",
+                                    false
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "HideoutHelm",
                     "Rewards": {
@@ -13202,12 +13457,17 @@
                     "Key": "HelmFinished",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "helm_setting",
-                        "Params": [
-                            "skip_all",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "helm_setting",
+                                "Params": [
+                                    "skip_all",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "HideoutHelm",
                     "Rewards": {
@@ -13276,12 +13536,17 @@
                     "Key": "HideoutHelmAfterBoM",
                     "Name": "Hideout Helm Entry to After Bo M",
                     "Requires": {
-                        "Name": "helm_setting",
-                        "Params": [
-                            "skip_all",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "helm_setting",
+                                "Params": [
+                                    "skip_all",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -13958,8 +14223,13 @@
                     "Key": "HideoutHelmAfterBoM",
                     "Name": "Hideout Helm Main to After Bo M",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "HideoutHelmOOBChunky": {
@@ -13985,8 +14255,13 @@
                     "Key": "HideoutHelmOOBLanky",
                     "Name": "Hideout Helm Main to Ooblanky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -14028,8 +14303,13 @@
                 "HelmMainEnemy_DKRoom": {
                     "Key": "HelmMainEnemy_DKRoom",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -14103,15 +14383,25 @@
                 "HelmMainEnemy_ChunkyRoom0": {
                     "Key": "HelmMainEnemy_ChunkyRoom0",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "HelmMainEnemy_ChunkyRoom1": {
                     "Key": "HelmMainEnemy_ChunkyRoom1",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -14125,8 +14415,13 @@
                     "Key": "HideoutHelmOOBChunky",
                     "Name": "Hideout Helm Chunky Room to Oobchunky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -14168,8 +14463,13 @@
                 "HelmMainEnemy_TinyRoom": {
                     "Key": "HelmMainEnemy_TinyRoom",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -14183,8 +14483,13 @@
                     "Key": "HideoutHelmOOBChunky",
                     "Name": "Hideout Helm Tiny Room to Oobchunky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -14226,15 +14531,25 @@
                 "HelmMainEnemy_LankyRoom0": {
                     "Key": "HelmMainEnemy_LankyRoom0",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "HelmMainEnemy_LankyRoom1": {
                     "Key": "HelmMainEnemy_LankyRoom1",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -14248,8 +14563,13 @@
                     "Key": "HideoutHelmOOBLanky",
                     "Name": "Hideout Helm Lanky Room to Ooblanky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -14291,15 +14611,25 @@
                 "HelmMainEnemy_DiddyRoom0": {
                     "Key": "HelmMainEnemy_DiddyRoom0",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "HelmMainEnemy_DiddyRoom1": {
                     "Key": "HelmMainEnemy_DiddyRoom1",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -14313,8 +14643,13 @@
                     "Key": "HideoutHelmOOBLanky",
                     "Name": "Hideout Helm Diddy Room to Ooblanky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -14327,15 +14662,25 @@
                 "HelmMainEnemy_NavRight": {
                     "Key": "HelmMainEnemy_NavRight",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "HelmMainEnemy_NavLeft": {
                     "Key": "HelmMainEnemy_NavLeft",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "NavigationRoom": {
@@ -14383,17 +14728,27 @@
                     "Key": "HideoutHelmMain",
                     "Name": "Hideout Helm After Bo M to Main",
                     "Requires": {
-                        "Name": "HelmFinished",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "HelmFinished",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "HideoutHelmThroneRoom": {
                     "Key": "HideoutHelmThroneRoom",
                     "Name": "Hideout Helm After Bo M to Throne Room",
                     "Requires": {
-                        "Name": "CrownDoorOpened",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CrownDoorOpened",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "HideoutHelmOOBLanky": {
@@ -14442,26 +14797,41 @@
                     "Key": "HideoutHelmAfterBoM",
                     "Name": "Hideout Helm Throne Room to After Bo M",
                     "Requires": {
-                        "Name": "CrownDoorOpened",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CrownDoorOpened",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "HideoutHelmKeyRoom": {
                     "Key": "HideoutHelmKeyRoom",
                     "Name": "Hideout Helm Throne Room to Key Room",
                     "Requires": {
-                        "Name": "CoinDoorOpened",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CoinDoorOpened",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "HideoutHelmOOBLanky": {
                     "Key": "HideoutHelmOOBLanky",
                     "Name": "Hideout Helm Throne Room to Ooblanky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -14478,13 +14848,23 @@
                 "HelmBananaFairy1": {
                     "Key": "HelmBananaFairy1",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "HelmBananaFairy2": {
                     "Key": "HelmBananaFairy2",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "Key8Room(1)": {
@@ -14513,8 +14893,13 @@
                     "Key": "HideoutHelmOOBLanky",
                     "Name": "Hideout Helm Key Room to Ooblanky",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             }
@@ -15587,14 +15972,24 @@
                     "Key": "FunkyCaves",
                     "Name": "Crystal Caves Main to Funky Caves",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 },
                 "CrankyCaves": {
                     "Key": "CrankyCaves",
                     "Name": "Crystal Caves Main to Cranky Caves",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 },
                 "CavesSnideArea": {
@@ -15759,7 +16154,12 @@
                     "Key": "Snide",
                     "Name": "Caves Snide Area to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "CavesBossLobby": {
@@ -15912,8 +16312,13 @@
                     "Key": "CavesW3bTagged",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "CavesTinyCaveBarrel",
-                        "SpecialLocationsReached": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CavesTinyCaveBarrel",
+                                "SpecialLocationsReached": true
+                            }
+                        ]
                     },
                     "Level": "CrystalCaves",
                     "Rewards": {
@@ -16067,7 +16472,12 @@
                 "CavesDonkeyBaboonBlast": {
                     "Key": "CavesDonkeyBaboonBlast",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     },
                     "MiniGame": {
                         "Name": "BonusBarrel"
@@ -17967,7 +18377,12 @@
                     "Key": "CandyCaves",
                     "Name": "Cabin Area to Candy Caves",
                     "Requires": {
-                        "Name": "candyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "candyAccess"
+                            }
+                        ]
                     }
                 },
                 "CavesBossLobby": {
@@ -18571,7 +18986,12 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "oranges"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "oranges"
+                            }
+                        ]
                     }
                 }
             },
@@ -18670,11 +19090,16 @@
                     "Key": "CavesBoss",
                     "Name": "Caves Boss Lobby to Caves Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "CrystalCaves"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "CrystalCaves"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -18687,11 +19112,16 @@
                 "CavesKey": {
                     "Key": "CavesKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "CrystalCaves"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "CrystalCaves"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -19335,9 +19765,14 @@
                 "DiddyKong": {
                     "Key": "DiddyKong",
                     "Requires": {
-                        "Name": "CanFreeDiddy",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanFreeDiddy",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "JapesDonkeyFrontofCage": {
@@ -19361,8 +19796,13 @@
                 "JapesDonkeyFreeDiddy": {
                     "Key": "JapesDonkeyFreeDiddy",
                     "Requires": {
-                        "Name": "JapesFreeKongOpenGates",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "JapesFreeKongOpenGates",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "JapesDiddyCagedBanana": {
@@ -19851,9 +20291,14 @@
                     "Key": "JapesFreeKongOpenGates",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "CanOpenJapesGates",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanOpenJapesGates",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "JungleJapes",
                     "Rewards": {
@@ -20506,14 +20951,24 @@
                     "Key": "FunkyJapes",
                     "Name": "Jungle Japes Main to Funky Japes",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 },
                 "Snide": {
                     "Key": "Snide",
                     "Name": "Jungle Japes Main to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "BeyondRambiGate": {
@@ -20681,8 +21136,13 @@
                     "Key": "JapesW5bTagged",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "JapesDiddyMountain",
-                        "SpecialLocationsReached": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "JapesDiddyMountain",
+                                "SpecialLocationsReached": true
+                            }
+                        ]
                     },
                     "Level": "JungleJapes",
                     "Rewards": {
@@ -20723,7 +21183,12 @@
                 "JapesDonkeyBaboonBlast": {
                     "Key": "JapesDonkeyBaboonBlast",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     }
                 }
             },
@@ -22204,17 +22669,27 @@
                     "Key": "CrankyJapes",
                     "Name": "Japes Beyond Coconut Gate2 to Cranky Japes",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 },
                 "JapesBeyondFeatherGate": {
                     "Key": "JapesBeyondFeatherGate",
                     "Name": "Japes Beyond Coconut Gate2 to Japes Beyond Feather Gate",
                     "Requires": {
-                        "Name": "CanMoonkick",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanMoonkick",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -22250,7 +22725,12 @@
                 "JapesBananaFairyRambiCave": {
                     "Key": "JapesBananaFairyRambiCave",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "MelonCrate_Location01": {
@@ -22897,7 +23377,12 @@
                 "JapesDiddyMinecarts": {
                     "Key": "JapesDiddyMinecarts",
                     "Requires": {
-                        "Name": "diddy"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "diddy"
+                            }
+                        ]
                     }
                 }
             },
@@ -23133,11 +23618,16 @@
                     "Key": "JapesBoss",
                     "Name": "Japes Boss Lobby to Japes Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "JungleJapes"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "JungleJapes"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -23150,11 +23640,16 @@
                 "JapesKey": {
                     "Key": "JapesKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "JungleJapes"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "JungleJapes"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -23710,12 +24205,17 @@
                     "Key": "HollowTreeGateOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "FungiYellow",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "hasMoveSwitchsanity",
+                                "Params": [
+                                    "FungiYellow",
+                                    false
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "FungiForest",
                     "Rewards": {
@@ -23943,12 +24443,17 @@
                     "Key": "Anthill",
                     "Name": "Anthill",
                     "Requires": {
-                        "Name": "CanSkew",
-                        "Params": [
-                            true
-                        ],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanSkew",
+                                "Params": [
+                                    true
+                                ],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "ForestTreeToAnthill"
@@ -23959,7 +24464,12 @@
                     "Key": "CrankyForest",
                     "Name": "Giant Mushroom Area to Cranky Forest",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 }
             },
@@ -24128,8 +24638,13 @@
                     "Key": "MushroomUpper",
                     "Name": "Mushroom Lower to Mushroom Upper",
                     "Requires": {
-                        "Name": "MushroomCannonsSpawned",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "MushroomCannonsSpawned",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -24265,7 +24780,12 @@
                 "ForestDonkeyBaboonBlast": {
                     "Key": "ForestDonkeyBaboonBlast",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     },
                     "MiniGame": {
                         "Name": "BonusBarrel"
@@ -24432,7 +24952,12 @@
                     "Key": "MushroomNightDoor",
                     "Name": "Mushroom Upper to Mushroom Night Door",
                     "Requires": {
-                        "Name": "vines"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "vines"
+                            }
+                        ]
                     }
                 }
             },
@@ -25794,12 +26319,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "TimeAccess",
-                        "Params": [
-                            "MillArea",
-                            "Day"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "TimeAccess",
+                                "Params": [
+                                    "MillArea",
+                                    "Day"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "BehindDiddyBarn": {
@@ -26028,7 +26558,12 @@
                     "Key": "Snide",
                     "Name": "Mill Area to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "ForestBossLobby": {
@@ -26047,10 +26582,15 @@
                     "Key": "ThornvineBarn",
                     "Name": "ThornvineBarn",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     },
                     "Transition": {
                         "Name": "ForestMainToBarn"
@@ -27112,11 +27652,16 @@
                     "Key": "WormGatesOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "checkBarrier",
-                        "Params": [
-                            "forest_green_tunnel"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "forest_green_tunnel"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "FungiForest",
                     "Rewards": {
@@ -27214,15 +27759,25 @@
                     "Key": "FungiForestStart",
                     "Name": "Worm Area to Fungi Forest Start",
                     "Requires": {
-                        "Name": "WormGatesOpened",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "WormGatesOpened",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "FunkyForest": {
                     "Key": "FunkyForest",
                     "Name": "Worm Area to Funky Forest",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 },
                 "ForestBossLobby": {
@@ -27257,11 +27812,16 @@
                     "Key": "ForestBoss",
                     "Name": "Forest Boss Lobby to Forest Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "FungiForest"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "FungiForest"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -27274,11 +27834,16 @@
                 "ForestKey": {
                     "Key": "ForestKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "FungiForest"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "FungiForest"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -27658,7 +28223,12 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "rocketbarrelboost"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "rocketbarrelboost"
+                            }
+                        ]
                     }
                 },
                 "Start": {
@@ -28248,14 +28818,24 @@
                     "Key": "CrankyCastle",
                     "Name": "Creepy Castle Main to Cranky Castle",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 },
                 "Snide": {
                     "Key": "Snide",
                     "Name": "Creepy Castle Main to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "CastleBossLobby": {
@@ -28314,7 +28894,12 @@
                     "Key": "CastleTreeOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     },
                     "Level": "CreepyCastle",
                     "Rewards": {
@@ -29029,7 +29614,12 @@
                 "CastleBananaFairyBallroom": {
                     "Key": "CastleBananaFairyBallroom",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "CastleKasplatMuseumMysteriousPedestal": {
@@ -29235,8 +29825,13 @@
                     "Key": "Museum",
                     "Name": "Museum Behind Glass to Museum",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -29782,8 +30377,13 @@
                     "Key": "MuseumBehindGlass",
                     "Name": "Museum to Museum Behind Glass",
                     "Requires": {
-                        "Name": "phasewalk",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -30017,7 +30617,12 @@
                     "Key": "FunkyCastle",
                     "Name": "Lower Cave to Funky Castle",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 },
                 "CastleBossLobby": {
@@ -30917,7 +31522,12 @@
                     "Key": "CandyCastle",
                     "Name": "Upper Cave to Candy Castle",
                     "Requires": {
-                        "Name": "candyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "candyAccess"
+                            }
+                        ]
                     }
                 },
                 "CastleBossLobby": {
@@ -31370,11 +31980,16 @@
                     "Key": "CastleBoss",
                     "Name": "Castle Boss Lobby to Castle Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "CreepyCastle"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "CreepyCastle"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -31387,11 +32002,16 @@
                 "CastleKey": {
                     "Key": "CastleKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "CreepyCastle"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "CreepyCastle"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -31965,8 +32585,13 @@
                 "AztecDonkeyFreeLlama": {
                     "Key": "AztecDonkeyFreeLlama",
                     "Requires": {
-                        "Name": "LlamaFreed",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "LlamaFreed",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "AztecKasplatOnTinyTemple": {
@@ -31976,7 +32601,12 @@
                     "Class": "Check",
                     "Types": "Check",
                     "Requires": {
-                        "Name": "rocketbarrelboost"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "rocketbarrelboost"
+                            }
+                        ]
                     }
                 },
                 "RainbowCoin_Location06": {
@@ -32324,7 +32954,12 @@
                     "Key": "CandyAztec",
                     "Name": "Angry Aztec Oasis to Candy Aztec",
                     "Requires": {
-                        "Name": "candyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "candyAccess"
+                            }
+                        ]
                     }
                 },
                 "AztecBossLobby": {
@@ -32485,7 +33120,12 @@
                     "Key": "TempleUnderwater",
                     "Name": "Temple Start to Temple Underwater",
                     "Requires": {
-                        "Name": "swim"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "swim"
+                            }
+                        ]
                     }
                 }
             },
@@ -32540,9 +33180,14 @@
                 "TinyKong": {
                     "Key": "TinyKong",
                     "Requires": {
-                        "Name": "CanFreeTiny",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanFreeTiny",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "AztecDiddyFreeTiny": {
@@ -32898,7 +33543,12 @@
                     "Key": "CrankyAztec",
                     "Name": "Angry Aztec Connector Tunnel to Cranky Aztec",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 }
             },
@@ -33601,14 +34251,24 @@
                     "Key": "Snide",
                     "Name": "Angry Aztec Main to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 },
                 "FunkyAztec": {
                     "Key": "FunkyAztec",
                     "Name": "Angry Aztec Main to Funky Aztec",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 },
                 "AztecDonkeyQuicksandCave": {
@@ -33738,8 +34398,13 @@
                     "Key": "AztecW5bTagged",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "AztecDonkeyQuicksandCave",
-                        "SpecialLocationsReached": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "AztecDonkeyQuicksandCave",
+                                "SpecialLocationsReached": true
+                            }
+                        ]
                     },
                     "Level": "AngryAztec",
                     "Rewards": {
@@ -33809,7 +34474,12 @@
                     "Key": "LlamaFreed",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     },
                     "Level": "AngryAztec",
                     "Rewards": {
@@ -35352,17 +36022,27 @@
                 "LankyKong": {
                     "Key": "LankyKong",
                     "Requires": {
-                        "Name": "CanFreeLanky",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanFreeLanky",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "AztecDonkeyFreeLanky": {
                     "Key": "AztecDonkeyFreeLanky",
                     "Requires": {
-                        "Name": "CanFreeLanky",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanFreeLanky",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "AztecLankyLlamaTempleBarrel": {
@@ -35454,7 +36134,12 @@
                 "AztecBananaFairyLlamaTemple": {
                     "Key": "AztecBananaFairyLlamaTemple",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "MelonCrate_Location02": {
@@ -35489,14 +36174,19 @@
                     "Key": "AztecDonkeySwitch",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "AztecQuicksandSwitch",
-                            false,
-                            "AngryAztec",
-                            1
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "hasMoveSwitchsanity",
+                                "Params": [
+                                    "AztecQuicksandSwitch",
+                                    false,
+                                    "AngryAztec",
+                                    1
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "AngryAztec",
                     "Rewards": {
@@ -35507,9 +36197,14 @@
                     "Key": "AztecLlamaSpit",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "CanLlamaSpit",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanLlamaSpit",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "AngryAztec",
                     "Rewards": {
@@ -35904,11 +36599,16 @@
                     "Key": "AztecBoss",
                     "Name": "Aztec Boss Lobby to Aztec Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "AngryAztec"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "AngryAztec"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -35921,11 +36621,16 @@
                 "AztecKey": {
                     "Key": "AztecKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "AngryAztec"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "AngryAztec"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -35972,11 +36677,16 @@
                 "SharedJapesGun": {
                     "Key": "SharedJapesGun",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedJapesGun"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedJapesGun"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "CoconutGun": {
@@ -36086,11 +36796,16 @@
                 "SharedAztecGun": {
                     "Key": "SharedAztecGun",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedAztecGun"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedAztecGun"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyAztecGun": {
@@ -36200,11 +36915,16 @@
                 "AmmoBelt1": {
                     "Key": "AmmoBelt1",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "AmmoBelt1"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "AmmoBelt1"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyFactoryGun": {
@@ -36314,11 +37034,16 @@
                 "SharedGalleonGun": {
                     "Key": "SharedGalleonGun",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedGalleonGun"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedGalleonGun"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyGalleonGun": {
@@ -36428,11 +37153,16 @@
                 "HomingAmmo": {
                     "Key": "HomingAmmo",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "HomingAmmo"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "HomingAmmo"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyForestGun": {
@@ -36542,11 +37272,16 @@
                 "AmmoBelt2": {
                     "Key": "AmmoBelt2",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "AmmoBelt2"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "AmmoBelt2"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyCavesGun": {
@@ -36656,11 +37391,16 @@
                 "SniperSight": {
                     "Key": "SniperSight",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SniperSight"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SniperSight"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyCastleGun": {
@@ -36798,11 +37538,16 @@
                 "SharedAztecInstrument": {
                     "Key": "SharedAztecInstrument",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedAztecInstrument"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedAztecInstrument"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "Bongos": {
@@ -36912,11 +37657,16 @@
                 "SharedFactoryInstrument": {
                     "Key": "SharedFactoryInstrument",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedFactoryInstrument"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedFactoryInstrument"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyFactoryInstrument": {
@@ -37026,11 +37776,16 @@
                 "MusicUpgrade1": {
                     "Key": "MusicUpgrade1",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "MusicUpgrade1"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "MusicUpgrade1"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyGalleonInstrument": {
@@ -37140,11 +37895,16 @@
                 "ThirdMelon": {
                     "Key": "ThirdMelon",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "ThirdMelon"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "ThirdMelon"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyCavesInstrument": {
@@ -37254,11 +38014,16 @@
                 "MusicUpgrade2": {
                     "Key": "MusicUpgrade2",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "MusicUpgrade2"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "MusicUpgrade2"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyCastleInstrument": {
@@ -37368,9 +38133,14 @@
                 "RarewareCoin": {
                     "Key": "RarewareCoin",
                     "Requires": {
-                        "Name": "CanGetRarewareCoin",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanGetRarewareCoin",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -37415,11 +38185,16 @@
                 "SharedJapesPotion": {
                     "Key": "SharedJapesPotion",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedJapesPotion"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedJapesPotion"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "BaboonBlast": {
@@ -37529,11 +38304,16 @@
                 "SharedAztecPotion": {
                     "Key": "SharedAztecPotion",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedAztecPotion"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedAztecPotion"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "StrongKong": {
@@ -37643,11 +38423,16 @@
                 "SharedFactoryPotion": {
                     "Key": "SharedFactoryPotion",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedFactoryPotion"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedFactoryPotion"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "GorillaGrab": {
@@ -37757,11 +38542,16 @@
                 "SharedGalleonPotion": {
                     "Key": "SharedGalleonPotion",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedGalleonPotion"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedGalleonPotion"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyGalleonPotion": {
@@ -37871,11 +38661,16 @@
                 "SuperSimianSlam": {
                     "Key": "SuperSimianSlam",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SuperSimianSlam"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SuperSimianSlam"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyForestPotion": {
@@ -37985,11 +38780,16 @@
                 "SharedCavesPotion": {
                     "Key": "SharedCavesPotion",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SharedCavesPotion"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SharedCavesPotion"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "OrangstandSprint": {
@@ -38099,11 +38899,16 @@
                 "SuperDuperSimianSlam": {
                     "Key": "SuperDuperSimianSlam",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SuperDuperSimianSlam"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SuperDuperSimianSlam"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyCastlePotion": {
@@ -38213,11 +39018,16 @@
                 "SimianSlam": {
                     "Key": "SimianSlam",
                     "Requires": {
-                        "Name": "CanBuy",
-                        "Params": [
-                            "SimianSlam"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanBuy",
+                                "Params": [
+                                    "SimianSlam"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "DonkeyIslesPotion": {
@@ -39223,12 +40033,17 @@
                     "Key": "LighthouseGateOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "GalleonLighthouse",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "hasMoveSwitchsanity",
+                                "Params": [
+                                    "GalleonLighthouse",
+                                    false
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -39239,12 +40054,17 @@
                     "Key": "ShipyardGateOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "GalleonShipwreck",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "hasMoveSwitchsanity",
+                                "Params": [
+                                    "GalleonShipwreck",
+                                    false
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -39255,12 +40075,17 @@
                     "Key": "GalleonCannonRoomOpened",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "GalleonCannonGame",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "hasMoveSwitchsanity",
+                                "Params": [
+                                    "GalleonCannonGame",
+                                    false
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -39289,12 +40114,17 @@
                     "Key": "WaterLowered",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "lowered",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "lowered",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -39305,12 +40135,17 @@
                     "Key": "WaterRaised",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "raised",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "raised",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -39734,7 +40569,12 @@
                     "Key": "CrankyGalleon",
                     "Name": "Gloomy Galleon Start to Cranky Galleon",
                     "Requires": {
-                        "Name": "crankyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "crankyAccess"
+                            }
+                        ]
                     }
                 }
             },
@@ -39844,9 +40684,14 @@
                     "Class": "Check",
                     "Types": "Check",
                     "Requires": {
-                        "Name": "CanGetOnCannonGamePlatform",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanGetOnCannonGamePlatform",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "NexttoCannonball-infront": {
@@ -39856,9 +40701,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "CanGetOnCannonGamePlatform",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanGetOnCannonGamePlatform",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "NexttoCannonball-behind": {
@@ -39868,9 +40718,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "CanGetOnCannonGamePlatform",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanGetOnCannonGamePlatform",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 },
                 "Nexttocannonincannonballroom": {
@@ -39880,9 +40735,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "CanGetOnCannonGamePlatform",
-                        "Params": [],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanGetOnCannonGamePlatform",
+                                "Params": [],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -40044,11 +40904,16 @@
                     "Key": "ActivatedLighthouse",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "checkBarrier",
-                        "Params": [
-                            "galleon_seasick_ship"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "galleon_seasick_ship"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -40059,12 +40924,17 @@
                     "Key": "WaterLowered",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "lowered",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "lowered",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -40075,12 +40945,17 @@
                     "Key": "WaterRaised",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "raised",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "raised",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -40094,8 +40969,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "WaterLowered",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "WaterLowered",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -40226,10 +41106,15 @@
                     "Key": "GalleonBeyondPineappleGate",
                     "Name": "Lighthouse Surface to Galleon Beyond Pineapple Gate",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -40497,7 +41382,12 @@
                     "Key": "LighthouseEnguarde",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "lanky"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "lanky"
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -40511,8 +41401,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "LighthouseEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "LighthouseEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "InEnguardeAlcove": {
@@ -40522,8 +41417,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "LighthouseEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "LighthouseEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "InFrontofMermaidPalace": {
@@ -40533,8 +41433,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "LighthouseEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "LighthouseEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -40642,7 +41547,12 @@
                     "Key": "Snide",
                     "Name": "Lighthouse Snide Alcove to Snide",
                     "Requires": {
-                        "Name": "snideAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "snideAccess"
+                            }
+                        ]
                     }
                 }
             },
@@ -40660,7 +41570,12 @@
                     "Key": "SealReleased",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "donkey"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "donkey"
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -41279,12 +42194,17 @@
                     "Key": "WaterLowered",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "lowered",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "lowered",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -41295,12 +42215,17 @@
                     "Key": "WaterRaised",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "raised",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "raised",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -41431,14 +42356,24 @@
                     "Key": "CandyGalleon",
                     "Name": "Shipyard to Candy Galleon",
                     "Requires": {
-                        "Name": "candyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "candyAccess"
+                            }
+                        ]
                     }
                 },
                 "FunkyGalleon": {
                     "Key": "FunkyGalleon",
                     "Name": "Shipyard to Funky Galleon",
                     "Requires": {
-                        "Name": "funkyAccess"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "funkyAccess"
+                            }
+                        ]
                     }
                 }
             },
@@ -41462,7 +42397,12 @@
                     "Key": "ShipyardEnguarde",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "lanky"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "lanky"
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -41496,8 +42436,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "ShipyardEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ShipyardEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "IntheShipwreckwithReplenishables": {
@@ -41507,8 +42452,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "ShipyardEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ShipyardEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "BehindMusicalCactus": {
@@ -41518,8 +42468,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "ShipyardEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ShipyardEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 },
                 "OnTopofMechfishGrate": {
@@ -41529,8 +42484,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "ShipyardEnguarde",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ShipyardEnguarde",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42005,12 +42965,17 @@
                     "Key": "WaterLowered",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "lowered",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "lowered",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -42021,12 +42986,17 @@
                     "Key": "WaterRaised",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "galleon_water_internal",
-                        "Params": [
-                            "raised",
-                            true
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "galleon_water_internal",
+                                "Params": [
+                                    "raised",
+                                    true
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -42137,8 +43107,13 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": {
-                        "Name": "ShipyardTreasureRoomOpened",
-                        "Events": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ShipyardTreasureRoomOpened",
+                                "Events": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42323,8 +43298,13 @@
                     "Key": "GalleonW4aTagged",
                     "Class": "Event",
                     "Requires": {
-                        "Name": "GalleonDiddyGoldTower",
-                        "SpecialLocationsReached": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "GalleonDiddyGoldTower",
+                                "SpecialLocationsReached": true
+                            }
+                        ]
                     },
                     "Level": "GloomyGalleon",
                     "Rewards": {
@@ -42569,10 +43549,15 @@
                     "Key": "TinyShip",
                     "Name": "Lanky Ship to Tiny Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42635,10 +43620,15 @@
                     "Key": "LankyShip",
                     "Name": "Tiny Ship to Lanky Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42688,10 +43678,15 @@
                     "Key": "SaxophoneShip",
                     "Name": "Bongos Ship to Saxophone Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42742,20 +43737,30 @@
                     "Key": "TriangleShip",
                     "Name": "Guitar Ship to Triangle Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "TromboneShip": {
                     "Key": "TromboneShip",
                     "Name": "Guitar Ship to Trombone Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42813,20 +43818,30 @@
                     "Key": "GuitarShip",
                     "Name": "Trombone Ship to Guitar Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "TriangleShip": {
                     "Key": "TriangleShip",
                     "Name": "Trombone Ship to Triangle Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42857,7 +43872,12 @@
                 "GalleonBananaFairy5DoorShip": {
                     "Key": "GalleonBananaFairy5DoorShip",
                     "Requires": {
-                        "Name": "camera"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "camera"
+                            }
+                        ]
                     }
                 },
                 "InsideTiny5-DoorShip": {
@@ -42890,10 +43910,15 @@
                     "Key": "BongosShip",
                     "Name": "Saxophone Ship to Bongos Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42945,20 +43970,30 @@
                     "Key": "GuitarShip",
                     "Name": "Triangle Ship to Guitar Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 },
                 "TromboneShip": {
                     "Key": "TromboneShip",
                     "Name": "Triangle Ship to Trombone Ship",
                     "Requires": {
-                        "Name": "CanPhaseswim",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanPhaseswim",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 }
             },
@@ -42974,11 +44009,16 @@
                     "Key": "GalleonBoss",
                     "Name": "Galleon Boss Lobby to Galleon Boss",
                     "Requires": {
-                        "Name": "IsBossReachable",
-                        "Params": [
-                            "GloomyGalleon"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossReachable",
+                                "Params": [
+                                    "GloomyGalleon"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             }
@@ -42991,11 +44031,16 @@
                 "GalleonKey": {
                     "Key": "GalleonKey",
                     "Requires": {
-                        "Name": "IsBossBeatable",
-                        "Params": [
-                            "GloomyGalleon"
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "IsBossBeatable",
+                                "Params": [
+                                    "GloomyGalleon"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
                     }
                 }
             },
@@ -50673,7 +51718,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -50717,7 +51767,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -50841,7 +51896,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -50857,7 +51917,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -50887,7 +51952,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51015,7 +52085,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51354,7 +52429,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51426,7 +52506,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "orangstand"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "orangstand"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51498,7 +52583,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "primatepunch"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "primatepunch"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51640,7 +52730,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "strongKong"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "strongKong"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51656,7 +52751,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51700,7 +52800,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51825,7 +52930,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51855,7 +52965,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "ponytailtwirl"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "ponytailtwirl"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51885,7 +53000,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "ponytailtwirl"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "ponytailtwirl"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FranticFactory"
@@ -51997,7 +53117,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52038,7 +53163,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52106,7 +53236,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "balloon"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "balloon"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52265,7 +53400,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "barrels"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "barrels"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52369,7 +53509,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "ponytailtwirl"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "ponytailtwirl"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52427,7 +53572,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52485,7 +53635,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52501,7 +53656,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52587,7 +53747,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52671,7 +53836,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52729,7 +53899,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52938,7 +54113,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -52954,7 +54134,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53009,7 +54194,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53039,7 +54229,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53055,7 +54250,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53085,7 +54285,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53140,7 +54345,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53156,7 +54366,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53394,7 +54609,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CrystalCaves"
@@ -53490,7 +54710,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53534,7 +54759,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53550,7 +54780,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53635,7 +54870,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53651,7 +54891,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53681,7 +54926,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53767,7 +55017,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -53811,7 +55066,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "orangstand"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "orangstand"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54051,7 +55311,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54121,7 +55386,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "orangstand"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "orangstand"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54137,7 +55407,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "orangstand"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "orangstand"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54193,7 +55468,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54209,7 +55489,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54265,7 +55550,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54295,7 +55585,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "vines"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "vines"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54433,7 +55728,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "hunkyChunky"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "hunkyChunky"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54463,7 +55763,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54798,7 +56103,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54856,7 +56166,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54914,7 +56229,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54930,7 +56250,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "barrels"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "barrels"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54946,7 +56271,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -54962,7 +56292,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -55028,7 +56363,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "JungleJapes"
@@ -55334,7 +56674,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "vines"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "vines"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55459,8 +56804,13 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "MushroomCannonsSpawned",
-                "Events": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "MushroomCannonsSpawned",
+                        "Events": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55476,7 +56826,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55576,7 +56931,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55648,7 +57008,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55776,7 +57141,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55820,7 +57190,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "orangstand"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "orangstand"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55878,7 +57253,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -55950,7 +57330,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56138,7 +57523,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56261,12 +57651,17 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "TimeAccess",
-                "Params": [
-                    "MillArea",
-                    "Night"
-                ],
-                "isFunction": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "TimeAccess",
+                        "Params": [
+                            "MillArea",
+                            "Night"
+                        ],
+                        "isFunction": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56282,7 +57677,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56340,7 +57740,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "primatepunch"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "primatepunch"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56370,8 +57775,13 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "MillBoxBroken",
-                "Events": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "MillBoxBroken",
+                        "Events": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56415,7 +57825,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "Slam"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "Slam"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56525,7 +57940,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56597,7 +58017,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "strongKong"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "strongKong"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56613,7 +58038,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56629,7 +58059,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "strongKong"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "strongKong"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "FungiForest"
@@ -56811,7 +58246,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -56827,7 +58267,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -56843,7 +58288,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -56915,7 +58365,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -56931,7 +58386,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57031,7 +58491,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57047,7 +58512,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57149,7 +58619,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "strongKong"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "strongKong"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57165,7 +58640,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57181,7 +58661,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57297,7 +58782,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57369,7 +58859,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57423,7 +58918,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57453,7 +58953,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57497,7 +59002,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57555,7 +59065,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -57948,7 +59463,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "ponytailtwirl"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "ponytailtwirl"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "CreepyCastle"
@@ -58400,7 +59920,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58562,12 +60087,17 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "CanSlamSwitch",
-                "Params": [
-                    "AngryAztec",
-                    1
-                ],
-                "isFunction": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "CanSlamSwitch",
+                        "Params": [
+                            "AngryAztec",
+                            1
+                        ],
+                        "isFunction": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58737,7 +60267,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58753,7 +60288,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58797,7 +60337,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58813,7 +60358,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58913,7 +60463,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -58929,7 +60484,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59211,7 +60771,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "vines"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "vines"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59252,7 +60817,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59307,7 +60877,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59373,7 +60948,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59453,7 +61033,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59710,7 +61295,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "AngryAztec"
@@ -59867,7 +61457,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60092,8 +61687,13 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "WaterRaised",
-                "Events": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "WaterRaised",
+                        "Events": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60204,7 +61804,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60220,7 +61825,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60236,7 +61846,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60252,7 +61867,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "rocketbarrelboost"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60492,7 +62112,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60550,7 +62175,12 @@
                 "Name": "donkey"
             },
             "Requires": {
-                "Name": "coconut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "coconut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60644,7 +62274,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60674,7 +62309,12 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "grape"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60690,8 +62330,13 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "WaterRaised",
-                "Events": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "WaterRaised",
+                        "Events": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60707,7 +62352,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60723,7 +62373,12 @@
                 "Name": "chunky"
             },
             "Requires": {
-                "Name": "pineapple"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "pineapple"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60991,7 +62646,12 @@
                 "Name": "diddy"
             },
             "Requires": {
-                "Name": "peanut"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "peanut"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -61007,8 +62667,13 @@
                 "Name": "lanky"
             },
             "Requires": {
-                "Name": "WaterRaised",
-                "Events": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "WaterRaised",
+                        "Events": true
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -61049,7 +62714,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -61065,7 +62735,12 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "Name": "feather"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "feather"
+                    }
+                ]
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -61555,11 +63230,16 @@
             "Key": "MadMazeMaulInsane",
             "Name": "Mad Maze Maul (125 seconds, 10 enemies, need gun)",
             "Requires": {
-                "Name": "HasGun",
-                "Params": [
-                    "any"
-                ],
-                "isFunction": true
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "HasGun",
+                        "Params": [
+                            "any"
+                        ],
+                        "isFunction": true
+                    }
+                ]
             },
             "Class": "Minigame",
             "Types": "Mad Maze Maul"
@@ -61711,7 +63391,12 @@
             "Key": "SplishSplashSalvageNormal",
             "Name": "Splish Splash Salvage (10 coins)",
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Minigame",
             "Types": "Splish Splash Salvage"
@@ -61720,7 +63405,12 @@
             "Key": "SplishSplashSalvageHard",
             "Name": "Splish Splash Salvage (15 coins)",
             "Requires": {
-                "Name": "swim"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
             },
             "Class": "Minigame",
             "Types": "Splish Splash Salvage"
@@ -61729,7 +63419,12 @@
             "Key": "SpeedySwingSortieEasy",
             "Name": "Speedy Swing Sortie (40 seconds, 9 coins)",
             "Requires": {
-                "Name": "vines"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "vines"
+                    }
+                ]
             },
             "Class": "Minigame",
             "Types": "Speedy Swing Sortie"
@@ -61792,7 +63487,12 @@
             "Key": "SpeedySwingSortieHard",
             "Name": "Speedy Swing Sortie (60 seconds, 6 coins)",
             "Requires": {
-                "Name": "vines"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "vines"
+                    }
+                ]
             },
             "Class": "Minigame",
             "Types": "Speedy Swing Sortie"
@@ -61950,7 +63650,12 @@
             "Key": "DiddyKremling",
             "Name": "Hideout Helm: Diddy Kremlings",
             "Requires": {
-                "Name": "Slam"
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "Slam"
+                    }
+                ]
             },
             "Class": "Minigame",
             "Types": "Helm Minigames"
