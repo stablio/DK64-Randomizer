@@ -3563,6 +3563,24 @@
                     "Rewards": {
                         "Name": "HelmKeyTurnedIn"
                     }
+                },
+                "Night": {
+                    "Key": "Night",
+                    "Class": "Event",
+                    "Requires": null,
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "Night"
+                    }
+                },
+                "Day": {
+                    "Key": "Day",
+                    "Class": "Event",
+                    "Requires": null,
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "Day"
+                    }
                 }
             },
             "Neighbourhood": {
@@ -4949,12 +4967,16 @@
                                                         ]
                                                     },
                                                     {
-                                                        "Name": "krusha_kong",
-                                                        "Params": [
-                                                            "kong",
-                                                            false
-                                                        ],
-                                                        "isFunction": true
+                                                        "combinator": "NOT",
+                                                        "rules": [
+                                                            {
+                                                                "Name": "isKrushaAdjacent",
+                                                                "Params": [
+                                                                    "kong"
+                                                                ],
+                                                                "isFunction": true
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -5049,12 +5071,16 @@
                                                 ]
                                             },
                                             {
-                                                "Name": "krusha_kong",
-                                                "Params": [
-                                                    "kong",
-                                                    false
-                                                ],
-                                                "isFunction": true
+                                                "combinator": "NOT",
+                                                "rules": [
+                                                    {
+                                                        "Name": "isKrushaAdjacent",
+                                                        "Params": [
+                                                            "kong"
+                                                        ],
+                                                        "isFunction": true
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
@@ -7566,23 +7592,31 @@
                     "Key": "IslesAboveWaterfall",
                     "Name": "Cabin Isle to Isles Above Waterfall",
                     "Requires": {
-                        "combinator": "AND",
+                        "combinator": "OR",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
-                            },
-                            {
-                                "combinator": "OR",
+                                "combinator": "AND",
                                 "rules": [
                                     {
-                                        "Name": "diddy"
+                                        "Name": "advanced_platforming",
+                                        "isGlitch": true
                                     },
                                     {
                                         "combinator": "AND",
                                         "rules": [
                                             {
-                                                "Name": "donkey"
+                                                "combinator": "OR",
+                                                "rules": [
+                                                    {
+                                                        "Name": "diddy"
+                                                    },
+                                                    {
+                                                        "Name": "donkey"
+                                                    },
+                                                    {
+                                                        "Name": "chunky"
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "combinator": "NOT",
@@ -7590,27 +7624,24 @@
                                                     {
                                                         "Name": "isKrushaAdjacent",
                                                         "Params": [
-                                                            "donkey"
+                                                            "kong"
                                                         ],
                                                         "isFunction": true
                                                     }
                                                 ]
                                             }
                                         ]
+                                    }
+                                ]
+                            },
+                            {
+                                "combinator": "AND",
+                                "rules": [
+                                    {
+                                        "Name": "tiny"
                                     },
                                     {
-                                        "combinator": "AND",
-                                        "rules": [
-                                            {
-                                                "Name": "tiny"
-                                            },
-                                            {
-                                                "Name": "ponytailtwirl"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "Name": "chunky"
+                                        "Name": "ponytailtwirl"
                                     }
                                 ]
                             }
@@ -7725,23 +7756,31 @@
                                 "isGlitch": true
                             },
                             {
-                                "combinator": "AND",
+                                "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
-                                    },
-                                    {
-                                        "combinator": "OR",
+                                        "combinator": "AND",
                                         "rules": [
                                             {
-                                                "Name": "diddy"
+                                                "Name": "advanced_platforming",
+                                                "isGlitch": true
                                             },
                                             {
                                                 "combinator": "AND",
                                                 "rules": [
                                                     {
-                                                        "Name": "donkey"
+                                                        "combinator": "OR",
+                                                        "rules": [
+                                                            {
+                                                                "Name": "diddy"
+                                                            },
+                                                            {
+                                                                "Name": "donkey"
+                                                            },
+                                                            {
+                                                                "Name": "chunky"
+                                                            }
+                                                        ]
                                                     },
                                                     {
                                                         "combinator": "NOT",
@@ -7749,27 +7788,24 @@
                                                             {
                                                                 "Name": "isKrushaAdjacent",
                                                                 "Params": [
-                                                                    "donkey"
+                                                                    "kong"
                                                                 ],
                                                                 "isFunction": true
                                                             }
                                                         ]
                                                     }
                                                 ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "combinator": "AND",
+                                        "rules": [
+                                            {
+                                                "Name": "tiny"
                                             },
                                             {
-                                                "combinator": "AND",
-                                                "rules": [
-                                                    {
-                                                        "Name": "tiny"
-                                                    },
-                                                    {
-                                                        "Name": "ponytailtwirl"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "Name": "chunky"
+                                                "Name": "ponytailtwirl"
                                             }
                                         ]
                                     }
@@ -16202,7 +16238,28 @@
                                         "Name": "lanky"
                                     },
                                     {
-                                        "Name": "free_trade_items"
+                                        "combinator": "AND",
+                                        "rules": [
+                                            {
+                                                "Name": "free_trade_items"
+                                            },
+                                            {
+                                                "combinator": "OR",
+                                                "rules": [
+                                                    {
+                                                        "combinator": "NOT",
+                                                        "rules": [
+                                                            {
+                                                                "Name": "donkey"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "Name": "superSlam"
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -17967,7 +18024,24 @@
                                                         "Name": "tiny"
                                                     },
                                                     {
-                                                        "Name": "lanky"
+                                                        "combinator": "AND",
+                                                        "rules": [
+                                                            {
+                                                                "Name": "lanky"
+                                                            },
+                                                            {
+                                                                "combinator": "NOT",
+                                                                "rules": [
+                                                                    {
+                                                                        "Name": "isKrushaAdjacent",
+                                                                        "Params": [
+                                                                            "lanky"
+                                                                        ],
+                                                                        "isFunction": true
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             },
@@ -39439,17 +39513,17 @@
                     "Types": "Custom Check",
                     "Requires": true
                 },
-                "BehindPunchGBChest(1)": {
-                    "Key": "BehindPunchGBChest(1)",
-                    "Name": "Behind Punch GB Chest (1)",
+                "InPunchGBChestRoom": {
+                    "Key": "InPunchGBChestRoom",
+                    "Name": "In Punch GB Chest Room",
                     "Level": "GloomyGalleon",
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
                 },
-                "BehindPunchGBChest(2)": {
-                    "Key": "BehindPunchGBChest(2)",
-                    "Name": "Behind Punch GB Chest (2)",
+                "BehindPunchGBChest": {
+                    "Key": "BehindPunchGBChest",
+                    "Name": "Behind Punch GB Chest",
                     "Level": "GloomyGalleon",
                     "Class": "Custom Check",
                     "Types": "Custom Check",
@@ -42024,8 +42098,17 @@
                                         ]
                                     },
                                     {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
+                                        "combinator": "AND",
+                                        "rules": [
+                                            {
+                                                "Name": "ShipyardTreasureRoomOpened",
+                                                "Events": true
+                                            },
+                                            {
+                                                "Name": "advanced_platforming",
+                                                "isGlitch": true
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -59996,33 +60079,8 @@
                 "Name": "tiny"
             },
             "Requires": {
-                "combinator": "OR",
-                "rules": [
-                    {
-                        "Name": "WaterRaised",
-                        "Events": true
-                    },
-                    {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
-                            },
-                            {
-                                "combinator": "OR",
-                                "rules": [
-                                    {
-                                        "Name": "chunky"
-                                    },
-                                    {
-                                        "Name": "lanky"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "Name": "WaterRaised",
+                "Events": true
             },
             "Class": "Collectible",
             "Level": "GloomyGalleon"
@@ -60058,15 +60116,7 @@
                                         "isGlitch": true
                                     },
                                     {
-                                        "combinator": "OR",
-                                        "rules": [
-                                            {
-                                                "Name": "lanky"
-                                            },
-                                            {
-                                                "Name": "chunky"
-                                            }
-                                        ]
+                                        "Name": "chunky"
                                     }
                                 ]
                             }
