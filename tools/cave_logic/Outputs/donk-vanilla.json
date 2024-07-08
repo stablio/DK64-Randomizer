@@ -10089,7 +10089,26 @@
             "Name": "Frantic Factory Entry Handler",
             "HintName": "Frantic Factory Entry Handler",
             "Level": "FranticFactory",
-            "Checks": {},
+            "Checks": {
+                "FactoryEntered": {
+                    "Key": "FactoryEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "FranticFactory",
+                    "Rewards": {
+                        "Name": "FactoryEntered"
+                    }
+                },
+                "HatchOpened": {
+                    "Key": "HatchOpened",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "FranticFactory",
+                    "Rewards": {
+                        "Name": "HatchOpened"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "FranticFactoryLobby": {
                     "Key": "FranticFactoryLobby",
@@ -10123,15 +10142,6 @@
                 "FactoryMainEnemy_TunnelToHatch": {
                     "Key": "FactoryMainEnemy_TunnelToHatch",
                     "Requires": true
-                },
-                "FactoryEntered": {
-                    "Key": "FactoryEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "FranticFactory",
-                    "Rewards": {
-                        "Name": "FactoryEntered"
-                    }
                 },
                 "HatchOpened": {
                     "Key": "HatchOpened",
@@ -13491,15 +13501,9 @@
                                 "isFunction": true
                             },
                             {
-                                "combinator": "OR",
-                                "rules": [
-                                    {
-                                        "Name": "snideAccess"
-                                    },
-                                    {
-                                        "Name": "assumeFillSuccess"
-                                    }
-                                ]
+                                "Name": "canAccessHelm",
+                                "Params": [],
+                                "isFunction": true
                             }
                         ]
                     }
@@ -13519,15 +13523,9 @@
                                 "isFunction": true
                             },
                             {
-                                "combinator": "OR",
-                                "rules": [
-                                    {
-                                        "Name": "snideAccess"
-                                    },
-                                    {
-                                        "Name": "assumeFillSuccess"
-                                    }
-                                ]
+                                "Name": "canAccessHelm",
+                                "Params": [],
+                                "isFunction": true
                             }
                         ]
                     }
@@ -15137,7 +15135,17 @@
             "Name": "Crystal Caves Entry Handler",
             "HintName": "Crystal Caves Entry Handler",
             "Level": "CreepyCastle",
-            "Checks": {},
+            "Checks": {
+                "CavesEntered": {
+                    "Key": "CavesEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "CrystalCaves",
+                    "Rewards": {
+                        "Name": "CavesEntered"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "CrystalCavesLobby": {
                     "Key": "CrystalCavesLobby",
@@ -15304,15 +15312,6 @@
                 "CavesMainEnemy_NearSnide": {
                     "Key": "CavesMainEnemy_NearSnide",
                     "Requires": true
-                },
-                "CavesEntered": {
-                    "Key": "CavesEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "CrystalCaves",
-                    "Rewards": {
-                        "Name": "CavesEntered"
-                    }
                 },
                 "CavesSmallBoulderButton": {
                     "Key": "CavesSmallBoulderButton",
@@ -19244,7 +19243,17 @@
             "Name": "Jungle Japes Entry Handler",
             "HintName": "Jungle Japes Entry Handler",
             "Level": "JungleJapes",
-            "Checks": {},
+            "Checks": {
+                "JapesEntered": {
+                    "Key": "JapesEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "JungleJapes",
+                    "Rewards": {
+                        "Name": "JapesEntered"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "JungleJapesLobby": {
                     "Key": "JungleJapesLobby",
@@ -19382,15 +19391,6 @@
                 "JapesMainEnemy_NearUnderground": {
                     "Key": "JapesMainEnemy_NearUnderground",
                     "Requires": true
-                },
-                "JapesEntered": {
-                    "Key": "JapesEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "JungleJapes",
-                    "Rewards": {
-                        "Name": "JapesEntered"
-                    }
                 },
                 "JapesW1aTagged": {
                     "Key": "JapesW1aTagged",
@@ -23772,7 +23772,17 @@
             "Name": "Fungi Forest Entry Handler",
             "HintName": "Fungi Forest Entry Handler",
             "Level": "FungiForest",
-            "Checks": {},
+            "Checks": {
+                "ForestEntered": {
+                    "Key": "ForestEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "FungiForest",
+                    "Rewards": {
+                        "Name": "ForestEntered"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "FungiForestLobby": {
                     "Key": "FungiForestLobby",
@@ -23828,15 +23838,6 @@
                                 "isFunction": true
                             }
                         ]
-                    }
-                },
-                "ForestEntered": {
-                    "Key": "ForestEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "FungiForest",
-                    "Rewards": {
-                        "Name": "ForestEntered"
                     }
                 },
                 "Night": {
@@ -27966,7 +27967,17 @@
             "Name": "Creepy Castle Entry Handler",
             "HintName": "Creepy Castle Entry Handler",
             "Level": "CreepyCastle",
-            "Checks": {},
+            "Checks": {
+                "CastleEntered": {
+                    "Key": "CastleEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "CreepyCastle",
+                    "Rewards": {
+                        "Name": "CastleEntered"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "CreepyCastleLobby": {
                     "Key": "CreepyCastleLobby",
@@ -28077,15 +28088,6 @@
                 "CastleMainEnemy_NearHeadphones": {
                     "Key": "CastleMainEnemy_NearHeadphones",
                     "Requires": true
-                },
-                "CastleEntered": {
-                    "Key": "CastleEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "CreepyCastle",
-                    "Rewards": {
-                        "Name": "CastleEntered"
-                    }
                 },
                 "CastleW1aTagged": {
                     "Key": "CastleW1aTagged",
@@ -32134,7 +32136,17 @@
             "Name": "Angry Aztec Entry Handler",
             "HintName": "Angry Aztec Entry Handler",
             "Level": "AngryAztec",
-            "Checks": {},
+            "Checks": {
+                "AztecEntered": {
+                    "Key": "AztecEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "AngryAztec",
+                    "Rewards": {
+                        "Name": "AztecEntered"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "AngryAztecLobby": {
                     "Key": "AngryAztecLobby",
@@ -32156,17 +32168,7 @@
             "Name": "Angry Aztec Start",
             "HintName": "Various Aztec Tunnels",
             "Level": "AngryAztec",
-            "Checks": {
-                "AztecEntered": {
-                    "Key": "AztecEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "AngryAztec",
-                    "Rewards": {
-                        "Name": "AztecEntered"
-                    }
-                }
-            },
+            "Checks": {},
             "Neighbourhood": {
                 "AngryAztecMedals": {
                     "Key": "AngryAztecMedals",
@@ -39854,7 +39856,17 @@
             "Name": "Gloomy Galleon Entry Handler",
             "HintName": "Gloomy Galleon Entry Handler",
             "Level": "GloomyGalleon",
-            "Checks": {},
+            "Checks": {
+                "GalleonEntered": {
+                    "Key": "GalleonEntered",
+                    "Class": "Event",
+                    "Requires": true,
+                    "Level": "GloomyGalleon",
+                    "Rewards": {
+                        "Name": "GalleonEntered"
+                    }
+                }
+            },
             "Neighbourhood": {
                 "GloomyGalleonLobby": {
                     "Key": "GloomyGalleonLobby",
@@ -39975,15 +39987,6 @@
                 "GalleonMainEnemy_CoconutTunnel": {
                     "Key": "GalleonMainEnemy_CoconutTunnel",
                     "Requires": true
-                },
-                "GalleonEntered": {
-                    "Key": "GalleonEntered",
-                    "Class": "Event",
-                    "Requires": true,
-                    "Level": "GloomyGalleon",
-                    "Rewards": {
-                        "Name": "GalleonEntered"
-                    }
                 },
                 "GalleonLankySwitch": {
                     "Key": "GalleonLankySwitch",
