@@ -326,6 +326,7 @@ def ast_to_json(node, params):
             name = camel_to_spaces(source) + " to " + camel_to_spaces(target)
             key = source + target + "Exit"
             lo = {
+                "id": key.replace(" ", "").lower(),
                 "Key": key.replace(" ", "").lower(),
                 "Name": name,
                 "source": source.lower(),

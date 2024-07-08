@@ -3134,6 +3134,7 @@
                 "Reverse": "CastleUpperToDungeon"
             },
             "crankyislestraininggroundsexit": {
+                "id": "crankyislestraininggroundsexit",
                 "Key": "crankyislestraininggroundsexit",
                 "Name": "Cranky Isles to Training Grounds",
                 "source": "crankyisles",
@@ -3142,6 +3143,7 @@
                 "targetType": "Location"
             },
             "snideislessnideroomexit": {
+                "id": "snideislessnideroomexit",
                 "Key": "snideislessnideroomexit",
                 "Name": "Snide to Isles Snide Room",
                 "source": "snide",
@@ -3150,6 +3152,7 @@
                 "targetType": "Location"
             },
             "crankyjapesjapesbeyondcoconutgate2exit": {
+                "id": "crankyjapesjapesbeyondcoconutgate2exit",
                 "Key": "crankyjapesjapesbeyondcoconutgate2exit",
                 "Name": "Cranky Japes to Japes Beyond Coconut Gate2",
                 "source": "crankyjapes",
@@ -3158,6 +3161,7 @@
                 "targetType": "Location"
             },
             "snidejunglejapesmainexit": {
+                "id": "snidejunglejapesmainexit",
                 "Key": "snidejunglejapesmainexit",
                 "Name": "Snide to Jungle Japes Main",
                 "source": "snide",
@@ -3166,6 +3170,7 @@
                 "targetType": "Location"
             },
             "funkyjapesjunglejapesmainexit": {
+                "id": "funkyjapesjunglejapesmainexit",
                 "Key": "funkyjapesjunglejapesmainexit",
                 "Name": "Funky Japes to Jungle Japes Main",
                 "source": "funkyjapes",
@@ -3174,6 +3179,7 @@
                 "targetType": "Location"
             },
             "crankyaztecangryaztecconnectortunnelexit": {
+                "id": "crankyaztecangryaztecconnectortunnelexit",
                 "Key": "crankyaztecangryaztecconnectortunnelexit",
                 "Name": "Cranky Aztec to Angry Aztec Connector Tunnel",
                 "source": "crankyaztec",
@@ -3182,6 +3188,7 @@
                 "targetType": "Location"
             },
             "candyaztecangryaztecoasisexit": {
+                "id": "candyaztecangryaztecoasisexit",
                 "Key": "candyaztecangryaztecoasisexit",
                 "Name": "Candy Aztec to Angry Aztec Oasis",
                 "source": "candyaztec",
@@ -3190,6 +3197,7 @@
                 "targetType": "Location"
             },
             "funkyaztecangryaztecmainexit": {
+                "id": "funkyaztecangryaztecmainexit",
                 "Key": "funkyaztecangryaztecmainexit",
                 "Name": "Funky Aztec to Angry Aztec Main",
                 "source": "funkyaztec",
@@ -3198,6 +3206,7 @@
                 "targetType": "Location"
             },
             "snideangryaztecmainexit": {
+                "id": "snideangryaztecmainexit",
                 "Key": "snideangryaztecmainexit",
                 "Name": "Snide to Angry Aztec Main",
                 "source": "snide",
@@ -3206,6 +3215,7 @@
                 "targetType": "Location"
             },
             "crankyfactorybeyondhatchexit": {
+                "id": "crankyfactorybeyondhatchexit",
                 "Key": "crankyfactorybeyondhatchexit",
                 "Name": "Cranky Factory to Beyond Hatch",
                 "source": "crankyfactory",
@@ -3214,6 +3224,7 @@
                 "targetType": "Location"
             },
             "candyfactorybeyondhatchexit": {
+                "id": "candyfactorybeyondhatchexit",
                 "Key": "candyfactorybeyondhatchexit",
                 "Name": "Candy Factory to Beyond Hatch",
                 "source": "candyfactory",
@@ -3222,6 +3233,7 @@
                 "targetType": "Location"
             },
             "funkyfactorytestingexit": {
+                "id": "funkyfactorytestingexit",
                 "Key": "funkyfactorytestingexit",
                 "Name": "Funky Factory to Testing",
                 "source": "funkyfactory",
@@ -3230,6 +3242,7 @@
                 "targetType": "Location"
             },
             "snidetestingexit": {
+                "id": "snidetestingexit",
                 "Key": "snidetestingexit",
                 "Name": "Snide to Testing",
                 "source": "snide",
@@ -3238,6 +3251,7 @@
                 "targetType": "Location"
             },
             "crankygalleongloomygalleonstartexit": {
+                "id": "crankygalleongloomygalleonstartexit",
                 "Key": "crankygalleongloomygalleonstartexit",
                 "Name": "Cranky Galleon to Gloomy Galleon Start",
                 "source": "crankygalleon",
@@ -3246,6 +3260,7 @@
                 "targetType": "Location"
             },
             "candygalleonshipyardexit": {
+                "id": "candygalleonshipyardexit",
                 "Key": "candygalleonshipyardexit",
                 "Name": "Candy Galleon to Shipyard",
                 "source": "candygalleon",
@@ -3254,6 +3269,7 @@
                 "targetType": "Location"
             },
             "funkygalleonshipyardexit": {
+                "id": "funkygalleonshipyardexit",
                 "Key": "funkygalleonshipyardexit",
                 "Name": "Funky Galleon to Shipyard",
                 "source": "funkygalleon",
@@ -3262,6 +3278,7 @@
                 "targetType": "Location"
             },
             "snidelighthousesnidealcoveexit": {
+                "id": "snidelighthousesnidealcoveexit",
                 "Key": "snidelighthousesnidealcoveexit",
                 "Name": "Snide to Lighthouse Snide Alcove",
                 "source": "snide",
@@ -3270,6 +3287,7 @@
                 "targetType": "Location"
             },
             "crankyforestgiantmushroomareaexit": {
+                "id": "crankyforestgiantmushroomareaexit",
                 "Key": "crankyforestgiantmushroomareaexit",
                 "Name": "Cranky Forest to Giant Mushroom Area",
                 "source": "crankyforest",
@@ -3278,6 +3296,7 @@
                 "targetType": "Location"
             },
             "funkyforestwormareaexit": {
+                "id": "funkyforestwormareaexit",
                 "Key": "funkyforestwormareaexit",
                 "Name": "Funky Forest to Worm Area",
                 "source": "funkyforest",
@@ -3286,6 +3305,7 @@
                 "targetType": "Location"
             },
             "snidemillareaexit": {
+                "id": "snidemillareaexit",
                 "Key": "snidemillareaexit",
                 "Name": "Snide to Mill Area",
                 "source": "snide",
@@ -3294,6 +3314,7 @@
                 "targetType": "Location"
             },
             "crankycavescrystalcavesmainexit": {
+                "id": "crankycavescrystalcavesmainexit",
                 "Key": "crankycavescrystalcavesmainexit",
                 "Name": "Cranky Caves to Crystal Caves Main",
                 "source": "crankycaves",
@@ -3302,6 +3323,7 @@
                 "targetType": "Location"
             },
             "candycavescabinareaexit": {
+                "id": "candycavescabinareaexit",
                 "Key": "candycavescabinareaexit",
                 "Name": "Candy Caves to Cabin Area",
                 "source": "candycaves",
@@ -3310,6 +3332,7 @@
                 "targetType": "Location"
             },
             "funkycavescrystalcavesmainexit": {
+                "id": "funkycavescrystalcavesmainexit",
                 "Key": "funkycavescrystalcavesmainexit",
                 "Name": "Funky Caves to Crystal Caves Main",
                 "source": "funkycaves",
@@ -3318,6 +3341,7 @@
                 "targetType": "Location"
             },
             "snidecavessnideareaexit": {
+                "id": "snidecavessnideareaexit",
                 "Key": "snidecavessnideareaexit",
                 "Name": "Snide to Caves Snide Area",
                 "source": "snide",
@@ -3326,6 +3350,7 @@
                 "targetType": "Location"
             },
             "crankycastlecreepycastlemainexit": {
+                "id": "crankycastlecreepycastlemainexit",
                 "Key": "crankycastlecreepycastlemainexit",
                 "Name": "Cranky Castle to Creepy Castle Main",
                 "source": "crankycastle",
@@ -3334,6 +3359,7 @@
                 "targetType": "Location"
             },
             "candycastleuppercaveexit": {
+                "id": "candycastleuppercaveexit",
                 "Key": "candycastleuppercaveexit",
                 "Name": "Candy Castle to Upper Cave",
                 "source": "candycastle",
@@ -3342,6 +3368,7 @@
                 "targetType": "Location"
             },
             "funkycastlelowercaveexit": {
+                "id": "funkycastlelowercaveexit",
                 "Key": "funkycastlelowercaveexit",
                 "Name": "Funky Castle to Lower Cave",
                 "source": "funkycastle",
@@ -3350,6 +3377,7 @@
                 "targetType": "Location"
             },
             "snidecreepycastlemainexit": {
+                "id": "snidecreepycastlemainexit",
                 "Key": "snidecreepycastlemainexit",
                 "Name": "Snide to Creepy Castle Main",
                 "source": "snide",
