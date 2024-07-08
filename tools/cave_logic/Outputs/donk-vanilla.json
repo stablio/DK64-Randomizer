@@ -14276,6 +14276,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelSecond"
+                    },
+                    "Rewards": {
+                        "Name": "HelmDonkey1"
                     }
                 },
                 "HelmDonkey2": {
@@ -14283,6 +14286,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelFirst"
+                    },
+                    "Rewards": {
+                        "Name": "HelmDonkey2"
                     }
                 },
                 "HelmDonkeyMedal": {
@@ -14356,6 +14362,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelFirst"
+                    },
+                    "Rewards": {
+                        "Name": "HelmChunky1"
                     }
                 },
                 "HelmChunky2": {
@@ -14363,6 +14372,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelSecond"
+                    },
+                    "Rewards": {
+                        "Name": "HelmChunky2"
                     }
                 },
                 "HelmChunkyMedal": {
@@ -14436,6 +14448,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelSecond"
+                    },
+                    "Rewards": {
+                        "Name": "HelmTiny1"
                     }
                 },
                 "HelmTiny2": {
@@ -14443,6 +14458,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelFirst"
+                    },
+                    "Rewards": {
+                        "Name": "HelmTiny2"
                     }
                 },
                 "HelmTinyMedal": {
@@ -14504,6 +14522,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelFirst"
+                    },
+                    "Rewards": {
+                        "Name": "HelmLanky1"
                     }
                 },
                 "HelmLanky2": {
@@ -14511,6 +14532,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelSecond"
+                    },
+                    "Rewards": {
+                        "Name": "HelmLanky2"
                     }
                 },
                 "HelmLankyMedal": {
@@ -14584,6 +14608,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelFirst"
+                    },
+                    "Rewards": {
+                        "Name": "HelmDiddy1"
                     }
                 },
                 "HelmDiddy2": {
@@ -14591,6 +14618,9 @@
                     "Requires": true,
                     "MiniGame": {
                         "Name": "HelmBarrelSecond"
+                    },
+                    "Rewards": {
+                        "Name": "HelmDiddy2"
                     }
                 },
                 "HelmDiddyMedal": {

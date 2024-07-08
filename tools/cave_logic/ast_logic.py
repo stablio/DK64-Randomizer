@@ -125,6 +125,10 @@ def ast_to_json(node, params):
 
             if length > 2:
                 ll.update({"MiniGame": vals[2]})
+
+                # Add Helm Barrels
+                if (vals[2]['Name'] == 'HelmBarrelSecond' or vals[2]['Name'] == 'HelmBarrelFirst'):
+                    ll.update({"Rewards": {"Name": vals[0]['Name']}})
             return ll
         elif func_name == "Event":
             e = {
