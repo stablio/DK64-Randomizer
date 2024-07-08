@@ -82,6 +82,7 @@
         },
         "edges": {
             "IslesToJapes": {
+                "id": "IslesToJapes",
                 "Key": "IslesToJapes",
                 "Name": "Japes Lobby to Jungle Japes",
                 "source": "JungleJapesLobby",
@@ -96,6 +97,7 @@
                 "Reverse": "JapesToIsles"
             },
             "JapesToIsles": {
+                "id": "JapesToIsles",
                 "Key": "JapesToIsles",
                 "Name": "Jungle Japes to Japes Lobby",
                 "source": "JungleJapesEntryHandler",
@@ -110,6 +112,7 @@
                 "Reverse": "IslesToJapes"
             },
             "IslesToAztec": {
+                "id": "IslesToAztec",
                 "Key": "IslesToAztec",
                 "Name": "Aztec Lobby to Angry Aztec",
                 "source": "AngryAztecLobby",
@@ -124,6 +127,7 @@
                 "Reverse": "AztecToIsles"
             },
             "AztecToIsles": {
+                "id": "AztecToIsles",
                 "Key": "AztecToIsles",
                 "Name": "Angry Aztec to Aztec Lobby",
                 "source": "AngryAztecEntryHandler",
@@ -138,6 +142,7 @@
                 "Reverse": "IslesToAztec"
             },
             "IslesToFactory": {
+                "id": "IslesToFactory",
                 "Key": "IslesToFactory",
                 "Name": "Factory Lobby to Frantic Factory",
                 "source": "FranticFactoryLobby",
@@ -152,6 +157,7 @@
                 "Reverse": "FactoryToIsles"
             },
             "FactoryToIsles": {
+                "id": "FactoryToIsles",
                 "Key": "FactoryToIsles",
                 "Name": "Frantic Factory to Factory Lobby",
                 "source": "FranticFactoryEntryHandler",
@@ -166,6 +172,7 @@
                 "Reverse": "IslesToFactory"
             },
             "IslesToGalleon": {
+                "id": "IslesToGalleon",
                 "Key": "IslesToGalleon",
                 "Name": "Galleon Lobby to Gloomy Galleon",
                 "source": "GloomyGalleonLobby",
@@ -180,6 +187,7 @@
                 "Reverse": "GalleonToIsles"
             },
             "GalleonToIsles": {
+                "id": "GalleonToIsles",
                 "Key": "GalleonToIsles",
                 "Name": "Gloomy Galleon to Galleon Lobby",
                 "source": "GloomyGalleonEntryHandler",
@@ -194,6 +202,7 @@
                 "Reverse": "IslesToGalleon"
             },
             "IslesToForest": {
+                "id": "IslesToForest",
                 "Key": "IslesToForest",
                 "Name": "Fungi Lobby to Fungi Forest",
                 "source": "FungiForestLobby",
@@ -208,6 +217,7 @@
                 "Reverse": "ForestToIsles"
             },
             "ForestToIsles": {
+                "id": "ForestToIsles",
                 "Key": "ForestToIsles",
                 "Name": "Fungi Forest to Fungi Lobby",
                 "source": "FungiForestEntryHandler",
@@ -222,6 +232,7 @@
                 "Reverse": "IslesToForest"
             },
             "IslesToCaves": {
+                "id": "IslesToCaves",
                 "Key": "IslesToCaves",
                 "Name": "Caves Lobby to Crystal Caves",
                 "source": "CrystalCavesLobby",
@@ -236,6 +247,7 @@
                 "Reverse": "CavesToIsles"
             },
             "CavesToIsles": {
+                "id": "CavesToIsles",
                 "Key": "CavesToIsles",
                 "Name": "Crystal Caves to Caves Lobby",
                 "source": "CrystalCavesEntryHandler",
@@ -250,6 +262,7 @@
                 "Reverse": "IslesToCaves"
             },
             "IslesToCastle": {
+                "id": "IslesToCastle",
                 "Key": "IslesToCastle",
                 "Name": "Castle Lobby to Creepy Castle",
                 "source": "CreepyCastleLobby",
@@ -264,6 +277,7 @@
                 "Reverse": "CastleToIsles"
             },
             "CastleToIsles": {
+                "id": "CastleToIsles",
                 "Key": "CastleToIsles",
                 "Name": "Creepy Castle to Castle Lobby",
                 "source": "CreepyCastleEntryHandler",
@@ -278,6 +292,7 @@
                 "Reverse": "IslesToCastle"
             },
             "IslesToHelm": {
+                "id": "IslesToHelm",
                 "Key": "IslesToHelm",
                 "Name": "Helm Lobby to Hideout Helm",
                 "source": "HideoutHelmLobby",
@@ -292,6 +307,7 @@
                 "Reverse": "HelmToIsles"
             },
             "HelmToIsles": {
+                "id": "HelmToIsles",
                 "Key": "HelmToIsles",
                 "Name": "Hideout Helm to Helm Lobby",
                 "source": "HideoutHelmEntry",
@@ -306,6 +322,7 @@
                 "Reverse": "IslesToHelm"
             },
             "IslesTreehouseToStart": {
+                "id": "IslesTreehouseToStart",
                 "Key": "IslesTreehouseToStart",
                 "Name": "DK's Treehouse to Training Grounds",
                 "source": "Treehouse",
@@ -320,6 +337,7 @@
                 "Reverse": "IslesStartToTreehouse"
             },
             "IslesStartToTreehouse": {
+                "id": "IslesStartToTreehouse",
                 "Key": "IslesStartToTreehouse",
                 "Name": "Training Grounds to DK's Treehouse",
                 "source": "TrainingGrounds",
@@ -334,6 +352,7 @@
                 "Reverse": "IslesTreehouseToStart"
             },
             "IslesStartToMain": {
+                "id": "IslesStartToMain",
                 "Key": "IslesStartToMain",
                 "Name": "Training Grounds to DK Isles Main",
                 "source": "TrainingGrounds",
@@ -348,6 +367,7 @@
                 "Reverse": "IslesMainToStart"
             },
             "IslesMainToStart": {
+                "id": "IslesMainToStart",
                 "Key": "IslesMainToStart",
                 "Name": "DK Isles Main to Training Grounds",
                 "source": "IslesMain",
@@ -362,6 +382,7 @@
                 "Reverse": "IslesStartToMain"
             },
             "IslesMainToPrison": {
+                "id": "IslesMainToPrison",
                 "Key": "IslesMainToPrison",
                 "Name": "DK Isles Main to K-Lumsy",
                 "source": "KremIsle",
@@ -376,6 +397,7 @@
                 "Reverse": "IslesPrisonToMain"
             },
             "IslesPrisonToMain": {
+                "id": "IslesPrisonToMain",
                 "Key": "IslesPrisonToMain",
                 "Name": "DK Isles K-Lumsy to Main",
                 "source": "Prison",
@@ -390,6 +412,7 @@
                 "Reverse": "IslesMainToPrison"
             },
             "IslesMainToFairy": {
+                "id": "IslesMainToFairy",
                 "Key": "IslesMainToFairy",
                 "Name": "DK Isles Main to Banana Fairy Isle",
                 "source": "OuterIsles",
@@ -404,6 +427,7 @@
                 "Reverse": "IslesFairyToMain"
             },
             "IslesFairyToMain": {
+                "id": "IslesFairyToMain",
                 "Key": "IslesFairyToMain",
                 "Name": "DK Isles Banana Fairy Isle to Main",
                 "source": "BananaFairyRoom",
@@ -418,6 +442,7 @@
                 "Reverse": "IslesMainToFairy"
             },
             "IslesMainToSnideRoom": {
+                "id": "IslesMainToSnideRoom",
                 "Key": "IslesMainToSnideRoom",
                 "Name": "DK Isles Main to Snide's Room",
                 "source": "KremIsleBeyondLift",
@@ -432,6 +457,7 @@
                 "Reverse": "IslesSnideRoomToMain"
             },
             "IslesSnideRoomToMain": {
+                "id": "IslesSnideRoomToMain",
                 "Key": "IslesSnideRoomToMain",
                 "Name": "DK Isles Snide's Room to Main",
                 "source": "IslesSnideRoom",
@@ -446,6 +472,7 @@
                 "Reverse": "IslesMainToSnideRoom"
             },
             "IslesMainToJapesLobby": {
+                "id": "IslesMainToJapesLobby",
                 "Key": "IslesMainToJapesLobby",
                 "Name": "DK Isles Main to Japes Lobby",
                 "source": "IslesMain",
@@ -460,6 +487,7 @@
                 "Reverse": "IslesJapesLobbyToMain"
             },
             "IslesJapesLobbyToMain": {
+                "id": "IslesJapesLobbyToMain",
                 "Key": "IslesJapesLobbyToMain",
                 "Name": "DK Isles Japes Lobby to Main",
                 "source": "JungleJapesLobby",
@@ -474,6 +502,7 @@
                 "Reverse": "IslesMainToJapesLobby"
             },
             "IslesMainToAztecLobby": {
+                "id": "IslesMainToAztecLobby",
                 "Key": "IslesMainToAztecLobby",
                 "Name": "DK Isles Main to Aztec Lobby",
                 "source": "IslesMainUpper",
@@ -488,6 +517,7 @@
                 "Reverse": "IslesAztecLobbyToMain"
             },
             "IslesAztecLobbyToMain": {
+                "id": "IslesAztecLobbyToMain",
                 "Key": "IslesAztecLobbyToMain",
                 "Name": "DK Isles Aztec Lobby to Main",
                 "source": "AngryAztecLobby",
@@ -502,6 +532,7 @@
                 "Reverse": "IslesMainToAztecLobby"
             },
             "IslesMainToFactoryLobby": {
+                "id": "IslesMainToFactoryLobby",
                 "Key": "IslesMainToFactoryLobby",
                 "Name": "DK Isles Main to Factory Lobby",
                 "source": "KremIsleBeyondLift",
@@ -516,6 +547,7 @@
                 "Reverse": "IslesFactoryLobbyToMain"
             },
             "IslesFactoryLobbyToMain": {
+                "id": "IslesFactoryLobbyToMain",
                 "Key": "IslesFactoryLobbyToMain",
                 "Name": "DK Isles Factory Lobby to Main",
                 "source": "FranticFactoryLobby",
@@ -530,6 +562,7 @@
                 "Reverse": "IslesMainToFactoryLobby"
             },
             "IslesMainToGalleonLobby": {
+                "id": "IslesMainToGalleonLobby",
                 "Key": "IslesMainToGalleonLobby",
                 "Name": "DK Isles Main to Galleon Lobby",
                 "source": "IslesMain",
@@ -544,6 +577,7 @@
                 "Reverse": "IslesGalleonLobbyToMain"
             },
             "IslesGalleonLobbyToMain": {
+                "id": "IslesGalleonLobbyToMain",
                 "Key": "IslesGalleonLobbyToMain",
                 "Name": "DK Isles Galleon Lobby to Main",
                 "source": "GloomyGalleonLobbyEntrance",
@@ -558,6 +592,7 @@
                 "Reverse": "IslesMainToGalleonLobby"
             },
             "IslesMainToForestLobby": {
+                "id": "IslesMainToForestLobby",
                 "Key": "IslesMainToForestLobby",
                 "Name": "DK Isles Main to Fungi Lobby",
                 "source": "CabinIsle",
@@ -572,6 +607,7 @@
                 "Reverse": "IslesForestLobbyToMain"
             },
             "IslesForestLobbyToMain": {
+                "id": "IslesForestLobbyToMain",
                 "Key": "IslesForestLobbyToMain",
                 "Name": "DK Isles Fungi Lobby to Main",
                 "source": "FungiForestLobby",
@@ -586,6 +622,7 @@
                 "Reverse": "IslesMainToForestLobby"
             },
             "IslesMainToCavesLobby": {
+                "id": "IslesMainToCavesLobby",
                 "Key": "IslesMainToCavesLobby",
                 "Name": "DK Isles Main to Caves Lobby",
                 "source": "IslesEar",
@@ -600,6 +637,7 @@
                 "Reverse": "IslesCavesLobbyToMain"
             },
             "IslesCavesLobbyToMain": {
+                "id": "IslesCavesLobbyToMain",
                 "Key": "IslesCavesLobbyToMain",
                 "Name": "DK Isles Caves Lobby to Main",
                 "source": "CrystalCavesLobby",
@@ -614,6 +652,7 @@
                 "Reverse": "IslesMainToCavesLobby"
             },
             "IslesMainToCastleLobby": {
+                "id": "IslesMainToCastleLobby",
                 "Key": "IslesMainToCastleLobby",
                 "Name": "DK Isles Main to Castle Lobby",
                 "source": "IslesMain",
@@ -628,6 +667,7 @@
                 "Reverse": "IslesCastleLobbyToMain"
             },
             "IslesCastleLobbyToMain": {
+                "id": "IslesCastleLobbyToMain",
                 "Key": "IslesCastleLobbyToMain",
                 "Name": "DK Isles Castle Lobby to Main",
                 "source": "CreepyCastleLobby",
@@ -642,6 +682,7 @@
                 "Reverse": "IslesMainToCastleLobby"
             },
             "IslesMainToHelmLobby": {
+                "id": "IslesMainToHelmLobby",
                 "Key": "IslesMainToHelmLobby",
                 "Name": "DK Isles Main to Helm Lobby",
                 "source": "KremIsleMouth",
@@ -656,6 +697,7 @@
                 "Reverse": "IslesHelmLobbyToMain"
             },
             "IslesHelmLobbyToMain": {
+                "id": "IslesHelmLobbyToMain",
                 "Key": "IslesHelmLobbyToMain",
                 "Name": "DK Isles Helm Lobby to Main",
                 "source": "HideoutHelmLobby",
@@ -670,6 +712,7 @@
                 "Reverse": "IslesMainToHelmLobby"
             },
             "JapesMainToMine": {
+                "id": "JapesMainToMine",
                 "Key": "JapesMainToMine",
                 "Name": "Jungle Japes Main to Mountain",
                 "source": "JungleJapesMain",
@@ -684,6 +727,7 @@
                 "Reverse": "JapesMineToMain"
             },
             "JapesMineToMain": {
+                "id": "JapesMineToMain",
                 "Key": "JapesMineToMain",
                 "Name": "Jungle Japes Mountain to Main",
                 "source": "Mine",
@@ -698,6 +742,7 @@
                 "Reverse": "JapesMainToMine"
             },
             "JapesMainToLankyCave": {
+                "id": "JapesMainToLankyCave",
                 "Key": "JapesMainToLankyCave",
                 "Name": "Jungle Japes Main to Painting Room",
                 "source": "JungleJapesMain",
@@ -712,6 +757,7 @@
                 "Reverse": "JapesLankyCaveToMain"
             },
             "JapesLankyCaveToMain": {
+                "id": "JapesLankyCaveToMain",
                 "Key": "JapesLankyCaveToMain",
                 "Name": "Jungle Japes Painting Room to Main",
                 "source": "JapesLankyCave",
@@ -726,6 +772,7 @@
                 "Reverse": "JapesMainToLankyCave"
             },
             "JapesMainToCatacomb": {
+                "id": "JapesMainToCatacomb",
                 "Key": "JapesMainToCatacomb",
                 "Name": "Jungle Japes Main to Underground",
                 "source": "JungleJapesStart",
@@ -740,6 +787,7 @@
                 "Reverse": "JapesCatacombToMain"
             },
             "JapesCatacombToMain": {
+                "id": "JapesCatacombToMain",
                 "Key": "JapesCatacombToMain",
                 "Name": "Jungle Japes Underground to Main",
                 "source": "JapesCatacomb",
@@ -754,6 +802,7 @@
                 "Reverse": "JapesMainToCatacomb"
             },
             "JapesMainToTinyHive": {
+                "id": "JapesMainToTinyHive",
                 "Key": "JapesMainToTinyHive",
                 "Name": "Jungle Japes Main to Beehive",
                 "source": "JapesBeyondFeatherGate",
@@ -768,6 +817,7 @@
                 "Reverse": "JapesTinyHiveToMain"
             },
             "JapesTinyHiveToMain": {
+                "id": "JapesTinyHiveToMain",
                 "Key": "JapesTinyHiveToMain",
                 "Name": "Jungle Japes Beehive to Main",
                 "source": "TinyHive",
@@ -782,6 +832,7 @@
                 "Reverse": "JapesMainToTinyHive"
             },
             "JapesMineToCarts": {
+                "id": "JapesMineToCarts",
                 "Key": "JapesMineToCarts",
                 "Name": "Jungle Japes Mountain to Minecart",
                 "source": "Mine",
@@ -795,6 +846,7 @@
                 }
             },
             "JapesCartsToMain": {
+                "id": "JapesCartsToMain",
                 "Key": "JapesCartsToMain",
                 "Name": "Jungle Japes Minecart to Main",
                 "source": "JapesMinecarts",
@@ -808,6 +860,7 @@
                 }
             },
             "AztecStartToTemple": {
+                "id": "AztecStartToTemple",
                 "Key": "AztecStartToTemple",
                 "Name": "Angry Aztec Main to Tiny Temple",
                 "source": "AngryAztecOasis",
@@ -822,6 +875,7 @@
                 "Reverse": "AztecTempleToStart"
             },
             "AztecTempleToStart": {
+                "id": "AztecTempleToStart",
                 "Key": "AztecTempleToStart",
                 "Name": "Angry Aztec Tiny Temple to Main",
                 "source": "TempleStart",
@@ -836,6 +890,7 @@
                 "Reverse": "AztecStartToTemple"
             },
             "AztecMainToDonkey": {
+                "id": "AztecMainToDonkey",
                 "Key": "AztecMainToDonkey",
                 "Name": "Angry Aztec Main to Donkey 5DTemple",
                 "source": "AngryAztecOasis",
@@ -850,6 +905,7 @@
                 "Reverse": "AztecDonkeyToMain"
             },
             "AztecDonkeyToMain": {
+                "id": "AztecDonkeyToMain",
                 "Key": "AztecDonkeyToMain",
                 "Name": "Angry Aztec Donkey 5DTemple to Main",
                 "source": "DonkeyTemple",
@@ -864,6 +920,7 @@
                 "Reverse": "AztecMainToDonkey"
             },
             "AztecMainToDiddy": {
+                "id": "AztecMainToDiddy",
                 "Key": "AztecMainToDiddy",
                 "Name": "Angry Aztec Main to Diddy 5DTemple",
                 "source": "AngryAztecMain",
@@ -878,6 +935,7 @@
                 "Reverse": "AztecDiddyToMain"
             },
             "AztecDiddyToMain": {
+                "id": "AztecDiddyToMain",
                 "Key": "AztecDiddyToMain",
                 "Name": "Angry Aztec Diddy 5DTemple to Main",
                 "source": "DiddyTemple",
@@ -892,6 +950,7 @@
                 "Reverse": "AztecMainToDiddy"
             },
             "AztecMainToLanky": {
+                "id": "AztecMainToLanky",
                 "Key": "AztecMainToLanky",
                 "Name": "Angry Aztec Main to Lanky 5DTemple",
                 "source": "AngryAztecMain",
@@ -906,6 +965,7 @@
                 "Reverse": "AztecLankyToMain"
             },
             "AztecLankyToMain": {
+                "id": "AztecLankyToMain",
                 "Key": "AztecLankyToMain",
                 "Name": "Angry Aztec Lanky 5DTemple to Main",
                 "source": "LankyTemple",
@@ -920,6 +980,7 @@
                 "Reverse": "AztecMainToLanky"
             },
             "AztecMainToTiny": {
+                "id": "AztecMainToTiny",
                 "Key": "AztecMainToTiny",
                 "Name": "Angry Aztec Main to Tiny 5DTemple",
                 "source": "AngryAztecMain",
@@ -934,6 +995,7 @@
                 "Reverse": "AztecTinyToMain"
             },
             "AztecTinyToMain": {
+                "id": "AztecTinyToMain",
                 "Key": "AztecTinyToMain",
                 "Name": "Angry Aztec Tiny 5DTemple To Main",
                 "source": "TinyTemple",
@@ -948,6 +1010,7 @@
                 "Reverse": "AztecMainToTiny"
             },
             "AztecMainToChunky": {
+                "id": "AztecMainToChunky",
                 "Key": "AztecMainToChunky",
                 "Name": "Angry Aztec Main to Chunky 5DTemple",
                 "source": "AngryAztecMain",
@@ -962,6 +1025,7 @@
                 "Reverse": "AztecChunkyToMain"
             },
             "AztecChunkyToMain": {
+                "id": "AztecChunkyToMain",
                 "Key": "AztecChunkyToMain",
                 "Name": "Angry Aztec Chunky 5DTemple to Main",
                 "source": "ChunkyTemple",
@@ -976,6 +1040,7 @@
                 "Reverse": "AztecMainToChunky"
             },
             "AztecMainToRace": {
+                "id": "AztecMainToRace",
                 "Key": "AztecMainToRace",
                 "Name": "Angry Aztec Main to Beetle Race",
                 "source": "AngryAztecMain",
@@ -990,6 +1055,7 @@
                 "Reverse": "AztecRaceToMain"
             },
             "AztecRaceToMain": {
+                "id": "AztecRaceToMain",
                 "Key": "AztecRaceToMain",
                 "Name": "Angry Aztec Beetle Race to Main",
                 "source": "AztecTinyRace",
@@ -1004,6 +1070,7 @@
                 "Reverse": "AztecMainToRace"
             },
             "AztecLlamaToMain": {
+                "id": "AztecLlamaToMain",
                 "Key": "AztecLlamaToMain",
                 "Name": "Angry Aztec Llama Temple to Main",
                 "source": "LlamaTemple",
@@ -1018,6 +1085,7 @@
                 "Reverse": "AztecMainToLlama"
             },
             "AztecMainToLlama": {
+                "id": "AztecMainToLlama",
                 "Key": "AztecMainToLlama",
                 "Name": "Angry Aztec Main to Llama Temple",
                 "source": "AngryAztecMain",
@@ -1032,6 +1100,7 @@
                 "Reverse": "AztecLlamaToMain"
             },
             "FactoryRandDToRace": {
+                "id": "FactoryRandDToRace",
                 "Key": "FactoryRandDToRace",
                 "Name": "Frantic Factory R&D to Car Race",
                 "source": "FactoryTinyRaceLobby",
@@ -1046,6 +1115,7 @@
                 "Reverse": "FactoryRaceToRandD"
             },
             "FactoryRaceToRandD": {
+                "id": "FactoryRaceToRandD",
                 "Key": "FactoryRaceToRandD",
                 "Name": "Frantic Factory Car Race to R&D",
                 "source": "FactoryTinyRace",
@@ -1060,6 +1130,7 @@
                 "Reverse": "FactoryRandDToRace"
             },
             "FactoryChunkyRoomToPower": {
+                "id": "FactoryChunkyRoomToPower",
                 "Key": "FactoryChunkyRoomToPower",
                 "Name": "Frantic Factory Main to Power Shed",
                 "source": "ChunkyRoomPlatform",
@@ -1074,6 +1145,7 @@
                 "Reverse": "FactoryPowerToChunkyRoom"
             },
             "FactoryPowerToChunkyRoom": {
+                "id": "FactoryPowerToChunkyRoom",
                 "Key": "FactoryPowerToChunkyRoom",
                 "Name": "Frantic Factory Power Room to Chunky Room",
                 "source": "PowerHut",
@@ -1088,6 +1160,7 @@
                 "Reverse": "FactoryChunkyRoomToPower"
             },
             "FactoryBeyondHatchToInsideCore": {
+                "id": "FactoryBeyondHatchToInsideCore",
                 "Key": "FactoryBeyondHatchToInsideCore",
                 "Name": "Frantic Factory Main to Crusher Room",
                 "source": "BeyondHatch",
@@ -1102,6 +1175,7 @@
                 "Reverse": "FactoryInsideCoreToBeyondHatch"
             },
             "FactoryInsideCoreToBeyondHatch": {
+                "id": "FactoryInsideCoreToBeyondHatch",
                 "Key": "FactoryInsideCoreToBeyondHatch",
                 "Name": "Frantic Factory Crusher Room to Main",
                 "source": "InsideCore",
@@ -1116,6 +1190,7 @@
                 "Reverse": "FactoryBeyondHatchToInsideCore"
             },
             "GalleonLighthouseAreaToLighthouse": {
+                "id": "GalleonLighthouseAreaToLighthouse",
                 "Key": "GalleonLighthouseAreaToLighthouse",
                 "Name": "Gloomy Galleon Main to Lighthouse",
                 "source": "LighthousePlatform",
@@ -1130,6 +1205,7 @@
                 "Reverse": "GalleonLighthouseToLighthouseArea"
             },
             "GalleonLighthouseToLighthouseArea": {
+                "id": "GalleonLighthouseToLighthouseArea",
                 "Key": "GalleonLighthouseToLighthouseArea",
                 "Name": "Gloomy Galleon Lighthouse to Main",
                 "source": "Lighthouse",
@@ -1144,6 +1220,7 @@
                 "Reverse": "GalleonLighthouseAreaToLighthouse"
             },
             "GalleonLighthouseAreaToMermaid": {
+                "id": "GalleonLighthouseAreaToMermaid",
                 "Key": "GalleonLighthouseAreaToMermaid",
                 "Name": "Gloomy Galleon Main to Mermaid",
                 "source": "LighthouseUnderwater",
@@ -1158,6 +1235,7 @@
                 "Reverse": "GalleonMermaidToLighthouseArea"
             },
             "GalleonMermaidToLighthouseArea": {
+                "id": "GalleonMermaidToLighthouseArea",
                 "Key": "GalleonMermaidToLighthouseArea",
                 "Name": "Gloomy Galleon Mermaid to Main",
                 "source": "MermaidRoom",
@@ -1172,6 +1250,7 @@
                 "Reverse": "GalleonLighthouseAreaToMermaid"
             },
             "GalleonLighthouseAreaToSickBay": {
+                "id": "GalleonLighthouseAreaToSickBay",
                 "Key": "GalleonLighthouseAreaToSickBay",
                 "Name": "Gloomy Galleon Main to Seasick Ship",
                 "source": "LighthousePlatform",
@@ -1186,6 +1265,7 @@
                 "Reverse": "GalleonSickBayToLighthouseArea"
             },
             "GalleonSickBayToLighthouseArea": {
+                "id": "GalleonSickBayToLighthouseArea",
                 "Key": "GalleonSickBayToLighthouseArea",
                 "Name": "Gloomy Galleon Seasick Ship to Main",
                 "source": "SickBay",
@@ -1200,6 +1280,7 @@
                 "Reverse": "GalleonLighthouseAreaToSickBay"
             },
             "GalleonShipyardToSeal": {
+                "id": "GalleonShipyardToSeal",
                 "Key": "GalleonShipyardToSeal",
                 "Name": "Gloomy Galleon Main to Seal Race",
                 "source": "Shipyard",
@@ -1214,6 +1295,7 @@
                 "Reverse": "GalleonSealToShipyard"
             },
             "GalleonSealToShipyard": {
+                "id": "GalleonSealToShipyard",
                 "Key": "GalleonSealToShipyard",
                 "Name": "Gloomy Galleon Seal Race to Main",
                 "source": "SealRace",
@@ -1228,6 +1310,7 @@
                 "Reverse": "GalleonShipyardToSeal"
             },
             "GalleonShipyardToSubmarine": {
+                "id": "GalleonShipyardToSubmarine",
                 "Key": "GalleonShipyardToSubmarine",
                 "Name": "Gloomy Galleon Main to Submarine",
                 "source": "ShipyardUnderwater",
@@ -1242,6 +1325,7 @@
                 "Reverse": "GalleonSubmarineToShipyard"
             },
             "GalleonSubmarineToShipyard": {
+                "id": "GalleonSubmarineToShipyard",
                 "Key": "GalleonSubmarineToShipyard",
                 "Name": "Gloomy Galleon Submarine to Main",
                 "source": "Submarine",
@@ -1256,6 +1340,7 @@
                 "Reverse": "GalleonShipyardToSubmarine"
             },
             "GalleonShipyardToLanky": {
+                "id": "GalleonShipyardToLanky",
                 "Key": "GalleonShipyardToLanky",
                 "Name": "Gloomy Galleon Main to Lanky 2DShip",
                 "source": "ShipyardUnderwater",
@@ -1270,6 +1355,7 @@
                 "Reverse": "GalleonLankyToShipyard"
             },
             "GalleonLankyToShipyard": {
+                "id": "GalleonLankyToShipyard",
                 "Key": "GalleonLankyToShipyard",
                 "Name": "Gloomy Galleon Lanky 2DShip to Main",
                 "source": "LankyShip",
@@ -1284,6 +1370,7 @@
                 "Reverse": "GalleonShipyardToLanky"
             },
             "GalleonShipyardToTiny": {
+                "id": "GalleonShipyardToTiny",
                 "Key": "GalleonShipyardToTiny",
                 "Name": "Gloomy Galleon Main to Tiny 2DShip",
                 "source": "ShipyardUnderwater",
@@ -1298,6 +1385,7 @@
                 "Reverse": "GalleonTinyToShipyard"
             },
             "GalleonTinyToShipyard": {
+                "id": "GalleonTinyToShipyard",
                 "Key": "GalleonTinyToShipyard",
                 "Name": "Gloomy Galleon Tiny 2DShip to Main",
                 "source": "TinyShip",
@@ -1312,6 +1400,7 @@
                 "Reverse": "GalleonShipyardToTiny"
             },
             "GalleonShipyardToBongos": {
+                "id": "GalleonShipyardToBongos",
                 "Key": "GalleonShipyardToBongos",
                 "Name": "Gloomy Galleon Main to DK 5DShip",
                 "source": "ShipyardUnderwater",
@@ -1326,6 +1415,7 @@
                 "Reverse": "GalleonBongosToShipyard"
             },
             "GalleonBongosToShipyard": {
+                "id": "GalleonBongosToShipyard",
                 "Key": "GalleonBongosToShipyard",
                 "Name": "Gloomy Galleon DK 5DShip to Main",
                 "source": "BongosShip",
@@ -1340,6 +1430,7 @@
                 "Reverse": "GalleonShipyardToBongos"
             },
             "GalleonShipyardToGuitar": {
+                "id": "GalleonShipyardToGuitar",
                 "Key": "GalleonShipyardToGuitar",
                 "Name": "Gloomy Galleon Main to Diddy 5DShip",
                 "source": "ShipyardUnderwater",
@@ -1354,6 +1445,7 @@
                 "Reverse": "GalleonGuitarToShipyard"
             },
             "GalleonGuitarToShipyard": {
+                "id": "GalleonGuitarToShipyard",
                 "Key": "GalleonGuitarToShipyard",
                 "Name": "Gloomy Galleon Diddy 5DShip to Main",
                 "source": "GuitarShip",
@@ -1368,6 +1460,7 @@
                 "Reverse": "GalleonShipyardToGuitar"
             },
             "GalleonShipyardToTrombone": {
+                "id": "GalleonShipyardToTrombone",
                 "Key": "GalleonShipyardToTrombone",
                 "Name": "Gloomy Galleon Main to Lanky 5DShip",
                 "source": "ShipyardUnderwater",
@@ -1382,6 +1475,7 @@
                 "Reverse": "GalleonTromboneToShipyard"
             },
             "GalleonTromboneToShipyard": {
+                "id": "GalleonTromboneToShipyard",
                 "Key": "GalleonTromboneToShipyard",
                 "Name": "Gloomy Galleon Lanky 5DShip to Main",
                 "source": "TromboneShip",
@@ -1396,6 +1490,7 @@
                 "Reverse": "GalleonShipyardToTrombone"
             },
             "GalleonShipyardToSaxophone": {
+                "id": "GalleonShipyardToSaxophone",
                 "Key": "GalleonShipyardToSaxophone",
                 "Name": "Gloomy Galleon Main to Tiny 5DShip",
                 "source": "ShipyardUnderwater",
@@ -1410,6 +1505,7 @@
                 "Reverse": "GalleonSaxophoneToShipyard"
             },
             "GalleonSaxophoneToShipyard": {
+                "id": "GalleonSaxophoneToShipyard",
                 "Key": "GalleonSaxophoneToShipyard",
                 "Name": "Gloomy Galleon Tiny 5DShip to Main",
                 "source": "SaxophoneShip",
@@ -1424,6 +1520,7 @@
                 "Reverse": "GalleonShipyardToSaxophone"
             },
             "GalleonShipyardToTriangle": {
+                "id": "GalleonShipyardToTriangle",
                 "Key": "GalleonShipyardToTriangle",
                 "Name": "Gloomy Galleon Main to Chunky 5DShip",
                 "source": "ShipyardUnderwater",
@@ -1438,6 +1535,7 @@
                 "Reverse": "GalleonTriangleToShipyard"
             },
             "GalleonTriangleToShipyard": {
+                "id": "GalleonTriangleToShipyard",
                 "Key": "GalleonTriangleToShipyard",
                 "Name": "Gloomy Galleon Chunky 5DShip to Main",
                 "source": "TriangleShip",
@@ -1452,6 +1550,7 @@
                 "Reverse": "GalleonShipyardToTriangle"
             },
             "GalleonTreasureToChest": {
+                "id": "GalleonTreasureToChest",
                 "Key": "GalleonTreasureToChest",
                 "Name": "Gloomy Galleon Main to Treasure Chest",
                 "source": "TreasureRoom",
@@ -1466,6 +1565,7 @@
                 "Reverse": "GalleonChestToTreasure"
             },
             "GalleonChestToTreasure": {
+                "id": "GalleonChestToTreasure",
                 "Key": "GalleonChestToTreasure",
                 "Name": "Gloomy Galleon Treasure Chest to Main",
                 "source": "TinyChest",
@@ -1480,6 +1580,7 @@
                 "Reverse": "GalleonTreasureToChest"
             },
             "ForestMainToCarts": {
+                "id": "ForestMainToCarts",
                 "Key": "ForestMainToCarts",
                 "Name": "Fungi Forest Main To Minecart",
                 "source": "FungiForestStart",
@@ -1493,6 +1594,7 @@
                 }
             },
             "ForestCartsToMain": {
+                "id": "ForestCartsToMain",
                 "Key": "ForestCartsToMain",
                 "Name": "Fungi Forest Minecart To Main",
                 "source": "ForestMinecarts",
@@ -1506,6 +1608,7 @@
                 }
             },
             "ForestMainToLowerMushroom": {
+                "id": "ForestMainToLowerMushroom",
                 "Key": "ForestMainToLowerMushroom",
                 "Name": "Fungi Forest Main to Giant Mushroom (Lower)",
                 "source": "GiantMushroomArea",
@@ -1520,6 +1623,7 @@
                 "Reverse": "ForestLowerMushroomToMain"
             },
             "ForestLowerMushroomToMain": {
+                "id": "ForestLowerMushroomToMain",
                 "Key": "ForestLowerMushroomToMain",
                 "Name": "Fungi Forest Giant Mushroom (Lower) to Main",
                 "source": "MushroomLower",
@@ -1534,6 +1638,7 @@
                 "Reverse": "ForestMainToLowerMushroom"
             },
             "ForestLowerExteriorToLowerMushroom": {
+                "id": "ForestLowerExteriorToLowerMushroom",
                 "Key": "ForestLowerExteriorToLowerMushroom",
                 "Name": "Fungi Forest Main to Giant Mushroom (Middle Low)",
                 "source": "MushroomLowerExterior",
@@ -1548,6 +1653,7 @@
                 "Reverse": "ForestLowerMushroomToLowerExterior"
             },
             "ForestLowerMushroomToLowerExterior": {
+                "id": "ForestLowerMushroomToLowerExterior",
                 "Key": "ForestLowerMushroomToLowerExterior",
                 "Name": "Fungi Forest Giant Mushroom (Middle Low) to Main",
                 "source": "MushroomLower",
@@ -1562,6 +1668,7 @@
                 "Reverse": "ForestLowerExteriorToLowerMushroom"
             },
             "ForestLowerExteriorToUpperMushroom": {
+                "id": "ForestLowerExteriorToUpperMushroom",
                 "Key": "ForestLowerExteriorToUpperMushroom",
                 "Name": "Fungi Forest Main to Giant Mushroom (Middle High)",
                 "source": "MushroomLowerExterior",
@@ -1576,6 +1683,7 @@
                 "Reverse": "ForestUpperMushroomToLowerExterior"
             },
             "ForestUpperMushroomToLowerExterior": {
+                "id": "ForestUpperMushroomToLowerExterior",
                 "Key": "ForestUpperMushroomToLowerExterior",
                 "Name": "Fungi Forest Giant Mushroom (Middle High) to Main",
                 "source": "MushroomUpper",
@@ -1590,6 +1698,7 @@
                 "Reverse": "ForestLowerExteriorToUpperMushroom"
             },
             "ForestUpperExteriorToUpperMushroom": {
+                "id": "ForestUpperExteriorToUpperMushroom",
                 "Key": "ForestUpperExteriorToUpperMushroom",
                 "Name": "Fungi Forest Main to Giant Mushroom (Top)",
                 "source": "MushroomUpperExterior",
@@ -1604,6 +1713,7 @@
                 "Reverse": "ForestUpperMushroomToUpperExterior"
             },
             "ForestUpperMushroomToUpperExterior": {
+                "id": "ForestUpperMushroomToUpperExterior",
                 "Key": "ForestUpperMushroomToUpperExterior",
                 "Name": "Fungi Forest Giant Mushroom (Top) to Main",
                 "source": "MushroomUpper",
@@ -1618,6 +1728,7 @@
                 "Reverse": "ForestUpperExteriorToUpperMushroom"
             },
             "ForestExteriorToNight": {
+                "id": "ForestExteriorToNight",
                 "Key": "ForestExteriorToNight",
                 "Name": "Fungi Forest Main to Giant Mushroom (Night Door)",
                 "source": "MushroomNightExterior",
@@ -1632,6 +1743,7 @@
                 "Reverse": "ForestNightToExterior"
             },
             "ForestNightToExterior": {
+                "id": "ForestNightToExterior",
                 "Key": "ForestNightToExterior",
                 "Name": "Fungi Forest Giant Mushroom (Night Door) to Main",
                 "source": "MushroomNightDoor",
@@ -1646,6 +1758,7 @@
                 "Reverse": "ForestExteriorToNight"
             },
             "ForestExteriorToChunky": {
+                "id": "ForestExteriorToChunky",
                 "Key": "ForestExteriorToChunky",
                 "Name": "Fungi Forest Main to Face Puzzle (Chunky)",
                 "source": "MushroomUpperExterior",
@@ -1660,6 +1773,7 @@
                 "Reverse": "ForestChunkyToExterior"
             },
             "ForestChunkyToExterior": {
+                "id": "ForestChunkyToExterior",
                 "Key": "ForestChunkyToExterior",
                 "Name": "Fungi Forest Face Puzzle (Chunky) to Main",
                 "source": "MushroomChunkyRoom",
@@ -1674,6 +1788,7 @@
                 "Reverse": "ForestExteriorToChunky"
             },
             "ForestExteriorToZingers": {
+                "id": "ForestExteriorToZingers",
                 "Key": "ForestExteriorToZingers",
                 "Name": "Fungi Forest Main to Bouncy Shrooms (Lanky)",
                 "source": "MushroomUpperExterior",
@@ -1688,6 +1803,7 @@
                 "Reverse": "ForestZingersToExterior"
             },
             "ForestZingersToExterior": {
+                "id": "ForestZingersToExterior",
                 "Key": "ForestZingersToExterior",
                 "Name": "Fungi Forest Bouncy Shrooms (Lanky) to Main",
                 "source": "MushroomLankyZingersRoom",
@@ -1702,6 +1818,7 @@
                 "Reverse": "ForestExteriorToZingers"
             },
             "ForestExteriorToMushrooms": {
+                "id": "ForestExteriorToMushrooms",
                 "Key": "ForestExteriorToMushrooms",
                 "Name": "Fungi Forest Main to Mushroom Puzzle (Lanky)",
                 "source": "MushroomUpperExterior",
@@ -1716,6 +1833,7 @@
                 "Reverse": "ForestMushroomsToExterior"
             },
             "ForestMushroomsToExterior": {
+                "id": "ForestMushroomsToExterior",
                 "Key": "ForestMushroomsToExterior",
                 "Name": "Fungi Forest Mushroom Puzzle (Lanky) to Main",
                 "source": "MushroomLankyMushroomsRoom",
@@ -1730,6 +1848,7 @@
                 "Reverse": "ForestExteriorToMushrooms"
             },
             "ForestTreeToAnthill": {
+                "id": "ForestTreeToAnthill",
                 "Key": "ForestTreeToAnthill",
                 "Name": "Fungi Forest Main to Anthill",
                 "source": "HollowTreeArea",
@@ -1744,6 +1863,7 @@
                 "Reverse": "ForestAnthillToTree"
             },
             "ForestAnthillToTree": {
+                "id": "ForestAnthillToTree",
                 "Key": "ForestAnthillToTree",
                 "Name": "Fungi Forest Anthill to Main",
                 "source": "Anthill",
@@ -1758,6 +1878,7 @@
                 "Reverse": "ForestTreeToAnthill"
             },
             "ForestMainToChunkyMill": {
+                "id": "ForestMainToChunkyMill",
                 "Key": "ForestMainToChunkyMill",
                 "Name": "Fungi Forest Main to Mill Back Door",
                 "source": "MillArea",
@@ -1772,6 +1893,7 @@
                 "Reverse": "ForestChunkyMillToMain"
             },
             "ForestChunkyMillToMain": {
+                "id": "ForestChunkyMillToMain",
                 "Key": "ForestChunkyMillToMain",
                 "Name": "Fungi Forest Mill Back Door to Main",
                 "source": "MillChunkyTinyArea",
@@ -1786,6 +1908,7 @@
                 "Reverse": "ForestMainToChunkyMill"
             },
             "ForestMainToTinyMill": {
+                "id": "ForestMainToTinyMill",
                 "Key": "ForestMainToTinyMill",
                 "Name": "Fungi Forest Main to Mill Tiny Hole",
                 "source": "MillArea",
@@ -1800,6 +1923,7 @@
                 "Reverse": "ForestTinyMillToMain"
             },
             "ForestTinyMillToMain": {
+                "id": "ForestTinyMillToMain",
                 "Key": "ForestTinyMillToMain",
                 "Name": "Fungi Forest Mill Tiny Hole to Main",
                 "source": "MillChunkyTinyArea",
@@ -1814,6 +1938,7 @@
                 "Reverse": "ForestMainToTinyMill"
             },
             "ForestMainToGrinder": {
+                "id": "ForestMainToGrinder",
                 "Key": "ForestMainToGrinder",
                 "Name": "Fungi Forest Main to Mill Front Door",
                 "source": "MillArea",
@@ -1828,6 +1953,7 @@
                 "Reverse": "ForestGrinderToMain"
             },
             "ForestGrinderToMain": {
+                "id": "ForestGrinderToMain",
                 "Key": "ForestGrinderToMain",
                 "Name": "Fungi Forest Mill Front Door to Main",
                 "source": "GrinderRoom",
@@ -1842,6 +1968,7 @@
                 "Reverse": "ForestMainToGrinder"
             },
             "ForestMainToRafters": {
+                "id": "ForestMainToRafters",
                 "Key": "ForestMainToRafters",
                 "Name": "Fungi Forest Main to Dark Rafters",
                 "source": "MillArea",
@@ -1856,6 +1983,7 @@
                 "Reverse": "ForestRaftersToMain"
             },
             "ForestRaftersToMain": {
+                "id": "ForestRaftersToMain",
                 "Key": "ForestRaftersToMain",
                 "Name": "Fungi Forest Dark Rafters to Main",
                 "source": "MillRafters",
@@ -1870,6 +1998,7 @@
                 "Reverse": "ForestMainToRafters"
             },
             "ForestMainToWinch": {
+                "id": "ForestMainToWinch",
                 "Key": "ForestMainToWinch",
                 "Name": "Fungi Forest Main to Winch Room",
                 "source": "MillArea",
@@ -1884,6 +2013,7 @@
                 "Reverse": "ForestWinchToMain"
             },
             "ForestWinchToMain": {
+                "id": "ForestWinchToMain",
                 "Key": "ForestWinchToMain",
                 "Name": "Fungi Forest Winch Room to Main",
                 "source": "WinchRoom",
@@ -1898,6 +2028,7 @@
                 "Reverse": "ForestMainToWinch"
             },
             "ForestMainToAttic": {
+                "id": "ForestMainToAttic",
                 "Key": "ForestMainToAttic",
                 "Name": "Fungi Forest Main to Mill Attic (Lanky)",
                 "source": "MillArea",
@@ -1912,6 +2043,7 @@
                 "Reverse": "ForestAtticToMain"
             },
             "ForestAtticToMain": {
+                "id": "ForestAtticToMain",
                 "Key": "ForestAtticToMain",
                 "Name": "Fungi Forest Mill Attic (Lanky) to Main",
                 "source": "MillAttic",
@@ -1926,6 +2058,7 @@
                 "Reverse": "ForestMainToAttic"
             },
             "ForestTinyMillToSpider": {
+                "id": "ForestTinyMillToSpider",
                 "Key": "ForestTinyMillToSpider",
                 "Name": "Fungi Forest Back Mill to Spider",
                 "source": "MillChunkyTinyArea",
@@ -1940,6 +2073,7 @@
                 "Reverse": "ForestSpiderToTinyMill"
             },
             "ForestSpiderToTinyMill": {
+                "id": "ForestSpiderToTinyMill",
                 "Key": "ForestSpiderToTinyMill",
                 "Name": "Fungi Forest Spider to Back Mill",
                 "source": "SpiderRoom",
@@ -1954,6 +2088,7 @@
                 "Reverse": "ForestTinyMillToSpider"
             },
             "ForestTinyMillToGrinder": {
+                "id": "ForestTinyMillToGrinder",
                 "Key": "ForestTinyMillToGrinder",
                 "Name": "Fungi Forest Back Mill to Front Mill",
                 "source": "MillChunkyTinyArea",
@@ -1968,6 +2103,7 @@
                 "Reverse": "ForestGrinderToTinyMill"
             },
             "ForestGrinderToTinyMill": {
+                "id": "ForestGrinderToTinyMill",
                 "Key": "ForestGrinderToTinyMill",
                 "Name": "Fungi Forest Front Mill to Back Mill",
                 "source": "GrinderRoom",
@@ -1982,6 +2118,7 @@
                 "Reverse": "ForestTinyMillToGrinder"
             },
             "ForestMainToBarn": {
+                "id": "ForestMainToBarn",
                 "Key": "ForestMainToBarn",
                 "Name": "Fungi Forest Main to Thornvine Barn",
                 "source": "ThornvineArea",
@@ -1996,6 +2133,7 @@
                 "Reverse": "ForestBarnToMain"
             },
             "ForestBarnToMain": {
+                "id": "ForestBarnToMain",
                 "Key": "ForestBarnToMain",
                 "Name": "Fungi Forest Thornvine Barn to Main",
                 "source": "ThornvineBarn",
@@ -2010,6 +2148,7 @@
                 "Reverse": "ForestMainToBarn"
             },
             "CavesMainToRace": {
+                "id": "CavesMainToRace",
                 "Key": "CavesMainToRace",
                 "Name": "Crystal Caves Main to Beetle Race",
                 "source": "CrystalCavesMain",
@@ -2024,6 +2163,7 @@
                 "Reverse": "CavesRaceToMain"
             },
             "CavesRaceToMain": {
+                "id": "CavesRaceToMain",
                 "Key": "CavesRaceToMain",
                 "Name": "Crystal Caves Beetle Race to Main",
                 "source": "CavesLankyRace",
@@ -2038,6 +2178,7 @@
                 "Reverse": "CavesMainToRace"
             },
             "CavesMainToCastle": {
+                "id": "CavesMainToCastle",
                 "Key": "CavesMainToCastle",
                 "Name": "Crystal Caves Main to Ice Castle",
                 "source": "CrystalCavesMain",
@@ -2052,6 +2193,7 @@
                 "Reverse": "CavesCastleToMain"
             },
             "CavesCastleToMain": {
+                "id": "CavesCastleToMain",
                 "Key": "CavesCastleToMain",
                 "Name": "Crystal Caves Ice Castle to Main",
                 "source": "FrozenCastle",
@@ -2066,6 +2208,7 @@
                 "Reverse": "CavesMainToCastle"
             },
             "CavesIglooToDonkey": {
+                "id": "CavesIglooToDonkey",
                 "Key": "CavesIglooToDonkey",
                 "Name": "Crystal Caves Main to DK 5DIgloo",
                 "source": "IglooArea",
@@ -2080,6 +2223,7 @@
                 "Reverse": "CavesDonkeyToIgloo"
             },
             "CavesDonkeyToIgloo": {
+                "id": "CavesDonkeyToIgloo",
                 "Key": "CavesDonkeyToIgloo",
                 "Name": "Crystal Caves DK 5DIgloo to Main",
                 "source": "DonkeyIgloo",
@@ -2094,6 +2238,7 @@
                 "Reverse": "CavesIglooToDonkey"
             },
             "CavesIglooToDiddy": {
+                "id": "CavesIglooToDiddy",
                 "Key": "CavesIglooToDiddy",
                 "Name": "Crystal Caves Main to Diddy 5DIgloo",
                 "source": "IglooArea",
@@ -2108,6 +2253,7 @@
                 "Reverse": "CavesDiddyToIgloo"
             },
             "CavesDiddyToIgloo": {
+                "id": "CavesDiddyToIgloo",
                 "Key": "CavesDiddyToIgloo",
                 "Name": "Crystal Caves Diddy 5DIgloo to Main",
                 "source": "DiddyIgloo",
@@ -2122,6 +2268,7 @@
                 "Reverse": "CavesIglooToDiddy"
             },
             "CavesIglooToLanky": {
+                "id": "CavesIglooToLanky",
                 "Key": "CavesIglooToLanky",
                 "Name": "Crystal Caves Main to Lanky 5DIgloo",
                 "source": "IglooArea",
@@ -2136,6 +2283,7 @@
                 "Reverse": "CavesLankyToIgloo"
             },
             "CavesLankyToIgloo": {
+                "id": "CavesLankyToIgloo",
                 "Key": "CavesLankyToIgloo",
                 "Name": "Crystal Caves Lanky 5DIgloo to Main",
                 "source": "LankyIgloo",
@@ -2150,6 +2298,7 @@
                 "Reverse": "CavesIglooToLanky"
             },
             "CavesIglooToTiny": {
+                "id": "CavesIglooToTiny",
                 "Key": "CavesIglooToTiny",
                 "Name": "Crystal Caves Main to Tiny 5DIgloo",
                 "source": "IglooArea",
@@ -2164,6 +2313,7 @@
                 "Reverse": "CavesTinyToIgloo"
             },
             "CavesTinyToIgloo": {
+                "id": "CavesTinyToIgloo",
                 "Key": "CavesTinyToIgloo",
                 "Name": "Crystal Caves Tiny 5DIgloo to Main",
                 "source": "TinyIgloo",
@@ -2178,6 +2328,7 @@
                 "Reverse": "CavesIglooToTiny"
             },
             "CavesIglooToChunky": {
+                "id": "CavesIglooToChunky",
                 "Key": "CavesIglooToChunky",
                 "Name": "Crystal Caves Main to Chunky 5DIgloo",
                 "source": "IglooArea",
@@ -2192,6 +2343,7 @@
                 "Reverse": "CavesChunkyToIgloo"
             },
             "CavesChunkyToIgloo": {
+                "id": "CavesChunkyToIgloo",
                 "Key": "CavesChunkyToIgloo",
                 "Name": "Crystal Caves Chunky 5DIgloo to Main",
                 "source": "ChunkyIgloo",
@@ -2206,6 +2358,7 @@
                 "Reverse": "CavesIglooToChunky"
             },
             "CavesCabinToRotating": {
+                "id": "CavesCabinToRotating",
                 "Key": "CavesCabinToRotating",
                 "Name": "Crystal Caves Main to Rotating Room",
                 "source": "CabinArea",
@@ -2220,6 +2373,7 @@
                 "Reverse": "CavesRotatingToCabin"
             },
             "CavesRotatingToCabin": {
+                "id": "CavesRotatingToCabin",
                 "Key": "CavesRotatingToCabin",
                 "Name": "Crystal Caves Rotating Room to Main",
                 "source": "RotatingCabin",
@@ -2234,6 +2388,7 @@
                 "Reverse": "CavesCabinToRotating"
             },
             "CavesCabinToDonkey": {
+                "id": "CavesCabinToDonkey",
                 "Key": "CavesCabinToDonkey",
                 "Name": "Crystal Caves Main to DK 5DCabin",
                 "source": "CabinArea",
@@ -2248,6 +2403,7 @@
                 "Reverse": "CavesDonkeyToCabin"
             },
             "CavesDonkeyToCabin": {
+                "id": "CavesDonkeyToCabin",
                 "Key": "CavesDonkeyToCabin",
                 "Name": "Crystal Caves DK 5DCabin to Main",
                 "source": "DonkeyCabin",
@@ -2262,6 +2418,7 @@
                 "Reverse": "CavesCabinToDonkey"
             },
             "CavesCabinToDiddyLower": {
+                "id": "CavesCabinToDiddyLower",
                 "Key": "CavesCabinToDiddyLower",
                 "Name": "Crystal Caves Main to Diddy Lower 5DCabin",
                 "source": "CabinArea",
@@ -2276,6 +2433,7 @@
                 "Reverse": "CavesDiddyLowerToCabin"
             },
             "CavesDiddyLowerToCabin": {
+                "id": "CavesDiddyLowerToCabin",
                 "Key": "CavesDiddyLowerToCabin",
                 "Name": "Crystal Caves Diddy Lower 5DCabin to Main",
                 "source": "DiddyLowerCabin",
@@ -2290,6 +2448,7 @@
                 "Reverse": "CavesCabinToDiddyLower"
             },
             "CavesCabinToDiddyUpper": {
+                "id": "CavesCabinToDiddyUpper",
                 "Key": "CavesCabinToDiddyUpper",
                 "Name": "Crystal Caves Main to Diddy Upper 5DCabin",
                 "source": "CabinArea",
@@ -2304,6 +2463,7 @@
                 "Reverse": "CavesDiddyUpperToCabin"
             },
             "CavesDiddyUpperToCabin": {
+                "id": "CavesDiddyUpperToCabin",
                 "Key": "CavesDiddyUpperToCabin",
                 "Name": "Crystal Caves Diddy Upper 5DCabin to Main",
                 "source": "DiddyUpperCabin",
@@ -2318,6 +2478,7 @@
                 "Reverse": "CavesCabinToDiddyUpper"
             },
             "CavesCabinToLanky": {
+                "id": "CavesCabinToLanky",
                 "Key": "CavesCabinToLanky",
                 "Name": "Crystal Caves Main to Lanky 1DCabin",
                 "source": "CabinArea",
@@ -2332,6 +2493,7 @@
                 "Reverse": "CavesLankyToCabin"
             },
             "CavesLankyToCabin": {
+                "id": "CavesLankyToCabin",
                 "Key": "CavesLankyToCabin",
                 "Name": "Crystal Caves Lanky 1DCabin to Main",
                 "source": "LankyCabin",
@@ -2346,6 +2508,7 @@
                 "Reverse": "CavesCabinToLanky"
             },
             "CavesCabinToTiny": {
+                "id": "CavesCabinToTiny",
                 "Key": "CavesCabinToTiny",
                 "Name": "Crystal Caves Main to Tiny 5DCabin",
                 "source": "CabinArea",
@@ -2360,6 +2523,7 @@
                 "Reverse": "CavesTinyToCabin"
             },
             "CavesTinyToCabin": {
+                "id": "CavesTinyToCabin",
                 "Key": "CavesTinyToCabin",
                 "Name": "Crystal Caves Tiny 5DCabin to Main",
                 "source": "TinyCabin",
@@ -2374,6 +2538,7 @@
                 "Reverse": "CavesCabinToTiny"
             },
             "CavesCabinToChunky": {
+                "id": "CavesCabinToChunky",
                 "Key": "CavesCabinToChunky",
                 "Name": "Crystal Caves Main to Chunky 5DCabin",
                 "source": "CabinArea",
@@ -2388,6 +2553,7 @@
                 "Reverse": "CavesChunkyToCabin"
             },
             "CavesChunkyToCabin": {
+                "id": "CavesChunkyToCabin",
                 "Key": "CavesChunkyToCabin",
                 "Name": "Crystal Caves Chunky 5DCabin to Main",
                 "source": "ChunkyCabin",
@@ -2402,6 +2568,7 @@
                 "Reverse": "CavesCabinToChunky"
             },
             "CastleMainToTree": {
+                "id": "CastleMainToTree",
                 "Key": "CastleMainToTree",
                 "Name": "Creepy Castle Main to Tree",
                 "source": "CreepyCastleMain",
@@ -2416,6 +2583,7 @@
                 "Reverse": "CastleTreeToMain"
             },
             "CastleTreeToMain": {
+                "id": "CastleTreeToMain",
                 "Key": "CastleTreeToMain",
                 "Name": "Creepy Castle Tree to Main",
                 "source": "CastleTree",
@@ -2430,6 +2598,7 @@
                 "Reverse": "CastleMainToTree"
             },
             "CastleTreeDrainToMain": {
+                "id": "CastleTreeDrainToMain",
                 "Key": "CastleTreeDrainToMain",
                 "Name": "Creepy Castle Tree Drain to Main",
                 "source": "CastleTree",
@@ -2443,6 +2612,7 @@
                 }
             },
             "CastleMainToLibraryStart": {
+                "id": "CastleMainToLibraryStart",
                 "Key": "CastleMainToLibraryStart",
                 "Name": "Creepy Castle Main to Library (Entrance)",
                 "source": "CreepyCastleMain",
@@ -2457,6 +2627,7 @@
                 "Reverse": "CastleLibraryStartToMain"
             },
             "CastleLibraryStartToMain": {
+                "id": "CastleLibraryStartToMain",
                 "Key": "CastleLibraryStartToMain",
                 "Name": "Creepy Castle Library (Entrance) to Main",
                 "source": "Library",
@@ -2471,6 +2642,7 @@
                 "Reverse": "CastleMainToLibraryStart"
             },
             "CastleMainToLibraryEnd": {
+                "id": "CastleMainToLibraryEnd",
                 "Key": "CastleMainToLibraryEnd",
                 "Name": "Creepy Castle Main to Library (Exit)",
                 "source": "CreepyCastleMain",
@@ -2484,6 +2656,7 @@
                 }
             },
             "CastleLibraryEndToMain": {
+                "id": "CastleLibraryEndToMain",
                 "Key": "CastleLibraryEndToMain",
                 "Name": "Creepy Castle Library (Exit) to Main",
                 "source": "LibraryPastBooks",
@@ -2497,6 +2670,7 @@
                 }
             },
             "CastleMainToBallroom": {
+                "id": "CastleMainToBallroom",
                 "Key": "CastleMainToBallroom",
                 "Name": "Creepy Castle Main to Ballroom",
                 "source": "CreepyCastleMain",
@@ -2511,6 +2685,7 @@
                 "Reverse": "CastleBallroomToMain"
             },
             "CastleBallroomToMain": {
+                "id": "CastleBallroomToMain",
                 "Key": "CastleBallroomToMain",
                 "Name": "Creepy Castle Ballroom to Main",
                 "source": "Ballroom",
@@ -2525,6 +2700,7 @@
                 "Reverse": "CastleMainToBallroom"
             },
             "CastleMainToTower": {
+                "id": "CastleMainToTower",
                 "Key": "CastleMainToTower",
                 "Name": "Creepy Castle Main to Tower",
                 "source": "CreepyCastleMain",
@@ -2539,6 +2715,7 @@
                 "Reverse": "CastleTowerToMain"
             },
             "CastleTowerToMain": {
+                "id": "CastleTowerToMain",
                 "Key": "CastleTowerToMain",
                 "Name": "Creepy Castle Tower to Main",
                 "source": "Tower",
@@ -2553,6 +2730,7 @@
                 "Reverse": "CastleMainToTower"
             },
             "CastleMainToGreenhouse": {
+                "id": "CastleMainToGreenhouse",
                 "Key": "CastleMainToGreenhouse",
                 "Name": "Creepy Castle Main to Greenhouse",
                 "source": "CreepyCastleMain",
@@ -2567,6 +2745,7 @@
                 "Reverse": "CastleGreenhouseStartToMain"
             },
             "CastleGreenhouseStartToMain": {
+                "id": "CastleGreenhouseStartToMain",
                 "Key": "CastleGreenhouseStartToMain",
                 "Name": "Creepy Castle Greenhouse (Entrance) to Main",
                 "source": "Greenhouse",
@@ -2581,6 +2760,7 @@
                 "Reverse": "CastleMainToGreenhouse"
             },
             "CastleGreenhouseEndToMain": {
+                "id": "CastleGreenhouseEndToMain",
                 "Key": "CastleGreenhouseEndToMain",
                 "Name": "Creepy Castle Greenhouse (Exit) to Main",
                 "source": "Greenhouse",
@@ -2594,6 +2774,7 @@
                 }
             },
             "CastleMainToTrash": {
+                "id": "CastleMainToTrash",
                 "Key": "CastleMainToTrash",
                 "Name": "Creepy Castle Main to Trash Can",
                 "source": "CreepyCastleMain",
@@ -2608,6 +2789,7 @@
                 "Reverse": "CastleTrashToMain"
             },
             "CastleTrashToMain": {
+                "id": "CastleTrashToMain",
                 "Key": "CastleTrashToMain",
                 "Name": "Creepy Castle Trash Can to Main",
                 "source": "TrashCan",
@@ -2622,6 +2804,7 @@
                 "Reverse": "CastleMainToTrash"
             },
             "CastleMainToShed": {
+                "id": "CastleMainToShed",
                 "Key": "CastleMainToShed",
                 "Name": "Creepy Castle Main to Shed",
                 "source": "CreepyCastleMain",
@@ -2636,6 +2819,7 @@
                 "Reverse": "CastleShedToMain"
             },
             "CastleShedToMain": {
+                "id": "CastleShedToMain",
                 "Key": "CastleShedToMain",
                 "Name": "Creepy Castle Shed to Main",
                 "source": "Shed",
@@ -2650,6 +2834,7 @@
                 "Reverse": "CastleMainToShed"
             },
             "CastleMainToMuseum": {
+                "id": "CastleMainToMuseum",
                 "Key": "CastleMainToMuseum",
                 "Name": "Creepy Castle Main to Museum",
                 "source": "CreepyCastleMain",
@@ -2664,6 +2849,7 @@
                 "Reverse": "CastleMuseumToMain"
             },
             "CastleMuseumToMain": {
+                "id": "CastleMuseumToMain",
                 "Key": "CastleMuseumToMain",
                 "Name": "Creepy Castle Museum to Main",
                 "source": "Museum",
@@ -2678,6 +2864,7 @@
                 "Reverse": "CastleMainToMuseum"
             },
             "CastleMainToLower": {
+                "id": "CastleMainToLower",
                 "Key": "CastleMainToLower",
                 "Name": "Creepy Castle Main to Lower Cave",
                 "source": "CreepyCastleMain",
@@ -2692,6 +2879,7 @@
                 "Reverse": "CastleLowerToMain"
             },
             "CastleLowerToMain": {
+                "id": "CastleLowerToMain",
                 "Key": "CastleLowerToMain",
                 "Name": "Creepy Castle Lower Cave to Main",
                 "source": "LowerCave",
@@ -2706,6 +2894,7 @@
                 "Reverse": "CastleMainToLower"
             },
             "CastleMainToUpper": {
+                "id": "CastleMainToUpper",
                 "Key": "CastleMainToUpper",
                 "Name": "Creepy Castle Main to Upper Cave (Back door)",
                 "source": "CreepyCastleMain",
@@ -2720,6 +2909,7 @@
                 "Reverse": "CastleUpperToMain"
             },
             "CastleUpperToMain": {
+                "id": "CastleUpperToMain",
                 "Key": "CastleUpperToMain",
                 "Name": "Creepy Castle Upper Cave to Main (Back door)",
                 "source": "UpperCave",
@@ -2734,6 +2924,7 @@
                 "Reverse": "CastleMainToUpper"
             },
             "CastleWaterfallToUpper": {
+                "id": "CastleWaterfallToUpper",
                 "Key": "CastleWaterfallToUpper",
                 "Name": "Creepy Castle Main to Upper Cave (Moat door)",
                 "source": "CastleWaterfall",
@@ -2748,6 +2939,7 @@
                 "Reverse": "CastleUpperToWaterfall"
             },
             "CastleUpperToWaterfall": {
+                "id": "CastleUpperToWaterfall",
                 "Key": "CastleUpperToWaterfall",
                 "Name": "Creepy Castle Upper Cave to Main (Moat door)",
                 "source": "UpperCave",
@@ -2762,6 +2954,7 @@
                 "Reverse": "CastleWaterfallToUpper"
             },
             "CastleBallroomToMuseum": {
+                "id": "CastleBallroomToMuseum",
                 "Key": "CastleBallroomToMuseum",
                 "Name": "Creepy Castle Ballroom to Museum",
                 "source": "Ballroom",
@@ -2776,6 +2969,7 @@
                 "Reverse": "CastleMuseumToBallroom"
             },
             "CastleMuseumToBallroom": {
+                "id": "CastleMuseumToBallroom",
                 "Key": "CastleMuseumToBallroom",
                 "Name": "Creepy Castle Museum to Ballroom",
                 "source": "MuseumBehindGlass",
@@ -2790,6 +2984,7 @@
                 "Reverse": "CastleBallroomToMuseum"
             },
             "CastleMuseumToCarRace": {
+                "id": "CastleMuseumToCarRace",
                 "Key": "CastleMuseumToCarRace",
                 "Name": "Creepy Castle Museum to Car Race",
                 "source": "MuseumBehindGlass",
@@ -2804,6 +2999,7 @@
                 "Reverse": "CastleRaceToMuseum"
             },
             "CastleRaceToMuseum": {
+                "id": "CastleRaceToMuseum",
                 "Key": "CastleRaceToMuseum",
                 "Name": "Creepy Castle Car Race to Museum",
                 "source": "CastleTinyRace",
@@ -2818,6 +3014,7 @@
                 "Reverse": "CastleMuseumToCarRace"
             },
             "CastleLowerToCrypt": {
+                "id": "CastleLowerToCrypt",
                 "Key": "CastleLowerToCrypt",
                 "Name": "Creepy Castle Lower Cave to Crypt",
                 "source": "LowerCave",
@@ -2832,6 +3029,7 @@
                 "Reverse": "CastleCryptToLower"
             },
             "CastleCryptToLower": {
+                "id": "CastleCryptToLower",
                 "Key": "CastleCryptToLower",
                 "Name": "Creepy Castle Crypt to Lower Cave",
                 "source": "Crypt",
@@ -2846,6 +3044,7 @@
                 "Reverse": "CastleLowerToCrypt"
             },
             "CastleLowerToMausoleum": {
+                "id": "CastleLowerToMausoleum",
                 "Key": "CastleLowerToMausoleum",
                 "Name": "Creepy Castle Lower Cave to Mausoleum",
                 "source": "LowerCave",
@@ -2860,6 +3059,7 @@
                 "Reverse": "CastleMausoleumToLower"
             },
             "CastleMausoleumToLower": {
+                "id": "CastleMausoleumToLower",
                 "Key": "CastleMausoleumToLower",
                 "Name": "Creepy Castle Mausoleum to Lower cave",
                 "source": "Mausoleum",
@@ -2874,6 +3074,7 @@
                 "Reverse": "CastleLowerToMausoleum"
             },
             "CastleCryptToCarts": {
+                "id": "CastleCryptToCarts",
                 "Key": "CastleCryptToCarts",
                 "Name": "Creepy Castle Crypt to Minecart",
                 "source": "Crypt",
@@ -2888,6 +3089,7 @@
                 "Reverse": "CastleCartsToCrypt"
             },
             "CastleCartsToCrypt": {
+                "id": "CastleCartsToCrypt",
                 "Key": "CastleCartsToCrypt",
                 "Name": "Creepy Castle Minecart to Crypt",
                 "source": "CastleMinecarts",
@@ -2902,6 +3104,7 @@
                 "Reverse": "CastleCryptToCarts"
             },
             "CastleUpperToDungeon": {
+                "id": "CastleUpperToDungeon",
                 "Key": "CastleUpperToDungeon",
                 "Name": "Creepy Castle Upper Cave to Dungeon",
                 "source": "UpperCave",
@@ -2916,6 +3119,7 @@
                 "Reverse": "CastleDungeonToUpper"
             },
             "CastleDungeonToUpper": {
+                "id": "CastleDungeonToUpper",
                 "Key": "CastleDungeonToUpper",
                 "Name": "Creepy Castle Dungeon to Upper Cave",
                 "source": "Dungeon",

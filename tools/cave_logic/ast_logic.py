@@ -194,6 +194,7 @@ def ast_to_json(node, params):
             return tb
         elif func_name == "ShufflableExit":
             lo = {
+                "id": params['special'],
                 "Key": params['special'],
                 "Name": vals[0],
                 "source": vals[1]['Name'],
