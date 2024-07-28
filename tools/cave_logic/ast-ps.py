@@ -202,7 +202,7 @@ build = [
         "name": "shuffle",
         "directory": "./randomizer",
         "filter": {
-            "include": ["Lists/CustomLocations.py", "Lists/FairyLocations.py", "Lists/KasplatLocations.py", "Lists/ShufflableExit.py", "ShuffleShopLocations.py"],
+            "include": ["Lists/CustomLocations.py", "Lists/FairyLocations.py", "Lists/KasplatLocations.py", "Lists/ShufflableExit.py", "ShuffleShopLocations.py", "Lists/DoorLocations.py"],
             "exclude": []
         },
         "special": "Checks",

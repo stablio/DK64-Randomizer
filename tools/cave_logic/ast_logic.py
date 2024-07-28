@@ -1,9 +1,25 @@
+from utils import array_to_object
 import ast
 import copy
 import json
 import re
+from copy import deepcopy
 
-from utils import array_to_object
+
+import sys
+import os
+
+# Append the parent directory to sys.path
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+sys.path.append(parent_dir)
+
+from randomizer.Logic import CollectibleRegionsOriginal, LogicVarHolder, RegionsOriginal
+from randomizer.Enums.Regions import Regions
+from randomizer.Lists.DoorLocations import GetBossLobbyRegionIdForRegion
+from randomizer.Enums.Maps import Maps
+
+RegionList = deepcopy(RegionsOriginal)
+
 
 # load nameNormaliser.json into object
 nameNormaliser = {}
@@ -236,39 +252,39 @@ def ast_to_json(node, params):
             vals = [ast_to_json(item, params) for item in node.keywords]
             # each value of the vals array is a single object
             # iterate over these and turn them into a single object
-            minigame_obj = {}
+            door_obj = {}
             for val in vals:
-                minigame_obj.update(val)
+                door_obj.update(val)
             length = len(vals)
 
             return {
                 "Key": params['special'],
-                "Name": minigame_obj['name'],
-                "Requires": minigame_obj['logic']['Requires'],
+                "Name": door_obj['name'],
+                "Requires": door_obj['logic']['Requires'],
                 "Class": "Minigame",
-                "Types": minigame_obj['group'],
+                "Types": door_obj['group'],
             }
         elif func_name == "KasplatLocation":
             vals = [ast_to_json(item, params) for item in node.keywords]
-            minigame_obj = {}
+            door_obj = {}
             for val in vals:
-                minigame_obj.update(val)
+                door_obj.update(val)
             length = len(vals)
 
             req = True
-            if 'additional_logic' in minigame_obj:
-                req = minigame_obj['additional_logic']['Requires']
+            if 'additional_logic' in door_obj:
+                req = door_obj['additional_logic']['Requires']
 
             vanilla = False
-            if 'vanilla' in minigame_obj:
-                vanilla = minigame_obj['vanilla']
+            if 'vanilla' in door_obj:
+                vanilla = door_obj['vanilla']
 
             class_type = "Check" if vanilla else "Custom Check"
-            key = minigame_obj['name'].replace(" ", "").replace(":", "")
+            key = door_obj['name'].replace(" ", "").replace(":", "")
             return {
-                "Region": minigame_obj['region']['Name'],
-                "Level": minigame_obj['map_id']['Name'],
-                "Name": minigame_obj['name'],
+                "Region": door_obj['region']['Name'],
+                "Level": door_obj['map_id']['Name'],
+                "Name": door_obj['name'],
                 "Key": key,
                 "Requires": req,
                 "Class": class_type,
@@ -276,25 +292,25 @@ def ast_to_json(node, params):
             }
         elif func_name == "FairyData":
             vals = [ast_to_json(item, params) for item in node.keywords]
-            minigame_obj = {}
+            door_obj = {}
             for val in vals:
-                minigame_obj.update(val)
+                door_obj.update(val)
             length = len(vals)
 
             req = {"Name": "camera"}
-            if 'logic' in minigame_obj:
-                req = minigame_obj['logic']['Requires']
+            if 'logic' in door_obj:
+                req = door_obj['logic']['Requires']
 
             vanilla = False
-            if 'is_vanilla' in minigame_obj:
-                vanilla = minigame_obj['is_vanilla']
+            if 'is_vanilla' in door_obj:
+                vanilla = door_obj['is_vanilla']
 
             class_type = "Check" if vanilla else "Custom Check"
-            key = minigame_obj['name'].replace(" ", "").replace(":", "")
+            key = door_obj['name'].replace(" ", "").replace(":", "")
             return {
-                "Region": minigame_obj['region']['Name'],
-                "Level": minigame_obj['map']['Name'],
-                "Name": minigame_obj['name'],
+                "Region": door_obj['region']['Name'],
+                "Level": door_obj['map']['Name'],
+                "Name": door_obj['name'],
                 "Key": key,
                 "Requires": req,
                 "Class": class_type,
@@ -302,20 +318,20 @@ def ast_to_json(node, params):
             }
         elif func_name == "CustomLocation":
             vals = [ast_to_json(item, params) for item in node.keywords]
-            minigame_obj = {}
+            door_obj = {}
             for val in vals:
-                minigame_obj.update(val)
+                door_obj.update(val)
             length = len(vals)
 
             req = True
-            if 'logic' in minigame_obj:
-                req = minigame_obj['logic']['Requires']
+            if 'logic' in door_obj:
+                req = door_obj['logic']['Requires']
 
-            key = minigame_obj['name'].replace(" ", "").replace(":", "")
+            key = door_obj['name'].replace(" ", "").replace(":", "")
             return {
-                "Region": minigame_obj['logic_region']['Name'],
-                "Level": minigame_obj['map']['Name'],
-                "Name": minigame_obj['name'],
+                "Region": door_obj['logic_region']['Name'],
+                "Level": door_obj['map']['Name'],
+                "Name": door_obj['name'],
                 "Key": key,
                 "Requires": req,
                 "Class": "Custom Check",
@@ -336,6 +352,42 @@ def ast_to_json(node, params):
             }
 
             return lo
+        elif func_name == "DoorData":
+            vals = [ast_to_json(item, params) for item in node.keywords]
+            door_obj = {}
+            for val in vals:
+                door_obj.update(val)
+            length = len(vals)
+
+            # if 'placed' in door_obj and door_obj['placed']['Name'] == "boss":
+            logic_region = Regions[door_obj['logicregion']['Name']]
+            portal_region = RegionList[logic_region]
+
+            if('placed' in door_obj):
+                door_type = door_obj['placed']['Name'];
+
+                if(door_type == "wrinkly"):
+                    return None;
+            
+                if(door_type == "dk_portal"):
+                    target_region_name = "PLACEHOLDER"
+                
+                if(door_type == "boss"):
+                    target_region = GetBossLobbyRegionIdForRegion(
+                    logic_region, portal_region)
+                    target_region_name = target_region.name
+
+                key = logic_region.name + target_region_name + door_type
+
+                return {
+                    "id": key.replace(" ", "").lower(),
+                    "Key": key.replace(" ", "").lower(),
+                    "Name": door_obj['name'],
+                    "source": logic_region.name,
+                    "target": target_region_name,
+                    "type": 'Neighbourhood',
+                    "targetType": "Location"
+                }
         else:
             return None
     elif isinstance(node, ast.Call) and not (hasattr(node.func, 'id')):
@@ -443,7 +495,7 @@ def ast_to_json(node, params):
             for value in locations.values():
                 merged_arrays.extend(value)
             return {"Kasplats":  merged_arrays}
-        if hasattr(node.targets[0], 'id') and (node.targets[0].id in ('CustomLocations', "fairy_locations")):
+        if hasattr(node.targets[0], 'id') and (node.targets[0].id in ('CustomLocations', "fairy_locations", "door_locations")):
             locations = ast_to_json(node.value, params)
             merged_arrays = []
             for value in locations.values():
