@@ -55,6 +55,13 @@ def stroke(img: Image, stroke_color: tuple = (255, 255, 255), stroke_radius: int
     return output
 
 
+def bump_saturation(image: Image, factor: float) -> Image:
+    """Increase the saturation of the provided PIL image."""
+    enhancer = ImageEnhance.Color(image)
+    enhanced_image = enhancer.enhance(factor)
+    return enhanced_image
+
+
 print("Composing complex images")
 number_crop = [
     {
@@ -711,6 +718,28 @@ barrel_im_right = base_64_im.crop((32, 0, 64, 64))
 barrel_im_left.save(f"{disp_dir}osprint_logo_left.png")
 barrel_im_right.save(f"{disp_dir}osprint_logo_right.png")
 
+# Beetle custom enemy
+for x in range(7):
+    beetle_im = Image.open(f"{hash_dir}beetle_img_{0xFC3 + x}.png")
+    beetle_im = hueShift(beetle_im, 100)
+    beetle_im = bump_saturation(beetle_im, 2)
+    beetle_im.save(f"{hash_dir}beetle_img_{0xFC3 + x}.png")
+
+# Ice Trap Medal Overlay
+font_im = Image.open(f"{hash_dir}white_font_early.png")
+f_im = font_im.crop((46, 0, 53, 16))
+o_im = font_im.crop((123, 0, 133, 16))
+l_im = font_im.crop((96, 0, 103, 16))
+font_im = Image.open(f"{hash_dir}white_font_late.png")
+ex_im = font_im.crop((75, 0, 79, 16))
+fool_im = Image.new(mode="RGBA", size=(40, 16))
+fool_im.paste(f_im, (2, 0), f_im)
+fool_im.paste(o_im, (8, 0), o_im)
+fool_im.paste(o_im, (17, 0), o_im)
+fool_im.paste(l_im, (28, 0), l_im)
+fool_im.paste(ex_im, (34, 0), ex_im)
+fool_im = fool_im.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
+fool_im.save(f"{disp_dir}fool_overlay.png")
 
 rmve = [
     "01234.png",

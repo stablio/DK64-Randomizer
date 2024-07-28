@@ -34,7 +34,7 @@ from randomizer.Patching.Lib import (
     getRawFile,
     writeRawFile,
 )
-from randomizer.Patching.LibImage import getImageFile, TextureFormat
+from randomizer.Patching.LibImage import getImageFile, TextureFormat, getRandomHueShift, hueShift
 from randomizer.Patching.Patcher import ROM, LocalROM
 from randomizer.Settings import Settings
 
@@ -169,7 +169,7 @@ panic_models = [
     Model.KLumsy,  # K Lumsy
     Model.Spider,  # Spider
     Model.Rabbit,  # Rabbit
-    Model.Beanstalk,  # Beanstalk
+    # Model.Beanstalk,  # Beanstalk
     Model.KRoolCutscene,  # K Rool
     Model.SkeletonHead,  # Skeleton Head
     Model.Vulture_76,  # Vulture
@@ -253,7 +253,7 @@ piano_extreme_model = [
     Model.SkeletonHead,
     Model.Owl,
     Model.Kosha,
-    Model.Beanstalk,
+    # Model.Beanstalk,
 ]
 
 spotlight_fish_models = [
@@ -286,11 +286,11 @@ spotlight_fish_models = [
     Model.KRoolCutscene,
     Model.KRoolFight,
     Model.SkeletonHead,
-    Model.Vulture_76,
-    Model.Vulture_77,
+    # Model.Vulture_76, # Lighting bug
+    # Model.Vulture_77, # Lighting bug
     # Model.Bat, # Lighting bug
-    Model.Tomato,
-    Model.IceTomato,
+    # Model.Tomato, # Lighting bug
+    # Model.IceTomato, # Lighting bug
     Model.FlySwatter_83,
     Model.SpotlightFish,
     Model.Microphone,
@@ -300,6 +300,88 @@ spotlight_fish_models = [
     Model.MiniMonkeyBarrel,
     Model.HunkyChunkyBarrel,
 ]
+candy_cutscene_models = [
+    Model.Cranky,
+    # Model.Funky, # Disappears with collision
+    Model.Candy,
+    Model.Snide,
+    Model.Seal,
+    Model.BeaverBlue,
+    Model.BeaverGold,
+    Model.Klobber,
+    Model.Kaboom,
+    Model.Krash,
+    Model.Troff,
+    Model.Scoff,
+    Model.RoboKremling,
+    Model.Beetle,
+    Model.MrDice_41,
+    Model.MrDice_56,
+    Model.BananaFairy,
+    Model.Rabbit,
+    Model.KRoolCutscene,
+    Model.KRoolFight,
+    Model.Vulture_76,
+    Model.Vulture_77,
+    Model.Tomato,
+    Model.IceTomato,
+    Model.FlySwatter_83,
+    Model.Microphone,
+    Model.StrongKongBarrel,
+    Model.Rocketbarrel,
+    Model.OrangstandSprintBarrel,
+    Model.MiniMonkeyBarrel,
+    Model.HunkyChunkyBarrel,
+    Model.RambiCrate,
+    Model.EnguardeCrate,
+    Model.Boulder,
+    Model.SteelKeg,
+    Model.GoldenBanana_104,
+]
+
+funky_cutscene_models = [
+    Model.Cranky,
+    Model.Candy,
+    Model.Funky,
+    Model.Troff,
+    Model.Scoff,
+    Model.Ruler,
+    Model.RoboKremling,
+    Model.KRoolCutscene,
+    Model.KRoolFight,
+    Model.Microphone,
+]
+
+# Not holding gun
+funky_cutscene_models_extreme = [
+    Model.BeaverBlue,
+    Model.BeaverGold,
+    Model.Klobber,
+    Model.Kaboom,
+    Model.SirDomino,
+    Model.MechanicalFish,
+    Model.BananaFairy,
+    Model.SkeletonHand,
+    Model.IceTomato,
+    Model.Tomato,
+]
+
+boot_cutscene_models = [
+    Model.Turtle,
+    Model.Enguarde,
+    Model.BeaverBlue,
+    Model.BeaverGold,
+    Model.Zinger,
+    Model.Squawks_28,
+    Model.KlaptrapGreen,
+    Model.KlaptrapPurple,
+    Model.KlaptrapRed,
+    Model.BananaFairy,
+    Model.Spider,
+    Model.Bat,
+    Model.KRoolGlove,
+]
+
 model_mapping = {
     KongModels.default: 0,
     KongModels.disco_chunky: 6,
@@ -414,6 +496,9 @@ def apply_cosmetic_colors(settings: Settings):
     racer_rabbit = Model.Rabbit
     piano_burper = Model.KoshKremlingRed
     spotlight_fish_model_index = Model.SpotlightFish
+    candy_model_index = Model.Candy
+    funky_model_index = Model.Funky
+    boot_model_index = Model.Boot
     swap_bitfield = 0
 
     ROM_COPY = ROM()
@@ -462,10 +547,15 @@ def apply_cosmetic_colors(settings: Settings):
         fungi_tomato_model_index = random.choice([Model.Tomato, Model.IceTomato])
         caves_tomato_model_index = random.choice([Model.Tomato, Model.IceTomato])
         referenced_piano_models = piano_models.copy()
+        referenced_funky_models = funky_cutscene_models.copy()
         if model_setting == RandomModels.extreme:
             referenced_piano_models.extend(piano_extreme_model)
             spotlight_fish_model_index = random.choice(spotlight_fish_models)
+            referenced_funky_models.extend(funky_cutscene_models_extreme)
+            boot_model_index = random.choice(boot_cutscene_models)
         piano_burper = random.choice(referenced_piano_models)
+        candy_model_index = random.choice(candy_cutscene_models)
+        funky_model_index = random.choice(funky_cutscene_models)
     settings.bother_klaptrap_model = bother_model_index
     settings.beetle_model = racer_beetle
     settings.rabbit_model = racer_rabbit
@@ -477,6 +567,9 @@ def apply_cosmetic_colors(settings: Settings):
     settings.caves_tomato_model = caves_tomato_model_index
     settings.piano_burp_model = piano_burper
     settings.spotlight_fish_model = spotlight_fish_model_index
+    settings.candy_cutscene_model = candy_model_index
+    settings.funky_cutscene_model = funky_model_index
+    settings.boot_cutscene_model = boot_model_index
     settings.wrinkly_rgb = [255, 255, 255]
     # Compute swap bitfield
     swap_bitfield |= 0x10 if settings.rabbit_model == Model.Beetle else 0
@@ -577,6 +670,7 @@ def apply_cosmetic_colors(settings: Settings):
 
     if js.document.getElementById("override_cosmetics").checked or True:
         writeTransition(settings)
+        writeCustomPortal(settings)
         if js.document.getElementById("random_colors").checked:
             for kong in KONG_ZONES:
                 for zone in KONG_ZONES[kong]:
@@ -971,27 +1065,6 @@ def maskImageRotatingRoomTile(im_f, im_mask, paste_coords, image_color_index, ti
                     base[channel] = base_original[channel]
             pix[x, y] = (base[0], base[1], base[2], base[3])
     return im_f
-
-
-def hueShift(im, amount):
-    """Apply a hue shift on an image."""
-    hsv_im = im.convert("HSV")
-    im_px = im.load()
-    w, h = hsv_im.size
-    hsv_px = hsv_im.load()
-    for y in range(h):
-        for x in range(w):
-            old = list(hsv_px[x, y]).copy()
-            old[0] = (old[0] + amount) % 360
-            hsv_px[x, y] = (old[0], old[1], old[2])
-    rgb_im = hsv_im.convert("RGB")
-    rgb_px = rgb_im.load()
-    for y in range(h):
-        for x in range(w):
-            new = list(rgb_px[x, y])
-            new.append(list(im_px[x, y])[3])
-            im_px[x, y] = (new[0], new[1], new[2], new[3])
-    return im
 
 
 def hueShiftColor(color: tuple, amount: int, head_ratio: int = None) -> tuple:
@@ -2308,11 +2381,6 @@ def getBonusSkinOffset(offset: int):
     return 6026 + (3 * len(barrel_skins)) + offset
 
 
-def getRandomHueShift(min: int = -359, max: int = 359) -> int:
-    """Get random hue shift."""
-    return random.randint(min, max)
-
-
 def getValueFromByteArray(ba: bytearray, offset: int, size: int) -> int:
     """Get value from byte array given an offset and size."""
     value = 0
@@ -2536,7 +2604,6 @@ def writeMiscCosmeticChanges(settings):
                 kosha_im = getImageFile(25, img, True, 1, 1372, TextureFormat.RGBA5551)
                 kosha_im = maskImageWithColor(kosha_im, tuple(kosha_club_list))
                 writeColorImageToROM(kosha_im, 25, img, 1, 1372, False, TextureFormat.RGBA5551)
-        if enemy_setting == RandomModels.extreme:
             # Kremling
             kremling_dimensions = [
                 [32, 64],  # FCE
@@ -2585,6 +2652,69 @@ def writeMiscCosmeticChanges(settings):
             snake_shift = getRandomHueShift()
             for x in range(2):
                 hueShiftImageContainer(25, 0xEF7 + x, 32, 32, TextureFormat.RGBA5551, snake_shift)
+        headphones_shift = getRandomHueShift()
+        for x in range(8):
+            hueShiftImageContainer(7, 0x3D3 + x, 40, 40, TextureFormat.RGBA5551, headphones_shift)
+        fairy_particles_shift = getRandomHueShift()
+        for x in range(0xB):
+            hueShiftImageContainer(25, 0x138D + x, 32, 32, TextureFormat.RGBA32, fairy_particles_shift)
+        race_coin_shift = getRandomHueShift()
+        for x in range(8):
+            hueShiftImageContainer(7, 0x1F0 + x, 48, 42, TextureFormat.RGBA5551, race_coin_shift)
+        scoff_shift = getRandomHueShift()
+        troff_shift = getRandomHueShift()
+        scoff_data = {
+            0xFB8: 0x55C,
+            0xFB9: 0x800,
+            0xFBA: 0x40,
+            0xFBB: 0x800,
+            0xFBC: 0x240,
+            0xFBD: 0x480,
+            0xFBE: 0x80,
+            0xFBF: 0x800,
+            0xFC0: 0x200,
+            0xFC1: 0x240,
+            0xFC2: 0x100,
+            0xFB2: 0x240,
+            0xFB3: 0x800,
+            0xFB4: 0x800,
+            0xFB5: 0x200,
+            0xFB6: 0x200,
+            0xFB7: 0x200,
+        }
+        troff_data = {
+            0xF78: 0x800,
+            0xF79: 0x800,
+            0xF7A: 0x800,
+            0xF7B: 0x800,
+            0xF7C: 0x800,
+            0xF7D: 0x400,
+            0xF7E: 0x600,
+            0xF7F: 0x400,
+            0xF80: 0x800,
+            0xF81: 0x600,
+            0xF82: 0x400,
+            0xF83: 0x400,
+            0xF84: 0x800,
+            0xF85: 0x800,
+            0xF86: 0x280,
+            0xF87: 0x180,
+            0xF88: 0x800,
+            0xF89: 0x800,
+            0xF8A: 0x400,
+            0xF8B: 0x300,
+            0xF8C: 0x800,
+            0xF8D: 0x400,
+            0xF8E: 0x500,
+            0xF8F: 0x180,
+        }
+        for img in scoff_data:
+            hueShiftImageContainer(25, img, 1, scoff_data[img], TextureFormat.RGBA5551, scoff_shift)
+
+        # Scoff had too many bananas, and passed potassium poisoning onto Troff
+        # https://i.imgur.com/WFDLSzA.png
+        # for img in troff_data:
+        #     hueShiftImageContainer(25, img, 1, troff_data[img], TextureFormat.RGBA5551, troff_shift)
         # Krobot
         spinner_shift = getRandomHueShift()
         hueShiftImageContainer(25, 0xFA9, 1, 1372, TextureFormat.RGBA5551, spinner_shift)
@@ -2667,6 +2797,7 @@ def writeMiscCosmeticChanges(settings):
                 ]
             ),
             Model.Kasplat: EnemyColorSwap([0x8FD8FF, 0x182A4F, 0x0B162C, 0x7A98D3, 0x3F6CC4, 0x8FD8FF, 0x284581]),
+            # Model.BananaFairy: EnemyColorSwap([0xFFD400, 0xFFAA00, 0xFCD200, 0xD68F00, 0xD77D0A, 0xe49800, 0xdf7f1f, 0xa26c00, 0xd6b200, 0xdf9f1f])
         }
         if enemy_setting == RandomModels.extreme:
             enemy_changes[Model.Klump] = EnemyColorSwap([0xE66B78, 0x621738, 0x300F20, 0xD1426F, 0xA32859])
@@ -3418,3 +3549,49 @@ def writeTransition(settings: Settings) -> None:
     settings.custom_transition = selected_transition[1].split("/")[-1]  # File Name
     im_f = Image.open(BytesIO(bytes(selected_transition[0])))
     writeColorImageToROM(im_f, 14, 95, 64, 64, False, TextureFormat.IA4)
+
+
+def writeCustomPortal(settings: Settings) -> None:
+    """Write custom portal file to ROM."""
+    if js.cosmetics is None:
+        return
+    if js.cosmetics.tns_portals is None:
+        return
+    if js.cosmetic_names.tns_portals is None:
+        return
+    file_data = list(zip(js.cosmetics.tns_portals, js.cosmetic_names.tns_portals))
+    settings.custom_troff_portal = None
+    if len(file_data) == 0:
+        return
+    selected_portal = random.choice(file_data)
+    settings.custom_troff_portal = selected_portal[1].split("/")[-1]  # File Name
+    im_f = Image.open(BytesIO(bytes(selected_portal[0])))
+    im_f = im_f.resize((63, 63)).transpose(Image.FLIP_TOP_BOTTOM).convert("RGBA")
+    portal_data = {
+        "NW": {
+            "x_min": 0,
+            "y_min": 0,
+            "writes": [0x39E, 0x39F],
+        },
+        "SW": {
+            "x_min": 0,
+            "y_min": 31,
+            "writes": [0x3A0, 0x39D],
+        },
+        "SE": {
+            "x_min": 31,
+            "y_min": 31,
+            "writes": [0x3A2, 0x39B],
+        },
+        "NE": {
+            "x_min": 31,
+            "y_min": 0,
+            "writes": [0x39C, 0x3A1],
+        },
+    }
+    for sub in portal_data.keys():
+        x_min = portal_data[sub]["x_min"]
+        y_min = portal_data[sub]["y_min"]
+        local_img = im_f.crop((x_min, y_min, x_min + 32, y_min + 32))
+        for idx in portal_data[sub]["writes"]:
+            writeColorImageToROM(local_img, 7, idx, 32, 32, False, TextureFormat.RGBA5551)
