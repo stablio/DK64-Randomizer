@@ -30284,33 +30284,9 @@
                         ]
                     }
                 },
-                "GreenhouseDeadEnd(1)": {
-                    "Key": "GreenhouseDeadEnd(1)",
-                    "Name": "Greenhouse: Dead End (1)",
-                    "Level": "CreepyCastle",
-                    "Class": "Custom Check",
-                    "Types": "Custom Check",
-                    "Requires": true
-                },
-                "GreenhouseDeadEnd(2)": {
-                    "Key": "GreenhouseDeadEnd(2)",
-                    "Name": "Greenhouse: Dead End (2)",
-                    "Level": "CreepyCastle",
-                    "Class": "Custom Check",
-                    "Types": "Custom Check",
-                    "Requires": true
-                },
                 "GreenhouseGBBox": {
                     "Key": "GreenhouseGBBox",
                     "Name": "Greenhouse: GB Box",
-                    "Level": "CreepyCastle",
-                    "Class": "Custom Check",
-                    "Types": "Custom Check",
-                    "Requires": true
-                },
-                "GreenhouseDeadEnd(3)": {
-                    "Key": "GreenhouseDeadEnd(3)",
-                    "Name": "Greenhouse: Dead End (3)",
                     "Level": "CreepyCastle",
                     "Class": "Custom Check",
                     "Types": "Custom Check",
@@ -33897,6 +33873,10 @@
                 },
                 "AztecMainEnemy_Outside5DT": {
                     "Key": "AztecMainEnemy_Outside5DT",
+                    "Requires": true
+                },
+                "AztecMainEnemy_OutsideSnide": {
+                    "Key": "AztecMainEnemy_OutsideSnide",
                     "Requires": true
                 },
                 "AztecMainEnemy_NearSnoopTunnel": {
@@ -49663,7 +49643,7 @@
             }
         },
         "JapesMountainEnemy_Conveyor0": {
-            "Name": "Japes Mountain Enemy: Conveyor0",
+            "Name": "Japes Mountain Enemy: Conveyor (0)",
             "Level": "JungleJapes",
             "Types": "Enemies",
             "Class": "Check",
@@ -49672,7 +49652,7 @@
             }
         },
         "JapesMountainEnemy_Conveyor1": {
-            "Name": "Japes Mountain Enemy: Conveyor1",
+            "Name": "Japes Mountain Enemy: Conveyor (1)",
             "Level": "JungleJapes",
             "Types": "Enemies",
             "Class": "Check",
@@ -49905,8 +49885,17 @@
                 "Name": "any"
             }
         },
+        "AztecMainEnemy_OutsideSnide": {
+            "Name": "Angry Aztec Enemy: Outside Snide",
+            "Level": "AngryAztec",
+            "Types": "Enemies",
+            "Class": "Check",
+            "Persona": {
+                "Name": "any"
+            }
+        },
         "AztecMainEnemy_Outside5DT": {
-            "Name": "Angry Aztec Enemy: Outside5DT",
+            "Name": "Angry Aztec Enemy: Outside 5DT",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49924,7 +49913,7 @@
             }
         },
         "AztecDK5DTEnemy_StartTrap0": {
-            "Name": "Aztec Donkey5DTemple Enemy: Start Trap (0)",
+            "Name": "Aztec Donkey 5DTemple Enemy: Start Trap (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49933,7 +49922,7 @@
             }
         },
         "AztecDK5DTEnemy_StartTrap1": {
-            "Name": "Aztec Donkey5DTemple Enemy: Start Trap (1)",
+            "Name": "Aztec Donkey 5DTemple Enemy: Start Trap (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49942,7 +49931,7 @@
             }
         },
         "AztecDK5DTEnemy_StartTrap2": {
-            "Name": "Aztec Donkey5DTemple Enemy: Start Trap (2)",
+            "Name": "Aztec Donkey 5DTemple Enemy: Start Trap (2)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49951,7 +49940,7 @@
             }
         },
         "AztecDK5DTEnemy_EndTrap0": {
-            "Name": "Aztec Donkey5DTemple Enemy: End Trap (0)",
+            "Name": "Aztec Donkey 5DTemple Enemy: End Trap (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49960,7 +49949,7 @@
             }
         },
         "AztecDK5DTEnemy_EndTrap1": {
-            "Name": "Aztec Donkey5DTemple Enemy: End Trap (1)",
+            "Name": "Aztec Donkey 5DTemple Enemy: End Trap (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49969,7 +49958,7 @@
             }
         },
         "AztecDK5DTEnemy_EndTrap2": {
-            "Name": "Aztec Donkey5DTemple Enemy: End Trap (2)",
+            "Name": "Aztec Donkey 5DTemple Enemy: End Trap (2)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49978,7 +49967,7 @@
             }
         },
         "AztecDK5DTEnemy_EndPath0": {
-            "Name": "Aztec Donkey5DTemple Enemy: End Path (0)",
+            "Name": "Aztec Donkey 5DTemple Enemy: End Path (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49987,7 +49976,7 @@
             }
         },
         "AztecDK5DTEnemy_EndPath1": {
-            "Name": "Aztec Donkey5DTemple Enemy: End Path (1)",
+            "Name": "Aztec Donkey 5DTemple Enemy: End Path (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -49996,7 +49985,7 @@
             }
         },
         "AztecDK5DTEnemy_StartPath": {
-            "Name": "Aztec Donkey5DTemple Enemy: Start Path",
+            "Name": "Aztec Donkey 5DTemple Enemy: Start Path",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50005,7 +49994,7 @@
             }
         },
         "AztecDiddy5DTEnemy_EndTrap0": {
-            "Name": "Aztec Diddy5DTemple Enemy: End Trap (0)",
+            "Name": "Aztec Diddy 5DTemple Enemy: End Trap (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50014,7 +50003,7 @@
             }
         },
         "AztecDiddy5DTEnemy_EndTrap1": {
-            "Name": "Aztec Diddy5DTemple Enemy: End Trap (1)",
+            "Name": "Aztec Diddy 5DTemple Enemy: End Trap (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50023,7 +50012,7 @@
             }
         },
         "AztecDiddy5DTEnemy_EndTrap2": {
-            "Name": "Aztec Diddy5DTemple Enemy: End Trap (2)",
+            "Name": "Aztec Diddy 5DTemple Enemy: End Trap (2)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50032,7 +50021,7 @@
             }
         },
         "AztecDiddy5DTEnemy_StartLeft0": {
-            "Name": "Aztec Diddy5DTemple Enemy: Start Left (0)",
+            "Name": "Aztec Diddy 5DTemple Enemy: Start Left (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50041,7 +50030,7 @@
             }
         },
         "AztecDiddy5DTEnemy_StartLeft1": {
-            "Name": "Aztec Diddy5DTemple Enemy: Start Left (1)",
+            "Name": "Aztec Diddy 5DTemple Enemy: Start Left (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50050,7 +50039,7 @@
             }
         },
         "AztecDiddy5DTEnemy_Reward": {
-            "Name": "Aztec Diddy5DTemple Enemy: Reward",
+            "Name": "Aztec Diddy 5DTemple Enemy: Reward",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50059,7 +50048,7 @@
             }
         },
         "AztecDiddy5DTEnemy_SecondSwitch": {
-            "Name": "Aztec Diddy5DTemple Enemy: Second Switch",
+            "Name": "Aztec Diddy 5DTemple Enemy: Second Switch",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50068,7 +50057,7 @@
             }
         },
         "AztecLanky5DTEnemy_JoiningPaths": {
-            "Name": "Aztec Lanky5DTemple Enemy: Joining Paths",
+            "Name": "Aztec Lanky 5DTemple Enemy: Joining Paths",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50077,7 +50066,7 @@
             }
         },
         "AztecLanky5DTEnemy_EndTrap": {
-            "Name": "Aztec Lanky5DTemple Enemy: End Trap",
+            "Name": "Aztec Lanky 5DTemple Enemy: End Trap",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50086,7 +50075,7 @@
             }
         },
         "AztecLanky5DTEnemy_Reward": {
-            "Name": "Aztec Lanky5DTemple Enemy: Reward",
+            "Name": "Aztec Lanky 5DTemple Enemy: Reward",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50095,7 +50084,7 @@
             }
         },
         "AztecTiny5DTEnemy_StartRightFront": {
-            "Name": "Aztec Tiny5DTemple Enemy: Start Right Front",
+            "Name": "Aztec Tiny 5DTemple Enemy: Start Right Front",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50104,7 +50093,7 @@
             }
         },
         "AztecTiny5DTEnemy_StartLeftBack": {
-            "Name": "Aztec Tiny5DTemple Enemy: Start Left Back",
+            "Name": "Aztec Tiny 5DTemple Enemy: Start Left Back",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50113,7 +50102,7 @@
             }
         },
         "AztecTiny5DTEnemy_StartRightBack": {
-            "Name": "Aztec Tiny5DTemple Enemy: Start Right Back",
+            "Name": "Aztec Tiny 5DTemple Enemy: Start Right Back",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50122,7 +50111,7 @@
             }
         },
         "AztecTiny5DTEnemy_StartLeftFront": {
-            "Name": "Aztec Tiny5DTemple Enemy: Start Left Front",
+            "Name": "Aztec Tiny 5DTemple Enemy: Start Left Front",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50131,7 +50120,7 @@
             }
         },
         "AztecTiny5DTEnemy_Reward0": {
-            "Name": "Aztec Tiny5DTemple Enemy: Reward (0)",
+            "Name": "Aztec Tiny 5DTemple Enemy: Reward (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50140,7 +50129,7 @@
             }
         },
         "AztecTiny5DTEnemy_Reward1": {
-            "Name": "Aztec Tiny5DTemple Enemy: Reward (1)",
+            "Name": "Aztec Tiny 5DTemple Enemy: Reward (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50149,7 +50138,7 @@
             }
         },
         "AztecTiny5DTEnemy_DeadEnd0": {
-            "Name": "Aztec Tiny5DTemple Enemy: Dead End (0)",
+            "Name": "Aztec Tiny 5DTemple Enemy: Dead End (0)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50158,7 +50147,7 @@
             }
         },
         "AztecTiny5DTEnemy_DeadEnd1": {
-            "Name": "Aztec Tiny5DTemple Enemy: Dead End (1)",
+            "Name": "Aztec Tiny 5DTemple Enemy: Dead End (1)",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50167,7 +50156,7 @@
             }
         },
         "AztecChunky5DTEnemy_StartRight": {
-            "Name": "Aztec Chunky5DTemple Enemy: Start Right",
+            "Name": "Aztec Chunky 5DTemple Enemy: Start Right",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50176,7 +50165,7 @@
             }
         },
         "AztecChunky5DTEnemy_StartLeft": {
-            "Name": "Aztec Chunky5DTemple Enemy: Start Left",
+            "Name": "Aztec Chunky 5DTemple Enemy: Start Left",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50185,7 +50174,7 @@
             }
         },
         "AztecChunky5DTEnemy_SecondRight": {
-            "Name": "Aztec Chunky5DTemple Enemy: Second Right",
+            "Name": "Aztec Chunky 5DTemple Enemy: Second Right",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50194,7 +50183,7 @@
             }
         },
         "AztecChunky5DTEnemy_SecondLeft": {
-            "Name": "Aztec Chunky5DTemple Enemy: Second Left",
+            "Name": "Aztec Chunky 5DTemple Enemy: Second Left",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50203,7 +50192,7 @@
             }
         },
         "AztecChunky5DTEnemy_Reward": {
-            "Name": "Aztec Chunky5DTemple Enemy: Reward",
+            "Name": "Aztec Chunky 5DTemple Enemy: Reward",
             "Level": "AngryAztec",
             "Types": "Enemies",
             "Class": "Check",
@@ -50770,7 +50759,7 @@
             }
         },
         "ForestMainEnemy_NearHighWarp5": {
-            "Name": "Fungi Forest Enemy: Near High Warp5",
+            "Name": "Fungi Forest Enemy: Near High Warp 5",
             "Level": "FungiForest",
             "Types": "Enemies",
             "Class": "Check",
