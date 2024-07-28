@@ -410,6 +410,41 @@ for x in range(5):
 for x in range(0x5A, 0x5E):
     file_dict.append(File(name=f"Melon Slice ({hex(x)})", pointer_table_index=TableNames.TexturesHUD, file_index=x, source_file=f"melon{x}.bin", target_compressed_size=48 * 42 * 2))
 
+for x in range(7):
+    file_dict.append(
+        File(
+            name=f"Scarab Texture {x}",
+            pointer_table_index=TableNames.TexturesGeometry,
+            file_index=getBonusSkinOffset(ExtraTextures.BeetleTex0 + x),
+            source_file=f"assets/hash/beetle_img_{0xFC3 + x}.png",
+            texture_format=TextureFormat.RGBA5551,
+            do_not_delete_source=True,
+        )
+    )
+
+for x in range(8):
+    file_dict.append(
+        File(
+            name=f"Feather Sprite (firing) texture {x}",
+            pointer_table_index=TableNames.TexturesGeometry,
+            file_index=getBonusSkinOffset(ExtraTextures.Feather0) + x,
+            source_file=f"assets/displays/feather{x}.png",
+            texture_format=TextureFormat.RGBA5551,
+            do_not_delete_source=True,
+        )
+    )
+
+file_dict.append(
+    File(
+        name=f"Fool Overlay",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=getBonusSkinOffset(ExtraTextures.FoolOverlay),
+        source_file=f"assets/displays/fool_overlay.png",
+        texture_format=TextureFormat.IA8,
+        do_not_delete_source=True,
+    )
+)
+
 for item in range(3):
     file_dict.append(
         File(
@@ -452,6 +487,7 @@ bloat_actors = [
     {"name": "Klump", "file": 0x39, "size": 0x56D0},
     {"name": "Candy", "file": 0x12, "size": 0x64A0},
     {"name": "Kasplat", "file": 0x36, "size": 0x42F4},
+    {"name": "Fairy", "file": 0x3C, "size": 0x1500},
 ]
 
 for actor in bloat_actors:
@@ -928,6 +964,9 @@ colorblind_changes = [
     [0xED6, 0xED6, 1, 1372],  # Funky Camo
     [0xEDF, 0xEDF, 1, 1372],  # Funky Camo
     [0xEF7, 0xEF8, 32, 32],  # Snake Skin
+    [0x138D, 0x1397, 32, 64],  # Fairy Particles
+    [0xFB2, 0xFC2],  # Scoff
+    [0xF78, 0xF8F],  # Troff
 ]
 
 kremling_dimensions = [
@@ -978,18 +1017,6 @@ for dim_index, dims in enumerate(rabbit_dimensions):
 for tex_set in krobot_textures:
     for tex in tex_set[1]:
         colorblind_changes.append([tex, tex, tex_set[0][0], tex_set[0][1]])
-
-for change in colorblind_changes:
-    for file_index in range(change[0], change[1] + 1):
-        file_dict.append(
-            File(
-                name=f"Colorblind Expansion {file_index}",
-                pointer_table_index=TableNames.TexturesGeometry,
-                file_index=file_index,
-                source_file=f"colorblind_exp_{file_index}.bin",
-                target_size=2 * change[2] * change[3],
-            )
-        )
 
 for bi, b in enumerate(barrel_skins):
     for x in range(2):
@@ -1103,7 +1130,8 @@ model_changes = [
     ModelChange(0x115, "cranky_model.bin"),
     ModelChange(0x116, "candy_model.bin"),
     ModelChange(0x117, "funky_model.bin"),
-    ModelChange(0x118, FINAL_RACE_HOOP),  # Used to set an endpoint
+    ModelChange(0x118, "scarab_actor.bin"),
+    ModelChange(0x119, FINAL_RACE_HOOP),  # Used to set an endpoint
     # ModelChange(0xC0, "guitar_om1.bin"),
 ]
 model_changes = sorted(model_changes, key=lambda d: d.model_index)
@@ -1293,6 +1321,25 @@ for x in range(216):
 print("\nDK64 Extractor\nBuilt by Isotarge")
 
 with open(ROMName, "rb") as fh:
+    # Colorblind Change Work
+    fh.seek(0x101C50 + (TableNames.UncompressedFileSizes << 2))
+    unc_table = 0x101C50 + int.from_bytes(fh.read(4), "big")
+    fh.seek(unc_table + (TableNames.TexturesGeometry << 2))
+    unc_table_25 = 0x101C50 + int.from_bytes(fh.read(4), "big")
+    for change in colorblind_changes:
+        for file_index in range(change[0], change[1] + 1):
+            fh.seek(unc_table_25 + (file_index << 2))
+            file_size = int.from_bytes(fh.read(4), "big")
+            file_dict.append(
+                File(
+                    name=f"Colorblind Expansion {file_index}",
+                    pointer_table_index=TableNames.TexturesGeometry,
+                    file_index=file_index,
+                    source_file=f"colorblind_exp_{file_index}.bin",
+                    target_size=file_size,
+                )
+            )
+
     print("[1 / 7] - Parsing pointer tables")
     parsePointerTables(fh)
     readOverlayOriginalData(fh)
@@ -1565,6 +1612,9 @@ with open(newROMName, "r+b") as fh:
         True,  # Ghost
         True,  # Pufftup
         True,  # Kosha
+        False,  # Bug
+        False,  # Scarab
+        False,  # Zinger Flames
     ]
     values = [0, 0, 0, 0, 0]
     for pi, p in enumerate(pkmn_snap_enemies):
@@ -1612,7 +1662,7 @@ with open(newROMName, "r+b") as fh:
         fh.write((0x2F).to_bytes(2, "big"))
     # Enemies
     fh.seek(0x1FF9000)
-    for x in range(426):
+    for x in range(427):
         fh.write((0).to_bytes(4, "big"))
 
     fh.seek(0x1FFD000)
@@ -1752,6 +1802,7 @@ with open(newROMName, "r+b") as fh:
         "head32_kko",
         "osprint_logo_left",
         "osprint_logo_right",
+        "fool_overlay",
     ]
     for b in barrel_skins:
         displays.extend([f"barrel_{b}_0", f"barrel_{b}_1", f"dirt_reward_{b}"])
@@ -1804,6 +1855,15 @@ with open(newROMName, "r+b") as fh:
         "melon_resized",
         "melon_slice",
         "scoff_head",
+        "beetle_img_4035",
+        "beetle_img_4036",
+        "beetle_img_4037",
+        "beetle_img_4038",
+        "beetle_img_4039",
+        "beetle_img_4040",
+        "beetle_img_4041",
+        "white_font_early",
+        "white_font_late",
     ]
     script_files = [x[0] for x in os.walk("assets/instance_scripts/")]
     shop_files = ["snide.json", "cranky.json", "funky.json", "candy.json"]
