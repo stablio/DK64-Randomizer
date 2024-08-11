@@ -14538,15 +14538,7 @@
                 },
                 "HelmMainEnemy_DKRoom": {
                     "Key": "HelmMainEnemy_DKRoom",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -14624,27 +14616,11 @@
                 },
                 "HelmMainEnemy_ChunkyRoom0": {
                     "Key": "HelmMainEnemy_ChunkyRoom0",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 },
                 "HelmMainEnemy_ChunkyRoom1": {
                     "Key": "HelmMainEnemy_ChunkyRoom1",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -14710,15 +14686,7 @@
                 },
                 "HelmMainEnemy_TinyRoom": {
                     "Key": "HelmMainEnemy_TinyRoom",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -14784,27 +14752,11 @@
                 },
                 "HelmMainEnemy_LankyRoom0": {
                     "Key": "HelmMainEnemy_LankyRoom0",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 },
                 "HelmMainEnemy_LankyRoom1": {
                     "Key": "HelmMainEnemy_LankyRoom1",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -14870,27 +14822,11 @@
                 },
                 "HelmMainEnemy_DiddyRoom0": {
                     "Key": "HelmMainEnemy_DiddyRoom0",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 },
                 "HelmMainEnemy_DiddyRoom1": {
                     "Key": "HelmMainEnemy_DiddyRoom1",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "HelmFinished",
-                                "Events": true
-                            }
-                        ]
-                    }
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -29131,22 +29067,22 @@
                 }
             },
             "Collectibles": [
-                "CreepyCastleMainDonkeyBanana12",
                 "CreepyCastleMainDonkeyBanana13",
-                "CreepyCastleMainDiddyBunch14",
+                "CreepyCastleMainDonkeyBanana14",
                 "CreepyCastleMainDiddyBunch15",
-                "CreepyCastleMainDiddyBalloon16",
-                "CreepyCastleMainTinyBanana17",
-                "CreepyCastleMainTinyBunch18",
-                "CreepyCastleMainDonkeyCoin21",
+                "CreepyCastleMainDiddyBunch16",
+                "CreepyCastleMainDiddyBalloon17",
+                "CreepyCastleMainTinyBanana18",
+                "CreepyCastleMainTinyBunch19",
                 "CreepyCastleMainDonkeyCoin22",
-                "CreepyCastleMainDiddyCoin23",
+                "CreepyCastleMainDonkeyCoin23",
                 "CreepyCastleMainDiddyCoin24",
-                "CreepyCastleMainLankyCoin25",
-                "CreepyCastleMainTinyCoin26",
+                "CreepyCastleMainDiddyCoin25",
+                "CreepyCastleMainLankyCoin26",
                 "CreepyCastleMainTinyCoin27",
-                "CreepyCastleMainChunkyCoin28",
-                "CreepyCastleMainChunkyCoin29"
+                "CreepyCastleMainTinyCoin28",
+                "CreepyCastleMainChunkyCoin29",
+                "CreepyCastleMainChunkyCoin30"
             ]
         },
         "CastleBaboonBlast": {
@@ -29184,7 +29120,7 @@
                 }
             },
             "Collectibles": [
-                "CastleBaboonBlastDonkeyCoin32"
+                "CastleBaboonBlastDonkeyCoin33"
             ]
         },
         "CastleWaterfall": {
@@ -29501,11 +29437,11 @@
                 }
             },
             "Collectibles": [
-                "CastleTreeDonkeyBunch35",
-                "CastleTreeDonkeyBalloon36",
-                "CastleTreeChunkyBunch37",
-                "CastleTreeChunkyBalloon38",
-                "CastleTreeChunkyCoin40"
+                "CastleTreeDonkeyBunch36",
+                "CastleTreeDonkeyBalloon37",
+                "CastleTreeChunkyBunch38",
+                "CastleTreeChunkyBalloon39",
+                "CastleTreeChunkyCoin41"
             ]
         },
         "Library": {
@@ -29618,7 +29554,7 @@
                 }
             },
             "Collectibles": [
-                "LibraryDonkeyBunch43"
+                "LibraryDonkeyBunch44"
             ]
         },
         "LibraryPastSlam": {
@@ -29662,7 +29598,7 @@
                 }
             },
             "Collectibles": [
-                "LibraryPastSlamDonkeyBunch46"
+                "LibraryPastSlamDonkeyBunch47"
             ]
         },
         "LibraryPastBooks": {
@@ -29864,10 +29800,10 @@
                 }
             },
             "Collectibles": [
-                "BallroomDiddyBunch50",
-                "BallroomDiddyBalloon51",
-                "BallroomTinyBunch52",
-                "BallroomTinyCoin54"
+                "BallroomDiddyBunch51",
+                "BallroomDiddyBalloon52",
+                "BallroomTinyBunch53",
+                "BallroomTinyCoin55"
             ]
         },
         "MuseumBehindGlass": {
@@ -30100,9 +30036,9 @@
                 }
             },
             "Collectibles": [
-                "MuseumBehindGlassTinyBunch57",
                 "MuseumBehindGlassTinyBunch58",
-                "MuseumBehindGlassTinyBalloon59"
+                "MuseumBehindGlassTinyBunch59",
+                "MuseumBehindGlassTinyBalloon60"
             ]
         },
         "CastleTinyRace": {
@@ -30209,7 +30145,7 @@
                 }
             },
             "Collectibles": [
-                "TowerLankyBalloon63"
+                "TowerLankyBalloon64"
             ]
         },
         "Greenhouse": {
@@ -30320,8 +30256,8 @@
                 }
             },
             "Collectibles": [
-                "GreenhouseLankyBunch67",
-                "GreenhouseLankyCoin69"
+                "GreenhouseLankyBunch68",
+                "GreenhouseLankyCoin70"
             ]
         },
         "TrashCan": {
@@ -30441,8 +30377,8 @@
                 }
             },
             "Collectibles": [
-                "TrashCanTinyBunch72",
-                "TrashCanTinyCoin74"
+                "TrashCanTinyBunch73",
+                "TrashCanTinyCoin75"
             ]
         },
         "Shed": {
@@ -30518,8 +30454,8 @@
                 }
             },
             "Collectibles": [
-                "ShedChunkyBalloon77",
-                "ShedChunkyCoin79"
+                "ShedChunkyBalloon78",
+                "ShedChunkyCoin80"
             ]
         },
         "Museum": {
@@ -30628,9 +30564,9 @@
                 }
             },
             "Collectibles": [
-                "MuseumChunkyBunch82",
-                "MuseumChunkyBalloon83",
-                "MuseumChunkyCoin85"
+                "MuseumChunkyBunch83",
+                "MuseumChunkyBalloon84",
+                "MuseumChunkyCoin86"
             ]
         },
         "LowerCave": {
@@ -30806,6 +30742,13 @@
                             {
                                 "Name": "ledgeclip",
                                 "isGlitch": true
+                            },
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "castle_crypt_doors"
+                                ],
+                                "isFunction": true
                             }
                         ]
                     },
@@ -30845,6 +30788,13 @@
                             {
                                 "Name": "phasewalk",
                                 "isGlitch": true
+                            },
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "castle_crypt_doors"
+                                ],
+                                "isFunction": true
                             }
                         ]
                     },
@@ -30879,12 +30829,12 @@
                 }
             },
             "Collectibles": [
-                "LowerCaveDiddyBalloon88",
-                "LowerCaveLankyBanana89",
-                "LowerCaveLankyBunch90",
-                "LowerCaveTinyBalloon91",
-                "LowerCaveDiddyCoin93",
-                "LowerCaveLankyCoin94"
+                "LowerCaveDiddyBalloon89",
+                "LowerCaveLankyBanana90",
+                "LowerCaveLankyBunch91",
+                "LowerCaveTinyBalloon92",
+                "LowerCaveDiddyCoin94",
+                "LowerCaveLankyCoin95"
             ]
         },
         "Crypt": {
@@ -30901,7 +30851,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "peanut"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "peanut"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -30995,7 +30957,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "peanut"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "peanut"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31025,7 +30999,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "peanut"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "peanut"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31055,7 +31041,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "peanut"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "peanut"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31085,7 +31083,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "peanut"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "peanut"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31115,7 +31125,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "pineapple"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "pineapple"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31145,7 +31167,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "pineapple"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "pineapple"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31175,7 +31209,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "pineapple"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "pineapple"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31205,7 +31251,19 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "pineapple"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "pineapple"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "phasewalk",
@@ -31241,6 +31299,13 @@
                                         "Name": "donkey"
                                     }
                                 ]
+                            },
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "castle_crypt_doors"
+                                ],
+                                "isFunction": true
                             },
                             {
                                 "Name": "phasewalk",
@@ -31338,6 +31403,13 @@
                             {
                                 "Name": "generalclips",
                                 "isGlitch": true
+                            },
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "castle_crypt_doors"
+                                ],
+                                "isFunction": true
                             }
                         ]
                     }
@@ -31373,6 +31445,13 @@
                             {
                                 "Name": "phasewalk",
                                 "isGlitch": true
+                            },
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "castle_crypt_doors"
+                                ],
+                                "isFunction": true
                             }
                         ]
                     }
@@ -31400,6 +31479,13 @@
                             {
                                 "Name": "phasewalk",
                                 "isGlitch": true
+                            },
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "castle_crypt_doors"
+                                ],
+                                "isFunction": true
                             }
                         ]
                     }
@@ -31430,7 +31516,19 @@
                                 "combinator": "AND",
                                 "rules": [
                                     {
-                                        "Name": "coconut"
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "coconut"
+                                            },
+                                            {
+                                                "Name": "checkBarrier",
+                                                "Params": [
+                                                    "castle_crypt_doors"
+                                                ],
+                                                "isFunction": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "gorillagrab"
@@ -31457,13 +31555,13 @@
                 }
             },
             "Collectibles": [
-                "CryptDonkeyBunch97",
-                "CryptDonkeyBalloon98",
-                "CryptDiddyBunch99",
-                "CryptDiddyBalloon100",
-                "CryptChunkyBunch101",
-                "CryptDiddyCoin103",
-                "CryptChunkyCoin104"
+                "CryptDonkeyBunch98",
+                "CryptDonkeyBalloon99",
+                "CryptDiddyBunch100",
+                "CryptDiddyBalloon101",
+                "CryptChunkyBunch102",
+                "CryptDiddyCoin104",
+                "CryptChunkyCoin105"
             ]
         },
         "CastleMinecarts": {
@@ -31651,10 +31749,10 @@
                 }
             },
             "Collectibles": [
-                "MausoleumLankyBalloon107",
-                "MausoleumTinyBunch108",
-                "MausoleumLankyCoin110",
-                "MausoleumTinyCoin111"
+                "MausoleumLankyBalloon108",
+                "MausoleumTinyBunch109",
+                "MausoleumLankyCoin111",
+                "MausoleumTinyCoin112"
             ]
         },
         "UpperCave": {
@@ -31784,10 +31882,10 @@
                 }
             },
             "Collectibles": [
-                "UpperCaveChunkyBanana114",
-                "UpperCaveDiddyCoin116",
-                "UpperCaveTinyCoin117",
-                "UpperCaveChunkyCoin118"
+                "UpperCaveChunkyBanana115",
+                "UpperCaveDiddyCoin117",
+                "UpperCaveTinyCoin118",
+                "UpperCaveChunkyCoin119"
             ]
         },
         "Dungeon": {
@@ -32198,16 +32296,16 @@
                 }
             },
             "Collectibles": [
-                "DungeonDonkeyBunch121",
-                "DungeonDiddyBunch122",
+                "DungeonDonkeyBunch122",
                 "DungeonDiddyBunch123",
-                "DungeonDiddyBalloon124",
-                "DungeonLankyBalloon125",
+                "DungeonDiddyBunch124",
+                "DungeonDiddyBalloon125",
                 "DungeonLankyBalloon126",
-                "DungeonChunkyBalloon127",
-                "DungeonDonkeyCoin129",
-                "DungeonLankyCoin130",
-                "DungeonChunkyCoin131"
+                "DungeonLankyBalloon127",
+                "DungeonChunkyBalloon128",
+                "DungeonDonkeyCoin130",
+                "DungeonLankyCoin131",
+                "DungeonChunkyCoin132"
             ]
         },
         "CastleBossLobby": {
@@ -48797,7 +48895,7 @@
             }
         },
         "JapesDonkeyDoor": {
-            "Name": "Japes Donkey Hint",
+            "Name": "Japes Donkey Hint Door",
             "Level": "JungleJapes",
             "Types": "Hint",
             "Class": "Check",
@@ -48806,7 +48904,7 @@
             }
         },
         "JapesDiddyDoor": {
-            "Name": "Japes Diddy Hint",
+            "Name": "Japes Diddy Hint Door",
             "Level": "JungleJapes",
             "Types": "Hint",
             "Class": "Check",
@@ -48815,7 +48913,7 @@
             }
         },
         "JapesLankyDoor": {
-            "Name": "Japes Lanky Hint",
+            "Name": "Japes Lanky Hint Door",
             "Level": "JungleJapes",
             "Types": "Hint",
             "Class": "Check",
@@ -48824,7 +48922,7 @@
             }
         },
         "JapesTinyDoor": {
-            "Name": "Japes Tiny Hint",
+            "Name": "Japes Tiny Hint Door",
             "Level": "JungleJapes",
             "Types": "Hint",
             "Class": "Check",
@@ -48833,7 +48931,7 @@
             }
         },
         "JapesChunkyDoor": {
-            "Name": "Japes Chunky Hint",
+            "Name": "Japes Chunky Hint Door",
             "Level": "JungleJapes",
             "Types": "Hint",
             "Class": "Check",
@@ -48842,7 +48940,7 @@
             }
         },
         "AztecDonkeyDoor": {
-            "Name": "Aztec Donkey Hint",
+            "Name": "Aztec Donkey Hint Door",
             "Level": "AngryAztec",
             "Types": "Hint",
             "Class": "Check",
@@ -48851,7 +48949,7 @@
             }
         },
         "AztecDiddyDoor": {
-            "Name": "Aztec Diddy Hint",
+            "Name": "Aztec Diddy Hint Door",
             "Level": "AngryAztec",
             "Types": "Hint",
             "Class": "Check",
@@ -48860,7 +48958,7 @@
             }
         },
         "AztecLankyDoor": {
-            "Name": "Aztec Lanky Hint",
+            "Name": "Aztec Lanky Hint Door",
             "Level": "AngryAztec",
             "Types": "Hint",
             "Class": "Check",
@@ -48869,7 +48967,7 @@
             }
         },
         "AztecTinyDoor": {
-            "Name": "Aztec Tiny Hint",
+            "Name": "Aztec Tiny Hint Door",
             "Level": "AngryAztec",
             "Types": "Hint",
             "Class": "Check",
@@ -48878,7 +48976,7 @@
             }
         },
         "AztecChunkyDoor": {
-            "Name": "Aztec Chunky Hint",
+            "Name": "Aztec Chunky Hint Door",
             "Level": "AngryAztec",
             "Types": "Hint",
             "Class": "Check",
@@ -48887,7 +48985,7 @@
             }
         },
         "FactoryDonkeyDoor": {
-            "Name": "Factory Donkey Hint",
+            "Name": "Factory Donkey Hint Door",
             "Level": "FranticFactory",
             "Types": "Hint",
             "Class": "Check",
@@ -48896,7 +48994,7 @@
             }
         },
         "FactoryDiddyDoor": {
-            "Name": "Factory Diddy Hint",
+            "Name": "Factory Diddy Hint Door",
             "Level": "FranticFactory",
             "Types": "Hint",
             "Class": "Check",
@@ -48905,7 +49003,7 @@
             }
         },
         "FactoryLankyDoor": {
-            "Name": "Factory Lanky Hint",
+            "Name": "Factory Lanky Hint Door",
             "Level": "FranticFactory",
             "Types": "Hint",
             "Class": "Check",
@@ -48914,7 +49012,7 @@
             }
         },
         "FactoryTinyDoor": {
-            "Name": "Factory Tiny Hint",
+            "Name": "Factory Tiny Hint Door",
             "Level": "FranticFactory",
             "Types": "Hint",
             "Class": "Check",
@@ -48923,7 +49021,7 @@
             }
         },
         "FactoryChunkyDoor": {
-            "Name": "Factory Chunky Hint",
+            "Name": "Factory Chunky Hint Door",
             "Level": "FranticFactory",
             "Types": "Hint",
             "Class": "Check",
@@ -48932,7 +49030,7 @@
             }
         },
         "GalleonDonkeyDoor": {
-            "Name": "Galleon Donkey Hint",
+            "Name": "Galleon Donkey Hint Door",
             "Level": "GloomyGalleon",
             "Types": "Hint",
             "Class": "Check",
@@ -48941,7 +49039,7 @@
             }
         },
         "GalleonDiddyDoor": {
-            "Name": "Galleon Diddy Hint",
+            "Name": "Galleon Diddy Hint Door",
             "Level": "GloomyGalleon",
             "Types": "Hint",
             "Class": "Check",
@@ -48950,7 +49048,7 @@
             }
         },
         "GalleonLankyDoor": {
-            "Name": "Galleon Lanky Hint",
+            "Name": "Galleon Lanky Hint Door",
             "Level": "GloomyGalleon",
             "Types": "Hint",
             "Class": "Check",
@@ -48959,7 +49057,7 @@
             }
         },
         "GalleonTinyDoor": {
-            "Name": "Galleon Tiny Hint",
+            "Name": "Galleon Tiny Hint Door",
             "Level": "GloomyGalleon",
             "Types": "Hint",
             "Class": "Check",
@@ -48968,7 +49066,7 @@
             }
         },
         "GalleonChunkyDoor": {
-            "Name": "Galleon Chunky Hint",
+            "Name": "Galleon Chunky Hint Door",
             "Level": "GloomyGalleon",
             "Types": "Hint",
             "Class": "Check",
@@ -48977,7 +49075,7 @@
             }
         },
         "ForestDonkeyDoor": {
-            "Name": "Forest Donkey Hint",
+            "Name": "Forest Donkey Hint Door",
             "Level": "FungiForest",
             "Types": "Hint",
             "Class": "Check",
@@ -48986,7 +49084,7 @@
             }
         },
         "ForestDiddyDoor": {
-            "Name": "Forest Diddy Hint",
+            "Name": "Forest Diddy Hint Door",
             "Level": "FungiForest",
             "Types": "Hint",
             "Class": "Check",
@@ -48995,7 +49093,7 @@
             }
         },
         "ForestLankyDoor": {
-            "Name": "Forest Lanky Hint",
+            "Name": "Forest Lanky Hint Door",
             "Level": "FungiForest",
             "Types": "Hint",
             "Class": "Check",
@@ -49004,7 +49102,7 @@
             }
         },
         "ForestTinyDoor": {
-            "Name": "Forest Tiny Hint",
+            "Name": "Forest Tiny Hint Door",
             "Level": "FungiForest",
             "Types": "Hint",
             "Class": "Check",
@@ -49013,7 +49111,7 @@
             }
         },
         "ForestChunkyDoor": {
-            "Name": "Forest Chunky Hint",
+            "Name": "Forest Chunky Hint Door",
             "Level": "FungiForest",
             "Types": "Hint",
             "Class": "Check",
@@ -49022,7 +49120,7 @@
             }
         },
         "CavesDonkeyDoor": {
-            "Name": "Caves Donkey Hint",
+            "Name": "Caves Donkey Hint Door",
             "Level": "CrystalCaves",
             "Types": "Hint",
             "Class": "Check",
@@ -49031,7 +49129,7 @@
             }
         },
         "CavesDiddyDoor": {
-            "Name": "Caves Diddy Hint",
+            "Name": "Caves Diddy Hint Door",
             "Level": "CrystalCaves",
             "Types": "Hint",
             "Class": "Check",
@@ -49040,7 +49138,7 @@
             }
         },
         "CavesLankyDoor": {
-            "Name": "Caves Lanky Hint",
+            "Name": "Caves Lanky Hint Door",
             "Level": "CrystalCaves",
             "Types": "Hint",
             "Class": "Check",
@@ -49049,7 +49147,7 @@
             }
         },
         "CavesTinyDoor": {
-            "Name": "Caves Tiny Hint",
+            "Name": "Caves Tiny Hint Door",
             "Level": "CrystalCaves",
             "Types": "Hint",
             "Class": "Check",
@@ -49058,7 +49156,7 @@
             }
         },
         "CavesChunkyDoor": {
-            "Name": "Caves Chunky Hint",
+            "Name": "Caves Chunky Hint Door",
             "Level": "CrystalCaves",
             "Types": "Hint",
             "Class": "Check",
@@ -49067,7 +49165,7 @@
             }
         },
         "CastleDonkeyDoor": {
-            "Name": "Castle Donkey Hint",
+            "Name": "Castle Donkey Hint Door",
             "Level": "CreepyCastle",
             "Types": "Hint",
             "Class": "Check",
@@ -49076,7 +49174,7 @@
             }
         },
         "CastleDiddyDoor": {
-            "Name": "Castle Diddy Hint",
+            "Name": "Castle Diddy Hint Door",
             "Level": "CreepyCastle",
             "Types": "Hint",
             "Class": "Check",
@@ -49085,7 +49183,7 @@
             }
         },
         "CastleLankyDoor": {
-            "Name": "Castle Lanky Hint",
+            "Name": "Castle Lanky Hint Door",
             "Level": "CreepyCastle",
             "Types": "Hint",
             "Class": "Check",
@@ -49094,7 +49192,7 @@
             }
         },
         "CastleTinyDoor": {
-            "Name": "Castle Tiny Hint",
+            "Name": "Castle Tiny Hint Door",
             "Level": "CreepyCastle",
             "Types": "Hint",
             "Class": "Check",
@@ -49103,9 +49201,324 @@
             }
         },
         "CastleChunkyDoor": {
-            "Name": "Castle Chunky Hint",
+            "Name": "Castle Chunky Hint Door",
             "Level": "CreepyCastle",
             "Types": "Hint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_01": {
+            "Name": "Progressive Hint 1",
+            "Level": "JungleJapes",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_02": {
+            "Name": "Progressive Hint 2",
+            "Level": "JungleJapes",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_03": {
+            "Name": "Progressive Hint 3",
+            "Level": "JungleJapes",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_04": {
+            "Name": "Progressive Hint 4",
+            "Level": "JungleJapes",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_05": {
+            "Name": "Progressive Hint 5",
+            "Level": "JungleJapes",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_06": {
+            "Name": "Progressive Hint 6",
+            "Level": "AngryAztec",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_07": {
+            "Name": "Progressive Hint 7",
+            "Level": "AngryAztec",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_08": {
+            "Name": "Progressive Hint 8",
+            "Level": "AngryAztec",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_09": {
+            "Name": "Progressive Hint 9",
+            "Level": "AngryAztec",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_10": {
+            "Name": "Progressive Hint 10",
+            "Level": "AngryAztec",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_11": {
+            "Name": "Progressive Hint 11",
+            "Level": "FranticFactory",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_12": {
+            "Name": "Progressive Hint 12",
+            "Level": "FranticFactory",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_13": {
+            "Name": "Progressive Hint 13",
+            "Level": "FranticFactory",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_14": {
+            "Name": "Progressive Hint 14",
+            "Level": "FranticFactory",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_15": {
+            "Name": "Progressive Hint 15",
+            "Level": "FranticFactory",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_16": {
+            "Name": "Progressive Hint 16",
+            "Level": "GloomyGalleon",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_17": {
+            "Name": "Progressive Hint 17",
+            "Level": "GloomyGalleon",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_18": {
+            "Name": "Progressive Hint 18",
+            "Level": "GloomyGalleon",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_19": {
+            "Name": "Progressive Hint 19",
+            "Level": "GloomyGalleon",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_20": {
+            "Name": "Progressive Hint 20",
+            "Level": "GloomyGalleon",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_21": {
+            "Name": "Progressive Hint 21",
+            "Level": "FungiForest",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_22": {
+            "Name": "Progressive Hint 22",
+            "Level": "FungiForest",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_23": {
+            "Name": "Progressive Hint 23",
+            "Level": "FungiForest",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_24": {
+            "Name": "Progressive Hint 24",
+            "Level": "FungiForest",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_25": {
+            "Name": "Progressive Hint 25",
+            "Level": "FungiForest",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_26": {
+            "Name": "Progressive Hint 26",
+            "Level": "CrystalCaves",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_27": {
+            "Name": "Progressive Hint 27",
+            "Level": "CrystalCaves",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_28": {
+            "Name": "Progressive Hint 28",
+            "Level": "CrystalCaves",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_29": {
+            "Name": "Progressive Hint 29",
+            "Level": "CrystalCaves",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_30": {
+            "Name": "Progressive Hint 30",
+            "Level": "CrystalCaves",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "chunky"
+            }
+        },
+        "ProgressiveHint_31": {
+            "Name": "Progressive Hint 31",
+            "Level": "CreepyCastle",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "donkey"
+            }
+        },
+        "ProgressiveHint_32": {
+            "Name": "Progressive Hint 32",
+            "Level": "CreepyCastle",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "diddy"
+            }
+        },
+        "ProgressiveHint_33": {
+            "Name": "Progressive Hint 33",
+            "Level": "CreepyCastle",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "lanky"
+            }
+        },
+        "ProgressiveHint_34": {
+            "Name": "Progressive Hint 34",
+            "Level": "CreepyCastle",
+            "Types": "ProgressiveHint",
+            "Class": "Check",
+            "Persona": {
+                "Name": "tiny"
+            }
+        },
+        "ProgressiveHint_35": {
+            "Name": "Progressive Hint 35",
+            "Level": "CreepyCastle",
+            "Types": "ProgressiveHint",
             "Class": "Check",
             "Persona": {
                 "Name": "chunky"
@@ -58461,9 +58874,9 @@
             "Class": "Collectible",
             "Level": "FungiForest"
         },
-        "CreepyCastleMainDonkeyBanana12": {
+        "CreepyCastleMainDonkeyBanana13": {
             "Name": "Donkey Banana",
-            "Key": "CreepyCastleMainDonkeyBanana12",
+            "Key": "CreepyCastleMainDonkeyBanana13",
             "Rewards": {
                 "Name": "banana_castle_donkey",
                 "Amount": 5
@@ -58475,9 +58888,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainDonkeyBanana13": {
+        "CreepyCastleMainDonkeyBanana14": {
             "Name": "Donkey Banana",
-            "Key": "CreepyCastleMainDonkeyBanana13",
+            "Key": "CreepyCastleMainDonkeyBanana14",
             "Rewards": {
                 "Name": "banana_castle_donkey",
                 "Amount": 45
@@ -58486,27 +58899,6 @@
                 "Name": "donkey"
             },
             "Requires": true,
-            "Class": "Collectible",
-            "Level": "CreepyCastle"
-        },
-        "CreepyCastleMainDiddyBunch14": {
-            "Name": "Diddy Bunch",
-            "Key": "CreepyCastleMainDiddyBunch14",
-            "Rewards": {
-                "Name": "bunch_castle_diddy",
-                "Amount": 1
-            },
-            "Persona": {
-                "Name": "diddy"
-            },
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "rocketbarrelboost"
-                    }
-                ]
-            },
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
@@ -58531,9 +58923,30 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainDiddyBalloon16": {
+        "CreepyCastleMainDiddyBunch16": {
+            "Name": "Diddy Bunch",
+            "Key": "CreepyCastleMainDiddyBunch16",
+            "Rewards": {
+                "Name": "bunch_castle_diddy",
+                "Amount": 1
+            },
+            "Persona": {
+                "Name": "diddy"
+            },
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    }
+                ]
+            },
+            "Class": "Collectible",
+            "Level": "CreepyCastle"
+        },
+        "CreepyCastleMainDiddyBalloon17": {
             "Name": "Diddy Balloon",
-            "Key": "CreepyCastleMainDiddyBalloon16",
+            "Key": "CreepyCastleMainDiddyBalloon17",
             "Rewards": {
                 "Name": "balloon_castle_diddy",
                 "Amount": 1
@@ -58552,9 +58965,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainTinyBanana17": {
+        "CreepyCastleMainTinyBanana18": {
             "Name": "Tiny Banana",
-            "Key": "CreepyCastleMainTinyBanana17",
+            "Key": "CreepyCastleMainTinyBanana18",
             "Rewards": {
                 "Name": "banana_castle_tiny",
                 "Amount": 45
@@ -58566,29 +58979,15 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainTinyBunch18": {
+        "CreepyCastleMainTinyBunch19": {
             "Name": "Tiny Bunch",
-            "Key": "CreepyCastleMainTinyBunch18",
+            "Key": "CreepyCastleMainTinyBunch19",
             "Rewards": {
                 "Name": "bunch_castle_tiny",
                 "Amount": 1
             },
             "Persona": {
                 "Name": "tiny"
-            },
-            "Requires": true,
-            "Class": "Collectible",
-            "Level": "CreepyCastle"
-        },
-        "CreepyCastleMainDonkeyCoin21": {
-            "Name": "Donkey Coin",
-            "Key": "CreepyCastleMainDonkeyCoin21",
-            "Rewards": {
-                "Name": "coin_castle_donkey",
-                "Amount": 3
-            },
-            "Persona": {
-                "Name": "donkey"
             },
             "Requires": true,
             "Class": "Collectible",
@@ -58608,9 +59007,23 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainDiddyCoin23": {
+        "CreepyCastleMainDonkeyCoin23": {
+            "Name": "Donkey Coin",
+            "Key": "CreepyCastleMainDonkeyCoin23",
+            "Rewards": {
+                "Name": "coin_castle_donkey",
+                "Amount": 3
+            },
+            "Persona": {
+                "Name": "donkey"
+            },
+            "Requires": true,
+            "Class": "Collectible",
+            "Level": "CreepyCastle"
+        },
+        "CreepyCastleMainDiddyCoin24": {
             "Name": "Diddy Coin",
-            "Key": "CreepyCastleMainDiddyCoin23",
+            "Key": "CreepyCastleMainDiddyCoin24",
             "Rewards": {
                 "Name": "coin_castle_diddy",
                 "Amount": 4
@@ -58629,9 +59042,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainDiddyCoin24": {
+        "CreepyCastleMainDiddyCoin25": {
             "Name": "Diddy Coin",
-            "Key": "CreepyCastleMainDiddyCoin24",
+            "Key": "CreepyCastleMainDiddyCoin25",
             "Rewards": {
                 "Name": "coin_castle_diddy",
                 "Amount": 2
@@ -58650,9 +59063,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainLankyCoin25": {
+        "CreepyCastleMainLankyCoin26": {
             "Name": "Lanky Coin",
-            "Key": "CreepyCastleMainLankyCoin25",
+            "Key": "CreepyCastleMainLankyCoin26",
             "Rewards": {
                 "Name": "coin_castle_lanky",
                 "Amount": 2
@@ -58664,9 +59077,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainTinyCoin26": {
+        "CreepyCastleMainTinyCoin27": {
             "Name": "Tiny Coin",
-            "Key": "CreepyCastleMainTinyCoin26",
+            "Key": "CreepyCastleMainTinyCoin27",
             "Rewards": {
                 "Name": "coin_castle_tiny",
                 "Amount": 2
@@ -58678,29 +59091,15 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CreepyCastleMainTinyCoin27": {
+        "CreepyCastleMainTinyCoin28": {
             "Name": "Tiny Coin",
-            "Key": "CreepyCastleMainTinyCoin27",
+            "Key": "CreepyCastleMainTinyCoin28",
             "Rewards": {
                 "Name": "coin_castle_tiny",
                 "Amount": 3
             },
             "Persona": {
                 "Name": "tiny"
-            },
-            "Requires": true,
-            "Class": "Collectible",
-            "Level": "CreepyCastle"
-        },
-        "CreepyCastleMainChunkyCoin28": {
-            "Name": "Chunky Coin",
-            "Key": "CreepyCastleMainChunkyCoin28",
-            "Rewards": {
-                "Name": "coin_castle_chunky",
-                "Amount": 3
-            },
-            "Persona": {
-                "Name": "chunky"
             },
             "Requires": true,
             "Class": "Collectible",
@@ -58720,9 +59119,23 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CastleBaboonBlastDonkeyCoin32": {
+        "CreepyCastleMainChunkyCoin30": {
+            "Name": "Chunky Coin",
+            "Key": "CreepyCastleMainChunkyCoin30",
+            "Rewards": {
+                "Name": "coin_castle_chunky",
+                "Amount": 3
+            },
+            "Persona": {
+                "Name": "chunky"
+            },
+            "Requires": true,
+            "Class": "Collectible",
+            "Level": "CreepyCastle"
+        },
+        "CastleBaboonBlastDonkeyCoin33": {
             "Name": "Donkey Coin",
-            "Key": "CastleBaboonBlastDonkeyCoin32",
+            "Key": "CastleBaboonBlastDonkeyCoin33",
             "Rewards": {
                 "Name": "coin_castle_donkey",
                 "Amount": 5
@@ -58734,9 +59147,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CastleTreeDonkeyBunch35": {
+        "CastleTreeDonkeyBunch36": {
             "Name": "Donkey Bunch",
-            "Key": "CastleTreeDonkeyBunch35",
+            "Key": "CastleTreeDonkeyBunch36",
             "Rewards": {
                 "Name": "bunch_castle_donkey",
                 "Amount": 1
@@ -58755,9 +59168,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CastleTreeDonkeyBalloon36": {
+        "CastleTreeDonkeyBalloon37": {
             "Name": "Donkey Balloon",
-            "Key": "CastleTreeDonkeyBalloon36",
+            "Key": "CastleTreeDonkeyBalloon37",
             "Rewards": {
                 "Name": "balloon_castle_donkey",
                 "Amount": 1
@@ -58776,9 +59189,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CastleTreeChunkyBunch37": {
+        "CastleTreeChunkyBunch38": {
             "Name": "Chunky Bunch",
-            "Key": "CastleTreeChunkyBunch37",
+            "Key": "CastleTreeChunkyBunch38",
             "Rewards": {
                 "Name": "bunch_castle_chunky",
                 "Amount": 1
@@ -58790,9 +59203,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CastleTreeChunkyBalloon38": {
+        "CastleTreeChunkyBalloon39": {
             "Name": "Chunky Balloon",
-            "Key": "CastleTreeChunkyBalloon38",
+            "Key": "CastleTreeChunkyBalloon39",
             "Rewards": {
                 "Name": "balloon_castle_chunky",
                 "Amount": 1
@@ -58823,9 +59236,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CastleTreeChunkyCoin40": {
+        "CastleTreeChunkyCoin41": {
             "Name": "Chunky Coin",
-            "Key": "CastleTreeChunkyCoin40",
+            "Key": "CastleTreeChunkyCoin41",
             "Rewards": {
                 "Name": "coin_castle_chunky",
                 "Amount": 3
@@ -58848,9 +59261,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LibraryDonkeyBunch43": {
+        "LibraryDonkeyBunch44": {
             "Name": "Donkey Bunch",
-            "Key": "LibraryDonkeyBunch43",
+            "Key": "LibraryDonkeyBunch44",
             "Rewards": {
                 "Name": "bunch_castle_donkey",
                 "Amount": 1
@@ -58862,9 +59275,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LibraryPastSlamDonkeyBunch46": {
+        "LibraryPastSlamDonkeyBunch47": {
             "Name": "Donkey Bunch",
-            "Key": "LibraryPastSlamDonkeyBunch46",
+            "Key": "LibraryPastSlamDonkeyBunch47",
             "Rewards": {
                 "Name": "bunch_castle_donkey",
                 "Amount": 2
@@ -58883,9 +59296,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "BallroomDiddyBunch50": {
+        "BallroomDiddyBunch51": {
             "Name": "Diddy Bunch",
-            "Key": "BallroomDiddyBunch50",
+            "Key": "BallroomDiddyBunch51",
             "Rewards": {
                 "Name": "bunch_castle_diddy",
                 "Amount": 3
@@ -58904,9 +59317,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "BallroomDiddyBalloon51": {
+        "BallroomDiddyBalloon52": {
             "Name": "Diddy Balloon",
-            "Key": "BallroomDiddyBalloon51",
+            "Key": "BallroomDiddyBalloon52",
             "Rewards": {
                 "Name": "balloon_castle_diddy",
                 "Amount": 1
@@ -58925,9 +59338,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "BallroomTinyBunch52": {
+        "BallroomTinyBunch53": {
             "Name": "Tiny Bunch",
-            "Key": "BallroomTinyBunch52",
+            "Key": "BallroomTinyBunch53",
             "Rewards": {
                 "Name": "bunch_castle_tiny",
                 "Amount": 1
@@ -58939,9 +59352,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "BallroomTinyCoin54": {
+        "BallroomTinyCoin55": {
             "Name": "Tiny Coin",
-            "Key": "BallroomTinyCoin54",
+            "Key": "BallroomTinyCoin55",
             "Rewards": {
                 "Name": "coin_castle_tiny",
                 "Amount": 3
@@ -58953,9 +59366,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MuseumBehindGlassTinyBunch57": {
+        "MuseumBehindGlassTinyBunch58": {
             "Name": "Tiny Bunch",
-            "Key": "MuseumBehindGlassTinyBunch57",
+            "Key": "MuseumBehindGlassTinyBunch58",
             "Rewards": {
                 "Name": "bunch_castle_tiny",
                 "Amount": 2
@@ -58967,9 +59380,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MuseumBehindGlassTinyBunch58": {
+        "MuseumBehindGlassTinyBunch59": {
             "Name": "Tiny Bunch",
-            "Key": "MuseumBehindGlassTinyBunch58",
+            "Key": "MuseumBehindGlassTinyBunch59",
             "Rewards": {
                 "Name": "bunch_castle_tiny",
                 "Amount": 1
@@ -58992,9 +59405,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MuseumBehindGlassTinyBalloon59": {
+        "MuseumBehindGlassTinyBalloon60": {
             "Name": "Tiny Balloon",
-            "Key": "MuseumBehindGlassTinyBalloon59",
+            "Key": "MuseumBehindGlassTinyBalloon60",
             "Rewards": {
                 "Name": "balloon_castle_tiny",
                 "Amount": 1
@@ -59025,9 +59438,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "TowerLankyBalloon63": {
+        "TowerLankyBalloon64": {
             "Name": "Lanky Balloon",
-            "Key": "TowerLankyBalloon63",
+            "Key": "TowerLankyBalloon64",
             "Rewards": {
                 "Name": "balloon_castle_lanky",
                 "Amount": 1
@@ -59046,9 +59459,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "GreenhouseLankyBunch67": {
+        "GreenhouseLankyBunch68": {
             "Name": "Lanky Bunch",
-            "Key": "GreenhouseLankyBunch67",
+            "Key": "GreenhouseLankyBunch68",
             "Rewards": {
                 "Name": "bunch_castle_lanky",
                 "Amount": 6
@@ -59060,9 +59473,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "GreenhouseLankyCoin69": {
+        "GreenhouseLankyCoin70": {
             "Name": "Lanky Coin",
-            "Key": "GreenhouseLankyCoin69",
+            "Key": "GreenhouseLankyCoin70",
             "Rewards": {
                 "Name": "coin_castle_lanky",
                 "Amount": 3
@@ -59074,9 +59487,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "TrashCanTinyBunch72": {
+        "TrashCanTinyBunch73": {
             "Name": "Tiny Bunch",
-            "Key": "TrashCanTinyBunch72",
+            "Key": "TrashCanTinyBunch73",
             "Rewards": {
                 "Name": "bunch_castle_tiny",
                 "Amount": 1
@@ -59088,9 +59501,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "TrashCanTinyCoin74": {
+        "TrashCanTinyCoin75": {
             "Name": "Tiny Coin",
-            "Key": "TrashCanTinyCoin74",
+            "Key": "TrashCanTinyCoin75",
             "Rewards": {
                 "Name": "coin_castle_tiny",
                 "Amount": 2
@@ -59102,9 +59515,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "ShedChunkyBalloon77": {
+        "ShedChunkyBalloon78": {
             "Name": "Chunky Balloon",
-            "Key": "ShedChunkyBalloon77",
+            "Key": "ShedChunkyBalloon78",
             "Rewards": {
                 "Name": "balloon_castle_chunky",
                 "Amount": 1
@@ -59123,9 +59536,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "ShedChunkyCoin79": {
+        "ShedChunkyCoin80": {
             "Name": "Chunky Coin",
-            "Key": "ShedChunkyCoin79",
+            "Key": "ShedChunkyCoin80",
             "Rewards": {
                 "Name": "coin_castle_chunky",
                 "Amount": 4
@@ -59137,9 +59550,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MuseumChunkyBunch82": {
+        "MuseumChunkyBunch83": {
             "Name": "Chunky Bunch",
-            "Key": "MuseumChunkyBunch82",
+            "Key": "MuseumChunkyBunch83",
             "Rewards": {
                 "Name": "bunch_castle_chunky",
                 "Amount": 1
@@ -59161,9 +59574,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MuseumChunkyBalloon83": {
+        "MuseumChunkyBalloon84": {
             "Name": "Chunky Balloon",
-            "Key": "MuseumChunkyBalloon83",
+            "Key": "MuseumChunkyBalloon84",
             "Rewards": {
                 "Name": "balloon_castle_chunky",
                 "Amount": 1
@@ -59182,9 +59595,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MuseumChunkyCoin85": {
+        "MuseumChunkyCoin86": {
             "Name": "Chunky Coin",
-            "Key": "MuseumChunkyCoin85",
+            "Key": "MuseumChunkyCoin86",
             "Rewards": {
                 "Name": "coin_castle_chunky",
                 "Amount": 3
@@ -59196,9 +59609,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LowerCaveDiddyBalloon88": {
+        "LowerCaveDiddyBalloon89": {
             "Name": "Diddy Balloon",
-            "Key": "LowerCaveDiddyBalloon88",
+            "Key": "LowerCaveDiddyBalloon89",
             "Rewards": {
                 "Name": "balloon_castle_diddy",
                 "Amount": 1
@@ -59217,9 +59630,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LowerCaveLankyBanana89": {
+        "LowerCaveLankyBanana90": {
             "Name": "Lanky Banana",
-            "Key": "LowerCaveLankyBanana89",
+            "Key": "LowerCaveLankyBanana90",
             "Rewards": {
                 "Name": "banana_castle_lanky",
                 "Amount": 5
@@ -59231,9 +59644,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LowerCaveLankyBunch90": {
+        "LowerCaveLankyBunch91": {
             "Name": "Lanky Bunch",
-            "Key": "LowerCaveLankyBunch90",
+            "Key": "LowerCaveLankyBunch91",
             "Rewards": {
                 "Name": "bunch_castle_lanky",
                 "Amount": 5
@@ -59245,9 +59658,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LowerCaveTinyBalloon91": {
+        "LowerCaveTinyBalloon92": {
             "Name": "Tiny Balloon",
-            "Key": "LowerCaveTinyBalloon91",
+            "Key": "LowerCaveTinyBalloon92",
             "Rewards": {
                 "Name": "balloon_castle_tiny",
                 "Amount": 1
@@ -59266,9 +59679,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LowerCaveDiddyCoin93": {
+        "LowerCaveDiddyCoin94": {
             "Name": "Diddy Coin",
-            "Key": "LowerCaveDiddyCoin93",
+            "Key": "LowerCaveDiddyCoin94",
             "Rewards": {
                 "Name": "coin_castle_diddy",
                 "Amount": 3
@@ -59280,9 +59693,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "LowerCaveLankyCoin94": {
+        "LowerCaveLankyCoin95": {
             "Name": "Lanky Coin",
-            "Key": "LowerCaveLankyCoin94",
+            "Key": "LowerCaveLankyCoin95",
             "Rewards": {
                 "Name": "coin_castle_lanky",
                 "Amount": 4
@@ -59294,9 +59707,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptDonkeyBunch97": {
+        "CryptDonkeyBunch98": {
             "Name": "Donkey Bunch",
-            "Key": "CryptDonkeyBunch97",
+            "Key": "CryptDonkeyBunch98",
             "Rewards": {
                 "Name": "bunch_castle_donkey",
                 "Amount": 1
@@ -59308,9 +59721,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptDonkeyBalloon98": {
+        "CryptDonkeyBalloon99": {
             "Name": "Donkey Balloon",
-            "Key": "CryptDonkeyBalloon98",
+            "Key": "CryptDonkeyBalloon99",
             "Rewards": {
                 "Name": "balloon_castle_donkey",
                 "Amount": 1
@@ -59329,9 +59742,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptDiddyBunch99": {
+        "CryptDiddyBunch100": {
             "Name": "Diddy Bunch",
-            "Key": "CryptDiddyBunch99",
+            "Key": "CryptDiddyBunch100",
             "Rewards": {
                 "Name": "bunch_castle_diddy",
                 "Amount": 1
@@ -59343,9 +59756,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptDiddyBalloon100": {
+        "CryptDiddyBalloon101": {
             "Name": "Diddy Balloon",
-            "Key": "CryptDiddyBalloon100",
+            "Key": "CryptDiddyBalloon101",
             "Rewards": {
                 "Name": "balloon_castle_diddy",
                 "Amount": 1
@@ -59380,9 +59793,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptChunkyBunch101": {
+        "CryptChunkyBunch102": {
             "Name": "Chunky Bunch",
-            "Key": "CryptChunkyBunch101",
+            "Key": "CryptChunkyBunch102",
             "Rewards": {
                 "Name": "bunch_castle_chunky",
                 "Amount": 2
@@ -59400,7 +59813,19 @@
                                 "Name": "primatepunch"
                             },
                             {
-                                "Name": "pineapple"
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "pineapple"
+                                    },
+                                    {
+                                        "Name": "checkBarrier",
+                                        "Params": [
+                                            "castle_crypt_doors"
+                                        ],
+                                        "isFunction": true
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -59417,9 +59842,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptDiddyCoin103": {
+        "CryptDiddyCoin104": {
             "Name": "Diddy Coin",
-            "Key": "CryptDiddyCoin103",
+            "Key": "CryptDiddyCoin104",
             "Rewards": {
                 "Name": "coin_castle_diddy",
                 "Amount": 3
@@ -59454,9 +59879,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "CryptChunkyCoin104": {
+        "CryptChunkyCoin105": {
             "Name": "Chunky Coin",
-            "Key": "CryptChunkyCoin104",
+            "Key": "CryptChunkyCoin105",
             "Rewards": {
                 "Name": "coin_castle_chunky",
                 "Amount": 3
@@ -59474,7 +59899,19 @@
                                 "Name": "primatepunch"
                             },
                             {
-                                "Name": "pineapple"
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "pineapple"
+                                    },
+                                    {
+                                        "Name": "checkBarrier",
+                                        "Params": [
+                                            "castle_crypt_doors"
+                                        ],
+                                        "isFunction": true
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -59491,9 +59928,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MausoleumLankyBalloon107": {
+        "MausoleumLankyBalloon108": {
             "Name": "Lanky Balloon",
-            "Key": "MausoleumLankyBalloon107",
+            "Key": "MausoleumLankyBalloon108",
             "Rewards": {
                 "Name": "balloon_castle_lanky",
                 "Amount": 1
@@ -59528,9 +59965,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MausoleumTinyBunch108": {
+        "MausoleumTinyBunch109": {
             "Name": "Tiny Bunch",
-            "Key": "MausoleumTinyBunch108",
+            "Key": "MausoleumTinyBunch109",
             "Rewards": {
                 "Name": "bunch_castle_tiny",
                 "Amount": 1
@@ -59570,9 +60007,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MausoleumLankyCoin110": {
+        "MausoleumLankyCoin111": {
             "Name": "Lanky Coin",
-            "Key": "MausoleumLankyCoin110",
+            "Key": "MausoleumLankyCoin111",
             "Rewards": {
                 "Name": "coin_castle_lanky",
                 "Amount": 3
@@ -59632,9 +60069,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "MausoleumTinyCoin111": {
+        "MausoleumTinyCoin112": {
             "Name": "Tiny Coin",
-            "Key": "MausoleumTinyCoin111",
+            "Key": "MausoleumTinyCoin112",
             "Rewards": {
                 "Name": "coin_castle_tiny",
                 "Amount": 2
@@ -59678,9 +60115,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "UpperCaveChunkyBanana114": {
+        "UpperCaveChunkyBanana115": {
             "Name": "Chunky Banana",
-            "Key": "UpperCaveChunkyBanana114",
+            "Key": "UpperCaveChunkyBanana115",
             "Rewards": {
                 "Name": "banana_castle_chunky",
                 "Amount": 30
@@ -59692,9 +60129,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "UpperCaveDiddyCoin116": {
+        "UpperCaveDiddyCoin117": {
             "Name": "Diddy Coin",
-            "Key": "UpperCaveDiddyCoin116",
+            "Key": "UpperCaveDiddyCoin117",
             "Rewards": {
                 "Name": "coin_castle_diddy",
                 "Amount": 3
@@ -59706,9 +60143,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "UpperCaveTinyCoin117": {
+        "UpperCaveTinyCoin118": {
             "Name": "Tiny Coin",
-            "Key": "UpperCaveTinyCoin117",
+            "Key": "UpperCaveTinyCoin118",
             "Rewards": {
                 "Name": "coin_castle_tiny",
                 "Amount": 3
@@ -59727,9 +60164,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "UpperCaveChunkyCoin118": {
+        "UpperCaveChunkyCoin119": {
             "Name": "Chunky Coin",
-            "Key": "UpperCaveChunkyCoin118",
+            "Key": "UpperCaveChunkyCoin119",
             "Rewards": {
                 "Name": "coin_castle_chunky",
                 "Amount": 3
@@ -59741,9 +60178,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "DungeonDonkeyBunch121": {
+        "DungeonDonkeyBunch122": {
             "Name": "Donkey Bunch",
-            "Key": "DungeonDonkeyBunch121",
+            "Key": "DungeonDonkeyBunch122",
             "Rewards": {
                 "Name": "bunch_castle_donkey",
                 "Amount": 1
@@ -59761,31 +60198,6 @@
                             3
                         ],
                         "isFunction": true
-                    },
-                    {
-                        "Name": "phasewalk",
-                        "isGlitch": true
-                    }
-                ]
-            },
-            "Class": "Collectible",
-            "Level": "CreepyCastle"
-        },
-        "DungeonDiddyBunch122": {
-            "Name": "Diddy Bunch",
-            "Key": "DungeonDiddyBunch122",
-            "Rewards": {
-                "Name": "bunch_castle_diddy",
-                "Amount": 2
-            },
-            "Persona": {
-                "Name": "diddy"
-            },
-            "Requires": {
-                "combinator": "OR",
-                "rules": [
-                    {
-                        "Name": "primatepunch"
                     },
                     {
                         "Name": "phasewalk",
@@ -59821,9 +60233,34 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "DungeonDiddyBalloon124": {
+        "DungeonDiddyBunch124": {
+            "Name": "Diddy Bunch",
+            "Key": "DungeonDiddyBunch124",
+            "Rewards": {
+                "Name": "bunch_castle_diddy",
+                "Amount": 2
+            },
+            "Persona": {
+                "Name": "diddy"
+            },
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "Name": "primatepunch"
+                    },
+                    {
+                        "Name": "phasewalk",
+                        "isGlitch": true
+                    }
+                ]
+            },
+            "Class": "Collectible",
+            "Level": "CreepyCastle"
+        },
+        "DungeonDiddyBalloon125": {
             "Name": "Diddy Balloon",
-            "Key": "DungeonDiddyBalloon124",
+            "Key": "DungeonDiddyBalloon125",
             "Rewards": {
                 "Name": "balloon_castle_diddy",
                 "Amount": 1
@@ -59853,44 +60290,6 @@
                     },
                     {
                         "Name": "peanut"
-                    }
-                ]
-            },
-            "Class": "Collectible",
-            "Level": "CreepyCastle"
-        },
-        "DungeonLankyBalloon125": {
-            "Name": "Lanky Balloon",
-            "Key": "DungeonLankyBalloon125",
-            "Rewards": {
-                "Name": "balloon_castle_lanky",
-                "Amount": 1
-            },
-            "Persona": {
-                "Name": "lanky"
-            },
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "grape"
-                    },
-                    {
-                        "combinator": "OR",
-                        "rules": [
-                            {
-                                "Name": "CanSlamSwitch",
-                                "Params": [
-                                    "CreepyCastle",
-                                    3
-                                ],
-                                "isFunction": true
-                            },
-                            {
-                                "Name": "phasewalk",
-                                "isGlitch": true
-                            }
-                        ]
                     }
                 ]
             },
@@ -59929,6 +60328,44 @@
                                 "isGlitch": true
                             }
                         ]
+                    }
+                ]
+            },
+            "Class": "Collectible",
+            "Level": "CreepyCastle"
+        },
+        "DungeonLankyBalloon127": {
+            "Name": "Lanky Balloon",
+            "Key": "DungeonLankyBalloon127",
+            "Rewards": {
+                "Name": "balloon_castle_lanky",
+                "Amount": 1
+            },
+            "Persona": {
+                "Name": "lanky"
+            },
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "grape"
+                    },
+                    {
+                        "combinator": "OR",
+                        "rules": [
+                            {
+                                "Name": "CanSlamSwitch",
+                                "Params": [
+                                    "CreepyCastle",
+                                    3
+                                ],
+                                "isFunction": true
+                            },
+                            {
+                                "Name": "phasewalk",
+                                "isGlitch": true
+                            }
+                        ]
                     },
                     {
                         "Name": "trombone"
@@ -59941,9 +60378,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "DungeonChunkyBalloon127": {
+        "DungeonChunkyBalloon128": {
             "Name": "Chunky Balloon",
-            "Key": "DungeonChunkyBalloon127",
+            "Key": "DungeonChunkyBalloon128",
             "Rewards": {
                 "Name": "balloon_castle_chunky",
                 "Amount": 2
@@ -59978,9 +60415,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "DungeonDonkeyCoin129": {
+        "DungeonDonkeyCoin130": {
             "Name": "Donkey Coin",
-            "Key": "DungeonDonkeyCoin129",
+            "Key": "DungeonDonkeyCoin130",
             "Rewards": {
                 "Name": "coin_castle_donkey",
                 "Amount": 3
@@ -59992,9 +60429,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "DungeonLankyCoin130": {
+        "DungeonLankyCoin131": {
             "Name": "Lanky Coin",
-            "Key": "DungeonLankyCoin130",
+            "Key": "DungeonLankyCoin131",
             "Rewards": {
                 "Name": "coin_castle_lanky",
                 "Amount": 3
@@ -60033,9 +60470,9 @@
             "Class": "Collectible",
             "Level": "CreepyCastle"
         },
-        "DungeonChunkyCoin131": {
+        "DungeonChunkyCoin132": {
             "Name": "Chunky Coin",
-            "Key": "DungeonChunkyCoin131",
+            "Key": "DungeonChunkyCoin132",
             "Rewards": {
                 "Name": "coin_castle_chunky",
                 "Amount": 3
