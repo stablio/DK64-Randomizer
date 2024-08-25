@@ -15,6 +15,15 @@
     "HideoutHelmChunkyRoom": {
       "Name": "Hideout Helm Chunky Room"
     },
+    "CrankyGeneric":{
+      "HintName": "Cranky Generic"
+    },
+    "FunkyGeneric": {
+      "HintName": "Funky Generic"
+    },
+    "CandyGeneric":{
+      "HintName": "Candy Generic"
+    },
     "CrankyIsles": {
       "Level": "DKIsles"
     },

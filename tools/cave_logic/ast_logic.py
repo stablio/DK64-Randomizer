@@ -17,6 +17,7 @@ from randomizer.Logic import CollectibleRegionsOriginal, LogicVarHolder, Regions
 from randomizer.Enums.Regions import Regions
 from randomizer.Lists.DoorLocations import GetBossLobbyRegionIdForRegion
 from randomizer.Enums.Maps import Maps
+from randomizer.Enums.HintRegion import HintRegion, HINT_REGION_PAIRING
 
 RegionList = deepcopy(RegionsOriginal)
 
@@ -411,6 +412,8 @@ def ast_to_json(node, params):
         return lo
     elif isinstance(node, ast.Call):
         return ast_to_json(node.func, params)
+    elif isinstance(node, ast.Attribute) and hasattr(node.value, 'id') and node.value.id == "HintRegion":
+        return HINT_REGION_PAIRING[HintRegion[node.attr]];
     elif isinstance(node, ast.Attribute):
         name = normalise_name(node.attr)
         if name in glitches:

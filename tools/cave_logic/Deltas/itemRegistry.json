@@ -232,6 +232,14 @@
     "Vines": {
       "AltNames": ["Vines"]
     },
+    "Climbing": {
+      "Key": "Climbing",
+      "Name": "Climbing",
+      "AltNames": [
+          "Climbing"
+      ],
+      "Type": "Move"
+    },
     "Camera": {
       "AltNames": ["Camera"]
     },
