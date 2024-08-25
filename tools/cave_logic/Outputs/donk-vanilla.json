@@ -10804,6 +10804,11 @@
                             }
                         ]
                     }
+                },
+                "FranticFactoryMedals": {
+                    "Key": "FranticFactoryMedals",
+                    "Name": "Frantic Factory Start to Frantic Factory Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -16695,6 +16700,11 @@
                             }
                         ]
                     }
+                },
+                "CrystalCavesMedals": {
+                    "Key": "CrystalCavesMedals",
+                    "Name": "Crystal Caves Main to Crystal Caves Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -20342,6 +20352,11 @@
                             }
                         ]
                     }
+                },
+                "JungleJapesMedals": {
+                    "Key": "JungleJapesMedals",
+                    "Name": "Jungle Japes Start to Jungle Japes Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -24858,6 +24873,11 @@
                             }
                         ]
                     }
+                },
+                "FungiForestMedals": {
+                    "Key": "FungiForestMedals",
+                    "Name": "Fungi Forest Start to Fungi Forest Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -29863,6 +29883,11 @@
                             }
                         ]
                     }
+                },
+                "CreepyCastleMedals": {
+                    "Key": "CreepyCastleMedals",
+                    "Name": "Creepy Castle Main to Creepy Castle Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -33272,6 +33297,11 @@
                             }
                         ]
                     }
+                },
+                "AngryAztecMedals": {
+                    "Key": "AngryAztecMedals",
+                    "Name": "Angry Aztec Start to Angry Aztec Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -41808,6 +41838,11 @@
                             }
                         ]
                     }
+                },
+                "GloomyGalleonMedals": {
+                    "Key": "GloomyGalleonMedals",
+                    "Name": "Gloomy Galleon Start to Gloomy Galleon Medals",
+                    "Requires": true
                 }
             },
             "Collectibles": [
