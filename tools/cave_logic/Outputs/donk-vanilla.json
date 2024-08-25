@@ -3842,6 +3842,166 @@
                     "Rewards": {
                         "Name": "Day"
                     }
+                },
+                "AztecIceMelted": {
+                    "Key": "AztecIceMelted",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "aztec_tiny_temple_ice"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "AztecIceMelted"
+                    }
+                },
+                "TestingGateOpened": {
+                    "Key": "TestingGateOpened",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "factory_testing_gate"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "TestingGateOpened"
+                    }
+                },
+                "LighthouseGateOpened": {
+                    "Key": "LighthouseGateOpened",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "galleon_lighthouse_gate"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "LighthouseGateOpened"
+                    }
+                },
+                "ShipyardGateOpened": {
+                    "Key": "ShipyardGateOpened",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "galleon_shipyard_area_gate"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "ShipyardGateOpened"
+                    }
+                },
+                "ActivatedLighthouse": {
+                    "Key": "ActivatedLighthouse",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "galleon_seasick_ship"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "ActivatedLighthouse"
+                    }
+                },
+                "ShipyardTreasureRoomOpened": {
+                    "Key": "ShipyardTreasureRoomOpened",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "galleon_treasure_room"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "ShipyardTreasureRoomOpened"
+                    }
+                },
+                "WormGatesOpened": {
+                    "Key": "WormGatesOpened",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "forest_green_tunnel"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "WormGatesOpened"
+                    }
+                },
+                "HollowTreeGateOpened": {
+                    "Key": "HollowTreeGateOpened",
+                    "Class": "Event",
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "forest_yellow_tunnel"
+                                ],
+                                "isFunction": true
+                            }
+                        ]
+                    },
+                    "Level": "DKIsles",
+                    "Rewards": {
+                        "Name": "HollowTreeGateOpened"
+                    }
                 }
             },
             "Neighbourhood": {
@@ -3873,6 +4033,46 @@
                             }
                         ]
                     }
+                },
+                "DKIslesMedals": {
+                    "Key": "DKIslesMedals",
+                    "Name": "Game Start to Dkisles Medals",
+                    "Requires": true
+                },
+                "JungleJapesMedals": {
+                    "Key": "JungleJapesMedals",
+                    "Name": "Game Start to Jungle Japes Medals",
+                    "Requires": true
+                },
+                "AngryAztecMedals": {
+                    "Key": "AngryAztecMedals",
+                    "Name": "Game Start to Angry Aztec Medals",
+                    "Requires": true
+                },
+                "FranticFactoryMedals": {
+                    "Key": "FranticFactoryMedals",
+                    "Name": "Game Start to Frantic Factory Medals",
+                    "Requires": true
+                },
+                "GloomyGalleonMedals": {
+                    "Key": "GloomyGalleonMedals",
+                    "Name": "Game Start to Gloomy Galleon Medals",
+                    "Requires": true
+                },
+                "FungiForestMedals": {
+                    "Key": "FungiForestMedals",
+                    "Name": "Game Start to Fungi Forest Medals",
+                    "Requires": true
+                },
+                "CrystalCavesMedals": {
+                    "Key": "CrystalCavesMedals",
+                    "Name": "Game Start to Crystal Caves Medals",
+                    "Requires": true
+                },
+                "CreepyCastleMedals": {
+                    "Key": "CreepyCastleMedals",
+                    "Name": "Game Start to Creepy Castle Medals",
+                    "Requires": true
                 }
             }
         },
@@ -4013,11 +4213,6 @@
                         "Name": "IslesTreehouseToStart"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Treehouse to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -4505,11 +4700,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Training Grounds to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -4768,6 +4958,54 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaRingWarp1": {
+                    "Key": "VanillaRingWarp1",
+                    "Name": "Vanilla Ring Warp 1",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaRingWarp2": {
+                    "Key": "VanillaRingWarp2",
+                    "Name": "Vanilla Ring Warp 2",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaWaterfallWarp3": {
+                    "Key": "VanillaWaterfallWarp3",
+                    "Name": "Vanilla Waterfall Warp 3",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaRingWarp5": {
+                    "Key": "VanillaRingWarp5",
+                    "Name": "Vanilla Ring Warp 5",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaRingWarp3": {
+                    "Key": "VanillaRingWarp3",
+                    "Name": "Vanilla Ring Warp 3",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaRingWarp4": {
+                    "Key": "VanillaRingWarp4",
+                    "Name": "Vanilla Ring Warp 4",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -4900,11 +5138,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Main to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -5061,6 +5294,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaIslandWarp5": {
+                    "Key": "VanillaIslandWarp5",
+                    "Name": "Vanilla Island Warp 5",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -5102,11 +5343,6 @@
                         "Name": "IslesMainToFairy"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Outer Isles to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -5133,11 +5369,6 @@
                 "IslesMain": {
                     "Key": "IslesMain",
                     "Name": "Isles Hill to Isles Main",
-                    "Requires": true
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Hill to Dkisles Medals",
                     "Requires": true
                 },
                 "IslesMainUpper": {
@@ -5255,6 +5486,14 @@
                 "BehindAztecBuilding": {
                     "Key": "BehindAztecBuilding",
                     "Name": "Behind Aztec Building",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaUpperWarp2": {
+                    "Key": "VanillaUpperWarp2",
+                    "Name": "Vanilla Upper Warp 2",
                     "Level": "DKIsles",
                     "Class": "Custom Check",
                     "Types": "Custom Check",
@@ -5401,11 +5640,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Main Upper to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -5497,11 +5731,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Ear to Dkisles Medals",
-                    "Requires": true
                 }
             }
         },
@@ -5814,11 +6043,6 @@
                         "Name": "IslesPrisonToMain"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Prison to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -5890,11 +6114,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Banana Fairy Room to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -5929,11 +6148,6 @@
                 "BananaFairyRoom": {
                     "Key": "BananaFairyRoom",
                     "Name": "Rareware Gbroom to Banana Fairy Room",
-                    "Requires": true
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Rareware Gbroom to Dkisles Medals",
                     "Requires": true
                 }
             }
@@ -6089,11 +6303,6 @@
                         "Name": "IslesToJapes"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Jungle Japes Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -6412,11 +6621,6 @@
                         "Name": "IslesToAztec"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Angry Aztec Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -6535,6 +6739,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaK.LumsyWarp1": {
+                    "Key": "VanillaK.LumsyWarp1",
+                    "Name": "Vanilla K. Lumsy Warp 1",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -6641,11 +6853,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Krem Isle to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -6731,6 +6938,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaUpperWarp4": {
+                    "Key": "VanillaUpperWarp4",
+                    "Name": "Vanilla Upper Warp 4",
+                    "Level": "DKIsles",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -6767,11 +6982,6 @@
                         "Name": "IslesMainToFactoryLobby"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Krem Isle Beyond Lift to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -6936,11 +7146,6 @@
                     "Key": "KremIsleBeyondLift",
                     "Name": "Krem Isle Top Level to Krem Isle Beyond Lift",
                     "Requires": true
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Krem Isle Top Level to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -7022,11 +7227,6 @@
                 "IslesMain": {
                     "Key": "IslesMain",
                     "Name": "Krem Isle Mouth to Isles Main",
-                    "Requires": true
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Krem Isle Mouth to Dkisles Medals",
                     "Requires": true
                 }
             }
@@ -7175,11 +7375,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Snide Room to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -7645,11 +7840,6 @@
                         "Name": "IslesToFactory"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Frantic Factory Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -7672,11 +7862,6 @@
                 "GloomyGalleonLobby": {
                     "Key": "GloomyGalleonLobby",
                     "Name": "Gloomy Galleon Lobby Entrance to Gloomy Galleon Lobby",
-                    "Requires": true
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Gloomy Galleon Lobby Entrance to Dkisles Medals",
                     "Requires": true
                 }
             },
@@ -7957,11 +8142,6 @@
                         "Name": "IslesToGalleon"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Gloomy Galleon Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -8062,15 +8242,15 @@
                     "Key": "IslesAboveWaterfall",
                     "Name": "Cabin Isle to Isles Above Waterfall",
                     "Requires": {
-                        "combinator": "OR",
+                        "combinator": "AND",
                         "rules": [
                             {
-                                "combinator": "AND",
+                                "Name": "advanced_platforming",
+                                "isGlitch": true
+                            },
+                            {
+                                "combinator": "OR",
                                 "rules": [
-                                    {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
-                                    },
                                     {
                                         "combinator": "AND",
                                         "rules": [
@@ -8101,17 +8281,17 @@
                                                 ]
                                             }
                                         ]
-                                    }
-                                ]
-                            },
-                            {
-                                "combinator": "AND",
-                                "rules": [
-                                    {
-                                        "Name": "tiny"
                                     },
                                     {
-                                        "Name": "ponytailtwirl"
+                                        "combinator": "AND",
+                                        "rules": [
+                                            {
+                                                "Name": "tiny"
+                                            },
+                                            {
+                                                "Name": "ponytailtwirl"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -8145,11 +8325,6 @@
                         "Name": "IslesMainToForestLobby"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Cabin Isle to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -8231,15 +8406,15 @@
                                 "isGlitch": true
                             },
                             {
-                                "combinator": "OR",
+                                "combinator": "AND",
                                 "rules": [
                                     {
-                                        "combinator": "AND",
+                                        "Name": "advanced_platforming",
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "combinator": "OR",
                                         "rules": [
-                                            {
-                                                "Name": "advanced_platforming",
-                                                "isGlitch": true
-                                            },
                                             {
                                                 "combinator": "AND",
                                                 "rules": [
@@ -8270,17 +8445,17 @@
                                                         ]
                                                     }
                                                 ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "combinator": "AND",
-                                        "rules": [
-                                            {
-                                                "Name": "tiny"
                                             },
                                             {
-                                                "Name": "ponytailtwirl"
+                                                "combinator": "AND",
+                                                "rules": [
+                                                    {
+                                                        "Name": "tiny"
+                                                    },
+                                                    {
+                                                        "Name": "ponytailtwirl"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
@@ -8307,11 +8482,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Above Waterfall to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -8370,11 +8540,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Isles Airspace to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -8425,11 +8590,6 @@
                             }
                         ]
                     }
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Aztec Lobby Roof to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -8733,11 +8893,6 @@
                         "Name": "IslesToForest"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Fungi Forest Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -9236,11 +9391,6 @@
                         "Name": "IslesToCaves"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Crystal Caves Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -9611,11 +9761,6 @@
                         "Name": "IslesToCastle"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Creepy Castle Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -9879,11 +10024,6 @@
                         "Name": "IslesToHelm"
                     },
                     "Other": []
-                },
-                "DKIslesMedals": {
-                    "Key": "DKIslesMedals",
-                    "Name": "Hideout Helm Lobby to Dkisles Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": []
@@ -10592,14 +10732,33 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaCloseWarp2": {
+                    "Key": "VanillaCloseWarp2",
+                    "Name": "Vanilla Close Warp 2",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp3": {
+                    "Key": "VanillaCloseWarp3",
+                    "Name": "Vanilla Close Warp 3",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaNearWarp1": {
+                    "Key": "VanillaNearWarp1",
+                    "Name": "Vanilla Near Warp 1",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Frantic Factory Start to Medals",
-                    "Requires": true
-                },
                 "Testing": {
                     "Key": "Testing",
                     "Name": "Frantic Factory Start to Testing",
@@ -10609,13 +10768,6 @@
                             {
                                 "combinator": "OR",
                                 "rules": [
-                                    {
-                                        "Name": "checkBarrier",
-                                        "Params": [
-                                            "factory_testing_gate"
-                                        ],
-                                        "isFunction": true
-                                    },
                                     {
                                         "Name": "TestingGateOpened",
                                         "Events": true
@@ -11089,14 +11241,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaSnideWarp3": {
+                    "Key": "VanillaSnideWarp3",
+                    "Name": "Vanilla Snide Warp 3",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaFunkyWarp5": {
+                    "Key": "VanillaFunkyWarp5",
+                    "Name": "Vanilla Funky Warp 5",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Testing to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "FranticFactoryStart": {
                     "Key": "FranticFactoryStart",
                     "Name": "Testing to Frantic Factory Start",
@@ -11581,11 +11744,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Rand Dupper to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "ChunkyRoomPlatform": {
                     "Key": "ChunkyRoomPlatform",
                     "Name": "Rand Dupper to Chunky Room Platform",
@@ -11819,6 +11977,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaFarWarp2": {
+                    "Key": "VanillaFarWarp2",
+                    "Name": "Vanilla Far Warp 2",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -11853,11 +12019,6 @@
                             }
                         ]
                     }
-                },
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Rand D to Frantic Factory Medals",
-                    "Requires": true
                 },
                 "FactoryTinyRaceLobby": {
                     "Key": "FactoryTinyRaceLobby",
@@ -11968,11 +12129,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Factory Tiny Race Lobby to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "RandD": {
                     "Key": "RandD",
                     "Name": "Factory Tiny Race Lobby to Rand D",
@@ -12114,11 +12270,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Chunky Room Platform to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "PowerHut": {
                     "Key": "PowerHut",
                     "Name": "PowerHut",
@@ -12226,11 +12377,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Power Hut to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "ChunkyRoomPlatform": {
                     "Key": "ChunkyRoomPlatform",
                     "Name": "ChunkyRoomPlatform",
@@ -12594,6 +12740,22 @@
                             }
                         ]
                     }
+                },
+                "VanillaLowerWarp4": {
+                    "Key": "VanillaLowerWarp4",
+                    "Name": "Vanilla Lower Warp 4",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaStorageWarp1": {
+                    "Key": "VanillaStorageWarp1",
+                    "Name": "Vanilla Storage Warp 1",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -12609,36 +12771,18 @@
                         ]
                     }
                 },
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Beyond Hatch to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "FranticFactoryStart": {
                     "Key": "FranticFactoryStart",
                     "Name": "Beyond Hatch to Frantic Factory Start",
                     "Requires": {
-                        "combinator": "OR",
+                        "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "shuffle_loading_zones",
-                                "Params": [
-                                    "all",
-                                    true
-                                ],
-                                "isFunction": true
+                                "Name": "HatchOpened",
+                                "Events": true
                             },
                             {
-                                "combinator": "AND",
-                                "rules": [
-                                    {
-                                        "Name": "HatchOpened",
-                                        "Events": true
-                                    },
-                                    {
-                                        "Name": "climbing"
-                                    }
-                                ]
+                                "Name": "climbing"
                             }
                         ]
                     }
@@ -12887,17 +13031,20 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaArcadeWarp5": {
+                    "Key": "VanillaArcadeWarp5",
+                    "Name": "Vanilla Arcade Warp 5",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
                 "BeyondHatch": {
                     "Key": "BeyondHatch",
                     "Name": "Factory Arcade Tunnel to Beyond Hatch",
-                    "Requires": true
-                },
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Factory Arcade Tunnel to Frantic Factory Medals",
                     "Requires": true
                 }
             },
@@ -12949,11 +13096,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Factory Baboon Blast to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "BeyondHatch": {
                     "Key": "BeyondHatch",
                     "Name": "Factory Baboon Blast to Beyond Hatch",
@@ -13153,11 +13295,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Lower Core to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "BeyondHatch": {
                     "Key": "BeyondHatch",
                     "Name": "Lower Core to Beyond Hatch",
@@ -13283,11 +13420,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Inside Core to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "LowerCore": {
                     "Key": "LowerCore",
                     "Name": "LowerCore",
@@ -13327,11 +13459,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Middle Core to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "LowerCore": {
                     "Key": "LowerCore",
                     "Name": "Middle Core to Lower Core",
@@ -13413,14 +13540,17 @@
                     "Requires": {
                         "Name": "camera"
                     }
+                },
+                "VanillaUpperWarp4": {
+                    "Key": "VanillaUpperWarp4",
+                    "Name": "Vanilla Upper Warp 4",
+                    "Level": "FranticFactory",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Spinning Core to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "MiddleCore": {
                     "Key": "MiddleCore",
                     "Name": "Spinning Core to Middle Core",
@@ -13591,11 +13721,6 @@
                 }
             },
             "Neighbourhood": {
-                "FranticFactoryMedals": {
-                    "Key": "FranticFactoryMedals",
-                    "Name": "Upper Core to Frantic Factory Medals",
-                    "Requires": true
-                },
                 "LowerCore": {
                     "Key": "LowerCore",
                     "Name": "Upper Core to Lower Core",
@@ -16136,14 +16261,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaCloseWarp1": {
+                    "Key": "VanillaCloseWarp1",
+                    "Name": "Vanilla Close Warp 1",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp2": {
+                    "Key": "VanillaCloseWarp2",
+                    "Name": "Vanilla Close Warp 2",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Crystal Caves Main to Medals",
-                    "Requires": true
-                },
                 "CavesBlueprintCave": {
                     "Key": "CavesBlueprintCave",
                     "Name": "Crystal Caves Main to Caves Blueprint Cave",
@@ -16611,11 +16747,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Caves Snide Area to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "Snide": {
                     "Key": "Snide",
                     "Name": "Caves Snide Area to Snide",
@@ -16705,14 +16836,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaHiddenWarp4": {
+                    "Key": "VanillaHiddenWarp4",
+                    "Name": "Vanilla Hidden Warp 4",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Caves Blueprint Cave to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Caves Blueprint Cave to Crystal Caves Main",
@@ -16816,14 +16950,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaHiddenWarp3": {
+                    "Key": "VanillaHiddenWarp3",
+                    "Name": "Vanilla Hidden Warp 3",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Caves Bonus Cave to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Caves Bonus Cave to Crystal Caves Main",
@@ -16883,14 +17020,17 @@
                     "Rewards": {
                         "Name": "CavesW5aTagged"
                     }
+                },
+                "VanillaPillarWarp5": {
+                    "Key": "VanillaPillarWarp5",
+                    "Name": "Vanilla Pillar Warp 5",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Caves Blueprint Pillar to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Caves Blueprint Pillar to Crystal Caves Main",
@@ -16914,14 +17054,17 @@
                     "Rewards": {
                         "Name": "CavesW4aTagged"
                     }
+                },
+                "VanillaSpireWarp4": {
+                    "Key": "VanillaSpireWarp4",
+                    "Name": "Vanilla Spire Warp 4",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Caves Bananaport Spire to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Caves Bananaport Spire to Crystal Caves Main",
@@ -16951,11 +17094,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Caves Baboon Blast to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Caves Baboon Blast to Crystal Caves Main",
@@ -17026,11 +17164,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Boulder Cave to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Boulder Cave to Crystal Caves Main",
@@ -17174,11 +17307,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Frozen Castle to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "CrystalCavesMain",
@@ -17530,14 +17658,25 @@
                             }
                         ]
                     }
+                },
+                "VanillaIglooWarp1": {
+                    "Key": "VanillaIglooWarp1",
+                    "Name": "Vanilla Igloo Warp 1",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaIglooWarp3": {
+                    "Key": "VanillaIglooWarp3",
+                    "Name": "Vanilla Igloo Warp 3",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Igloo Area to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Igloo Area to Crystal Caves Main",
@@ -17946,13 +18085,7 @@
                     "Requires": true
                 }
             },
-            "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Giant Kosha to Crystal Caves Medals",
-                    "Requires": true
-                }
-            },
+            "Neighbourhood": {},
             "Collectibles": [
                 "GiantKoshaTinyBunch103",
                 "GiantKoshaTinyCoin106"
@@ -18016,11 +18149,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Donkey Igloo to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "IglooArea": {
                     "Key": "IglooArea",
                     "Name": "IglooArea",
@@ -18092,11 +18220,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Diddy Igloo to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "IglooArea": {
                     "Key": "IglooArea",
                     "Name": "IglooArea",
@@ -18221,11 +18344,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Lanky Igloo to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "IglooArea": {
                     "Key": "IglooArea",
                     "Name": "IglooArea",
@@ -18313,11 +18431,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Tiny Igloo to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "IglooArea": {
                     "Key": "IglooArea",
                     "Name": "IglooArea",
@@ -18364,11 +18477,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Chunky Igloo to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "IglooArea": {
                     "Key": "IglooArea",
                     "Name": "IglooArea",
@@ -18567,14 +18675,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaCabinsWarp2": {
+                    "Key": "VanillaCabinsWarp2",
+                    "Name": "Vanilla Cabins Warp 2",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCabinWarp5": {
+                    "Key": "VanillaCabinWarp5",
+                    "Name": "Vanilla Cabin Warp 5",
+                    "Level": "CrystalCaves",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Cabin Area to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CrystalCavesMain": {
                     "Key": "CrystalCavesMain",
                     "Name": "Cabin Area to Crystal Caves Main",
@@ -19030,11 +19149,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Rotating Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19118,11 +19232,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Donkey Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19171,11 +19280,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Diddy Lower Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19334,11 +19438,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Diddy Upper Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19399,11 +19498,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Lanky Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19462,11 +19556,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Tiny Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19527,11 +19616,6 @@
                 }
             },
             "Neighbourhood": {
-                "CrystalCavesMedals": {
-                    "Key": "CrystalCavesMedals",
-                    "Name": "Chunky Cabin to Crystal Caves Medals",
-                    "Requires": true
-                },
                 "CabinArea": {
                     "Key": "CabinArea",
                     "Name": "CabinArea",
@@ -19967,6 +20051,38 @@
                     "Types": "Custom Check",
                     "Requires": true
                 },
+                "VanillaNearWarp1": {
+                    "Key": "VanillaNearWarp1",
+                    "Name": "Vanilla Near Warp 1",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaNearWarp2": {
+                    "Key": "VanillaNearWarp2",
+                    "Name": "Vanilla Near Warp 2",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaFarWarp1": {
+                    "Key": "VanillaFarWarp1",
+                    "Name": "Vanilla Far Warp 1",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaBlastWarp3": {
+                    "Key": "VanillaBlastWarp3",
+                    "Name": "Vanilla Blast Warp 3",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
                 "BehindChunkyBoulder": {
                     "Key": "BehindChunkyBoulder",
                     "Name": "Behind Chunky Boulder",
@@ -19977,11 +20093,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Jungle Japes Start to Medals",
-                    "Requires": true
-                },
                 "JungleJapesMain": {
                     "Key": "JungleJapesMain",
                     "Name": "Jungle Japes Start to Main",
@@ -20391,11 +20502,6 @@
                             }
                         ]
                     }
-                },
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Cannon Platform to Jungle Japes Medals",
-                    "Requires": true
                 }
             },
             "Collectibles": [
@@ -20641,6 +20747,14 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaMountainWarp2": {
+                    "Key": "VanillaMountainWarp2",
+                    "Name": "Vanilla Mountain Warp 2",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
@@ -20737,11 +20851,6 @@
                 "JungleJapesMain": {
                     "Key": "JungleJapesMain",
                     "Name": "Japes Hill Top to Jungle Japes Main",
-                    "Requires": true
-                },
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Hill Top to Jungle Japes Medals",
                     "Requires": true
                 }
             },
@@ -20906,11 +21015,6 @@
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "Japes Hill to Jungle Japes Start",
-                    "Requires": true
-                },
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Hill to Jungle Japes Medals",
                     "Requires": true
                 }
             },
@@ -21394,14 +21498,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaPaintingWarp3": {
+                    "Key": "VanillaPaintingWarp3",
+                    "Name": "Vanilla Painting Warp 3",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Jungle Japes Main to Medals",
-                    "Requires": true
-                },
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "Jungle Japes Main to Start",
@@ -21807,14 +21914,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaMountainWarp5": {
+                    "Key": "VanillaMountainWarp5",
+                    "Name": "Vanilla Mountain Warp 5",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Top Of Mountain to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JapesHillTop": {
                     "Key": "JapesHillTop",
                     "Name": "Japes Top Of Mountain to Japes Hill Top",
@@ -21844,11 +21954,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Baboon Blast to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "Japes Baboon Blast to Jungle Japes Start",
@@ -22039,11 +22144,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Beyond Peanut Gate to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "Japes Beyond Peanut Gate to Jungle Japes Start",
@@ -22097,11 +22197,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Beyond Coconut Gate1 to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "Japes Beyond Coconut Gate1 to Jungle Japes Start",
@@ -22297,14 +22392,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaHiveWarp5": {
+                    "Key": "VanillaHiveWarp5",
+                    "Name": "Vanilla Hive Warp 5",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Beyond Feather Gate to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JapesBeyondCoconutGate1": {
                     "Key": "JapesBeyondCoconutGate1",
                     "Name": "Japes Beyond Feather Gate to Japes Beyond Coconut Gate1",
@@ -22831,11 +22929,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Tiny Hive to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JapesBeyondFeatherGate": {
                     "Key": "JapesBeyondFeatherGate",
                     "Name": "JapesBeyondFeatherGate",
@@ -23265,14 +23358,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaTunnelWarp4": {
+                    "Key": "VanillaTunnelWarp4",
+                    "Name": "Vanilla Tunnel Warp 4",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCrankyWarp4": {
+                    "Key": "VanillaCrankyWarp4",
+                    "Name": "Vanilla Cranky Warp 4",
+                    "Level": "JungleJapes",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Beyond Coconut Gate2 to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "Japes Beyond Coconut Gate2 to Jungle Japes Start",
@@ -23488,11 +23592,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Beyond Rambi Gate to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JapesBeyondCoconutGate2": {
                     "Key": "JapesBeyondCoconutGate2",
                     "Name": "Beyond Rambi Gate to Japes Beyond Coconut Gate2",
@@ -23662,11 +23761,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Lanky Cave to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JungleJapesMain": {
                     "Key": "JungleJapesMain",
                     "Name": "JungleJapesMain",
@@ -23935,11 +24029,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Mine to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JapesHillTop": {
                     "Key": "JapesHillTop",
                     "Name": "JapesHillTop",
@@ -24237,11 +24326,6 @@
                 }
             },
             "Neighbourhood": {
-                "JungleJapesMedals": {
-                    "Key": "JungleJapesMedals",
-                    "Name": "Japes Catacomb to Jungle Japes Medals",
-                    "Requires": true
-                },
                 "JungleJapesStart": {
                     "Key": "JungleJapesStart",
                     "Name": "JungleJapesStart",
@@ -24692,14 +24776,41 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaClockWarp1": {
+                    "Key": "VanillaClockWarp1",
+                    "Name": "Vanilla Clock Warp 1",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaClockWarp2": {
+                    "Key": "VanillaClockWarp2",
+                    "Name": "Vanilla Clock Warp 2",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaClockWarp3": {
+                    "Key": "VanillaClockWarp3",
+                    "Name": "Vanilla Clock Warp 3",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaClockWarp4": {
+                    "Key": "VanillaClockWarp4",
+                    "Name": "Vanilla Clock Warp 4",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Fungi Forest Start to Medals",
-                    "Requires": true
-                },
                 "ForestMinecarts": {
                     "Key": "ForestMinecarts",
                     "Name": "Fungi Forest Start to Forest Minecarts",
@@ -24973,14 +25084,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaLowerWarp5": {
+                    "Key": "VanillaLowerWarp5",
+                    "Name": "Vanilla Lower Warp 5",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaMushroomWarp3": {
+                    "Key": "VanillaMushroomWarp3",
+                    "Name": "Vanilla Mushroom Warp 3",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Giant Mushroom Area to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "FungiForestStart": {
                     "Key": "FungiForestStart",
                     "Name": "Giant Mushroom Area to Fungi Forest Start",
@@ -25251,11 +25373,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Lower to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomLowerMid": {
                     "Key": "MushroomLowerMid",
                     "Name": "Mushroom Lower to Mushroom Lower Mid",
@@ -25317,6 +25434,9 @@
                             },
                             {
                                 "Name": "tiny"
+                            },
+                            {
+                                "Name": "climbing"
                             }
                         ]
                     },
@@ -25344,11 +25464,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Lower Mid to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomLower": {
                     "Key": "MushroomLower",
                     "Name": "Mushroom Lower Mid to Mushroom Lower",
@@ -25396,11 +25511,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Upper Mid Exterior to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "GiantMushroomArea": {
                     "Key": "GiantMushroomArea",
                     "Name": "Mushroom Upper Mid Exterior to Giant Mushroom Area",
@@ -25489,11 +25599,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Lower Exterior to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "GiantMushroomArea": {
                     "Key": "GiantMushroomArea",
                     "Name": "Mushroom Lower Exterior to Giant Mushroom Area",
@@ -25568,11 +25673,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Forest Baboon Blast to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomLowerExterior": {
                     "Key": "MushroomLowerExterior",
                     "Name": "Forest Baboon Blast to Mushroom Lower Exterior",
@@ -25598,11 +25698,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Middle to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomLowerMid": {
                     "Key": "MushroomLowerMid",
                     "Name": "Mushroom Middle to Mushroom Lower Mid",
@@ -25657,11 +25752,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Upper Mid to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomMiddle": {
                     "Key": "MushroomMiddle",
                     "Name": "Mushroom Upper Mid to Mushroom Middle",
@@ -25786,11 +25876,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Upper to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomUpperMid": {
                     "Key": "MushroomUpperMid",
                     "Name": "Mushroom Upper to Mushroom Upper Mid",
@@ -25829,11 +25914,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Night Door to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomUpperMid": {
                     "Key": "MushroomUpperMid",
                     "Name": "Mushroom Night Door to Mushroom Upper Mid",
@@ -25880,11 +25960,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Night Exterior to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomNightDoor": {
                     "Key": "MushroomNightDoor",
                     "Name": "MushroomNightDoor",
@@ -26068,14 +26143,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaUpperWarp5": {
+                    "Key": "VanillaUpperWarp5",
+                    "Name": "Vanilla Upper Warp 5",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Upper Exterior to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomUpper": {
                     "Key": "MushroomUpper",
                     "Name": "MushroomUpper",
@@ -26309,11 +26387,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Chunky Room to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomUpperExterior": {
                     "Key": "MushroomUpperExterior",
                     "Name": "MushroomUpperExterior",
@@ -26366,11 +26439,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Lanky Zingers Room to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomUpperExterior": {
                     "Key": "MushroomUpperExterior",
                     "Name": "MushroomUpperExterior",
@@ -26433,11 +26501,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mushroom Lanky Mushrooms Room to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MushroomUpperExterior": {
                     "Key": "MushroomUpperExterior",
                     "Name": "MushroomUpperExterior",
@@ -26454,7 +26517,7 @@
         },
         "HollowTreeArea": {
             "Name": "Hollow Tree Area",
-            "HintName": "Owl Area",
+            "HintName": "Owl Tree Area",
             "Level": "FungiForest",
             "Checks": {
                 "ForestDiddyOwlRace": {
@@ -26697,27 +26760,23 @@
                             }
                         ]
                     }
+                },
+                "VanillaTreeWarp4": {
+                    "Key": "VanillaTreeWarp4",
+                    "Name": "Vanilla Tree Warp 4",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Hollow Tree Area to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "GiantMushroomArea": {
                     "Key": "GiantMushroomArea",
                     "Name": "Hollow Tree Area to Giant Mushroom Area",
                     "Requires": {
                         "combinator": "OR",
                         "rules": [
-                            {
-                                "Name": "checkBarrier",
-                                "Params": [
-                                    "forest_yellow_tunnel"
-                                ],
-                                "isFunction": true
-                            },
                             {
                                 "Name": "HollowTreeGateOpened",
                                 "Events": true
@@ -26780,7 +26839,7 @@
         },
         "Anthill": {
             "Name": "Anthill",
-            "HintName": "Owl Area",
+            "HintName": "Owl Tree Area",
             "Level": "FungiForest",
             "Checks": {
                 "ForestTinyAnthill": {
@@ -26909,11 +26968,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Anthill to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "HollowTreeArea": {
                     "Key": "HollowTreeArea",
                     "Name": "HollowTreeArea",
@@ -26983,11 +27037,6 @@
                     "Name": "Forest Very Top Of Mill to Mill Area",
                     "Requires": true
                 },
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Forest Very Top Of Mill to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "WinchRoom": {
                     "Key": "WinchRoom",
                     "Name": "WinchRoom",
@@ -27037,11 +27086,6 @@
                 "MillArea": {
                     "Key": "MillArea",
                     "Name": "Forest Top Of Mill to Mill Area",
-                    "Requires": true
-                },
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Forest Top Of Mill to Fungi Forest Medals",
                     "Requires": true
                 },
                 "MillAttic": {
@@ -27357,14 +27401,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaMillWarp1": {
+                    "Key": "VanillaMillWarp1",
+                    "Name": "Vanilla Mill Warp 1",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mill Area to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "FungiForestStart": {
                     "Key": "FungiForestStart",
                     "Name": "Mill Area to Fungi Forest Start",
@@ -27617,11 +27664,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mill Chunky Tiny Area to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MillArea": {
                     "Key": "MillArea",
                     "Name": "MillArea",
@@ -27770,11 +27812,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Spider Room to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MillChunkyTinyArea": {
                     "Key": "MillChunkyTinyArea",
                     "Name": "MillChunkyTinyArea",
@@ -27904,11 +27941,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Grinder Room to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MillArea": {
                     "Key": "MillArea",
                     "Name": "MillArea",
@@ -28017,11 +28049,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mill Rafters to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MillArea": {
                     "Key": "MillArea",
                     "Name": "MillArea",
@@ -28095,11 +28122,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Winch Room to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "ForestVeryTopOfMill": {
                     "Key": "ForestVeryTopOfMill",
                     "Name": "ForestVeryTopOfMill",
@@ -28173,11 +28195,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Mill Attic to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "ForestTopOfMill": {
                     "Key": "ForestTopOfMill",
                     "Name": "ForestTopOfMill",
@@ -28294,11 +28311,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Thornvine Area to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "MillArea": {
                     "Key": "MillArea",
                     "Name": "Thornvine Area to Mill Area",
@@ -28493,11 +28505,6 @@
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Thornvine Barn to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "ThornvineArea": {
                     "Key": "ThornvineArea",
                     "Name": "ThornvineArea",
@@ -28581,26 +28588,6 @@
                         "Name": "ForestW2aTagged"
                     }
                 },
-                "WormGatesOpened": {
-                    "Key": "WormGatesOpened",
-                    "Class": "Event",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "checkBarrier",
-                                "Params": [
-                                    "forest_green_tunnel"
-                                ],
-                                "isFunction": true
-                            }
-                        ]
-                    },
-                    "Level": "FungiForest",
-                    "Rewards": {
-                        "Name": "WormGatesOpened"
-                    }
-                },
                 "ForestKasplatBehindbeanstalk": {
                     "Key": "ForestKasplatBehindbeanstalk",
                     "Name": "Forest Kasplat: Behind beanstalk",
@@ -28680,14 +28667,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaBeanstalkWarp2": {
+                    "Key": "VanillaBeanstalkWarp2",
+                    "Name": "Vanilla Beanstalk Warp 2",
+                    "Level": "FungiForest",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "FungiForestMedals": {
-                    "Key": "FungiForestMedals",
-                    "Name": "Worm Area to Fungi Forest Medals",
-                    "Requires": true
-                },
                 "FungiForestStart": {
                     "Key": "FungiForestStart",
                     "Name": "Worm Area to Fungi Forest Start",
@@ -29426,14 +29416,89 @@
                             }
                         ]
                     }
+                },
+                "VanillaUpperWarp2": {
+                    "Key": "VanillaUpperWarp2",
+                    "Name": "Vanilla Upper Warp 2",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaUpperWarp5": {
+                    "Key": "VanillaUpperWarp5",
+                    "Name": "Vanilla Upper Warp 5",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp1": {
+                    "Key": "VanillaCloseWarp1",
+                    "Name": "Vanilla Close Warp 1",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp5": {
+                    "Key": "VanillaCloseWarp5",
+                    "Name": "Vanilla Close Warp 5",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaRearWarp1": {
+                    "Key": "VanillaRearWarp1",
+                    "Name": "Vanilla Rear Warp 1",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp3": {
+                    "Key": "VanillaCloseWarp3",
+                    "Name": "Vanilla Close Warp 3",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp2": {
+                    "Key": "VanillaCloseWarp2",
+                    "Name": "Vanilla Close Warp 2",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaCloseWarp4": {
+                    "Key": "VanillaCloseWarp4",
+                    "Name": "Vanilla Close Warp 4",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaUpperWarp3": {
+                    "Key": "VanillaUpperWarp3",
+                    "Name": "Vanilla Upper Warp 3",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaUpperWarp4": {
+                    "Key": "VanillaUpperWarp4",
+                    "Name": "Vanilla Upper Warp 4",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Creepy Castle Main to Medals",
-                    "Requires": true
-                },
                 "CastleWaterfall": {
                     "Key": "CastleWaterfall",
                     "Name": "Creepy Castle Main to Castle Waterfall",
@@ -29842,11 +29907,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Castle Baboon Blast to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "Castle Baboon Blast to Creepy Castle Main",
@@ -29863,11 +29923,6 @@
             "Level": "CreepyCastle",
             "Checks": {},
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Castle Waterfall to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "Castle Waterfall to Creepy Castle Main",
@@ -30119,11 +30174,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Castle Tree to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -30227,11 +30277,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Library to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -30499,11 +30544,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Ballroom to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -30703,11 +30743,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Museum Behind Glass to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "Ballroom": {
                     "Key": "Ballroom",
                     "Name": "Ballroom",
@@ -30863,11 +30898,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Tower to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -30964,11 +30994,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Greenhouse to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -31095,11 +31120,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Trash Can to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -31172,11 +31192,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Shed to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -31269,11 +31284,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Museum to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -31416,11 +31426,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Lower Cave to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -32223,14 +32228,57 @@
                             }
                         ]
                     }
+                },
+                "CryptVanillaFarWarp1": {
+                    "Key": "CryptVanillaFarWarp1",
+                    "Name": "Crypt: Vanilla Far Warp 1",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "CryptVanillaCloseWarp1": {
+                    "Key": "CryptVanillaCloseWarp1",
+                    "Name": "Crypt: Vanilla Close Warp 1",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "CryptVanillaCloseWarp2": {
+                    "Key": "CryptVanillaCloseWarp2",
+                    "Name": "Crypt: Vanilla Close Warp 2",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "CryptVanillaCloseWarp3": {
+                    "Key": "CryptVanillaCloseWarp3",
+                    "Name": "Crypt: Vanilla Close Warp 3",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "CryptVanillaFarWarp3": {
+                    "Key": "CryptVanillaFarWarp3",
+                    "Name": "Crypt: Vanilla Far Warp 3",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "CryptVanillaFarWarp2": {
+                    "Key": "CryptVanillaFarWarp2",
+                    "Name": "Crypt: Vanilla Far Warp 2",
+                    "Level": "CreepyCastle",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Crypt to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "LowerCave": {
                     "Key": "LowerCave",
                     "Name": "LowerCave",
@@ -32467,11 +32515,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Mausoleum to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "LowerCave": {
                     "Key": "LowerCave",
                     "Name": "LowerCave",
@@ -32558,11 +32601,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Upper Cave to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "CreepyCastleMain": {
                     "Key": "CreepyCastleMain",
                     "Name": "CreepyCastleMain",
@@ -33014,11 +33052,6 @@
                 }
             },
             "Neighbourhood": {
-                "CreepyCastleMedals": {
-                    "Key": "CreepyCastleMedals",
-                    "Name": "Dungeon to Creepy Castle Medals",
-                    "Requires": true
-                },
                 "UpperCave": {
                     "Key": "UpperCave",
                     "Name": "UpperCave",
@@ -33210,11 +33243,6 @@
             "Level": "AngryAztec",
             "Checks": {},
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Angry Aztec Start to Medals",
-                    "Requires": true
-                },
                 "BetweenVinesByPortal": {
                     "Key": "BetweenVinesByPortal",
                     "Name": "Angry Aztec Start to Between Vines By Portal",
@@ -33407,14 +33435,17 @@
                             }
                         ]
                     }
+                },
+                "VanillaNearWarp1": {
+                    "Key": "VanillaNearWarp1",
+                    "Name": "Vanilla Near Warp 1",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Between Vines By Portal to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecStart": {
                     "Key": "AngryAztecStart",
                     "Name": "Between Vines By Portal to Angry Aztec Start",
@@ -33609,11 +33640,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Aztec Tunnel Before Oasis to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "BetweenVinesByPortal": {
                     "Key": "BetweenVinesByPortal",
                     "Name": "Aztec Tunnel Before Oasis to Between Vines By Portal",
@@ -33953,14 +33979,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaOasisWarp2": {
+                    "Key": "VanillaOasisWarp2",
+                    "Name": "Vanilla Oasis Warp 2",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaOasisWarp1": {
+                    "Key": "VanillaOasisWarp1",
+                    "Name": "Vanilla Oasis Warp 1",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Angry Aztec Oasis to Medals",
-                    "Requires": true
-                },
                 "AztecTunnelBeforeOasis": {
                     "Key": "AztecTunnelBeforeOasis",
                     "Name": "Angry Aztec Oasis to Aztec Tunnel Before Oasis",
@@ -34230,11 +34267,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Temple Start to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecOasis": {
                     "Key": "AngryAztecOasis",
                     "Name": "AngryAztecOasis",
@@ -34483,15 +34515,21 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Temple Underwater to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "TempleStart": {
                     "Key": "TempleStart",
                     "Name": "Temple Underwater to Temple Start",
-                    "Requires": true
+                    "Requires": {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "swim"
+                            },
+                            {
+                                "Name": "AztecIceMelted",
+                                "Events": true
+                            }
+                        ]
+                    }
                 }
             },
             "Collectibles": [
@@ -34653,14 +34691,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaTunnelWarp3": {
+                    "Key": "VanillaTunnelWarp3",
+                    "Name": "Vanilla Tunnel Warp 3",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Angry Aztec Connector Tunnel to Medals",
-                    "Requires": true
-                },
                 "AngryAztecOasis": {
                     "Key": "AngryAztecOasis",
                     "Name": "Angry Aztec Connector Tunnel to Oasis",
@@ -35117,14 +35158,49 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaTotemWarp2": {
+                    "Key": "VanillaTotemWarp2",
+                    "Name": "Vanilla Totem Warp 2",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaTotemWarp5": {
+                    "Key": "VanillaTotemWarp5",
+                    "Name": "Vanilla Totem Warp 5",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaTotemWarp3": {
+                    "Key": "VanillaTotemWarp3",
+                    "Name": "Vanilla Totem Warp 3",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaNearWarp4": {
+                    "Key": "VanillaNearWarp4",
+                    "Name": "Vanilla Near Warp 4",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaFunkyWarp4": {
+                    "Key": "VanillaFunkyWarp4",
+                    "Name": "Vanilla Funky Warp 4",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Angry Aztec Main to Medals",
-                    "Requires": true
-                },
                 "AngryAztecConnectorTunnel": {
                     "Key": "AngryAztecConnectorTunnel",
                     "Name": "Angry Aztec Main to Connector Tunnel",
@@ -35575,14 +35651,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaTunnelWarp5": {
+                    "Key": "VanillaTunnelWarp5",
+                    "Name": "Vanilla Tunnel Warp 5",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Aztec Donkey Quicksand Cave to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "Aztec Donkey Quicksand Cave to Angry Aztec Main",
@@ -35637,11 +35716,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Aztec Baboon Blast to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "Aztec Baboon Blast to Angry Aztec Main",
@@ -35984,11 +36058,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Donkey Temple to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "AngryAztecMain",
@@ -36239,11 +36308,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Diddy Temple to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "AngryAztecMain",
@@ -36459,11 +36523,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Lanky Temple to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "AngryAztecMain",
@@ -36799,11 +36858,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Tiny Temple to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "AngryAztecMain",
@@ -37107,11 +37161,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Chunky Temple to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "AngryAztecMain",
@@ -37542,6 +37591,30 @@
                         ]
                     }
                 },
+                "LlamaTempleVanillaCloseWarp1": {
+                    "Key": "LlamaTempleVanillaCloseWarp1",
+                    "Name": "Llama Temple: Vanilla Close Warp 1",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "LlamaTempleVanillaMatchingWarp1": {
+                    "Key": "LlamaTempleVanillaMatchingWarp1",
+                    "Name": "Llama Temple: Vanilla Matching Warp 1",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "LlamaTempleVanillaCloseWarp2": {
+                    "Key": "LlamaTempleVanillaCloseWarp2",
+                    "Name": "Llama Temple: Vanilla Close Warp 2",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
                 "IntheWater": {
                     "Key": "IntheWater",
                     "Name": "In the Water",
@@ -37609,11 +37682,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Llama Temple to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "AngryAztecMain": {
                     "Key": "AngryAztecMain",
                     "Name": "AngryAztecMain",
@@ -37712,6 +37780,14 @@
                         "Name": "LlamaW2bTagged"
                     }
                 },
+                "LlamaTempleVanillaLavaWarp2": {
+                    "Key": "LlamaTempleVanillaLavaWarp2",
+                    "Name": "Llama Temple: Vanilla Lava Warp 2",
+                    "Level": "AngryAztec",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
                 "LlamaTempleLavaRoom": {
                     "Key": "LlamaTempleLavaRoom",
                     "Name": "Llama Temple: Lava Room",
@@ -37722,11 +37798,6 @@
                 }
             },
             "Neighbourhood": {
-                "AngryAztecMedals": {
-                    "Key": "AngryAztecMedals",
-                    "Name": "Llama Temple Back to Angry Aztec Medals",
-                    "Requires": true
-                },
                 "LlamaTemple": {
                     "Key": "LlamaTemple",
                     "Name": "Llama Temple Back to Llama Temple",
@@ -41546,14 +41617,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaStartWarp2": {
+                    "Key": "VanillaStartWarp2",
+                    "Name": "Vanilla Start Warp 2",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaStartWarp1": {
+                    "Key": "VanillaStartWarp1",
+                    "Name": "Vanilla Start Warp 1",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Gloomy Galleon Start to Medals",
-                    "Requires": true
-                },
                 "GalleonPastVines": {
                     "Key": "GalleonPastVines",
                     "Name": "Gloomy Galleon Start to Galleon Past Vines",
@@ -41771,14 +41853,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaStartWarp3": {
+                    "Key": "VanillaStartWarp3",
+                    "Name": "Vanilla Start Warp 3",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Galleon Past Vines to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "GloomyGalleonStart": {
                     "Key": "GloomyGalleonStart",
                     "Name": "Galleon Past Vines to Gloomy Galleon Start",
@@ -41897,11 +41982,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Galleon Beyond Pineapple Gate to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "GloomyGalleonStart": {
                     "Key": "GloomyGalleonStart",
                     "Name": "Galleon Beyond Pineapple Gate to Gloomy Galleon Start",
@@ -42050,26 +42130,6 @@
                         "Name": "GalleonChunkyPad"
                     }
                 },
-                "ActivatedLighthouse": {
-                    "Key": "ActivatedLighthouse",
-                    "Class": "Event",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "checkBarrier",
-                                "Params": [
-                                    "galleon_seasick_ship"
-                                ],
-                                "isFunction": true
-                            }
-                        ]
-                    },
-                    "Level": "GloomyGalleon",
-                    "Rewards": {
-                        "Name": "ActivatedLighthouse"
-                    }
-                },
                 "WaterLowered": {
                     "Key": "WaterLowered",
                     "Class": "Event",
@@ -42130,24 +42190,12 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Lighthouse Surface to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "GloomyGalleonStart": {
                     "Key": "GloomyGalleonStart",
                     "Name": "Lighthouse Surface to Gloomy Galleon Start",
                     "Requires": {
-                        "combinator": "OR",
+                        "combinator": "AND",
                         "rules": [
-                            {
-                                "Name": "checkBarrier",
-                                "Params": [
-                                    "galleon_lighthouse_gate"
-                                ],
-                                "isFunction": true
-                            },
                             {
                                 "Name": "LighthouseGateOpened",
                                 "Events": true
@@ -42397,14 +42445,25 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaLighthouseWarp1": {
+                    "Key": "VanillaLighthouseWarp1",
+                    "Name": "Vanilla Lighthouse Warp 1",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaLighthouseWarp5": {
+                    "Key": "VanillaLighthouseWarp5",
+                    "Name": "Vanilla Lighthouse Warp 5",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Lighthouse Platform to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthouseSurface": {
                     "Key": "LighthouseSurface",
                     "Name": "Lighthouse Platform to Lighthouse Surface",
@@ -42602,11 +42661,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Lighthouse Underwater to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthouseSurface": {
                     "Key": "LighthouseSurface",
                     "Name": "Lighthouse Underwater to Lighthouse Surface",
@@ -42688,14 +42742,17 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaSnideWarp3": {
+                    "Key": "VanillaSnideWarp3",
+                    "Name": "Vanilla Snide Warp 3",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Lighthouse Snide Alcove to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthouseSurface": {
                     "Key": "LighthouseSurface",
                     "Name": "Lighthouse Snide Alcove to Lighthouse Surface",
@@ -42742,11 +42799,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Galleon Baboon Blast to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthousePlatform": {
                     "Key": "LighthousePlatform",
                     "Name": "Galleon Baboon Blast to Lighthouse Platform",
@@ -42807,14 +42859,6 @@
                     "Requires": {
                         "combinator": "AND",
                         "rules": [
-                            {
-                                "Name": "CanSlamSwitch",
-                                "Params": [
-                                    "GloomyGalleon",
-                                    1
-                                ],
-                                "isFunction": true
-                            },
                             {
                                 "Name": "gorillagrab"
                             },
@@ -42917,11 +42961,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Lighthouse to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthousePlatform": {
                     "Key": "LighthousePlatform",
                     "Name": "LighthousePlatform",
@@ -42982,11 +43021,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Mermaid Room to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthouseUnderwater": {
                     "Key": "LighthouseUnderwater",
                     "Name": "LighthouseUnderwater",
@@ -43126,11 +43160,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Sick Bay to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "LighthousePlatform": {
                     "Key": "LighthousePlatform",
                     "Name": "LighthousePlatform",
@@ -43459,28 +43488,39 @@
                     "Class": "Custom Check",
                     "Types": "Custom Check",
                     "Requires": true
+                },
+                "VanillaFloatingWarp5": {
+                    "Key": "VanillaFloatingWarp5",
+                    "Name": "Vanilla Floating Warp 5",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaFloatingWarp2": {
+                    "Key": "VanillaFloatingWarp2",
+                    "Name": "Vanilla Floating Warp 2",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
+                },
+                "VanillaFloatingWarp4": {
+                    "Key": "VanillaFloatingWarp4",
+                    "Name": "Vanilla Floating Warp 4",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Shipyard to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "GloomyGalleonStart": {
                     "Key": "GloomyGalleonStart",
                     "Name": "Shipyard to Gloomy Galleon Start",
                     "Requires": {
-                        "combinator": "OR",
+                        "combinator": "AND",
                         "rules": [
-                            {
-                                "Name": "shuffle_loading_zones",
-                                "Params": [
-                                    "all",
-                                    true
-                                ],
-                                "isFunction": true
-                            },
                             {
                                 "Name": "ShipyardGateOpened",
                                 "Events": true
@@ -43611,26 +43651,6 @@
                         "Name": "ShipyardEnguarde"
                     }
                 },
-                "ShipyardTreasureRoomOpened": {
-                    "Key": "ShipyardTreasureRoomOpened",
-                    "Class": "Event",
-                    "Requires": {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "checkBarrier",
-                                "Params": [
-                                    "galleon_treasure_room"
-                                ],
-                                "isFunction": true
-                            }
-                        ]
-                    },
-                    "Level": "GloomyGalleon",
-                    "Rewards": {
-                        "Name": "ShipyardTreasureRoomOpened"
-                    }
-                },
                 "Inbetween5-DoorShipand2-DoorShip": {
                     "Key": "Inbetween5-DoorShipand2-DoorShip",
                     "Name": "Inbetween 5-Door Ship and 2-Door Ship",
@@ -43717,11 +43737,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Shipyard Underwater to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "Shipyard": {
                     "Key": "Shipyard",
                     "Name": "Shipyard Underwater to Shipyard",
@@ -44360,11 +44375,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Treasure Room to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "Treasure Room to Shipyard Underwater",
@@ -44552,14 +44562,17 @@
                     "Rewards": {
                         "Name": "GalleonW4aTagged"
                     }
+                },
+                "VanillaGoldTowerWarp4": {
+                    "Key": "VanillaGoldTowerWarp4",
+                    "Name": "Vanilla Gold Tower Warp 4",
+                    "Level": "GloomyGalleon",
+                    "Class": "Custom Check",
+                    "Types": "Custom Check",
+                    "Requires": true
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Treasure Room Diddy Gold Tower to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "TreasureRoom": {
                     "Key": "TreasureRoom",
                     "Name": "Treasure Room Diddy Gold Tower to Treasure Room",
@@ -44605,11 +44618,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Tiny Chest to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "TreasureRoom": {
                     "Key": "TreasureRoom",
                     "Name": "TreasureRoom",
@@ -44658,11 +44666,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Submarine to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -44720,11 +44723,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Mechafish to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "Mechafish to Shipyard Underwater",
@@ -44773,11 +44771,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Lanky Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -44844,11 +44837,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Tiny Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -44902,11 +44890,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Bongos Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -44961,11 +44944,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Guitar Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -45042,11 +45020,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Trombone Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -45134,11 +45107,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Saxophone Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -45194,11 +45162,6 @@
                 }
             },
             "Neighbourhood": {
-                "GloomyGalleonMedals": {
-                    "Key": "GloomyGalleonMedals",
-                    "Name": "Triangle Ship to Gloomy Galleon Medals",
-                    "Requires": true
-                },
                 "ShipyardUnderwater": {
                     "Key": "ShipyardUnderwater",
                     "Name": "ShipyardUnderwater",
@@ -66061,6 +66024,20 @@
             ],
             "Type": "Move"
         },
+        "Camera": {
+            "Key": "Camera",
+            "Name": "Fairy Camera",
+            "AltNames": [
+                "Camera"
+            ],
+            "Type": "Move"
+        },
+        "Shockwave": {
+            "Key": "Shockwave",
+            "Name": "Shockwave",
+            "AltNames": [],
+            "Type": "Move"
+        },
         "Swim": {
             "Key": "Swim",
             "Name": "Diving",
@@ -66093,18 +66070,12 @@
             ],
             "Type": "Move"
         },
-        "Camera": {
-            "Key": "Camera",
-            "Name": "Fairy Camera",
+        "Climbing": {
+            "Key": "Climbing",
+            "Name": "Climbing",
             "AltNames": [
-                "Camera"
+                "Climbing"
             ],
-            "Type": "Move"
-        },
-        "Shockwave": {
-            "Key": "Shockwave",
-            "Name": "Shockwave",
-            "AltNames": [],
             "Type": "Move"
         },
         "ProgressiveInstrumentUpgrade": {
@@ -66421,14 +66392,6 @@
                 "Enemy Item"
             ],
             "Type": "Item"
-        },
-        "Climbing": {
-            "Key": "Climbing",
-            "Name": "Climbing",
-            "AltNames": [
-                "Climbing"
-            ],
-            "Type": "Move"
         },
         "IceTrapBubble": {
             "Key": "IceTrapBubble",
