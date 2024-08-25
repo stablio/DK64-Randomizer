@@ -227,7 +227,7 @@ static const map_bitfield banned_map_btf = {
     .k_rool_fight_chunky_phase = 1, // Reason: Boss Map
     .bloopers_ending = 1, // Reason: Cutscene Map
     .k_rool_barrel_chunkys_hidden_kremling_game = 0,
-    .k_rool_barrel_tinys_pony_tail_twirl_game = 0,
+    .k_rool_barrel_tinys_pony_tail_twirl_game = 1,  // Reason: Very toxic twirlless tech
     .k_rool_barrel_chunkys_shooting_game = 0,
     .k_rool_barrel_dks_rambi_game = 1, // Reason: Rambi-Only Room
     .k_lumsy_ending = 1, // Reason: Cutscene Map
@@ -830,6 +830,12 @@ void handleGrabbingLock(void* player, int player_index, int allow_vines) {
 }
 
 int canPlayerClimb(void) {
+    int parent_map = 0;
+    int parent_exit = 0;
+    getParentMap(&parent_map, &parent_exit);
+    if(CurrentMap == MAP_TBARREL_VINE && parent_map == MAP_TRAININGGROUNDS){
+        return 1;
+    }
     return checkFlag(FLAG_ABILITY_CLIMBING, FLAGTYPE_PERMANENT);
 }
 

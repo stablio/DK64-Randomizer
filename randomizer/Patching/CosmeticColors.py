@@ -269,10 +269,10 @@ spotlight_fish_models = [
     Model.KlaptrapPurple,
     Model.KlaptrapRed,
     Model.Krash,
-    Model.SirDomino,
+    # Model.SirDomino,  # Lighting issue
     # Model.MrDice_41,  # Lighting issue
     # Model.Ruler, # Lighting issue
-    Model.RoboKremling,
+    # Model.RoboKremling, # Lighting issue
     Model.NintendoLogo,
     Model.MechanicalFish,
     Model.ToyCar,
@@ -291,14 +291,14 @@ spotlight_fish_models = [
     # Model.Bat, # Lighting bug
     # Model.Tomato, # Lighting bug
     # Model.IceTomato, # Lighting bug
-    Model.FlySwatter_83,
+    # Model.FlySwatter_83, # Lighting bug
     Model.SpotlightFish,
     Model.Microphone,
-    Model.Rocketbarrel,
-    Model.StrongKongBarrel,
-    Model.OrangstandSprintBarrel,
-    Model.MiniMonkeyBarrel,
-    Model.HunkyChunkyBarrel,
+    # Model.Rocketbarrel,  # Model too big, obstructs view
+    # Model.StrongKongBarrel,  # Model too big, obstructs view
+    # Model.OrangstandSprintBarrel,  # Model too big, obstructs view
+    # Model.MiniMonkeyBarrel,  # Model too big, obstructs view
+    # Model.HunkyChunkyBarrel,  # Model too big, obstructs view
 ]
 candy_cutscene_models = [
     Model.Cranky,
