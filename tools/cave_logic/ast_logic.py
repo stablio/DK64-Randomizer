@@ -50,7 +50,7 @@ level_names = {
     "CreepyCastle": "Castle",
 }
 
-glitches = ["CanSTS", "phasewalk", "CanSkew", "CanPhaseswim",
+glitches = ["CanSTS", "phasewalk", "CanSkew", "CanPhaseswim", "CanPhase",
             "phaseswim", "ledgeclip", "CanMoonkick", "CanMoontail", "CanOStandTBSNoclip",
             "CanAccessRNDRoom", "generalclips", "tbs", "spawn_snags", "advanced_platforming"]
 
