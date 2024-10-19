@@ -1,0 +1,353 @@
+{
+  "itemRegistry": {
+    "NoItem": {
+      "Key": "NoItem",
+      "Name": "No Item",
+      "Type": "Item"
+    },
+    "GoldenBanana": {
+      "Key": "GoldenBanana",
+      "Name": "Golden Banana",
+      "Type": "Item"
+    },
+    "BananaMedal": {
+      "Key": "BananaMedal",
+      "Name": "Banana Medal",
+      "Type": "Item"
+    },
+    "RainbowCoin": {
+      "Key": "RainbowCoin",
+      "Name": "Rainbow Coin",
+      "Type": "Item"
+    },
+    "NintendoCoin": {
+      "Key": "NintendoCoin",
+      "Name": "Nintendo Coin",
+      "Type": "Item"
+    },
+    "BattleCrown": {
+      "Key": "BattleCrown",
+      "Name": "Battle Crown",
+      "Type": "Item"
+    },
+    "RarewareCoin": {
+      "Key": "RarewareCoin",
+      "Name": "Rareware Coin",
+      "Type": "Item"
+    },
+    "BananaFairy": {
+      "Key": "BananaFairy",
+      "Name": "Banana Fairy",
+      "Type": "Item"
+    },
+    "MelonSlice": {
+      "Key": "MelonSlice",
+      "Name": "Junk Item (Melon Slice)",
+      "AltNames": ["Melon Slice"],
+      "Type": "Item"
+    },
+    "Pearl": {
+      "Key": "Pearl",
+      "Name": "Pearl",
+      "AltNames": ["Pearls"],
+      "Type": "Item"
+    },
+    "CrateMelon": {
+      "Key": "CrateMelon",
+      "Name": "Crate Melon",
+      "AltNames": [],
+      "Type": "Item"
+    },
+    "Bean": {
+      "Key": "Bean",
+      "Name": "The Bean",
+      "AltNames": ["Beans"],
+      "Type": "Item"
+    },
+    "DonkeyBlueprint": {
+      "Key": "DonkeyBlueprint",
+      "Name": "Blueprint (Donkey)",
+      "AltNames": [
+        "DK Isles Donkey Blueprint",
+        "Jungle Japes Donkey Blueprint",
+        "Angry Aztec Donkey Blueprint",
+        "Frantic Factory Donkey Blueprint",
+        "Gloomy Galleon Donkey Blueprint",
+        "Fungi Forest Donkey Blueprint",
+        "Crystal Caves Donkey Blueprint",
+        "Creepy Castle Donkey Blueprint"
+      ],
+      "Type": "Blueprint"
+    },
+    "DiddyBlueprint": {
+      "Key": "DiddyBlueprint",
+      "Name": "Blueprint (Diddy)",
+      "AltNames": [
+        "DK Isles Diddy Blueprint",
+        "Jungle Japes Diddy Blueprint",
+        "Angry Aztec Diddy Blueprint",
+        "Frantic Factory Diddy Blueprint",
+        "Gloomy Galleon Diddy Blueprint",
+        "Fungi Forest Diddy Blueprint",
+        "Crystal Caves Diddy Blueprint",
+        "Creepy Castle Diddy Blueprint"
+      ],
+      "Type": "Blueprint"
+    },
+    "LankyBlueprint": {
+      "Key": "LankyBlueprint",
+      "Name": "Blueprint (Lanky)",
+      "AltNames": [
+        "DK Isles Lanky Blueprint",
+        "Jungle Japes Lanky Blueprint",
+        "Angry Aztec Lanky Blueprint",
+        "Frantic Factory Lanky Blueprint",
+        "Gloomy Galleon Lanky Blueprint",
+        "Fungi Forest Lanky Blueprint",
+        "Crystal Caves Lanky Blueprint",
+        "Creepy Castle Lanky Blueprint"
+      ],
+      "Type": "Blueprint"
+    },
+    "TinyBlueprint": {
+      "Key": "TinyBlueprint",
+      "Name": "Blueprint (Tiny)",
+      "AltNames": [
+        "DK Isles Tiny Blueprint",
+        "Jungle Japes Tiny Blueprint",
+        "Angry Aztec Tiny Blueprint",
+        "Frantic Factory Tiny Blueprint",
+        "Gloomy Galleon Tiny Blueprint",
+        "Fungi Forest Tiny Blueprint",
+        "Crystal Caves Tiny Blueprint",
+        "Creepy Castle Tiny Blueprint"
+      ],
+      "Type": "Blueprint"
+    },
+    "ChunkyBlueprint": {
+      "Key": "ChunkyBlueprint",
+      "Name": "Blueprint (Chunky)",
+      "AltNames": [
+        "DK Isles Chunky Blueprint",
+        "Jungle Japes Chunky Blueprint",
+        "Angry Aztec Chunky Blueprint",
+        "Frantic Factory Chunky Blueprint",
+        "Gloomy Galleon Chunky Blueprint",
+        "Fungi Forest Chunky Blueprint",
+        "Crystal Caves Chunky Blueprint",
+        "Creepy Castle Chunky Blueprint"
+      ],
+      "Type": "Blueprint"
+    },
+    "EnemyItem": {
+      "Key": "EnemyItem",
+      "Name": "Enemy Item",
+      "AltNames": ["Enemy Item"],
+      "Type": "Item"
+    },
+    "Donkey": {
+      "AltNames": ["isDonkey"],
+      "Type": "Persona"
+    },
+    "Diddy": {
+      "AltNames": ["isDiddy"],
+      "Type": "Persona"
+    },
+    "Lanky": {
+      "AltNames": ["isLanky"],
+      "Type": "Persona"
+    },
+    "Tiny": {
+      "AltNames": ["isTiny"],
+      "Type": "Persona"
+    },
+    "Chunky": {
+      "AltNames": ["isChunky"],
+      "Type": "Persona"
+    },
+    "Cranky": {
+      "AltNames": [],
+      "Type": "Shopkeeper"
+    },
+    "Candy": {
+      "AltNames": [],
+      "Type": "Shopkeeper"
+    },
+    "Funky": {
+      "AltNames": [],
+      "Type": "Shopkeeper"
+    },
+    "Snide": {
+      "AltNames": [],
+      "Type": "Shopkeeper"
+    },
+    "GorillaGrab": {
+      "AltNames": ["grab"]
+    },
+    "OrangstandSprint": {
+      "AltNames": ["Sprint", "OrangstandSprint"]
+    },
+    "Grape": {
+      "AltNames": ["Grapeshooter"]
+    },
+    "Trombone": {
+      "AltNames": ["Trombone", "TromboneTremor"]
+    },
+    "PonyTailTwirl": {
+      "AltNames": ["Twirl"]
+    },
+    "Feather": {
+      "AltNames": ["Feather"]
+    },
+    "PrimatePunch": {
+      "AltNames": ["Punch"]
+    },
+    "GorillaGone": {
+      "AltNames": ["Gone"]
+    },
+    "Pineapple": {
+      "AltNames": ["Pineapple"]
+    },
+    "Triangle": {
+      "AltNames": ["Triangle"]
+    },
+    "HomingAmmo": {
+      "AltNames": ["Homing"]
+    },
+    "SniperSight": {
+      "AltNames": ["Sniper", "Sniper Sight", "scope"]
+    },
+    "ProgressiveAmmoBelt": {
+      "AltNames": ["Ammo Belt"]
+    },
+    "Swim": {
+      "AltNames": ["Swim"]
+    },
+    "Oranges": {
+      "AltNames": ["Oranges"]
+    },
+    "Barrels": {
+      "AltNames": ["Barrels"]
+    },
+    "Vines": {
+      "AltNames": ["Vines"]
+    },
+    "Climbing": {
+      "Key": "Climbing",
+      "Name": "Climbing",
+      "AltNames": [
+          "Climbing"
+      ],
+      "Type": "Move"
+    },
+    "Camera": {
+      "AltNames": ["Camera"]
+    },
+    "ProgressiveSlam": {
+      "AltNames": ["Slam", "Progressive Slam 1", "Progressive Slam 2"]
+    },
+    "BaboonBlast": {
+      "AltNames": ["blast"]
+    },
+    "Bongos": {
+      "AltNames": ["BongoBlast"]
+    },
+    "Saxophone": {
+      "AltNames": ["SaxophoneSlam"]
+    },
+    "ChimpyCharge": {
+      "AltNames": ["charge"]
+    },
+    "Guitar": {
+      "AltNames": ["GuitarGazump"]
+    },
+    "SimianSpring": {
+      "AltNames": ["spring"]
+    },
+    "RocketbarrelBoost": {
+      "AltNames": ["jetpack"]
+    },
+    "BaboonBalloon": {
+      "AltNames": ["balloon"]
+    },
+    "Orangstand": {
+      "AltNames": ["handstand"]
+    },
+    "MiniMonkey": {
+      "AltNames": ["mini"]
+    },
+    "ProgressiveInstrumentUpgrade": {
+      "AltNames": ["progressiveinstrument"]
+    },
+    "JungleJapesKey": {
+      "AltNames": ["Key1", "JapesKey", "JapesKeyTurnedIn"]
+    },
+    "AngryAztecKey": {
+      "AltNames": ["Key2", "AztecKey", "AztecKeyTurnedIn"]
+    },
+    "FranticFactoryKey": {
+      "AltNames": ["Key3", "FactoryKey", "FactoryKeyTurnedIn"]
+    },
+    "GloomyGalleonKey": {
+      "AltNames": ["Key4", "GalleonKey", "GalleonKeyTurnedIn"]
+    },
+    "FungiForestKey": {
+      "AltNames": ["Key5", "ForestKey", "ForestKeyTurnedIn"]
+    },
+    "CrystalCavesKey": {
+      "AltNames": ["Key6", "CavesKey", "CavesKeyTurnedIn"]
+    },
+    "CreepyCastleKey": {
+      "AltNames": ["Key7", "CastleKey", "CastleKeyTurnedIn"]
+    },
+    "HideoutHelmKey": {
+      "AltNames": ["Key8", "HelmKey", "HelmKeyTurnedIn"]
+    },
+    "IceTrapBubble": {
+      "Key": "IceTrapBubble",
+      "Name": "Ice Trap (Bubble)",
+      "AltNames": ["IceTrap"],
+      "Type": "Item"
+    },
+    "IceTrapReverse": {
+      "Key": "IceTrapReverse",
+      "Name": "Ice Trap (Reverse)",
+      "Type": "Item"
+    },
+    "IceTrapSlow": {
+      "Key": "IceTrapSlow",
+      "Name": "Ice Trap (Slow)",
+      "Type": "Item"
+    },
+    "BananaHoard": {
+      "Key": "BananaHoard",
+      "Name": "Banana Hoard",
+      "Type": "Item"
+    },
+    "KRoolDonkey": {
+      "Key": "KRoolDonkey",
+      "Name": "K. Rool Donkey Phase",
+      "Type": "Item"
+    },
+    "KRoolDiddy": {
+      "Key": "KRoolDiddy",
+      "Name": "K. Rool Diddy Phase",
+      "Type": "Item"
+    },
+    "KRoolLanky": {
+      "Key": "KRoolLanky",
+      "Name": "K. Rool Lanky Phase",
+      "Type": "Item"
+    },
+    "KRoolTiny": {
+      "Key": "KRoolTiny",
+      "Name": "K. Rool Tiny Phase",
+      "Type": "Item"
+    },
+    "KRoolChunky": {
+      "Key": "KRoolChunky",
+      "Name": "K. Rool Chunky Phase",
+      "Type": "Item"
+    }
+  }
+}
