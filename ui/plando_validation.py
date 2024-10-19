@@ -43,19 +43,10 @@ from randomizer.Lists.Plandomizer import (
     WrinklyVanillaMap,
 )
 from randomizer.Lists.Switches import SwitchData
+from randomizer.Patching.Lib import plando_colors
 from randomizer.LogicFiles.Shops import LogicRegions
 from randomizer.PlandoUtils import GetNameFromPlandoItem, PlandoEnumMap
 from ui.bindings import bind, bindList
-from ui.rando_options import (
-    plando_toggle_custom_arena_locations,
-    plando_toggle_custom_crate_locations,
-    plando_toggle_custom_fairy_locations,
-    plando_toggle_custom_kasplat_locations,
-    plando_toggle_custom_locations_tab,
-    plando_toggle_custom_patch_locations,
-    plando_toggle_custom_tns_locations,
-    plando_toggle_custom_wrinkly_locations,
-)
 
 
 class ValidationError(IntEnum):
@@ -266,7 +257,9 @@ def tns_locations_assigned() -> bool:
 
 def hint_text_validation_fn(hintString: str) -> str:
     """Return an error if the element's hint contains invalid characters."""
-    colors = ["orange", "red", "blue", "purple", "lightgreen", "magenta", "cyan", "rust", "paleblue", "green"]
+    colors = []
+    for key in plando_colors:
+        colors.extend(plando_colors[key])
     # Test the hint string without color tags.
     trimmedHintString = hintString
     for color in colors:
@@ -280,7 +273,7 @@ def hint_text_validation_fn(hintString: str) -> str:
         return errString
 
     # Ensure that the color tags are correctly utilized.
-    tagRegex = r"\[\/?(?:orange|red|blue|purple|lightgreen|magenta|cyan|rust|paleblue|green)\]"
+    tagRegex = rf"\[\/?(?:{'|'.join(colors)})\]"
     tags = re.finditer(tagRegex, hintString)
     currentTag = None
     for tag in tags:
@@ -532,12 +525,12 @@ def validate_starting_kong_count(evt):
         mark_option_valid(startingKongs, ValidationError.invalid_starting_kong_count)
 
 
-@bind("change", "plando_level_order_", 7)
+@bind("change", "plando_level_order_", 8)
 def validate_level_order_no_duplicates(evt):
     """Raise an error if the same level is chosen twice in the level order."""
     levelDict = {}
     # Count the instances of each level.
-    for i in range(0, 7):
+    for i in range(0, 8):
         levelElemName = f"plando_level_order_{i}"
         levelOrderElem = js.document.getElementById(levelElemName)
         level = levelOrderElem.value
@@ -560,27 +553,27 @@ def validate_level_order_no_duplicates(evt):
 
 @bind("change", "plando_krool_order_", 5)
 def validate_krool_order_no_duplicates(evt):
-    """Raise an error if the same Kong is chosen twice in the K. Rool order."""
-    kongDict = {}
-    # Count the instances of each Kong.
+    """Raise an error if the same boss is chosen twice in the K. Rool order."""
+    battleDict = {}
+    # Count the instances of each boss battle.
     for i in range(0, 5):
         kroolElemName = f"plando_krool_order_{i}"
         kroolOrderElem = js.document.getElementById(kroolElemName)
-        kong = kroolOrderElem.value
-        if kong in kongDict:
-            kongDict[kong].append(kroolElemName)
+        battle = kroolOrderElem.value
+        if battle in battleDict:
+            battleDict[battle].append(kroolElemName)
         else:
-            kongDict[kong] = [kroolElemName]
-    # Invalidate any selects that re-use the same Kong.
-    for kong, selects in kongDict.items():
-        if kong == "" or len(selects) == 1:
+            battleDict[battle] = [kroolElemName]
+    # Invalidate any selects that re-use the same battle.
+    for battle, selects in battleDict.items():
+        if battle == "" or len(selects) == 1:
             for select in selects:
                 selectElem = js.document.getElementById(select)
                 mark_option_valid(selectElem, ValidationError.krool_order_duplicates)
         else:
             for select in selects:
                 selectElem = js.document.getElementById(select)
-                errString = "The same Kong cannot be used twice in the K. Rool order."
+                errString = "The same boss battle cannot be used twice in the K. Rool order."
                 mark_option_invalid(selectElem, ValidationError.krool_order_duplicates, errString)
 
 
@@ -876,8 +869,7 @@ def validate_custom_crate_locations(evt):
             mark_option_enabled(locElem, ValidationError.only_available_as_custom_location)
 
 
-@bind("change", "switchsanity")
-def enable_switch_plando(evt):
+def enable_switch_plando():
     """Enable or disable placing switches based on the Switchsanity setting."""
     switchsanity = js.document.getElementById("switchsanity").value
     for switchEnum in SwitchData.keys():
@@ -893,6 +885,26 @@ def enable_switch_plando(evt):
         else:
             errString = 'To set this Switch, Switchsanity must be set to "All".'
             mark_option_disabled(switchElem, ValidationError.switchsanity_not_enabled, errString, SwitchVanillaMap[switchEnum.name])
+
+
+@bind("change", "switchsanity")
+def set_plando_switches(evt):
+    """Set values and enable switches based on the Switchsanity setting."""
+    enable_switch_plando()
+    switchsanity = js.document.getElementById("switchsanity").value
+    for switchEnum in SwitchData.keys():
+        switchElem = js.document.getElementById(f"plando_{switchEnum.name}_switch")
+        if switchsanity == "all":
+            # If this switch is currently set to its vanilla value, change it
+            # to "Randomize".
+            if switchElem.value == SwitchVanillaMap[switchEnum.name]:
+                switchElem.value = ""
+        elif switchEnum in [Switches.IslesHelmLobbyGone, Switches.IslesMonkeyport]:
+            if switchsanity == "helm_access":
+                # If this switch is currently set to its vanilla value, change
+                # it to "Randomize".
+                if switchElem.value == SwitchVanillaMap[switchEnum.name]:
+                    switchElem.value = ""
 
 
 @bind("click", "key_8_helm")
@@ -936,15 +948,15 @@ def perform_setting_conflict_validation(evt):
     validate_custom_locations_no_duplicates(evt)
     validate_custom_doors_no_duplicate_locations(evt)
     full_validate_no_reward_with_random_location()
-    plando_toggle_custom_arena_locations(evt)
-    plando_toggle_custom_crate_locations(evt)
-    plando_toggle_custom_fairy_locations(evt)
-    plando_toggle_custom_kasplat_locations(evt)
-    plando_toggle_custom_patch_locations(evt)
-    plando_toggle_custom_tns_locations(evt)
-    plando_toggle_custom_wrinkly_locations(evt)
-    plando_toggle_custom_locations_tab(evt)
-    enable_switch_plando(evt)
+    js.plando_toggle_custom_arena_locations(evt)
+    js.plando_toggle_custom_crate_locations(evt)
+    js.plando_toggle_custom_fairy_locations(evt)
+    js.plando_toggle_custom_kasplat_locations(evt)
+    js.plando_toggle_custom_patch_locations(evt)
+    js.plando_toggle_custom_tns_locations(evt)
+    js.plando_toggle_custom_wrinkly_locations(evt)
+    js.plando_toggle_custom_locations_tab(evt)
+    enable_switch_plando()
     # This is a fallback for errors with Bootstrap sliders.
     validate_starting_kong_count(evt)
 
@@ -961,7 +973,16 @@ def reset_plando_options(evt):
 
 
 # Plando options where the value is of type Levels.
-level_options = ["plando_level_order_0", "plando_level_order_1", "plando_level_order_2", "plando_level_order_3", "plando_level_order_4", "plando_level_order_5", "plando_level_order_6"]
+level_options = [
+    "plando_level_order_0",
+    "plando_level_order_1",
+    "plando_level_order_2",
+    "plando_level_order_3",
+    "plando_level_order_4",
+    "plando_level_order_5",
+    "plando_level_order_6",
+    "plando_level_order_7",
+]
 # Plando options where the value is of type Kongs.
 kong_options = [
     "plando_kong_rescue_diddy",
@@ -1466,7 +1487,7 @@ def validate_plando_options(settings_dict: dict) -> list[str]:
 
     # Ensure that no level was selected more than once in the level order.
     levelOrderSet = set()
-    for i in range(0, 7):
+    for i in range(0, 8):
         level = plando_dict[f"plando_level_order_{i}"]
         if level == PlandoItems.Randomize:
             continue
@@ -1477,18 +1498,19 @@ def validate_plando_options(settings_dict: dict) -> list[str]:
         else:
             levelOrderSet.add(level)
 
-    # Ensure that no Kong was selected more than once in the K. Rool order.
+    # Ensure that no boss battle was selected more than once in the K. Rool
+    # order.
     kroolOrderSet = set()
     for i in range(0, 5):
-        kong = plando_dict[f"plando_krool_order_{i}"]
-        if kong == PlandoItems.Randomize:
+        battle = plando_dict[f"plando_krool_order_{i}"]
+        if battle == PlandoItems.Randomize:
             continue
-        if kong in kroolOrderSet:
-            errString = "The same Kong cannot be used twice in the K. Rool order."
+        if battle in kroolOrderSet:
+            errString = "The same boss battle cannot be used twice in the K. Rool order."
             errList.append(errString)
             break
         else:
-            kroolOrderSet.add(kong)
+            kroolOrderSet.add(battle)
 
     # Ensure that no Kong was selected more than once in the Helm order.
     helmOrderSet = set()

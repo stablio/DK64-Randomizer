@@ -594,7 +594,6 @@ typedef enum file_data_indexes {
 	DATA_HELMHURRYOFF = 0x23,
 	DATA_BONUSSTAT = 0x24,
 	DATA_KONGIGT = 0x25,
-	DATA_FILENAME = 0x26,
 } file_data_indexes;
 
 typedef enum extra_global_data {
@@ -603,7 +602,6 @@ typedef enum extra_global_data {
 	EGD_HELMHURRYDISABLE,
 	EGD_BONUSSTAT,
 	EGD_KONGIGT,
-	EGD_FILENAME,
 	EGD_TERMINATOR,
 } extra_global_data;
 
@@ -1058,6 +1056,7 @@ typedef enum ICE_TRAP_TYPES {
     /* 0x001 */ ICETRAP_BUBBLE,
     /* 0x002 */ ICETRAP_REVERSECONTROLS,
     /* 0x003 */ ICETRAP_SLOWED,
+    /* 0x004 */ ICETRAP_SUPERBUBBLE, // Ignores a lot of map bans (For CC Only!!!!!!)
 } ICE_TRAP_TYPES;
 
 typedef enum PURCHASE_TYPES {

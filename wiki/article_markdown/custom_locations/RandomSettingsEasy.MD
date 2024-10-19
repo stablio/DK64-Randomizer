@@ -49,7 +49,7 @@ The generated settings will be of lesser difficulty. Requirements for B. Locker,
 - Random Patches
 - Random Starting Location
 - Guaranteed Starting Keys
-- Shuffle Helm Location
+- Shuffle Helm Location / Include Helm
 - Tns Location Rando
 - Vanilla Door Rando
 - Wrinkly Location Rando
@@ -96,6 +96,7 @@ The generated settings will be of lesser difficulty. Requirements for B. Locker,
 - Tag Barrels Disabled: 50%
 - Progressive Hints: 50%
 - Enemy Speed Rando: 50%
+- Randomize Enemy Sizes: 90%
 - Faster Checks Selected: 
 	- Factory Toy Monster Fight: 100%
 	- Factory Piano Game: 100%
@@ -167,7 +168,7 @@ The generated settings will be of lesser difficulty. Requirements for B. Locker,
 - Random Kasplat Locations: 
 	- Off: 30%
 	- Vanilla Locations: 70%
-- Lock Key 8 in Helm: 50%
+- Helm Key Lock: 50%
 - Kong Model Chunky: 
 	- Default: 100%
 - Kong Model Diddy: 
@@ -236,8 +237,6 @@ The generated settings will be of lesser difficulty. Requirements for B. Locker,
 	- Off: 100%
 - Troff n' Scoff Max: Between 100 and 300, usually close to 200
 - Win Condition: 
-	- Beat Krool: 20%
-	- Get Key8: 10%
-	- Easy Random: 70%
+	- Easy Random: 100%
 - Wrinkly Hints: 
 	- Standard: 100%

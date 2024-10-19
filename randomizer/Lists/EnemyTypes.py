@@ -70,6 +70,7 @@ class EnemyData:
         selector_enabled=True,
         interaction: InteractionMethods = None,
         placeable=True,
+        default_size=None,
     ) -> None:
         """Initialize with given parameters."""
         self.name = name
@@ -91,6 +92,7 @@ class EnemyData:
         self.selector_enabled = selector_enabled
         self.interaction = interaction
         self.placeable = placeable
+        self.default_size = default_size
         if air:
             self.minigame_enabled = False
 
@@ -170,6 +172,11 @@ class EnemyLoc:
         return False
 
 
+BEAVER_DEFAULT_SIZE = 80
+KLAPTRAP_DEFAULT_SIZE = 65
+ZINGER_DEFAULT_SIZE = 70
+BARREL_ENEMY_DEFAULT_SIZE = 50
+
 EnemyMetaData = {
     Enemies.BeaverBlue: EnemyData(
         name="Beaver (Blue)",
@@ -179,6 +186,7 @@ EnemyMetaData = {
         bbbarrage_min_scale=70,
         beaver=True,
         interaction=InteractionMethods(),
+        default_size=BEAVER_DEFAULT_SIZE,
     ),  #
     Enemies.Book: EnemyData(
         name="Book",
@@ -189,6 +197,7 @@ EnemyMetaData = {
         selector_enabled=False,
         interaction=InteractionMethods(can_kill=False),
         placeable=False,
+        default_size=50,
     ),
     Enemies.ZingerCharger: EnemyData(
         name="Zinger (Charger)",
@@ -197,6 +206,7 @@ EnemyMetaData = {
         crown_weight=7,
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_orange=False, kill_shockwave=False),
+        default_size=ZINGER_DEFAULT_SIZE,
     ),  #
     Enemies.Klobber: EnemyData(
         name="Klobber",
@@ -206,6 +216,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=2,
         interaction=InteractionMethods(kill_gun=False, kill_melee=False),
+        default_size=BARREL_ENEMY_DEFAULT_SIZE,
     ),
     Enemies.Klump: EnemyData(
         name="Klump",
@@ -214,6 +225,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=1,
         interaction=InteractionMethods(kill_gun=False, kill_melee=False),
+        default_size=50,
     ),  #
     Enemies.Kaboom: EnemyData(
         name="Kaboom",
@@ -223,6 +235,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=2,
         interaction=InteractionMethods(kill_gun=False, kill_melee=False),
+        default_size=BARREL_ENEMY_DEFAULT_SIZE,
     ),
     Enemies.KlaptrapGreen: EnemyData(
         name="Klaptrap (Green)",
@@ -231,6 +244,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=100,
         interaction=InteractionMethods(),
+        default_size=KLAPTRAP_DEFAULT_SIZE,
     ),  #
     Enemies.ZingerLime: EnemyData(
         name="Zinger (Lime Thrower)",
@@ -239,6 +253,7 @@ EnemyMetaData = {
         crown_weight=5,
         disruptive=1,
         interaction=InteractionMethods(kill_orange=False, kill_melee=False, kill_shockwave=False),
+        default_size=ZINGER_DEFAULT_SIZE,
     ),  #
     Enemies.KlaptrapPurple: EnemyData(
         name="Klaptrap (Purple)",
@@ -247,6 +262,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=1,
         interaction=InteractionMethods(kill_gun=False, kill_melee=False, kill_shockwave=False),
+        default_size=KLAPTRAP_DEFAULT_SIZE,
     ),  #
     Enemies.KlaptrapRed: EnemyData(
         name="Klaptrap (Red)",
@@ -255,6 +271,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_shockwave=False),
+        default_size=KLAPTRAP_DEFAULT_SIZE,
     ),  #
     Enemies.BeaverGold: EnemyData(
         name="Beaver (Gold)",
@@ -264,6 +281,7 @@ EnemyMetaData = {
         bbbarrage_min_scale=70,
         beaver=True,
         interaction=InteractionMethods(),
+        default_size=BEAVER_DEFAULT_SIZE,
     ),  #
     Enemies.MushroomMan: EnemyData(
         name="Mushroom Man",
@@ -274,6 +292,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=50,
         interaction=InteractionMethods(),
+        default_size=45,
     ),
     Enemies.Ruler: EnemyData(
         name="Ruler",
@@ -282,6 +301,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=50,
         interaction=InteractionMethods(),
+        default_size=50,
     ),  #
     Enemies.RoboKremling: EnemyData(
         name="Robo-Kremling",
@@ -290,6 +310,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_gun=False, kill_punch=True),
+        default_size=50,
     ),  #
     Enemies.Kremling: EnemyData(
         name="Kremling",
@@ -298,6 +319,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=50,
         interaction=InteractionMethods(),
+        default_size=64,
     ),  #
     Enemies.KasplatDK: EnemyData(
         name="Kasplat (DK)",
@@ -341,6 +363,7 @@ EnemyMetaData = {
         crown_weight=5,
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_orange=False, kill_shockwave=False),
+        default_size=50,
     ),  #
     Enemies.Krossbones: EnemyData(
         name="Krossbones",
@@ -349,6 +372,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=50,
         interaction=InteractionMethods(),
+        default_size=60,
     ),  #
     Enemies.Shuri: EnemyData(
         name="Shuri",
@@ -356,6 +380,8 @@ EnemyMetaData = {
         crown_enabled=False,
         minigame_enabled=False,
         interaction=InteractionMethods(kill_melee=False),
+        default_size=100,
+        size_cap=100,  # Too big causes the game to crash, so just gonna limit it to size 100. Size 127 seems to be fine
     ),  #
     Enemies.Gimpfish: EnemyData(
         name="Gimpfish",
@@ -364,6 +390,8 @@ EnemyMetaData = {
         crown_enabled=False,
         minigame_enabled=False,
         interaction=InteractionMethods(kill_melee=False),
+        default_size=110,
+        size_cap=110,  # Runs the same code as the shuri, lets not tempt fate
     ),
     Enemies.MrDice0: EnemyData(
         name="Mr Dice (Green)",
@@ -372,6 +400,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=80,
         interaction=InteractionMethods(),
+        default_size=160,
     ),  # Should be aggro 4, but I think this is because it normally spawns in the BHDM fight
     Enemies.SirDomino: EnemyData(
         name="Sir Domino",
@@ -380,6 +409,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=60,
         interaction=InteractionMethods(),
+        default_size=70,
     ),  #
     Enemies.MrDice1: EnemyData(
         name="Mr Dice (Red)",
@@ -388,6 +418,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=100,
         interaction=InteractionMethods(),
+        default_size=80,
     ),  #
     Enemies.FireballGlasses: EnemyData(
         name="Fireball with Glasses",
@@ -398,6 +429,7 @@ EnemyMetaData = {
         crown_weight=10,
         killable=False,
         interaction=InteractionMethods(kill_gun=False, kill_orange=False),
+        default_size=50,
     ),  # 29 for if you want them to respond to the rabbit
     Enemies.SpiderSmall: EnemyData(
         name="Spider",
@@ -406,6 +438,7 @@ EnemyMetaData = {
         disruptive=1,
         crown_enabled=False,
         interaction=InteractionMethods(),
+        default_size=55,
     ),  # with projectiles, disruptive will need to be set to 2
     Enemies.Bat: EnemyData(
         name="Bat",
@@ -415,6 +448,7 @@ EnemyMetaData = {
         minigame_enabled=False,
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_orange=False, kill_shockwave=False),
+        default_size=70,
     ),  #
     Enemies.EvilTomato: EnemyData(
         name="Evil Tomato",
@@ -424,6 +458,7 @@ EnemyMetaData = {
         selector_enabled=False,
         interaction=InteractionMethods(can_kill=False),  # Can be killed with Hunky
         placeable=False,
+        default_size=140,
     ),
     Enemies.Ghost: EnemyData(
         name="Ghost",
@@ -432,6 +467,7 @@ EnemyMetaData = {
         simple=True,
         bbbarrage_min_scale=70,
         interaction=InteractionMethods(),
+        default_size=50,
     ),  #
     Enemies.Pufftup: EnemyData(
         name="Pufftup",
@@ -440,6 +476,7 @@ EnemyMetaData = {
         size_cap=40,
         minigame_enabled=False,
         interaction=InteractionMethods(kill_gun=False, kill_orange=False, kill_shockwave=False),
+        default_size=50,
     ),  #
     Enemies.Kosha: EnemyData(
         name="Kosha",
@@ -448,6 +485,7 @@ EnemyMetaData = {
         killable=False,
         disruptive=2,
         interaction=InteractionMethods(kill_gun=False, kill_melee=False),
+        default_size=50,
     ),  #
     Enemies.GetOut: EnemyData(
         name="Get Out Guy",
@@ -465,6 +503,7 @@ EnemyMetaData = {
         crown_enabled=False,
         minigame_enabled=False,
         interaction=InteractionMethods(kill_melee=False, can_bypass=False),  # Can be meleed with distraction mechanic, but we'll ignore that for now
+        default_size=50,
     ),
     Enemies.Bug: EnemyData(
         name="Bug",
@@ -473,6 +512,7 @@ EnemyMetaData = {
         crown_weight=7,
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_orange=False, kill_shockwave=False),
+        default_size=75,
     ),
     Enemies.ZingerFlamethrower: EnemyData(
         name="Zinger (Flamethrower)",
@@ -482,6 +522,7 @@ EnemyMetaData = {
         disruptive=1,
         interaction=InteractionMethods(kill_melee=False, kill_orange=False, kill_shockwave=False),
         selector_enabled=False,
+        default_size=ZINGER_DEFAULT_SIZE,
     ),
     Enemies.Scarab: EnemyData(
         name="Scarab",
@@ -491,6 +532,7 @@ EnemyMetaData = {
         interaction=InteractionMethods(),
         size_cap=50,
         selector_enabled=False,
+        default_size=50,
     ),
 }
 

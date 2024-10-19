@@ -121,7 +121,7 @@
       255,
       255
    ],
-   "damage_multiplier":0,
+   "damage_multiplier":1,
    "fps_on":1,
    "no_health_refill":0,
    "slam_prices":[
@@ -171,7 +171,6 @@
    "fast_warp":1,
    "activate_all_bananaports":1,
    "progressive_hint_gb_cap":1,
-   "big_head_mode": 1,
    "arcade_order":[
       2,
       3,
@@ -213,8 +212,19 @@
    "starting_kong":0,
    "rom_flags":{
       "plando":true,
-      "spoiler":true
+      "spoiler":true,
+      "pass_locked":true
    },
+   "password": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+   ],
    "test_zone":[
       48,
       0
@@ -242,7 +252,7 @@
    "call_parent_filter":0,
    "microhints":2,
    "misc_cosmetic_on":0,
-   "seasonal_changes":2,
+   "seasonal_changes":1,
    "colorblind_mode":0,
    "fungi_time_of_day_setting": 0,
    "mill_lever_order":[

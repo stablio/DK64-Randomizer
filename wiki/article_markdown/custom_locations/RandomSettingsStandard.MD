@@ -85,6 +85,7 @@ The generated settings will be of average difficulty. Requirements for B. Locker
 - Enable Shop Hints: 90%
 - Dropsanity: 25%
 - Enemy Speed Rando: 50%
+- Randomize Enemy Sizes: 90%
 - Faster Checks Selected: 
 	- Factory Toy Monster Fight: 70%
 	- Factory Piano Game: 70%
@@ -166,7 +167,7 @@ The generated settings will be of average difficulty. Requirements for B. Locker
 	- Off: 15%
 	- Vanilla Locations: 55%
 	- Location Shuffle: 30%
-- Lock Key 8 in Helm: 50%
+- Helm Key Lock: 50%
 - Kong Model Chunky: 
 	- Default: 100%
 - Kong Model Diddy: 
@@ -238,7 +239,7 @@ The generated settings will be of average difficulty. Requirements for B. Locker
 	- Shuffled: 20%
 	- Shuffled Decoupled: 20%
 	- Start With: 40%
-- Shuffle Helm Location: 50%
+- Shuffle Helm Location / Include Helm: 50%
 - Shuffle Shop Locations: 50%
 - Smaller Shops: 50%
 - Starting Kong: 
@@ -252,10 +253,7 @@ The generated settings will be of average difficulty. Requirements for B. Locker
 - Troff n' Scoff Max: Between 150 and 400, usually close to 300
 - Vanilla Door Rando: 40%
 - Win Condition: 
-	- Beat Krool: 25%
-	- Easy Random: 20%
-	- Medium Random: 50%
-	- Krem Kapture: 5%
+	- Medium Random: 100%
 - Kongless Hint Doors: 90%
 - Wrinkly Hints: 
 	- Standard: 50%

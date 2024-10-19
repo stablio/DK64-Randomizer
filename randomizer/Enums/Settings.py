@@ -58,11 +58,13 @@ class BigHeadMode(IntEnum):
     off: Normal head size.
     big: Very big heads.
     small: Very small heads.
+    random: Head size will be random on a model-by-model basis
     """
 
     off = 0
     big = 1
     small = 2
+    random = 3
 
 
 class CBRando(IntEnum):
@@ -284,6 +286,7 @@ class GlitchesSelected(IntEnum):
     tag_barrel_storage = 12
     troff_n_scoff_skips = 13
     moontail = 14
+    phasefall = 15
 
 
 class HelmDoorItem(IntEnum):
@@ -369,6 +372,7 @@ class HardBossesSelected(IntEnum):
     pufftoss_star_rando = 3
     pufftoss_star_raised = 4
     kut_out_phase_rando = 5
+    k_rool_toes_rando = 6
 
 
 class HardModeSelected(IntEnum):
@@ -806,6 +810,17 @@ class TrainingBarrels(IntEnum):
     shuffled = 1
 
 
+class ClimbingStatus(IntEnum):
+    """Determins if and how climbing is randomized.
+
+    normal: Climbing is a starting move.
+    shuffled: Climbing is an item that can be found in the world.
+    """
+
+    normal = 0
+    shuffled = 1
+
+
 class WinCondition(IntEnum):
     """The condition needed to complete the game.
 
@@ -1184,6 +1199,9 @@ class SettingsStringEnum(IntEnum):
     win_condition_item = 190
     win_condition_count = 191
     bananaport_placement_rando = 192
+    troff_7 = 193
+    has_password = 194
+    randomize_enemy_sizes = 195
 
 
 # If a setting needs to be removed, add it to this set instead of removing it
@@ -1368,6 +1386,7 @@ SettingsStringTypeMap = {
     SettingsStringEnum.troff_4: SettingsStringDataType.var_int,
     SettingsStringEnum.troff_5: SettingsStringDataType.var_int,
     SettingsStringEnum.troff_6: SettingsStringDataType.var_int,
+    SettingsStringEnum.troff_7: SettingsStringDataType.var_int,
     SettingsStringEnum.troff_text: SettingsStringDataType.var_int,
     SettingsStringEnum.vanilla_door_rando: SettingsStringDataType.bool,
     SettingsStringEnum.warp_level_list_selected: SettingsStringDataType.list,
@@ -1422,6 +1441,8 @@ SettingsStringTypeMap = {
     SettingsStringEnum.ice_trap_frequency: IceTrapFrequency,
     SettingsStringEnum.ice_traps_damage: SettingsStringDataType.bool,
     SettingsStringEnum.puzzle_rando_difficulty: PuzzleRando,
+    SettingsStringEnum.has_password: SettingsStringDataType.bool,
+    SettingsStringEnum.randomize_enemy_sizes: SettingsStringDataType.bool,
 }
 
 # ALL LIST SETTINGS NEED AN ENTRY HERE!
@@ -1480,6 +1501,7 @@ addSettingIntRange(SettingsStringEnum.troff_3, 500)
 addSettingIntRange(SettingsStringEnum.troff_4, 500)
 addSettingIntRange(SettingsStringEnum.troff_5, 500)
 addSettingIntRange(SettingsStringEnum.troff_6, 500)
+addSettingIntRange(SettingsStringEnum.troff_7, 500)
 addSettingIntRange(SettingsStringEnum.troff_text, 500)
 addSettingIntRange(SettingsStringEnum.progressive_hint_text, 201)
 addSettingIntRange(SettingsStringEnum.win_condition_count, 201)

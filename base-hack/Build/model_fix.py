@@ -478,7 +478,55 @@ with open(ROMName, "rb") as rom:
         os.remove("temp.bin")
     with open("scarab_actor.bin", "wb") as fh:
         fh.write(data)
-
+    # Rocketbarrel
+    rom.seek(actor_table + (0x8B << 2))
+    model_start = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_end = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_size = model_end - model_start
+    rom.seek(model_start)
+    indic = int.from_bytes(rom.read(2), "big")
+    rom.seek(model_start)
+    data = rom.read(model_size)
+    if indic == 0x1F8B:
+        data = zlib.decompress(data, (15 + 32))
+    with open("rocketbarrel_attachment.bin", "wb") as fh:
+        fh.write(data)
+    with open("rocketbarrel_attachment.bin", "r+b") as fh:
+        fh.seek(0x153C)
+        fh.write(getBonusSkinOffset(ExtraTextures.RocketTop).to_bytes(4, "big"))
+    # Cannon
+    rom.seek(actor_table + (0x7B << 2))
+    model_start = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_end = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_size = model_end - model_start
+    rom.seek(model_start)
+    indic = int.from_bytes(rom.read(2), "big")
+    rom.seek(model_start)
+    data = rom.read(model_size)
+    if indic == 0x1F8B:
+        data = zlib.decompress(data, (15 + 32))
+    with open("cannon.bin", "wb") as fh:
+        fh.write(data)
+    with open("cannon.bin", "r+b") as fh:
+        fh.seek(0xF64)
+        fh.write(getBonusSkinOffset(ExtraTextures.RocketTop).to_bytes(4, "big"))
+    # Baboon Blast Barrel
+    rom.seek(actor_table + (0x73 << 2))
+    model_start = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_end = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_size = model_end - model_start
+    rom.seek(model_start)
+    indic = int.from_bytes(rom.read(2), "big")
+    rom.seek(model_start)
+    data = rom.read(model_size)
+    if indic == 0x1F8B:
+        data = zlib.decompress(data, (15 + 32))
+    with open("blast_barrel.bin", "wb") as fh:
+        fh.write(data)
+    with open("blast_barrel.bin", "r+b") as fh:
+        fh.seek(0x814)
+        fh.write(getBonusSkinOffset(ExtraTextures.BlastTop).to_bytes(4, "big"))
+    # Instrument Pads
     for obj_id in INSTRUMENT_PADS:
         file_name = INSTRUMENT_PADS[obj_id]
         rom.seek(modeltwo_table + (obj_id << 2))
@@ -502,6 +550,49 @@ with open(ROMName, "rb") as rom:
                 tri_start = floor_start + 0x10 + (0x18 * x)
                 fh.seek(tri_start + 0x15)
                 fh.write((2).to_bytes(1, "big"))
+    # Medal
+    rom.seek(modeltwo_table + (0x90 << 2))
+    model_start = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_end = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_size = model_end - model_start
+    rom.seek(model_start)
+    indic = int.from_bytes(rom.read(2), "big")
+    rom.seek(model_start)
+    data = rom.read(model_size)
+    if indic == 0x1F8B:
+        data = zlib.decompress(data, (15 + 32))
+    with open("updated_medal.bin", "wb") as fh:
+        fh.write(data)
+    # Make outside match inside
+    SHINE_TEXTURE = getBonusSkinOffset(ExtraTextures.MedalRim)
+    with open("updated_medal.bin", "r+b") as fh:
+        fh.seek(0x204)
+        fh.write(SHINE_TEXTURE.to_bytes(4, "big"))
+    # Mushrooms
+    MUSH_TEXTURE_START = getBonusSkinOffset(ExtraTextures.MushTop0)
+    rom.seek(modeltwo_table + (0x1BE << 2))
+    model_start = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_end = main_pointer_table_offset + int.from_bytes(rom.read(4), "big")
+    model_size = model_end - model_start
+    rom.seek(model_start)
+    indic = int.from_bytes(rom.read(2), "big")
+    rom.seek(model_start)
+    data = rom.read(model_size)
+    if indic == 0x1F8B:
+        data = zlib.decompress(data, (15 + 32))
+    with open(f"updated_mush_0x1BE.bin", "wb") as fh:
+        fh.write(data)
+    with open(f"updated_mush_0x1BE.bin", "r+b") as fh:
+        fh.seek(0x344)
+        fh.write(MUSH_TEXTURE_START.to_bytes(4, "big"))
+        fh.seek(0x3A4)
+        fh.write((MUSH_TEXTURE_START + 1).to_bytes(4, "big"))
+
+    # Make inside match outside
+    # SHINE_TEXTURE = 0xBAB
+    # with open("updated_medal.bin", "r+b") as fh:
+    #     fh.seek(0x624)
+    #     fh.write(SHINE_TEXTURE.to_bytes(4, "big"))
 
     # Base tex:
     #

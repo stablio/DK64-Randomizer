@@ -65,8 +65,23 @@ void qualityOfLife_fixes(void) {
 	}
 }
 
+int force_enable_diving_timer = 0;
+
+void dropWrapper(void* actor) {
+	clearTagSlide(actor);
+	force_enable_diving_timer = ObjectModel2Timer;
+}
+
 int CanDive_WithCheck(void) {
 	if (ObjectModel2Timer < 5) {
+		return 1;
+	}
+	if (ObjectModel2Timer >= force_enable_diving_timer) {
+		if ((ObjectModel2Timer - force_enable_diving_timer) < 2) {
+			return 1;
+		}
+	}
+	if (isGlobalCutscenePlaying(29)) {
 		return 1;
 	}
 	return CanDive();
@@ -231,43 +246,6 @@ typedef struct balloon_paad {
 	/* 0x006 */ short flag;
 } balloon_paad;
 
-#define COMPLEX_BALLOON_WHOOSH 1
-
-void playBalloonWhoosh(int path_index, float* x, float* y, float* z) {
-	// Calculate when to play SFX
-	getPathPosition(path_index, x, y, z);
-	if (CurrentActorPointer_0->chunk == -1) {
-		CurrentActorPointer_0->chunk = getChunk(CurrentActorPointer_0->xPos, CurrentActorPointer_0->yPos, CurrentActorPointer_0->zPos, 0);
-	}
-	if (CurrentActorPointer_0->chunk != Player->chunk) {
-		return;
-	}
-	if (COMPLEX_BALLOON_WHOOSH) {
-		path_data_struct* local_path = PathData[path_index];
-		if (local_path->segment_index != 0) {
-			return;
-		}
-		int next_segment = local_path->segment_index + 1;
-		if (next_segment >= local_path->segment_count) {
-			next_segment = 0;
-		}
-		float current_position = local_path->segment_position;
-		float current_speed = local_path->segments[local_path->segment_index].speed;
-		float speed_delta = local_path->segments[next_segment].speed - current_speed;
-		float multiplier = (current_speed + (speed_delta * current_position)) / 300.0f;
-		float position_delta = local_path->path_global_speed * multiplier;
-		if ((current_position < 0.5f) || ((current_position - position_delta) >= 0.5f)) {
-			return;
-		}
-	} else {
-		if (ActorTimer & 0x3F) {
-			return;
-		}
-		// Play SFX once every 64f (~2.13s)
-	}
-	playSFXAtXYZ(CurrentActorPointer_0->xPos, CurrentActorPointer_0->yPos, CurrentActorPointer_0->zPos, 526, 0xFF, 0x7F, 0x1E, 0x4B, 0.3f);
-}
-
 void RabbitRaceInfiniteCode(void) {
 	/**
 	 * @brief Change Rabbit Race so that upon starting the race, you get infinite Crystal Coconuts
@@ -355,14 +333,6 @@ void exitTrapBubbleController(void) {
 	}
 }
 
-static const char test_file_name[] = "BALLAAM";
-
-void writeDefaultFilename(void) {
-	for (int i = 0; i < FILENAME_LENGTH; i++) {
-		SaveExtraData(EGD_FILENAME, i, test_file_name[i]);
-	}
-}
-
 void fixChimpyCamBug(void) {
 	/**
 	 * @brief Things to be reset upon first boot of the game on PJ64 (Because PJ64 is weird)
@@ -372,10 +342,34 @@ void fixChimpyCamBug(void) {
 	SaveToFile(DATA_LANGUAGE, 0, 0, 0, Rando.default_camera_type);
 	SaveToFile(DATA_SOUNDTYPE, 0, 0, 0, Rando.default_sound_type);
 	wipeFileStats();
-	if (ENABLE_FILENAME) {
-		writeDefaultFilename();
-	}
 	SaveToGlobal();
+}
+
+void movePelletWrapper(actorData* actor) {
+	if (!(CurrentActorPointer_0->obj_props_bitfield & 0x10)) {
+		if ((Player->control_state == 2) && (Player->was_gun_out == 1)) {
+			int dist = getScreenDist(screenCenterX >> 1, screenCenterY >> 1);
+			int cap = getDistanceCap(dist);
+			if ((cap == 0) || (cap == 996)) {
+				// Lets not get into a div-by-0 mess
+				unkProjectileCode_2(actor);
+				return;
+			}
+			float dxz = CurrentActorPointer_0->hSpeed * 0.025f;
+			float dy = CurrentActorPointer_0->yVelocity * 0.025f;
+			float cap_f = cap;
+			float d_one_frame = dk_sqrt((dxz * dxz) + (dy * dy));
+			float ratio = cap_f / d_one_frame;
+			int rotation = CurrentActorPointer_0->rot_y_copy;
+			float dxz_ratio = dxz * ratio;
+
+			CurrentActorPointer_0->xPos += (dxz_ratio * determineXRatioMovement(rotation));
+			CurrentActorPointer_0->yPos += (dy * ratio);
+			CurrentActorPointer_0->zPos += (dxz_ratio * determineZRatioMovement(rotation));
+			return;
+		}
+	}
+	unkProjectileCode_2(actor);
 }
 
 // Segment framebuffer

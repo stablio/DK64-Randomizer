@@ -5,6 +5,7 @@
 
 #define LAG_CAP 10
 static short past_lag[LAG_CAP] = {};
+static short instrument_cs_indexes[] = {0, 4, 7, 8, 9};
 static char lag_counter = 0;
 static float current_avg_lag = 0;
 static char has_loaded = 0;
@@ -14,9 +15,9 @@ char* itemloc_pointers[LOCATION_ITEM_COUNT] = {};
 char grab_lock_timer = -1;
 char tag_locked = 0;
 
-
 void cFuncLoop(void) {
 	regularFrameLoop();
+	cc_effect_handler();
 	tagAnywhere();
 	level_order_rando_funcs();
 	qualityOfLife_fixes();
@@ -156,7 +157,7 @@ void cFuncLoop(void) {
 	// }
 	if (CurrentMap == MAP_HELM) {
 		if ((CutsceneActive == 1) && ((CutsceneStateBitfield & 4) != 0)) {
-			if ((CutsceneIndex == 0) || (CutsceneIndex == 4) || (CutsceneIndex == 7) || (CutsceneIndex == 8) || (CutsceneIndex == 9)) {
+			if (inShortList(CutsceneIndex, &instrument_cs_indexes[0], 5)) {
 				if (checkFlag(FLAG_MODIFIER_HELMBOM,FLAGTYPE_PERMANENT)) {
 					setFlag(0x50,0,FLAGTYPE_TEMPORARY); // Prevent Helm Door hardlock
 				}
@@ -184,6 +185,8 @@ static short mj_falling_cutscenes[] = {
 void earlyFrame(void) {
 	if (ObjectModel2Timer < 2) {
 		swap_ending_cutscene_model();
+		swapKremlingModel();
+		force_enable_diving_timer = 0;
 	} else if (ObjectModel2Timer == 2) {
 		setFlag(FLAG_KROOL_INTRO_DK,1,FLAGTYPE_TEMPORARY); // DK Phase Intro
 		setFlag(FLAG_KROOL_INTRO_TINY,1,FLAGTYPE_TEMPORARY); // Tiny Phase Intro

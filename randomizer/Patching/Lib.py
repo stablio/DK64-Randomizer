@@ -15,7 +15,7 @@ from randomizer.Patching.Patcher import ROM, LocalROM
 from randomizer.Enums.Items import Items
 from randomizer.Enums.Enemies import Enemies
 from randomizer.Enums.Maps import Maps
-from randomizer.Enums.Types import BarrierItems
+from randomizer.Enums.Types import BarrierItems, Types
 from randomizer.Enums.Settings import HardModeSelected, MiscChangesSelected, HelmDoorItem, IceTrapFrequency
 
 if TYPE_CHECKING:
@@ -255,6 +255,7 @@ class CustomActors(IntEnum):
     ZingerFlamethrower = auto()
     Scarab = auto()
     HintItem = auto()
+    KopDummy = auto()
 
 
 compatible_background_textures = {
@@ -284,7 +285,7 @@ compatible_background_textures = {
     0x7B3: MenuTexture("Down Arrow", MenuTextDim.size_w32_h32, 25, 50),
     0xAC: MenuTexture("TNT", MenuTextDim.size_w32_h32),
     0x7CD: MenuTexture("Night Sign", MenuTextDim.size_w32_h32),
-    0x3DE: MenuTexture("Color", MenuTextDim.size_w32_h32, 7, 50, MenuTextDim.size_w32_h32),
+    0x3DE: MenuTexture("Color", MenuTextDim.size_w32_h32, 7, 50, True),
     0xF7: MenuTexture("Grass", MenuTextDim.size_w32_h32),
     0xA00: MenuTexture("Sand", MenuTextDim.size_w32_h32),
     0xA84: MenuTexture("Sand", MenuTextDim.size_w32_h32),
@@ -295,7 +296,7 @@ compatible_background_textures = {
     0xB1E: MenuTexture("Peanut Switch", MenuTextDim.size_w32_h32),
     0xC80: MenuTexture("Feather Switch", MenuTextDim.size_w32_h32),
     0xC81: MenuTexture("Grape Switch", MenuTextDim.size_w32_h32),
-    0xB27: MenuTexture("Boxes", MenuTextDim.size_w32_h32),
+    # 0xB27: MenuTexture("Boxes", MenuTextDim.size_w32_h32),
     0xCF1: MenuTexture("L Square", MenuTextDim.size_w32_h32),
     0xCF4: MenuTexture("R Square", MenuTextDim.size_w32_h32),
     0xE63: MenuTexture("Metallic Green", MenuTextDim.size_w32_h32),
@@ -332,7 +333,7 @@ compatible_background_textures = {
     0xA72: MenuTexture("Banana Hoard Sign", MenuTextDim.size_w64_h32),
     0xA73: MenuTexture("Training Area Sign", MenuTextDim.size_w64_h32),
     0xA74: MenuTexture("Cranky's Lab Sign", MenuTextDim.size_w64_h32),
-    0xA76: MenuTexture("DK's Sign", MenuTextDim.size_w64_h32),
+    # 0xA76: MenuTexture("DK's Sign", MenuTextDim.size_w64_h32),
     0xC14: MenuTexture("No Admittance Sign", MenuTextDim.size_w64_h32),
     0xC47: MenuTexture("Danger Sign", MenuTextDim.size_w64_h32),
     0xC64: MenuTexture("Accept Sign", MenuTextDim.size_w64_h32),
@@ -848,6 +849,48 @@ def camelCaseToWords(string: str):
     return " ".join(["".join(word) for word in words])
 
 
+def getItemNumberString(count: int, item_type: Types) -> str:
+    """Get a string which displays the number of items and the item name."""
+    names = {
+        Types.Banana: "Golden Banana",
+        Types.BlueprintBanana: "Golden Banana",
+        Types.Shop: "Move",
+        Types.Blueprint: "Blueprint",
+        Types.Fairy: "Fairy",
+        Types.Key: "Key",
+        Types.Crown: "Crown",
+        Types.Coin: "Company Coin",
+        Types.TrainingBarrel: "Move",
+        Types.Climbing: "Move",
+        Types.Kong: "Kong",
+        Types.Medal: "Medal",
+        Types.Shockwave: "Move",
+        Types.Bean: "Bean",
+        Types.Pearl: "Pearl",
+        Types.RainbowCoin: "Rainbow Coin",
+        Types.FakeItem: "Ice Trap",
+        Types.ToughBanana: "Golden Banana",
+        Types.JunkItem: "Junk Item",
+        Types.Hint: "Hint",
+        Types.PreGivenMove: "Move",
+        Types.Climbing: "Move",
+        Types.NintendoCoin: "Nintendo Coin",
+        Types.RarewareCoin: "Rareware Coin",
+        Types.Cranky: "Cranky",
+        Types.Funky: "Funky",
+        Types.Candy: "Candy",
+        Types.Snide: "Snide",
+        Types.IslesMedal: "Medal",
+        Types.ProgressiveHint: "Hint",
+    }
+    name = names.get(item_type, item_type.name)
+    if count != 1:
+        name = f"{name}s"
+        if item_type == Types.Fairy:
+            name = "Fairies"
+    return f"{count} {name}"
+
+
 class TableNames(IntEnum):
     """Pointer Table Enum."""
 
@@ -983,3 +1026,91 @@ def getIceTrapCount(settings) -> int:
         IceTrapFrequency.pain: 100,
     }
     return ice_trap_freqs.get(settings.ice_trap_frequency, 16)
+
+
+class Holidays(IntEnum):
+    """Holiday Enum."""
+
+    no_holiday = 0
+    Christmas = auto()
+    Halloween = auto()
+    Anniv25 = auto()
+
+
+def getHolidaySetting(settings):
+    """Get the holiday setting."""
+    is_offseason = False
+    if is_offseason:
+        return settings.holiday_setting_offseason
+    return settings.holiday_setting
+
+
+def getHoliday(settings):
+    """Get the holiday experienced."""
+    if getHolidaySetting(settings):
+        return Holidays.Halloween
+    return Holidays.no_holiday
+
+
+plando_colors = {
+    "\x04": [
+        "orange",
+        "woth",
+        "keys",
+        "donkey",
+        "aztec",
+        "freekongs",
+        "dogadon1",
+    ],
+    "\x05": [
+        "red",
+        "foolish",
+        "diddy",
+        "helm",
+    ],
+    "\x06": [
+        "blue",
+        "lanky",
+        "galleon",
+        "pufftoss",
+    ],
+    "\x07": [
+        "purple",
+        "tiny",
+        "forest",
+        "fungi",
+        "dogadon2",
+    ],
+    "\x08": [
+        "lightgreen",
+        "chunky",
+        "japes",
+        "dillo1",
+    ],
+    "\x09": [
+        "magenta",
+        "castle",
+        "kutout",
+    ],
+    "\x0a": [
+        "cyan",
+        "caves",
+        "fridge",
+        "dillo2",
+    ],
+    "\x0b": [
+        "rust",
+        "isles",
+        "training",
+    ],
+    "\x0c": [
+        "paleblue",
+        "allkongs",
+        "factory",
+        "madjack",
+    ],
+    "\x0d": [
+        "green",
+        "jetpac",
+    ],
+}

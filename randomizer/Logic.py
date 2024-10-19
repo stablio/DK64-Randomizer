@@ -32,6 +32,7 @@ from randomizer.Enums.SwitchTypes import SwitchType
 from randomizer.Enums.Settings import (
     ActivateAllBananaports,
     BananaportRando,
+    ClimbingStatus,
     DamageAmount,
     FasterChecksSelected,
     GlitchesSelected,
@@ -102,6 +103,7 @@ class LogicVarHolder:
         self.boulder_clip = enable_glitch_logic and IsGlitchEnabled(settings, GlitchesSelected.boulder_clips) and False  # Temporarily disabled
         self.skew = enable_glitch_logic and IsGlitchEnabled(settings, GlitchesSelected.skew)
         self.moontail = enable_glitch_logic and IsGlitchEnabled(settings, GlitchesSelected.moontail)
+        self.phasefall = enable_glitch_logic and IsGlitchEnabled(settings, GlitchesSelected.phasefall)
         # Reset
         self.Reset()
 
@@ -125,7 +127,7 @@ class LogicVarHolder:
         self.swim = self.settings.training_barrels == TrainingBarrels.normal
         self.oranges = self.settings.training_barrels == TrainingBarrels.normal
         self.barrels = self.settings.training_barrels == TrainingBarrels.normal
-        self.climbing = self.settings.training_barrels == TrainingBarrels.normal
+        self.climbing = self.settings.climbing_status == ClimbingStatus.normal
         self.can_use_vines = self.vines  # and self.climbing to restore old behavior
 
         self.progDonkey = 0
@@ -545,7 +547,7 @@ class LogicVarHolder:
 
     def CanAccessRNDRoom(self):
         """Determine whether the player can enter an R&D Room with glitches."""
-        return self.phasewalk or self.generalclips or self.CanOStandTBSNoclip()
+        return self.CanPhase() or self.generalclips or self.CanOStandTBSNoclip()
 
     def CanGetOnCannonGamePlatform(self):
         """Determine whether the player can get on the platform in Cannon Game Room in Gloomy Galleon."""
@@ -560,6 +562,10 @@ class LogicVarHolder:
     def CanMoontail(self):
         """Determine whether the player can perform a Moontail."""
         return self.moontail and self.isdiddy and self.settings.kong_model_diddy == KongModels.default  # Krusha doesnt have the jump height that Diddy has
+
+    def CanPhase(self):
+        """Determine whether the player can phase."""
+        return self.phasewalk or (self.phasefall and (self.ischunky and self.camera))
 
     def AddEvent(self, event):
         """Add an event to events list so it can be checked for logically."""
@@ -799,7 +805,7 @@ class LogicVarHolder:
     def CanFreeLanky(self):
         """Check if kong at Lanky location can be freed, requires freeing kong to have its gun and instrument."""
         return (self.HasGun(self.settings.lanky_freeing_kong) or self.spoiler.LocationList[Locations.LankyKong].item == Items.NoItem) and (
-            (self.swim and self.HasInstrument(self.settings.lanky_freeing_kong)) or self.phasewalk or self.CanPhaseswim()
+            (self.swim and self.HasInstrument(self.settings.lanky_freeing_kong)) or self.CanPhase() or self.CanPhaseswim()
         )
 
     def CanFreeChunky(self):
@@ -895,11 +901,6 @@ class LogicVarHolder:
 
     def HintAccess(self, location, region_id):
         """Check if we are the right kong for this hint door."""
-        if location.item is None:
-            return False
-        # In progressive hints, the door locations are always available all the time by everybody as long as you reach the location by meeting the GB threshold
-        if self.spoiler.settings.enable_progressive_hints:
-            return True
         # The only weird exception: vanilla Fungi Lobby hint doors only check for Chunky, not the current Kong, and all besides Chunky's needs grab
         if not self.settings.wrinkly_location_rando and not self.settings.remove_wrinkly_puzzles and region_id == RegionEnum.FungiForestLobby:
             return self.chunky and (location.kong == Kongs.chunky or (self.donkey and self.grab))
@@ -1012,7 +1013,7 @@ class LogicVarHolder:
         # In simple level order, there are a couple very specific cases we have to account for in order to prevent boss fill failures
         level_order_matters = not self.settings.hard_level_progression and self.settings.shuffle_loading_zones in (ShuffleLoadingZones.none, ShuffleLoadingZones.levels)
         if level_order_matters and not self.assumeFillSuccess:  # These conditions only matter on fill, not on playthrough
-            order_of_level = 7  # Guaranteed to be 1-7 here
+            order_of_level = 8  # Guaranteed to be 1-8 here
             for level_order in self.settings.level_order:
                 if self.settings.level_order[level_order] == level:
                     order_of_level = level_order
@@ -1033,7 +1034,7 @@ class LogicVarHolder:
         level_order_matters = not self.settings.hard_level_progression and self.settings.shuffle_loading_zones in (ShuffleLoadingZones.none, ShuffleLoadingZones.levels)
         if level_order_matters:
             # Levels have some special requirements depending on where they fall in the level order
-            order_of_level = 8  # If order_of_level remains unchanged in the coming loop, then the level is Helm which is always 8th
+            order_of_level = 8
             order_of_aztec = 0
             for level_order in self.settings.level_order:
                 if self.settings.level_order[level_order] == level:
@@ -1159,7 +1160,7 @@ class LogicVarHolder:
         """Check if you meet the logical requirements to obtain the Rareware Coin."""
         have_enough_medals = self.BananaMedals >= self.settings.medal_requirement
         # Make sure you have access to enough levels to fit the locations in. This isn't super precise and doesn't need to be.
-        required_level_order = max(2, min(ceil(self.settings.medal_requirement / 4), 6))  # At least level 2 to give space for medal placements, at most level 6 to allow shenanigans
+        required_level_order = max(2, min(ceil(self.settings.medal_requirement / 4), 7))  # At least level 2 to give space for medal placements, at most level 6 to allow shenanigans
         return have_enough_medals and self.HasFillRequirementsForLevel(self.settings.level_order[required_level_order])
 
     def CanGetRarewareGB(self):

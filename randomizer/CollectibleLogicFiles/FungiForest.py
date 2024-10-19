@@ -19,7 +19,7 @@ LogicRegions = {
         Collectible(Collectibles.bunch, Kongs.diddy, lambda l: True, None, 1),  # Warp 4
         Collectible(Collectibles.bunch, Kongs.lanky, lambda l: True, None, 1),  # Warp 1
         Collectible(Collectibles.bunch, Kongs.tiny, lambda l: True, None, 1),  # Warp 3
-        Collectible(Collectibles.banana, Kongs.tiny, lambda l: l.hasMoveSwitchsanity(Switches.FungiGreenFeather, False) or l.phasewalk or l.CanPhaseswim(), None, 4),  # Behind feather gate only
+        Collectible(Collectibles.banana, Kongs.tiny, lambda l: l.hasMoveSwitchsanity(Switches.FungiGreenFeather, False) or l.CanPhase() or l.CanPhaseswim(), None, 4),  # Behind feather gate only
         Collectible(Collectibles.bunch, Kongs.chunky, lambda l: True, None, 1),  # Warp 2
         Collectible(Collectibles.bunch, Kongs.chunky, lambda l: True, None, 1),  # Minecart Entry
 
@@ -132,9 +132,9 @@ LogicRegions = {
         Collectible(Collectibles.banana, Kongs.tiny, lambda l: l.swim, None, 17),  # Underwater
 
         # Collectible(Collectibles.coin, Kongs.any, lambda l: l.shockwave, None, 1),  # In patch of grass
-        Collectible(Collectibles.coin, Kongs.diddy, lambda l: True, None, 3),  # On mushroom near back Tag Barrel
-        Collectible(Collectibles.coin, Kongs.lanky, lambda l: True, None, 3),  # On mushroom near rafters attic
-        Collectible(Collectibles.coin, Kongs.chunky, lambda l: True, None, 3),  # On mushroom near Chunky minecart exit
+        Collectible(Collectibles.coin, Kongs.diddy, lambda l: l.climbing, None, 3),  # On mushroom near back Tag Barrel
+        Collectible(Collectibles.coin, Kongs.lanky, lambda l: l.climbing, None, 3),  # On mushroom near rafters attic
+        Collectible(Collectibles.coin, Kongs.chunky, lambda l: l.climbing, None, 3),  # On mushroom near Chunky minecart exit
     ],
     Regions.MillChunkyTinyArea: [
         Collectible(Collectibles.bunch, Kongs.chunky, lambda l: l.punch, None, 1),
@@ -148,7 +148,7 @@ LogicRegions = {
     ],
     Regions.GrinderRoom: [
         Collectible(Collectibles.bunch, Kongs.donkey, lambda l: l.Slam, None, 1),  # In slam box
-        Collectible(Collectibles.balloon, Kongs.donkey, lambda l: (l.CanSlamSwitch(Levels.FungiForest, 2) or l.generalclips or l.phasewalk) and l.coconut, None, 1),  # Behind gate
+        Collectible(Collectibles.balloon, Kongs.donkey, lambda l: (l.CanSlamSwitch(Levels.FungiForest, 2) or l.generalclips or l.CanPhase()) and l.coconut, None, 1),  # Behind gate
 
         Collectible(Collectibles.coin, Kongs.lanky, lambda l: True, None, 3),
         Collectible(Collectibles.coin, Kongs.tiny, lambda l: True, None, 3),
@@ -178,13 +178,13 @@ LogicRegions = {
         Collectible(Collectibles.coin, Kongs.donkey, lambda l: True, None, 3),  # In trough
     ],
     Regions.WormArea: [
-        Collectible(Collectibles.bunch, Kongs.tiny, lambda l: True, None, 3),
+        Collectible(Collectibles.bunch, Kongs.tiny, lambda l: l.climbing, None, 3),  # On top of Mushrooms around The Apple
         Collectible(Collectibles.banana, Kongs.tiny, lambda l: True, None, 1),  # Last one behind Pineapple gate
         Collectible(Collectibles.bunch, Kongs.chunky, lambda l: True, None, 1),  # Warp 2
         Collectible(Collectibles.banana, Kongs.chunky, lambda l: True, None, 9),
 
         # Collectible(Collectibles.coin, Kongs.any, lambda l: l.shockwave, None, 1),  # In front of beanstalk
         Collectible(Collectibles.coin, Kongs.tiny, lambda l: True, None, 3),  # By Mini Monkey barrel
-        Collectible(Collectibles.coin, Kongs.chunky, lambda l: l.TimeAccess(Regions.WormArea, Time.Night) or l.phasewalk, None, 3),  # By T&S portal
+        Collectible(Collectibles.coin, Kongs.chunky, lambda l: l.TimeAccess(Regions.WormArea, Time.Night) or l.CanPhase(), None, 3),  # By T&S portal
     ],
 }

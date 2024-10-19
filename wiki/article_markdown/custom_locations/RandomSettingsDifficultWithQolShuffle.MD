@@ -81,6 +81,7 @@ The generated settings will be of greater difficulty. Requirements for B. Locker
 - Enable Tag Anywhere: 90%
 - Dropsanity: 60%
 - Enemy Speed Rando: 70%
+- Randomize Enemy Sizes: 90%
 - Faster Checks Selected: 
 	- Factory Toy Monster Fight: 70%
 	- Factory Piano Game: 70%
@@ -180,7 +181,7 @@ The generated settings will be of greater difficulty. Requirements for B. Locker
 	- Off: 15%
 	- Vanilla Locations: 55%
 	- Location Shuffle: 30%
-- Lock Key 8 in Helm: 50%
+- Helm Key Lock: 50%
 - Kong Model Chunky: 
 	- Default: 100%
 - Kong Model Diddy: 
@@ -283,7 +284,7 @@ The generated settings will be of greater difficulty. Requirements for B. Locker
 	- Start With: 20%
 - Shop Indicator: 50%
 - Shorten Boss Fights: 80%
-- Shuffle Helm Location: 70%
+- Shuffle Helm Location / Include Helm: 70%
 - Shuffle Shop Locations: 70%
 - Smaller Shops: 50%
 - Starting Kong: 
@@ -298,10 +299,7 @@ The generated settings will be of greater difficulty. Requirements for B. Locker
 - Vanilla Door Rando: 60%
 - Warp to Isles menu option: 90%
 - Win Condition: 
-	- Beat Krool: 20%
-	- Medium Random: 30%
-	- Hard Random: 45%
-	- Krem Kapture: 5%
+	- Hard Random: 100%
 - Kongless Hint Doors: 75%
 - Wrinkly Hints: 
 	- Off: 10%

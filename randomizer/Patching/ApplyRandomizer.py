@@ -92,6 +92,11 @@ def writeMultiselector(enabled: bool, enabled_selections: list, selector: list[d
             ROM_COPY.writeMultipleBytes(byte_data, 1)
 
 
+def encPass(spoiler) -> int:
+    """Encrypt the password."""
+    return 0
+
+
 def patching_response(spoiler):
     """Apply the patch data to the ROM in the local server to be returned to the client."""
     # Make sure we re-load the seed id
@@ -127,6 +132,7 @@ def patching_response(spoiler):
             Transitions.IslesMainToForestLobby,
             Transitions.IslesMainToCavesLobby,
             Transitions.IslesMainToCastleLobby,
+            Transitions.IslesMainToHelmLobby,
         ]
         vanilla_lobby_exit_order = [
             Transitions.IslesJapesLobbyToMain,
@@ -136,13 +142,14 @@ def patching_response(spoiler):
             Transitions.IslesForestLobbyToMain,
             Transitions.IslesCavesLobbyToMain,
             Transitions.IslesCastleLobbyToMain,
+            Transitions.IslesHelmLobbyToMain,
         ]
         level_order = []
         for level in vanilla_lobby_entrance_order:
             level_order.append(vanilla_lobby_exit_order.index(spoiler.shuffled_exit_data[int(level)].reverse))
         placeLevelOrder(spoiler, level_order, ROM_COPY)
 
-        vanilla_key_order = [0x1A, 0x4A, 0x8A, 0xA8, 0xEC, 0x124, 0x13D]
+        vanilla_key_order = [0x1A, 0x4A, 0x8A, 0xA8, 0xEC, 0x124, 0x13D, 0x17C]
         if Types.Key not in spoiler.settings.shuffled_location_types:
             # Append to FLUT
             for index, vanilla_key in enumerate(vanilla_key_order):
@@ -201,6 +208,7 @@ def patching_response(spoiler):
         BooleanProperties(spoiler.settings.item_reward_previews, 0x101, 255),  # Bonus Matches Contents
         BooleanProperties(spoiler.settings.portal_numbers, 0x11E),  # Portal Numbers
         BooleanProperties(spoiler.settings.sprint_barrel_requires_sprint, 0x2F),  # Sprint Barrel requires OSprint
+        BooleanProperties(spoiler.settings.fix_lanky_tiny_prod, 0x114),  # Fix Lanky Tiny Prod
         BooleanProperties(spoiler.settings.enemy_kill_crown_timer, 0x35),  # Enemy crown timer reduction
     ]
 
@@ -491,8 +499,12 @@ def patching_response(spoiler):
     rom_flags = 0
     rom_flags |= 0x80 if spoiler.settings.enable_plandomizer else 0
     rom_flags |= 0x40 if spoiler.settings.generate_spoilerlog else 0
+    rom_flags |= 0x20 if spoiler.settings.has_password else 0
     ROM_COPY.seek(sav + 0xC4)
     ROM_COPY.writeMultipleBytes(rom_flags, 1)
+    if spoiler.settings.has_password:
+        ROM_COPY.seek(sav + 0x1B0)
+        ROM_COPY.writeMultipleBytes(encPass(spoiler), 4)
 
     # Ice Trap Count
     ROM_COPY.seek(sav + 0x14E)
@@ -571,7 +583,7 @@ def patching_response(spoiler):
     if spoiler.settings.alter_switch_allocation:
         ROM_COPY.seek(sav + 0x103)
         ROM_COPY.write(1)
-        for x in range(7):
+        for x in range(7):  # Shouldn't need index 8 since Helm has no slam switches in it
             ROM_COPY.seek(sav + 0x104 + x)
             ROM_COPY.write(spoiler.settings.switch_allocation[x])
 

@@ -5,7 +5,7 @@ import random
 import math
 import io
 import randomizer.ItemPool as ItemPool
-from randomizer.Patching.Lib import Overlay, float_to_hex, IsItemSelected, compatible_background_textures, CustomActors, MenuTextDim
+from randomizer.Patching.Lib import Overlay, float_to_hex, IsItemSelected, compatible_background_textures, CustomActors, MenuTextDim, Holidays, getHoliday, getHolidaySetting
 from randomizer.Patching.LibImage import getImageFile, TextureFormat, getRandomHueShift, hueShift, getImageFromAddress
 from randomizer.Settings import Settings
 from randomizer.Enums.Settings import (
@@ -24,10 +24,11 @@ from randomizer.Enums.Settings import (
     RandomModels,
     PuzzleRando,
     WinConditionComplex,
+    ExtraCutsceneSkips,
 )
 from randomizer.Enums.Maps import Maps
 from randomizer.Lists.MapsAndExits import GetExitId, GetMapId
-from randomizer.Enums.Models import Model
+from randomizer.Enums.Models import Model, Sprite
 from randomizer.Patching.Patcher import ROM, LocalROM
 from randomizer.Enums.Settings import ShuffleLoadingZones
 from randomizer.Enums.Types import Types
@@ -77,8 +78,12 @@ NORMAL_KEY_FLAGS = [
     0x13D,  # Key 7
     0x17C,  # Key 8
 ]
-ENABLE_FILENAME = False
 ENABLE_ALL_KONG_TRANSFORMS = False
+ENABLE_HITSCAN = False
+DISABLE_BORDERS = False
+ENABLE_MINIGAME_SPRITE_RANDO = False
+ENABLE_HELM_GBS = True
+ENABLE_BLAST_LZR = False
 
 WARPS_JAPES = [
     0x20,  # FLAG_WARP_JAPES_W1_PORTAL,
@@ -252,6 +257,17 @@ def writeFloat(ROM_COPY, address: int, overlay: Overlay, value: float, offset_di
     ROM_COPY.writeMultipleBytes(passed_value, 4)
 
 
+def writeFloatUpper(ROM_COPY, address: int, overlay: Overlay, value: float, offset_dict: dict):
+    """Write upper 16 bit portion of floating point variable to ROM."""
+    rom_start = getROMAddress(address, overlay, offset_dict)
+    if rom_start is None:
+        raise Exception(f"Couldn't ascertain a ROM start for address {hex(address)} and Overlay {overlay.name}.")
+    ROM_COPY.seek(rom_start)
+    passed_value = int(float_to_hex(value), 16)
+    passed_value = (passed_value >> 16) & 0xFFFF
+    ROM_COPY.writeMultipleBytes(passed_value, 2)
+
+
 def writeFunction(ROM_COPY, address: int, overlay: Overlay, func_name: str, offset_dict: dict):
     """Write function JAL to ROM."""
     if isinstance(ROM_COPY, ROM):
@@ -378,6 +394,31 @@ def hueShiftImageFromAddress(address: int, width: int, height: int, format: Text
     ROM().writeBytes(px_data)
 
 
+class ColorBlindCrosshair:
+    """Store all information regarding a colorblind crosshair color data."""
+
+    def __init__(self, regular: int, homing: int, sniper: int):
+        """Initialize with given parameters."""
+        self.regular = regular
+        self.homing = homing
+        self.sniper = sniper
+
+    def writeRGBColors(self, ROM_COPY, offset_dict: dict, value: int, upper_address: int, lower_address: int):
+        """Write the RGB colors to ROM."""
+        hi = value >> 8
+        lo = ((value & 0xFF) << 8) | 0xFF
+        writeValue(ROM_COPY, upper_address, Overlay.Static, hi, offset_dict)
+        writeValue(ROM_COPY, lower_address, Overlay.Static, lo, offset_dict)
+
+
+CROSSHAIRS = {
+    ColorblindMode.off: ColorBlindCrosshair(0xC80000, 0x00C800, 0xFFD700),
+    ColorblindMode.prot: ColorBlindCrosshair(0x0072FF, 0xFFFFFF, 0xFDE400),
+    ColorblindMode.deut: ColorBlindCrosshair(0x318DFF, 0xFFFFFF, 0xE3A900),
+    ColorblindMode.trit: ColorBlindCrosshair(0xC72020, 0xFFFFFF, 0x13C4D8),
+}
+
+
 def patchAssemblyCosmetic(ROM_COPY: ROM, settings: Settings):
     """Patch assembly instructions that pertain to cosmetic changes."""
     offset_dict = populateOverlayOffsets(ROM_COPY)
@@ -427,12 +468,32 @@ def patchAssemblyCosmetic(ROM_COPY: ROM, settings: Settings):
     writeValue(ROM_COPY, 0x8075575A, Overlay.Static, settings.funky_cutscene_model + 1, offset_dict)
     writeValue(ROM_COPY, 0x8075578C, Overlay.Static, settings.boot_cutscene_model + 1, offset_dict)
 
+    # Refill Count
+    if ENABLE_MINIGAME_SPRITE_RANDO:
+        projectile_mapping = {
+            Sprite.BouncingMelon: Sprite.VerticalRollingMelon,
+            Sprite.BouncingOrange: Sprite.Orange,
+        }
+        is_new_sprite = settings.minigame_melon_sprite != Sprite.BouncingMelon
+        projectile_sprite = projectile_mapping.get(settings.minigame_melon_sprite, settings.minigame_melon_sprite)
+        is_small_sprite = settings.minigame_melon_sprite in (Sprite.BouncingMelon, Sprite.BouncingOrange)
+        hi = getHi(int(settings.minigame_melon_sprite)) if is_new_sprite else 0x8072
+        lo = getLo(int(settings.minigame_melon_sprite)) if is_new_sprite else 0xFFD4
+        proj_hi = getHi(int(projectile_sprite)) if is_new_sprite else 0x8072
+        proj_lo = getLo(int(projectile_sprite)) if is_new_sprite else 0x0020
+        writeValue(ROM_COPY, 0x8002737E, Overlay.Bonus, hi, offset_dict)
+        writeValue(ROM_COPY, 0x8002739A, Overlay.Bonus, lo, offset_dict)
+        writeValue(ROM_COPY, 0x80027366, Overlay.Bonus, 0x3F80 if is_small_sprite else 0x3F33, offset_dict)
+        writeValue(ROM_COPY, 0x8069274E, Overlay.Static, proj_hi, offset_dict)
+        writeValue(ROM_COPY, 0x8069275A, Overlay.Static, proj_lo, offset_dict)
+        writeValue(ROM_COPY, 0x80027448, Overlay.Bonus, 0x3C073F80, offset_dict, 4)  # Ensure melon sfx is always usual pitch
+
     # Skybox Handler
     skybox_rgba = None
     random_skybox = False
     if settings.colorblind_mode != ColorblindMode.off:
         skybox_rgba = [0x31, 0x33, 0x38]
-    elif settings.holiday_setting_offseason:
+    elif getHolidaySetting(settings):
         skybox_rgba = [0, 0, 0]
     elif settings.misc_cosmetics:
         random_skybox = True
@@ -491,6 +552,41 @@ def patchAssemblyCosmetic(ROM_COPY: ROM, settings: Settings):
     writeValue(ROM_COPY, 0x806FFAFE, Overlay.Static, crosshair_img, offset_dict)
     writeValue(ROM_COPY, 0x806FF116, Overlay.Static, crosshair_img, offset_dict)
     writeValue(ROM_COPY, 0x806B78DA, Overlay.Static, crosshair_img, offset_dict)
+
+    # Holiday Mode Stuff
+    holiday = getHoliday(settings)
+    if holiday == Holidays.Halloween:
+        writeValue(ROM_COPY, 0x800271F2, Overlay.Bonus, Model.Krossbones + 1, offset_dict)  # Green
+        writeValue(ROM_COPY, 0x80027216, Overlay.Bonus, Model.RoboKremling + 1, offset_dict)  # Red
+        writeValue(ROM_COPY, 0x8075E0B8, Overlay.Static, 0x807080E0, offset_dict, 4)  # Makes isles reference Castle skybox data
+        # Chains
+        writeValue(ROM_COPY, 0x8069901A, Overlay.Static, 0xE, offset_dict)  # Vine param
+        writeValue(ROM_COPY, 0x8069903A, Overlay.Static, 0xE, offset_dict)  # Vine param
+        writeValue(ROM_COPY, 0x80698754, Overlay.Static, 0, offset_dict, 4)  # Cancel branch
+        writeValue(ROM_COPY, 0x80698B6C, Overlay.Static, 0, offset_dict, 4)  # Cancel branch
+        writeValue(ROM_COPY, 0x80698B74, Overlay.Static, 0x1000, offset_dict)  # Force branch
+    elif holiday == Holidays.Christmas:
+        # Make santa visit Isles
+        writeValue(ROM_COPY, 0x8070637E, Overlay.Static, 115, offset_dict)  # Moon Image
+        writeValue(ROM_COPY, 0x8075E0B8, Overlay.Static, 0x807080E0, offset_dict, 4)  # Makes isles reference Castle skybox data
+        writeValue(ROM_COPY, 0x806682C8, Overlay.Static, 0x240E0004, offset_dict, 4)  # Set ground sfx to snow
+        writeValue(ROM_COPY, 0x806682CC, Overlay.Static, 0x240C0004, offset_dict, 4)  # Set ground sfx to snow
+        writeValue(ROM_COPY, 0x806682DC, Overlay.Static, 0x240E0004, offset_dict, 4)  # Set ground sfx to snow
+
+    if settings.colorblind_mode != ColorblindMode.off:
+        writeFunction(ROM_COPY, 0x8069E968, Overlay.Static, "determineShockwaveColor", offset_dict)  # Shockwave handler
+        writeValue(ROM_COPY, 0x8069E974, Overlay.Static, 0x1000, offset_dict)  # Force first option
+        writeValue(ROM_COPY, 0x8069E9B0, Overlay.Static, 0, offset_dict, 4)  # Prevent write
+        writeValue(ROM_COPY, 0x8069E9B4, Overlay.Static, 0, offset_dict, 4)  # Prevent write
+        writeValue(ROM_COPY, 0x8069E9BC, Overlay.Static, 0, offset_dict, 4)  # Prevent write
+    ref_crosshair = CROSSHAIRS[settings.colorblind_mode]
+    ref_crosshair.writeRGBColors(ROM_COPY, offset_dict, ref_crosshair.sniper, 0x806FFA92, 0x806FFA96)
+    ref_crosshair.writeRGBColors(ROM_COPY, offset_dict, ref_crosshair.homing, 0x806FFA76, 0x806FFA7A)
+    ref_crosshair.writeRGBColors(ROM_COPY, offset_dict, ref_crosshair.regular, 0x806FF0C6, 0x806FF0CA)
+    ref_crosshair.writeRGBColors(ROM_COPY, offset_dict, ref_crosshair.homing, 0x806FF0AA, 0x806FF0AE)
+    if settings.remove_water_oscillation:
+        writeFunction(ROM_COPY, 0x80660994, Overlay.Static, "getOscillationDelta", offset_dict)
+        writeFunction(ROM_COPY, 0x806609BC, Overlay.Static, "getOscillationDelta", offset_dict)
 
     if settings.override_cosmetics:
         enemy_setting = RandomModels[js.document.getElementById("random_enemy_colors").value]
@@ -563,7 +659,10 @@ def expandSaveFile(ROM_COPY: LocalROM, static_expansion: int, actor_count: int, 
     expansion = static_expansion + actor_count
     flag_block_size = 0x320 + expansion
     targ_gb_bits = 7  # Max 127
+    GB_LEVEL_COUNT = 9 if ENABLE_HELM_GBS else 8
     added_bits = (targ_gb_bits - 3) * 8
+    if ENABLE_HELM_GBS:
+        added_bits += targ_gb_bits + 7 + 7
     kong_var_size = 0xA1 + added_bits
     file_info_location = flag_block_size + (5 * kong_var_size)
     file_default_size = file_info_location + 0x72
@@ -586,12 +685,18 @@ def expandSaveFile(ROM_COPY: LocalROM, static_expansion: int, actor_count: int, 
     writeValue(ROM_COPY, 0x8060BEC6, Overlay.Static, file_info_location, offset_dict)
     # Increase GB Storage Size
     writeValue(ROM_COPY, 0x8060BE12, Overlay.Static, targ_gb_bits, offset_dict)  # Bit Size
-    writeValue(ROM_COPY, 0x8060BE06, Overlay.Static, targ_gb_bits << 3, offset_dict)  # Allocation for all levels
+    writeValue(ROM_COPY, 0x8060BE06, Overlay.Static, targ_gb_bits * GB_LEVEL_COUNT, offset_dict)  # Allocation for all levels
     writeValue(ROM_COPY, 0x8060BE26, Overlay.Static, 0x40C0, offset_dict)  # SLL 2 -> SLL 3
     writeValue(ROM_COPY, 0x8060BCC0, Overlay.Static, 0x24090000 | kong_var_size, offset_dict, 4)  # ADDIU $t1, $r0, kong_var_size
     writeValue(ROM_COPY, 0x8060BCC4, Overlay.Static, 0x01C90019, offset_dict, 4)  # MULTU $t1, $t6
     writeValue(ROM_COPY, 0x8060BCC8, Overlay.Static, 0x00004812, offset_dict, 4)  # MFLO $t1
     writeValue(ROM_COPY, 0x8060BCCC, Overlay.Static, 0, offset_dict, 4)  # NOP
+    writeValue(ROM_COPY, 0x8060BE3A, Overlay.Static, 7 * GB_LEVEL_COUNT, offset_dict)
+    writeValue(ROM_COPY, 0x8060BE6E, Overlay.Static, 7 * GB_LEVEL_COUNT, offset_dict)
+    writeValue(ROM_COPY, 0x8060DFDE, Overlay.Static, GB_LEVEL_COUNT, offset_dict)
+    writeValue(ROM_COPY, 0x8060DD42, Overlay.Static, GB_LEVEL_COUNT, offset_dict)
+    writeValue(ROM_COPY, 0x806FB42E, Overlay.Static, int(math.ceil(GB_LEVEL_COUNT / 4) * 4), offset_dict)
+    writeValue(ROM_COPY, 0x80029982, Overlay.Menu, int(math.ceil(GB_LEVEL_COUNT / 4) * 4), offset_dict)
     # Model 2 Start
     writeValue(ROM_COPY, 0x8060C2F2, Overlay.Static, flag_block_size, offset_dict)
     writeValue(ROM_COPY, 0x8060BCDE, Overlay.Static, flag_block_size, offset_dict)
@@ -670,7 +775,9 @@ class Minigame8BitImage:
 
 def alter8bitRewardImages(ROM_COPY, offset_dict: dict, arcade_item: Items = Items.NintendoCoin, jetpac_item: Items = Items.RarewareCoin):
     """Alter the image that is displayed in DK Arcade/Jetpac for their respective rewards."""
-    colorless_potions = ItemPool.ImportantSharedMoves + ItemPool.JunkSharedMoves + ItemPool.TrainingBarrelAbilities() + [Items.Shockwave, Items.Camera, Items.CameraAndShockwave]
+    colorless_potions = (
+        ItemPool.ImportantSharedMoves + ItemPool.JunkSharedMoves + ItemPool.TrainingBarrelAbilities() + ItemPool.ClimbingAbilities() + [Items.Shockwave, Items.Camera, Items.CameraAndShockwave]
+    )
     # Image.open(f"{hash_dir}rw_coin.png").resize(dim).save(f"{arcade_dir}rwcoin.png")  # Rareware Coin
     # Image.open(f"{hash_dir}melon_slice.png").resize(dim).save(f"{arcade_dir}melon.png")  # Watermelon Slice
     db = [
@@ -747,6 +854,7 @@ def patchAssembly(ROM_COPY, spoiler):
         0x6D,  # FLAG_HATCH,
         0x00,  # FLAG_FIRSTJAPESGATE,
         0x17E,  # FLAG_FTT_BLOCKER,
+        0x18C,  # FLAG_FIRST_COIN_COLLECTION
     ]
 
     alter8bitRewardImages(ROM_COPY, offset_dict, spoiler.arcade_item_reward, spoiler.jetpac_item_reward)
@@ -772,6 +880,12 @@ def patchAssembly(ROM_COPY, spoiler):
     writeFunction(ROM_COPY, 0x807313A4, Overlay.Static, "checkVictory_flaghook", offset_dict)  # perm flag set hook
     writeFunction(ROM_COPY, 0x806C3B5C, Overlay.Static, "mermaidCheck", offset_dict)  # Mermaid Check
     writeFunction(ROM_COPY, 0x806ADA70, Overlay.Static, "HandleSpiderSilkSpawn", offset_dict)  # Fix some silk memes
+
+    if ENABLE_HITSCAN:
+        writeFunction(ROM_COPY, 0x80694FAC, Overlay.Static, "movePelletWrapper", offset_dict)
+
+    if DISABLE_BORDERS:
+        writeValue(ROM_COPY, 0x805FBAB4, Overlay.Static, 0x1000FFC7, offset_dict, 4)  # Disable borders around game. Has "quirks"
 
     # Kong Model Swap handlers
     writeFunction(ROM_COPY, 0x806C871C, Overlay.Static, "adjustGunBone", offset_dict)
@@ -1036,6 +1150,9 @@ def patchAssembly(ROM_COPY, spoiler):
     writeValue(ROM_COPY, 0x806AC002, Overlay.Static, 0x530, offset_dict)
     writeValue(ROM_COPY, 0x806AC006, Overlay.Static, 0x5B0, offset_dict)
     writeValue(ROM_COPY, 0x8075054D, Overlay.Static, 0xD7, offset_dict, 1)  # Change DK Q Mark to #FFD700
+    if ENABLE_HELM_GBS:
+        writeValue(ROM_COPY, 0x806A9C80, Overlay.Static, 0, offset_dict, 4)  # Level check NOP
+        writeValue(ROM_COPY, 0x806A9E54, Overlay.Static, 0, offset_dict, 4)  # Level check NOP
     # Guard Animation Fix
     writeValue(ROM_COPY, 0x806AF8C6, Overlay.Static, 0x2C1, offset_dict)
     # Remove flare effect from guards
@@ -1059,12 +1176,6 @@ def patchAssembly(ROM_COPY, spoiler):
     # Deathwarp Handle
     writeFunction(ROM_COPY, 0x8071292C, Overlay.Static, "WarpHandle", offset_dict)  # Check if in Helm, in which case, apply transition
     writeFunction(ROM_COPY, 0x806AD750, Overlay.Static, "beaverExtraHitHandle", offset_dict)  # Remove buff until we think of something better
-
-    if ENABLE_FILENAME:
-        writeFunction(ROM_COPY, 0x8070E1BC, Overlay.Static, "handleFilename", offset_dict)  # Handle Filename
-        writeFunction(ROM_COPY, 0x800306EC, Overlay.Menu, "filename_displaylist", offset_dict)
-        writeFunction(ROM_COPY, 0x80030704, Overlay.Menu, "filename_code", offset_dict)
-        writeFunction(ROM_COPY, 0x80030714, Overlay.Menu, "filename_init", offset_dict)
 
     if ENABLE_ALL_KONG_TRANSFORMS:
         transform_barrel_collisions = [
@@ -1255,6 +1366,10 @@ def patchAssembly(ROM_COPY, spoiler):
         writeValue(ROM_COPY, 0x806A986A, Overlay.Static, 4, offset_dict)  # Yes/No Prompt
         writeValue(ROM_COPY, 0x806A9990, Overlay.Static, 0x2A210000 | 0x270, offset_dict, 4)  # SLTI $at, $s1, 0x270 (y_cap = 0x270)
 
+    # Big Head Static stuff
+    writeValue(ROM_COPY, 0x80612E98, Overlay.Static, 0xA4850172, offset_dict, 4)  # sh $a1, 0x172 ($a0)
+    writeValue(ROM_COPY, 0x80612E9E, Overlay.Static, 0xBB30, offset_dict)  # change lhu offset
+
     # Pause Stuff
     FLAG_BP_JAPES_DK_HAS = 0x1D5
     # Prevent GBs being required to view extra screens
@@ -1314,6 +1429,13 @@ def patchAssembly(ROM_COPY, spoiler):
     writeFunction(ROM_COPY, 0x805FE86C, Overlay.Static, "updateEnemyKillStat", offset_dict)  # Also updates K. Rool kong for MJ/Doga 2
     writeFunction(ROM_COPY, 0x806E9C50, Overlay.Static, "updateFairyStat", offset_dict)
     writeFunction(ROM_COPY, 0x806C7298, Overlay.Static, "createEndSeqCreditsFile", offset_dict)
+
+    if isQoLEnabled(spoiler, MiscChangesSelected.remove_extraneous_cutscenes):
+        writeValue(ROM_COPY, 0x80024174, Overlay.Boss, 0, offset_dict, 4)  # Japes Dillo Long Intro
+        writeValue(ROM_COPY, 0x80025CAC, Overlay.Boss, 0, offset_dict, 4)  # Japes Dillo Long Intro
+        writeValue(ROM_COPY, 0x800291E8, Overlay.Boss, 0, offset_dict, 4)  # Generic Boss Intros
+        writeValue(ROM_COPY, 0x8002B480, Overlay.Boss, 0, offset_dict, 4)  # Fungi Dogadon Long Intro
+        writeValue(ROM_COPY, 0x80033BB4, Overlay.Boss, 0, offset_dict, 4)  # Mad Jack Long Intro
 
     writeHook(ROM_COPY, 0x8072F3DC, Overlay.Static, "blockTreeClimbing", offset_dict)
     if settings.enable_tag_anywhere:
@@ -1666,6 +1788,7 @@ def patchAssembly(ROM_COPY, spoiler):
         writeValue(ROM_COPY, 0x80758BC9, Overlay.Static, 0xAE, offset_dict, 1)  # Quadruple Growth Speed (8E -> AE)
         writeValue(ROM_COPY, 0x80758BD1, Overlay.Static, 0xAE, offset_dict, 1)  # Quadruple Shrink Speed (8E -> AE)
         writeFunction(ROM_COPY, 0x806A5C30, Overlay.Static, "quickWrinklyTextboxes", offset_dict)
+    writeFunction(ROM_COPY, 0x80713258, Overlay.Static, "skipDKTV", offset_dict)
     if isQoLEnabled(spoiler, MiscChangesSelected.fast_boot):
         # Remove DKTV - Game Over
         writeValue(ROM_COPY, 0x8071319E, Overlay.Static, 0x50, offset_dict)
@@ -1675,8 +1798,6 @@ def patchAssembly(ROM_COPY, spoiler):
         writeValue(ROM_COPY, 0x8071404E, Overlay.Static, 5, offset_dict)
         # Set NFR song to unused coin pickup, which is replaced by the windows 95 theme
         writeValue(ROM_COPY, 0x80745D20, Overlay.Static, 7, offset_dict, 1)
-    else:
-        writeFunction(ROM_COPY, 0x80713258, Overlay.Static, "skipDKTV", offset_dict)
     for index, kong in enumerate(settings.kutout_kongs):
         writeValue(ROM_COPY, 0x80035B44 + index, Overlay.Boss, kong, offset_dict, 1)
     if isQoLEnabled(spoiler, MiscChangesSelected.fast_transform_animation):
@@ -1883,6 +2004,7 @@ def patchAssembly(ROM_COPY, spoiler):
     writeFunction(ROM_COPY, 0x806F662C, Overlay.Static, "checkModelTwoItemCollision", offset_dict)
     # Dive Check
     writeFunction(ROM_COPY, 0x806E9658, Overlay.Static, "CanDive_WithCheck", offset_dict)
+    writeFunction(ROM_COPY, 0x806DEFDC, Overlay.Static, "dropWrapper", offset_dict)
     # Prevent Japes Dillo Cutscene for the key acquisition
     writeValue(ROM_COPY, 0x806EFCEC, Overlay.Static, 0x1000, offset_dict)
     # New Helm Barrel Code
@@ -1908,6 +2030,75 @@ def patchAssembly(ROM_COPY, spoiler):
     for ovl in overlays_being_decompressed:
         writeValue(ROM_COPY, 0x80748E18 + ovl, Overlay.Static, 0, offset_dict, 1)
 
+    if settings.more_cutscene_skips == ExtraCutsceneSkips.off:
+        # Wipe all CS Data
+        ROM_COPY.seek(0x1FF3800)
+        for x in range(432):
+            ROM_COPY.writeMultipleBytes(0, 4)
+    else:
+        if settings.shuffle_items:
+            CUTSCENE_UNSKIPS = [
+                {
+                    # Diddy Prod Spawn
+                    "map_id": Maps.FranticFactory,
+                    "cutscene": 2,
+                },
+                {
+                    # Tiny Prod Peek
+                    "map_id": Maps.FranticFactory,
+                    "cutscene": 3,
+                },
+                {
+                    # Lanky Prod Peek
+                    "map_id": Maps.FranticFactory,
+                    "cutscene": 4,
+                },
+                {
+                    # Chunky Prod Spawn
+                    "map_id": Maps.FranticFactory,
+                    "cutscene": 5,
+                },
+                {
+                    # Free Llama
+                    "map_id": Maps.AngryAztec,
+                    "cutscene": 14,
+                },
+                {
+                    # Tiny Barrel Spawn
+                    "map_id": Maps.ForestGiantMushroom,
+                    "cutscene": 0,
+                },
+                {
+                    # Cannon GB Spawn
+                    "map_id": Maps.ForestGiantMushroom,
+                    "cutscene": 1,
+                },
+                {
+                    # Greenhouse Intro
+                    "map_id": Maps.CastleGreenhouse,
+                    "cutscene": 0,
+                },
+                {
+                    # Dungeon Lanky Trombone Bonus
+                    "map_id": Maps.CastleDungeon,
+                    "cutscene": 0,
+                },
+            ]
+            for data in CUTSCENE_UNSKIPS:
+                map_id = data["map_id"]
+                cutscene = data["cutscene"]
+                shift = cutscene & 0x1F
+                offset = 0 if cutscene < 32 else 1
+                comp = 0xFFFFFFFF - (1 << shift)
+                addr = 0x1FF3800 + (8 * map_id) + (4 * offset)
+                ROM_COPY.seek(addr)
+                original = int.from_bytes(ROM_COPY.readBytes(4), "big")
+                ROM_COPY.seek(addr)
+                ROM_COPY.writeMultipleBytes(original & comp, 4)
+        writeFunction(ROM_COPY, 0x80628508, Overlay.Static, "renderScreenTransitionCheck", offset_dict)  # Remove transition effects if skipped cutscene
+        if settings.more_cutscene_skips == ExtraCutsceneSkips.press:
+            writeFunction(ROM_COPY, 0x8061DD80, Overlay.Static, "pressSkipHandler", offset_dict)  # Handler for press start to skip
+
     # Music Fix
     writeValue(ROM_COPY, 0x807452B0, Overlay.Static, 0xD00, offset_dict, 4)
     writeValue(ROM_COPY, 0x80600DA2, Overlay.Static, 0x38, offset_dict)
@@ -1916,6 +2107,14 @@ def patchAssembly(ROM_COPY, spoiler):
     # Boot setup checker optimization
     writeFunction(ROM_COPY, 0x805FEB00, Overlay.Static, "bootSpeedup", offset_dict)  # Modify Function Call
     writeValue(ROM_COPY, 0x805FEB08, Overlay.Static, 0, offset_dict, 4)  # Cancel 2nd check
+
+    # Crowd Control Stuff
+    writeFunction(ROM_COPY, 0x805FEDC8, Overlay.Static, "handleGamemodeWrapper", offset_dict)  # disable skipping the rap
+    writeFloat(ROM_COPY, 0x8075EB4C, Overlay.Static, -2.5, offset_dict)  # Have the initial moonkick accel reading from a "const" addr
+    writeValue(ROM_COPY, 0x806EB618, Overlay.Static, 0x3C018076, offset_dict, 4)  # LUI $at, 0x8076
+    writeValue(ROM_COPY, 0x806EB61C, Overlay.Static, 0xC426EB4C, offset_dict, 4)  # LWC1 $f6, 0xEB4C ($at)
+    writeFunction(ROM_COPY, 0x806CA7D4, Overlay.Static, "fakeGetOut", offset_dict)
+    writeHook(ROM_COPY, 0x806DA23C, Overlay.Static, "reenable_balloon_z", offset_dict)
 
     # Golden Banana Requirements
     order = 0
@@ -2007,6 +2206,7 @@ def patchAssembly(ROM_COPY, spoiler):
 
     # Helm Warp Handler
     writeFunction(ROM_COPY, 0x8068B04C, Overlay.Static, "WarpToHelm", offset_dict)
+    writeValue(ROM_COPY, 0x8068AD10, Overlay.Static, 0, offset_dict, 4)  # Disable the cutscene value for helm, disabling the FTT warp
     writeValue(ROM_COPY, 0x8068B054, Overlay.Static, 0x5000, offset_dict)
     writeFunction(ROM_COPY, 0x80640720, Overlay.Static, "portalWarpFix", offset_dict)
 
@@ -2061,6 +2261,11 @@ def patchAssembly(ROM_COPY, spoiler):
                 writeValue(ROM_COPY, address_head + 0, Overlay.Static, race_exit["race_map"], offset_dict, 4)
                 writeValue(ROM_COPY, address_head + 4, Overlay.Static, GetMapId(shuffled_back.regionId), offset_dict, 4)
                 writeValue(ROM_COPY, address_head + 8, Overlay.Static, GetExitId(shuffled_back), offset_dict, 4)
+        if ENABLE_BLAST_LZR:
+            addr_hi = getHiSym("blastWarpHandler")
+            addr_lo = getLoSym("blastWarpHandler")
+            writeValue(ROM_COPY, 0x806E5A4A, Overlay.Static, addr_hi, offset_dict)
+            writeValue(ROM_COPY, 0x806E5A4E, Overlay.Static, addr_lo, offset_dict)
 
     # Boss Mapping
     for i in range(7):
@@ -2137,16 +2342,14 @@ def patchAssembly(ROM_COPY, spoiler):
     writeValue(ROM_COPY, 0x800331AA, Overlay.Boss, 0x4220, offset_dict)  # Random Square
     writeValue(ROM_COPY, 0x800339EE, Overlay.Boss, 0x4220, offset_dict)  # Stationary
 
-    MJ_FAST_SPEED = 3
     if IsItemSelected(settings.hard_bosses, settings.hard_bosses_selected, HardBossesSelected.fast_mad_jack):
         # MJ Fast Jumps
-        writeFloat(ROM_COPY, 0x80036C40, Overlay.Boss, MJ_FAST_SPEED, offset_dict)  # Phase 1 Jump speed
-        writeFloat(ROM_COPY, 0x80036C44, Overlay.Boss, MJ_FAST_SPEED, offset_dict)  # Phase 2
-        writeFloat(ROM_COPY, 0x80036C48, Overlay.Boss, MJ_FAST_SPEED, offset_dict)  # ...
-        writeFloat(ROM_COPY, 0x80036C4C, Overlay.Boss, MJ_FAST_SPEED, offset_dict)
-        writeFloat(ROM_COPY, 0x80036C50, Overlay.Boss, MJ_FAST_SPEED, offset_dict)
+        for x in range(5):
+            speed = 2 if x == 0 else 3
+            writeFloat(ROM_COPY, 0x80036C40 + (4 * x), Overlay.Boss, speed, offset_dict)  # Phase x Jump speed
         writeValue(ROM_COPY, 0x8003343A, Overlay.Boss, 0x224, offset_dict)  # Force fast jumps
 
+    if IsItemSelected(settings.hard_bosses, settings.hard_bosses_selected, HardBossesSelected.k_rool_toes_rando):
         # Random Toes
         for x in range(5):
             writeValue(ROM_COPY, 0x80036950 + (4 * x) + 2, Overlay.Boss, settings.toe_order[x], offset_dict, 1)
@@ -2166,6 +2369,13 @@ def patchAssembly(ROM_COPY, spoiler):
     writeFunction(ROM_COPY, 0x8002792C, Overlay.Critter, "getCountOfBlockerRequiredItem", offset_dict)
     writeFunction(ROM_COPY, 0x800278EC, Overlay.Critter, "displayCountOnBLockerTeeth", offset_dict)
     writeFunction(ROM_COPY, 0x800275AC, Overlay.Critter, "displayCountOnBLockerTeeth", offset_dict)
+
+    if settings.has_password:
+        writeHook(ROM_COPY, 0x80028CC8, Overlay.Menu, "GoToPassword", offset_dict)  # Enables handler of whether to go to the password screen or not
+        # Overwrite screen 6 with password data. Used to be multiplayer, but we've jettisoned that
+        writeFunction(ROM_COPY, 0x800306AC, Overlay.Menu, "password_screen_gfx", offset_dict)
+        writeFunction(ROM_COPY, 0x800306D4, Overlay.Menu, "password_screen_init", offset_dict)
+        writeFunction(ROM_COPY, 0x800306C4, Overlay.Menu, "password_screen_code", offset_dict)
 
     # Menu/Shop Stuff
     # Menu/Shop: Force enable cheats
@@ -2318,6 +2528,12 @@ def patchAssembly(ROM_COPY, spoiler):
 
     writeValue(ROM_COPY, 0x806BA5A8, Overlay.Static, 0x1D800003, offset_dict, 4)  # Fix some health oversights by making death if health <= 0 instead of == 0
     writeValue(ROM_COPY, 0x806BA50E, Overlay.Static, 20, offset_dict)  # Change BHDM Cooldown
+
+    if IsItemSelected(settings.hard_mode, settings.hard_mode_selected, HardModeSelected.reduced_fall_damage_threshold):
+        writeFloatUpper(ROM_COPY, 0x806D3682, Overlay.Static, 100, offset_dict)  # Change fall too far threshold
+        writeFunction(ROM_COPY, 0x806D36B4, Overlay.Static, "fallDamageWrapper", offset_dict)
+        writeFunction(ROM_COPY, 0x8067F540, Overlay.Static, "transformBarrelImmunity", offset_dict)
+        writeFunction(ROM_COPY, 0x8068B178, Overlay.Static, "factoryShedFallImmunity", offset_dict)
 
     # Increase Arcade Lives
     writeValue(ROM_COPY, 0x80024F10, Overlay.Arcade, 0x240E0005, offset_dict, 4)  # ADDIU $t6, $r0, 0x5 - Set Arcade Lives

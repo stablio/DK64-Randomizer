@@ -105,6 +105,12 @@ images = [
     ImageData("question_mark", TextureFormat.IA8, TableNames.TexturesGeometry, 5923, 16, 32, False, True),
     ImageData("k_rool_head_left", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0x383, 32, 64, False, True),
     ImageData("k_rool_head_right", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0x384, 32, 64, False, True),
+    ImageData("medal_rim", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0xBAB, 32, 32, False, False),
+    ImageData("mush_top_0", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0x67F, 64, 32, False, False),
+    ImageData("mush_top_1", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0x680, 64, 32, False, False),
+    ImageData("cannon_support", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0x12B5, 48, 32, False, False),
+    ImageData("cannon_base", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0x12B8, 44, 44, False, False),
+    ImageData("barrel_bottom", TextureFormat.RGBA5551, TableNames.TexturesGeometry, 0xF14, 1, 1372, False, False),
 ]
 
 shop_owners = {

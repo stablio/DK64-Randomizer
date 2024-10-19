@@ -24,8 +24,8 @@
         <link href="../static/styles/styles.css" rel="stylesheet" />
         <link href="../static/styles/gui.css" rel="stylesheet" type="text/css" />
         <link href="../static/styles/wiki.css" rel="stylesheet" type="text/css" />
-        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
@@ -114,20 +114,39 @@
                         </div>
                     </div>
                 </div>
-                <!-- Modal -->
+                <!-- Search Modal -->
                 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="searchModalLabel">Search</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="searchModalLabel">Search</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <input class="form-control mr-sm-2" id="article-search" type="text" placeholder="Search" autocomplete="off" data-lpignore="true" data-form-type="other">
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <input class="form-control mr-sm-2" id="article-search" type="text" placeholder="Search" autocomplete="off" data-lpignore="true" data-form-type="other">
-                        </div>
-                    </div>
                     </div>
                 </div>
+                <!-- Image Expansion Modal -->
+                <button type="button" class="btn btn-primary" id="img-zoom-controller" data-bs-toggle="modal" data-bs-target="#imgzoomModal" aria-hidden="true" hidden>
+                    Launch demo modal
+                </button>
+                <div class="modal fade" id="imgzoomModal" tabindex="-1" aria-labelledby="imgzoomModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="imgzoomModalLabel"></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <div class="modal-body">
+                            <div class="d-flex">
+                                <img src="" id="img-zoom" style="margin-left:auto;margin-right:auto;max-width:100%;max-height:50vh;width:100%;height:auto;display:block;object-fit:contain;"/>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 <div class="pr-6 col max-if-thin">
                     <div class="card bg-vdark p-3">
                         <h1 id="page-title"></h1>
@@ -157,6 +176,10 @@
                 {
                     "search": "RandomSettings",
                     "preface": "Random Settings",
+                }, 
+                {
+                    "search": "PlandoColors",
+                    "preface": "Plandomizer Colors",
                 }, 
             ];
 
@@ -207,6 +230,12 @@
                 }
                 document.getElementById("markdown_content").setAttribute("ref", page_data.url);
                 updateTitle(page_data.pretty);
+            }
+
+            function updateImage(img_url, text) {
+                document.getElementById("img-zoom").setAttribute("src", img_url);
+                document.getElementById("img-zoom-controller").click();
+                document.getElementById("imgzoomModalLabel").innerText = text;
             }
 
             try {
@@ -292,7 +321,9 @@
                         return item.name;
                     },
                     afterSelect: (item) => {
-                        window.location.href = item.link;
+                        $(document).on('click', '.typeahead.dropdown-menu li', function() {
+                            window.location.href = item.link;
+                        });
                     }
                 });
             }

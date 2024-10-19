@@ -76,7 +76,7 @@ typedef struct varspace {
 	/* 0x111 */ unsigned char jetpac_reward; // Reward Index for Jetpac 5000 Pts
 	/* 0x112 */ unsigned char medal_cb_req; // 0 = default (75). int (1-100)
 	/* 0x113 */ FreeTradeAgreement any_kong_items;
-	/* 0x114 */ char unk_114;
+	/* 0x114 */ char fix_lanky_tiny_prod;
 	/* 0x115 */ unsigned char progressive_hint_gb_cap; // 0 = Off, 1 or more = Hints are rewarded for collecting GBs, rather than hint doors, 35th hint is unlocked at x
 	/* 0x116 */ char cutscene_skip_setting; // 0 = Off, 1 = On Button Press, 2 = Automatic
 	/* 0x117 */ unsigned char enabled_pkmnsnap_enemies[5]; // Bitfield
@@ -87,7 +87,7 @@ typedef struct varspace {
 	/* 0x126 */ char resolve_bonus; // Bitfield. 0000 0001 = auto-complete bonus barrels. 0000 0010 = auto-complete helm barrels. 0 = Off. 3 = Resolve Helm & Bonus Barrels
 	/* 0x127 */ unsigned char keys_preturned; // Bitfield. 0000 0001 = Key 1 turned, 0000 0010 = Key 2 turned etc. Eg. 0x7F = 0111 1111 = All keys except Key 8 turned
 	/* 0x128 */ char disable_drops; // 0 = Off. 1 = No Klump/Melon/Ammo Crate Drops
-	/* 0x129 */ char hash[5];
+	/* 0x129 */ unsigned char hash[5];
 	/* 0x12E */ char music_rando_on; // 0 = Off, 1 = Music Rando on, apply extra data shuffle
 	/* 0x12F */ char disco_chunky; // 0 = Normal, 1 = Disco. Overriden by Krusha if Krusha replaces Chunky
 	/* 0x130 */ LZREntrance ballroom_to_museum; // Same as "aztec_beetle_enter" but for the loading zone dictated by the name
@@ -134,7 +134,10 @@ typedef struct varspace {
 	/* 0x190 */ char helm_order[5]; // Each item is a place in the order. -1 for an empty slot. For each item, 0 = DK, 1 = Chunky, 2 = Tiny, 3 = Lanky, 4 = Diddy. DK has to either be first or not present.
 	/* 0x195 */ char disable_rotating_crown; // 0 = Checks flag, 1 = Disabled
 	/* 0x196 */ char misc_cosmetic_on;
-	/* 0x197 */ char unk_197[30];
+	/* 0x197 */ char unk_197[0x1A2 - 0x197];
+	/* 0x1A2 */ LZREntrance blast_entrances[7];
+	/* 0x1B0 */ int password;
+	/* 0x1B4 */ char unk_1B4;
 	/* 0x1B5 */ unsigned char pppanic_fairy_model; // 0 = Vanilla
 	/* 0x1B6 */ unsigned char unk_1B6; // 0 = Vanilla
 	/* 0x1B7 */ DisabledMusicStruct disabled_music;

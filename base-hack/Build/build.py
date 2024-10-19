@@ -81,7 +81,14 @@ file_dict = [
         target_compressed_size=0x800,
     ),
     File(name="Medal Image", pointer_table_index=TableNames.TexturesHUD, file_index=116, source_file="assets/displays/medal.png", texture_format=TextureFormat.RGBA5551),
-    File(name="Tag Barrel Shell Texture", pointer_table_index=TableNames.TexturesGeometry, file_index=4938, source_file="assets/tagbarrel/shell.png", texture_format=TextureFormat.RGBA5551),
+    File(
+        name="Tag Barrel Shell Texture",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=4938,
+        source_file="assets/tagbarrel/shell.png",
+        texture_format=TextureFormat.RGBA5551,
+        target_compressed_size=64 * 32 * 2,
+    ),
     File(name="Gong Geometry", pointer_table_index=TableNames.ModelTwoGeometry, file_index=195, source_file="assets/Gong/gong_geometry.bin", bps_file="assets/Gong/gong_geometry.bps"),
     File(name="End Sequence Credits", pointer_table_index=TableNames.Unknown19, file_index=7, source_file="assets/credits/credits.bin", do_not_delete_source=True),
     File(
@@ -234,6 +241,30 @@ file_dict = [
         do_not_delete_source=True,
         target_compressed_size=0x800,
     ),
+    File(
+        name="Shell Metal",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=getBonusSkinOffset(ExtraTextures.ShellMetal),
+        source_file="assets/tagbarrel/shell_metal.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+    ),
+    File(
+        name="Shell Wood",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=getBonusSkinOffset(ExtraTextures.ShellWood),
+        source_file="assets/tagbarrel/shell_wood.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+    ),
+    File(
+        name="Shell Question Mark",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=getBonusSkinOffset(ExtraTextures.ShellQMark),
+        source_file="assets/tagbarrel/shell_question.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+    ),
     File(name="Fake Item Model", pointer_table_index=TableNames.ModelTwoGeometry, file_index=605, source_file="fake_item.bin", do_not_delete_source=True, do_not_extract=True),
     File(name="Fake Item Model", pointer_table_index=TableNames.ModelTwoGeometry, file_index=612, source_file="fake_item.bin", do_not_delete_source=True, do_not_extract=True),
     File(name="Fake Item Model", pointer_table_index=TableNames.ModelTwoGeometry, file_index=613, source_file="fake_item.bin", do_not_delete_source=True, do_not_extract=True),
@@ -250,6 +281,43 @@ file_dict = [
         source_file="assets/tagbarrel/plain_shell.png",
         texture_format=TextureFormat.RGBA5551,
         do_not_delete_source=True,
+        target_compressed_size=64 * 32 * 2,
+    ),
+    File(
+        name="Cannon Barrel Shell (Left)",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=0x12B3,
+        source_file="assets/tagbarrel/cannon_left.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+        target_compressed_size=64 * 16 * 2,
+    ),
+    File(
+        name="Cannon Barrel Shell (Right)",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=0x12B4,
+        source_file="assets/tagbarrel/cannon_right.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+        target_compressed_size=64 * 16 * 2,
+    ),
+    File(
+        name="Cannon Barrel Base",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=0x12B8,
+        source_file="assets/tagbarrel/cannon_base.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+        target_compressed_size=44 * 44 * 2,
+    ),
+    File(
+        name="Cannon Barrel Support",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=0x12B5,
+        source_file="assets/tagbarrel/cannon_support.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+        target_compressed_size=48 * 32 * 2,
     ),
     File(
         name="B Locker Item: Move",
@@ -346,6 +414,8 @@ file_dict = [
     File(name="Outlined Crosshair", pointer_table_index=TableNames.TexturesHUD, file_index=113, source_file="assets/displays/crosshair.png", texture_format=TextureFormat.IA8),
     File(name="Wrinkly Sprite", pointer_table_index=TableNames.TexturesHUD, file_index=108, source_file="assets/displays/wrinkly_sprite.png", texture_format=TextureFormat.IA8),
     File(name="Galleon K. Rool Ship", pointer_table_index=TableNames.ModelTwoGeometry, file_index=305, source_file="galleon_ship_krool.bin", target_size=0x2500),
+    File(name="Banana Medal", pointer_table_index=TableNames.ModelTwoGeometry, file_index=0x90, source_file="updated_medal.bin", do_not_delete_source=True),
+    File(name="Mushroom Red (Mush Puzzle)", pointer_table_index=TableNames.ModelTwoGeometry, file_index=0x1BE, source_file="updated_mush_0x1BE.bin", do_not_delete_source=True),
 ]
 
 cutscene_scripts = buildScripts()
@@ -474,7 +544,7 @@ for obj_id in INSTRUMENT_PADS:
 
 file_dict.append(
     File(
-        name=f"Fool Overlay",
+        name="Fool Overlay",
         pointer_table_index=TableNames.TexturesGeometry,
         file_index=getBonusSkinOffset(ExtraTextures.FoolOverlay),
         source_file=f"assets/displays/fool_overlay.png",
@@ -482,6 +552,29 @@ file_dict.append(
         do_not_delete_source=True,
     )
 )
+file_dict.append(
+    File(
+        name="Medal Rim",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=getBonusSkinOffset(ExtraTextures.MedalRim),
+        source_file=f"assets/hash/medal_rim.png",
+        texture_format=TextureFormat.RGBA5551,
+        do_not_delete_source=True,
+        target_size=32 * 32 * 2,
+    )
+)
+for x in range(2):
+    file_dict.append(
+        File(
+            name="Mush Top Texture (Duplicate)",
+            pointer_table_index=TableNames.TexturesGeometry,
+            file_index=getBonusSkinOffset(ExtraTextures.MushTop0 + x),
+            source_file=f"assets/hash/mush_top_{x}.png",
+            texture_format=TextureFormat.RGBA5551,
+            do_not_delete_source=True,
+            target_size=32 * 64 * 2,
+        )
+    )
 
 for item in range(3):
     file_dict.append(
@@ -526,6 +619,9 @@ bloat_actors = [
     {"name": "Candy", "file": 0x12, "size": 0x64A0},
     {"name": "Kasplat", "file": 0x36, "size": 0x42F4},
     {"name": "Fairy", "file": 0x3C, "size": 0x1500},
+    {"name": "Zinger", "file": 0x1B, "size": 0xC00},
+    {"name": "Robo-Zinger", "file": 0x3F, "size": 0x1D00},
+    {"name": "Laser", "file": 0x86, "size": 0x600},
 ]
 
 for actor in bloat_actors:
@@ -618,7 +714,7 @@ for start in [4897, 4903, 4712, 4950, 4925]:
             )
         )
 
-for start in [0xD60, 0x67F, 0xD64, 0xD62, 0xD66, 0xD61, 0x680, 0xD65, 0xD63, 0xD67]:
+for start in [0xD60, 0xD64, 0xD62, 0xD66, 0xD61, 0xD65, 0xD63, 0xD67]:
     file_dict.append(
         File(
             name=f"Mushroom {start}",
@@ -816,6 +912,7 @@ for x in range(6):
             target_compressed_size=0x718,
         )
     )
+file_dict.append(File(name="Fungi Geometry", pointer_table_index=TableNames.MapGeometry, file_index=Maps.Fungi, source_file="geo_fungi.bin", target_compressed_size=0x1A558))
 for x in range(221):
     file_dict.append(File(name=f"Zones for map {x}", pointer_table_index=TableNames.Triggers, file_index=x, source_file=f"lz{x}.bin", target_compressed_size=0x850, do_not_recompress=True))
 # Setup
@@ -906,10 +1003,10 @@ for x in range(221):
         )
 file_dict.append(
     File(
-        name="Dark Cloud",
+        name="Text Cloud",
         pointer_table_index=TableNames.TexturesHUD,
         file_index=107,
-        source_file=f"assets/displays/text_bubble_dark.png",
+        source_file=f"assets/displays/text_bubble_light.png",
         texture_format=TextureFormat.RGBA5551,
         target_compressed_size=0xC00,
     )
@@ -968,9 +1065,21 @@ for x in range(5):
                 file_index=barrel_offsets[x] + y,
                 source_file=f"assets/tagbarrel/{barrel_faces[x]} barrel {y}a.png",
                 texture_format=TextureFormat.RGBA5551,
+                target_compressed_size=64 * 32 * 2,
             )
         )
-
+for barrel_dupe in (ExtraTextures.RocketTop, ExtraTextures.BlastTop):
+    tex_name = "hash/barrel_bottom" if barrel_dupe == ExtraTextures.BlastTop else "tagbarrel/barrel_base"
+    file_dict.append(
+        File(
+            name=f"Barrel Bottom duplicate {barrel_dupe.name}",
+            pointer_table_index=TableNames.TexturesGeometry,
+            file_index=getBonusSkinOffset(barrel_dupe),
+            source_file=f"assets/{tex_name}.png",
+            texture_format=TextureFormat.RGBA5551,
+            target_compressed_size=0xAB8,
+        )
+    )
 
 kong_palettes = {
     0xE8C: [(32, 32), "block"],  # DK Base
@@ -1044,7 +1153,40 @@ colorblind_changes = [
     [0x138D, 0x1397, 32, 64],  # Fairy Particles
     [0xFB2, 0xFC2],  # Scoff
     [0xF78, 0xF8F],  # Troff
+    [0xE4D, 0xE4E],  # Banana Hoard
+    [0xBAA, 0xBAA],  # Medal Handle Palette
+    [0x13B9, 0x13C3],  # Small Explosion
+    [0x12F4, 0x12F4],  # Boulder Texture
+    [0xDE1, 0xDE2],  # Boulder switch texture
+    [0xC2D, 0xC2E],  # Number Game Side
+    [0xF0A, 0xF0A],  # Zinger
+    [0x10A0, 0x10A0],  # Mechazinger
+    [0x10A2, 0x10A5],  # Mechazinger
+    [0x144B, 0x1452],  # Bouncing Melon (Minigame HUDs)
+    [0x110A, 0x1119],  # Spiders
+    [0x11F8, 0x11F8],  # Mush Men
+    [0x11FC, 0x1200],  # Mush Men
+    [0x1205, 0x1205],  # Mush Men
+    [0x1209, 0x120B],  # Mush Men
+    [0x67F, 0x680],  # Bouncy Shrooms
+    [0x1E9, 0x1EA],  # DK Isles Painting
+    [0x903, 0x90A],  # K Rool DKC3 Painting (Museum + Cabins)
+    [0x9A5, 0x9B4],  # Knight/Swords Paintings
+    [0xA53, 0xA53],  # Dolphin Painting
+    [0xA46, 0xA46],  # Candy Poster
+    [0x1237, 0x1241],  # Ice Tomato
 ]
+
+file_dict.append(
+    # Giant Mushroom Cap
+    File(
+        name="Colorblind Expansion 1779",
+        pointer_table_index=TableNames.TexturesGeometry,
+        file_index=0x6F3,
+        source_file="colorblind_exp_1779.bin",
+        target_size=0x40,
+    )
+)
 
 kremling_dimensions = [
     [32, 64],  # FCE
@@ -1210,6 +1352,9 @@ model_changes = [
     ModelChange(0x117, "funky_model.bin"),
     ModelChange(0x118, "scarab_actor.bin"),
     ModelChange(0x119, "shrink_qmark.bin"),
+    ModelChange(0x73, "blast_barrel.bin"),
+    ModelChange(0x8B, "rocketbarrel_attachment.bin"),
+    ModelChange(0x7B, "cannon.bin"),
     # ModelChange(0xC0, "guitar_om1.bin"),
 ]
 model_changes = sorted(model_changes, key=lambda d: d.model_index)
@@ -1404,8 +1549,10 @@ with open(ROMName, "rb") as fh:
     unc_table = 0x101C50 + int.from_bytes(fh.read(4), "big")
     fh.seek(unc_table + (TableNames.TexturesGeometry << 2))
     unc_table_25 = 0x101C50 + int.from_bytes(fh.read(4), "big")
+    print("Pushing Colorblind Changes")
     for change in colorblind_changes:
         for file_index in range(change[0], change[1] + 1):
+            print(hex(file_index))
             fh.seek(unc_table_25 + (file_index << 2))
             file_size = int.from_bytes(fh.read(4), "big")
             file_dict.append(
@@ -1708,6 +1855,11 @@ with open(newROMName, "r+b") as fh:
     fh.seek(ROM_DATA_OFFSET + 0x1E3)
     fh.write((2).to_bytes(1, "big"))
 
+    # Head Size
+    fh.seek(0x1FEE800)
+    for _ in range(0x100):
+        fh.write((0).to_bytes(1, "big"))  # Change to 0
+
     # Item Rando defaults
     # Blueprints
     fh.seek(0x1FF0E00)
@@ -1853,7 +2005,7 @@ with open(newROMName, "r+b") as fh:
         "gb_shine",
         "melon_surface",
         "melon_resized",
-        "text_bubble_dark",
+        "text_bubble_light",
         "warp_left",
         "warp_right",
         "warp_rim_0",
@@ -1951,7 +2103,27 @@ with open(newROMName, "r+b") as fh:
         "question_mark",
         "k_rool_head_left",
         "k_rool_head_right",
+        "medal_rim",
+        "mush_top_0",
+        "mush_top_1",
+        "cannon_base",
+        "cannon_support",
+        "barrel_bottom",
     ]
+    tagbarrel_removals = ["plain_shell", "shell", "cannon_support", "cannon_base", "cannon_left", "cannon_right", "barrel_base"]
+    for face in barrel_faces:
+        tagbarrel_removals.extend([f"{face} barrel 0a", f"{face} barrel 1a"])
+    for item in tagbarrel_removals:
+        pth = f"assets/tagbarrel/{item}.rgba5551"
+        if os.path.exists(pth):
+            os.remove(pth)
+    for seg in ("support", "base", "left", "right"):
+        pth = f"assets/tagbarrel/cannon_{seg}.png"
+        if os.path.exists(pth):
+            os.remove(pth)
+    pth = f"assets/tagbarrel/barrel_base.png"
+    if os.path.exists(pth):
+        os.remove(pth)
     script_files = [x[0] for x in os.walk("assets/instance_scripts/")]
     shop_files = ["snide.json", "cranky.json", "funky.json", "candy.json"]
     for folder in script_files:

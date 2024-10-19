@@ -65,6 +65,7 @@ extern void HelmBarrelCode(void);
 extern void WarpHandle(void);
 
 extern int correctRefillCap(int index, int player);
+extern void cc_effect_handler(void);
 
 extern void PatchCrankyCode(void);
 extern void PatchKRoolCode(void);
@@ -105,7 +106,6 @@ extern void correctDKPortal(void);
 extern int canSaveHelmHurry(void);
 extern void addHelmTime(helm_hurry_items item, int multiplier);
 extern void saveHelmHurryTime(void);
-extern void writeDefaultFilename(void);
 extern void wipeFileStats(void);
 
 extern int getHelmExit(void);
@@ -145,6 +145,8 @@ extern void updateActorHandStates_gun(actorData* actor, int type);
 extern void clearGunHandler(actorData* actor);
 
 extern void guardCatch(void);
+extern void guardCatchInternal(void);
+extern void dummyGuardCode(void);
 extern void catchWarpHandle(void);
 extern void handleFootProgress(actorData* actor);
 extern void cancelCutscene(int enable_movement);
@@ -152,10 +154,13 @@ extern void clearVultureCutscene(void);
 extern void fastWarp(void* actor, int player_index);
 
 extern int isKrushaAdjacentModel(int kong);
+extern int isGlobalCutscenePlaying(int cutscene_index);
 extern void adjustGunBone(playerData* player);
 
 extern int getTagAnywhereKong(int direction);
 extern int getTAState(void);
+extern int hasAccessToKong(int kong);
+extern void changeKong(int next_character);
 extern void toggleStandardAmmo(void);
 extern void initTagAnywhere(void);
 extern void initItemDropTable(void);
@@ -187,6 +192,8 @@ extern void fastWarpShockwaveFix(void);
 extern void setPrevSaveMap(void);
 extern int filterSong(int* song_write);
 extern int getTotalCBCount(void);
+
+extern void swapKremlingModel(void);
 
 extern void setLocationStatus(location_list location_index);
 extern int getLocationStatus(location_list location_index);
@@ -308,7 +315,6 @@ extern void handleCShifting(char* value, char limit);
 extern void initHints(void);
 extern void initHintFlags(void);
 
-extern void handleFilename(char* location, char* format, char* new_name);
 extern void initItemDictionary(void);
 extern void initActorExpansion(void);
 extern void initTextChanges(void);
@@ -333,6 +339,7 @@ extern void warpOutOfTraining(void);
 extern Gfx* displayNoGeoChunk(Gfx* dl, int chunk_index, int shift);
 
 extern void initIceTrap(void);
+extern int isBannedTrapMap(maps map, ICE_TRAP_TYPES type);
 extern void queueIceTrap(ICE_TRAP_TYPES trap_type);
 extern void callIceTrap(void);
 extern int getPatchWorld(int index);
@@ -429,9 +436,9 @@ extern void snideCodeHandler(void);
 extern int canPlayerClimb(void);
 
 extern purchase_struct* getShopData(vendors vendor, int kong, int level);
-extern void playBalloonWhoosh(int path_index, float* x, float* y, float* z);
+extern void initQoL_Cutscenes(void);
 
-extern unsigned int cs_skip_db[432];
+extern unsigned int cs_skip_db[2];
 extern bonus_barrel_info bonus_data[BONUS_DATA_COUNT];
 extern const short kong_flags[5];
 extern const short normal_key_flags[8];
@@ -448,6 +455,7 @@ extern const unsigned char crown_maps[10];
 extern const unsigned char regular_boss_maps[7];
 extern char* levels[10];
 extern unsigned int dark_mode_colors[10];
+extern int flut_size;
 
 extern sprite_data_struct bean_sprite;
 extern sprite_data_struct pearl_sprite;
@@ -468,15 +476,15 @@ extern mtx_item static_mtx[22];
 extern int hint_pointers[35];
 extern char* itemloc_pointers[LOCATION_ITEM_COUNT];
 extern char music_types[SONG_COUNT];
-extern char filename[FILENAME_LENGTH + 1];
 extern char grab_lock_timer;
 extern char tag_locked;
 extern char enable_skip_check;
+extern int force_enable_diving_timer;
 
 extern unsigned int base_text_color;
 extern unsigned int emph_text_colors[10];
-extern unsigned char BigHeadMode;
-extern const actor_bitfield big_head_actors;
+extern unsigned char HeadSize[MODEL_COUNT];
+extern const char big_head_actors[MODEL_COUNT];
 
 // Items we're extern-ing for usage with "ASMPatcher.py"
 // DON'T REMOVE UNLESS YOU KNOW WHAT YOU'RE DOING
@@ -485,6 +493,7 @@ extern drop_item drops[DROP_COUNT];
 extern int file_sprites[17];
 extern short file_items[16];
 extern short file_item_caps[16];
+extern ICE_TRAP_TYPES ice_trap_queued;
 extern const collision_tree_struct fixed_shockwave_collision[3];
 extern const collision_tree_struct fixed_scarab_collision[4];
 extern const collision_tree_struct fixed_dice_collision[12];

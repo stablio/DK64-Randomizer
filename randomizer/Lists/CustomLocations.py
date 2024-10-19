@@ -102,10 +102,13 @@ def getBannedWarps(spoiler) -> list[Events]:
         Events.GalleonW4aTagged,
     ]
     WARP_SHUFFLE_SETTING = spoiler.settings.bananaport_placement_rando
-    KASPLAT_LOCATION_RANDO = spoiler.settings.kasplat_rando_setting == KasplatRandoSetting.location_shuffle
-    if (not KASPLAT_LOCATION_RANDO and WARP_SHUFFLE_SETTING == ShufflePortLocations.on) or WARP_SHUFFLE_SETTING == ShufflePortLocations.half_vanilla:
-        # Access to the Lanky Kasplat
+    PLATFORMING_SETTING = spoiler.LogicVariables.advanced_platforming
+    if WARP_SHUFFLE_SETTING in [ShufflePortLocations.on, ShufflePortLocations.half_vanilla]:
+        # Access to the Lanky Kasplat and potential coins or coloured bananas
         lst.append(Events.LlamaW2bTagged)
+    if not PLATFORMING_SETTING:
+        # Access to Blueprint Pillar or Bonus Cave for not [Diddy or Tiny]
+        lst.append(Events.CavesW4aTagged)
     if WARP_SHUFFLE_SETTING == ShufflePortLocations.half_vanilla:
         lst.extend(
             [
@@ -166,13 +169,13 @@ def resetCustomLocations(spoiler) -> None:
     for key in CustomLocations.keys():
         for location in CustomLocations[key]:
             location.selected = location.vanilla_crown or location.vanilla_crate or location.vanilla_patch or location.vanilla_port
-            if spoiler.settings.crown_placement_rando and location.vanilla_crown:
+            if spoiler.settings.crown_placement_rando and location.vanilla_crown and not location.is_rotating_room:
                 location.selected = False
-            if spoiler.settings.random_patches and location.vanilla_patch:
+            if spoiler.settings.random_patches and location.vanilla_patch and not location.is_fungi_hidden_patch:
                 location.selected = False
-            if spoiler.settings.random_crates and location.vanilla_crate:
+            if spoiler.settings.random_crates and location.vanilla_crate and not location.is_galleon_floating_crate:
                 location.selected = False
-            if spoiler.settings.bananaport_placement_rando != ShufflePortLocations.off and location.vanilla_port:
+            if spoiler.settings.bananaport_placement_rando not in [ShufflePortLocations.off, ShufflePortLocations.vanilla_only] and location.vanilla_port:
                 location.selected = False
             if location.tied_warp_event in BANNED_WARPS:
                 # Make sure these warps cannot be selected by anything
@@ -204,7 +207,7 @@ CustomLocations = {
             max_size=64,
             vanilla_patch=True,
             logic_region=Regions.JungleJapesMain,
-            logic=lambda l: ((l.handstand and l.islanky) or (l.twirl and l.istiny and l.climbing) or l.CanMoonkick() or ((l.phasewalk or l.generalclips) and (l.istiny or l.isdiddy))),
+            logic=lambda l: ((l.handstand and l.islanky) or (l.twirl and l.istiny and l.climbing) or l.CanMoonkick() or ((l.CanPhase() or l.generalclips) and (l.istiny or l.isdiddy))),
             group=1,
         ),
         CustomLocation(
@@ -280,7 +283,7 @@ CustomLocations = {
             z=1804,
             max_size=56,
             logic_region=Regions.JungleJapesMain,
-            logic=lambda l: (l.handstand and l.islanky) or l.CanMoonkick() or ((l.phasewalk or l.generalclips) and (l.istiny or l.isdiddy)),
+            logic=lambda l: (l.handstand and l.islanky) or l.CanMoonkick() or ((l.CanPhase() or l.generalclips) and (l.istiny or l.isdiddy)),
             group=1,
         ),
         CustomLocation(map=Maps.JungleJapes, name="Shellhive Island", x=2337, y=551, z=3156, rot_y=1160, max_size=96, logic_region=Regions.JapesBeyondFeatherGate, group=6),
@@ -317,7 +320,7 @@ CustomLocations = {
             z=3205,
             max_size=64,
             logic_region=Regions.JapesBeyondCoconutGate2,
-            logic=lambda l: (l.handstand and l.lanky) or (l.phasewalk and (l.isdiddy or l.istiny)),
+            logic=lambda l: (l.handstand and l.lanky) or (l.CanPhase() and (l.isdiddy or l.istiny)),
             group=2,
         ),
         CustomLocation(
@@ -329,7 +332,7 @@ CustomLocations = {
             rot_y=3305,
             max_size=64,
             logic_region=Regions.JapesBeyondCoconutGate2,
-            logic=lambda l: (l.handstand and l.islanky) or l.phasewalk,
+            logic=lambda l: (l.handstand and l.islanky) or l.CanPhase(),
             group=2,
         ),
         CustomLocation(
@@ -606,7 +609,7 @@ CustomLocations = {
         #     group=5,
         # ),
         CustomLocation(
-            map=Maps.JapesMountain, name="Mountain: Near HiLo Machine", x=326, y=133, z=1510, max_size=32, logic_region=Regions.Mine, logic=lambda l: (l.charge and l.isdiddy) or l.phasewalk, group=5
+            map=Maps.JapesMountain, name="Mountain: Near HiLo Machine", x=326, y=133, z=1510, max_size=32, logic_region=Regions.Mine, logic=lambda l: (l.charge and l.isdiddy) or l.CanPhase(), group=5
         ),
         CustomLocation(
             map=Maps.JapesMountain,
@@ -616,7 +619,7 @@ CustomLocations = {
             z=1056,
             max_size=48,
             logic_region=Regions.Mine,
-            logic=lambda l: (l.CanSlamSwitch(Levels.JungleJapes, 1) and l.isdiddy) or l.phasewalk,
+            logic=lambda l: (l.CanSlamSwitch(Levels.JungleJapes, 1) and l.isdiddy) or l.CanPhase(),
             banned_types=[LocationTypes.CrownPad, LocationTypes.Bananaport],
             group=5,
         ),
@@ -630,7 +633,7 @@ CustomLocations = {
             z=1354,
             max_size=96,
             logic_region=Regions.TinyHive,
-            logic=lambda l: (l.CanSlamSwitch(Levels.JungleJapes, 1) or l.phasewalk) and l.tiny,
+            logic=lambda l: (l.CanSlamSwitch(Levels.JungleJapes, 1) or l.CanPhase()) and l.tiny,
             group=6,
         ),
     ],
@@ -669,7 +672,7 @@ CustomLocations = {
             max_size=64,
             vanilla_patch=True,
             logic_region=Regions.ChunkyTemple,
-            logic=lambda l: ((l.pineapple and l.ischunky) or l.phasewalk),
+            logic=lambda l: ((l.pineapple and l.ischunky) or l.CanPhase()),
             group=7,
         ),
         CustomLocation(
@@ -726,8 +729,9 @@ CustomLocations = {
             z=740,
             max_size=40,
             logic_region=Regions.AztecTunnelBeforeOasis,
-            logic=lambda l: l.phasewalk or (l.hasMoveSwitchsanity(Switches.AztecBlueprintDoor, False) and ((l.strongKong and l.isdonkey) or (l.twirl and l.istiny))),
+            logic=lambda l: l.CanPhase() or (l.hasMoveSwitchsanity(Switches.AztecBlueprintDoor, False) and ((l.strongKong and l.isdonkey) or (l.twirl and l.istiny))),
             group=1,
+            banned_types=[LocationTypes.Bananaport],  # Hard to detect that it's bad to link to Quicksand Cave, in which case it tricks the seed into assuming any kong can use this port
         ),
         CustomLocation(map=Maps.AngryAztec, name="Near Oasis Sand", x=2151, y=120, z=983, max_size=56, logic_region=Regions.AngryAztecOasis, group=1),
         CustomLocation(map=Maps.AngryAztec, name="Behind Tiny Temple", x=3345, y=153, z=507, max_size=48, logic_region=Regions.AngryAztecOasis, group=1),
@@ -1016,7 +1020,15 @@ CustomLocations = {
             tied_warp_event=Events.AztecW5bTagged,
         ),
         CustomLocation(
-            map=Maps.AztecDonkey5DTemple, name="DK 5DT: Dead End", x=99, y=20, z=464, max_size=64, logic_region=Regions.DonkeyTemple, logic=lambda l: (l.coconut and l.isdonkey) or l.phasewalk, group=7
+            map=Maps.AztecDonkey5DTemple,
+            name="DK 5DT: Dead End",
+            x=99,
+            y=20,
+            z=464,
+            max_size=64,
+            logic_region=Regions.DonkeyTemple,
+            logic=lambda l: (l.coconut and l.isdonkey) or l.CanPhase(),
+            group=7,
         ),
         CustomLocation(
             map=Maps.AztecDiddy5DTemple,
@@ -1026,11 +1038,19 @@ CustomLocations = {
             z=493,
             max_size=64,
             logic_region=Regions.DiddyTemple,
-            logic=lambda l: (l.peanut and l.isdiddy) or l.phasewalk,
+            logic=lambda l: (l.peanut and l.isdiddy) or l.CanPhase(),
             group=7,
         ),
         CustomLocation(
-            map=Maps.AztecLanky5DTemple, name="Lanky 5DT: Dead End", x=767, y=122, z=916, max_size=48, logic_region=Regions.LankyTemple, logic=lambda l: (l.grape and l.islanky) or l.phasewalk, group=7
+            map=Maps.AztecLanky5DTemple,
+            name="Lanky 5DT: Dead End",
+            x=767,
+            y=122,
+            z=916,
+            max_size=48,
+            logic_region=Regions.LankyTemple,
+            logic=lambda l: (l.grape and l.islanky) or l.CanPhase(),
+            group=7,
         ),
         CustomLocation(
             map=Maps.AztecLanky5DTemple,
@@ -1040,11 +1060,11 @@ CustomLocations = {
             z=658,
             max_size=72,
             logic_region=Regions.LankyTemple,
-            logic=lambda l: (l.grape and l.islanky) or l.phasewalk,
+            logic=lambda l: (l.grape and l.islanky) or l.CanPhase(),
             group=7,
         ),
         CustomLocation(
-            map=Maps.AztecTiny5DTemple, name="Tiny 5DT: Dead End", x=329, y=123, z=1420, max_size=48, logic_region=Regions.TinyTemple, logic=lambda l: (l.feather and l.istiny) or l.phasewalk, group=7
+            map=Maps.AztecTiny5DTemple, name="Tiny 5DT: Dead End", x=329, y=123, z=1420, max_size=48, logic_region=Regions.TinyTemple, logic=lambda l: (l.feather and l.istiny) or l.CanPhase(), group=7
         ),
         CustomLocation(
             map=Maps.AztecChunky5DTemple,
@@ -1054,7 +1074,7 @@ CustomLocations = {
             z=321,
             max_size=72,
             logic_region=Regions.ChunkyTemple,
-            logic=lambda l: (l.pineapple and l.ischunky) or l.phasewalk,
+            logic=lambda l: (l.pineapple and l.ischunky) or l.CanPhase(),
             group=7,
         ),
         CustomLocation(
@@ -1065,7 +1085,7 @@ CustomLocations = {
             z=678,
             max_size=72,
             logic_region=Regions.ChunkyTemple,
-            logic=lambda l: (l.pineapple and l.ischunky) or l.phasewalk,
+            logic=lambda l: (l.pineapple and l.ischunky) or l.CanPhase(),
             group=7,
         ),
         CustomLocation(map=Maps.AztecLlamaTemple, name="Llama Temple: Llama Right", x=1737, y=472, z=2548, max_size=72, rot_y=608, logic_region=Regions.LlamaTemple, group=4),
@@ -1112,7 +1132,7 @@ CustomLocations = {
             z=2186,
             max_size=72,
             logic_region=Regions.LlamaTemple,
-            logic=lambda l: (l.grape and l.lanky) or l.phasewalk,
+            logic=lambda l: (l.grape and l.lanky) or l.CanPhase(),
             group=4,
         ),
         CustomLocation(
@@ -1206,7 +1226,7 @@ CustomLocations = {
             max_size=64,
             vanilla_patch=True,
             logic_region=Regions.BeyondHatch,
-            logic=lambda l: ((l.punch and l.chunky) or l.phasewalk),
+            logic=lambda l: ((l.punch and l.chunky) or l.CanPhase()),
             group=4,
         ),
         CustomLocation(map=Maps.FranticFactory, name="Foyer Carpet", x=1265, y=830, z=2504, max_size=96, logic_region=Regions.FranticFactoryStart, group=1),
@@ -1274,12 +1294,12 @@ CustomLocations = {
         CustomLocation(map=Maps.FranticFactory, name="Past Tiny Production Bonus", x=400, y=858.5, z=1615, max_size=32, logic_region=Regions.UpperCore, logic=lambda l: l.twirl and l.tiny, group=1),
         CustomLocation(map=Maps.FranticFactory, name="On Production outside box", x=988, y=322, z=1175, max_size=40, logic_region=Regions.UpperCore, group=1),
         CustomLocation(map=Maps.FranticFactory, name="Storage Room Corner", x=974, y=66.5, z=908, max_size=32, logic_region=Regions.BeyondHatch, group=4),
-        CustomLocation(map=Maps.FranticFactory, name="Cranky and Candy Room", x=316, y=165, z=805, max_size=64, logic_region=Regions.BeyondHatch, group=4),
+        CustomLocation(map=Maps.FranticFactory, name="Cranky and Candy Room", x=316, y=165, z=805, max_size=64, logic_region=Regions.BeyondHatch, group=4, banned_types=[LocationTypes.MelonCrate]),
         CustomLocation(
             map=Maps.FranticFactory, name="Near Candy", x=319.03137207031, y=165.5, z=596.36285400391, rot_y=359, max_size=64, logic_region=Regions.BeyondHatch, vanilla_crate=True, group=4
         ),
         CustomLocation(
-            map=Maps.FranticFactory, name="Dark Room Corner", x=1850, y=6, z=525, max_size=72, logic_region=Regions.BeyondHatch, logic=lambda l: (l.punch and l.chunky) or l.phasewalk, group=4
+            map=Maps.FranticFactory, name="Dark Room Corner", x=1850, y=6, z=525, max_size=72, logic_region=Regions.BeyondHatch, logic=lambda l: (l.punch and l.chunky) or l.CanPhase(), group=4
         ),
         CustomLocation(map=Maps.FranticFactory, name="Arcade Room Bench", x=1922, y=1143, z=1515, max_size=40, logic_region=Regions.FactoryArcadeTunnel, group=4),
         CustomLocation(
@@ -1333,7 +1353,7 @@ CustomLocations = {
             banned_types=[LocationTypes.CrownPad],
         ),
         CustomLocation(map=Maps.FranticFactory, name="Block Tower Lower Bonus", x=2634, y=1026, z=1101, max_size=80, logic_region=Regions.Testing, group=5),
-        CustomLocation(map=Maps.FranticFactory, name="Funky Room (1)", x=1595, y=1113, z=760, max_size=64, logic_region=Regions.Testing, group=5),
+        CustomLocation(map=Maps.FranticFactory, name="Funky Room (1)", x=1595, y=1113, z=760, max_size=64, logic_region=Regions.Testing, group=5, banned_types=[LocationTypes.MelonCrate]),
         CustomLocation(map=Maps.FranticFactory, name="Funky Room (2)", x=1370, y=1131, z=551, max_size=48, logic_region=Regions.Testing, group=5),
         CustomLocation(
             name="Funky Room (3)",
@@ -1424,7 +1444,7 @@ CustomLocations = {
             group=3,
             banned_types=[LocationTypes.CrownPad, LocationTypes.Bananaport],  # Entering a crown battle during the Toy Boss fight would break the fight until level re-entry
         ),
-        CustomLocation(map=Maps.FranticFactory, name="Near Car Race", x=3553, y=1264, z=1383, max_size=48, logic_region=Regions.RandD, logic=lambda l: (l.mini and l.istiny) or l.phasewalk),
+        CustomLocation(map=Maps.FranticFactory, name="Near Car Race", x=3553, y=1264, z=1383, max_size=48, logic_region=Regions.RandD, logic=lambda l: (l.mini and l.istiny) or l.CanPhase()),
         CustomLocation(
             name="Tiny race entry area",
             map=Maps.FranticFactory,
@@ -1434,7 +1454,7 @@ CustomLocations = {
             rot_y=95,
             max_size=64,
             logic_region=Regions.FactoryTinyRaceLobby,
-            logic=lambda l: ((l.mini and l.istiny) or l.phasewalk),
+            logic=lambda l: ((l.mini and l.istiny) or l.CanPhase()),
             group=3,
         ),
         CustomLocation(
@@ -1456,7 +1476,7 @@ CustomLocations = {
             z=776,
             max_size=80,
             logic_region=Regions.RandDUpper,
-            logic=lambda l: (l.grab and l.donkey) or l.phasewalk or l.generalclips,
+            logic=lambda l: (l.grab and l.donkey) or l.CanPhase() or l.generalclips,
             group=3,
             banned_types=[LocationTypes.MelonCrate, LocationTypes.Bananaport],
         ),
@@ -1598,7 +1618,7 @@ CustomLocations = {
             z=468,
             max_size=72,
             logic_region=Regions.InsideCore,
-            logic=lambda l: (l.strongKong and l.isdonkey) or l.phasewalk or l.generalclips,
+            logic=lambda l: (l.strongKong and l.isdonkey) or l.CanPhase() or l.generalclips,
             group=1,
         ),
         CustomLocation(map=Maps.FactoryPowerHut, name="Power Shed: Corner", x=62, y=0, z=64, max_size=48, logic_region=Regions.PowerHut, group=4),
@@ -1612,7 +1632,7 @@ CustomLocations = {
             z=2450.29,
             max_size=84.8,
             logic_region=Regions.GloomyGalleonStart,
-            logic=lambda l: (l.punch and l.chunky) or l.phasewalk or l.CanSkew(False),
+            logic=lambda l: (l.punch and l.chunky) or l.CanPhase() or l.CanSkew(False),
             vanilla_crown=True,
             group=3,
         ),
@@ -1900,6 +1920,7 @@ CustomLocations = {
             logic_region=Regions.TreasureRoom,
             logic=lambda l: ((l.balloon and l.islanky) and Events.WaterRaised in l.Events or (Events.ShipyardTreasureRoomOpened in l.Events and l.advanced_platforming)) or l.CanMoonkick(),
             group=5,
+            banned_types=[LocationTypes.Bananaport],  # Hard to detect that it's bad to link to Diddy's tower, in which case it bricks seed gen
         ),
         CustomLocation(
             name="Galleon Treasure Room UnderWater",
@@ -2088,7 +2109,7 @@ CustomLocations = {
             rot_y=978,
             max_size=64,
             logic_region=Regions.SickBay,
-            logic=lambda l: ((l.punch and l.ischunky) or l.phasewalk),
+            logic=lambda l: ((l.punch and l.ischunky) or l.CanPhase()),
             group=2,
         ),
         CustomLocation(
@@ -2099,7 +2120,7 @@ CustomLocations = {
             z=851,
             max_size=64,
             logic_region=Regions.SickBay,
-            logic=lambda l: (l.punch and l.ischunky) or l.phasewalk,
+            logic=lambda l: (l.punch and l.ischunky) or l.CanPhase(),
             group=2,
         ),
         CustomLocation(map=Maps.GalleonLighthouse, name="Lighthouse: Bottom Left", x=703, y=0, z=469, max_size=80, logic_region=Regions.Lighthouse, group=1),
@@ -2163,10 +2184,13 @@ CustomLocations = {
             max_size=64,
             vanilla_patch=True,
             logic_region=Regions.MillArea,
+            banned_types=[LocationTypes.Bananaport],
             is_fungi_hidden_patch=True,
             group=2,
         ),
-        CustomLocation(map=Maps.FungiForest, name="Near Well", x=2399, y=110, z=3186, max_size=96, logic_region=Regions.FungiForestStart, group=1, banned_types=[LocationTypes.DirtPatch]),
+        CustomLocation(
+            map=Maps.FungiForest, name="Near Well", x=2399, y=110, z=3186, max_size=96, logic_region=Regions.FungiForestStart, group=1, banned_types=[LocationTypes.DirtPatch, LocationTypes.Bananaport]
+        ),
         CustomLocation(map=Maps.FungiForest, name="Behind Clock", x=2300, y=603, z=2322, max_size=56, logic_region=Regions.FungiForestStart, group=1),
         CustomLocation(map=Maps.FungiForest, name="In front of Clock", x=2591, y=603, z=2237, max_size=64, logic_region=Regions.FungiForestStart, group=1),
         CustomLocation(map=Maps.FungiForest, name="Near Blue Tunnel", x=3210, y=167, z=2613, max_size=56, logic_region=Regions.FungiForestStart, group=1),
@@ -2228,7 +2252,7 @@ CustomLocations = {
             rot_y=2947,
             max_size=64,
             logic_region=Regions.WormArea,
-            logic=lambda l: (l.TimeAccess(Regions.WormArea, Time.Night) or l.phasewalk),
+            logic=lambda l: (l.TimeAccess(Regions.WormArea, Time.Night) or l.CanPhase()),
             group=1,
         ),
         CustomLocation(
@@ -2247,7 +2271,17 @@ CustomLocations = {
         CustomLocation(map=Maps.FungiForest, name="Near Beanstalk", x=1991, y=231, z=829, max_size=72, logic_region=Regions.WormArea, group=1),
         CustomLocation(map=Maps.FungiForest, name="Near Beanstalk Mini Monkey", x=1902, y=227, z=369, max_size=72, logic_region=Regions.WormArea, group=1),
         CustomLocation(map=Maps.FungiForest, name="Near Giant Mushroom", x=1642, y=234, z=867, max_size=64, logic_region=Regions.GiantMushroomArea, group=4),
-        CustomLocation(map=Maps.FungiForest, name="Near Yellow Tunnel", x=236, y=179, z=1307, max_size=96, logic_region=Regions.GiantMushroomArea, group=4, banned_types=[LocationTypes.DirtPatch]),
+        CustomLocation(
+            map=Maps.FungiForest,
+            name="Near Yellow Tunnel",
+            x=236,
+            y=179,
+            z=1307,
+            max_size=96,
+            logic_region=Regions.GiantMushroomArea,
+            group=4,
+            banned_types=[LocationTypes.DirtPatch, LocationTypes.Bananaport],
+        ),
         CustomLocation(map=Maps.FungiForest, name="Near Cranky", x=583, y=182, z=272, max_size=72, logic_region=Regions.GiantMushroomArea, group=4),
         CustomLocation(map=Maps.FungiForest, name="Near Lower Baboon Blast Ladder", x=567, y=389, z=731, max_size=64, logic_region=Regions.MushroomLowerExterior, group=4),
         CustomLocation(
@@ -2313,7 +2347,17 @@ CustomLocations = {
         #     logic_region=Regions.HollowTreeArea,
         #     group=5,
         # ),
-        CustomLocation(map=Maps.FungiForest, name="Near Owl Rocketbarrel (2)", x=278, y=190, z=3707, max_size=96, logic_region=Regions.HollowTreeArea, group=5, banned_types=[LocationTypes.DirtPatch]),
+        CustomLocation(
+            map=Maps.FungiForest,
+            name="Near Owl Rocketbarrel (2)",
+            x=278,
+            y=190,
+            z=3707,
+            max_size=96,
+            logic_region=Regions.HollowTreeArea,
+            group=5,
+            banned_types=[LocationTypes.DirtPatch, LocationTypes.Bananaport],
+        ),
         CustomLocation(
             name="Top of Owl Tree",
             map=Maps.FungiForest,
@@ -2353,6 +2397,7 @@ CustomLocations = {
             logic_region=Regions.MillArea,
             group=5,
             vanilla_port=True,
+            banned_types=[LocationTypes.MelonCrate],
             tied_warp_event=Events.ForestW1bTagged,
         ),
         CustomLocation(
@@ -2381,6 +2426,7 @@ CustomLocations = {
             logic_region=Regions.WormArea,
             group=1,
             vanilla_port=True,
+            banned_types=[LocationTypes.MelonCrate],
             tied_warp_event=Events.ForestW2bTagged,
         ),
         CustomLocation(
@@ -2448,6 +2494,7 @@ CustomLocations = {
             logic_region=Regions.MushroomUpperExterior,
             group=4,
             vanilla_port=True,
+            banned_types=[LocationTypes.MelonCrate],
             tied_warp_event=Events.ForestW5aTagged,
         ),
         CustomLocation(
@@ -2461,6 +2508,7 @@ CustomLocations = {
             logic_region=Regions.GiantMushroomArea,
             group=4,
             vanilla_port=True,
+            banned_types=[LocationTypes.MelonCrate],
             tied_warp_event=Events.ForestW3bTagged,
         ),
         CustomLocation(map=Maps.ForestAnthill, name="Anthill: Orange Platform", x=768, y=205, z=421, max_size=56, logic_region=Regions.Anthill, group=5),
@@ -2734,7 +2782,7 @@ CustomLocations = {
             z=469,
             max_size=64,
             logic_region=Regions.CrystalCavesMain,
-            logic=lambda l: (l.punch and l.chunky) or l.phasewalk or l.CanPhaseswim() or l.checkBarrier(RemovedBarriersSelected.caves_ice_walls),
+            logic=lambda l: (l.punch and l.chunky) or l.CanPhase() or l.CanPhaseswim() or l.checkBarrier(RemovedBarriersSelected.caves_ice_walls),
             group=4,
         ),
         CustomLocation(map=Maps.CrystalCaves, name="Near Kasplat Spire", x=2700, y=152, z=772, max_size=64, logic_region=Regions.CrystalCavesMain, group=4),
@@ -3064,12 +3112,12 @@ CustomLocations = {
             z=1995.0,
             rot_y=3561,
             max_size=64,
-            logic_region=Regions.CreepyCastleMain,
+            logic_region=Regions.CastleVeryBottom,
             group=4,
         ),
-        CustomLocation(map=Maps.CreepyCastle, name="Near Crypt Entrance (1)", x=1361, y=366, z=2108, max_size=64, logic_region=Regions.CreepyCastleMain, group=4),
-        CustomLocation(map=Maps.CreepyCastle, name="Near Crypt Entrance (2)", x=420, y=366, z=1934, max_size=64, logic_region=Regions.CreepyCastleMain, group=4),
-        CustomLocation(map=Maps.CreepyCastle, name="Near Crypt Entrance (3)", x=500, y=523, z=1660, max_size=64, logic_region=Regions.CreepyCastleMain, group=4),
+        CustomLocation(map=Maps.CreepyCastle, name="Near Crypt Entrance (1)", x=1361, y=366, z=2108, max_size=64, logic_region=Regions.CastleVeryBottom, group=4),
+        CustomLocation(map=Maps.CreepyCastle, name="Near Crypt Entrance (2)", x=420, y=366, z=1934, max_size=64, logic_region=Regions.CastleVeryBottom, group=4),
+        CustomLocation(map=Maps.CreepyCastle, name="Near Crypt Entrance (3)", x=500, y=523, z=1660, max_size=64, logic_region=Regions.CastleGraveyardPlatform, group=4),
         CustomLocation(
             name="Between the catacombs door and Tiny Kasplat",
             map=Maps.CreepyCastle,
@@ -3078,7 +3126,7 @@ CustomLocations = {
             z=1810.0,
             rot_y=3766,
             max_size=64,
-            logic_region=Regions.CreepyCastleMain,
+            logic_region=Regions.CastleVeryBottom,
             group=4,
         ),
         CustomLocation(
@@ -3100,7 +3148,7 @@ CustomLocations = {
             z=1873.0,
             rot_y=3280,
             max_size=64,
-            logic_region=Regions.CreepyCastleMain,
+            logic_region=Regions.CastleGraveyardPlatform,
             group=4,
         ),
         CustomLocation(map=Maps.CreepyCastle, name="Near Dungeon Tunnel Steps", x=1298, y=523, z=1777, max_size=64, logic_region=Regions.CreepyCastleMain, group=4),
@@ -3332,7 +3380,7 @@ CustomLocations = {
             z=2000,
             max_size=80,
             logic_region=Regions.Dungeon,
-            logic=lambda l: (l.CanSlamSwitch(Levels.CreepyCastle, 3) and l.donkey) or l.phasewalk,
+            logic=lambda l: (l.CanSlamSwitch(Levels.CreepyCastle, 3) and l.donkey) or l.CanPhase(),
             group=3,
         ),
         CustomLocation(
@@ -3344,7 +3392,7 @@ CustomLocations = {
             rot_y=1024,
             max_size=64,
             logic_region=Regions.Dungeon,
-            logic=lambda l: ((l.punch and l.ischunky) or l.phasewalk),
+            logic=lambda l: ((l.punch and l.ischunky) or l.CanPhase()),
             group=3,
         ),
         CustomLocation(map=Maps.CastleShed, name="Shed: Near Entrance", x=179, y=0, z=219, max_size=64, logic_region=Regions.Shed, group=5),
@@ -3373,7 +3421,7 @@ CustomLocations = {
             z=2867,
             max_size=72,
             logic_region=Regions.Crypt,
-            logic=lambda l: (l.pineapple and l.ischunky) or l.phasewalk or l.checkBarrier(RemovedBarriersSelected.castle_crypt_doors),
+            logic=lambda l: (l.pineapple and l.ischunky) or l.CanPhase() or l.checkBarrier(RemovedBarriersSelected.castle_crypt_doors),
             group=3,
         ),
         CustomLocation(
@@ -3384,7 +3432,7 @@ CustomLocations = {
             z=593,
             max_size=72,
             logic_region=Regions.Crypt,
-            logic=lambda l: (l.peanut and l.isdiddy) or l.phasewalk or l.checkBarrier(RemovedBarriersSelected.castle_crypt_doors),
+            logic=lambda l: (l.peanut and l.isdiddy) or l.CanPhase() or l.checkBarrier(RemovedBarriersSelected.castle_crypt_doors),
             group=3,
         ),
         CustomLocation(
@@ -3502,7 +3550,7 @@ CustomLocations = {
             rot_y=2969,
             max_size=64,
             logic_region=Regions.MuseumBehindGlass,
-            logic=lambda l: ((l.monkeyport and l.istiny) or l.phasewalk),
+            logic=lambda l: ((l.monkeyport and l.istiny) or l.CanPhase()),
             group=2,
         ),
         CustomLocation(
@@ -3514,7 +3562,7 @@ CustomLocations = {
             rot_y=2628,
             max_size=64,
             logic_region=Regions.MuseumBehindGlass,
-            logic=lambda l: ((l.monkeyport and l.istiny) or l.phasewalk),
+            logic=lambda l: ((l.monkeyport and l.istiny) or l.CanPhase()),
             group=2,
         ),
         CustomLocation(
@@ -3525,7 +3573,7 @@ CustomLocations = {
             z=1525,
             max_size=64,
             logic_region=Regions.MuseumBehindGlass,
-            logic=lambda l: (l.monkeyport and l.istiny) or l.phasewalk,
+            logic=lambda l: (l.monkeyport and l.istiny) or l.CanPhase(),
             group=2,
         ),
         CustomLocation(
@@ -3537,7 +3585,7 @@ CustomLocations = {
             rot_y=3697,
             max_size=64,
             logic_region=Regions.MuseumBehindGlass,
-            logic=lambda l: ((l.monkeyport and l.istiny) or l.phasewalk),
+            logic=lambda l: ((l.monkeyport and l.istiny) or l.CanPhase()),
             group=2,
         ),
         CustomLocation(map=Maps.CastleMuseum, name="Museum: Main Room", x=595, y=100, z=440, max_size=96, logic_region=Regions.Museum, group=2),
@@ -3566,7 +3614,7 @@ CustomLocations = {
             z=637.07,
             max_size=56,
             logic_region=Regions.FungiForestLobby,
-            logic=lambda l: ((l.coconut and l.peanut and l.grape and l.feather and l.pineapple and l.donkey and l.diddy and l.lanky and l.tiny) or l.phasewalk) and l.chunky and l.gorillaGone,
+            logic=lambda l: ((l.coconut and l.peanut and l.grape and l.feather and l.pineapple and l.donkey and l.diddy and l.lanky and l.tiny) or l.CanPhase()) and l.chunky and l.gorillaGone,
             group=12,
             vanilla_crown=True,
         ),
@@ -3680,7 +3728,7 @@ CustomLocations = {
             rot_y=1934,
             max_size=48,
             logic_region=Regions.IslesMain,
-            logic=lambda l: (l.settings.open_lobbies or Events.GalleonKeyTurnedIn in l.Events or l.phasewalk),
+            logic=lambda l: (l.settings.open_lobbies or Events.GalleonKeyTurnedIn in l.Events or l.CanPhase()),
             group=2,
         ),
         CustomLocation(map=Maps.Isles, name="Near Caves Lobby Tree (2)", x=2427, y=600, z=1822, max_size=64, logic_region=Regions.IslesMain, group=3),
@@ -3914,7 +3962,7 @@ CustomLocations = {
             z=637,
             max_size=64,
             logic_region=Regions.AngryAztecLobby,
-            logic=lambda l: l.hasMoveSwitchsanity(Switches.IslesAztecLobbyFeather, False) or l.phasewalk,
+            logic=lambda l: l.hasMoveSwitchsanity(Switches.IslesAztecLobbyFeather, False) or l.CanPhase(),
             group=9,
         ),
         CustomLocation(
@@ -3926,7 +3974,7 @@ CustomLocations = {
             rot_y=694,
             max_size=64,
             logic_region=Regions.AngryAztecLobby,
-            logic=lambda l: l.hasMoveSwitchsanity(Switches.IslesAztecLobbyFeather, False) or l.phasewalk,
+            logic=lambda l: l.hasMoveSwitchsanity(Switches.IslesAztecLobbyFeather, False) or l.CanPhase(),
             group=9,
         ),
         CustomLocation(map=Maps.FranticFactoryLobby, name="Factory Lobby: Near Lever", x=280, y=0, z=292, max_size=64, logic_region=Regions.FranticFactoryLobby, group=10),
@@ -3989,7 +4037,7 @@ CustomLocations = {
             rot_y=785,
             max_size=64,
             logic_region=Regions.CrystalCavesLobby,
-            logic=lambda l: ((l.punch and l.strongKong and l.isdonkey) or l.phasewalk or l.ledgeclip),
+            logic=lambda l: ((l.punch and l.strongKong and l.isdonkey) or l.CanPhase() or l.ledgeclip),
             group=13,
             banned_types=[LocationTypes.CrownPad],
         ),
@@ -4013,7 +4061,7 @@ CustomLocations = {
             z=532,
             max_size=64,
             logic_region=Regions.CrystalCavesLobby,
-            logic=lambda l: (l.punch and l.chunky) or l.phasewalk or l.ledgeclip,
+            logic=lambda l: (l.punch and l.chunky) or l.CanPhase() or l.ledgeclip,
             group=13,
         ),
         CustomLocation(
@@ -4213,7 +4261,7 @@ CustomLocations = {
             rot_y=682,
             max_size=64,
             logic_region=Regions.Prison,
-            logic=lambda l: (l.IsKLumsyFree() or l.phasewalk),
+            logic=lambda l: (l.IsKLumsyFree() or l.CanPhase()),
             group=5,
         ),
     ],

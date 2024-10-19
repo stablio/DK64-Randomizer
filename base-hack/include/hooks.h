@@ -87,3 +87,5 @@ extern void disableRouletteNumbers(void);
 extern void updateBarrierNumbers(void);
 extern void capScreenShake(void);
 extern void blockTreeClimbing(void);
+extern void reenable_balloon_z(void);
+extern void GoToPassword(void);

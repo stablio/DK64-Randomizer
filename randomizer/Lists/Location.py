@@ -150,9 +150,11 @@ LocationListOriginal = {
     Locations.IslesSwimTrainingBarrel: Location(Levels.DKIsles, "Isles Dive Training Barrel", Items.Swim, Types.TrainingBarrel, Kongs.any, [120]),
     Locations.IslesOrangesTrainingBarrel: Location(Levels.DKIsles, "Isles Oranges Training Barrel", Items.Oranges, Types.TrainingBarrel, Kongs.any, [121]),
     Locations.IslesBarrelsTrainingBarrel: Location(Levels.DKIsles, "Isles Barrels Training Barrel", Items.Barrels, Types.TrainingBarrel, Kongs.any, [122]),
+    # Basic moves that didn't require obtaining in vanilla
+    Locations.IslesClimbing: Location(Levels.DKIsles, "Climbing Default Location", Items.Climbing, Types.Climbing, Kongs.any),
     # Pre-Given Moves
     Locations.IslesFirstMove: Location(Levels.DKIsles, "Isles Cranky's First Move", Items.ProgressiveSlam, Types.PreGivenMove),
-    Locations.PreGiven_Location00: Location(Levels.DKIsles, "Pre-Given Move (00)", Items.Climbing, Types.PreGivenMove),
+    Locations.PreGiven_Location00: Location(Levels.DKIsles, "Pre-Given Move (00)", Items.NoItem, Types.PreGivenMove),
     Locations.PreGiven_Location01: Location(Levels.DKIsles, "Pre-Given Move (01)", Items.NoItem, Types.PreGivenMove),
     Locations.PreGiven_Location02: Location(Levels.DKIsles, "Pre-Given Move (02)", Items.NoItem, Types.PreGivenMove),
     Locations.PreGiven_Location03: Location(Levels.DKIsles, "Pre-Given Move (03)", Items.NoItem, Types.PreGivenMove),
@@ -856,7 +858,7 @@ LocationListOriginal = {
     Locations.AztecMainEnemy_StartingTunnel3: Location(Levels.AngryAztec, "Angry Aztec Enemy: Starting Tunnel (3)", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztec, -1, DROPSANITY_FLAG_START + 0x3d)]),
     Locations.AztecMainEnemy_OutsideSnide: Location(Levels.AngryAztec, "Angry Aztec Enemy: Outside Snide", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztec, -1, DROPSANITY_FLAG_START + 0x3e)]),
     Locations.AztecMainEnemy_Outside5DT: Location(Levels.AngryAztec, "Angry Aztec Enemy: Outside 5DT", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztec, -1, DROPSANITY_FLAG_START + 0x3f)]),
-    Locations.AztecMainEnemy_NearSnoopTunnel: Location(Levels.AngryAztec, "Angry Aztec Enemy: Near Snoop Tunnel", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztec, -1, DROPSANITY_FLAG_START + 0x40)]),
+    Locations.AztecMainEnemy_NearSnoopTunnel: Location(Levels.AngryAztec, "Angry Aztec Enemy: Near Sealed Quicksand Tunnel", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztec, -1, DROPSANITY_FLAG_START + 0x40)]),
     # Locations.AztecLobbyEnemy_Pad0: Location(Levels.DKIsles, "Angry Aztec Lobby Enemy: Pad0", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztecLobby, -1, DROPSANITY_FLAG_START + 0x41)]),
     # Locations.AztecLobbyEnemy_Pad1: Location(Levels.DKIsles, "Angry Aztec Lobby Enemy: Pad1", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AngryAztecLobby, -1, DROPSANITY_FLAG_START + 0x42)]),
     Locations.AztecDK5DTEnemy_StartTrap0: Location(Levels.AngryAztec, "Aztec Donkey 5DTemple Enemy: Start Trap (0)", Items.EnemyItem, Types.Enemies, Kongs.any, [MapIDCombo(Maps.AztecDonkey5DTemple, -1, DROPSANITY_FLAG_START + 0x43)]),
@@ -1390,6 +1392,7 @@ SharedShopLocations = {
 }
 PreGivenLocations = {
     Locations.IslesFirstMove,
+    Locations.IslesClimbing,
     Locations.PreGiven_Location00,
     Locations.PreGiven_Location01,
     Locations.PreGiven_Location02,

@@ -7,13 +7,39 @@ from randomizer.Enums.Events import Events
 import randomizer.Enums.Kongs as KongObject
 from randomizer.Enums.Items import Items
 from randomizer.Enums.Locations import Locations
-from randomizer.Enums.Plandomizer import GetItemsFromPlandoItem
-from randomizer.Enums.Settings import HardModeSelected, MoveRando, ShockwaveStatus, ShuffleLoadingZones, TrainingBarrels, CBRando
+from randomizer.Enums.Plandomizer import GetItemsFromPlandoItem, PlandoItems
+from randomizer.Enums.Settings import ClimbingStatus, HardModeSelected, MoveRando, ShockwaveStatus, ShuffleLoadingZones, TrainingBarrels, CBRando
 from randomizer.Enums.Types import Types
+from randomizer.Enums.Levels import Levels
 from randomizer.Lists.Item import ItemFromKong
 from randomizer.Lists.LevelInfo import LevelInfoList
 from randomizer.Lists.ShufflableExit import ShufflableExits
 from randomizer.Patching.Lib import IsItemSelected, getIceTrapCount
+
+
+def getHelmKey(settings) -> Items:
+    """Get the item that will be placed in the final room in Helm."""
+    key_item = Items.HideoutHelmKey
+    if settings.shuffle_loading_zones == ShuffleLoadingZones.levels:
+        level_index = None
+        key_items = [
+            Items.JungleJapesKey,
+            Items.AngryAztecKey,
+            Items.FranticFactoryKey,
+            Items.GloomyGalleonKey,
+            Items.FungiForestKey,
+            Items.CrystalCavesKey,
+            Items.CreepyCastleKey,
+            Items.HideoutHelmKey,
+        ]
+        for x in range(8):
+            if settings.level_order[x + 1] == Levels.HideoutHelm:
+                key_item = key_items[x]
+                level_index = x
+                break
+        if level_index is None:
+            raise Exception("Unable to find Helm in the level order to remove Helm Key constant")
+    return key_item
 
 
 def PlaceConstants(spoiler):
@@ -28,6 +54,8 @@ def PlaceConstants(spoiler):
         typesOfItemsShuffled.append(Types.Shop)
         if settings.training_barrels == TrainingBarrels.shuffled:
             typesOfItemsShuffled.append(Types.TrainingBarrel)
+        if settings.climbing_status == ClimbingStatus.shuffled:
+            typesOfItemsShuffled.append(Types.Climbing)
         if settings.shockwave_status != ShockwaveStatus.vanilla:
             typesOfItemsShuffled.append(Types.Shockwave)
     if settings.shuffle_loading_zones == ShuffleLoadingZones.levels:
@@ -48,7 +76,23 @@ def PlaceConstants(spoiler):
             spoiler.LocationList[location].tooExpensiveInaccessible = False
     # Make extra sure the Helm Key is right
     if settings.key_8_helm:
-        spoiler.LocationList[Locations.HelmKey].PlaceItem(spoiler, Items.HideoutHelmKey)
+        helm_key = getHelmKey(spoiler.settings)
+        if helm_key in KeysToPlace(spoiler.settings, excludeHelmKey=False):
+            spoiler.LocationList[Locations.HelmKey].PlaceConstantItem(spoiler, getHelmKey(spoiler.settings))
+        else:
+            spoiler.LocationList[Locations.HelmKey].PlaceConstantItem(spoiler, Items.NoItem)
+        # If Helm is not last, and we're locking key 8 and we're using the SLO ruleset,
+        # place Key 8 in the 8th level somewhere
+        if spoiler.settings.shuffle_loading_zones == ShuffleLoadingZones.levels and not spoiler.settings.hard_level_progression:
+            last_level = settings.level_order[8]
+            if last_level != Levels.HideoutHelm:
+                potential_locations = [
+                    loc
+                    for loc in spoiler.LocationList
+                    if spoiler.LocationList[loc].level == last_level and spoiler.LocationList[loc].type in typesOfItemsShuffled and not spoiler.LocationList[loc].inaccessible
+                ]
+                selected_location = random.choice(potential_locations)
+                spoiler.LocationList[selected_location].PlaceItem(spoiler, Items.HideoutHelmKey)
     # If no CB rando in isles, clear these locations
     if settings.cb_rando != CBRando.on_with_isles:
         for x in range(5):
@@ -66,8 +110,12 @@ def PlaceConstants(spoiler):
                 dest = ShufflableExits[level.TransitionTo].shuffledId
                 shuffledTo = [x for x in LevelInfoList.values() if x.TransitionTo == dest][0]
                 spoiler.LocationList[shuffledTo.KeyLocation].PlaceConstantItem(spoiler, level.KeyItem)
-        # The key in Helm is always Key 8 in these settings
-        spoiler.LocationList[Locations.HelmKey].PlaceConstantItem(spoiler, Items.HideoutHelmKey)
+        # The End of Helm is always a Key in these settings (unless you start with it)
+        helm_key = getHelmKey(spoiler.settings)
+        if helm_key in KeysToPlace(spoiler.settings, excludeHelmKey=False):
+            spoiler.LocationList[Locations.HelmKey].PlaceConstantItem(spoiler, getHelmKey(spoiler.settings))
+        else:
+            spoiler.LocationList[Locations.HelmKey].PlaceConstantItem(spoiler, Items.NoItem)
 
     # Empty out some locations based on the settings
     if settings.starting_kongs_count == 5:
@@ -83,8 +131,13 @@ def PlaceConstants(spoiler):
     # Plando items are placed with constants but should not change locations to Constant type
     settings.plandomizer_items_placed = []
     if settings.enable_plandomizer:
+        blueprints_planned = []
         for location_id, plando_item in settings.plandomizer_dict["locations"].items():
-            item = random.choice(GetItemsFromPlandoItem(plando_item))
+            if plando_item in [PlandoItems.DonkeyBlueprint, PlandoItems.DiddyBlueprint, PlandoItems.LankyBlueprint, PlandoItems.TinyBlueprint, PlandoItems.ChunkyBlueprint]:
+                item = random.choice([x for x in GetItemsFromPlandoItem(plando_item) if x not in blueprints_planned])
+                blueprints_planned.append(item)
+            else:
+                item = random.choice(GetItemsFromPlandoItem(plando_item))
             spoiler.LocationList[int(location_id)].PlaceItem(spoiler, item)
             settings.plandomizer_items_placed.append(item)
 
@@ -115,6 +168,7 @@ def AllItemsUnrestricted(settings):
     allItems.extend(ImportantSharedMoves)
     allItems.extend(JunkSharedMoves)
     allItems.extend(TrainingBarrelAbilities().copy())
+    allItems.extend(ClimbingAbilities().copy())
     if settings.shockwave_status == ShockwaveStatus.shuffled_decoupled:
         allItems.append(Items.Camera)
         allItems.append(Items.Shockwave)
@@ -181,6 +235,8 @@ def AllItems(settings):
 
         if settings.training_barrels == TrainingBarrels.shuffled:
             allItems.extend(TrainingBarrelAbilities().copy())
+        if settings.climbing_status == ClimbingStatus.shuffled:
+            allItems.extend(ClimbingAbilities().copy())
         if settings.shockwave_status == ShockwaveStatus.shuffled_decoupled:
             allItems.append(Items.Camera)
             allItems.append(Items.Shockwave)
@@ -326,7 +382,7 @@ def Keys():
     return [Items.JungleJapesKey, Items.AngryAztecKey, Items.FranticFactoryKey, Items.GloomyGalleonKey, Items.FungiForestKey, Items.CrystalCavesKey, Items.CreepyCastleKey, Items.HideoutHelmKey]
 
 
-def KeysToPlace(settings):
+def KeysToPlace(settings, excludeHelmKey=True):
     """Return all keys that are non-starting keys."""
     keysToPlace = []
     for keyEvent in settings.krool_keys_required:
@@ -346,8 +402,10 @@ def KeysToPlace(settings):
             keysToPlace.append(Items.CreepyCastleKey)
         elif keyEvent == Events.HelmKeyTurnedIn:
             keysToPlace.append(Items.HideoutHelmKey)
-    if settings.key_8_helm and Items.HideoutHelmKey in keysToPlace:
-        keysToPlace.remove(Items.HideoutHelmKey)
+    if settings.key_8_helm and excludeHelmKey:
+        key_item = getHelmKey(settings)
+        if key_item in keysToPlace:
+            keysToPlace.remove(key_item)
     return keysToPlace
 
 
@@ -386,8 +444,13 @@ def Instruments(settings):
 
 def TrainingBarrelAbilities():
     """Return all training barrel abilities."""
-    barrelAbilities = [Items.Vines, Items.Swim, Items.Oranges, Items.Barrels, Items.Climbing]
+    barrelAbilities = [Items.Vines, Items.Swim, Items.Oranges, Items.Barrels]
     return barrelAbilities
+
+
+def ClimbingAbilities():
+    """Return all climbing abilities."""
+    return [Items.Climbing]
 
 
 def Upgrades(settings):
@@ -396,6 +459,9 @@ def Upgrades(settings):
     # Add training barrel items to item pool if shuffled
     if settings.training_barrels == TrainingBarrels.shuffled:
         upgrades.extend(TrainingBarrelAbilities())
+    # Add climbing to item pool if shuffled
+    if settings.climbing_status == ClimbingStatus.shuffled:
+        upgrades.extend(ClimbingAbilities())
     # Add either progressive upgrade items or individual ones depending on settings
     slam_count = 3
     if settings.start_with_slam:
@@ -441,6 +507,10 @@ def HighPriorityItems(settings):
     itemPool.extend(Guns(settings))
     itemPool.extend(Instruments(settings))
     itemPool.extend(Upgrades(settings))
+    itemPool.extend(CrankyItems())
+    itemPool.extend(CandyItems())
+    itemPool.extend(FunkyItems())
+    itemPool.extend(SnideItems())
     return itemPool
 
 
@@ -633,6 +703,8 @@ def GetItemsNeedingToBeAssumed(settings, placed_types, placed_items=[]):
         itemPool.extend(RarewareCoinItems())
     if Types.TrainingBarrel in unplacedTypes:
         itemPool.extend(TrainingBarrelAbilities())
+    if Types.Climbing in unplacedTypes:
+        itemPool.extend(ClimbingAbilities())
     if Types.Kong in unplacedTypes:
         itemPool.extend(Kongs(settings))
     if Types.Medal in unplacedTypes:
@@ -670,12 +742,19 @@ def GetItemsNeedingToBeAssumed(settings, placed_types, placed_items=[]):
         itemPool.extend(AllKongMoves())
         if settings.training_barrels == TrainingBarrels.shuffled:
             itemPool.extend(TrainingBarrelAbilities().copy())
+        if settings.climbing_status == ClimbingStatus.shuffled:
+            itemPool.extend(ClimbingAbilities().copy())
         if settings.shockwave_status == ShockwaveStatus.shuffled_decoupled:
             itemPool.extend(ShockwaveTypeItems(settings))
     # With a list of specifically placed items, we can't assume those
     for item in placed_items:
         if item in itemPool:
             itemPool.remove(item)  # Remove one instance of the item (do not filter!)
+    # If there is a Key forced into Helm, be sure it's not being assumed
+    if settings.key_8_helm or Types.Key not in settings.shuffled_location_types:
+        key_forced_into_helm = getHelmKey(settings)
+        if key_forced_into_helm in itemPool:
+            itemPool.remove(key_forced_into_helm)
     return itemPool
 
 

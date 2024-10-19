@@ -32,6 +32,8 @@
 #define JAPES_MOUNTAIN_CHARGE_CONTROLLER 0x37
 #define FACTORY_DIDDYPRODGB 0x2C
 #define FACTORY_DIDDYPRODSWITCH 0x31
+#define FACTORY_LANKYPRODGB 0x2A
+#define FACTORY_LANKYPRODSWITCH 0x30
 #define MILL_WARNINGLIGHTS 0xC
 #define MILL_CRUSHER 0x8
 #define MILL_TRIANGLEPAD 0x0
@@ -773,6 +775,20 @@ int change_object_scripts(behaviour_data* behaviour_pointer, int id, int index, 
 						behaviour_pointer->current_state = 20;
 						behaviour_pointer->next_state = 20;
 					}
+				} else if (param2 == FACTORY_LANKYPRODGB) {
+					if (index == 0) {
+						if (checkFlag(FLAG_LANKYPROD_SPAWNED, FLAGTYPE_PERMANENT) || (!Rando.fix_lanky_tiny_prod)) {
+							behaviour_pointer->current_state = 11;
+							behaviour_pointer->next_state = 11;
+						}
+					} else if (index == 1) {
+						setPermFlag(FLAG_LANKYPROD_SPAWNED);
+					}
+				} else if (param2 == FACTORY_LANKYPRODSWITCH) {
+					if (checkFlag(FLAG_LANKYPROD_SPAWNED, 0)) {
+						behaviour_pointer->current_state = 20;
+						behaviour_pointer->next_state = 20;
+					}
 				} else if (param2 == FACTORY_FREESWITCH) {
 					if (index == 0) {
 						return checkFlag(getKongFlag(Rando.free_target_factory), FLAGTYPE_PERMANENT);
@@ -1411,9 +1427,6 @@ int change_object_scripts(behaviour_data* behaviour_pointer, int id, int index, 
 	} else if (index == -18) {
 		return (Player->strong_kong_ostand_bitfield & 0x20) || (!Rando.sprint_barrel_requires_sprint);
 	}
-	InstanceScriptParams[1] = id;
-	InstanceScriptParams[2] = index;
-	InstanceScriptParams[3] = param2;
 	return 0;
 }
 
