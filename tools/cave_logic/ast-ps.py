@@ -110,7 +110,8 @@ def load_deltas(file_paths):
 
 def create_donk_vanilla(build_data, deltas):
     edges = {**build_data['shuffle']["ShufflableExits"],
-             **build_data['shuffle']["available_shops"]}
+             **build_data['shuffle']["available_shops"],
+             **deltas['door_edges'],}
     checkRegistry = {**build_data['checkRegistry'],
                      **build_data['collectibleRegistry'],
                      **build_data['minigames']['data'][1]['Minigames'],

@@ -18,6 +18,7 @@ from randomizer.Enums.Regions import Regions
 from randomizer.Lists.DoorLocations import GetBossLobbyRegionIdForRegion
 from randomizer.Enums.Maps import Maps
 from randomizer.Enums.HintRegion import HintRegion, HINT_REGION_PAIRING
+from randomizer.Lists.DoorLocations import door_locations
 
 RegionList = deepcopy(RegionsOriginal)
 
@@ -364,11 +365,31 @@ def ast_to_json(node, params):
             logic_region = Regions[door_obj['logicregion']['Name']]
             portal_region = RegionList[logic_region]
 
+            req = True
+            if 'logic' in door_obj:
+                req = door_obj['logic']['Requires']
+
             if('placed' in door_obj):
                 door_type = door_obj['placed']['Name'];
 
                 if(door_type == "wrinkly"):
-                    return None;
+
+                    key = door_obj['name'].replace(" ", "").replace(":", "").replace("-", "").lower()
+
+                    return {
+                        "id": key,
+                        "Key": key,
+                        "Name": door_obj['name'],
+                        "source": logic_region.name,
+                        "target": "NoItem",
+                        "type": "Location",
+                        "targetType": "Item",
+                        "Requires": req,
+                        "Level": "DKIsles",
+                        "Type": "",
+                        "Class": "Check",
+                        "Types": "Check"
+                    };
             
                 if(door_type == "dk_portal"):
                     target_region_name = "PLACEHOLDER"
@@ -498,7 +519,7 @@ def ast_to_json(node, params):
             for value in locations.values():
                 merged_arrays.extend(value)
             return {"Kasplats":  merged_arrays}
-        if hasattr(node.targets[0], 'id') and (node.targets[0].id in ('CustomLocations', "fairy_locations", "door_locations")):
+        if hasattr(node.targets[0], 'id') and (node.targets[0].id in ('CustomLocations', "fairy_locations","door_locations")):
             locations = ast_to_json(node.value, params)
             merged_arrays = []
             for value in locations.values():
@@ -509,8 +530,9 @@ def ast_to_json(node, params):
             locations = ast_to_json(node.value, params)
             merged_arrays = []
             for value in locations.values():
-                merged_arrays.extend(value)
-            return {node.targets[0].id:  array_to_object(merged_arrays)}
+                if value is not None:
+                    merged_arrays.extend(value)
+            return {node.targets[0].id: array_to_object(merged_arrays)}
         return None
     elif isinstance(node, ast.UnaryOp):
         return None
