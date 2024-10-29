@@ -67,76 +67,31 @@
     "DonkeyBlueprint": {
       "Key": "DonkeyBlueprint",
       "Name": "Blueprint (Donkey)",
-      "AltNames": [
-        "DK Isles Donkey Blueprint",
-        "Jungle Japes Donkey Blueprint",
-        "Angry Aztec Donkey Blueprint",
-        "Frantic Factory Donkey Blueprint",
-        "Gloomy Galleon Donkey Blueprint",
-        "Fungi Forest Donkey Blueprint",
-        "Crystal Caves Donkey Blueprint",
-        "Creepy Castle Donkey Blueprint"
-      ],
+      "AltNames": [],
       "Type": "Blueprint"
     },
     "DiddyBlueprint": {
       "Key": "DiddyBlueprint",
       "Name": "Blueprint (Diddy)",
-      "AltNames": [
-        "DK Isles Diddy Blueprint",
-        "Jungle Japes Diddy Blueprint",
-        "Angry Aztec Diddy Blueprint",
-        "Frantic Factory Diddy Blueprint",
-        "Gloomy Galleon Diddy Blueprint",
-        "Fungi Forest Diddy Blueprint",
-        "Crystal Caves Diddy Blueprint",
-        "Creepy Castle Diddy Blueprint"
-      ],
+      "AltNames": [],
       "Type": "Blueprint"
     },
     "LankyBlueprint": {
       "Key": "LankyBlueprint",
       "Name": "Blueprint (Lanky)",
-      "AltNames": [
-        "DK Isles Lanky Blueprint",
-        "Jungle Japes Lanky Blueprint",
-        "Angry Aztec Lanky Blueprint",
-        "Frantic Factory Lanky Blueprint",
-        "Gloomy Galleon Lanky Blueprint",
-        "Fungi Forest Lanky Blueprint",
-        "Crystal Caves Lanky Blueprint",
-        "Creepy Castle Lanky Blueprint"
-      ],
+      "AltNames": [],
       "Type": "Blueprint"
     },
     "TinyBlueprint": {
       "Key": "TinyBlueprint",
       "Name": "Blueprint (Tiny)",
-      "AltNames": [
-        "DK Isles Tiny Blueprint",
-        "Jungle Japes Tiny Blueprint",
-        "Angry Aztec Tiny Blueprint",
-        "Frantic Factory Tiny Blueprint",
-        "Gloomy Galleon Tiny Blueprint",
-        "Fungi Forest Tiny Blueprint",
-        "Crystal Caves Tiny Blueprint",
-        "Creepy Castle Tiny Blueprint"
-      ],
+      "AltNames": [],
       "Type": "Blueprint"
     },
     "ChunkyBlueprint": {
       "Key": "ChunkyBlueprint",
       "Name": "Blueprint (Chunky)",
-      "AltNames": [
-        "DK Isles Chunky Blueprint",
-        "Jungle Japes Chunky Blueprint",
-        "Angry Aztec Chunky Blueprint",
-        "Frantic Factory Chunky Blueprint",
-        "Gloomy Galleon Chunky Blueprint",
-        "Fungi Forest Chunky Blueprint",
-        "Crystal Caves Chunky Blueprint",
-        "Creepy Castle Chunky Blueprint"
-      ],
+      "AltNames": [],
       "Type": "Blueprint"
     },
     "EnemyItem": {
@@ -180,6 +135,9 @@
     "Snide": {
       "AltNames": [],
       "Type": "Shopkeeper"
+    },
+    "Coconut": {
+      "Name": "Coconut Gun"
     },
     "GorillaGrab": {
       "AltNames": ["grab"]
@@ -235,9 +193,7 @@
     "Climbing": {
       "Key": "Climbing",
       "Name": "Climbing",
-      "AltNames": [
-          "Climbing"
-      ],
+      "AltNames": ["Climbing"],
       "Type": "Move"
     },
     "Camera": {
