@@ -9,7 +9,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "japeslobbyfarleft": {
             "id": "japeslobbyfarleft",
@@ -20,7 +21,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "japeslobbycloseright": {
             "id": "japeslobbycloseright",
@@ -31,7 +33,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "japeslobbyfarright": {
             "id": "japeslobbyfarright",
@@ -42,7 +45,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "japeslobbycloseleft": {
             "id": "japeslobbycloseleft",
@@ -53,7 +57,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "diddycave": {
             "id": "diddycave",
@@ -64,7 +69,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nearpaintingroom": {
             "id": "nearpaintingroom",
@@ -75,7 +81,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "fairycave": {
             "id": "fairycave",
@@ -86,7 +93,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nexttodiddycageright": {
             "id": "nexttodiddycageright",
@@ -97,7 +105,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "alcoveabovediddytunnelright": {
             "id": "alcoveabovediddytunnelright",
@@ -108,7 +117,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "alcoveabovediddytunnelleft": {
             "id": "alcoveabovediddytunnelleft",
@@ -119,7 +129,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nexttominecartexitright": {
             "id": "nexttominecartexitright",
@@ -130,7 +141,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "acrossfromminecartexit": {
             "id": "acrossfromminecartexit",
@@ -141,7 +153,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "mainareanexttotunneltotinygate": {
             "id": "mainareanexttotunneltotinygate",
@@ -152,7 +165,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "beehiveareanexttobeehivefarleft": {
             "id": "beehiveareanexttobeehivefarleft",
@@ -163,7 +177,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "beehiveareanexttobeehiveleft": {
             "id": "beehiveareanexttobeehiveleft",
@@ -174,7 +189,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "behindrambidoorwateryroomleft": {
             "id": "behindrambidoorwateryroomleft",
@@ -185,7 +201,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "behindrambidoorwateryroomright": {
             "id": "behindrambidoorwateryroomright",
@@ -196,7 +213,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "topoflankysuselessslopeleft": {
             "id": "topoflankysuselessslopeleft",
@@ -228,7 +246,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "topoflankysuselesssloperight": {
             "id": "topoflankysuselesssloperight",
@@ -260,7 +279,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "underwaterbywarp2": {
             "id": "underwaterbywarp2",
@@ -278,7 +298,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "underwaterbychunkysunderground": {
             "id": "underwaterbychunkysunderground",
@@ -296,7 +317,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nexttofunkyright": {
             "id": "nexttofunkyright",
@@ -307,7 +329,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nexttolankyspaintingroomleft": {
             "id": "nexttolankyspaintingroomleft",
@@ -344,7 +367,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nexttolankyspaintingroomright": {
             "id": "nexttolankyspaintingroomright",
@@ -381,7 +405,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "outsidediddycaveswitchleft": {
             "id": "outsidediddycaveswitchleft",
@@ -392,7 +417,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "outsidediddycaveswitchright": {
             "id": "outsidediddycaveswitchright",
@@ -403,7 +429,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "entrancetunnelneardiddycavebackleft": {
             "id": "entrancetunnelneardiddycavebackleft",
@@ -414,7 +441,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "entrancetunnelneardiddycavefrontleft": {
             "id": "entrancetunnelneardiddycavefrontleft",
@@ -425,7 +453,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "entrancetunnelnearwarppad1and2": {
             "id": "entrancetunnelnearwarppad1and2",
@@ -436,7 +465,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "diddytunnelnexttoholeriverside": {
             "id": "diddytunnelnexttoholeriverside",
@@ -447,7 +477,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "diddytunnelriverside": {
             "id": "diddytunnelriverside",
@@ -458,7 +489,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "nearwarp4andtunnelthreewaycrossing": {
             "id": "nearwarp4andtunnelthreewaycrossing",
@@ -469,7 +501,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankytunnelcrossroad": {
             "id": "crankytunnelcrossroad",
@@ -480,7 +513,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankyareafrontright": {
             "id": "crankyareafrontright",
@@ -491,7 +525,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankyareafrontleft": {
             "id": "crankyareafrontleft",
@@ -502,7 +537,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankyareacenterleft": {
             "id": "crankyareacenterleft",
@@ -513,7 +549,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankyareacenterright": {
             "id": "crankyareacenterright",
@@ -524,7 +561,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankyareabackleft": {
             "id": "crankyareabackleft",
@@ -535,7 +573,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "crankyareabackright": {
             "id": "crankyareabackright",
@@ -546,7 +585,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "beehiveroom2left": {
             "id": "beehiveroom2left",
@@ -579,7 +619,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "beehiveroom2right": {
             "id": "beehiveroom2right",
@@ -612,7 +653,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "paintingroomnexttotheentrance": {
             "id": "paintingroomnexttotheentrance",
@@ -623,7 +665,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "diddymountainnexttoconveyorcontrols": {
             "id": "diddymountainnexttoconveyorcontrols",
@@ -655,7 +698,8 @@
                     }
                 ]
             },
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "diddymountainbetweenriverandgbswitch": {
             "id": "diddymountainbetweenriverandgbswitch",
@@ -666,7 +710,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "diddymountainbetweenriverandpeanutswitch": {
             "id": "diddymountainbetweenriverandpeanutswitch",
@@ -677,7 +722,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "japesvanillalevelentry": {
             "id": "japesvanillalevelentry",
@@ -688,7 +734,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "JungleJapes"
+            "Level": "JungleJapes",
+            "Class": "Door"
         },
         "azteclobbypillarwall": {
             "id": "azteclobbypillarwall",
@@ -699,7 +746,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "azteclobbylowerright": {
             "id": "azteclobbylowerright",
@@ -710,7 +758,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "azteclobbyleftofportal": {
             "id": "azteclobbyleftofportal",
@@ -721,7 +770,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "azteclobbyrightofportal": {
             "id": "azteclobbyrightofportal",
@@ -732,7 +782,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "azteclobbybehindfeatherdoor": {
             "id": "azteclobbybehindfeatherdoor",
@@ -761,7 +812,8 @@
                     }
                 ]
             },
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "nearfunkys": {
             "id": "nearfunkys",
@@ -772,7 +824,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nearcrankys": {
             "id": "nearcrankys",
@@ -783,7 +836,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nearcandys": {
             "id": "nearcandys",
@@ -794,7 +848,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nearsnides": {
             "id": "nearsnides",
@@ -805,7 +860,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "behind5dt": {
             "id": "behind5dt",
@@ -816,7 +872,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "nexttocandyright": {
             "id": "nexttocandyright",
@@ -827,7 +884,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "underdiddystinytempleswitch": {
             "id": "underdiddystinytempleswitch",
@@ -838,7 +896,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "underchunkystinytempleswitch": {
             "id": "underchunkystinytempleswitch",
@@ -849,7 +908,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "undertinystinytempleswitch": {
             "id": "undertinystinytempleswitch",
@@ -860,7 +920,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "underlankystinytempleswitch": {
             "id": "underlankystinytempleswitch",
@@ -871,7 +932,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "diddytowerstairsleft": {
             "id": "diddytowerstairsleft",
@@ -882,7 +944,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "nexttotagbarrelnearsnides": {
             "id": "nexttotagbarrelnearsnides",
@@ -893,7 +956,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "underthevulturecage": {
             "id": "underthevulturecage",
@@ -904,7 +968,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "5doortemples6thdoor": {
             "id": "5doortemples6thdoor",
@@ -915,7 +980,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "crankytunnelnearchunkybarrelleft": {
             "id": "crankytunnelnearchunkybarrelleft",
@@ -926,7 +992,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "crankytunnelnearchunkybarrelright": {
             "id": "crankytunnelnearchunkybarrelright",
@@ -937,7 +1004,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "crankytunnelnearroadtocrankyleft": {
             "id": "crankytunnelnearroadtocrankyleft",
@@ -948,7 +1016,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "crankytunnelnearroadtocrankyright": {
             "id": "crankytunnelnearroadtocrankyright",
@@ -959,7 +1028,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "5doortemplestaircasefront": {
             "id": "5doortemplestaircasefront",
@@ -970,7 +1040,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "5doortemplestaircaseback": {
             "id": "5doortemplestaircaseback",
@@ -981,7 +1052,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "entrancetunnelnexttococonutswitch": {
             "id": "entrancetunnelnexttococonutswitch",
@@ -992,7 +1064,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "entrancetunnelleft(neartheoasisend)": {
             "id": "entrancetunnelleft(neartheoasisend)",
@@ -1003,7 +1076,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "inthesealedquicksandtunnel": {
             "id": "inthesealedquicksandtunnel",
@@ -1024,7 +1098,8 @@
                     }
                 ]
             },
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "neartagbarrelnearsnidesstrongkong": {
             "id": "neartagbarrelnearsnidesstrongkong",
@@ -1045,7 +1120,8 @@
                     }
                 ]
             },
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "infacematchinggameright": {
             "id": "infacematchinggameright",
@@ -1077,7 +1153,8 @@
                     }
                 ]
             },
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "infacematchinggameleft": {
             "id": "infacematchinggameleft",
@@ -1109,7 +1186,8 @@
                     }
                 ]
             },
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "nexttotinytemplefrontleft": {
             "id": "nexttotinytemplefrontleft",
@@ -1120,7 +1198,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "nexttotinytemplebackleft": {
             "id": "nexttotinytemplebackleft",
@@ -1131,7 +1210,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "oasisnexttotunnelfarleft": {
             "id": "oasisnexttotunnelfarleft",
@@ -1142,7 +1222,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "oasisnexttotunnelleft": {
             "id": "oasisnexttotunnelleft",
@@ -1153,7 +1234,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "betweensnidesanddiddygongtower": {
             "id": "betweensnidesanddiddygongtower",
@@ -1164,7 +1246,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "nexttollamatempleleft": {
             "id": "nexttollamatempleleft",
@@ -1175,7 +1258,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "llamatemplesswitchlessside": {
             "id": "llamatemplesswitchlessside",
@@ -1186,7 +1270,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "tinytemplemainroomleft": {
             "id": "tinytemplemainroomleft",
@@ -1197,7 +1282,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "tinytemplemainroomback": {
             "id": "tinytemplemainroomback",
@@ -1208,7 +1294,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "tinytempleacrossfromslopetotinycageleft": {
             "id": "tinytempleacrossfromslopetotinycageleft",
@@ -1219,7 +1306,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "tinytempleacrossfromslopetotinycageright": {
             "id": "tinytempleacrossfromslopetotinycageright",
@@ -1230,7 +1318,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "tinytemplenexttoopeningtounderwaterroom": {
             "id": "tinytemplenexttoopeningtounderwaterroom",
@@ -1241,7 +1330,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "tinytempleacrossfromopeningtounderwaterroom": {
             "id": "tinytempleacrossfromopeningtounderwaterroom",
@@ -1252,7 +1342,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "llamatemplestairsleft": {
             "id": "llamatemplestairsleft",
@@ -1263,7 +1354,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "llamatemplestairsright": {
             "id": "llamatemplestairsright",
@@ -1274,7 +1366,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "llamatempleentrancestaircaseleft": {
             "id": "llamatempleentrancestaircaseleft",
@@ -1285,7 +1378,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "llamatempleentrancestaircaseright": {
             "id": "llamatempleentrancestaircaseright",
@@ -1296,7 +1390,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "llamatempleacrossfromthespitgate": {
             "id": "llamatempleacrossfromthespitgate",
@@ -1318,7 +1413,8 @@
                     }
                 ]
             },
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "aztecvanillalevelentry": {
             "id": "aztecvanillalevelentry",
@@ -1329,7 +1425,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "AngryAztec"
+            "Level": "AngryAztec",
+            "Class": "Door"
         },
         "factorylobbylowleft": {
             "id": "factorylobbylowleft",
@@ -1340,7 +1437,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "factorylobbytopleft": {
             "id": "factorylobbytopleft",
@@ -1392,7 +1490,8 @@
                     }
                 ]
             },
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "factorylobbytopcenter": {
             "id": "factorylobbytopcenter",
@@ -1428,7 +1527,8 @@
                     }
                 ]
             },
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "factorylobbytopright": {
             "id": "factorylobbytopright",
@@ -1480,7 +1580,8 @@
                     }
                 ]
             },
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "factorylobbylowright": {
             "id": "factorylobbylowright",
@@ -1491,7 +1592,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "arcaderoom": {
             "id": "arcaderoom",
@@ -1502,7 +1604,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "productionroom": {
             "id": "productionroom",
@@ -1513,7 +1616,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "randd": {
             "id": "randd",
@@ -1524,7 +1628,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktower": {
             "id": "blocktower",
@@ -1535,7 +1640,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "storageroom": {
             "id": "storageroom",
@@ -1546,7 +1652,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "behindchunkystoyboxbig": {
             "id": "behindchunkystoyboxbig",
@@ -1584,7 +1691,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "nexttohatchwithtallpoleleft": {
             "id": "nexttohatchwithtallpoleleft",
@@ -1595,7 +1703,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "nexttohatchwithtallpoleright": {
             "id": "nexttohatchwithtallpoleright",
@@ -1606,7 +1715,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "bottomofthetallpole": {
             "id": "bottomofthetallpole",
@@ -1617,7 +1727,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "productionroomundertinyconveyors": {
             "id": "productionroomundertinyconveyors",
@@ -1628,7 +1739,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "kongcageroombehindtagbarrel": {
             "id": "kongcageroombehindtagbarrel",
@@ -1639,7 +1751,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "undercrankyslab": {
             "id": "undercrankyslab",
@@ -1650,7 +1763,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "undercandysstore": {
             "id": "undercandysstore",
@@ -1661,7 +1775,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "nexttodkscountto16puzzle": {
             "id": "nexttodkscountto16puzzle",
@@ -1672,7 +1787,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "r&droomnexttotunneltocarrace": {
             "id": "r&droomnexttotunneltocarrace",
@@ -1683,7 +1799,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktowerroomundertunneltofunkys": {
             "id": "blocktowerroomundertunneltofunkys",
@@ -1694,7 +1811,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "r&droomdeadend": {
             "id": "r&droomdeadend",
@@ -1705,7 +1823,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "r&droomblindcornernexttotunneltocarrace": {
             "id": "r&droomblindcornernexttotunneltocarrace",
@@ -1716,7 +1835,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "funkysroomacrossfrommeloncrate": {
             "id": "funkysroomacrossfrommeloncrate",
@@ -1727,7 +1847,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktowerroomairventunderarcadewindow": {
             "id": "blocktowerroomairventunderarcadewindow",
@@ -1738,7 +1859,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktowerroomunderarcadewindowleft": {
             "id": "blocktowerroomunderarcadewindowleft",
@@ -1749,7 +1871,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktowerroombehindtagbarrel": {
             "id": "blocktowerroombehindtagbarrel",
@@ -1760,7 +1883,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "r&droomnexttodiddyspincoderoom": {
             "id": "r&droomnexttodiddyspincoderoom",
@@ -1771,7 +1895,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "tinysraceentryarea": {
             "id": "tinysraceentryarea",
@@ -1782,7 +1907,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "kongcageroomnexttotagbarrel": {
             "id": "kongcageroomnexttotagbarrel",
@@ -1793,7 +1919,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "productionroominalcovenexttotinysbarrel": {
             "id": "productionroominalcovenexttotinysbarrel",
@@ -1814,7 +1941,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "productionroomnexttodiddysswitch": {
             "id": "productionroomnexttodiddysswitch",
@@ -1825,7 +1953,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "arcaderoominacorner": {
             "id": "arcaderoominacorner",
@@ -1836,7 +1965,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktowerroomnexttotinybarrel": {
             "id": "blocktowerroomnexttotinybarrel",
@@ -1847,7 +1977,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "blocktowerroomatthebaseoftheblocktower": {
             "id": "blocktowerroomatthebaseoftheblocktower",
@@ -1858,7 +1989,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "clockroomunderclock": {
             "id": "clockroomunderclock",
@@ -1869,7 +2001,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "clockroomfrontleft": {
             "id": "clockroomfrontleft",
@@ -1880,7 +2013,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "clockroombackleft": {
             "id": "clockroombackleft",
@@ -1891,7 +2025,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "clockroomfrontright": {
             "id": "clockroomfrontright",
@@ -1902,7 +2037,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "topofpipenearkongfreeingswitch": {
             "id": "topofpipenearkongfreeingswitch",
@@ -1923,7 +2059,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "pincoderoomfrontright": {
             "id": "pincoderoomfrontright",
@@ -1955,7 +2092,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "lankyspianoroomright": {
             "id": "lankyspianoroomright",
@@ -1987,7 +2125,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "lankyspianoroomleft": {
             "id": "lankyspianoroomleft",
@@ -2019,7 +2158,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "chunkysdarkroom": {
             "id": "chunkysdarkroom",
@@ -2055,7 +2195,8 @@
                     }
                 ]
             },
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "crusherroomstart": {
             "id": "crusherroomstart",
@@ -2066,7 +2207,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "factoryvanillalevelentry": {
             "id": "factoryvanillalevelentry",
@@ -2077,7 +2219,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FranticFactory"
+            "Level": "FranticFactory",
+            "Class": "Door"
         },
         "galleonlobbyfarleft": {
             "id": "galleonlobbyfarleft",
@@ -2088,7 +2231,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "galleonlobbyfarright": {
             "id": "galleonlobbyfarright",
@@ -2099,7 +2243,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "galleonlobbycloseright": {
             "id": "galleonlobbycloseright",
@@ -2110,7 +2255,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "galleonlobbyneardkportal": {
             "id": "galleonlobbyneardkportal",
@@ -2121,7 +2267,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "galleonlobbycloseleft": {
             "id": "galleonlobbycloseleft",
@@ -2132,7 +2279,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "deephole": {
             "id": "deephole",
@@ -2143,7 +2291,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "behind2ds": {
             "id": "behind2ds",
@@ -2154,7 +2303,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "behindenguardedoor": {
             "id": "behindenguardedoor",
@@ -2173,7 +2323,8 @@
                     }
                 ]
             },
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "cactus": {
             "id": "cactus",
@@ -2184,7 +2335,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "inhallwaytoshipyardtinyswitch": {
             "id": "inhallwaytoshipyardtinyswitch",
@@ -2195,7 +2347,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "inhallwaytoshipyardlankyswitch": {
             "id": "inhallwaytoshipyardlankyswitch",
@@ -2206,7 +2359,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "inhallwaytoprimatepunchchests": {
             "id": "inhallwaytoprimatepunchchests",
@@ -2217,7 +2371,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "underbaboonblastpad": {
             "id": "underbaboonblastpad",
@@ -2228,7 +2383,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "underrocketbarrelbarrel": {
             "id": "underrocketbarrelbarrel",
@@ -2239,7 +2395,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nexttocannonballgame": {
             "id": "nexttocannonballgame",
@@ -2259,7 +2416,8 @@
                     }
                 ]
             },
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nexttococonutswitch": {
             "id": "nexttococonutswitch",
@@ -2270,7 +2428,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "entrancetunnelnearentrance": {
             "id": "entrancetunnelnearentrance",
@@ -2281,7 +2440,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nexttopeanutswitch": {
             "id": "nexttopeanutswitch",
@@ -2292,7 +2452,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "musiccactusbottombackleft": {
             "id": "musiccactusbottombackleft",
@@ -2303,7 +2464,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "musiccactusbottomfrontleft": {
             "id": "musiccactusbottomfrontleft",
@@ -2314,7 +2476,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "musiccactusbottombackright": {
             "id": "musiccactusbottombackright",
@@ -2325,7 +2488,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "musiccactusbottomfrontright": {
             "id": "musiccactusbottomfrontright",
@@ -2336,7 +2500,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "ontopofsealcage": {
             "id": "ontopofsealcage",
@@ -2357,7 +2522,8 @@
                     }
                 ]
             },
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "treasurechestexterior": {
             "id": "treasurechestexterior",
@@ -2368,7 +2534,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nexttowarp3incrankysarea": {
             "id": "nexttowarp3incrankysarea",
@@ -2379,7 +2546,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "inprimatepunchchestroomright": {
             "id": "inprimatepunchchestroomright",
@@ -2390,7 +2558,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "behindchunkypunchgateincrankyarea": {
             "id": "behindchunkypunchgateincrankyarea",
@@ -2422,7 +2591,8 @@
                     }
                 ]
             },
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "lowwateralcoveinlighthousearea": {
             "id": "lowwateralcoveinlighthousearea",
@@ -2433,7 +2603,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "behindboxesincrankyarea": {
             "id": "behindboxesincrankyarea",
@@ -2444,7 +2615,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "mechfishgatefarleft": {
             "id": "mechfishgatefarleft",
@@ -2455,7 +2627,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "mechfishgateleft": {
             "id": "mechfishgateleft",
@@ -2466,7 +2639,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "mechfishgatemiddle": {
             "id": "mechfishgatemiddle",
@@ -2477,7 +2651,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "mechfishgateright": {
             "id": "mechfishgateright",
@@ -2488,7 +2663,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "mechfishgatefarright": {
             "id": "mechfishgatefarright",
@@ -2499,7 +2675,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "cannonballareaexit": {
             "id": "cannonballareaexit",
@@ -2517,7 +2694,8 @@
                     }
                 ]
             },
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "2dshipssecret3rddoor": {
             "id": "2dshipssecret3rddoor",
@@ -2528,7 +2706,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nearmermaidspalaceright": {
             "id": "nearmermaidspalaceright",
@@ -2539,7 +2718,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nearmermaidspalaceleft": {
             "id": "nearmermaidspalaceleft",
@@ -2550,7 +2730,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "nearmermaidspalaceundertagbarrel": {
             "id": "nearmermaidspalaceundertagbarrel",
@@ -2561,7 +2742,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "lighthouseinterior": {
             "id": "lighthouseinterior",
@@ -2572,7 +2754,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "inmermaidspalace": {
             "id": "inmermaidspalace",
@@ -2583,7 +2766,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "tinys5dship": {
             "id": "tinys5dship",
@@ -2594,7 +2778,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "lankys5dship": {
             "id": "lankys5dship",
@@ -2605,7 +2790,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "lankys2dship": {
             "id": "lankys2dship",
@@ -2616,7 +2802,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "galleonvanillalevelentry": {
             "id": "galleonvanillalevelentry",
@@ -2627,7 +2814,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "GloomyGalleon"
+            "Level": "GloomyGalleon",
+            "Class": "Door"
         },
         "forestlobbyonhighbox": {
             "id": "forestlobbyonhighbox",
@@ -2638,7 +2826,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "forestlobbyneargorillagonedoor": {
             "id": "forestlobbyneargorillagonedoor",
@@ -2649,7 +2838,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "forestlobbyoppositegorillagonedoor": {
             "id": "forestlobbyoppositegorillagonedoor",
@@ -2660,7 +2850,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "forestlobbynearb.locker": {
             "id": "forestlobbynearb.locker",
@@ -2671,7 +2862,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "forestlobbynearentrance": {
             "id": "forestlobbynearentrance",
@@ -2682,7 +2874,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "behinddkbarn": {
             "id": "behinddkbarn",
@@ -2693,7 +2886,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "beanstalkarea": {
             "id": "beanstalkarea",
@@ -2712,7 +2906,8 @@
                     }
                 ]
             },
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "topofgiantmushroom": {
             "id": "topofgiantmushroom",
@@ -2723,7 +2918,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "owlarea": {
             "id": "owlarea",
@@ -2734,7 +2930,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "ontopofcageoutsideconveyorbelt": {
             "id": "ontopofcageoutsideconveyorbelt",
@@ -2745,7 +2942,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "watermillfrontright": {
             "id": "watermillfrontright",
@@ -2756,7 +2954,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "watermillrightleft": {
             "id": "watermillrightleft",
@@ -2767,7 +2966,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "watermillrightright": {
             "id": "watermillrightright",
@@ -2778,7 +2978,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "watermillrooftower": {
             "id": "watermillrooftower",
@@ -2789,7 +2990,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "boxesoutsideofdiddysbarn": {
             "id": "boxesoutsideofdiddysbarn",
@@ -2800,7 +3002,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "outsidediddysbarn": {
             "id": "outsidediddysbarn",
@@ -2811,7 +3014,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "immediatelyinsidethethornvinearearight": {
             "id": "immediatelyinsidethethornvinearearight",
@@ -2822,7 +3026,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "immediatelyinsidethethornvinearealeft": {
             "id": "immediatelyinsidethethornvinearealeft",
@@ -2833,7 +3038,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "outsidedksbarn": {
             "id": "outsidedksbarn",
@@ -2844,7 +3050,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "nexttorabbitshouse": {
             "id": "nexttorabbitshouse",
@@ -2855,7 +3062,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "owlareanearrocketbarrelbarrelfarleft": {
             "id": "owlareanearrocketbarrelbarrelfarleft",
@@ -2866,7 +3074,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "funkyareaneartinycoins": {
             "id": "funkyareaneartinycoins",
@@ -2877,7 +3086,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "mushroomareanexttotagbarrelnearcrankys": {
             "id": "mushroomareanexttotagbarrelnearcrankys",
@@ -2888,7 +3098,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "mushroomareanexttorocketbarrelbarrelleft": {
             "id": "mushroomareanexttorocketbarrelbarrelleft",
@@ -2899,7 +3110,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "mushroomareanexttorocketbarrelbarrelright": {
             "id": "mushroomareanexttorocketbarrelbarrelright",
@@ -2910,7 +3122,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "mushroomareanexttocranky": {
             "id": "mushroomareanexttocranky",
@@ -2921,7 +3134,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "clockareanexttopurpletunnelleft": {
             "id": "clockareanexttopurpletunnelleft",
@@ -2932,7 +3146,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "clockareanexttopurpletunnelright": {
             "id": "clockareanexttopurpletunnelright",
@@ -2943,7 +3158,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "clockareanexttoclockleft": {
             "id": "clockareanexttoclockleft",
@@ -2954,7 +3170,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "clockareanexttoclockright": {
             "id": "clockareanexttoclockright",
@@ -2965,7 +3182,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "funkyareanearbeanstalkleft": {
             "id": "funkyareanearbeanstalkleft",
@@ -2976,7 +3194,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "funkyareanearbeanstalkback": {
             "id": "funkyareanearbeanstalkback",
@@ -2987,7 +3206,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "insidethemushroomallkonggunswitchright": {
             "id": "insidethemushroomallkonggunswitchright",
@@ -2998,7 +3218,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "insidethemushroomallkonggunswitchleft": {
             "id": "insidethemushroomallkonggunswitchleft",
@@ -3009,7 +3230,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "insidethemushroomhalfwayalongthedeadend": {
             "id": "insidethemushroomhalfwayalongthedeadend",
@@ -3020,7 +3242,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "insidethemushroomalongthewallnearklumpandoranges": {
             "id": "insidethemushroomalongthewallnearklumpandoranges",
@@ -3031,7 +3254,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "chunkysfacepuzzle": {
             "id": "chunkysfacepuzzle",
@@ -3042,7 +3266,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "lankys2mushroomroom": {
             "id": "lankys2mushroomroom",
@@ -3053,7 +3278,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "dkleverpuzzlearea": {
             "id": "dkleverpuzzlearea",
@@ -3094,7 +3320,8 @@
                     }
                 ]
             },
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "millbacksidenearchunkycoins": {
             "id": "millbacksidenearchunkycoins",
@@ -3105,7 +3332,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "winchroomonthewinch": {
             "id": "winchroomonthewinch",
@@ -3116,7 +3344,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "lankysattic": {
             "id": "lankysattic",
@@ -3127,7 +3356,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "dksbarnbetween2barrelsnearswitch": {
             "id": "dksbarnbetween2barrelsnearswitch",
@@ -3138,7 +3368,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "forestvanillalevelentry": {
             "id": "forestvanillalevelentry",
@@ -3149,7 +3380,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "FungiForest"
+            "Level": "FungiForest",
+            "Class": "Door"
         },
         "caveslobbyfarleft": {
             "id": "caveslobbyfarleft",
@@ -3160,7 +3392,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "caveslobbytopledge": {
             "id": "caveslobbytopledge",
@@ -3192,7 +3425,8 @@
                     }
                 ]
             },
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "caveslobbynearleft": {
             "id": "caveslobbynearleft",
@@ -3203,7 +3437,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "caveslobbyfarright": {
             "id": "caveslobbyfarright",
@@ -3214,7 +3449,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "caveslobbynearright": {
             "id": "caveslobbynearright",
@@ -3225,7 +3461,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "onrotatingroom": {
             "id": "onrotatingroom",
@@ -3303,7 +3540,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "giantboulderroom": {
             "id": "giantboulderroom",
@@ -3314,7 +3552,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "onsprintcabin": {
             "id": "onsprintcabin",
@@ -3363,7 +3602,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "near5di": {
             "id": "near5di",
@@ -3374,7 +3614,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "outsidelankyscabin": {
             "id": "outsidelankyscabin",
@@ -3385,7 +3626,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "outsidechunkyscabin": {
             "id": "outsidechunkyscabin",
@@ -3396,7 +3638,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "outsidediddyslowercabin": {
             "id": "outsidediddyslowercabin",
@@ -3407,7 +3650,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "outsidediddysuppercabin": {
             "id": "outsidediddysuppercabin",
@@ -3418,7 +3662,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "underthewaterfall(cabinarea)": {
             "id": "underthewaterfall(cabinarea)",
@@ -3436,7 +3681,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "acrossfromthe5doorcabin": {
             "id": "acrossfromthe5doorcabin",
@@ -3447,7 +3693,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloodksright": {
             "id": "5doorigloodksright",
@@ -3458,7 +3705,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloodiddysright": {
             "id": "5doorigloodiddysright",
@@ -3469,7 +3717,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5dooriglootinysright": {
             "id": "5dooriglootinysright",
@@ -3480,7 +3729,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloochunkysright": {
             "id": "5doorigloochunkysright",
@@ -3491,7 +3741,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloolankysright": {
             "id": "5doorigloolankysright",
@@ -3502,7 +3753,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloodksinstrumentpad": {
             "id": "5doorigloodksinstrumentpad",
@@ -3520,7 +3772,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloodiddysinstrumentpad": {
             "id": "5doorigloodiddysinstrumentpad",
@@ -3538,7 +3791,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5dooriglootinysinstrumentpad": {
             "id": "5dooriglootinysinstrumentpad",
@@ -3556,7 +3810,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloochunkysinstrumentpad": {
             "id": "5doorigloochunkysinstrumentpad",
@@ -3574,7 +3829,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "5doorigloolankysinstrumentpad": {
             "id": "5doorigloolankysinstrumentpad",
@@ -3592,7 +3848,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "icecastleareanearrockswitch": {
             "id": "icecastleareanearrockswitch",
@@ -3603,7 +3860,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "betweenfunkyandicecastleonland": {
             "id": "betweenfunkyandicecastleonland",
@@ -3614,7 +3872,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "betweenfunkyandicecastleunderwater": {
             "id": "betweenfunkyandicecastleunderwater",
@@ -3632,7 +3891,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "inwaternearw4oppositecrankyright": {
             "id": "inwaternearw4oppositecrankyright",
@@ -3650,7 +3910,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "inwaternearw4oppositecrankyleft": {
             "id": "inwaternearw4oppositecrankyleft",
@@ -3668,7 +3929,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "underbridgetocranky": {
             "id": "underbridgetocranky",
@@ -3686,7 +3948,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "underhandstandslope": {
             "id": "underhandstandslope",
@@ -3697,7 +3960,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "minimonkeyledge": {
             "id": "minimonkeyledge",
@@ -3708,7 +3972,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "acrossfromsnide": {
             "id": "acrossfromsnide",
@@ -3719,7 +3984,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "slopetocrankywithminimonkeyhole": {
             "id": "slopetocrankywithminimonkeyhole",
@@ -3730,7 +3996,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "levelentranceright": {
             "id": "levelentranceright",
@@ -3741,7 +4008,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "levelentranceleft": {
             "id": "levelentranceleft",
@@ -3752,7 +4020,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "iglooarealeftofentrance": {
             "id": "iglooarealeftofentrance",
@@ -3770,7 +4039,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "iglooareabehindtagbarrelisland": {
             "id": "iglooareabehindtagbarrelisland",
@@ -3788,7 +4058,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "iglooareabehindwarp1": {
             "id": "iglooareabehindwarp1",
@@ -3806,7 +4077,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "iglooarearightofentrance": {
             "id": "iglooarearightofentrance",
@@ -3824,7 +4096,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "underfunkysstore": {
             "id": "underfunkysstore",
@@ -3842,7 +4115,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "nexttowaterfallthatsnexttofunky": {
             "id": "nexttowaterfallthatsnexttofunky",
@@ -3860,7 +4134,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "inwaterunderfunkyleft": {
             "id": "inwaterunderfunkyleft",
@@ -3878,7 +4153,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "inwaterunderfunkycenter": {
             "id": "inwaterunderfunkycenter",
@@ -3896,7 +4172,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "inwaterunderfunkyright": {
             "id": "inwaterunderfunkyright",
@@ -3914,7 +4191,8 @@
                     }
                 ]
             },
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "icecastleinteriorleft": {
             "id": "icecastleinteriorleft",
@@ -3925,7 +4203,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "icecastleinteriorright": {
             "id": "icecastleinteriorright",
@@ -3936,7 +4215,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "inchunkys5doorcabinonabookshelf": {
             "id": "inchunkys5doorcabinonabookshelf",
@@ -3947,7 +4227,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "cabinareanearcandyright": {
             "id": "cabinareanearcandyright",
@@ -3958,7 +4239,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "cabinareanearcandyfarright": {
             "id": "cabinareanearcandyfarright",
@@ -3969,7 +4251,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "outsidetinyscabin": {
             "id": "outsidetinyscabin",
@@ -3980,7 +4263,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "cabinareanexttotagbarrelon2ndfloor": {
             "id": "cabinareanexttotagbarrelon2ndfloor",
@@ -3991,7 +4275,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "undercrankyslopesmall": {
             "id": "undercrankyslopesmall",
@@ -4002,7 +4287,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "cavesvanillalevelentry": {
             "id": "cavesvanillalevelentry",
@@ -4013,7 +4299,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CrystalCaves"
+            "Level": "CrystalCaves",
+            "Class": "Door"
         },
         "castlelobbycentralpillar(1)": {
             "id": "castlelobbycentralpillar(1)",
@@ -4024,7 +4311,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "castlelobbycentralpillar(2)": {
             "id": "castlelobbycentralpillar(2)",
@@ -4035,7 +4323,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "castlelobbycentralpillar(3)": {
             "id": "castlelobbycentralpillar(3)",
@@ -4046,7 +4335,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "castlelobbycentralpillar(4)": {
             "id": "castlelobbycentralpillar(4)",
@@ -4057,7 +4347,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "castlelobbycentralpillar(5)": {
             "id": "castlelobbycentralpillar(5)",
@@ -4068,7 +4359,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "DKIsles"
+            "Level": "DKIsles",
+            "Class": "Door"
         },
         "neargreenhouse": {
             "id": "neargreenhouse",
@@ -4079,7 +4371,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "smallplateau": {
             "id": "smallplateau",
@@ -4090,7 +4383,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "backofcastle": {
             "id": "backofcastle",
@@ -4101,7 +4395,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nexttosmallpooloutsideofthebigtree": {
             "id": "nexttosmallpooloutsideofthebigtree",
@@ -4112,7 +4407,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "againstthebigtree": {
             "id": "againstthebigtree",
@@ -4123,7 +4419,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nexttotagbarrelatthewarppadhub": {
             "id": "nexttotagbarrelatthewarppadhub",
@@ -4134,7 +4431,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nexttocrankys": {
             "id": "nexttocrankys",
@@ -4145,7 +4443,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "outsidelankysgreenhouse": {
             "id": "outsidelankysgreenhouse",
@@ -4156,7 +4455,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "onstairstotagbarrelatthewarppadhub": {
             "id": "onstairstotagbarrelatthewarppadhub",
@@ -4167,7 +4467,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nexttocastlemoatabovetinyskasplat": {
             "id": "nexttocastlemoatabovetinyskasplat",
@@ -4178,7 +4479,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "snidesbattlementleft": {
             "id": "snidesbattlementleft",
@@ -4189,7 +4491,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "snidesbattlementcenter": {
             "id": "snidesbattlementcenter",
@@ -4200,7 +4503,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "snidesbattlementright": {
             "id": "snidesbattlementright",
@@ -4211,7 +4515,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "nexttostairstodrawingdrawbridge": {
             "id": "nexttostairstodrawingdrawbridge",
@@ -4222,7 +4527,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "battlementwithrocketbarrelbarrelleft": {
             "id": "battlementwithrocketbarrelbarrelleft",
@@ -4233,7 +4539,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "battlementwithrocketbarrelbarrelright": {
             "id": "battlementwithrocketbarrelbarrelright",
@@ -4244,7 +4551,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "moatunderwaterbydiddybarrel": {
             "id": "moatunderwaterbydiddybarrel",
@@ -4262,7 +4570,8 @@
                     }
                 ]
             },
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "moatunderdrawingdrawbridge": {
             "id": "moatunderdrawingdrawbridge",
@@ -4280,7 +4589,8 @@
                     }
                 ]
             },
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "moatnexttotunnelentranceleft": {
             "id": "moatnexttotunnelentranceleft",
@@ -4298,7 +4608,8 @@
                     }
                 ]
             },
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "moatnexttotunnelentranceright": {
             "id": "moatnexttotunnelentranceright",
@@ -4316,7 +4627,8 @@
                     }
                 ]
             },
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "moatnexttoladderleft": {
             "id": "moatnexttoladderleft",
@@ -4334,7 +4646,8 @@
                     }
                 ]
             },
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "moatnexttoladderright": {
             "id": "moatnexttoladderright",
@@ -4352,7 +4665,8 @@
                     }
                 ]
             },
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "insidethetree": {
             "id": "insidethetree",
@@ -4363,7 +4677,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "libraryroomwithbigbooksleft": {
             "id": "libraryroomwithbigbooksleft",
@@ -4374,7 +4689,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "libraryroomwithbigbooksback": {
             "id": "libraryroomwithbigbooksback",
@@ -4385,7 +4701,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "librarynexttoexitleft": {
             "id": "librarynexttoexitleft",
@@ -4396,7 +4713,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "librarynexttoexitright": {
             "id": "librarynexttoexitright",
@@ -4407,7 +4725,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "ballroomleftcandleleft": {
             "id": "ballroomleftcandleleft",
@@ -4418,7 +4737,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "ballroomleftcandleright": {
             "id": "ballroomleftcandleright",
@@ -4429,7 +4749,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "ballroombackcandleleft": {
             "id": "ballroombackcandleleft",
@@ -4440,7 +4761,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "ballroombackcandleright": {
             "id": "ballroombackcandleright",
@@ -4451,7 +4773,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "ballroomrightcandleleft": {
             "id": "ballroomrightcandleleft",
@@ -4462,7 +4785,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "ballroomrightcandleright": {
             "id": "ballroomrightcandleright",
@@ -4473,7 +4797,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "trashcancheese": {
             "id": "trashcancheese",
@@ -4484,7 +4809,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "insidechunkysshed": {
             "id": "insidechunkysshed",
@@ -4495,7 +4821,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "lowertunnelunderpeanutswitch": {
             "id": "lowertunnelunderpeanutswitch",
@@ -4506,7 +4833,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "lowertunnelundercoconutandpineappleswitches": {
             "id": "lowertunnelundercoconutandpineappleswitches",
@@ -4517,7 +4845,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "cryptunderlankysswitch": {
             "id": "cryptunderlankysswitch",
@@ -4528,7 +4857,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         },
         "castlevanillalevelentry": {
             "id": "castlevanillalevelentry",
@@ -4539,7 +4869,8 @@
             "type": "Location",
             "targetType": "Item",
             "Requires": true,
-            "Level": "CreepyCastle"
+            "Level": "CreepyCastle",
+            "Class": "Door"
         }
     }
 }

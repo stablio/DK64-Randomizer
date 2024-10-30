@@ -67,6 +67,7 @@ def door_to_edge(door):
         "targetType": edgeTargetType,
         "Requires": requires,
         "Level": portal_region.level.name,
+        "Class": "Door",
     }
 
 for levels in door_locations.values():

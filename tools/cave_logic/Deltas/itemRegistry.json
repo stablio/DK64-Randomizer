@@ -38,6 +38,7 @@
     "BananaFairy": {
       "Key": "BananaFairy",
       "Name": "Banana Fairy",
+      "AltNames": ["Fairy"],
       "Type": "Item"
     },
     "MelonSlice": {
