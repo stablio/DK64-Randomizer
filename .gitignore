@@ -202,6 +202,7 @@ current_total.cfg
 last_generated_time.cfg
 generated_seeds/*
 local_presets.json
+
 base-hack/build/dir_hash.txt
 base-hack/build/skeleton/*.png
 /crowd_control/SDK/*
@@ -211,3 +212,4 @@ base-hack/assets/cutscene_scripts/lanky_phase
 base-hack/assets/cutscene_scripts/tiny_phase
 base-hack/build/createEncryption.py
 base-hack/actor_data.json
+!tools/cave_logic
