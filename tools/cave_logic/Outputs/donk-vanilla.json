@@ -11588,7 +11588,7 @@
         },
         "Treehouse": {
             "Name": "Treehouse",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "TreehouseWindows": {
@@ -11625,7 +11625,7 @@
         },
         "TrainingGrounds": {
             "Name": "Training Grounds",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesVinesTrainingBarrel": {
@@ -11777,6 +11777,9 @@
                     "Requires": {
                         "combinator": "AND",
                         "rules": [
+                            {
+                                "Name": "camera"
+                            },
                             {
                                 "Name": "climbing"
                             }
@@ -12114,7 +12117,7 @@
         },
         "IslesMain": {
             "Name": "Isles Main",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesDonkeyJapesRock": {
@@ -12765,7 +12768,7 @@
         },
         "IslesHill": {
             "Name": "Isles Hill",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "RainbowCoin_Location04": {
@@ -12813,7 +12816,7 @@
         },
         "IslesMainUpper": {
             "Name": "Isles Main Upper",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesChunkyInstrumentPad": {
@@ -13064,7 +13067,7 @@
         },
         "IslesEar": {
             "Name": "Isles Ear",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {},
             "Neighbourhood": {
@@ -13154,7 +13157,7 @@
         },
         "Prison": {
             "Name": "Prison",
-            "HintName": "Krem Isles",
+            "HintName": "Krem Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesLankyPrisonOrangsprint": {
@@ -14061,7 +14064,7 @@
         },
         "KremIsle": {
             "Name": "Krem Isle Base",
-            "HintName": "Krem Isles",
+            "HintName": "Krem Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesLankyCagedBanana": {
@@ -14297,7 +14300,7 @@
         },
         "KremIsleBeyondLift": {
             "Name": "Krem Isle Beyond Lift",
-            "HintName": "Krem Isles",
+            "HintName": "Krem Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesDonkeyCagedBanana": {
@@ -14426,7 +14429,7 @@
         },
         "KremIsleTopLevel": {
             "Name": "Krem Isle Top Level",
-            "HintName": "Krem Isles",
+            "HintName": "Krem Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesTinyInstrumentPad": {
@@ -14590,7 +14593,7 @@
         },
         "KremIsleMouth": {
             "Name": "Krem Isle Mouth",
-            "HintName": "Krem Isles",
+            "HintName": "Krem Isle",
             "Level": "DKIsles",
             "Checks": {},
             "Neighbourhood": {
@@ -14671,7 +14674,7 @@
         },
         "IslesSnideRoom": {
             "Name": "Isles Snide Room",
-            "HintName": "Krem Isles",
+            "HintName": "Krem Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesDiddySnidesLobby": {
@@ -15769,7 +15772,7 @@
         },
         "IslesAboveWaterfall": {
             "Name": "Isles Above Waterfall",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesDiddyCagedBanana": {
@@ -15928,7 +15931,7 @@
         },
         "IslesAirspace": {
             "Name": "Isles Airspace",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "IslesDiddySummit": {
@@ -15986,7 +15989,7 @@
         },
         "AztecLobbyRoof": {
             "Name": "Aztec Lobby Roof",
-            "HintName": "Main Isles",
+            "HintName": "Main Isle",
             "Level": "DKIsles",
             "Checks": {
                 "RainbowCoin_Location05": {
@@ -17886,7 +17889,25 @@
                                     }
                                 ]
                             },
-                            true
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "combinator": "NOT",
+                                        "rules": [
+                                            {
+                                                "Name": "IsLavaWater",
+                                                "Params": [],
+                                                "isFunction": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Melons",
+                                        "Amount": "3"
+                                    }
+                                ]
+                            }
                         ]
                     },
                     "Level": "DKIsles",
@@ -51039,6 +51060,9 @@
                     "Requires": {
                         "combinator": "AND",
                         "rules": [
+                            {
+                                "Name": "camera"
+                            },
                             {
                                 "Name": "climbing"
                             }
