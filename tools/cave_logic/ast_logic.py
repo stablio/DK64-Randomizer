@@ -1,4 +1,4 @@
-from utils import array_to_object
+from tools.cave_logic.utils import array_to_object
 import ast
 import copy
 import json
@@ -111,6 +111,12 @@ def ast_to_json(node, params):
             "Value": f"{node.comparators[0].value.id}.{node.comparators[0].attr}",
             "Equals": isinstance(node.ops[0], ast.Eq)
         }
+    elif isinstance(node, ast.Tuple):
+        # if one of the elemets of the tuple is a Lambda, then return the Lambda
+        for element in node.elts:
+            if isinstance(element, ast.Lambda):
+                return ast_to_json(element, params)
+        return [ast_to_json(item, params) for item in node.elts]
     elif isinstance(node, ast.keyword):
         return {node.arg: ast_to_json(node.value, params)}
     elif isinstance(node, ast.Expr):
@@ -160,6 +166,11 @@ def ast_to_json(node, params):
                 e.update({"Other": vals[2:]})
             return e
         elif func_name == "TransitionFront":
+
+            if (params["direct"] == True):
+                return ast_to_json(node.args[1], params)
+
+
             arrive = vals[0]['Name']
             depart = params["special2"]
 

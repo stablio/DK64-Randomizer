@@ -22,8 +22,6 @@ from copy import deepcopy
 
 RegionList = deepcopy(RegionsOriginal)
 
-edges = {}
-
 def strip_name(name):
     return name.replace(" ", "").replace(":", "").replace("-", "").replace("'","").lower()
 
@@ -70,14 +68,16 @@ def door_to_edge(door):
         "Class": "Door",
     }
 
-for levels in door_locations.values():
-    for door in levels:
-        edge = door_to_edge(door)
-        edges[edge["id"]] = edge
-
+def build_doors():
+    edges = {}
+    for levels in door_locations.values():
+        for door in levels:
+            edge = door_to_edge(door)
+            edges[edge["id"]] = edge
+    return edges
 
 world = {
-   "door_edges": edges
+   "door_edges": build_doors()
 }
 
 with open('./tools/cave_logic/Deltas/door_edges.json', 'w') as json_file:

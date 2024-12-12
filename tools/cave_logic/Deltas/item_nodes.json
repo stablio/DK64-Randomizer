@@ -1,2241 +1,2241 @@
 {
     "item_nodes": {
-        "NoItem": {
-            "Key": "NoItem",
+        "noitem": {
+            "id": "noitem",
             "Name": "No Item",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "Donkey": {
-            "Key": "Donkey",
+        "donkey": {
+            "id": "donkey",
             "Name": "Donkey",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Kong"
         },
-        "Diddy": {
-            "Key": "Diddy",
+        "diddy": {
+            "id": "diddy",
             "Name": "Diddy",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Kong"
         },
-        "Lanky": {
-            "Key": "Lanky",
+        "lanky": {
+            "id": "lanky",
             "Name": "Lanky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Kong"
         },
-        "Tiny": {
-            "Key": "Tiny",
+        "tiny": {
+            "id": "tiny",
             "Name": "Tiny",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Kong"
         },
-        "Chunky": {
-            "Key": "Chunky",
+        "chunky": {
+            "id": "chunky",
             "Name": "Chunky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Kong"
         },
-        "Vines": {
-            "Key": "Vines",
+        "vines": {
+            "id": "vines",
             "Name": "Vines",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "TrainingBarrel"
         },
-        "Swim": {
-            "Key": "Swim",
+        "swim": {
+            "id": "swim",
             "Name": "Diving",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "TrainingBarrel"
         },
-        "Oranges": {
-            "Key": "Oranges",
+        "oranges": {
+            "id": "oranges",
             "Name": "Oranges",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "TrainingBarrel"
         },
-        "Barrels": {
-            "Key": "Barrels",
+        "barrels": {
+            "id": "barrels",
             "Name": "Barrels",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "TrainingBarrel"
         },
-        "Climbing": {
-            "Key": "Climbing",
+        "climbing": {
+            "id": "climbing",
             "Name": "Climbing",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Climbing"
         },
-        "ProgressiveSlam": {
-            "Key": "ProgressiveSlam",
+        "progressiveslam": {
+            "id": "progressiveslam",
             "Name": "Progressive Slam",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveSlam2": {
-            "Key": "ProgressiveSlam2",
+        "progressiveslam2": {
+            "id": "progressiveslam2",
             "Name": "Progressive Slam ",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "ProgressiveSlam3": {
-            "Key": "ProgressiveSlam3",
+        "progressiveslam3": {
+            "id": "progressiveslam3",
             "Name": "Progressive Slam  ",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "ProgressiveDonkeyPotion": {
-            "Key": "ProgressiveDonkeyPotion",
+        "progressivedonkeypotion": {
+            "id": "progressivedonkeypotion",
             "Name": "Progressive Donkey Potion",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "BaboonBlast": {
-            "Key": "BaboonBlast",
+        "baboonblast": {
+            "id": "baboonblast",
             "Name": "Baboon Blast",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "StrongKong": {
-            "Key": "StrongKong",
+        "strongkong": {
+            "id": "strongkong",
             "Name": "Strong Kong",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "GorillaGrab": {
-            "Key": "GorillaGrab",
+        "gorillagrab": {
+            "id": "gorillagrab",
             "Name": "Gorilla Grab",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveDiddyPotion": {
-            "Key": "ProgressiveDiddyPotion",
+        "progressivediddypotion": {
+            "id": "progressivediddypotion",
             "Name": "Progressive Diddy Potion",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ChimpyCharge": {
-            "Key": "ChimpyCharge",
+        "chimpycharge": {
+            "id": "chimpycharge",
             "Name": "Chimpy Charge",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "RocketbarrelBoost": {
-            "Key": "RocketbarrelBoost",
+        "rocketbarrelboost": {
+            "id": "rocketbarrelboost",
             "Name": "Rocketbarrel Boost",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "SimianSpring": {
-            "Key": "SimianSpring",
+        "simianspring": {
+            "id": "simianspring",
             "Name": "Simian Spring",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveLankyPotion": {
-            "Key": "ProgressiveLankyPotion",
+        "progressivelankypotion": {
+            "id": "progressivelankypotion",
             "Name": "Progressive Lanky Potion",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Orangstand": {
-            "Key": "Orangstand",
+        "orangstand": {
+            "id": "orangstand",
             "Name": "Orangstand",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "BaboonBalloon": {
-            "Key": "BaboonBalloon",
+        "baboonballoon": {
+            "id": "baboonballoon",
             "Name": "Baboon Balloon",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "OrangstandSprint": {
-            "Key": "OrangstandSprint",
+        "orangstandsprint": {
+            "id": "orangstandsprint",
             "Name": "Orangstand Sprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveTinyPotion": {
-            "Key": "ProgressiveTinyPotion",
+        "progressivetinypotion": {
+            "id": "progressivetinypotion",
             "Name": "Progressive Tiny Potion",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "MiniMonkey": {
-            "Key": "MiniMonkey",
+        "minimonkey": {
+            "id": "minimonkey",
             "Name": "Mini Monkey",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "PonyTailTwirl": {
-            "Key": "PonyTailTwirl",
+        "ponytailtwirl": {
+            "id": "ponytailtwirl",
             "Name": "Pony Tail Twirl",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Monkeyport": {
-            "Key": "Monkeyport",
+        "monkeyport": {
+            "id": "monkeyport",
             "Name": "Monkeyport",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveChunkyPotion": {
-            "Key": "ProgressiveChunkyPotion",
+        "progressivechunkypotion": {
+            "id": "progressivechunkypotion",
             "Name": "Progressive Chunky Potion",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "HunkyChunky": {
-            "Key": "HunkyChunky",
+        "hunkychunky": {
+            "id": "hunkychunky",
             "Name": "Hunky Chunky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "PrimatePunch": {
-            "Key": "PrimatePunch",
+        "primatepunch": {
+            "id": "primatepunch",
             "Name": "Primate Punch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "GorillaGone": {
-            "Key": "GorillaGone",
+        "gorillagone": {
+            "id": "gorillagone",
             "Name": "Gorilla Gone",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Coconut": {
-            "Key": "Coconut",
+        "coconut": {
+            "id": "coconut",
             "Name": "Coconut",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Peanut": {
-            "Key": "Peanut",
+        "peanut": {
+            "id": "peanut",
             "Name": "Peanut",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Grape": {
-            "Key": "Grape",
+        "grape": {
+            "id": "grape",
             "Name": "Grape",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Feather": {
-            "Key": "Feather",
+        "feather": {
+            "id": "feather",
             "Name": "Feather",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Pineapple": {
-            "Key": "Pineapple",
+        "pineapple": {
+            "id": "pineapple",
             "Name": "Pineapple",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "HomingAmmo": {
-            "Key": "HomingAmmo",
+        "homingammo": {
+            "id": "homingammo",
             "Name": "Homing Ammo",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "SniperSight": {
-            "Key": "SniperSight",
+        "snipersight": {
+            "id": "snipersight",
             "Name": "Sniper Sight",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveAmmoBelt": {
-            "Key": "ProgressiveAmmoBelt",
+        "progressiveammobelt": {
+            "id": "progressiveammobelt",
             "Name": "Progressive Ammo Belt",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveAmmoBelt2": {
-            "Key": "ProgressiveAmmoBelt2",
+        "progressiveammobelt2": {
+            "id": "progressiveammobelt2",
             "Name": "Progressive Ammo Belt ",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "Bongos": {
-            "Key": "Bongos",
+        "bongos": {
+            "id": "bongos",
             "Name": "Bongos",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Guitar": {
-            "Key": "Guitar",
+        "guitar": {
+            "id": "guitar",
             "Name": "Guitar",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Trombone": {
-            "Key": "Trombone",
+        "trombone": {
+            "id": "trombone",
             "Name": "Trombone",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Saxophone": {
-            "Key": "Saxophone",
+        "saxophone": {
+            "id": "saxophone",
             "Name": "Saxophone",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "Triangle": {
-            "Key": "Triangle",
+        "triangle": {
+            "id": "triangle",
             "Name": "Triangle",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveInstrumentUpgrade": {
-            "Key": "ProgressiveInstrumentUpgrade",
+        "progressiveinstrumentupgrade": {
+            "id": "progressiveinstrumentupgrade",
             "Name": "Progressive Instrument Upgrade",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Move"
         },
-        "ProgressiveInstrumentUpgrade2": {
-            "Key": "ProgressiveInstrumentUpgrade2",
+        "progressiveinstrumentupgrade2": {
+            "id": "progressiveinstrumentupgrade2",
             "Name": "Progressive Instrument Upgrade ",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "ProgressiveInstrumentUpgrade3": {
-            "Key": "ProgressiveInstrumentUpgrade3",
+        "progressiveinstrumentupgrade3": {
+            "id": "progressiveinstrumentupgrade3",
             "Name": "Progressive Instrument Upgrade  ",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "Camera": {
-            "Key": "Camera",
+        "camera": {
+            "id": "camera",
             "Name": "Fairy Camera",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Shockwave"
         },
-        "Shockwave": {
-            "Key": "Shockwave",
+        "shockwave": {
+            "id": "shockwave",
             "Name": "Shockwave",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Shockwave"
         },
-        "CameraAndShockwave": {
-            "Key": "CameraAndShockwave",
+        "cameraandshockwave": {
+            "id": "cameraandshockwave",
             "Name": "Camera and Shockwave",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Shockwave"
         },
-        "NintendoCoin": {
-            "Key": "NintendoCoin",
+        "nintendocoin": {
+            "id": "nintendocoin",
             "Name": "Nintendo Coin",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "NintendoCoin"
         },
-        "RarewareCoin": {
-            "Key": "RarewareCoin",
+        "rarewarecoin": {
+            "id": "rarewarecoin",
             "Name": "Rareware Coin",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "RarewareCoin"
         },
-        "JungleJapesKey": {
-            "Key": "JungleJapesKey",
+        "junglejapeskey": {
+            "id": "junglejapeskey",
             "Name": "Key 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "AngryAztecKey": {
-            "Key": "AngryAztecKey",
+        "angryazteckey": {
+            "id": "angryazteckey",
             "Name": "Key 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "FranticFactoryKey": {
-            "Key": "FranticFactoryKey",
+        "franticfactorykey": {
+            "id": "franticfactorykey",
             "Name": "Key 3",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "GloomyGalleonKey": {
-            "Key": "GloomyGalleonKey",
+        "gloomygalleonkey": {
+            "id": "gloomygalleonkey",
             "Name": "Key 4",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "FungiForestKey": {
-            "Key": "FungiForestKey",
+        "fungiforestkey": {
+            "id": "fungiforestkey",
             "Name": "Key 5",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "CrystalCavesKey": {
-            "Key": "CrystalCavesKey",
+        "crystalcaveskey": {
+            "id": "crystalcaveskey",
             "Name": "Key 6",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "CreepyCastleKey": {
-            "Key": "CreepyCastleKey",
+        "creepycastlekey": {
+            "id": "creepycastlekey",
             "Name": "Key 7",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "HideoutHelmKey": {
-            "Key": "HideoutHelmKey",
+        "hideouthelmkey": {
+            "id": "hideouthelmkey",
             "Name": "Key 8",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Key"
         },
-        "HelmDonkey1": {
-            "Key": "HelmDonkey1",
+        "helmdonkey1": {
+            "id": "helmdonkey1",
             "Name": "Helm Donkey Barrel 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmDonkey2": {
-            "Key": "HelmDonkey2",
+        "helmdonkey2": {
+            "id": "helmdonkey2",
             "Name": "Helm Donkey Barrel 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmDiddy1": {
-            "Key": "HelmDiddy1",
+        "helmdiddy1": {
+            "id": "helmdiddy1",
             "Name": "Helm Diddy Barrel 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmDiddy2": {
-            "Key": "HelmDiddy2",
+        "helmdiddy2": {
+            "id": "helmdiddy2",
             "Name": "Helm Diddy Barrel 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmLanky1": {
-            "Key": "HelmLanky1",
+        "helmlanky1": {
+            "id": "helmlanky1",
             "Name": "Helm Lanky Barrel 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmLanky2": {
-            "Key": "HelmLanky2",
+        "helmlanky2": {
+            "id": "helmlanky2",
             "Name": "Helm Lanky Barrel 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmTiny1": {
-            "Key": "HelmTiny1",
+        "helmtiny1": {
+            "id": "helmtiny1",
             "Name": "Helm Tiny Barrel 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmTiny2": {
-            "Key": "HelmTiny2",
+        "helmtiny2": {
+            "id": "helmtiny2",
             "Name": "Helm Tiny Barrel 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmChunky1": {
-            "Key": "HelmChunky1",
+        "helmchunky1": {
+            "id": "helmchunky1",
             "Name": "Helm Chunky Barrel 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "HelmChunky2": {
-            "Key": "HelmChunky2",
+        "helmchunky2": {
+            "id": "helmchunky2",
             "Name": "Helm Chunky Barrel 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "GoldenBanana": {
-            "Key": "GoldenBanana",
+        "goldenbanana": {
+            "id": "goldenbanana",
             "Name": "Golden Banana",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Banana"
         },
-        "BananaFairy": {
-            "Key": "BananaFairy",
+        "bananafairy": {
+            "id": "bananafairy",
             "Name": "Banana Fairy",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Fairy"
         },
-        "BananaMedal": {
-            "Key": "BananaMedal",
+        "bananamedal": {
+            "id": "bananamedal",
             "Name": "Banana Medal",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Medal"
         },
-        "BattleCrown": {
-            "Key": "BattleCrown",
+        "battlecrown": {
+            "id": "battlecrown",
             "Name": "Battle Crown",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Crown"
         },
-        "Bean": {
-            "Key": "Bean",
+        "bean": {
+            "id": "bean",
             "Name": "Bean",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "Pearl": {
-            "Key": "Pearl",
+        "pearl": {
+            "id": "pearl",
             "Name": "Pearl",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Pearl"
         },
-        "RainbowCoin": {
-            "Key": "RainbowCoin",
+        "rainbowcoin": {
+            "id": "rainbowcoin",
             "Name": "Rainbow Coin",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "RainbowCoin"
         },
-        "IceTrapBubble": {
-            "Key": "IceTrapBubble",
+        "icetrapbubble": {
+            "id": "icetrapbubble",
             "Name": "Ice Trap (Bubble)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "FakeItem"
         },
-        "IceTrapReverse": {
-            "Key": "IceTrapReverse",
+        "icetrapreverse": {
+            "id": "icetrapreverse",
             "Name": "Ice Trap (Reverse)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "FakeItem"
         },
-        "IceTrapSlow": {
-            "Key": "IceTrapSlow",
+        "icetrapslow": {
+            "id": "icetrapslow",
             "Name": "Ice Trap (Slow)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "FakeItem"
         },
-        "JunkCrystal": {
-            "Key": "JunkCrystal",
+        "junkcrystal": {
+            "id": "junkcrystal",
             "Name": "Junk Item (Crystal)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "JunkItem"
         },
-        "JunkMelon": {
-            "Key": "JunkMelon",
+        "junkmelon": {
+            "id": "junkmelon",
             "Name": "Junk Item (Melon Slice)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "JunkItem"
         },
-        "JunkAmmo": {
-            "Key": "JunkAmmo",
+        "junkammo": {
+            "id": "junkammo",
             "Name": "Junk Item (Ammo Crate)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "JunkItem"
         },
-        "JunkFilm": {
-            "Key": "JunkFilm",
+        "junkfilm": {
+            "id": "junkfilm",
             "Name": "Junk Item (Film)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "JunkItem"
         },
-        "JunkOrange": {
-            "Key": "JunkOrange",
+        "junkorange": {
+            "id": "junkorange",
             "Name": "Junk Item (Orange)",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "JunkItem"
         },
-        "CrateMelon": {
-            "Key": "CrateMelon",
+        "cratemelon": {
+            "id": "cratemelon",
             "Name": "Crate Melon",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "CrateItem"
         },
-        "EnemyItem": {
-            "Key": "EnemyItem",
+        "enemyitem": {
+            "id": "enemyitem",
             "Name": "Enemy Item",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Enemies"
         },
-        "Cranky": {
-            "Key": "Cranky",
+        "cranky": {
+            "id": "cranky",
             "Name": "Cranky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Cranky"
         },
-        "Funky": {
-            "Key": "Funky",
+        "funky": {
+            "id": "funky",
             "Name": "Funky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Funky"
         },
-        "Candy": {
-            "Key": "Candy",
+        "candy": {
+            "id": "candy",
             "Name": "Candy",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Candy"
         },
-        "Snide": {
-            "Key": "Snide",
+        "snide": {
+            "id": "snide",
             "Name": "Snide",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Snide"
         },
-        "DKIslesDonkeyBlueprint": {
-            "Key": "DKIslesDonkeyBlueprint",
+        "dkislesdonkeyblueprint": {
+            "id": "dkislesdonkeyblueprint",
             "Name": "DK Isles Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "DKIslesDiddyBlueprint": {
-            "Key": "DKIslesDiddyBlueprint",
+        "dkislesdiddyblueprint": {
+            "id": "dkislesdiddyblueprint",
             "Name": "DK Isles Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "DKIslesLankyBlueprint": {
-            "Key": "DKIslesLankyBlueprint",
+        "dkisleslankyblueprint": {
+            "id": "dkisleslankyblueprint",
             "Name": "DK Isles Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "DKIslesTinyBlueprint": {
-            "Key": "DKIslesTinyBlueprint",
+        "dkislestinyblueprint": {
+            "id": "dkislestinyblueprint",
             "Name": "DK Isles Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "DKIslesChunkyBlueprint": {
-            "Key": "DKIslesChunkyBlueprint",
+        "dkisleschunkyblueprint": {
+            "id": "dkisleschunkyblueprint",
             "Name": "DK Isles Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "JungleJapesDonkeyBlueprint": {
-            "Key": "JungleJapesDonkeyBlueprint",
+        "junglejapesdonkeyblueprint": {
+            "id": "junglejapesdonkeyblueprint",
             "Name": "Jungle Japes Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "JungleJapesDiddyBlueprint": {
-            "Key": "JungleJapesDiddyBlueprint",
+        "junglejapesdiddyblueprint": {
+            "id": "junglejapesdiddyblueprint",
             "Name": "Jungle Japes Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "JungleJapesLankyBlueprint": {
-            "Key": "JungleJapesLankyBlueprint",
+        "junglejapeslankyblueprint": {
+            "id": "junglejapeslankyblueprint",
             "Name": "Jungle Japes Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "JungleJapesTinyBlueprint": {
-            "Key": "JungleJapesTinyBlueprint",
+        "junglejapestinyblueprint": {
+            "id": "junglejapestinyblueprint",
             "Name": "Jungle Japes Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "JungleJapesChunkyBlueprint": {
-            "Key": "JungleJapesChunkyBlueprint",
+        "junglejapeschunkyblueprint": {
+            "id": "junglejapeschunkyblueprint",
             "Name": "Jungle Japes Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "AngryAztecDonkeyBlueprint": {
-            "Key": "AngryAztecDonkeyBlueprint",
+        "angryaztecdonkeyblueprint": {
+            "id": "angryaztecdonkeyblueprint",
             "Name": "Angry Aztec Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "AngryAztecDiddyBlueprint": {
-            "Key": "AngryAztecDiddyBlueprint",
+        "angryaztecdiddyblueprint": {
+            "id": "angryaztecdiddyblueprint",
             "Name": "Angry Aztec Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "AngryAztecLankyBlueprint": {
-            "Key": "AngryAztecLankyBlueprint",
+        "angryazteclankyblueprint": {
+            "id": "angryazteclankyblueprint",
             "Name": "Angry Aztec Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "AngryAztecTinyBlueprint": {
-            "Key": "AngryAztecTinyBlueprint",
+        "angryaztectinyblueprint": {
+            "id": "angryaztectinyblueprint",
             "Name": "Angry Aztec Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "AngryAztecChunkyBlueprint": {
-            "Key": "AngryAztecChunkyBlueprint",
+        "angryaztecchunkyblueprint": {
+            "id": "angryaztecchunkyblueprint",
             "Name": "Angry Aztec Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FranticFactoryDonkeyBlueprint": {
-            "Key": "FranticFactoryDonkeyBlueprint",
+        "franticfactorydonkeyblueprint": {
+            "id": "franticfactorydonkeyblueprint",
             "Name": "Frantic Factory Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FranticFactoryDiddyBlueprint": {
-            "Key": "FranticFactoryDiddyBlueprint",
+        "franticfactorydiddyblueprint": {
+            "id": "franticfactorydiddyblueprint",
             "Name": "Frantic Factory Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FranticFactoryLankyBlueprint": {
-            "Key": "FranticFactoryLankyBlueprint",
+        "franticfactorylankyblueprint": {
+            "id": "franticfactorylankyblueprint",
             "Name": "Frantic Factory Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FranticFactoryTinyBlueprint": {
-            "Key": "FranticFactoryTinyBlueprint",
+        "franticfactorytinyblueprint": {
+            "id": "franticfactorytinyblueprint",
             "Name": "Frantic Factory Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FranticFactoryChunkyBlueprint": {
-            "Key": "FranticFactoryChunkyBlueprint",
+        "franticfactorychunkyblueprint": {
+            "id": "franticfactorychunkyblueprint",
             "Name": "Frantic Factory Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "GloomyGalleonDonkeyBlueprint": {
-            "Key": "GloomyGalleonDonkeyBlueprint",
+        "gloomygalleondonkeyblueprint": {
+            "id": "gloomygalleondonkeyblueprint",
             "Name": "Gloomy Galleon Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "GloomyGalleonDiddyBlueprint": {
-            "Key": "GloomyGalleonDiddyBlueprint",
+        "gloomygalleondiddyblueprint": {
+            "id": "gloomygalleondiddyblueprint",
             "Name": "Gloomy Galleon Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "GloomyGalleonLankyBlueprint": {
-            "Key": "GloomyGalleonLankyBlueprint",
+        "gloomygalleonlankyblueprint": {
+            "id": "gloomygalleonlankyblueprint",
             "Name": "Gloomy Galleon Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "GloomyGalleonTinyBlueprint": {
-            "Key": "GloomyGalleonTinyBlueprint",
+        "gloomygalleontinyblueprint": {
+            "id": "gloomygalleontinyblueprint",
             "Name": "Gloomy Galleon Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "GloomyGalleonChunkyBlueprint": {
-            "Key": "GloomyGalleonChunkyBlueprint",
+        "gloomygalleonchunkyblueprint": {
+            "id": "gloomygalleonchunkyblueprint",
             "Name": "Gloomy Galleon Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FungiForestDonkeyBlueprint": {
-            "Key": "FungiForestDonkeyBlueprint",
+        "fungiforestdonkeyblueprint": {
+            "id": "fungiforestdonkeyblueprint",
             "Name": "Fungi Forest Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FungiForestDiddyBlueprint": {
-            "Key": "FungiForestDiddyBlueprint",
+        "fungiforestdiddyblueprint": {
+            "id": "fungiforestdiddyblueprint",
             "Name": "Fungi Forest Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FungiForestLankyBlueprint": {
-            "Key": "FungiForestLankyBlueprint",
+        "fungiforestlankyblueprint": {
+            "id": "fungiforestlankyblueprint",
             "Name": "Fungi Forest Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FungiForestTinyBlueprint": {
-            "Key": "FungiForestTinyBlueprint",
+        "fungiforesttinyblueprint": {
+            "id": "fungiforesttinyblueprint",
             "Name": "Fungi Forest Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "FungiForestChunkyBlueprint": {
-            "Key": "FungiForestChunkyBlueprint",
+        "fungiforestchunkyblueprint": {
+            "id": "fungiforestchunkyblueprint",
             "Name": "Fungi Forest Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CrystalCavesDonkeyBlueprint": {
-            "Key": "CrystalCavesDonkeyBlueprint",
+        "crystalcavesdonkeyblueprint": {
+            "id": "crystalcavesdonkeyblueprint",
             "Name": "Crystal Caves Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CrystalCavesDiddyBlueprint": {
-            "Key": "CrystalCavesDiddyBlueprint",
+        "crystalcavesdiddyblueprint": {
+            "id": "crystalcavesdiddyblueprint",
             "Name": "Crystal Caves Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CrystalCavesLankyBlueprint": {
-            "Key": "CrystalCavesLankyBlueprint",
+        "crystalcaveslankyblueprint": {
+            "id": "crystalcaveslankyblueprint",
             "Name": "Crystal Caves Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CrystalCavesTinyBlueprint": {
-            "Key": "CrystalCavesTinyBlueprint",
+        "crystalcavestinyblueprint": {
+            "id": "crystalcavestinyblueprint",
             "Name": "Crystal Caves Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CrystalCavesChunkyBlueprint": {
-            "Key": "CrystalCavesChunkyBlueprint",
+        "crystalcaveschunkyblueprint": {
+            "id": "crystalcaveschunkyblueprint",
             "Name": "Crystal Caves Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CreepyCastleDonkeyBlueprint": {
-            "Key": "CreepyCastleDonkeyBlueprint",
+        "creepycastledonkeyblueprint": {
+            "id": "creepycastledonkeyblueprint",
             "Name": "Creepy Castle Donkey Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CreepyCastleDiddyBlueprint": {
-            "Key": "CreepyCastleDiddyBlueprint",
+        "creepycastlediddyblueprint": {
+            "id": "creepycastlediddyblueprint",
             "Name": "Creepy Castle Diddy Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CreepyCastleLankyBlueprint": {
-            "Key": "CreepyCastleLankyBlueprint",
+        "creepycastlelankyblueprint": {
+            "id": "creepycastlelankyblueprint",
             "Name": "Creepy Castle Lanky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CreepyCastleTinyBlueprint": {
-            "Key": "CreepyCastleTinyBlueprint",
+        "creepycastletinyblueprint": {
+            "id": "creepycastletinyblueprint",
             "Name": "Creepy Castle Tiny Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "CreepyCastleChunkyBlueprint": {
-            "Key": "CreepyCastleChunkyBlueprint",
+        "creepycastlechunkyblueprint": {
+            "id": "creepycastlechunkyblueprint",
             "Name": "Creepy Castle Chunky Blueprint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Blueprint"
         },
-        "JapesDonkeyHint": {
-            "Key": "JapesDonkeyHint",
+        "japesdonkeyhint": {
+            "id": "japesdonkeyhint",
             "Name": "Japes Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "JapesDiddyHint": {
-            "Key": "JapesDiddyHint",
+        "japesdiddyhint": {
+            "id": "japesdiddyhint",
             "Name": "Japes Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "JapesLankyHint": {
-            "Key": "JapesLankyHint",
+        "japeslankyhint": {
+            "id": "japeslankyhint",
             "Name": "Japes Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "JapesTinyHint": {
-            "Key": "JapesTinyHint",
+        "japestinyhint": {
+            "id": "japestinyhint",
             "Name": "Japes Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "JapesChunkyHint": {
-            "Key": "JapesChunkyHint",
+        "japeschunkyhint": {
+            "id": "japeschunkyhint",
             "Name": "Japes Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "AztecDonkeyHint": {
-            "Key": "AztecDonkeyHint",
+        "aztecdonkeyhint": {
+            "id": "aztecdonkeyhint",
             "Name": "Aztec Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "AztecDiddyHint": {
-            "Key": "AztecDiddyHint",
+        "aztecdiddyhint": {
+            "id": "aztecdiddyhint",
             "Name": "Aztec Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "AztecLankyHint": {
-            "Key": "AztecLankyHint",
+        "azteclankyhint": {
+            "id": "azteclankyhint",
             "Name": "Aztec Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "AztecTinyHint": {
-            "Key": "AztecTinyHint",
+        "aztectinyhint": {
+            "id": "aztectinyhint",
             "Name": "Aztec Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "AztecChunkyHint": {
-            "Key": "AztecChunkyHint",
+        "aztecchunkyhint": {
+            "id": "aztecchunkyhint",
             "Name": "Aztec Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "FactoryDonkeyHint": {
-            "Key": "FactoryDonkeyHint",
+        "factorydonkeyhint": {
+            "id": "factorydonkeyhint",
             "Name": "Factory Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "FactoryDiddyHint": {
-            "Key": "FactoryDiddyHint",
+        "factorydiddyhint": {
+            "id": "factorydiddyhint",
             "Name": "Factory Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "FactoryLankyHint": {
-            "Key": "FactoryLankyHint",
+        "factorylankyhint": {
+            "id": "factorylankyhint",
             "Name": "Factory Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "FactoryTinyHint": {
-            "Key": "FactoryTinyHint",
+        "factorytinyhint": {
+            "id": "factorytinyhint",
             "Name": "Factory Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "FactoryChunkyHint": {
-            "Key": "FactoryChunkyHint",
+        "factorychunkyhint": {
+            "id": "factorychunkyhint",
             "Name": "Factory Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "GalleonDonkeyHint": {
-            "Key": "GalleonDonkeyHint",
+        "galleondonkeyhint": {
+            "id": "galleondonkeyhint",
             "Name": "Galleon Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "GalleonDiddyHint": {
-            "Key": "GalleonDiddyHint",
+        "galleondiddyhint": {
+            "id": "galleondiddyhint",
             "Name": "Galleon Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "GalleonLankyHint": {
-            "Key": "GalleonLankyHint",
+        "galleonlankyhint": {
+            "id": "galleonlankyhint",
             "Name": "Galleon Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "GalleonTinyHint": {
-            "Key": "GalleonTinyHint",
+        "galleontinyhint": {
+            "id": "galleontinyhint",
             "Name": "Galleon Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "GalleonChunkyHint": {
-            "Key": "GalleonChunkyHint",
+        "galleonchunkyhint": {
+            "id": "galleonchunkyhint",
             "Name": "Galleon Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "ForestDonkeyHint": {
-            "Key": "ForestDonkeyHint",
+        "forestdonkeyhint": {
+            "id": "forestdonkeyhint",
             "Name": "Forest Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "ForestDiddyHint": {
-            "Key": "ForestDiddyHint",
+        "forestdiddyhint": {
+            "id": "forestdiddyhint",
             "Name": "Forest Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "ForestLankyHint": {
-            "Key": "ForestLankyHint",
+        "forestlankyhint": {
+            "id": "forestlankyhint",
             "Name": "Forest Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "ForestTinyHint": {
-            "Key": "ForestTinyHint",
+        "foresttinyhint": {
+            "id": "foresttinyhint",
             "Name": "Forest Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "ForestChunkyHint": {
-            "Key": "ForestChunkyHint",
+        "forestchunkyhint": {
+            "id": "forestchunkyhint",
             "Name": "Forest Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CavesDonkeyHint": {
-            "Key": "CavesDonkeyHint",
+        "cavesdonkeyhint": {
+            "id": "cavesdonkeyhint",
             "Name": "Caves Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CavesDiddyHint": {
-            "Key": "CavesDiddyHint",
+        "cavesdiddyhint": {
+            "id": "cavesdiddyhint",
             "Name": "Caves Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CavesLankyHint": {
-            "Key": "CavesLankyHint",
+        "caveslankyhint": {
+            "id": "caveslankyhint",
             "Name": "Caves Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CavesTinyHint": {
-            "Key": "CavesTinyHint",
+        "cavestinyhint": {
+            "id": "cavestinyhint",
             "Name": "Caves Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CavesChunkyHint": {
-            "Key": "CavesChunkyHint",
+        "caveschunkyhint": {
+            "id": "caveschunkyhint",
             "Name": "Caves Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CastleDonkeyHint": {
-            "Key": "CastleDonkeyHint",
+        "castledonkeyhint": {
+            "id": "castledonkeyhint",
             "Name": "Castle Donkey Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CastleDiddyHint": {
-            "Key": "CastleDiddyHint",
+        "castlediddyhint": {
+            "id": "castlediddyhint",
             "Name": "Castle Diddy Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CastleLankyHint": {
-            "Key": "CastleLankyHint",
+        "castlelankyhint": {
+            "id": "castlelankyhint",
             "Name": "Castle Lanky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CastleTinyHint": {
-            "Key": "CastleTinyHint",
+        "castletinyhint": {
+            "id": "castletinyhint",
             "Name": "Castle Tiny Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "CastleChunkyHint": {
-            "Key": "CastleChunkyHint",
+        "castlechunkyhint": {
+            "id": "castlechunkyhint",
             "Name": "Castle Chunky Hint",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Hint"
         },
-        "BananaHoard": {
-            "Key": "BananaHoard",
+        "bananahoard": {
+            "id": "bananahoard",
             "Name": "Banana Hoard",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Constant"
         },
-        "IslesDiddyBarrelSpawn": {
-            "Key": "IslesDiddyBarrelSpawn",
+        "islesdiddybarrelspawn": {
+            "id": "islesdiddybarrelspawn",
             "Name": "Isles Diddy Barrel Spawn",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesChunkyBarrelSpawn": {
-            "Key": "IslesChunkyBarrelSpawn",
+        "isleschunkybarrelspawn": {
+            "id": "isleschunkybarrelspawn",
             "Name": "Isles Chunky Barrel Spawn",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KLumsyTalkedTo": {
-            "Key": "KLumsyTalkedTo",
+        "klumsytalkedto": {
+            "id": "klumsytalkedto",
             "Name": "K Lumsy Talked To",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesKeyTurnedIn": {
-            "Key": "JapesKeyTurnedIn",
+        "japeskeyturnedin": {
+            "id": "japeskeyturnedin",
             "Name": "Japes Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecKeyTurnedIn": {
-            "Key": "AztecKeyTurnedIn",
+        "azteckeyturnedin": {
+            "id": "azteckeyturnedin",
             "Name": "Aztec Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryKeyTurnedIn": {
-            "Key": "FactoryKeyTurnedIn",
+        "factorykeyturnedin": {
+            "id": "factorykeyturnedin",
             "Name": "Factory Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonKeyTurnedIn": {
-            "Key": "GalleonKeyTurnedIn",
+        "galleonkeyturnedin": {
+            "id": "galleonkeyturnedin",
             "Name": "Galleon Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestKeyTurnedIn": {
-            "Key": "ForestKeyTurnedIn",
+        "forestkeyturnedin": {
+            "id": "forestkeyturnedin",
             "Name": "Forest Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesKeyTurnedIn": {
-            "Key": "CavesKeyTurnedIn",
+        "caveskeyturnedin": {
+            "id": "caveskeyturnedin",
             "Name": "Caves Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleKeyTurnedIn": {
-            "Key": "CastleKeyTurnedIn",
+        "castlekeyturnedin": {
+            "id": "castlekeyturnedin",
             "Name": "Castle Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmKeyTurnedIn": {
-            "Key": "HelmKeyTurnedIn",
+        "helmkeyturnedin": {
+            "id": "helmkeyturnedin",
             "Name": "Helm Key Turned In",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "TrainingBarrelsSpawned": {
-            "Key": "TrainingBarrelsSpawned",
+        "trainingbarrelsspawned": {
+            "id": "trainingbarrelsspawned",
             "Name": "Training Barrels Spawned",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "Rambi": {
-            "Key": "Rambi",
+        "rambi": {
+            "id": "rambi",
             "Name": "Rambi",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesFreeKongOpenGates": {
-            "Key": "JapesFreeKongOpenGates",
+        "japesfreekongopengates": {
+            "id": "japesfreekongopengates",
             "Name": "Japes Free Kong Open Gates",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesDonkeySwitch": {
-            "Key": "JapesDonkeySwitch",
+        "japesdonkeyswitch": {
+            "id": "japesdonkeyswitch",
             "Name": "Japes Donkey Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesDiddySwitch1": {
-            "Key": "JapesDiddySwitch1",
+        "japesdiddyswitch1": {
+            "id": "japesdiddyswitch1",
             "Name": "Japes Diddy Switch 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesLankySwitch": {
-            "Key": "JapesLankySwitch",
+        "japeslankyswitch": {
+            "id": "japeslankyswitch",
             "Name": "Japes Lanky Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesTinySwitch": {
-            "Key": "JapesTinySwitch",
+        "japestinyswitch": {
+            "id": "japestinyswitch",
             "Name": "Japes Tiny Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesChunkySwitch": {
-            "Key": "JapesChunkySwitch",
+        "japeschunkyswitch": {
+            "id": "japeschunkyswitch",
             "Name": "Japes Chunky Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesDiddySwitch2": {
-            "Key": "JapesDiddySwitch2",
+        "japesdiddyswitch2": {
+            "id": "japesdiddyswitch2",
             "Name": "Japes Diddy Switch 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FedTotem": {
-            "Key": "FedTotem",
+        "fedtotem": {
+            "id": "fedtotem",
             "Name": "Fed Totem",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LlamaFreed": {
-            "Key": "LlamaFreed",
+        "llamafreed": {
+            "id": "llamafreed",
             "Name": "Llama Freed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecGuitarPad": {
-            "Key": "AztecGuitarPad",
+        "aztecguitarpad": {
+            "id": "aztecguitarpad",
             "Name": "Aztec Guitar Pad",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecDonkeySwitch": {
-            "Key": "AztecDonkeySwitch",
+        "aztecdonkeyswitch": {
+            "id": "aztecdonkeyswitch",
             "Name": "Aztec Donkey Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecLlamaSpit": {
-            "Key": "AztecLlamaSpit",
+        "aztecllamaspit": {
+            "id": "aztecllamaspit",
             "Name": "Aztec Llama Spit",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecIceMelted": {
-            "Key": "AztecIceMelted",
+        "aztecicemelted": {
+            "id": "aztecicemelted",
             "Name": "Aztec Ice Melted",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HatchOpened": {
-            "Key": "HatchOpened",
+        "hatchopened": {
+            "id": "hatchopened",
             "Name": "Hatch Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "DartsPlayed": {
-            "Key": "DartsPlayed",
+        "dartsplayed": {
+            "id": "dartsplayed",
             "Name": "Darts Played",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "MainCoreActivated": {
-            "Key": "MainCoreActivated",
+        "maincoreactivated": {
+            "id": "maincoreactivated",
             "Name": "Main Core Activated",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ArcadeLeverSpawned": {
-            "Key": "ArcadeLeverSpawned",
+        "arcadeleverspawned": {
+            "id": "arcadeleverspawned",
             "Name": "Arcade Lever Spawned",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "TestingGateOpened": {
-            "Key": "TestingGateOpened",
+        "testinggateopened": {
+            "id": "testinggateopened",
             "Name": "Testing Gate Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "DiddyCoreSwitch": {
-            "Key": "DiddyCoreSwitch",
+        "diddycoreswitch": {
+            "id": "diddycoreswitch",
             "Name": "Diddy Core Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LankyCoreSwitch": {
-            "Key": "LankyCoreSwitch",
+        "lankycoreswitch": {
+            "id": "lankycoreswitch",
             "Name": "Lanky Core Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "TinyCoreSwitch": {
-            "Key": "TinyCoreSwitch",
+        "tinycoreswitch": {
+            "id": "tinycoreswitch",
             "Name": "Tiny Core Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ChunkyCoreSwitch": {
-            "Key": "ChunkyCoreSwitch",
+        "chunkycoreswitch": {
+            "id": "chunkycoreswitch",
             "Name": "Chunky Core Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonLankySwitch": {
-            "Key": "GalleonLankySwitch",
+        "galleonlankyswitch": {
+            "id": "galleonlankyswitch",
             "Name": "Galleon Lanky Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonTinySwitch": {
-            "Key": "GalleonTinySwitch",
+        "galleontinyswitch": {
+            "id": "galleontinyswitch",
             "Name": "Galleon Tiny Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LighthouseGateOpened": {
-            "Key": "LighthouseGateOpened",
+        "lighthousegateopened": {
+            "id": "lighthousegateopened",
             "Name": "Lighthouse Gate Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ShipyardGateOpened": {
-            "Key": "ShipyardGateOpened",
+        "shipyardgateopened": {
+            "id": "shipyardgateopened",
             "Name": "Shipyard Gate Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "WaterRaised": {
-            "Key": "WaterRaised",
+        "waterraised": {
+            "id": "waterraised",
             "Name": "Water Raised",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "WaterLowered": {
-            "Key": "WaterLowered",
+        "waterlowered": {
+            "id": "waterlowered",
             "Name": "Water Lowered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LighthouseEnguarde": {
-            "Key": "LighthouseEnguarde",
+        "lighthouseenguarde": {
+            "id": "lighthouseenguarde",
             "Name": "Lighthouse Enguarde",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "SealReleased": {
-            "Key": "SealReleased",
+        "sealreleased": {
+            "id": "sealreleased",
             "Name": "Seal Released",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "MechafishSummoned": {
-            "Key": "MechafishSummoned",
+        "mechafishsummoned": {
+            "id": "mechafishsummoned",
             "Name": "Mechafish Summoned",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonDonkeyPad": {
-            "Key": "GalleonDonkeyPad",
+        "galleondonkeypad": {
+            "id": "galleondonkeypad",
             "Name": "Galleon Donkey Pad",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonDiddyPad": {
-            "Key": "GalleonDiddyPad",
+        "galleondiddypad": {
+            "id": "galleondiddypad",
             "Name": "Galleon Diddy Pad",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonLankyPad": {
-            "Key": "GalleonLankyPad",
+        "galleonlankypad": {
+            "id": "galleonlankypad",
             "Name": "Galleon Lanky Pad",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonTinyPad": {
-            "Key": "GalleonTinyPad",
+        "galleontinypad": {
+            "id": "galleontinypad",
             "Name": "Galleon Tiny Pad",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonChunkyPad": {
-            "Key": "GalleonChunkyPad",
+        "galleonchunkypad": {
+            "id": "galleonchunkypad",
             "Name": "Galleon Chunky Pad",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ActivatedLighthouse": {
-            "Key": "ActivatedLighthouse",
+        "activatedlighthouse": {
+            "id": "activatedlighthouse",
             "Name": "Activated Lighthouse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ShipyardEnguarde": {
-            "Key": "ShipyardEnguarde",
+        "shipyardenguarde": {
+            "id": "shipyardenguarde",
             "Name": "Shipyard Enguarde",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ShipyardTreasureRoomOpened": {
-            "Key": "ShipyardTreasureRoomOpened",
+        "shipyardtreasureroomopened": {
+            "id": "shipyardtreasureroomopened",
             "Name": "Shipyard Treasure Room Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "PearlsCollected": {
-            "Key": "PearlsCollected",
+        "pearlscollected": {
+            "id": "pearlscollected",
             "Name": "Pearls Collected",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonCannonRoomOpened": {
-            "Key": "GalleonCannonRoomOpened",
+        "galleoncannonroomopened": {
+            "id": "galleoncannonroomopened",
             "Name": "Galleon Cannon Room Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "Day": {
-            "Key": "Day",
+        "day": {
+            "id": "day",
             "Name": "Day",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "Night": {
-            "Key": "Night",
+        "night": {
+            "id": "night",
             "Name": "Night",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "WormGatesOpened": {
-            "Key": "WormGatesOpened",
+        "wormgatesopened": {
+            "id": "wormgatesopened",
             "Name": "Worm Gates Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HollowTreeGateOpened": {
-            "Key": "HollowTreeGateOpened",
+        "hollowtreegateopened": {
+            "id": "hollowtreegateopened",
             "Name": "Hollow Tree Gate Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "MushroomCannonsSpawned": {
-            "Key": "MushroomCannonsSpawned",
+        "mushroomcannonsspawned": {
+            "id": "mushroomcannonsspawned",
             "Name": "Mushroom Cannons Spawned",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "DonkeyMushroomSwitch": {
-            "Key": "DonkeyMushroomSwitch",
+        "donkeymushroomswitch": {
+            "id": "donkeymushroomswitch",
             "Name": "Donkey Mushroom Switch",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GrinderActivated": {
-            "Key": "GrinderActivated",
+        "grinderactivated": {
+            "id": "grinderactivated",
             "Name": "Grinder Activated",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "MillBoxBroken": {
-            "Key": "MillBoxBroken",
+        "millboxbroken": {
+            "id": "millboxbroken",
             "Name": "Mill Box Broken",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ConveyorActivated": {
-            "Key": "ConveyorActivated",
+        "conveyoractivated": {
+            "id": "conveyoractivated",
             "Name": "Conveyor Activated",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "WinchRaised": {
-            "Key": "WinchRaised",
+        "winchraised": {
+            "id": "winchraised",
             "Name": "Winch Raised",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesSmallBoulderButton": {
-            "Key": "CavesSmallBoulderButton",
+        "cavessmallboulderbutton": {
+            "id": "cavessmallboulderbutton",
             "Name": "Caves Small Boulder Button",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesLargeBoulderButton": {
-            "Key": "CavesLargeBoulderButton",
+        "caveslargeboulderbutton": {
+            "id": "caveslargeboulderbutton",
             "Name": "Caves Large Boulder Button",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GiantKoshaDefeated": {
-            "Key": "GiantKoshaDefeated",
+        "giantkoshadefeated": {
+            "id": "giantkoshadefeated",
             "Name": "Giant Kosha Defeated",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesMonkeyportAccess": {
-            "Key": "CavesMonkeyportAccess",
+        "cavesmonkeyportaccess": {
+            "id": "cavesmonkeyportaccess",
             "Name": "Caves Monkeyport Access",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleTreeOpened": {
-            "Key": "CastleTreeOpened",
+        "castletreeopened": {
+            "id": "castletreeopened",
             "Name": "Castle Tree Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmDoorsOpened": {
-            "Key": "HelmDoorsOpened",
+        "helmdoorsopened": {
+            "id": "helmdoorsopened",
             "Name": "Helm Doors Opened",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmGatesPunched": {
-            "Key": "HelmGatesPunched",
+        "helmgatespunched": {
+            "id": "helmgatespunched",
             "Name": "Helm Gates Punched",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmDonkeyDone": {
-            "Key": "HelmDonkeyDone",
+        "helmdonkeydone": {
+            "id": "helmdonkeydone",
             "Name": "Helm Donkey Done",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmChunkyDone": {
-            "Key": "HelmChunkyDone",
+        "helmchunkydone": {
+            "id": "helmchunkydone",
             "Name": "Helm Chunky Done",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmTinyDone": {
-            "Key": "HelmTinyDone",
+        "helmtinydone": {
+            "id": "helmtinydone",
             "Name": "Helm Tiny Done",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmLankyDone": {
-            "Key": "HelmLankyDone",
+        "helmlankydone": {
+            "id": "helmlankydone",
             "Name": "Helm Lanky Done",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmDiddyDone": {
-            "Key": "HelmDiddyDone",
+        "helmdiddydone": {
+            "id": "helmdiddydone",
             "Name": "Helm Diddy Done",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmFinished": {
-            "Key": "HelmFinished",
+        "helmfinished": {
+            "id": "helmfinished",
             "Name": "Helm Finished",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDonkey": {
-            "Key": "KRoolDonkey",
+        "krooldonkey": {
+            "id": "krooldonkey",
             "Name": "K Rool Donkey",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDiddy": {
-            "Key": "KRoolDiddy",
+        "krooldiddy": {
+            "id": "krooldiddy",
             "Name": "K Rool Diddy",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolLanky": {
-            "Key": "KRoolLanky",
+        "kroollanky": {
+            "id": "kroollanky",
             "Name": "K Rool Lanky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolTiny": {
-            "Key": "KRoolTiny",
+        "krooltiny": {
+            "id": "krooltiny",
             "Name": "K Rool Tiny",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolChunky": {
-            "Key": "KRoolChunky",
+        "kroolchunky": {
+            "id": "kroolchunky",
             "Name": "K Rool Chunky",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDillo1": {
-            "Key": "KRoolDillo1",
+        "krooldillo1": {
+            "id": "krooldillo1",
             "Name": "K Rool Dillo 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDog1": {
-            "Key": "KRoolDog1",
+        "krooldog1": {
+            "id": "krooldog1",
             "Name": "K Rool Dog 1",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolJack": {
-            "Key": "KRoolJack",
+        "krooljack": {
+            "id": "krooljack",
             "Name": "K Rool Jack",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolPufftoss": {
-            "Key": "KRoolPufftoss",
+        "kroolpufftoss": {
+            "id": "kroolpufftoss",
             "Name": "K Rool Pufftoss",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDog2": {
-            "Key": "KRoolDog2",
+        "krooldog2": {
+            "id": "krooldog2",
             "Name": "K Rool Dog 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDillo2": {
-            "Key": "KRoolDillo2",
+        "krooldillo2": {
+            "id": "krooldillo2",
             "Name": "K Rool Dillo 2",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolKKO": {
-            "Key": "KRoolKKO",
+        "kroolkko": {
+            "id": "kroolkko",
             "Name": "K Rool KKO",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "KRoolDefeated": {
-            "Key": "KRoolDefeated",
+        "krooldefeated": {
+            "id": "krooldefeated",
             "Name": "K Rool Defeated",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "DonkeyVerse": {
-            "Key": "DonkeyVerse",
+        "donkeyverse": {
+            "id": "donkeyverse",
             "Name": "Donkey Verse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "DiddyVerse": {
-            "Key": "DiddyVerse",
+        "diddyverse": {
+            "id": "diddyverse",
             "Name": "Diddy Verse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LankyVerse": {
-            "Key": "LankyVerse",
+        "lankyverse": {
+            "id": "lankyverse",
             "Name": "Lanky Verse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "TinyVerse": {
-            "Key": "TinyVerse",
+        "tinyverse": {
+            "id": "tinyverse",
             "Name": "Tiny Verse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ChunkyVerse": {
-            "Key": "ChunkyVerse",
+        "chunkyverse": {
+            "id": "chunkyverse",
             "Name": "Chunky Verse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FridgeVerse": {
-            "Key": "FridgeVerse",
+        "fridgeverse": {
+            "id": "fridgeverse",
             "Name": "Fridge Verse",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesEntered": {
-            "Key": "JapesEntered",
+        "japesentered": {
+            "id": "japesentered",
             "Name": "Japes Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecEntered": {
-            "Key": "AztecEntered",
+        "aztecentered": {
+            "id": "aztecentered",
             "Name": "Aztec Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryEntered": {
-            "Key": "FactoryEntered",
+        "factoryentered": {
+            "id": "factoryentered",
             "Name": "Factory Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonEntered": {
-            "Key": "GalleonEntered",
+        "galleonentered": {
+            "id": "galleonentered",
             "Name": "Galleon Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestEntered": {
-            "Key": "ForestEntered",
+        "forestentered": {
+            "id": "forestentered",
             "Name": "Forest Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesEntered": {
-            "Key": "CavesEntered",
+        "cavesentered": {
+            "id": "cavesentered",
             "Name": "Caves Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleEntered": {
-            "Key": "CastleEntered",
+        "castleentered": {
+            "id": "castleentered",
             "Name": "Castle Entered",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW1aTagged": {
-            "Key": "JapesW1aTagged",
+        "japesw1atagged": {
+            "id": "japesw1atagged",
             "Name": "Japes W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW1bTagged": {
-            "Key": "JapesW1bTagged",
+        "japesw1btagged": {
+            "id": "japesw1btagged",
             "Name": "Japes W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW2aTagged": {
-            "Key": "JapesW2aTagged",
+        "japesw2atagged": {
+            "id": "japesw2atagged",
             "Name": "Japes W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW2bTagged": {
-            "Key": "JapesW2bTagged",
+        "japesw2btagged": {
+            "id": "japesw2btagged",
             "Name": "Japes W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW3aTagged": {
-            "Key": "JapesW3aTagged",
+        "japesw3atagged": {
+            "id": "japesw3atagged",
             "Name": "Japes W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW3bTagged": {
-            "Key": "JapesW3bTagged",
+        "japesw3btagged": {
+            "id": "japesw3btagged",
             "Name": "Japes W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW4aTagged": {
-            "Key": "JapesW4aTagged",
+        "japesw4atagged": {
+            "id": "japesw4atagged",
             "Name": "Japes W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW4bTagged": {
-            "Key": "JapesW4bTagged",
+        "japesw4btagged": {
+            "id": "japesw4btagged",
             "Name": "Japes W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW5aTagged": {
-            "Key": "JapesW5aTagged",
+        "japesw5atagged": {
+            "id": "japesw5atagged",
             "Name": "Japes W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesW5bTagged": {
-            "Key": "JapesW5bTagged",
+        "japesw5btagged": {
+            "id": "japesw5btagged",
             "Name": "Japes W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW1aTagged": {
-            "Key": "AztecW1aTagged",
+        "aztecw1atagged": {
+            "id": "aztecw1atagged",
             "Name": "Aztec W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW1bTagged": {
-            "Key": "AztecW1bTagged",
+        "aztecw1btagged": {
+            "id": "aztecw1btagged",
             "Name": "Aztec W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW2aTagged": {
-            "Key": "AztecW2aTagged",
+        "aztecw2atagged": {
+            "id": "aztecw2atagged",
             "Name": "Aztec W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW2bTagged": {
-            "Key": "AztecW2bTagged",
+        "aztecw2btagged": {
+            "id": "aztecw2btagged",
             "Name": "Aztec W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW3aTagged": {
-            "Key": "AztecW3aTagged",
+        "aztecw3atagged": {
+            "id": "aztecw3atagged",
             "Name": "Aztec W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW3bTagged": {
-            "Key": "AztecW3bTagged",
+        "aztecw3btagged": {
+            "id": "aztecw3btagged",
             "Name": "Aztec W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW4aTagged": {
-            "Key": "AztecW4aTagged",
+        "aztecw4atagged": {
+            "id": "aztecw4atagged",
             "Name": "Aztec W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW4bTagged": {
-            "Key": "AztecW4bTagged",
+        "aztecw4btagged": {
+            "id": "aztecw4btagged",
             "Name": "Aztec W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW5aTagged": {
-            "Key": "AztecW5aTagged",
+        "aztecw5atagged": {
+            "id": "aztecw5atagged",
             "Name": "Aztec W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecW5bTagged": {
-            "Key": "AztecW5bTagged",
+        "aztecw5btagged": {
+            "id": "aztecw5btagged",
             "Name": "Aztec W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LlamaW1aTagged": {
-            "Key": "LlamaW1aTagged",
+        "llamaw1atagged": {
+            "id": "llamaw1atagged",
             "Name": "Llama W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LlamaW1bTagged": {
-            "Key": "LlamaW1bTagged",
+        "llamaw1btagged": {
+            "id": "llamaw1btagged",
             "Name": "Llama W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LlamaW2aTagged": {
-            "Key": "LlamaW2aTagged",
+        "llamaw2atagged": {
+            "id": "llamaw2atagged",
             "Name": "Llama W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "LlamaW2bTagged": {
-            "Key": "LlamaW2bTagged",
+        "llamaw2btagged": {
+            "id": "llamaw2btagged",
             "Name": "Llama W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW1aTagged": {
-            "Key": "FactoryW1aTagged",
+        "factoryw1atagged": {
+            "id": "factoryw1atagged",
             "Name": "Factory W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW1bTagged": {
-            "Key": "FactoryW1bTagged",
+        "factoryw1btagged": {
+            "id": "factoryw1btagged",
             "Name": "Factory W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW2aTagged": {
-            "Key": "FactoryW2aTagged",
+        "factoryw2atagged": {
+            "id": "factoryw2atagged",
             "Name": "Factory W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW2bTagged": {
-            "Key": "FactoryW2bTagged",
+        "factoryw2btagged": {
+            "id": "factoryw2btagged",
             "Name": "Factory W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW3aTagged": {
-            "Key": "FactoryW3aTagged",
+        "factoryw3atagged": {
+            "id": "factoryw3atagged",
             "Name": "Factory W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW3bTagged": {
-            "Key": "FactoryW3bTagged",
+        "factoryw3btagged": {
+            "id": "factoryw3btagged",
             "Name": "Factory W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW4aTagged": {
-            "Key": "FactoryW4aTagged",
+        "factoryw4atagged": {
+            "id": "factoryw4atagged",
             "Name": "Factory W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW4bTagged": {
-            "Key": "FactoryW4bTagged",
+        "factoryw4btagged": {
+            "id": "factoryw4btagged",
             "Name": "Factory W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW5aTagged": {
-            "Key": "FactoryW5aTagged",
+        "factoryw5atagged": {
+            "id": "factoryw5atagged",
             "Name": "Factory W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryW5bTagged": {
-            "Key": "FactoryW5bTagged",
+        "factoryw5btagged": {
+            "id": "factoryw5btagged",
             "Name": "Factory W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW1aTagged": {
-            "Key": "GalleonW1aTagged",
+        "galleonw1atagged": {
+            "id": "galleonw1atagged",
             "Name": "Galleon W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW1bTagged": {
-            "Key": "GalleonW1bTagged",
+        "galleonw1btagged": {
+            "id": "galleonw1btagged",
             "Name": "Galleon W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW2aTagged": {
-            "Key": "GalleonW2aTagged",
+        "galleonw2atagged": {
+            "id": "galleonw2atagged",
             "Name": "Galleon W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW2bTagged": {
-            "Key": "GalleonW2bTagged",
+        "galleonw2btagged": {
+            "id": "galleonw2btagged",
             "Name": "Galleon W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW3aTagged": {
-            "Key": "GalleonW3aTagged",
+        "galleonw3atagged": {
+            "id": "galleonw3atagged",
             "Name": "Galleon W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW3bTagged": {
-            "Key": "GalleonW3bTagged",
+        "galleonw3btagged": {
+            "id": "galleonw3btagged",
             "Name": "Galleon W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW4aTagged": {
-            "Key": "GalleonW4aTagged",
+        "galleonw4atagged": {
+            "id": "galleonw4atagged",
             "Name": "Galleon W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW4bTagged": {
-            "Key": "GalleonW4bTagged",
+        "galleonw4btagged": {
+            "id": "galleonw4btagged",
             "Name": "Galleon W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW5aTagged": {
-            "Key": "GalleonW5aTagged",
+        "galleonw5atagged": {
+            "id": "galleonw5atagged",
             "Name": "Galleon W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonW5bTagged": {
-            "Key": "GalleonW5bTagged",
+        "galleonw5btagged": {
+            "id": "galleonw5btagged",
             "Name": "Galleon W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW1aTagged": {
-            "Key": "ForestW1aTagged",
+        "forestw1atagged": {
+            "id": "forestw1atagged",
             "Name": "Forest W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW1bTagged": {
-            "Key": "ForestW1bTagged",
+        "forestw1btagged": {
+            "id": "forestw1btagged",
             "Name": "Forest W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW2aTagged": {
-            "Key": "ForestW2aTagged",
+        "forestw2atagged": {
+            "id": "forestw2atagged",
             "Name": "Forest W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW2bTagged": {
-            "Key": "ForestW2bTagged",
+        "forestw2btagged": {
+            "id": "forestw2btagged",
             "Name": "Forest W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW3aTagged": {
-            "Key": "ForestW3aTagged",
+        "forestw3atagged": {
+            "id": "forestw3atagged",
             "Name": "Forest W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW3bTagged": {
-            "Key": "ForestW3bTagged",
+        "forestw3btagged": {
+            "id": "forestw3btagged",
             "Name": "Forest W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW4aTagged": {
-            "Key": "ForestW4aTagged",
+        "forestw4atagged": {
+            "id": "forestw4atagged",
             "Name": "Forest W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW4bTagged": {
-            "Key": "ForestW4bTagged",
+        "forestw4btagged": {
+            "id": "forestw4btagged",
             "Name": "Forest W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW5aTagged": {
-            "Key": "ForestW5aTagged",
+        "forestw5atagged": {
+            "id": "forestw5atagged",
             "Name": "Forest W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestW5bTagged": {
-            "Key": "ForestW5bTagged",
+        "forestw5btagged": {
+            "id": "forestw5btagged",
             "Name": "Forest W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW1aTagged": {
-            "Key": "CavesW1aTagged",
+        "cavesw1atagged": {
+            "id": "cavesw1atagged",
             "Name": "Caves W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW1bTagged": {
-            "Key": "CavesW1bTagged",
+        "cavesw1btagged": {
+            "id": "cavesw1btagged",
             "Name": "Caves W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW2aTagged": {
-            "Key": "CavesW2aTagged",
+        "cavesw2atagged": {
+            "id": "cavesw2atagged",
             "Name": "Caves W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW2bTagged": {
-            "Key": "CavesW2bTagged",
+        "cavesw2btagged": {
+            "id": "cavesw2btagged",
             "Name": "Caves W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW3aTagged": {
-            "Key": "CavesW3aTagged",
+        "cavesw3atagged": {
+            "id": "cavesw3atagged",
             "Name": "Caves W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW3bTagged": {
-            "Key": "CavesW3bTagged",
+        "cavesw3btagged": {
+            "id": "cavesw3btagged",
             "Name": "Caves W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW4aTagged": {
-            "Key": "CavesW4aTagged",
+        "cavesw4atagged": {
+            "id": "cavesw4atagged",
             "Name": "Caves W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW4bTagged": {
-            "Key": "CavesW4bTagged",
+        "cavesw4btagged": {
+            "id": "cavesw4btagged",
             "Name": "Caves W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW5aTagged": {
-            "Key": "CavesW5aTagged",
+        "cavesw5atagged": {
+            "id": "cavesw5atagged",
             "Name": "Caves W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesW5bTagged": {
-            "Key": "CavesW5bTagged",
+        "cavesw5btagged": {
+            "id": "cavesw5btagged",
             "Name": "Caves W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW1aTagged": {
-            "Key": "CastleW1aTagged",
+        "castlew1atagged": {
+            "id": "castlew1atagged",
             "Name": "Castle W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW1bTagged": {
-            "Key": "CastleW1bTagged",
+        "castlew1btagged": {
+            "id": "castlew1btagged",
             "Name": "Castle W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW2aTagged": {
-            "Key": "CastleW2aTagged",
+        "castlew2atagged": {
+            "id": "castlew2atagged",
             "Name": "Castle W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW2bTagged": {
-            "Key": "CastleW2bTagged",
+        "castlew2btagged": {
+            "id": "castlew2btagged",
             "Name": "Castle W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW3aTagged": {
-            "Key": "CastleW3aTagged",
+        "castlew3atagged": {
+            "id": "castlew3atagged",
             "Name": "Castle W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW3bTagged": {
-            "Key": "CastleW3bTagged",
+        "castlew3btagged": {
+            "id": "castlew3btagged",
             "Name": "Castle W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW4aTagged": {
-            "Key": "CastleW4aTagged",
+        "castlew4atagged": {
+            "id": "castlew4atagged",
             "Name": "Castle W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW4bTagged": {
-            "Key": "CastleW4bTagged",
+        "castlew4btagged": {
+            "id": "castlew4btagged",
             "Name": "Castle W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW5aTagged": {
-            "Key": "CastleW5aTagged",
+        "castlew5atagged": {
+            "id": "castlew5atagged",
             "Name": "Castle W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleW5bTagged": {
-            "Key": "CastleW5bTagged",
+        "castlew5btagged": {
+            "id": "castlew5btagged",
             "Name": "Castle W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CryptW1aTagged": {
-            "Key": "CryptW1aTagged",
+        "cryptw1atagged": {
+            "id": "cryptw1atagged",
             "Name": "Crypt W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CryptW1bTagged": {
-            "Key": "CryptW1bTagged",
+        "cryptw1btagged": {
+            "id": "cryptw1btagged",
             "Name": "Crypt W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CryptW2aTagged": {
-            "Key": "CryptW2aTagged",
+        "cryptw2atagged": {
+            "id": "cryptw2atagged",
             "Name": "Crypt W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CryptW2bTagged": {
-            "Key": "CryptW2bTagged",
+        "cryptw2btagged": {
+            "id": "cryptw2btagged",
             "Name": "Crypt W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CryptW3aTagged": {
-            "Key": "CryptW3aTagged",
+        "cryptw3atagged": {
+            "id": "cryptw3atagged",
             "Name": "Crypt W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CryptW3bTagged": {
-            "Key": "CryptW3bTagged",
+        "cryptw3btagged": {
+            "id": "cryptw3btagged",
             "Name": "Crypt W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW1aTagged": {
-            "Key": "IslesW1aTagged",
+        "islesw1atagged": {
+            "id": "islesw1atagged",
             "Name": "Isles W1a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW1bTagged": {
-            "Key": "IslesW1bTagged",
+        "islesw1btagged": {
+            "id": "islesw1btagged",
             "Name": "Isles W1b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW2aTagged": {
-            "Key": "IslesW2aTagged",
+        "islesw2atagged": {
+            "id": "islesw2atagged",
             "Name": "Isles W2a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW2bTagged": {
-            "Key": "IslesW2bTagged",
+        "islesw2btagged": {
+            "id": "islesw2btagged",
             "Name": "Isles W2b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW3aTagged": {
-            "Key": "IslesW3aTagged",
+        "islesw3atagged": {
+            "id": "islesw3atagged",
             "Name": "Isles W3a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW3bTagged": {
-            "Key": "IslesW3bTagged",
+        "islesw3btagged": {
+            "id": "islesw3btagged",
             "Name": "Isles W3b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW4aTagged": {
-            "Key": "IslesW4aTagged",
+        "islesw4atagged": {
+            "id": "islesw4atagged",
             "Name": "Isles W4a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW4bTagged": {
-            "Key": "IslesW4bTagged",
+        "islesw4btagged": {
+            "id": "islesw4btagged",
             "Name": "Isles W4b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW5aTagged": {
-            "Key": "IslesW5aTagged",
+        "islesw5atagged": {
+            "id": "islesw5atagged",
             "Name": "Isles W5a Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "IslesW5bTagged": {
-            "Key": "IslesW5bTagged",
+        "islesw5btagged": {
+            "id": "islesw5btagged",
             "Name": "Isles W5b Tagged",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "JapesLobbyAccessed": {
-            "Key": "JapesLobbyAccessed",
+        "japeslobbyaccessed": {
+            "id": "japeslobbyaccessed",
             "Name": "Japes Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "AztecLobbyAccessed": {
-            "Key": "AztecLobbyAccessed",
+        "azteclobbyaccessed": {
+            "id": "azteclobbyaccessed",
             "Name": "Aztec Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "FactoryLobbyAccessed": {
-            "Key": "FactoryLobbyAccessed",
+        "factorylobbyaccessed": {
+            "id": "factorylobbyaccessed",
             "Name": "Factory Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "GalleonLobbyAccessed": {
-            "Key": "GalleonLobbyAccessed",
+        "galleonlobbyaccessed": {
+            "id": "galleonlobbyaccessed",
             "Name": "Galleon Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "ForestLobbyAccessed": {
-            "Key": "ForestLobbyAccessed",
+        "forestlobbyaccessed": {
+            "id": "forestlobbyaccessed",
             "Name": "Forest Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CavesLobbyAccessed": {
-            "Key": "CavesLobbyAccessed",
+        "caveslobbyaccessed": {
+            "id": "caveslobbyaccessed",
             "Name": "Caves Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "CastleLobbyAccessed": {
-            "Key": "CastleLobbyAccessed",
+        "castlelobbyaccessed": {
+            "id": "castlelobbyaccessed",
             "Name": "Castle Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmLobbyAccessed": {
-            "Key": "HelmLobbyAccessed",
+        "helmlobbyaccessed": {
+            "id": "helmlobbyaccessed",
             "Name": "Helm Lobby Accessed",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         },
-        "HelmLobbyTraversable": {
-            "Key": "HelmLobbyTraversable",
+        "helmlobbytraversable": {
+            "id": "helmlobbytraversable",
             "Name": "Helm Lobby Traversable",
-            "AltNames": [],
+            "Class": "Item",
             "Type": "Event"
         }
     }

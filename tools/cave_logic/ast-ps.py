@@ -121,7 +121,8 @@ def create_donk_vanilla(build_data, deltas):
     return {
         "world": deep_merge(deltas['world'], {"edges": edges, "items": itemRegistry}),
         "locationGraph": deep_merge(build_data['logic'], deltas['locationGraph']),
-        "checkRegistry": checkRegistry,
+        # "checkRegistry": checkRegistry,
+        "checkRegistry": deltas['checks_edges'],
     }
 
 
