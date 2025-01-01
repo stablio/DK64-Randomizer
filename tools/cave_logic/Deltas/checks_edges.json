@@ -29038,7 +29038,7 @@
         "traininggroundsdonkeycoin0": {
             "id": "traininggroundsdonkeycoin0",
             "Name": "Training Grounds Donkey Coin 0",
-            "source": "rr-training grounds",
+            "source": "rr-traininggrounds",
             "target": "coin_isles_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29053,7 +29053,7 @@
         "junglejapesstartdonkeybanana0": {
             "id": "junglejapesstartdonkeybanana0",
             "Name": "Jungle Japes Start Donkey Banana 0",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "banana_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29104,7 +29104,7 @@
         "junglejapesstartdonkeybunch1": {
             "id": "junglejapesstartdonkeybunch1",
             "Name": "Jungle Japes Start Donkey Bunch 1",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29119,7 +29119,7 @@
         "junglejapesstartdonkeyballoon2": {
             "id": "junglejapesstartdonkeyballoon2",
             "Name": "Jungle Japes Start Donkey Balloon 2",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "balloon_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29141,7 +29141,7 @@
         "junglejapesstartdiddybanana3": {
             "id": "junglejapesstartdiddybanana3",
             "Name": "Jungle Japes Start Diddy Banana 3",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "banana_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29156,7 +29156,7 @@
         "junglejapesstartdiddybunch4": {
             "id": "junglejapesstartdiddybunch4",
             "Name": "Jungle Japes Start Diddy Bunch 4",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "bunch_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29178,7 +29178,7 @@
         "junglejapesstartdiddybunch5": {
             "id": "junglejapesstartdiddybunch5",
             "Name": "Jungle Japes Start Diddy Bunch 5",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "bunch_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29200,7 +29200,7 @@
         "junglejapesstartlankybanana6": {
             "id": "junglejapesstartlankybanana6",
             "Name": "Jungle Japes Start Lanky Banana 6",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "banana_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29222,7 +29222,7 @@
         "junglejapesstarttinybanana7": {
             "id": "junglejapesstarttinybanana7",
             "Name": "Jungle Japes Start Tiny Banana 7",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "banana_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29237,7 +29237,7 @@
         "junglejapesstartchunkybanana8": {
             "id": "junglejapesstartchunkybanana8",
             "Name": "Jungle Japes Start Chunky Banana 8",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "banana_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29252,7 +29252,7 @@
         "junglejapesstartdonkeycoin9": {
             "id": "junglejapesstartdonkeycoin9",
             "Name": "Jungle Japes Start Donkey Coin 9",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "coin_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29267,7 +29267,7 @@
         "junglejapesstartdonkeycoin10": {
             "id": "junglejapesstartdonkeycoin10",
             "Name": "Jungle Japes Start Donkey Coin 10",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "coin_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29303,7 +29303,7 @@
         "junglejapesstartdiddycoin11": {
             "id": "junglejapesstartdiddycoin11",
             "Name": "Jungle Japes Start Diddy Coin 11",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "coin_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29325,7 +29325,7 @@
         "junglejapesstartlankycoin12": {
             "id": "junglejapesstartlankycoin12",
             "Name": "Jungle Japes Start Lanky Coin 12",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "coin_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29347,7 +29347,7 @@
         "junglejapesstartchunkycoin13": {
             "id": "junglejapesstartchunkycoin13",
             "Name": "Jungle Japes Start Chunky Coin 13",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "coin_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29362,7 +29362,7 @@
         "junglejapesstartchunkycoin14": {
             "id": "junglejapesstartchunkycoin14",
             "Name": "Jungle Japes Start Chunky Coin 14",
-            "source": "rr-jungle japes start",
+            "source": "rr-junglejapesstart",
             "target": "coin_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29384,7 +29384,7 @@
         "junglejapeshilldonkeybunch0": {
             "id": "junglejapeshilldonkeybunch0",
             "Name": "Jungle Japes Hill Donkey Bunch 0",
-            "source": "rr-jungle japes hill",
+            "source": "rr-junglejapeshill",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29406,7 +29406,7 @@
         "junglejapeshilltopdonkeybanana0": {
             "id": "junglejapeshilltopdonkeybanana0",
             "Name": "Jungle Japes Hilltop Donkey Banana 0",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "banana_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29421,7 +29421,7 @@
         "junglejapeshilltopdonkeybunch1": {
             "id": "junglejapeshilltopdonkeybunch1",
             "Name": "Jungle Japes Hilltop Donkey Bunch 1",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29443,7 +29443,7 @@
         "junglejapeshilltopdonkeyballoon2": {
             "id": "junglejapeshilltopdonkeyballoon2",
             "Name": "Jungle Japes Hilltop Donkey Balloon 2",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "balloon_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29465,7 +29465,7 @@
         "junglejapeshilltopdiddybanana3": {
             "id": "junglejapeshilltopdiddybanana3",
             "Name": "Jungle Japes Hilltop Diddy Banana 3",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "banana_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29480,7 +29480,7 @@
         "junglejapeshilltoplankybunch4": {
             "id": "junglejapeshilltoplankybunch4",
             "Name": "Jungle Japes Hilltop Lanky Bunch 4",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29502,7 +29502,7 @@
         "junglejapeshilltoplankybunch5": {
             "id": "junglejapeshilltoplankybunch5",
             "Name": "Jungle Japes Hilltop Lanky Bunch 5",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29517,7 +29517,7 @@
         "junglejapeshilltopchunkybunch6": {
             "id": "junglejapeshilltopchunkybunch6",
             "Name": "Jungle Japes Hilltop Chunky Bunch 6",
-            "source": "rr-jungle japes hilltop",
+            "source": "rr-junglejapeshilltop",
             "target": "bunch_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29532,7 +29532,7 @@
         "junglejapescannonplatformdonkeybunch0": {
             "id": "junglejapescannonplatformdonkeybunch0",
             "Name": "Jungle Japes Cannon Platform Donkey Bunch 0",
-            "source": "rr-jungle japes cannon platform",
+            "source": "rr-junglejapescannonplatform",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29554,7 +29554,7 @@
         "junglejapescannonplatformdiddycoin1": {
             "id": "junglejapescannonplatformdiddycoin1",
             "Name": "Jungle Japes Cannon Platform Diddy Coin 1",
-            "source": "rr-jungle japes cannon platform",
+            "source": "rr-junglejapescannonplatform",
             "target": "coin_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29569,7 +29569,7 @@
         "junglejapesmaindonkeybunch0": {
             "id": "junglejapesmaindonkeybunch0",
             "Name": "Jungle Japes Main Donkey Bunch 0",
-            "source": "rr-jungle japes main",
+            "source": "rr-junglejapesmain",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29584,7 +29584,7 @@
         "junglejapesmaindiddybunch1": {
             "id": "junglejapesmaindiddybunch1",
             "Name": "Jungle Japes Main Diddy Bunch 1",
-            "source": "rr-jungle japes main",
+            "source": "rr-junglejapesmain",
             "target": "bunch_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29606,7 +29606,7 @@
         "junglejapesmainlankybanana2": {
             "id": "junglejapesmainlankybanana2",
             "Name": "Jungle Japes Main Lanky Banana 2",
-            "source": "rr-jungle japes main",
+            "source": "rr-junglejapesmain",
             "target": "banana_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29628,7 +29628,7 @@
         "junglejapesmainlankycoin3": {
             "id": "junglejapesmainlankycoin3",
             "Name": "Jungle Japes Main Lanky Coin 3",
-            "source": "rr-jungle japes main",
+            "source": "rr-junglejapesmain",
             "target": "coin_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29643,7 +29643,7 @@
         "japest&salcovedonkeybunch0": {
             "id": "japest&salcovedonkeybunch0",
             "Name": "Japes T&S Alcove Donkey Bunch 0",
-            "source": "rr-japes t&s alcove",
+            "source": "rr-japest&salcove",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29658,7 +29658,7 @@
         "japesbaboonblastdonkeybunch0": {
             "id": "japesbaboonblastdonkeybunch0",
             "Name": "Japes Baboon Blast Donkey Bunch 0",
-            "source": "rr-japes baboon blast",
+            "source": "rr-japesbaboonblast",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29673,7 +29673,7 @@
         "japesbaboonblastdonkeycoin1": {
             "id": "japesbaboonblastdonkeycoin1",
             "Name": "Japes Baboon Blast Donkey Coin 1",
-            "source": "rr-japes baboon blast",
+            "source": "rr-japesbaboonblast",
             "target": "coin_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29688,7 +29688,7 @@
         "japesbeyondcoconutgate1chunkybanana0": {
             "id": "japesbeyondcoconutgate1chunkybanana0",
             "Name": "Japes Beyond Coconut Gate 1 Chunky Banana 0",
-            "source": "rr-japes beyond coconut gate 1",
+            "source": "rr-japesbeyondcoconutgate1",
             "target": "banana_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29703,7 +29703,7 @@
         "japesbeyondcoconutgate1donkeycoin1": {
             "id": "japesbeyondcoconutgate1donkeycoin1",
             "Name": "Japes Beyond Coconut Gate 1 Donkey Coin 1",
-            "source": "rr-japes beyond coconut gate 1",
+            "source": "rr-japesbeyondcoconutgate1",
             "target": "coin_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29718,7 +29718,7 @@
         "japesbeyondcoconutgate1tinycoin2": {
             "id": "japesbeyondcoconutgate1tinycoin2",
             "Name": "Japes Beyond Coconut Gate 1 Tiny Coin 2",
-            "source": "rr-japes beyond coconut gate 1",
+            "source": "rr-japesbeyondcoconutgate1",
             "target": "coin_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29733,7 +29733,7 @@
         "japesbeyondcoconutgate2donkeybanana0": {
             "id": "japesbeyondcoconutgate2donkeybanana0",
             "Name": "Japes Beyond Coconut Gate 2 Donkey Banana 0",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "banana_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29748,7 +29748,7 @@
         "japesbeyondcoconutgate2donkeybunch1": {
             "id": "japesbeyondcoconutgate2donkeybunch1",
             "Name": "Japes Beyond Coconut Gate 2 Donkey Bunch 1",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29781,7 +29781,7 @@
         "japesbeyondcoconutgate2donkeybunch2": {
             "id": "japesbeyondcoconutgate2donkeybunch2",
             "Name": "Japes Beyond Coconut Gate 2 Donkey Bunch 2",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29810,7 +29810,7 @@
         "japesbeyondcoconutgate2donkeyballoon3": {
             "id": "japesbeyondcoconutgate2donkeyballoon3",
             "Name": "Japes Beyond Coconut Gate 2 Donkey Balloon 3",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "balloon_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29832,7 +29832,7 @@
         "japesbeyondcoconutgate2diddybanana4": {
             "id": "japesbeyondcoconutgate2diddybanana4",
             "Name": "Japes Beyond Coconut Gate 2 Diddy Banana 4",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "banana_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29847,7 +29847,7 @@
         "japesbeyondcoconutgate2diddybunch5": {
             "id": "japesbeyondcoconutgate2diddybunch5",
             "Name": "Japes Beyond Coconut Gate 2 Diddy Bunch 5",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29876,7 +29876,7 @@
         "japesbeyondcoconutgate2lankybanana6": {
             "id": "japesbeyondcoconutgate2lankybanana6",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Banana 6",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "banana_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29891,7 +29891,7 @@
         "japesbeyondcoconutgate2lankybanana7": {
             "id": "japesbeyondcoconutgate2lankybanana7",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Banana 7",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "banana_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29913,7 +29913,7 @@
         "japesbeyondcoconutgate2lankybunch8": {
             "id": "japesbeyondcoconutgate2lankybunch8",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Bunch 8",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29935,7 +29935,7 @@
         "japesbeyondcoconutgate2lankybunch9": {
             "id": "japesbeyondcoconutgate2lankybunch9",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Bunch 9",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29957,7 +29957,7 @@
         "japesbeyondcoconutgate2lankybunch10": {
             "id": "japesbeyondcoconutgate2lankybunch10",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Bunch 10",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -29986,7 +29986,7 @@
         "japesbeyondcoconutgate2lankyballoon11": {
             "id": "japesbeyondcoconutgate2lankyballoon11",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Balloon 11",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "balloon_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30008,7 +30008,7 @@
         "japesbeyondcoconutgate2lankyballoon12": {
             "id": "japesbeyondcoconutgate2lankyballoon12",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Balloon 12",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "balloon_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30030,7 +30030,7 @@
         "japesbeyondcoconutgate2tinybunch13": {
             "id": "japesbeyondcoconutgate2tinybunch13",
             "Name": "Japes Beyond Coconut Gate 2 Tiny Bunch 13",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30052,7 +30052,7 @@
         "japesbeyondcoconutgate2tinybunch14": {
             "id": "japesbeyondcoconutgate2tinybunch14",
             "Name": "Japes Beyond Coconut Gate 2 Tiny Bunch 14",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30081,7 +30081,7 @@
         "japesbeyondcoconutgate2tinyballoon15": {
             "id": "japesbeyondcoconutgate2tinyballoon15",
             "Name": "Japes Beyond Coconut Gate 2 Tiny Balloon 15",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "balloon_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30103,7 +30103,7 @@
         "japesbeyondcoconutgate2chunkybunch16": {
             "id": "japesbeyondcoconutgate2chunkybunch16",
             "Name": "Japes Beyond Coconut Gate 2 Chunky Bunch 16",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "bunch_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30125,7 +30125,7 @@
         "japesbeyondcoconutgate2donkeycoin17": {
             "id": "japesbeyondcoconutgate2donkeycoin17",
             "Name": "Japes Beyond Coconut Gate 2 Donkey Coin 17",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "coin_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30147,7 +30147,7 @@
         "japesbeyondcoconutgate2donkeycoin18": {
             "id": "japesbeyondcoconutgate2donkeycoin18",
             "Name": "Japes Beyond Coconut Gate 2 Donkey Coin 18",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "coin_japes_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30180,7 +30180,7 @@
         "japesbeyondcoconutgate2diddycoin19": {
             "id": "japesbeyondcoconutgate2diddycoin19",
             "Name": "Japes Beyond Coconut Gate 2 Diddy Coin 19",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "coin_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30195,7 +30195,7 @@
         "japesbeyondcoconutgate2lankycoin20": {
             "id": "japesbeyondcoconutgate2lankycoin20",
             "Name": "Japes Beyond Coconut Gate 2 Lanky Coin 20",
-            "source": "rr-japes beyond coconut gate 2",
+            "source": "rr-japesbeyondcoconutgate2",
             "target": "coin_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30210,7 +30210,7 @@
         "japesbeyondfeathergatetinybunch0": {
             "id": "japesbeyondfeathergatetinybunch0",
             "Name": "Japes Beyond Feather Gate Tiny Bunch 0",
-            "source": "rr-japes beyond feather gate",
+            "source": "rr-japesbeyondfeathergate",
             "target": "bunch_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30238,7 +30238,7 @@
         "japesbeyondfeathergatetinybunch1": {
             "id": "japesbeyondfeathergatetinybunch1",
             "Name": "Japes Beyond Feather Gate Tiny Bunch 1",
-            "source": "rr-japes beyond feather gate",
+            "source": "rr-japesbeyondfeathergate",
             "target": "bunch_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30266,7 +30266,7 @@
         "japesbeyondfeathergatetinybunch2": {
             "id": "japesbeyondfeathergatetinybunch2",
             "Name": "Japes Beyond Feather Gate Tiny Bunch 2",
-            "source": "rr-japes beyond feather gate",
+            "source": "rr-japesbeyondfeathergate",
             "target": "bunch_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30281,7 +30281,7 @@
         "japesbeyondfeathergatechunkybunch3": {
             "id": "japesbeyondfeathergatechunkybunch3",
             "Name": "Japes Beyond Feather Gate Chunky Bunch 3",
-            "source": "rr-japes beyond feather gate",
+            "source": "rr-japesbeyondfeathergate",
             "target": "bunch_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30306,7 +30306,7 @@
         "japesbeyondfeathergatechunkycoin4": {
             "id": "japesbeyondfeathergatechunkycoin4",
             "Name": "Japes Beyond Feather Gate Chunky Coin 4",
-            "source": "rr-japes beyond feather gate",
+            "source": "rr-japesbeyondfeathergate",
             "target": "coin_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30321,7 +30321,7 @@
         "japesbeyondpeanutgatediddyballoon0": {
             "id": "japesbeyondpeanutgatediddyballoon0",
             "Name": "Japes Beyond Peanut Gate Diddy Balloon 0",
-            "source": "rr-japes beyond peanut gate",
+            "source": "rr-japesbeyondpeanutgate",
             "target": "balloon_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30343,7 +30343,7 @@
         "japesbeyondpeanutgatelankybunch1": {
             "id": "japesbeyondpeanutgatelankybunch1",
             "Name": "Japes Beyond Peanut Gate Lanky Bunch 1",
-            "source": "rr-japes beyond peanut gate",
+            "source": "rr-japesbeyondpeanutgate",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30375,7 +30375,7 @@
         "japesbeyondpeanutgatetinybunch2": {
             "id": "japesbeyondpeanutgatetinybunch2",
             "Name": "Japes Beyond Peanut Gate Tiny Bunch 2",
-            "source": "rr-japes beyond peanut gate",
+            "source": "rr-japesbeyondpeanutgate",
             "target": "bunch_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30403,7 +30403,7 @@
         "japesbeyondpeanutgatediddycoin3": {
             "id": "japesbeyondpeanutgatediddycoin3",
             "Name": "Japes Beyond Peanut Gate Diddy Coin 3",
-            "source": "rr-japes beyond peanut gate",
+            "source": "rr-japesbeyondpeanutgate",
             "target": "coin_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30418,7 +30418,7 @@
         "japesbeyondpeanutgatelankycoin4": {
             "id": "japesbeyondpeanutgatelankycoin4",
             "Name": "Japes Beyond Peanut Gate Lanky Coin 4",
-            "source": "rr-japes beyond peanut gate",
+            "source": "rr-japesbeyondpeanutgate",
             "target": "coin_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30689,7 +30689,7 @@
         "japestopofmountaindiddyballoon0": {
             "id": "japestopofmountaindiddyballoon0",
             "Name": "Japes Top of Mountain Diddy Balloon 0",
-            "source": "rr-japes top of mountain",
+            "source": "rr-japestopofmountain",
             "target": "balloon_japes_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30711,7 +30711,7 @@
         "japestopofmountaintinycoin1": {
             "id": "japestopofmountaintinycoin1",
             "Name": "Japes Top of Mountain Tiny Coin 1",
-            "source": "rr-japes top of mountain",
+            "source": "rr-japestopofmountain",
             "target": "coin_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30726,7 +30726,7 @@
         "japeslankycavelankybunch0": {
             "id": "japeslankycavelankybunch0",
             "Name": "Japes Lanky Cave Lanky Bunch 0",
-            "source": "rr-japes lanky cave",
+            "source": "rr-japeslankycave",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30741,7 +30741,7 @@
         "japeslankycavelankybunch1": {
             "id": "japeslankycavelankybunch1",
             "Name": "Japes Lanky Cave Lanky Bunch 1",
-            "source": "rr-japes lanky cave",
+            "source": "rr-japeslankycave",
             "target": "bunch_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30756,7 +30756,7 @@
         "japeslankycavelankyballoon2": {
             "id": "japeslankycavelankyballoon2",
             "Name": "Japes Lanky Cave Lanky Balloon 2",
-            "source": "rr-japes lanky cave",
+            "source": "rr-japeslankycave",
             "target": "balloon_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30778,7 +30778,7 @@
         "japeslankycavelankycoin3": {
             "id": "japeslankycavelankycoin3",
             "Name": "Japes Lanky Cave Lanky Coin 3",
-            "source": "rr-japes lanky cave",
+            "source": "rr-japeslankycave",
             "target": "coin_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30793,7 +30793,7 @@
         "beyondrambigatelankybanana0": {
             "id": "beyondrambigatelankybanana0",
             "Name": "Beyond Rambi Gate Lanky Banana 0",
-            "source": "rr-beyond rambi gate",
+            "source": "rr-beyondrambigate",
             "target": "banana_japes_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30808,7 +30808,7 @@
         "beyondrambigatetinybanana1": {
             "id": "beyondrambigatetinybanana1",
             "Name": "Beyond Rambi Gate Tiny Banana 1",
-            "source": "rr-beyond rambi gate",
+            "source": "rr-beyondrambigate",
             "target": "banana_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30823,7 +30823,7 @@
         "beyondrambigatetinyballoon2": {
             "id": "beyondrambigatetinyballoon2",
             "Name": "Beyond Rambi Gate Tiny Balloon 2",
-            "source": "rr-beyond rambi gate",
+            "source": "rr-beyondrambigate",
             "target": "balloon_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30845,7 +30845,7 @@
         "beyondrambigatechunkybunch3": {
             "id": "beyondrambigatechunkybunch3",
             "Name": "Beyond Rambi Gate Chunky Bunch 3",
-            "source": "rr-beyond rambi gate",
+            "source": "rr-beyondrambigate",
             "target": "bunch_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30867,7 +30867,7 @@
         "beyondrambigatechunkyballoon4": {
             "id": "beyondrambigatechunkyballoon4",
             "Name": "Beyond Rambi Gate Chunky Balloon 4",
-            "source": "rr-beyond rambi gate",
+            "source": "rr-beyondrambigate",
             "target": "balloon_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30889,7 +30889,7 @@
         "beyondrambigatetinycoin5": {
             "id": "beyondrambigatetinycoin5",
             "Name": "Beyond Rambi Gate Tiny Coin 5",
-            "source": "rr-beyond rambi gate",
+            "source": "rr-beyondrambigate",
             "target": "coin_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30911,7 +30911,7 @@
         "tinyhivetinybanana0": {
             "id": "tinyhivetinybanana0",
             "Name": "Tiny Hive Tiny Banana 0",
-            "source": "rr-tiny hive",
+            "source": "rr-tinyhive",
             "target": "banana_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30964,7 +30964,7 @@
         "tinyhivetinyballoon1": {
             "id": "tinyhivetinyballoon1",
             "Name": "Tiny Hive Tiny Balloon 1",
-            "source": "rr-tiny hive",
+            "source": "rr-tinyhive",
             "target": "balloon_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -30986,7 +30986,7 @@
         "tinyhivetinycoin2": {
             "id": "tinyhivetinycoin2",
             "Name": "Tiny Hive Tiny Coin 2",
-            "source": "rr-tiny hive",
+            "source": "rr-tinyhive",
             "target": "coin_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31039,7 +31039,7 @@
         "japescatacombchunkybanana0": {
             "id": "japescatacombchunkybanana0",
             "Name": "Japes Catacomb Chunky Banana 0",
-            "source": "rr-japes catacomb",
+            "source": "rr-japescatacomb",
             "target": "banana_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31054,7 +31054,7 @@
         "japescatacombchunkybunch1": {
             "id": "japescatacombchunkybunch1",
             "Name": "Japes Catacomb Chunky Bunch 1",
-            "source": "rr-japes catacomb",
+            "source": "rr-japescatacomb",
             "target": "bunch_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31069,7 +31069,7 @@
         "japescatacombtinycoin2": {
             "id": "japescatacombtinycoin2",
             "Name": "Japes Catacomb Tiny Coin 2",
-            "source": "rr-japes catacomb",
+            "source": "rr-japescatacomb",
             "target": "coin_japes_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31084,7 +31084,7 @@
         "japescatacombchunkycoin3": {
             "id": "japescatacombchunkycoin3",
             "Name": "Japes Catacomb Chunky Coin 3",
-            "source": "rr-japes catacomb",
+            "source": "rr-japescatacomb",
             "target": "coin_japes_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31123,7 +31123,7 @@
         "angryaztecbetweenvinesbyportalchunkybanana0": {
             "id": "angryaztecbetweenvinesbyportalchunkybanana0",
             "Name": "Angry Aztec Between Vines By Portal Chunky Banana 0",
-            "source": "rr-angry aztec between vines by portal",
+            "source": "rr-angryaztecbetweenvinesbyportal",
             "target": "banana_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31138,7 +31138,7 @@
         "angryaztecbetweenvinesbyportalchunkybunch1": {
             "id": "angryaztecbetweenvinesbyportalchunkybunch1",
             "Name": "Angry Aztec Between Vines By Portal Chunky Bunch 1",
-            "source": "rr-angry aztec between vines by portal",
+            "source": "rr-angryaztecbetweenvinesbyportal",
             "target": "bunch_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31166,7 +31166,7 @@
         "angryaztecoasisdonkeybunch0": {
             "id": "angryaztecoasisdonkeybunch0",
             "Name": "Angry Aztec Oasis Donkey Bunch 0",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "bunch_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31207,7 +31207,7 @@
         "angryaztecoasisdonkeybunch1": {
             "id": "angryaztecoasisdonkeybunch1",
             "Name": "Angry Aztec Oasis Donkey Bunch 1",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "bunch_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31229,7 +31229,7 @@
         "angryaztecoasisdonkeybanana2": {
             "id": "angryaztecoasisdonkeybanana2",
             "Name": "Angry Aztec Oasis Donkey Banana 2",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "banana_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31244,7 +31244,7 @@
         "angryaztecoasisdiddyballoon3": {
             "id": "angryaztecoasisdiddyballoon3",
             "Name": "Angry Aztec Oasis Diddy Balloon 3",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "balloon_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31266,7 +31266,7 @@
         "angryaztecoasisdiddybunch4": {
             "id": "angryaztecoasisdiddybunch4",
             "Name": "Angry Aztec Oasis Diddy Bunch 4",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "bunch_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31281,7 +31281,7 @@
         "angryaztecoasislankybanana5": {
             "id": "angryaztecoasislankybanana5",
             "Name": "Angry Aztec Oasis Lanky Banana 5",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "banana_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31296,7 +31296,7 @@
         "angryaztecoasisdonkeycoin6": {
             "id": "angryaztecoasisdonkeycoin6",
             "Name": "Angry Aztec Oasis Donkey Coin 6",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "coin_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31311,7 +31311,7 @@
         "angryaztecoasisdonkeycoin7": {
             "id": "angryaztecoasisdonkeycoin7",
             "Name": "Angry Aztec Oasis Donkey Coin 7",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "coin_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31347,7 +31347,7 @@
         "angryaztecoasisdiddycoin8": {
             "id": "angryaztecoasisdiddycoin8",
             "Name": "Angry Aztec Oasis Diddy Coin 8",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "coin_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31362,7 +31362,7 @@
         "angryaztecoasistinycoin9": {
             "id": "angryaztecoasistinycoin9",
             "Name": "Angry Aztec Oasis Tiny Coin 9",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31377,7 +31377,7 @@
         "angryaztecoasischunkycoin10": {
             "id": "angryaztecoasischunkycoin10",
             "Name": "Angry Aztec Oasis Chunky Coin 10",
-            "source": "rr-angry aztec oasis",
+            "source": "rr-angryaztecoasis",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31392,7 +31392,7 @@
         "templestartdiddybunch0": {
             "id": "templestartdiddybunch0",
             "Name": "Temple Start Diddy Bunch 0",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "bunch_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31422,7 +31422,7 @@
         "templestartdiddybanana1": {
             "id": "templestartdiddybanana1",
             "Name": "Temple Start Diddy Banana 1",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "banana_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31449,7 +31449,7 @@
         "templestartchunkybunch2": {
             "id": "templestartchunkybunch2",
             "Name": "Temple Start Chunky Bunch 2",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "bunch_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31464,7 +31464,7 @@
         "templestartchunkybanana3": {
             "id": "templestartchunkybanana3",
             "Name": "Temple Start Chunky Banana 3",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "banana_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31479,7 +31479,7 @@
         "templestartdiddycoin4": {
             "id": "templestartdiddycoin4",
             "Name": "Temple Start Diddy Coin 4",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "coin_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31509,7 +31509,7 @@
         "templestartlankycoin5": {
             "id": "templestartlankycoin5",
             "Name": "Temple Start Lanky Coin 5",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "coin_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31524,7 +31524,7 @@
         "templestartchunkycoin6": {
             "id": "templestartchunkycoin6",
             "Name": "Temple Start Chunky Coin 6",
-            "source": "rr-temple start",
+            "source": "rr-templestart",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31539,7 +31539,7 @@
         "templeunderwaterdiddybanana0": {
             "id": "templeunderwaterdiddybanana0",
             "Name": "Temple Underwater Diddy Banana 0",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "banana_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31554,7 +31554,7 @@
         "templeunderwaterlankybanana1": {
             "id": "templeunderwaterlankybanana1",
             "Name": "Temple Underwater Lanky Banana 1",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "banana_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31569,7 +31569,7 @@
         "templeunderwaterlankybunch2": {
             "id": "templeunderwaterlankybunch2",
             "Name": "Temple Underwater Lanky Bunch 2",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "bunch_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31584,7 +31584,7 @@
         "templeunderwatertinybanana3": {
             "id": "templeunderwatertinybanana3",
             "Name": "Temple Underwater Tiny Banana 3",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "banana_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31612,7 +31612,7 @@
         "templeunderwatertinyballoon4": {
             "id": "templeunderwatertinyballoon4",
             "Name": "Temple Underwater Tiny Balloon 4",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "balloon_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31634,7 +31634,7 @@
         "templeunderwaterchunkyballoon5": {
             "id": "templeunderwaterchunkyballoon5",
             "Name": "Temple Underwater Chunky Balloon 5",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "balloon_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31656,7 +31656,7 @@
         "templeunderwaterdiddycoin6": {
             "id": "templeunderwaterdiddycoin6",
             "Name": "Temple Underwater Diddy Coin 6",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "coin_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31671,7 +31671,7 @@
         "templeunderwatertinycoin7": {
             "id": "templeunderwatertinycoin7",
             "Name": "Temple Underwater Tiny Coin 7",
-            "source": "rr-temple underwater",
+            "source": "rr-templeunderwater",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31686,7 +31686,7 @@
         "angryaztecmaindonkeyballoon0": {
             "id": "angryaztecmaindonkeyballoon0",
             "Name": "Angry Aztec Main Donkey Balloon 0",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "balloon_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31708,7 +31708,7 @@
         "angryaztecmaindonkeyballoon1": {
             "id": "angryaztecmaindonkeyballoon1",
             "Name": "Angry Aztec Main Donkey Balloon 1",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "balloon_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31730,7 +31730,7 @@
         "angryaztecmaindonkeybanana2": {
             "id": "angryaztecmaindonkeybanana2",
             "Name": "Angry Aztec Main Donkey Banana 2",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31745,7 +31745,7 @@
         "angryaztecmaindonkeybanana3": {
             "id": "angryaztecmaindonkeybanana3",
             "Name": "Angry Aztec Main Donkey Banana 3",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31760,7 +31760,7 @@
         "angryaztecmaindiddybanana4": {
             "id": "angryaztecmaindiddybanana4",
             "Name": "Angry Aztec Main Diddy Banana 4",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31775,7 +31775,7 @@
         "angryaztecmaindiddybanana5": {
             "id": "angryaztecmaindiddybanana5",
             "Name": "Angry Aztec Main Diddy Banana 5",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31790,7 +31790,7 @@
         "angryaztecmaindiddybanana6": {
             "id": "angryaztecmaindiddybanana6",
             "Name": "Angry Aztec Main Diddy Banana 6",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31805,7 +31805,7 @@
         "angryaztecmaindiddybunch7": {
             "id": "angryaztecmaindiddybunch7",
             "Name": "Angry Aztec Main Diddy Bunch 7",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31827,7 +31827,7 @@
         "angryaztecmaindiddybunch8": {
             "id": "angryaztecmaindiddybunch8",
             "Name": "Angry Aztec Main Diddy Bunch 8",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31849,7 +31849,7 @@
         "angryaztecmaindiddybunch9": {
             "id": "angryaztecmaindiddybunch9",
             "Name": "Angry Aztec Main Diddy Bunch 9",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31871,7 +31871,7 @@
         "angryaztecmaindiddybanana10": {
             "id": "angryaztecmaindiddybanana10",
             "Name": "Angry Aztec Main Diddy Banana 10",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31886,7 +31886,7 @@
         "angryaztecmainlankybanana11": {
             "id": "angryaztecmainlankybanana11",
             "Name": "Angry Aztec Main Lanky Banana 11",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31901,7 +31901,7 @@
         "angryaztecmainlankybunch12": {
             "id": "angryaztecmainlankybunch12",
             "Name": "Angry Aztec Main Lanky Bunch 12",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31916,7 +31916,7 @@
         "angryaztecmainlankybunch13": {
             "id": "angryaztecmainlankybunch13",
             "Name": "Angry Aztec Main Lanky Bunch 13",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31938,7 +31938,7 @@
         "angryaztecmaintinybanana14": {
             "id": "angryaztecmaintinybanana14",
             "Name": "Angry Aztec Main Tiny Banana 14",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31953,7 +31953,7 @@
         "angryaztecmaintinybunch15": {
             "id": "angryaztecmaintinybunch15",
             "Name": "Angry Aztec Main Tiny Bunch 15",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31968,7 +31968,7 @@
         "angryaztecmaintinybunch16": {
             "id": "angryaztecmaintinybunch16",
             "Name": "Angry Aztec Main Tiny Bunch 16",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -31983,7 +31983,7 @@
         "angryaztecmaintinybunch17": {
             "id": "angryaztecmaintinybunch17",
             "Name": "Angry Aztec Main Tiny Bunch 17",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "bunch_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32005,7 +32005,7 @@
         "angryaztecmaintinybanana18": {
             "id": "angryaztecmaintinybanana18",
             "Name": "Angry Aztec Main Tiny Banana 18",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32020,7 +32020,7 @@
         "angryaztecmainchunkybanana19": {
             "id": "angryaztecmainchunkybanana19",
             "Name": "Angry Aztec Main Chunky Banana 19",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32035,7 +32035,7 @@
         "angryaztecmainchunkybanana20": {
             "id": "angryaztecmainchunkybanana20",
             "Name": "Angry Aztec Main Chunky Banana 20",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "banana_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32050,7 +32050,7 @@
         "angryaztecmaindonkeycoin21": {
             "id": "angryaztecmaindonkeycoin21",
             "Name": "Angry Aztec Main Donkey Coin 21",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32065,7 +32065,7 @@
         "angryaztecmaindonkeycoin22": {
             "id": "angryaztecmaindonkeycoin22",
             "Name": "Angry Aztec Main Donkey Coin 22",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32080,7 +32080,7 @@
         "angryaztecmaindiddycoin23": {
             "id": "angryaztecmaindiddycoin23",
             "Name": "Angry Aztec Main Diddy Coin 23",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32095,7 +32095,7 @@
         "angryaztecmainlankycoin24": {
             "id": "angryaztecmainlankycoin24",
             "Name": "Angry Aztec Main Lanky Coin 24",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32110,7 +32110,7 @@
         "angryaztecmainlankycoin25": {
             "id": "angryaztecmainlankycoin25",
             "Name": "Angry Aztec Main Lanky Coin 25",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32125,7 +32125,7 @@
         "angryaztecmainlankycoin26": {
             "id": "angryaztecmainlankycoin26",
             "Name": "Angry Aztec Main Lanky Coin 26",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32140,7 +32140,7 @@
         "angryaztecmaintinycoin27": {
             "id": "angryaztecmaintinycoin27",
             "Name": "Angry Aztec Main Tiny Coin 27",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32155,7 +32155,7 @@
         "angryaztecmaintinycoin28": {
             "id": "angryaztecmaintinycoin28",
             "Name": "Angry Aztec Main Tiny Coin 28",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32170,7 +32170,7 @@
         "angryaztecmainchunkycoin29": {
             "id": "angryaztecmainchunkycoin29",
             "Name": "Angry Aztec Main Chunky Coin 29",
-            "source": "rr-angry aztec main",
+            "source": "rr-angryaztecmain",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32195,7 +32195,7 @@
         "aztecdonkeysandtunneldonkeybunch0": {
             "id": "aztecdonkeysandtunneldonkeybunch0",
             "Name": "Aztec Donkey Sand Tunnel Donkey Bunch 0",
-            "source": "rr-aztec donkey sand tunnel",
+            "source": "rr-aztecdonkeysandtunnel",
             "target": "bunch_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32221,7 +32221,7 @@
         "aztecdonkeysandtunneldiddyballoon1": {
             "id": "aztecdonkeysandtunneldiddyballoon1",
             "Name": "Aztec Donkey Sand Tunnel Diddy Balloon 1",
-            "source": "rr-aztec donkey sand tunnel",
+            "source": "rr-aztecdonkeysandtunnel",
             "target": "balloon_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32243,7 +32243,7 @@
         "aztecdonkeysandtunnelchunkycoin2": {
             "id": "aztecdonkeysandtunnelchunkycoin2",
             "Name": "Aztec Donkey Sand Tunnel Chunky Coin 2",
-            "source": "rr-aztec donkey sand tunnel",
+            "source": "rr-aztecdonkeysandtunnel",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32258,7 +32258,7 @@
         "donkeytempledonkeycoin0": {
             "id": "donkeytempledonkeycoin0",
             "Name": "Donkey Temple Donkey Coin 0",
-            "source": "rr-donkey temple",
+            "source": "rr-donkeytemple",
             "target": "coin_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32286,7 +32286,7 @@
         "diddytemplediddyballoon0": {
             "id": "diddytemplediddyballoon0",
             "Name": "Diddy Temple Diddy Balloon 0",
-            "source": "rr-diddy temple",
+            "source": "rr-diddytemple",
             "target": "balloon_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32308,7 +32308,7 @@
         "diddytemplediddycoin1": {
             "id": "diddytemplediddycoin1",
             "Name": "Diddy Temple Diddy Coin 1",
-            "source": "rr-diddy temple",
+            "source": "rr-diddytemple",
             "target": "coin_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32336,7 +32336,7 @@
         "diddytemplediddycoin2": {
             "id": "diddytemplediddycoin2",
             "Name": "Diddy Temple Diddy Coin 2",
-            "source": "rr-diddy temple",
+            "source": "rr-diddytemple",
             "target": "coin_aztec_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32364,7 +32364,7 @@
         "lankytemplelankyballoon0": {
             "id": "lankytemplelankyballoon0",
             "Name": "Lanky Temple Lanky Balloon 0",
-            "source": "rr-lanky temple",
+            "source": "rr-lankytemple",
             "target": "balloon_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32386,7 +32386,7 @@
         "tinytempletinycoin0": {
             "id": "tinytempletinycoin0",
             "Name": "Tiny Temple Tiny Coin 0",
-            "source": "rr-tiny temple",
+            "source": "rr-tinytemple",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32401,7 +32401,7 @@
         "tinytempletinycoin1": {
             "id": "tinytempletinycoin1",
             "Name": "Tiny Temple Tiny Coin 1",
-            "source": "rr-tiny temple",
+            "source": "rr-tinytemple",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32429,7 +32429,7 @@
         "tinytempletinycoin2": {
             "id": "tinytempletinycoin2",
             "Name": "Tiny Temple Tiny Coin 2",
-            "source": "rr-tiny temple",
+            "source": "rr-tinytemple",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32457,7 +32457,7 @@
         "chunkytemplechunkyballoon0": {
             "id": "chunkytemplechunkyballoon0",
             "Name": "Chunky Temple Chunky Balloon 0",
-            "source": "rr-chunky temple",
+            "source": "rr-chunkytemple",
             "target": "balloon_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32479,7 +32479,7 @@
         "chunkytemplechunkycoin1": {
             "id": "chunkytemplechunkycoin1",
             "Name": "Chunky Temple Chunky Coin 1",
-            "source": "rr-chunky temple",
+            "source": "rr-chunkytemple",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32507,7 +32507,7 @@
         "chunkytemplechunkycoin2": {
             "id": "chunkytemplechunkycoin2",
             "Name": "Chunky Temple Chunky Coin 2",
-            "source": "rr-chunky temple",
+            "source": "rr-chunkytemple",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32535,7 +32535,7 @@
         "chunkytemplechunkycoin3": {
             "id": "chunkytemplechunkycoin3",
             "Name": "Chunky Temple Chunky Coin 3",
-            "source": "rr-chunky temple",
+            "source": "rr-chunkytemple",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32563,7 +32563,7 @@
         "chunkytemplechunkycoin4": {
             "id": "chunkytemplechunkycoin4",
             "Name": "Chunky Temple Chunky Coin 4",
-            "source": "rr-chunky temple",
+            "source": "rr-chunkytemple",
             "target": "coin_aztec_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32591,7 +32591,7 @@
         "llamatempledonkeybanana0": {
             "id": "llamatempledonkeybanana0",
             "Name": "Llama Temple Donkey Banana 0",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "banana_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32606,7 +32606,7 @@
         "llamatemplelankybanana1": {
             "id": "llamatemplelankybanana1",
             "Name": "Llama Temple Lanky Banana 1",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "banana_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32621,7 +32621,7 @@
         "llamatemplelankybunch2": {
             "id": "llamatemplelankybunch2",
             "Name": "Llama Temple Lanky Bunch 2",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "bunch_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32636,7 +32636,7 @@
         "llamatemplelankyballoon3": {
             "id": "llamatemplelankyballoon3",
             "Name": "Llama Temple Lanky Balloon 3",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "balloon_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32705,7 +32705,7 @@
         "llamatemplelankybunch4": {
             "id": "llamatemplelankybunch4",
             "Name": "Llama Temple Lanky Bunch 4",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "bunch_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32741,7 +32741,7 @@
         "llamatempletinyballoon5": {
             "id": "llamatempletinyballoon5",
             "Name": "Llama Temple Tiny Balloon 5",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "balloon_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32763,7 +32763,7 @@
         "llamatempletinybanana6": {
             "id": "llamatempletinybanana6",
             "Name": "Llama Temple Tiny Banana 6",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "banana_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32778,7 +32778,7 @@
         "llamatempledonkeycoin7": {
             "id": "llamatempledonkeycoin7",
             "Name": "Llama Temple Donkey Coin 7",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "coin_aztec_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32793,7 +32793,7 @@
         "llamatemplelankycoin8": {
             "id": "llamatemplelankycoin8",
             "Name": "Llama Temple Lanky Coin 8",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "coin_aztec_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32829,7 +32829,7 @@
         "llamatempletinycoin9": {
             "id": "llamatempletinycoin9",
             "Name": "Llama Temple Tiny Coin 9",
-            "source": "rr-llama temple",
+            "source": "rr-llamatemple",
             "target": "coin_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32844,7 +32844,7 @@
         "llamatemplebacktinybanana0": {
             "id": "llamatemplebacktinybanana0",
             "Name": "Llama Temple Back Tiny Banana 0",
-            "source": "rr-llama temple back",
+            "source": "rr-llamatempleback",
             "target": "banana_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32859,7 +32859,7 @@
         "llamatemplebacktinybunch1": {
             "id": "llamatemplebacktinybunch1",
             "Name": "Llama Temple Back Tiny Bunch 1",
-            "source": "rr-llama temple back",
+            "source": "rr-llamatempleback",
             "target": "bunch_aztec_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32898,7 +32898,7 @@
         "franticfactorystartdonkeybanana0": {
             "id": "franticfactorystartdonkeybanana0",
             "Name": "Frantic Factory Start Donkey Banana 0",
-            "source": "rr-frantic factory start",
+            "source": "rr-franticfactorystart",
             "target": "banana_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32913,7 +32913,7 @@
         "franticfactorystartlankybunch1": {
             "id": "franticfactorystartlankybunch1",
             "Name": "Frantic Factory Start Lanky Bunch 1",
-            "source": "rr-frantic factory start",
+            "source": "rr-franticfactorystart",
             "target": "bunch_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32928,7 +32928,7 @@
         "franticfactorystartchunkybunch2": {
             "id": "franticfactorystartchunkybunch2",
             "Name": "Frantic Factory Start Chunky Bunch 2",
-            "source": "rr-frantic factory start",
+            "source": "rr-franticfactorystart",
             "target": "bunch_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32943,7 +32943,7 @@
         "franticfactorystartchunkyballoon3": {
             "id": "franticfactorystartchunkyballoon3",
             "Name": "Frantic Factory Start Chunky Balloon 3",
-            "source": "rr-frantic factory start",
+            "source": "rr-franticfactorystart",
             "target": "balloon_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -32965,7 +32965,7 @@
         "franticfactorystartchunkycoin4": {
             "id": "franticfactorystartchunkycoin4",
             "Name": "Frantic Factory Start Chunky Coin 4",
-            "source": "rr-frantic factory start",
+            "source": "rr-franticfactorystart",
             "target": "coin_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33334,7 +33334,7 @@
         "r&dupperdonkeyballoon0": {
             "id": "r&dupperdonkeyballoon0",
             "Name": "R&D Upper Donkey Balloon 0",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "balloon_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33356,7 +33356,7 @@
         "r&dupperdiddyballoon1": {
             "id": "r&dupperdiddyballoon1",
             "Name": "R&D Upper Diddy Balloon 1",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "balloon_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33392,7 +33392,7 @@
         "r&dupperlankybanana2": {
             "id": "r&dupperlankybanana2",
             "Name": "R&D Upper Lanky Banana 2",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "banana_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33407,7 +33407,7 @@
         "r&dupperchunkybanana3": {
             "id": "r&dupperchunkybanana3",
             "Name": "R&D Upper Chunky Banana 3",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "banana_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33446,7 +33446,7 @@
         "r&dupperdiddycoin4": {
             "id": "r&dupperdiddycoin4",
             "Name": "R&D Upper Diddy Coin 4",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "coin_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33461,7 +33461,7 @@
         "r&dupperchunkycoin5": {
             "id": "r&dupperchunkycoin5",
             "Name": "R&D Upper Chunky Coin 5",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "coin_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33497,7 +33497,7 @@
         "r&dupperchunkyballoon6": {
             "id": "r&dupperchunkyballoon6",
             "Name": "R&D Upper Chunky Balloon 6",
-            "source": "rr-r&d upper",
+            "source": "rr-r&dupper",
             "target": "balloon_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33655,7 +33655,7 @@
         "powerhutdonkeybunch0": {
             "id": "powerhutdonkeybunch0",
             "Name": "Power Hut Donkey Bunch 0",
-            "source": "rr-power hut",
+            "source": "rr-powerhut",
             "target": "bunch_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33670,7 +33670,7 @@
         "powerhutdonkeycoin1": {
             "id": "powerhutdonkeycoin1",
             "Name": "Power Hut Donkey Coin 1",
-            "source": "rr-power hut",
+            "source": "rr-powerhut",
             "target": "coin_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33685,7 +33685,7 @@
         "arcadetunneldiddybanana0": {
             "id": "arcadetunneldiddybanana0",
             "Name": "Arcade Tunnel Diddy Banana 0",
-            "source": "rr-arcade tunnel",
+            "source": "rr-arcadetunnel",
             "target": "banana_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33700,7 +33700,7 @@
         "arcadetunneldiddybunch1": {
             "id": "arcadetunneldiddybunch1",
             "Name": "Arcade Tunnel Diddy Bunch 1",
-            "source": "rr-arcade tunnel",
+            "source": "rr-arcadetunnel",
             "target": "bunch_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33715,7 +33715,7 @@
         "arcadetunneltinybunch2": {
             "id": "arcadetunneltinybunch2",
             "Name": "Arcade Tunnel Tiny Bunch 2",
-            "source": "rr-arcade tunnel",
+            "source": "rr-arcadetunnel",
             "target": "bunch_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33730,7 +33730,7 @@
         "arcadetunnelchunkycoin3": {
             "id": "arcadetunnelchunkycoin3",
             "Name": "Arcade Tunnel Chunky Coin 3",
-            "source": "rr-arcade tunnel",
+            "source": "rr-arcadetunnel",
             "target": "coin_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33758,7 +33758,7 @@
         "beyondhatchdonkeybanana0": {
             "id": "beyondhatchdonkeybanana0",
             "Name": "Beyond Hatch Donkey Banana 0",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "banana_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33773,7 +33773,7 @@
         "beyondhatchdonkeybanana1": {
             "id": "beyondhatchdonkeybanana1",
             "Name": "Beyond Hatch Donkey Banana 1",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "banana_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33788,7 +33788,7 @@
         "beyondhatchdonkeyballoon2": {
             "id": "beyondhatchdonkeyballoon2",
             "Name": "Beyond Hatch Donkey Balloon 2",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "balloon_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33810,7 +33810,7 @@
         "beyondhatchdiddybanana3": {
             "id": "beyondhatchdiddybanana3",
             "Name": "Beyond Hatch Diddy Banana 3",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "banana_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33825,7 +33825,7 @@
         "beyondhatchlankybanana4": {
             "id": "beyondhatchlankybanana4",
             "Name": "Beyond Hatch Lanky Banana 4",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "banana_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33840,7 +33840,7 @@
         "beyondhatchlankybanana5": {
             "id": "beyondhatchlankybanana5",
             "Name": "Beyond Hatch Lanky Banana 5",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "banana_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33862,7 +33862,7 @@
         "beyondhatchtinybunch6": {
             "id": "beyondhatchtinybunch6",
             "Name": "Beyond Hatch Tiny Bunch 6",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "bunch_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33877,7 +33877,7 @@
         "beyondhatchchunkybanana7": {
             "id": "beyondhatchchunkybanana7",
             "Name": "Beyond Hatch Chunky Banana 7",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "banana_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33892,7 +33892,7 @@
         "beyondhatchchunkybunch8": {
             "id": "beyondhatchchunkybunch8",
             "Name": "Beyond Hatch Chunky Bunch 8",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "bunch_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33907,7 +33907,7 @@
         "beyondhatchchunkybunch9": {
             "id": "beyondhatchchunkybunch9",
             "Name": "Beyond Hatch Chunky Bunch 9",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "bunch_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33929,7 +33929,7 @@
         "beyondhatchdonkeycoin10": {
             "id": "beyondhatchdonkeycoin10",
             "Name": "Beyond Hatch Donkey Coin 10",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "coin_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33944,7 +33944,7 @@
         "beyondhatchdiddycoin11": {
             "id": "beyondhatchdiddycoin11",
             "Name": "Beyond Hatch Diddy Coin 11",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "coin_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33978,7 +33978,7 @@
         "beyondhatchlankycoin12": {
             "id": "beyondhatchlankycoin12",
             "Name": "Beyond Hatch Lanky Coin 12",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "coin_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -33993,7 +33993,7 @@
         "beyondhatchtinycoin13": {
             "id": "beyondhatchtinycoin13",
             "Name": "Beyond Hatch Tiny Coin 13",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "coin_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34008,7 +34008,7 @@
         "beyondhatchchunkycoin14": {
             "id": "beyondhatchchunkycoin14",
             "Name": "Beyond Hatch Chunky Coin 14",
-            "source": "rr-beyond hatch",
+            "source": "rr-beyondhatch",
             "target": "coin_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34023,7 +34023,7 @@
         "factorybaboonblastdonkeybunch0": {
             "id": "factorybaboonblastdonkeybunch0",
             "Name": "Factory Baboon Blast Donkey Bunch 0",
-            "source": "rr-factory baboon blast",
+            "source": "rr-factorybaboonblast",
             "target": "bunch_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34038,7 +34038,7 @@
         "insidecoredonkeybunch0": {
             "id": "insidecoredonkeybunch0",
             "Name": "Inside Core Donkey Bunch 0",
-            "source": "rr-inside core",
+            "source": "rr-insidecore",
             "target": "bunch_factory_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34060,7 +34060,7 @@
         "insidecorelankyballoon1": {
             "id": "insidecorelankyballoon1",
             "Name": "Inside Core Lanky Balloon 1",
-            "source": "rr-inside core",
+            "source": "rr-insidecore",
             "target": "balloon_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34082,7 +34082,7 @@
         "insidecorelankycoin2": {
             "id": "insidecorelankycoin2",
             "Name": "Inside Core Lanky Coin 2",
-            "source": "rr-inside core",
+            "source": "rr-insidecore",
             "target": "coin_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34097,7 +34097,7 @@
         "spinningcorelankybunch0": {
             "id": "spinningcorelankybunch0",
             "Name": "Spinning Core Lanky Bunch 0",
-            "source": "rr-spinning core",
+            "source": "rr-spinningcore",
             "target": "bunch_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34112,7 +34112,7 @@
         "spinningcorechunkybunch1": {
             "id": "spinningcorechunkybunch1",
             "Name": "Spinning Core Chunky Bunch 1",
-            "source": "rr-spinning core",
+            "source": "rr-spinningcore",
             "target": "bunch_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34127,7 +34127,7 @@
         "spinningcorelankycoin2": {
             "id": "spinningcorelankycoin2",
             "Name": "Spinning Core Lanky Coin 2",
-            "source": "rr-spinning core",
+            "source": "rr-spinningcore",
             "target": "coin_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34142,7 +34142,7 @@
         "spinningcoretinycoin3": {
             "id": "spinningcoretinycoin3",
             "Name": "Spinning Core Tiny Coin 3",
-            "source": "rr-spinning core",
+            "source": "rr-spinningcore",
             "target": "coin_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34157,7 +34157,7 @@
         "spinningcorechunkycoin4": {
             "id": "spinningcorechunkycoin4",
             "Name": "Spinning Core Chunky Coin 4",
-            "source": "rr-spinning core",
+            "source": "rr-spinningcore",
             "target": "coin_factory_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34172,7 +34172,7 @@
         "middlecoretinyballoon0": {
             "id": "middlecoretinyballoon0",
             "Name": "Middle Core Tiny Balloon 0",
-            "source": "rr-middle core",
+            "source": "rr-middlecore",
             "target": "balloon_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34194,7 +34194,7 @@
         "uppercorediddybunch0": {
             "id": "uppercorediddybunch0",
             "Name": "Upper Core Diddy Bunch 0",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "bunch_factory_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34209,7 +34209,7 @@
         "uppercorelankybunch1": {
             "id": "uppercorelankybunch1",
             "Name": "Upper Core Lanky Bunch 1",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "bunch_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34224,7 +34224,7 @@
         "uppercorelankybunch2": {
             "id": "uppercorelankybunch2",
             "Name": "Upper Core Lanky Bunch 2",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "bunch_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34252,7 +34252,7 @@
         "uppercorelankyballoon3": {
             "id": "uppercorelankyballoon3",
             "Name": "Upper Core Lanky Balloon 3",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "balloon_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34274,7 +34274,7 @@
         "uppercoretinybunch4": {
             "id": "uppercoretinybunch4",
             "Name": "Upper Core Tiny Bunch 4",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "bunch_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34289,7 +34289,7 @@
         "uppercoretinybunch5": {
             "id": "uppercoretinybunch5",
             "Name": "Upper Core Tiny Bunch 5",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "bunch_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34311,7 +34311,7 @@
         "uppercorelankycoin6": {
             "id": "uppercorelankycoin6",
             "Name": "Upper Core Lanky Coin 6",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "coin_factory_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34326,7 +34326,7 @@
         "uppercoretinycoin7": {
             "id": "uppercoretinycoin7",
             "Name": "Upper Core Tiny Coin 7",
-            "source": "rr-upper core",
+            "source": "rr-uppercore",
             "target": "coin_factory_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34348,7 +34348,7 @@
         "gloomygalleonstartdonkeyballoon0": {
             "id": "gloomygalleonstartdonkeyballoon0",
             "Name": "Gloomy Galleon Start Donkey Balloon 0",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "balloon_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34370,7 +34370,7 @@
         "gloomygalleonstartdiddybunch1": {
             "id": "gloomygalleonstartdiddybunch1",
             "Name": "Gloomy Galleon Start Diddy Bunch 1",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "bunch_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34385,7 +34385,7 @@
         "gloomygalleonstartlankybanana2": {
             "id": "gloomygalleonstartlankybanana2",
             "Name": "Gloomy Galleon Start Lanky Banana 2",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "banana_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34400,7 +34400,7 @@
         "gloomygalleonstartlankyballoon3": {
             "id": "gloomygalleonstartlankyballoon3",
             "Name": "Gloomy Galleon Start Lanky Balloon 3",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "balloon_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34444,7 +34444,7 @@
         "gloomygalleonstarttinybanana4": {
             "id": "gloomygalleonstarttinybanana4",
             "Name": "Gloomy Galleon Start Tiny Banana 4",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "banana_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34459,7 +34459,7 @@
         "gloomygalleonstarttinybanana5": {
             "id": "gloomygalleonstarttinybanana5",
             "Name": "Gloomy Galleon Start Tiny Banana 5",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "banana_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34474,7 +34474,7 @@
         "gloomygalleonstartchunkybanana6": {
             "id": "gloomygalleonstartchunkybanana6",
             "Name": "Gloomy Galleon Start Chunky Banana 6",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "banana_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34489,7 +34489,7 @@
         "gloomygalleonstartchunkybunch7": {
             "id": "gloomygalleonstartchunkybunch7",
             "Name": "Gloomy Galleon Start Chunky Bunch 7",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "bunch_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34504,7 +34504,7 @@
         "gloomygalleonstartchunkybanana8": {
             "id": "gloomygalleonstartchunkybanana8",
             "Name": "Gloomy Galleon Start Chunky Banana 8",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "banana_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34519,7 +34519,7 @@
         "gloomygalleonstartdiddycoin9": {
             "id": "gloomygalleonstartdiddycoin9",
             "Name": "Gloomy Galleon Start Diddy Coin 9",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "coin_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34534,7 +34534,7 @@
         "gloomygalleonstartchunkycoin10": {
             "id": "gloomygalleonstartchunkycoin10",
             "Name": "Gloomy Galleon Start Chunky Coin 10",
-            "source": "rr-gloomy galleon start",
+            "source": "rr-gloomygalleonstart",
             "target": "coin_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34549,7 +34549,7 @@
         "galleonpastvinestinybanana0": {
             "id": "galleonpastvinestinybanana0",
             "Name": "Galleon Past Vines Tiny Banana 0",
-            "source": "rr-galleon past vines",
+            "source": "rr-galleonpastvines",
             "target": "banana_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34564,7 +34564,7 @@
         "galleonpastvinestinybunch1": {
             "id": "galleonpastvinestinybunch1",
             "Name": "Galleon Past Vines Tiny Bunch 1",
-            "source": "rr-galleon past vines",
+            "source": "rr-galleonpastvines",
             "target": "bunch_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34579,7 +34579,7 @@
         "galleonpastvineschunkybanana2": {
             "id": "galleonpastvineschunkybanana2",
             "Name": "Galleon Past Vines Chunky Banana 2",
-            "source": "rr-galleon past vines",
+            "source": "rr-galleonpastvines",
             "target": "banana_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34594,7 +34594,7 @@
         "galleonbeyondpineapplegatetinybunch0": {
             "id": "galleonbeyondpineapplegatetinybunch0",
             "Name": "Galleon Beyond Pineapple Gate Tiny Bunch 0",
-            "source": "rr-galleon beyond pineapple gate",
+            "source": "rr-galleonbeyondpineapplegate",
             "target": "bunch_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34617,7 +34617,7 @@
         "galleonbeyondpineapplegatechunkyballoon1": {
             "id": "galleonbeyondpineapplegatechunkyballoon1",
             "Name": "Galleon Beyond Pineapple Gate Chunky Balloon 1",
-            "source": "rr-galleon beyond pineapple gate",
+            "source": "rr-galleonbeyondpineapplegate",
             "target": "balloon_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34660,7 +34660,7 @@
         "galleonbeyondpineapplegatetinycoin2": {
             "id": "galleonbeyondpineapplegatetinycoin2",
             "Name": "Galleon Beyond Pineapple Gate Tiny Coin 2",
-            "source": "rr-galleon beyond pineapple gate",
+            "source": "rr-galleonbeyondpineapplegate",
             "target": "coin_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34675,7 +34675,7 @@
         "galleonbeyondpineapplegatechunkycoin3": {
             "id": "galleonbeyondpineapplegatechunkycoin3",
             "Name": "Galleon Beyond Pineapple Gate Chunky Coin 3",
-            "source": "rr-galleon beyond pineapple gate",
+            "source": "rr-galleonbeyondpineapplegate",
             "target": "coin_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34690,7 +34690,7 @@
         "lighthousesurfacetinyballoon0": {
             "id": "lighthousesurfacetinyballoon0",
             "Name": "Lighthouse Surface Tiny Balloon 0",
-            "source": "rr-lighthouse surface",
+            "source": "rr-lighthousesurface",
             "target": "balloon_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34716,7 +34716,7 @@
         "lighthouseplatformdonkeyballoon0": {
             "id": "lighthouseplatformdonkeyballoon0",
             "Name": "Lighthouse Platform Donkey Balloon 0",
-            "source": "rr-lighthouse platform",
+            "source": "rr-lighthouseplatform",
             "target": "balloon_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34738,7 +34738,7 @@
         "lighthouseplatformdiddyballoon1": {
             "id": "lighthouseplatformdiddyballoon1",
             "Name": "Lighthouse Platform Diddy Balloon 1",
-            "source": "rr-lighthouse platform",
+            "source": "rr-lighthouseplatform",
             "target": "balloon_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34760,7 +34760,7 @@
         "lighthouseplatformdiddybunch2": {
             "id": "lighthouseplatformdiddybunch2",
             "Name": "Lighthouse Platform Diddy Bunch 2",
-            "source": "rr-lighthouse platform",
+            "source": "rr-lighthouseplatform",
             "target": "bunch_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34782,7 +34782,7 @@
         "lighthouseplatformdiddycoin3": {
             "id": "lighthouseplatformdiddycoin3",
             "Name": "Lighthouse Platform Diddy Coin 3",
-            "source": "rr-lighthouse platform",
+            "source": "rr-lighthouseplatform",
             "target": "coin_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34804,7 +34804,7 @@
         "lighthouseplatformchunkycoin4": {
             "id": "lighthouseplatformchunkycoin4",
             "Name": "Lighthouse Platform Chunky Coin 4",
-            "source": "rr-lighthouse platform",
+            "source": "rr-lighthouseplatform",
             "target": "coin_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34847,7 +34847,7 @@
         "lighthouseunderwaterdonkeybanana0": {
             "id": "lighthouseunderwaterdonkeybanana0",
             "Name": "Lighthouse Underwater Donkey Banana 0",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "banana_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34876,7 +34876,7 @@
         "lighthouseunderwaterlankybanana1": {
             "id": "lighthouseunderwaterlankybanana1",
             "Name": "Lighthouse Underwater Lanky Banana 1",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "banana_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34891,7 +34891,7 @@
         "lighthouseunderwaterlankybunch2": {
             "id": "lighthouseunderwaterlankybunch2",
             "Name": "Lighthouse Underwater Lanky Bunch 2",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "bunch_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34920,7 +34920,7 @@
         "lighthouseunderwaterchunkybanana3": {
             "id": "lighthouseunderwaterchunkybanana3",
             "Name": "Lighthouse Underwater Chunky Banana 3",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "banana_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34935,7 +34935,7 @@
         "lighthouseunderwaterlankycoin4": {
             "id": "lighthouseunderwaterlankycoin4",
             "Name": "Lighthouse Underwater Lanky Coin 4",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "coin_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34950,7 +34950,7 @@
         "lighthouseunderwaterlankycoin5": {
             "id": "lighthouseunderwaterlankycoin5",
             "Name": "Lighthouse Underwater Lanky Coin 5",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "coin_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34979,7 +34979,7 @@
         "lighthouseunderwatertinycoin6": {
             "id": "lighthouseunderwatertinycoin6",
             "Name": "Lighthouse Underwater Tiny Coin 6",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "coin_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -34994,7 +34994,7 @@
         "lighthouseunderwaterchunkycoin7": {
             "id": "lighthouseunderwaterchunkycoin7",
             "Name": "Lighthouse Underwater Chunky Coin 7",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "coin_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35009,7 +35009,7 @@
         "lighthouseunderwaterchunkycoin8": {
             "id": "lighthouseunderwaterchunkycoin8",
             "Name": "Lighthouse Underwater Chunky Coin 8",
-            "source": "rr-lighthouse underwater",
+            "source": "rr-lighthouseunderwater",
             "target": "coin_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35024,7 +35024,7 @@
         "lighthousesnidealcovetinybunch0": {
             "id": "lighthousesnidealcovetinybunch0",
             "Name": "Lighthouse Snide Alcove Tiny Bunch 0",
-            "source": "rr-lighthouse snide alcove",
+            "source": "rr-lighthousesnidealcove",
             "target": "bunch_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35039,7 +35039,7 @@
         "lighthousesnidealcovetinyballoon1": {
             "id": "lighthousesnidealcovetinyballoon1",
             "Name": "Lighthouse Snide Alcove Tiny Balloon 1",
-            "source": "rr-lighthouse snide alcove",
+            "source": "rr-lighthousesnidealcove",
             "target": "balloon_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35061,7 +35061,7 @@
         "galleonbaboonblastdonkeybunch0": {
             "id": "galleonbaboonblastdonkeybunch0",
             "Name": "Galleon Baboon Blast Donkey Bunch 0",
-            "source": "rr-galleon baboon blast",
+            "source": "rr-galleonbaboonblast",
             "target": "bunch_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35076,7 +35076,7 @@
         "galleonbaboonblastdonkeycoin1": {
             "id": "galleonbaboonblastdonkeycoin1",
             "Name": "Galleon Baboon Blast Donkey Coin 1",
-            "source": "rr-galleon baboon blast",
+            "source": "rr-galleonbaboonblast",
             "target": "coin_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35135,7 +35135,7 @@
         "mermaidroomtinycoin0": {
             "id": "mermaidroomtinycoin0",
             "Name": "Mermaid Room Tiny Coin 0",
-            "source": "rr-mermaid room",
+            "source": "rr-mermaidroom",
             "target": "coin_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35150,7 +35150,7 @@
         "sickbaychunkybunch0": {
             "id": "sickbaychunkybunch0",
             "Name": "Sick Bay Chunky Bunch 0",
-            "source": "rr-sick bay",
+            "source": "rr-sickbay",
             "target": "bunch_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35165,7 +35165,7 @@
         "sickbaychunkybunch1": {
             "id": "sickbaychunkybunch1",
             "Name": "Sick Bay Chunky Bunch 1",
-            "source": "rr-sick bay",
+            "source": "rr-sickbay",
             "target": "bunch_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35193,7 +35193,7 @@
         "sickbaychunkycoin2": {
             "id": "sickbaychunkycoin2",
             "Name": "Sick Bay Chunky Coin 2",
-            "source": "rr-sick bay",
+            "source": "rr-sickbay",
             "target": "coin_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35391,7 +35391,7 @@
         "shipyardunderwaterdonkeybunch0": {
             "id": "shipyardunderwaterdonkeybunch0",
             "Name": "Shipyard Underwater Donkey Bunch 0",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "bunch_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35406,7 +35406,7 @@
         "shipyardunderwaterdiddybanana1": {
             "id": "shipyardunderwaterdiddybanana1",
             "Name": "Shipyard Underwater Diddy Banana 1",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "banana_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35421,7 +35421,7 @@
         "shipyardunderwaterdiddybanana2": {
             "id": "shipyardunderwaterdiddybanana2",
             "Name": "Shipyard Underwater Diddy Banana 2",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "banana_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35436,7 +35436,7 @@
         "shipyardunderwaterdiddybunch3": {
             "id": "shipyardunderwaterdiddybunch3",
             "Name": "Shipyard Underwater Diddy Bunch 3",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "bunch_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35451,7 +35451,7 @@
         "shipyardunderwaterlankybunch4": {
             "id": "shipyardunderwaterlankybunch4",
             "Name": "Shipyard Underwater Lanky Bunch 4",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "bunch_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35466,7 +35466,7 @@
         "shipyardunderwaterchunkybunch5": {
             "id": "shipyardunderwaterchunkybunch5",
             "Name": "Shipyard Underwater Chunky Bunch 5",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "bunch_galleon_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35481,7 +35481,7 @@
         "shipyardunderwaterdonkeycoin6": {
             "id": "shipyardunderwaterdonkeycoin6",
             "Name": "Shipyard Underwater Donkey Coin 6",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "coin_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35510,7 +35510,7 @@
         "shipyardunderwaterdiddycoin7": {
             "id": "shipyardunderwaterdiddycoin7",
             "Name": "Shipyard Underwater Diddy Coin 7",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "coin_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35525,7 +35525,7 @@
         "shipyardunderwaterdiddycoin8": {
             "id": "shipyardunderwaterdiddycoin8",
             "Name": "Shipyard Underwater Diddy Coin 8",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "coin_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35554,7 +35554,7 @@
         "shipyardunderwaterlankycoin9": {
             "id": "shipyardunderwaterlankycoin9",
             "Name": "Shipyard Underwater Lanky Coin 9",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "coin_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35583,7 +35583,7 @@
         "shipyardunderwatertinycoin10": {
             "id": "shipyardunderwatertinycoin10",
             "Name": "Shipyard Underwater Tiny Coin 10",
-            "source": "rr-shipyard underwater",
+            "source": "rr-shipyardunderwater",
             "target": "coin_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35612,7 +35612,7 @@
         "treasureroomdiddyballoon0": {
             "id": "treasureroomdiddyballoon0",
             "Name": "Treasure Room Diddy Balloon 0",
-            "source": "rr-treasure room",
+            "source": "rr-treasureroom",
             "target": "balloon_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35634,7 +35634,7 @@
         "treasureroomlankybanana1": {
             "id": "treasureroomlankybanana1",
             "Name": "Treasure Room Lanky Banana 1",
-            "source": "rr-treasure room",
+            "source": "rr-treasureroom",
             "target": "banana_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35657,7 +35657,7 @@
         "treasureroomlankybanana2": {
             "id": "treasureroomlankybanana2",
             "Name": "Treasure Room Lanky Banana 2",
-            "source": "rr-treasure room",
+            "source": "rr-treasureroom",
             "target": "banana_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35683,7 +35683,7 @@
         "treasureroomtinybunch3": {
             "id": "treasureroomtinybunch3",
             "Name": "Treasure Room Tiny Bunch 3",
-            "source": "rr-treasure room",
+            "source": "rr-treasureroom",
             "target": "bunch_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35705,7 +35705,7 @@
         "treasureroomtinyballoon4": {
             "id": "treasureroomtinyballoon4",
             "Name": "Treasure Room Tiny Balloon 4",
-            "source": "rr-treasure room",
+            "source": "rr-treasureroom",
             "target": "balloon_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35727,7 +35727,7 @@
         "tinychesttinycoin0": {
             "id": "tinychesttinycoin0",
             "Name": "Tiny Chest Tiny Coin 0",
-            "source": "rr-tiny chest",
+            "source": "rr-tinychest",
             "target": "coin_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35742,7 +35742,7 @@
         "lankyshiplankybanana0": {
             "id": "lankyshiplankybanana0",
             "Name": "Lanky Ship Lanky Banana 0",
-            "source": "rr-lanky ship",
+            "source": "rr-lankyship",
             "target": "banana_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35757,7 +35757,7 @@
         "lankyshiplankybunch1": {
             "id": "lankyshiplankybunch1",
             "Name": "Lanky Ship Lanky Bunch 1",
-            "source": "rr-lanky ship",
+            "source": "rr-lankyship",
             "target": "bunch_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35772,7 +35772,7 @@
         "lankyshiplankycoin2": {
             "id": "lankyshiplankycoin2",
             "Name": "Lanky Ship Lanky Coin 2",
-            "source": "rr-lanky ship",
+            "source": "rr-lankyship",
             "target": "coin_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35787,7 +35787,7 @@
         "lankyshiplankycoin3": {
             "id": "lankyshiplankycoin3",
             "Name": "Lanky Ship Lanky Coin 3",
-            "source": "rr-lanky ship",
+            "source": "rr-lankyship",
             "target": "coin_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35802,7 +35802,7 @@
         "tinyshiptinybunch0": {
             "id": "tinyshiptinybunch0",
             "Name": "Tiny Ship Tiny Bunch 0",
-            "source": "rr-tiny ship",
+            "source": "rr-tinyship",
             "target": "bunch_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35817,7 +35817,7 @@
         "bongosshipdonkeybanana0": {
             "id": "bongosshipdonkeybanana0",
             "Name": "Bongos Ship Donkey Banana 0",
-            "source": "rr-bongos ship",
+            "source": "rr-bongosship",
             "target": "banana_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35832,7 +35832,7 @@
         "bongosshipdonkeycoin1": {
             "id": "bongosshipdonkeycoin1",
             "Name": "Bongos Ship Donkey Coin 1",
-            "source": "rr-bongos ship",
+            "source": "rr-bongosship",
             "target": "coin_galleon_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35847,7 +35847,7 @@
         "guitarshipdiddybanana0": {
             "id": "guitarshipdiddybanana0",
             "Name": "Guitar Ship Diddy Banana 0",
-            "source": "rr-guitar ship",
+            "source": "rr-guitarship",
             "target": "banana_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35862,7 +35862,7 @@
         "guitarshipdiddybunch1": {
             "id": "guitarshipdiddybunch1",
             "Name": "Guitar Ship Diddy Bunch 1",
-            "source": "rr-guitar ship",
+            "source": "rr-guitarship",
             "target": "bunch_galleon_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35877,7 +35877,7 @@
         "tromboneshiplankybunch0": {
             "id": "tromboneshiplankybunch0",
             "Name": "Trombone Ship Lanky Bunch 0",
-            "source": "rr-trombone ship",
+            "source": "rr-tromboneship",
             "target": "bunch_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35892,7 +35892,7 @@
         "tromboneshiplankycoin1": {
             "id": "tromboneshiplankycoin1",
             "Name": "Trombone Ship Lanky Coin 1",
-            "source": "rr-trombone ship",
+            "source": "rr-tromboneship",
             "target": "coin_galleon_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35907,7 +35907,7 @@
         "saxophoneshiptinybanana0": {
             "id": "saxophoneshiptinybanana0",
             "Name": "Saxophone Ship Tiny Banana 0",
-            "source": "rr-saxophone ship",
+            "source": "rr-saxophoneship",
             "target": "banana_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35922,7 +35922,7 @@
         "saxophoneshiptinybunch1": {
             "id": "saxophoneshiptinybunch1",
             "Name": "Saxophone Ship Tiny Bunch 1",
-            "source": "rr-saxophone ship",
+            "source": "rr-saxophoneship",
             "target": "bunch_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35937,7 +35937,7 @@
         "saxophoneshiptinycoin2": {
             "id": "saxophoneshiptinycoin2",
             "Name": "Saxophone Ship Tiny Coin 2",
-            "source": "rr-saxophone ship",
+            "source": "rr-saxophoneship",
             "target": "coin_galleon_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35952,7 +35952,7 @@
         "fungiforeststartdonkeybanana0": {
             "id": "fungiforeststartdonkeybanana0",
             "Name": "Fungi Forest Start Donkey Banana 0",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "banana_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35967,7 +35967,7 @@
         "fungiforeststartdonkeybanana1": {
             "id": "fungiforeststartdonkeybanana1",
             "Name": "Fungi Forest Start Donkey Banana 1",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "banana_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35982,7 +35982,7 @@
         "fungiforeststartdiddybunch2": {
             "id": "fungiforeststartdiddybunch2",
             "Name": "Fungi Forest Start Diddy Bunch 2",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -35997,7 +35997,7 @@
         "fungiforeststartdiddybunch3": {
             "id": "fungiforeststartdiddybunch3",
             "Name": "Fungi Forest Start Diddy Bunch 3",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36012,7 +36012,7 @@
         "fungiforeststartlankybunch4": {
             "id": "fungiforeststartlankybunch4",
             "Name": "Fungi Forest Start Lanky Bunch 4",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36027,7 +36027,7 @@
         "fungiforeststarttinybunch5": {
             "id": "fungiforeststarttinybunch5",
             "Name": "Fungi Forest Start Tiny Bunch 5",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36042,7 +36042,7 @@
         "fungiforeststarttinybanana6": {
             "id": "fungiforeststarttinybanana6",
             "Name": "Fungi Forest Start Tiny Banana 6",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "banana_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36081,7 +36081,7 @@
         "fungiforeststartchunkybunch7": {
             "id": "fungiforeststartchunkybunch7",
             "Name": "Fungi Forest Start Chunky Bunch 7",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36096,7 +36096,7 @@
         "fungiforeststartchunkybunch8": {
             "id": "fungiforeststartchunkybunch8",
             "Name": "Fungi Forest Start Chunky Bunch 8",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36111,7 +36111,7 @@
         "fungiforeststartdonkeycoin9": {
             "id": "fungiforeststartdonkeycoin9",
             "Name": "Fungi Forest Start Donkey Coin 9",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "coin_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36126,7 +36126,7 @@
         "fungiforeststartlankycoin10": {
             "id": "fungiforeststartlankycoin10",
             "Name": "Fungi Forest Start Lanky Coin 10",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "coin_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36151,7 +36151,7 @@
         "fungiforeststarttinycoin11": {
             "id": "fungiforeststarttinycoin11",
             "Name": "Fungi Forest Start Tiny Coin 11",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "coin_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36177,7 +36177,7 @@
         "fungiforeststartchunkycoin12": {
             "id": "fungiforeststartchunkycoin12",
             "Name": "Fungi Forest Start Chunky Coin 12",
-            "source": "rr-fungi forest start",
+            "source": "rr-fungiforeststart",
             "target": "coin_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36192,7 +36192,7 @@
         "giantmushroomareadonkeybunch0": {
             "id": "giantmushroomareadonkeybunch0",
             "Name": "Giant Mushroom Area Donkey Bunch 0",
-            "source": "rr-giant mushroom area",
+            "source": "rr-giantmushroomarea",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36207,7 +36207,7 @@
         "giantmushroomareadiddybunch1": {
             "id": "giantmushroomareadiddybunch1",
             "Name": "Giant Mushroom Area Diddy Bunch 1",
-            "source": "rr-giant mushroom area",
+            "source": "rr-giantmushroomarea",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36222,7 +36222,7 @@
         "giantmushroomarealankybunch2": {
             "id": "giantmushroomarealankybunch2",
             "Name": "Giant Mushroom Area Lanky Bunch 2",
-            "source": "rr-giant mushroom area",
+            "source": "rr-giantmushroomarea",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36237,7 +36237,7 @@
         "giantmushroomarealankybanana3": {
             "id": "giantmushroomarealankybanana3",
             "Name": "Giant Mushroom Area Lanky Banana 3",
-            "source": "rr-giant mushroom area",
+            "source": "rr-giantmushroomarea",
             "target": "banana_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36252,7 +36252,7 @@
         "giantmushroomarealankycoin4": {
             "id": "giantmushroomarealankycoin4",
             "Name": "Giant Mushroom Area Lanky Coin 4",
-            "source": "rr-giant mushroom area",
+            "source": "rr-giantmushroomarea",
             "target": "coin_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36267,7 +36267,7 @@
         "mushroomlowerdonkeybunch0": {
             "id": "mushroomlowerdonkeybunch0",
             "Name": "Mushroom Lower Donkey Bunch 0",
-            "source": "rr-mushroom lower",
+            "source": "rr-mushroomlower",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36290,7 +36290,7 @@
         "mushroomlowerlankyballoon1": {
             "id": "mushroomlowerlankyballoon1",
             "Name": "Mushroom Lower Lanky Balloon 1",
-            "source": "rr-mushroom lower",
+            "source": "rr-mushroomlower",
             "target": "balloon_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36312,7 +36312,7 @@
         "mushroomlowertinybunch2": {
             "id": "mushroomlowertinybunch2",
             "Name": "Mushroom Lower Tiny Bunch 2",
-            "source": "rr-mushroom lower",
+            "source": "rr-mushroomlower",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36327,7 +36327,7 @@
         "mushroomlowermiddlechunkybanana0": {
             "id": "mushroomlowermiddlechunkybanana0",
             "Name": "Mushroom Lower Middle Chunky Banana 0",
-            "source": "rr-mushroom lower middle",
+            "source": "rr-mushroomlowermiddle",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36342,7 +36342,7 @@
         "mushroomlowermiddlechunkybunch1": {
             "id": "mushroomlowermiddlechunkybunch1",
             "Name": "Mushroom Lower Middle Chunky Bunch 1",
-            "source": "rr-mushroom lower middle",
+            "source": "rr-mushroomlowermiddle",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36357,7 +36357,7 @@
         "mushroomlowermiddlechunkybanana2": {
             "id": "mushroomlowermiddlechunkybanana2",
             "Name": "Mushroom Lower Middle Chunky Banana 2",
-            "source": "rr-mushroom lower middle",
+            "source": "rr-mushroomlowermiddle",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36372,7 +36372,7 @@
         "mushroomlowermiddlechunkybunch3": {
             "id": "mushroomlowermiddlechunkybunch3",
             "Name": "Mushroom Lower Middle Chunky Bunch 3",
-            "source": "rr-mushroom lower middle",
+            "source": "rr-mushroomlowermiddle",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36387,7 +36387,7 @@
         "mushroomlowerexteriordonkeybanana0": {
             "id": "mushroomlowerexteriordonkeybanana0",
             "Name": "Mushroom Lower Exterior Donkey Banana 0",
-            "source": "rr-mushroom lower exterior",
+            "source": "rr-mushroomlowerexterior",
             "target": "banana_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36402,7 +36402,7 @@
         "mushroomlowerexteriordonkeybanana1": {
             "id": "mushroomlowerexteriordonkeybanana1",
             "Name": "Mushroom Lower Exterior Donkey Banana 1",
-            "source": "rr-mushroom lower exterior",
+            "source": "rr-mushroomlowerexterior",
             "target": "banana_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36424,7 +36424,7 @@
         "mushroomlowerexteriortinyballoon2": {
             "id": "mushroomlowerexteriortinyballoon2",
             "Name": "Mushroom Lower Exterior Tiny Balloon 2",
-            "source": "rr-mushroom lower exterior",
+            "source": "rr-mushroomlowerexterior",
             "target": "balloon_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36446,7 +36446,7 @@
         "mushroomlowerexteriordonkeycoin3": {
             "id": "mushroomlowerexteriordonkeycoin3",
             "Name": "Mushroom Lower Exterior Donkey Coin 3",
-            "source": "rr-mushroom lower exterior",
+            "source": "rr-mushroomlowerexterior",
             "target": "coin_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36468,7 +36468,7 @@
         "mushroomlowerexteriortinycoin4": {
             "id": "mushroomlowerexteriortinycoin4",
             "Name": "Mushroom Lower Exterior Tiny Coin 4",
-            "source": "rr-mushroom lower exterior",
+            "source": "rr-mushroomlowerexterior",
             "target": "coin_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36483,7 +36483,7 @@
         "forestbaboonblastdonkeybunch0": {
             "id": "forestbaboonblastdonkeybunch0",
             "Name": "Forest Baboon Blast Donkey Bunch 0",
-            "source": "rr-forest baboon blast",
+            "source": "rr-forestbaboonblast",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36498,7 +36498,7 @@
         "mushroommiddlediddybanana0": {
             "id": "mushroommiddlediddybanana0",
             "Name": "Mushroom Middle Diddy Banana 0",
-            "source": "rr-mushroom middle",
+            "source": "rr-mushroommiddle",
             "target": "banana_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36513,7 +36513,7 @@
         "mushroomuppermiddlechunkybanana0": {
             "id": "mushroomuppermiddlechunkybanana0",
             "Name": "Mushroom Upper Middle Chunky Banana 0",
-            "source": "rr-mushroom upper middle",
+            "source": "rr-mushroomuppermiddle",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36528,7 +36528,7 @@
         "mushroomuppermiddlechunkybunch1": {
             "id": "mushroomuppermiddlechunkybunch1",
             "Name": "Mushroom Upper Middle Chunky Bunch 1",
-            "source": "rr-mushroom upper middle",
+            "source": "rr-mushroomuppermiddle",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36543,7 +36543,7 @@
         "mushroomuppermiddlechunkybanana2": {
             "id": "mushroomuppermiddlechunkybanana2",
             "Name": "Mushroom Upper Middle Chunky Banana 2",
-            "source": "rr-mushroom upper middle",
+            "source": "rr-mushroomuppermiddle",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36558,7 +36558,7 @@
         "mushroomupperlankyballoon0": {
             "id": "mushroomupperlankyballoon0",
             "Name": "Mushroom Upper Lanky Balloon 0",
-            "source": "rr-mushroom upper",
+            "source": "rr-mushroomupper",
             "target": "balloon_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36580,7 +36580,7 @@
         "mushroomupperchunkybanana1": {
             "id": "mushroomupperchunkybanana1",
             "Name": "Mushroom Upper Chunky Banana 1",
-            "source": "rr-mushroom upper",
+            "source": "rr-mushroomupper",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36595,7 +36595,7 @@
         "mushroomupperchunkybanana2": {
             "id": "mushroomupperchunkybanana2",
             "Name": "Mushroom Upper Chunky Banana 2",
-            "source": "rr-mushroom upper",
+            "source": "rr-mushroomupper",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36610,7 +36610,7 @@
         "mushroomupperchunkybanana3": {
             "id": "mushroomupperchunkybanana3",
             "Name": "Mushroom Upper Chunky Banana 3",
-            "source": "rr-mushroom upper",
+            "source": "rr-mushroomupper",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36625,7 +36625,7 @@
         "mushroomupperchunkybunch4": {
             "id": "mushroomupperchunkybunch4",
             "Name": "Mushroom Upper Chunky Bunch 4",
-            "source": "rr-mushroom upper",
+            "source": "rr-mushroomupper",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36640,7 +36640,7 @@
         "mushroomnightdoorchunkybunch0": {
             "id": "mushroomnightdoorchunkybunch0",
             "Name": "Mushroom Night Door Chunky Bunch 0",
-            "source": "rr-mushroom night door",
+            "source": "rr-mushroomnightdoor",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36655,7 +36655,7 @@
         "mushroomnightexteriorchunkyballoon0": {
             "id": "mushroomnightexteriorchunkyballoon0",
             "Name": "Mushroom Night Exterior Chunky Balloon 0",
-            "source": "rr-mushroom night exterior",
+            "source": "rr-mushroomnightexterior",
             "target": "balloon_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36677,7 +36677,7 @@
         "mushroomupperexteriordonkeybunch0": {
             "id": "mushroomupperexteriordonkeybunch0",
             "Name": "Mushroom Upper Exterior Donkey Bunch 0",
-            "source": "rr-mushroom upper exterior",
+            "source": "rr-mushroomupperexterior",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36692,7 +36692,7 @@
         "mushroomupperexteriordiddybanana1": {
             "id": "mushroomupperexteriordiddybanana1",
             "Name": "Mushroom Upper Exterior Diddy Banana 1",
-            "source": "rr-mushroom upper exterior",
+            "source": "rr-mushroomupperexterior",
             "target": "banana_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36707,7 +36707,7 @@
         "mushroomupperexteriorlankybunch2": {
             "id": "mushroomupperexteriorlankybunch2",
             "Name": "Mushroom Upper Exterior Lanky Bunch 2",
-            "source": "rr-mushroom upper exterior",
+            "source": "rr-mushroomupperexterior",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36729,7 +36729,7 @@
         "mushroomupperexteriordiddycoin3": {
             "id": "mushroomupperexteriordiddycoin3",
             "Name": "Mushroom Upper Exterior Diddy Coin 3",
-            "source": "rr-mushroom upper exterior",
+            "source": "rr-mushroomupperexterior",
             "target": "coin_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36744,7 +36744,7 @@
         "mushroomupperexteriorchunkycoin4": {
             "id": "mushroomupperexteriorchunkycoin4",
             "Name": "Mushroom Upper Exterior Chunky Coin 4",
-            "source": "rr-mushroom upper exterior",
+            "source": "rr-mushroomupperexterior",
             "target": "coin_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36759,7 +36759,7 @@
         "mushroomchunkyroomchunkybunch0": {
             "id": "mushroomchunkyroomchunkybunch0",
             "Name": "Mushroom Chunky Room Chunky Bunch 0",
-            "source": "rr-mushroom chunky room",
+            "source": "rr-mushroomchunkyroom",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36774,7 +36774,7 @@
         "mushroomchunkyroomchunkyballoon1": {
             "id": "mushroomchunkyroomchunkyballoon1",
             "Name": "Mushroom Chunky Room Chunky Balloon 1",
-            "source": "rr-mushroom chunky room",
+            "source": "rr-mushroomchunkyroom",
             "target": "balloon_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36796,7 +36796,7 @@
         "mushroomlankyzingersroomlankybunch0": {
             "id": "mushroomlankyzingersroomlankybunch0",
             "Name": "Mushroom Lanky Zingers Room Lanky Bunch 0",
-            "source": "rr-mushroom lanky zingers room",
+            "source": "rr-mushroomlankyzingersroom",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36811,7 +36811,7 @@
         "mushroomlankymushroomsroomlankybunch0": {
             "id": "mushroomlankymushroomsroomlankybunch0",
             "Name": "Mushroom Lanky Mushrooms Room Lanky Bunch 0",
-            "source": "rr-mushroom lanky mushrooms room",
+            "source": "rr-mushroomlankymushroomsroom",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36826,7 +36826,7 @@
         "hollowtreeareadiddybanana0": {
             "id": "hollowtreeareadiddybanana0",
             "Name": "Hollow Tree Area Diddy Banana 0",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "banana_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36841,7 +36841,7 @@
         "hollowtreeareadiddybunch1": {
             "id": "hollowtreeareadiddybunch1",
             "Name": "Hollow Tree Area Diddy Bunch 1",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36856,7 +36856,7 @@
         "hollowtreeareadiddybunch2": {
             "id": "hollowtreeareadiddybunch2",
             "Name": "Hollow Tree Area Diddy Bunch 2",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36878,7 +36878,7 @@
         "hollowtreearealankybanana3": {
             "id": "hollowtreearealankybanana3",
             "Name": "Hollow Tree Area Lanky Banana 3",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "banana_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36893,7 +36893,7 @@
         "hollowtreearealankybanana4": {
             "id": "hollowtreearealankybanana4",
             "Name": "Hollow Tree Area Lanky Banana 4",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "banana_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36908,7 +36908,7 @@
         "hollowtreearealankybunch5": {
             "id": "hollowtreearealankybunch5",
             "Name": "Hollow Tree Area Lanky Bunch 5",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36923,7 +36923,7 @@
         "hollowtreeareatinybanana6": {
             "id": "hollowtreeareatinybanana6",
             "Name": "Hollow Tree Area Tiny Banana 6",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "banana_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36938,7 +36938,7 @@
         "hollowtreeareatinybunch7": {
             "id": "hollowtreeareatinybunch7",
             "Name": "Hollow Tree Area Tiny Bunch 7",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36963,7 +36963,7 @@
         "hollowtreeareadiddycoin8": {
             "id": "hollowtreeareadiddycoin8",
             "Name": "Hollow Tree Area Diddy Coin 8",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "coin_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -36993,7 +36993,7 @@
         "hollowtreearealankycoin9": {
             "id": "hollowtreearealankycoin9",
             "Name": "Hollow Tree Area Lanky Coin 9",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "coin_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37008,7 +37008,7 @@
         "hollowtreearealankycoin10": {
             "id": "hollowtreearealankycoin10",
             "Name": "Hollow Tree Area Lanky Coin 10",
-            "source": "rr-hollow tree area",
+            "source": "rr-hollowtreearea",
             "target": "coin_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37058,7 +37058,7 @@
         "verytopofthemilllankybanana0": {
             "id": "verytopofthemilllankybanana0",
             "Name": "Very top of the Mill Lanky Banana 0",
-            "source": "rr-very top of the mill",
+            "source": "rr-verytopofthemill",
             "target": "banana_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37073,7 +37073,7 @@
         "topofthemilllankybanana0": {
             "id": "topofthemilllankybanana0",
             "Name": "Top of the Mill Lanky Banana 0",
-            "source": "rr-top of the mill",
+            "source": "rr-topofthemill",
             "target": "banana_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37088,7 +37088,7 @@
         "topofthemilllankybunch1": {
             "id": "topofthemilllankybunch1",
             "Name": "Top of the Mill Lanky Bunch 1",
-            "source": "rr-top of the mill",
+            "source": "rr-topofthemill",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37103,7 +37103,7 @@
         "topofthemilllankybunch2": {
             "id": "topofthemilllankybunch2",
             "Name": "Top of the Mill Lanky Bunch 2",
-            "source": "rr-top of the mill",
+            "source": "rr-topofthemill",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37130,7 +37130,7 @@
         "millarealankybanana0": {
             "id": "millarealankybanana0",
             "Name": "Mill Area Lanky Banana 0",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "banana_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37145,7 +37145,7 @@
         "millareadonkeyballoon1": {
             "id": "millareadonkeyballoon1",
             "Name": "Mill Area Donkey Balloon 1",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "balloon_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37167,7 +37167,7 @@
         "millareadiddyballoon2": {
             "id": "millareadiddyballoon2",
             "Name": "Mill Area Diddy Balloon 2",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "balloon_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37206,7 +37206,7 @@
         "millareadiddybanana3": {
             "id": "millareadiddybanana3",
             "Name": "Mill Area Diddy Banana 3",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "banana_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37221,7 +37221,7 @@
         "millareadiddybunch4": {
             "id": "millareadiddybunch4",
             "Name": "Mill Area Diddy Bunch 4",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37249,7 +37249,7 @@
         "millareatinybanana5": {
             "id": "millareatinybanana5",
             "Name": "Mill Area Tiny Banana 5",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "banana_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37271,7 +37271,7 @@
         "millareadiddycoin6": {
             "id": "millareadiddycoin6",
             "Name": "Mill Area Diddy Coin 6",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "coin_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37293,7 +37293,7 @@
         "millarealankycoin7": {
             "id": "millarealankycoin7",
             "Name": "Mill Area Lanky Coin 7",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "coin_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37315,7 +37315,7 @@
         "millareachunkycoin8": {
             "id": "millareachunkycoin8",
             "Name": "Mill Area Chunky Coin 8",
-            "source": "rr-mill area",
+            "source": "rr-millarea",
             "target": "coin_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37337,7 +37337,7 @@
         "millbackroomchunkybunch0": {
             "id": "millbackroomchunkybunch0",
             "Name": "Mill Back Room Chunky Bunch 0",
-            "source": "rr-mill back room",
+            "source": "rr-millbackroom",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37359,7 +37359,7 @@
         "millbackroomtinybunch1": {
             "id": "millbackroomtinybunch1",
             "Name": "Mill Back Room Tiny Bunch 1",
-            "source": "rr-mill back room",
+            "source": "rr-millbackroom",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37374,7 +37374,7 @@
         "millbackroomtinybunch2": {
             "id": "millbackroomtinybunch2",
             "Name": "Mill Back Room Tiny Bunch 2",
-            "source": "rr-mill back room",
+            "source": "rr-millbackroom",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37397,7 +37397,7 @@
         "millbackroomchunkycoin3": {
             "id": "millbackroomchunkycoin3",
             "Name": "Mill Back Room Chunky Coin 3",
-            "source": "rr-mill back room",
+            "source": "rr-millbackroom",
             "target": "coin_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37412,7 +37412,7 @@
         "spiderroomtinybunch0": {
             "id": "spiderroomtinybunch0",
             "Name": "Spider Room Tiny Bunch 0",
-            "source": "rr-spider room",
+            "source": "rr-spiderroom",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37427,7 +37427,7 @@
         "grinderroomdonkeybunch0": {
             "id": "grinderroomdonkeybunch0",
             "Name": "Grinder Room Donkey Bunch 0",
-            "source": "rr-grinder room",
+            "source": "rr-grinderroom",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37449,7 +37449,7 @@
         "grinderroomdonkeyballoon1": {
             "id": "grinderroomdonkeyballoon1",
             "Name": "Grinder Room Donkey Balloon 1",
-            "source": "rr-grinder room",
+            "source": "rr-grinderroom",
             "target": "balloon_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37494,7 +37494,7 @@
         "grinderroomlankycoin2": {
             "id": "grinderroomlankycoin2",
             "Name": "Grinder Room Lanky Coin 2",
-            "source": "rr-grinder room",
+            "source": "rr-grinderroom",
             "target": "coin_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37509,7 +37509,7 @@
         "grinderroomtinycoin3": {
             "id": "grinderroomtinycoin3",
             "Name": "Grinder Room Tiny Coin 3",
-            "source": "rr-grinder room",
+            "source": "rr-grinderroom",
             "target": "coin_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37524,7 +37524,7 @@
         "millraftersdiddybunch0": {
             "id": "millraftersdiddybunch0",
             "Name": "Mill Rafters Diddy Bunch 0",
-            "source": "rr-mill rafters",
+            "source": "rr-millrafters",
             "target": "bunch_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37549,7 +37549,7 @@
         "winchroomdiddyballoon0": {
             "id": "winchroomdiddyballoon0",
             "Name": "Winch Room Diddy Balloon 0",
-            "source": "rr-winch room",
+            "source": "rr-winchroom",
             "target": "balloon_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37571,7 +37571,7 @@
         "winchroomdiddycoin1": {
             "id": "winchroomdiddycoin1",
             "Name": "Winch Room Diddy Coin 1",
-            "source": "rr-winch room",
+            "source": "rr-winchroom",
             "target": "coin_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37586,7 +37586,7 @@
         "millatticlankybunch0": {
             "id": "millatticlankybunch0",
             "Name": "Mill Attic Lanky Bunch 0",
-            "source": "rr-mill attic",
+            "source": "rr-millattic",
             "target": "bunch_forest_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37601,7 +37601,7 @@
         "millatticdiddycoin1": {
             "id": "millatticdiddycoin1",
             "Name": "Mill Attic Diddy Coin 1",
-            "source": "rr-mill attic",
+            "source": "rr-millattic",
             "target": "coin_forest_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37616,7 +37616,7 @@
         "thornvineareadonkeybanana0": {
             "id": "thornvineareadonkeybanana0",
             "Name": "Thornvine Area Donkey Banana 0",
-            "source": "rr-thornvine area",
+            "source": "rr-thornvinearea",
             "target": "banana_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37631,7 +37631,7 @@
         "thornvineareadonkeybunch1": {
             "id": "thornvineareadonkeybunch1",
             "Name": "Thornvine Area Donkey Bunch 1",
-            "source": "rr-thornvine area",
+            "source": "rr-thornvinearea",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37653,7 +37653,7 @@
         "thornvineareatinyballoon2": {
             "id": "thornvineareatinyballoon2",
             "Name": "Thornvine Area Tiny Balloon 2",
-            "source": "rr-thornvine area",
+            "source": "rr-thornvinearea",
             "target": "balloon_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37675,7 +37675,7 @@
         "thornvineareadonkeycoin3": {
             "id": "thornvineareadonkeycoin3",
             "Name": "Thornvine Area Donkey Coin 3",
-            "source": "rr-thornvine area",
+            "source": "rr-thornvinearea",
             "target": "coin_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37697,7 +37697,7 @@
         "thornvinebarndonkeybunch0": {
             "id": "thornvinebarndonkeybunch0",
             "Name": "Thornvine Barn Donkey Bunch 0",
-            "source": "rr-thornvine barn",
+            "source": "rr-thornvinebarn",
             "target": "bunch_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37722,7 +37722,7 @@
         "thornvinebarndonkeycoin1": {
             "id": "thornvinebarndonkeycoin1",
             "Name": "Thornvine Barn Donkey Coin 1",
-            "source": "rr-thornvine barn",
+            "source": "rr-thornvinebarn",
             "target": "coin_forest_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37737,7 +37737,7 @@
         "wormareatinybunch0": {
             "id": "wormareatinybunch0",
             "Name": "Worm Area Tiny Bunch 0",
-            "source": "rr-worm area",
+            "source": "rr-wormarea",
             "target": "bunch_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37759,7 +37759,7 @@
         "wormareatinybanana1": {
             "id": "wormareatinybanana1",
             "Name": "Worm Area Tiny Banana 1",
-            "source": "rr-worm area",
+            "source": "rr-wormarea",
             "target": "banana_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37774,7 +37774,7 @@
         "wormareachunkybunch2": {
             "id": "wormareachunkybunch2",
             "Name": "Worm Area Chunky Bunch 2",
-            "source": "rr-worm area",
+            "source": "rr-wormarea",
             "target": "bunch_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37789,7 +37789,7 @@
         "wormareachunkybanana3": {
             "id": "wormareachunkybanana3",
             "Name": "Worm Area Chunky Banana 3",
-            "source": "rr-worm area",
+            "source": "rr-wormarea",
             "target": "banana_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37804,7 +37804,7 @@
         "wormareatinycoin4": {
             "id": "wormareatinycoin4",
             "Name": "Worm Area Tiny Coin 4",
-            "source": "rr-worm area",
+            "source": "rr-wormarea",
             "target": "coin_forest_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37819,7 +37819,7 @@
         "wormareachunkycoin5": {
             "id": "wormareachunkycoin5",
             "Name": "Worm Area Chunky Coin 5",
-            "source": "rr-worm area",
+            "source": "rr-wormarea",
             "target": "coin_forest_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37852,7 +37852,7 @@
         "crystalcavesmaindonkeybunch0": {
             "id": "crystalcavesmaindonkeybunch0",
             "Name": "Crystal Caves Main Donkey Bunch 0",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37867,7 +37867,7 @@
         "crystalcavesmaindonkeybanana1": {
             "id": "crystalcavesmaindonkeybanana1",
             "Name": "Crystal Caves Main Donkey Banana 1",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "banana_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37882,7 +37882,7 @@
         "crystalcavesmaindonkeyballoon2": {
             "id": "crystalcavesmaindonkeyballoon2",
             "Name": "Crystal Caves Main Donkey Balloon 2",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "balloon_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37939,7 +37939,7 @@
         "crystalcavesmaindiddybanana3": {
             "id": "crystalcavesmaindiddybanana3",
             "Name": "Crystal Caves Main Diddy Banana 3",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "banana_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37954,7 +37954,7 @@
         "crystalcavesmaindiddybunch4": {
             "id": "crystalcavesmaindiddybunch4",
             "Name": "Crystal Caves Main Diddy Bunch 4",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -37976,7 +37976,7 @@
         "crystalcavesmaindiddybunch5": {
             "id": "crystalcavesmaindiddybunch5",
             "Name": "Crystal Caves Main Diddy Bunch 5",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38002,7 +38002,7 @@
         "crystalcavesmaindiddyballoon6": {
             "id": "crystalcavesmaindiddyballoon6",
             "Name": "Crystal Caves Main Diddy Balloon 6",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "balloon_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38024,7 +38024,7 @@
         "crystalcavesmainlankybanana7": {
             "id": "crystalcavesmainlankybanana7",
             "Name": "Crystal Caves Main Lanky Banana 7",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "banana_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38039,7 +38039,7 @@
         "crystalcavesmainlankybunch8": {
             "id": "crystalcavesmainlankybunch8",
             "Name": "Crystal Caves Main Lanky Bunch 8",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38078,7 +38078,7 @@
         "crystalcavesmainlankybunch9": {
             "id": "crystalcavesmainlankybunch9",
             "Name": "Crystal Caves Main Lanky Bunch 9",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38100,7 +38100,7 @@
         "crystalcavesmaintinybanana10": {
             "id": "crystalcavesmaintinybanana10",
             "Name": "Crystal Caves Main Tiny Banana 10",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "banana_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38115,7 +38115,7 @@
         "crystalcavesmaintinybunch11": {
             "id": "crystalcavesmaintinybunch11",
             "Name": "Crystal Caves Main Tiny Bunch 11",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38143,7 +38143,7 @@
         "crystalcavesmainchunkybunch12": {
             "id": "crystalcavesmainchunkybunch12",
             "Name": "Crystal Caves Main Chunky Bunch 12",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38184,7 +38184,7 @@
         "crystalcavesmainchunkybanana13": {
             "id": "crystalcavesmainchunkybanana13",
             "Name": "Crystal Caves Main Chunky Banana 13",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "banana_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38225,7 +38225,7 @@
         "crystalcavesmainchunkybunch14": {
             "id": "crystalcavesmainchunkybunch14",
             "Name": "Crystal Caves Main Chunky Bunch 14",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38240,7 +38240,7 @@
         "crystalcavesmainchunkybunch15": {
             "id": "crystalcavesmainchunkybunch15",
             "Name": "Crystal Caves Main Chunky Bunch 15",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38255,7 +38255,7 @@
         "crystalcavesmainchunkybunch16": {
             "id": "crystalcavesmainchunkybunch16",
             "Name": "Crystal Caves Main Chunky Bunch 16",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38277,7 +38277,7 @@
         "crystalcavesmainchunkybanana17": {
             "id": "crystalcavesmainchunkybanana17",
             "Name": "Crystal Caves Main Chunky Banana 17",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "banana_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38292,7 +38292,7 @@
         "crystalcavesmaindonkeycoin18": {
             "id": "crystalcavesmaindonkeycoin18",
             "Name": "Crystal Caves Main Donkey Coin 18",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "coin_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38341,7 +38341,7 @@
         "crystalcavesmaindiddycoin19": {
             "id": "crystalcavesmaindiddycoin19",
             "Name": "Crystal Caves Main Diddy Coin 19",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "coin_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38356,7 +38356,7 @@
         "crystalcavesmainlankycoin20": {
             "id": "crystalcavesmainlankycoin20",
             "Name": "Crystal Caves Main Lanky Coin 20",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "coin_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38371,7 +38371,7 @@
         "crystalcavesmaintinycoin21": {
             "id": "crystalcavesmaintinycoin21",
             "Name": "Crystal Caves Main Tiny Coin 21",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "coin_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38393,7 +38393,7 @@
         "crystalcavesmaintinycoin22": {
             "id": "crystalcavesmaintinycoin22",
             "Name": "Crystal Caves Main Tiny Coin 22",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "coin_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38408,7 +38408,7 @@
         "crystalcavesmainchunkycoin23": {
             "id": "crystalcavesmainchunkycoin23",
             "Name": "Crystal Caves Main Chunky Coin 23",
-            "source": "rr-crystal caves main",
+            "source": "rr-crystalcavesmain",
             "target": "coin_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38423,7 +38423,7 @@
         "cavessnideareachunkybanana0": {
             "id": "cavessnideareachunkybanana0",
             "Name": "Caves Snide Area Chunky Banana 0",
-            "source": "rr-caves snide area",
+            "source": "rr-cavessnidearea",
             "target": "banana_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38438,7 +38438,7 @@
         "cavessnideareachunkyballoon1": {
             "id": "cavessnideareachunkyballoon1",
             "Name": "Caves Snide Area Chunky Balloon 1",
-            "source": "rr-caves snide area",
+            "source": "rr-cavessnidearea",
             "target": "balloon_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38460,7 +38460,7 @@
         "cavessnideareachunkycoin2": {
             "id": "cavessnideareachunkycoin2",
             "Name": "Caves Snide Area Chunky Coin 2",
-            "source": "rr-caves snide area",
+            "source": "rr-cavessnidearea",
             "target": "coin_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38475,7 +38475,7 @@
         "cavesblueprintcavediddybunch0": {
             "id": "cavesblueprintcavediddybunch0",
             "Name": "Caves Blueprint Cave Diddy Bunch 0",
-            "source": "rr-caves blueprint cave",
+            "source": "rr-cavesblueprintcave",
             "target": "bunch_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38490,7 +38490,7 @@
         "cavesblueprintcavediddybanana1": {
             "id": "cavesblueprintcavediddybanana1",
             "Name": "Caves Blueprint Cave Diddy Banana 1",
-            "source": "rr-caves blueprint cave",
+            "source": "rr-cavesblueprintcave",
             "target": "banana_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38505,7 +38505,7 @@
         "cavesblueprintcavetinyballoon2": {
             "id": "cavesblueprintcavetinyballoon2",
             "Name": "Caves Blueprint Cave Tiny Balloon 2",
-            "source": "rr-caves blueprint cave",
+            "source": "rr-cavesblueprintcave",
             "target": "balloon_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38527,7 +38527,7 @@
         "cavesbonuscavechunkyballoon0": {
             "id": "cavesbonuscavechunkyballoon0",
             "Name": "Caves Bonus Cave Chunky Balloon 0",
-            "source": "rr-caves bonus cave",
+            "source": "rr-cavesbonuscave",
             "target": "balloon_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38549,7 +38549,7 @@
         "cavesbonuscavechunkycoin1": {
             "id": "cavesbonuscavechunkycoin1",
             "Name": "Caves Bonus Cave Chunky Coin 1",
-            "source": "rr-caves bonus cave",
+            "source": "rr-cavesbonuscave",
             "target": "coin_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38564,7 +38564,7 @@
         "cavesblueprintpillarlankybunch0": {
             "id": "cavesblueprintpillarlankybunch0",
             "Name": "Caves Blueprint Pillar Lanky Bunch 0",
-            "source": "rr-caves blueprint pillar",
+            "source": "rr-cavesblueprintpillar",
             "target": "bunch_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38579,7 +38579,7 @@
         "cavesbaboonblastdonkeybunch0": {
             "id": "cavesbaboonblastdonkeybunch0",
             "Name": "Caves Baboon Blast Donkey Bunch 0",
-            "source": "rr-caves baboon blast",
+            "source": "rr-cavesbaboonblast",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38594,7 +38594,7 @@
         "cavesbaboonblastdonkeycoin1": {
             "id": "cavesbaboonblastdonkeycoin1",
             "Name": "Caves Baboon Blast Donkey Coin 1",
-            "source": "rr-caves baboon blast",
+            "source": "rr-cavesbaboonblast",
             "target": "coin_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38609,7 +38609,7 @@
         "bouldercavedonkeybanana0": {
             "id": "bouldercavedonkeybanana0",
             "Name": "Boulder Cave Donkey Banana 0",
-            "source": "rr-boulder cave",
+            "source": "rr-bouldercave",
             "target": "banana_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38624,7 +38624,7 @@
         "bouldercavedonkeyballoon1": {
             "id": "bouldercavedonkeyballoon1",
             "Name": "Boulder Cave Donkey Balloon 1",
-            "source": "rr-boulder cave",
+            "source": "rr-bouldercave",
             "target": "balloon_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38646,7 +38646,7 @@
         "bouldercavechunkybanana2": {
             "id": "bouldercavechunkybanana2",
             "Name": "Boulder Cave Chunky Banana 2",
-            "source": "rr-boulder cave",
+            "source": "rr-bouldercave",
             "target": "banana_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38675,7 +38675,7 @@
         "bouldercavechunkybunch3": {
             "id": "bouldercavechunkybunch3",
             "Name": "Boulder Cave Chunky Bunch 3",
-            "source": "rr-boulder cave",
+            "source": "rr-bouldercave",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38704,7 +38704,7 @@
         "bouldercavedonkeycoin4": {
             "id": "bouldercavedonkeycoin4",
             "Name": "Boulder Cave Donkey Coin 4",
-            "source": "rr-boulder cave",
+            "source": "rr-bouldercave",
             "target": "coin_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38719,7 +38719,7 @@
         "frozencastlelankyballoon0": {
             "id": "frozencastlelankyballoon0",
             "Name": "Frozen Castle Lanky Balloon 0",
-            "source": "rr-frozen castle",
+            "source": "rr-frozencastle",
             "target": "balloon_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38741,7 +38741,7 @@
         "frozencastlelankycoin1": {
             "id": "frozencastlelankycoin1",
             "Name": "Frozen Castle Lanky Coin 1",
-            "source": "rr-frozen castle",
+            "source": "rr-frozencastle",
             "target": "coin_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38756,7 +38756,7 @@
         "iglooareadonkeybunch0": {
             "id": "iglooareadonkeybunch0",
             "Name": "Igloo Area Donkey Bunch 0",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38771,7 +38771,7 @@
         "iglooareadonkeybanana1": {
             "id": "iglooareadonkeybanana1",
             "Name": "Igloo Area Donkey Banana 1",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "banana_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38786,7 +38786,7 @@
         "iglooareadiddybunch2": {
             "id": "iglooareadiddybunch2",
             "Name": "Igloo Area Diddy Bunch 2",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "bunch_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38808,7 +38808,7 @@
         "iglooareatinybunch3": {
             "id": "iglooareatinybunch3",
             "Name": "Igloo Area Tiny Bunch 3",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "bunch_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38823,7 +38823,7 @@
         "iglooareatinybunch4": {
             "id": "iglooareatinybunch4",
             "Name": "Igloo Area Tiny Bunch 4",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "bunch_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38852,7 +38852,7 @@
         "iglooareachunkybanana5": {
             "id": "iglooareachunkybanana5",
             "Name": "Igloo Area Chunky Banana 5",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "banana_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38885,7 +38885,7 @@
         "iglooarealankycoin6": {
             "id": "iglooarealankycoin6",
             "Name": "Igloo Area Lanky Coin 6",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "coin_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38900,7 +38900,7 @@
         "iglooareatinycoin7": {
             "id": "iglooareatinycoin7",
             "Name": "Igloo Area Tiny Coin 7",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "coin_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38915,7 +38915,7 @@
         "iglooareachunkycoin8": {
             "id": "iglooareachunkycoin8",
             "Name": "Igloo Area Chunky Coin 8",
-            "source": "rr-igloo area",
+            "source": "rr-iglooarea",
             "target": "coin_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38930,7 +38930,7 @@
         "giantkoshatinybunch0": {
             "id": "giantkoshatinybunch0",
             "Name": "Giant Kosha Tiny Bunch 0",
-            "source": "rr-giant kosha",
+            "source": "rr-giantkosha",
             "target": "bunch_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38945,7 +38945,7 @@
         "giantkoshatinycoin1": {
             "id": "giantkoshatinycoin1",
             "Name": "Giant Kosha Tiny Coin 1",
-            "source": "rr-giant kosha",
+            "source": "rr-giantkosha",
             "target": "coin_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38960,7 +38960,7 @@
         "donkeyigloodonkeybanana0": {
             "id": "donkeyigloodonkeybanana0",
             "Name": "Donkey Igloo Donkey Banana 0",
-            "source": "rr-donkey igloo",
+            "source": "rr-donkeyigloo",
             "target": "banana_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -38996,7 +38996,7 @@
         "donkeyigloodonkeybunch1": {
             "id": "donkeyigloodonkeybunch1",
             "Name": "Donkey Igloo Donkey Bunch 1",
-            "source": "rr-donkey igloo",
+            "source": "rr-donkeyigloo",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39011,7 +39011,7 @@
         "donkeyigloodonkeyballoon2": {
             "id": "donkeyigloodonkeyballoon2",
             "Name": "Donkey Igloo Donkey Balloon 2",
-            "source": "rr-donkey igloo",
+            "source": "rr-donkeyigloo",
             "target": "balloon_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39033,7 +39033,7 @@
         "diddyigloodiddyballoon0": {
             "id": "diddyigloodiddyballoon0",
             "Name": "Diddy Igloo Diddy Balloon 0",
-            "source": "rr-diddy igloo",
+            "source": "rr-diddyigloo",
             "target": "balloon_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39055,7 +39055,7 @@
         "lankyigloolankybanana0": {
             "id": "lankyigloolankybanana0",
             "Name": "Lanky Igloo Lanky Banana 0",
-            "source": "rr-lanky igloo",
+            "source": "rr-lankyigloo",
             "target": "banana_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39070,7 +39070,7 @@
         "lankyigloolankybanana1": {
             "id": "lankyigloolankybanana1",
             "Name": "Lanky Igloo Lanky Banana 1",
-            "source": "rr-lanky igloo",
+            "source": "rr-lankyigloo",
             "target": "banana_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39096,7 +39096,7 @@
         "lankyigloolankyballoon2": {
             "id": "lankyigloolankyballoon2",
             "Name": "Lanky Igloo Lanky Balloon 2",
-            "source": "rr-lanky igloo",
+            "source": "rr-lankyigloo",
             "target": "balloon_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39118,7 +39118,7 @@
         "tinyiglootinybunch0": {
             "id": "tinyiglootinybunch0",
             "Name": "Tiny Igloo Tiny Bunch 0",
-            "source": "rr-tiny igloo",
+            "source": "rr-tinyigloo",
             "target": "bunch_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39133,7 +39133,7 @@
         "tinyiglootinyballoon1": {
             "id": "tinyiglootinyballoon1",
             "Name": "Tiny Igloo Tiny Balloon 1",
-            "source": "rr-tiny igloo",
+            "source": "rr-tinyigloo",
             "target": "balloon_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39155,7 +39155,7 @@
         "chunkyigloochunkyballoon0": {
             "id": "chunkyigloochunkyballoon0",
             "Name": "Chunky Igloo Chunky Balloon 0",
-            "source": "rr-chunky igloo",
+            "source": "rr-chunkyigloo",
             "target": "balloon_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39177,7 +39177,7 @@
         "cabinareadonkeybunch0": {
             "id": "cabinareadonkeybunch0",
             "Name": "Cabin Area Donkey Bunch 0",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39192,7 +39192,7 @@
         "cabinareadiddyballoon1": {
             "id": "cabinareadiddyballoon1",
             "Name": "Cabin Area Diddy Balloon 1",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "balloon_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39214,7 +39214,7 @@
         "cabinarealankybanana2": {
             "id": "cabinarealankybanana2",
             "Name": "Cabin Area Lanky Banana 2",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "banana_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39229,7 +39229,7 @@
         "cabinarealankybunch3": {
             "id": "cabinarealankybunch3",
             "Name": "Cabin Area Lanky Bunch 3",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "bunch_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39257,7 +39257,7 @@
         "cabinarealankyballoon4": {
             "id": "cabinarealankyballoon4",
             "Name": "Cabin Area Lanky Balloon 4",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "balloon_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39279,7 +39279,7 @@
         "cabinareatinyballoon5": {
             "id": "cabinareatinyballoon5",
             "Name": "Cabin Area Tiny Balloon 5",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "balloon_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39301,7 +39301,7 @@
         "cabinareachunkybunch6": {
             "id": "cabinareachunkybunch6",
             "Name": "Cabin Area Chunky Bunch 6",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39316,7 +39316,7 @@
         "cabinarealankycoin7": {
             "id": "cabinarealankycoin7",
             "Name": "Cabin Area Lanky Coin 7",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "coin_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39331,7 +39331,7 @@
         "cabinareachunkycoin8": {
             "id": "cabinareachunkycoin8",
             "Name": "Cabin Area Chunky Coin 8",
-            "source": "rr-cabin area",
+            "source": "rr-cabinarea",
             "target": "coin_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39346,7 +39346,7 @@
         "rotatingcabindonkeybunch0": {
             "id": "rotatingcabindonkeybunch0",
             "Name": "Rotating Cabin Donkey Bunch 0",
-            "source": "rr-rotating cabin",
+            "source": "rr-rotatingcabin",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39361,7 +39361,7 @@
         "donkeycabindonkeybunch0": {
             "id": "donkeycabindonkeybunch0",
             "Name": "Donkey Cabin Donkey Bunch 0",
-            "source": "rr-donkey cabin",
+            "source": "rr-donkeycabin",
             "target": "bunch_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39376,7 +39376,7 @@
         "donkeycabindonkeycoin1": {
             "id": "donkeycabindonkeycoin1",
             "Name": "Donkey Cabin Donkey Coin 1",
-            "source": "rr-donkey cabin",
+            "source": "rr-donkeycabin",
             "target": "coin_caves_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39391,7 +39391,7 @@
         "diddylowercabindiddybunch0": {
             "id": "diddylowercabindiddybunch0",
             "Name": "Diddy Lower Cabin Diddy Bunch 0",
-            "source": "rr-diddy lower cabin",
+            "source": "rr-diddylowercabin",
             "target": "bunch_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39417,7 +39417,7 @@
         "diddylowercabindiddybanana1": {
             "id": "diddylowercabindiddybanana1",
             "Name": "Diddy Lower Cabin Diddy Banana 1",
-            "source": "rr-diddy lower cabin",
+            "source": "rr-diddylowercabin",
             "target": "banana_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39432,7 +39432,7 @@
         "diddylowercabindiddycoin2": {
             "id": "diddylowercabindiddycoin2",
             "Name": "Diddy Lower Cabin Diddy Coin 2",
-            "source": "rr-diddy lower cabin",
+            "source": "rr-diddylowercabin",
             "target": "coin_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39458,7 +39458,7 @@
         "diddyuppercabindiddybunch0": {
             "id": "diddyuppercabindiddybunch0",
             "Name": "Diddy Upper Cabin Diddy Bunch 0",
-            "source": "rr-diddy upper cabin",
+            "source": "rr-diddyuppercabin",
             "target": "bunch_caves_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39505,7 +39505,7 @@
         "lankycabinlankybunch0": {
             "id": "lankycabinlankybunch0",
             "Name": "Lanky Cabin Lanky Bunch 0",
-            "source": "rr-lanky cabin",
+            "source": "rr-lankycabin",
             "target": "bunch_caves_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39520,7 +39520,7 @@
         "tinycabintinybunch0": {
             "id": "tinycabintinybunch0",
             "Name": "Tiny Cabin Tiny Bunch 0",
-            "source": "rr-tiny cabin",
+            "source": "rr-tinycabin",
             "target": "bunch_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39535,7 +39535,7 @@
         "tinycabintinyballoon1": {
             "id": "tinycabintinyballoon1",
             "Name": "Tiny Cabin Tiny Balloon 1",
-            "source": "rr-tiny cabin",
+            "source": "rr-tinycabin",
             "target": "balloon_caves_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39557,7 +39557,7 @@
         "chunkycabinchunkybunch0": {
             "id": "chunkycabinchunkybunch0",
             "Name": "Chunky Cabin Chunky Bunch 0",
-            "source": "rr-chunky cabin",
+            "source": "rr-chunkycabin",
             "target": "bunch_caves_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39582,7 +39582,7 @@
         "creepycastlemaindonkeybanana0": {
             "id": "creepycastlemaindonkeybanana0",
             "Name": "Creepy Castle Main Donkey Banana 0",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "banana_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39597,7 +39597,7 @@
         "creepycastlemaindonkeybanana1": {
             "id": "creepycastlemaindonkeybanana1",
             "Name": "Creepy Castle Main Donkey Banana 1",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "banana_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39612,7 +39612,7 @@
         "creepycastlemaindiddybunch2": {
             "id": "creepycastlemaindiddybunch2",
             "Name": "Creepy Castle Main Diddy Bunch 2",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "bunch_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39634,7 +39634,7 @@
         "creepycastlemaindiddybunch3": {
             "id": "creepycastlemaindiddybunch3",
             "Name": "Creepy Castle Main Diddy Bunch 3",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "bunch_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39656,7 +39656,7 @@
         "creepycastlemaindiddyballoon4": {
             "id": "creepycastlemaindiddyballoon4",
             "Name": "Creepy Castle Main Diddy Balloon 4",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "balloon_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39678,7 +39678,7 @@
         "creepycastlemaintinybanana5": {
             "id": "creepycastlemaintinybanana5",
             "Name": "Creepy Castle Main Tiny Banana 5",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "banana_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39693,7 +39693,7 @@
         "creepycastlemaintinybunch6": {
             "id": "creepycastlemaintinybunch6",
             "Name": "Creepy Castle Main Tiny Bunch 6",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "bunch_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39708,7 +39708,7 @@
         "creepycastlemaindonkeycoin7": {
             "id": "creepycastlemaindonkeycoin7",
             "Name": "Creepy Castle Main Donkey Coin 7",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "coin_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39723,7 +39723,7 @@
         "creepycastlemaindiddycoin8": {
             "id": "creepycastlemaindiddycoin8",
             "Name": "Creepy Castle Main Diddy Coin 8",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "coin_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39745,7 +39745,7 @@
         "creepycastlemaindiddycoin9": {
             "id": "creepycastlemaindiddycoin9",
             "Name": "Creepy Castle Main Diddy Coin 9",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "coin_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39767,7 +39767,7 @@
         "creepycastlemaintinycoin10": {
             "id": "creepycastlemaintinycoin10",
             "Name": "Creepy Castle Main Tiny Coin 10",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "coin_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39789,7 +39789,7 @@
         "creepycastlemainchunkycoin11": {
             "id": "creepycastlemainchunkycoin11",
             "Name": "Creepy Castle Main Chunky Coin 11",
-            "source": "rr-creepy castle main",
+            "source": "rr-creepycastlemain",
             "target": "coin_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39804,7 +39804,7 @@
         "creepycastleverybottomdonkeycoin0": {
             "id": "creepycastleverybottomdonkeycoin0",
             "Name": "Creepy Castle Very Bottom Donkey Coin 0",
-            "source": "rr-creepy castle very bottom",
+            "source": "rr-creepycastleverybottom",
             "target": "coin_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39819,7 +39819,7 @@
         "creepycastleverybottomlankycoin1": {
             "id": "creepycastleverybottomlankycoin1",
             "Name": "Creepy Castle Very Bottom Lanky Coin 1",
-            "source": "rr-creepy castle very bottom",
+            "source": "rr-creepycastleverybottom",
             "target": "coin_castle_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39841,7 +39841,7 @@
         "creepycastleverybottomchunkycoin2": {
             "id": "creepycastleverybottomchunkycoin2",
             "Name": "Creepy Castle Very Bottom Chunky Coin 2",
-            "source": "rr-creepy castle very bottom",
+            "source": "rr-creepycastleverybottom",
             "target": "coin_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39856,7 +39856,7 @@
         "creepycastleverybottomtinycoin3": {
             "id": "creepycastleverybottomtinycoin3",
             "Name": "Creepy Castle Very Bottom Tiny Coin 3",
-            "source": "rr-creepy castle very bottom",
+            "source": "rr-creepycastleverybottom",
             "target": "coin_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39871,7 +39871,7 @@
         "castlebaboonblastdonkeycoin0": {
             "id": "castlebaboonblastdonkeycoin0",
             "Name": "Castle Baboon Blast Donkey Coin 0",
-            "source": "rr-castle baboon blast",
+            "source": "rr-castlebaboonblast",
             "target": "coin_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39886,7 +39886,7 @@
         "castletreedonkeybunch0": {
             "id": "castletreedonkeybunch0",
             "Name": "Castle Tree Donkey Bunch 0",
-            "source": "rr-castle tree",
+            "source": "rr-castletree",
             "target": "bunch_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39908,7 +39908,7 @@
         "castletreedonkeyballoon1": {
             "id": "castletreedonkeyballoon1",
             "Name": "Castle Tree Donkey Balloon 1",
-            "source": "rr-castle tree",
+            "source": "rr-castletree",
             "target": "balloon_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39930,7 +39930,7 @@
         "castletreechunkybunch2": {
             "id": "castletreechunkybunch2",
             "Name": "Castle Tree Chunky Bunch 2",
-            "source": "rr-castle tree",
+            "source": "rr-castletree",
             "target": "bunch_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39945,7 +39945,7 @@
         "castletreechunkyballoon3": {
             "id": "castletreechunkyballoon3",
             "Name": "Castle Tree Chunky Balloon 3",
-            "source": "rr-castle tree",
+            "source": "rr-castletree",
             "target": "balloon_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -39981,7 +39981,7 @@
         "castletreechunkycoin4": {
             "id": "castletreechunkycoin4",
             "Name": "Castle Tree Chunky Coin 4",
-            "source": "rr-castle tree",
+            "source": "rr-castletree",
             "target": "coin_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40024,7 +40024,7 @@
         "librarymiddledonkeybunch0": {
             "id": "librarymiddledonkeybunch0",
             "Name": "Library Middle Donkey Bunch 0",
-            "source": "rr-library middle",
+            "source": "rr-librarymiddle",
             "target": "bunch_castle_donkey",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40120,7 +40120,7 @@
         "museumbehindglasstinybunch0": {
             "id": "museumbehindglasstinybunch0",
             "Name": "Museum Behind Glass Tiny Bunch 0",
-            "source": "rr-museum behind glass",
+            "source": "rr-museumbehindglass",
             "target": "bunch_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40135,7 +40135,7 @@
         "museumbehindglasstinybunch1": {
             "id": "museumbehindglasstinybunch1",
             "Name": "Museum Behind Glass Tiny Bunch 1",
-            "source": "rr-museum behind glass",
+            "source": "rr-museumbehindglass",
             "target": "bunch_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40163,7 +40163,7 @@
         "museumbehindglasstinyballoon2": {
             "id": "museumbehindglasstinyballoon2",
             "Name": "Museum Behind Glass Tiny Balloon 2",
-            "source": "rr-museum behind glass",
+            "source": "rr-museumbehindglass",
             "target": "balloon_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40251,7 +40251,7 @@
         "trashcantinybunch0": {
             "id": "trashcantinybunch0",
             "Name": "Trash Can Tiny Bunch 0",
-            "source": "rr-trash can",
+            "source": "rr-trashcan",
             "target": "bunch_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40266,7 +40266,7 @@
         "trashcantinycoin1": {
             "id": "trashcantinycoin1",
             "Name": "Trash Can Tiny Coin 1",
-            "source": "rr-trash can",
+            "source": "rr-trashcan",
             "target": "coin_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40380,7 +40380,7 @@
         "lowercavediddyballoon0": {
             "id": "lowercavediddyballoon0",
             "Name": "Lower Cave Diddy Balloon 0",
-            "source": "rr-lower cave",
+            "source": "rr-lowercave",
             "target": "balloon_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40402,7 +40402,7 @@
         "lowercavelankybanana1": {
             "id": "lowercavelankybanana1",
             "Name": "Lower Cave Lanky Banana 1",
-            "source": "rr-lower cave",
+            "source": "rr-lowercave",
             "target": "banana_castle_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40417,7 +40417,7 @@
         "lowercavelankybunch2": {
             "id": "lowercavelankybunch2",
             "Name": "Lower Cave Lanky Bunch 2",
-            "source": "rr-lower cave",
+            "source": "rr-lowercave",
             "target": "bunch_castle_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40432,7 +40432,7 @@
         "lowercavetinyballoon3": {
             "id": "lowercavetinyballoon3",
             "Name": "Lower Cave Tiny Balloon 3",
-            "source": "rr-lower cave",
+            "source": "rr-lowercave",
             "target": "balloon_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40454,7 +40454,7 @@
         "lowercavediddycoin4": {
             "id": "lowercavediddycoin4",
             "Name": "Lower Cave Diddy Coin 4",
-            "source": "rr-lower cave",
+            "source": "rr-lowercave",
             "target": "coin_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40469,7 +40469,7 @@
         "lowercavelankycoin5": {
             "id": "lowercavelankycoin5",
             "Name": "Lower Cave Lanky Coin 5",
-            "source": "rr-lower cave",
+            "source": "rr-lowercave",
             "target": "coin_castle_lanky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40917,7 +40917,7 @@
         "uppercavechunkybanana0": {
             "id": "uppercavechunkybanana0",
             "Name": "Upper Cave Chunky Banana 0",
-            "source": "rr-upper cave",
+            "source": "rr-uppercave",
             "target": "banana_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40932,7 +40932,7 @@
         "uppercavediddycoin1": {
             "id": "uppercavediddycoin1",
             "Name": "Upper Cave Diddy Coin 1",
-            "source": "rr-upper cave",
+            "source": "rr-uppercave",
             "target": "coin_castle_diddy",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40947,7 +40947,7 @@
         "uppercavetinycoin2": {
             "id": "uppercavetinycoin2",
             "Name": "Upper Cave Tiny Coin 2",
-            "source": "rr-upper cave",
+            "source": "rr-uppercave",
             "target": "coin_castle_tiny",
             "sourceType": "Region",
             "targetType": "Item",
@@ -40969,7 +40969,7 @@
         "uppercavechunkycoin3": {
             "id": "uppercavechunkycoin3",
             "Name": "Upper Cave Chunky Coin 3",
-            "source": "rr-upper cave",
+            "source": "rr-uppercave",
             "target": "coin_castle_chunky",
             "sourceType": "Region",
             "targetType": "Item",

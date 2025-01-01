@@ -32,7 +32,7 @@ class RegionNode:
 
         prefix = Class[0].lower() + Type[0].lower() + "-"
 
-        _id = id if isinstance(id, str) else id.name.lower()
+        _id = id if isinstance(id, str) else strip_name(id.name.lower())
 
         self.id = prefix+_id
         self.Name = Name
