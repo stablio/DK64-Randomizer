@@ -1043,8 +1043,8 @@
                 ]
             }
         },
-        "tn-19-31": {
-            "id": "tn-19-31",
+        "tn-19-31-g": {
+            "id": "tn-19-31-g",
             "Name": "DK Isles Main to Helm Lobby",
             "source": "kremislemouth",
             "target": "hideouthelmlobby",
@@ -1056,20 +1056,20 @@
                 "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "open_lobbies"
-                    },
-                    {
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "CavesKeyTurnedIn",
-                                "Events": true
+                                "Name": "generalclips",
+                                "isGlitch": true
                             },
                             {
-                                "Name": "CastleKeyTurnedIn",
-                                "Events": true
+                                "Name": "ponytailtwirl"
                             }
                         ]
+                    },
+                    {
+                        "Name": "tbs",
+                        "isGlitch": true
                     }
                 ]
             }
@@ -1115,6 +1115,37 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": true
+        },
+        "tn-19-31": {
+            "id": "tn-19-31",
+            "Name": "DK Isles Main to Helm Lobby",
+            "source": "kremislemouth",
+            "target": "hideouthelmlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "Name": "open_lobbies"
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CavesKeyTurnedIn",
+                                "Events": true
+                            },
+                            {
+                                "Name": "CastleKeyTurnedIn",
+                                "Events": true
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         "tn-19-18": {
             "id": "tn-19-18",
@@ -2668,8 +2699,8 @@
                 ]
             }
         },
-        "tn-263-47": {
-            "id": "tn-263-47",
+        "tn-263-47-g": {
+            "id": "tn-263-47-g",
             "Name": "Jungle Japes Main to Painting Room",
             "source": "japespaintingroomhill",
             "target": "japeslankycave",
@@ -2681,34 +2712,159 @@
                 "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "hasMoveSwitchsanity",
-                        "Params": [
-                            "JapesPainting",
-                            false
-                        ],
-                        "isFunction": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "hasMoveSwitchsanity",
+                                        "Params": [
+                                            "JapesPainting",
+                                            false
+                                        ],
+                                        "isFunction": true
+                                    },
+                                    {
+                                        "Name": "CanSkew",
+                                        "Params": [
+                                            true
+                                        ],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "CanSkew",
+                                        "Params": [
+                                            false
+                                        ],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    }
+                                ]
+                            },
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "combinator": "AND",
+                                        "rules": [
+                                            {
+                                                "Name": "orangstand"
+                                            },
+                                            {
+                                                "Name": "lanky"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "combinator": "AND",
+                                        "rules": [
+                                            {
+                                                "Name": "ponytailtwirl"
+                                            },
+                                            {
+                                                "Name": "tiny"
+                                            },
+                                            {
+                                                "Name": "climbing"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Name": "CanMoonkick",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
-                        "Name": "CanSkew",
-                        "Params": [
-                            true
-                        ],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanMoonkick",
+                                "Params": [],
+                                "isFunction": true,
+                                "isGlitch": true
+                            },
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "CanPhase",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "CanSkew",
+                                        "Params": [
+                                            true
+                                        ],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "CanSkew",
+                                        "Params": [
+                                            false
+                                        ],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
-                        "Name": "CanSkew",
-                        "Params": [
-                            false
-                        ],
-                        "isFunction": true,
-                        "isGlitch": true
-                    },
-                    {
-                        "Name": "CanPhase",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "CanPhase",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "generalclips",
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "CanSkew",
+                                        "Params": [
+                                            true
+                                        ],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "CanSkew",
+                                        "Params": [
+                                            false
+                                        ],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    }
+                                ]
+                            },
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "diddy"
+                                    },
+                                    {
+                                        "Name": "tiny"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -2813,6 +2969,51 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": true
+        },
+        "tn-263-47": {
+            "id": "tn-263-47",
+            "Name": "Jungle Japes Main to Painting Room",
+            "source": "japespaintingroomhill",
+            "target": "japeslankycave",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "Name": "hasMoveSwitchsanity",
+                        "Params": [
+                            "JapesPainting",
+                            false
+                        ],
+                        "isFunction": true
+                    },
+                    {
+                        "Name": "CanSkew",
+                        "Params": [
+                            true
+                        ],
+                        "isFunction": true,
+                        "isGlitch": true
+                    },
+                    {
+                        "Name": "CanSkew",
+                        "Params": [
+                            false
+                        ],
+                        "isFunction": true,
+                        "isGlitch": true
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            }
         },
         "tn-37-36": {
             "id": "tn-37-36",
@@ -5619,8 +5820,8 @@
                 ]
             }
         },
-        "tn-86-87": {
-            "id": "tn-86-87",
+        "tn-86-87-g": {
+            "id": "tn-86-87-g",
             "Name": "Frantic Factory Research and Development to Car Race",
             "source": "factorytinyracelobby",
             "target": "factorytinyrace",
@@ -5632,18 +5833,13 @@
                 "combinator": "OR",
                 "rules": [
                     {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "minimonkey"
-                            },
-                            {
-                                "Name": "tiny"
-                            }
-                        ]
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
                     },
                     {
-                        "Name": "CanPhase",
+                        "Name": "CanOStandTBSNoclip",
                         "Params": [],
                         "isFunction": true,
                         "isGlitch": true
@@ -5711,6 +5907,38 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": true
+        },
+        "tn-86-87": {
+            "id": "tn-86-87",
+            "Name": "Frantic Factory Research and Development to Car Race",
+            "source": "factorytinyracelobby",
+            "target": "factorytinyrace",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "minimonkey"
+                            },
+                            {
+                                "Name": "tiny"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            }
         },
         "tn-87-86": {
             "id": "tn-87-86",
@@ -6138,10 +6366,16 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "ledgeclip",
+                        "Name": "MainCoreActivated",
+                        "Events": true
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
                         "isGlitch": true
                     }
                 ]
@@ -6224,6 +6458,25 @@
                 "rules": [
                     {
                         "Name": "climbing"
+                    }
+                ]
+            }
+        },
+        "tn-90-92-g": {
+            "id": "tn-90-92-g",
+            "Name": "Frantic Factory Main to Crusher Room",
+            "source": "beyondhatch",
+            "target": "insidecore",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "ledgeclip",
+                        "isGlitch": true
                     }
                 ]
             }
@@ -8865,8 +9118,8 @@
                 ]
             }
         },
-        "tn-146-147": {
-            "id": "tn-146-147",
+        "tn-146-147-g": {
+            "id": "tn-146-147-g",
             "Name": "Fungi Forest Main to Anthill",
             "source": "hollowtreearea",
             "target": "anthill",
@@ -8878,13 +9131,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "minimonkey"
-                    },
-                    {
-                        "Name": "saxophone"
-                    },
-                    {
-                        "Name": "tiny"
+                        "Name": "CanSkew",
+                        "Params": [
+                            true
+                        ],
+                        "isFunction": true,
+                        "isGlitch": true
                     }
                 ]
             }
@@ -9761,6 +10013,30 @@
             "Type": "Warp",
             "Requires": true
         },
+        "tn-146-147": {
+            "id": "tn-146-147",
+            "Name": "Fungi Forest Main to Anthill",
+            "source": "hollowtreearea",
+            "target": "anthill",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "minimonkey"
+                    },
+                    {
+                        "Name": "saxophone"
+                    },
+                    {
+                        "Name": "tiny"
+                    }
+                ]
+            }
+        },
         "tn-146-158": {
             "id": "tn-146-158",
             "Name": "Hollow Tree Area to Forest Boss Lobby",
@@ -10136,8 +10412,8 @@
                 ]
             }
         },
-        "tn-155-156": {
-            "id": "tn-155-156",
+        "tn-155-156-g": {
+            "id": "tn-155-156-g",
             "Name": "Fungi Forest Main to Thornvine Barn",
             "source": "thornvinearea",
             "target": "thornvinebarn",
@@ -10146,29 +10422,10 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": {
-                "combinator": "OR",
+                "combinator": "AND",
                 "rules": [
                     {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "CanSlamSwitch",
-                                "Params": [
-                                    "FungiForest",
-                                    2
-                                ],
-                                "isFunction": true
-                            },
-                            {
-                                "Name": "donkey"
-                            },
-                            {
-                                "Name": "strongkong"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "CanPhase",
+                        "Name": "CanPhaseswim",
                         "Params": [],
                         "isFunction": true,
                         "isGlitch": true
@@ -10504,6 +10761,46 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": true
+        },
+        "tn-155-156": {
+            "id": "tn-155-156",
+            "Name": "Fungi Forest Main to Thornvine Barn",
+            "source": "thornvinearea",
+            "target": "thornvinebarn",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "CanSlamSwitch",
+                                "Params": [
+                                    "FungiForest",
+                                    2
+                                ],
+                                "isFunction": true
+                            },
+                            {
+                                "Name": "donkey"
+                            },
+                            {
+                                "Name": "strongkong"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            }
         },
         "tn-155-158": {
             "id": "tn-155-158",
@@ -13654,8 +13951,8 @@
                 ]
             }
         },
-        "tn-202-195": {
-            "id": "tn-202-195",
+        "tn-202-195-g": {
+            "id": "tn-202-195-g",
             "Name": "Creepy Castle Library (Exit) to Main",
             "source": "librarypastbooks",
             "target": "creepycastlemain",
@@ -13664,13 +13961,17 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "donkey"
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
                     },
                     {
-                        "Name": "coconut"
+                        "Name": "ledgeclip",
+                        "isGlitch": true
                     }
                 ]
             }
@@ -13775,6 +14076,27 @@
             "Class": "Transition",
             "Type": "Warp",
             "Requires": true
+        },
+        "tn-202-195": {
+            "id": "tn-202-195",
+            "Name": "Creepy Castle Library (Exit) to Main",
+            "source": "librarypastbooks",
+            "target": "creepycastlemain",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "donkey"
+                    },
+                    {
+                        "Name": "coconut"
+                    }
+                ]
+            }
         },
         "tn-203-195": {
             "id": "tn-203-195",

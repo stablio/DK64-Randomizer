@@ -46,7 +46,7 @@ def strip_name(name):
     return name.replace(" ", "").replace(":", "").replace("-", "").replace("'", "").lower()
 
 
-def exit_to_edge(source, dest, exit_name, exit_type, logic=True):
+def exit_to_edge(exit_id, source, dest, exit_name, exit_type, logic=True):
 
     regionEdges = {}
 
@@ -64,9 +64,8 @@ def exit_to_edge(source, dest, exit_name, exit_type, logic=True):
     if logic != True:
         logic = parse_ast_to_dict(logic,  None)
 
-    class_id = "tn-"+str(source)+"-"+str(dest)
     forward_edge = RegionEdge(
-        class_id, source_region_node, dest_region_node, exit_name, logic,exit_type)
+        exit_id, source_region_node, dest_region_node, exit_name, logic,exit_type)
     regionEdges[forward_edge.id] = forward_edge.to_dict()
 
     return regionEdges
@@ -97,8 +96,15 @@ def build_exits():
                 exit_type = "Neighbourhood"
             logic = exit.logic if exit.logic else True
 
-            r = exit_to_edge(source, dest, exit_name, exit_type, logic)
+            
+            class_id = "tn-"+str(source)+"-"+str(dest)
 
+            if exit.isGlitchTransition:
+                # glitched transitions can re-use the same transition
+                # clobbering the logic of the normal transition
+                class_id = "tn-"+str(source)+"-"+str(dest)+"-g"
+
+            r = exit_to_edge(class_id, source, dest, exit_name, exit_type, logic)
             edges.update(r)
 
             # Add the region 'exit to level' nodes
@@ -107,7 +113,8 @@ def build_exits():
                 exit_source = region_id
                 exit_dest = ShufflableExits[exit_to_level].region
                 exit_name = region.name + " Exit Level"
-                rexit = exit_to_edge(exit_source, exit_dest, exit_name, 'Warp', True)
+                exit_id = "tn-"+str(exit_source)+"-"+str(exit_dest)
+                rexit = exit_to_edge(exit_id, exit_source, exit_dest, exit_name, 'Warp', True)
 
                 edges.update(rexit)
 
