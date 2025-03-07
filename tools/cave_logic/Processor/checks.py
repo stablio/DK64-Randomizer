@@ -78,7 +78,7 @@ def location_to_edge(id, location):
             "Type": "Region"
         }
 
-    if bb == MinigameType.HelmBarrel:
+    if bb == MinigameType.HelmBarrelFirst or bb == MinigameType.HelmBarrelSecond:
         target = id.name.lower()
         logic = True #{ "combinator": "AND", "rules": [ { "Name": checkId+"-mg" } ] }
 

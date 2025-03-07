@@ -60,6 +60,12 @@
             "Class": "Item",
             "Type": "TrainingBarrel"
         },
+        "climbing": {
+            "id": "climbing",
+            "Name": "Climbing",
+            "Class": "Item",
+            "Type": "Climbing"
+        },
         "progressiveslam": {
             "id": "progressiveslam",
             "Name": "Progressive Slam",
@@ -322,13 +328,13 @@
             "id": "nintendocoin",
             "Name": "Nintendo Coin",
             "Class": "Item",
-            "Type": "Coin"
+            "Type": "NintendoCoin"
         },
         "rarewarecoin": {
             "id": "rarewarecoin",
             "Name": "Rareware Coin",
             "Class": "Item",
-            "Type": "Coin"
+            "Type": "RarewareCoin"
         },
         "junglejapeskey": {
             "id": "junglejapeskey",
@@ -480,9 +486,21 @@
             "Class": "Item",
             "Type": "RainbowCoin"
         },
-        "fakeitem": {
-            "id": "fakeitem",
-            "Name": "Ice Trap",
+        "icetrapbubble": {
+            "id": "icetrapbubble",
+            "Name": "Ice Trap (Bubble)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapreverse": {
+            "id": "icetrapreverse",
+            "Name": "Ice Trap (Reverse)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslow": {
+            "id": "icetrapslow",
+            "Name": "Ice Trap (Slow)",
             "Class": "Item",
             "Type": "FakeItem"
         },
@@ -527,6 +545,30 @@
             "Name": "Enemy Item",
             "Class": "Item",
             "Type": "Enemies"
+        },
+        "cranky": {
+            "id": "cranky",
+            "Name": "Cranky",
+            "Class": "Item",
+            "Type": "Cranky"
+        },
+        "funky": {
+            "id": "funky",
+            "Name": "Funky",
+            "Class": "Item",
+            "Type": "Funky"
+        },
+        "candy": {
+            "id": "candy",
+            "Name": "Candy",
+            "Class": "Item",
+            "Type": "Candy"
+        },
+        "snide": {
+            "id": "snide",
+            "Name": "Snide",
+            "Class": "Item",
+            "Type": "Snide"
         },
         "dkislesdonkeyblueprint": {
             "id": "dkislesdonkeyblueprint",
@@ -1050,6 +1092,12 @@
             "Class": "Item",
             "Type": "Event"
         },
+        "trainingbarrelsspawned": {
+            "id": "trainingbarrelsspawned",
+            "Name": "Training Barrels Spawned",
+            "Class": "Item",
+            "Type": "Event"
+        },
         "rambi": {
             "id": "rambi",
             "Name": "Rambi",
@@ -1125,6 +1173,12 @@
         "aztecllamaspit": {
             "id": "aztecllamaspit",
             "Name": "Aztec Llama Spit",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "aztecicemelted": {
+            "id": "aztecicemelted",
+            "Name": "Aztec Ice Melted",
             "Class": "Item",
             "Type": "Event"
         },
@@ -1464,9 +1518,87 @@
             "Class": "Item",
             "Type": "Event"
         },
+        "krooldillo1": {
+            "id": "krooldillo1",
+            "Name": "K Rool Dillo 1",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "krooldog1": {
+            "id": "krooldog1",
+            "Name": "K Rool Dog 1",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "krooljack": {
+            "id": "krooljack",
+            "Name": "K Rool Jack",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "kroolpufftoss": {
+            "id": "kroolpufftoss",
+            "Name": "K Rool Pufftoss",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "krooldog2": {
+            "id": "krooldog2",
+            "Name": "K Rool Dog 2",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "krooldillo2": {
+            "id": "krooldillo2",
+            "Name": "K Rool Dillo 2",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "kroolkko": {
+            "id": "kroolkko",
+            "Name": "K Rool KKO",
+            "Class": "Item",
+            "Type": "Event"
+        },
         "krooldefeated": {
             "id": "krooldefeated",
             "Name": "K Rool Defeated",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "donkeyverse": {
+            "id": "donkeyverse",
+            "Name": "Donkey Verse",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "diddyverse": {
+            "id": "diddyverse",
+            "Name": "Diddy Verse",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "lankyverse": {
+            "id": "lankyverse",
+            "Name": "Lanky Verse",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "tinyverse": {
+            "id": "tinyverse",
+            "Name": "Tiny Verse",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "chunkyverse": {
+            "id": "chunkyverse",
+            "Name": "Chunky Verse",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "fridgeverse": {
+            "id": "fridgeverse",
+            "Name": "Fridge Verse",
             "Class": "Item",
             "Type": "Event"
         },
@@ -2097,6 +2229,24 @@
         "helmlobbyaccessed": {
             "id": "helmlobbyaccessed",
             "Name": "Helm Lobby Accessed",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "helmlobbytraversable": {
+            "id": "helmlobbytraversable",
+            "Name": "Helm Lobby Traversable",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "japesaccesstocannon": {
+            "id": "japesaccesstocannon",
+            "Name": "Japes Access To Cannon",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "airspaceentered": {
+            "id": "airspaceentered",
+            "Name": "Air Space Entered",
             "Class": "Item",
             "Type": "Event"
         },

@@ -1,7 +1,7 @@
 {
     "edges": {
-        "tn-31-31-w-1-2": {
-            "id": "tn-31-31-w-1-2",
+        "tn-35-35-w-1-2": {
+            "id": "tn-35-35-w-1-2",
             "Name": "Jungle Japes: Near Portal to Jungle Japes: End of Tunnel",
             "source": "junglejapesstart",
             "target": "junglejapesstart",
@@ -21,8 +21,8 @@
                 ]
             }
         },
-        "tn-31-31-w-2-1": {
-            "id": "tn-31-31-w-2-1",
+        "tn-35-35-w-2-1": {
+            "id": "tn-35-35-w-2-1",
             "Name": "Jungle Japes: End of Tunnel to Jungle Japes: Near Portal",
             "source": "junglejapesstart",
             "target": "junglejapesstart",
@@ -42,11 +42,11 @@
                 ]
             }
         },
-        "tn-31-32-w-3-4": {
-            "id": "tn-31-32-w-3-4",
+        "tn-35-39-w-3-4": {
+            "id": "tn-35-39-w-3-4",
             "Name": "Jungle Japes: Near Main Tag to Jungle Japes: Outside the Mountain",
             "source": "junglejapesstart",
-            "target": "junglejapesmain",
+            "target": "japeshilltop",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -63,10 +63,10 @@
                 ]
             }
         },
-        "tn-32-31-w-4-3": {
-            "id": "tn-32-31-w-4-3",
+        "tn-39-35-w-4-3": {
+            "id": "tn-39-35-w-4-3",
             "Name": "Jungle Japes: Outside the Mountain to Jungle Japes: Near Main Tag",
-            "source": "junglejapesmain",
+            "source": "japeshilltop",
             "target": "junglejapesstart",
             "sourceType": "Region",
             "targetType": "Location",
@@ -84,8 +84,8 @@
                 ]
             }
         },
-        "tn-32-31-w-5-6": {
-            "id": "tn-32-31-w-5-6",
+        "tn-36-35-w-5-6": {
+            "id": "tn-36-35-w-5-6",
             "Name": "Jungle Japes: Near Painting Room to Jungle Japes: Near Baboon Blast",
             "source": "junglejapesmain",
             "target": "junglejapesstart",
@@ -105,8 +105,8 @@
                 ]
             }
         },
-        "tn-31-32-w-6-5": {
-            "id": "tn-31-32-w-6-5",
+        "tn-35-36-w-6-5": {
+            "id": "tn-35-36-w-6-5",
             "Name": "Jungle Japes: Near Baboon Blast to Jungle Japes: Near Painting Room",
             "source": "junglejapesstart",
             "target": "junglejapesmain",
@@ -126,8 +126,8 @@
                 ]
             }
         },
-        "tn-38-38-w-7-8": {
-            "id": "tn-38-38-w-7-8",
+        "tn-45-45-w-7-8": {
+            "id": "tn-45-45-w-7-8",
             "Name": "Jungle Japes: Start of Cranky Tunnel to Jungle Japes: Near Cranky",
             "source": "japesbeyondcoconutgate2",
             "target": "japesbeyondcoconutgate2",
@@ -147,8 +147,8 @@
                 ]
             }
         },
-        "tn-38-38-w-8-7": {
-            "id": "tn-38-38-w-8-7",
+        "tn-45-45-w-8-7": {
+            "id": "tn-45-45-w-8-7",
             "Name": "Jungle Japes: Near Cranky to Jungle Japes: Start of Cranky Tunnel",
             "source": "japesbeyondcoconutgate2",
             "target": "japesbeyondcoconutgate2",
@@ -168,8 +168,8 @@
                 ]
             }
         },
-        "tn-36-42-w-9-10": {
-            "id": "tn-36-42-w-9-10",
+        "tn-43-49-w-9-10": {
+            "id": "tn-43-49-w-9-10",
             "Name": "Jungle Japes: Outside the Shellhive to Jungle Japes: On top of the Mountain",
             "source": "japesbeyondfeathergate",
             "target": "japestopofmountain",
@@ -189,8 +189,8 @@
                 ]
             }
         },
-        "tn-42-36-w-10-9": {
-            "id": "tn-42-36-w-10-9",
+        "tn-49-43-w-10-9": {
+            "id": "tn-49-43-w-10-9",
             "Name": "Jungle Japes: On top of the Mountain to Jungle Japes: Outside the Shellhive",
             "source": "japestopofmountain",
             "target": "japesbeyondfeathergate",
@@ -210,8 +210,8 @@
                 ]
             }
         },
-        "tn-50-52-w-11-12": {
-            "id": "tn-50-52-w-11-12",
+        "tn-58-60-w-11-12": {
+            "id": "tn-58-60-w-11-12",
             "Name": "Angry Aztec: Near Portal to Angry Aztec: Near Candy",
             "source": "betweenvinesbyportal",
             "target": "angryaztecoasis",
@@ -231,8 +231,8 @@
                 ]
             }
         },
-        "tn-52-50-w-12-11": {
-            "id": "tn-52-50-w-12-11",
+        "tn-60-58-w-12-11": {
+            "id": "tn-60-58-w-12-11",
             "Name": "Angry Aztec: Near Candy to Angry Aztec: Near Portal",
             "source": "angryaztecoasis",
             "target": "betweenvinesbyportal",
@@ -252,8 +252,8 @@
                 ]
             }
         },
-        "tn-52-56-w-13-14": {
-            "id": "tn-52-56-w-13-14",
+        "tn-60-66-w-13-14": {
+            "id": "tn-60-66-w-13-14",
             "Name": "Angry Aztec: Outside Tiny Temple to Angry Aztec: End of the Tunnel",
             "source": "angryaztecoasis",
             "target": "angryaztecmain",
@@ -273,8 +273,8 @@
                 ]
             }
         },
-        "tn-56-52-w-14-13": {
-            "id": "tn-56-52-w-14-13",
+        "tn-66-60-w-14-13": {
+            "id": "tn-66-60-w-14-13",
             "Name": "Angry Aztec: End of the Tunnel to Angry Aztec: Outside Tiny Temple",
             "source": "angryaztecmain",
             "target": "angryaztecoasis",
@@ -294,8 +294,8 @@
                 ]
             }
         },
-        "tn-56-55-w-15-16": {
-            "id": "tn-56-55-w-15-16",
+        "tn-66-65-w-15-16": {
+            "id": "tn-66-65-w-15-16",
             "Name": "Angry Aztec: Near Totem Rocketbarrel to Angry Aztec: Outside Cranky's",
             "source": "angryaztecmain",
             "target": "angryaztecconnectortunnel",
@@ -315,8 +315,8 @@
                 ]
             }
         },
-        "tn-55-56-w-16-15": {
-            "id": "tn-55-56-w-16-15",
+        "tn-65-66-w-16-15": {
+            "id": "tn-65-66-w-16-15",
             "Name": "Angry Aztec: Outside Cranky's to Angry Aztec: Near Totem Rocketbarrel",
             "source": "angryaztecconnectortunnel",
             "target": "angryaztecmain",
@@ -336,8 +336,8 @@
                 ]
             }
         },
-        "tn-56-56-w-17-18": {
-            "id": "tn-56-56-w-17-18",
+        "tn-66-66-w-17-18": {
+            "id": "tn-66-66-w-17-18",
             "Name": "Angry Aztec: Near Llama Temple to Angry Aztec: Outside Funky's",
             "source": "angryaztecmain",
             "target": "angryaztecmain",
@@ -357,8 +357,8 @@
                 ]
             }
         },
-        "tn-56-56-w-18-17": {
-            "id": "tn-56-56-w-18-17",
+        "tn-66-66-w-18-17": {
+            "id": "tn-66-66-w-18-17",
             "Name": "Angry Aztec: Outside Funky's to Angry Aztec: Near Llama Temple",
             "source": "angryaztecmain",
             "target": "angryaztecmain",
@@ -378,8 +378,8 @@
                 ]
             }
         },
-        "tn-56-57-w-19-20": {
-            "id": "tn-56-57-w-19-20",
+        "tn-66-67-w-19-20": {
+            "id": "tn-66-67-w-19-20",
             "Name": "Angry Aztec: Near Snide's to Angry Aztec: Sandy Tunnel",
             "source": "angryaztecmain",
             "target": "aztecdonkeyquicksandcave",
@@ -399,8 +399,8 @@
                 ]
             }
         },
-        "tn-57-56-w-20-19": {
-            "id": "tn-57-56-w-20-19",
+        "tn-67-66-w-20-19": {
+            "id": "tn-67-66-w-20-19",
             "Name": "Angry Aztec: Sandy Tunnel to Angry Aztec: Near Snide's",
             "source": "aztecdonkeyquicksandcave",
             "target": "angryaztecmain",
@@ -420,8 +420,8 @@
                 ]
             }
         },
-        "tn-64-64-w-21-22": {
-            "id": "tn-64-64-w-21-22",
+        "tn-74-74-w-21-22": {
+            "id": "tn-74-74-w-21-22",
             "Name": "Llama Temple: Near the Bongo Pad to Llama Temple: Outside Matching Game",
             "source": "llamatemple",
             "target": "llamatemple",
@@ -441,8 +441,8 @@
                 ]
             }
         },
-        "tn-64-64-w-22-21": {
-            "id": "tn-64-64-w-22-21",
+        "tn-74-74-w-22-21": {
+            "id": "tn-74-74-w-22-21",
             "Name": "Llama Temple: Outside Matching Game to Llama Temple: Near the Bongo Pad",
             "source": "llamatemple",
             "target": "llamatemple",
@@ -462,8 +462,8 @@
                 ]
             }
         },
-        "tn-64-65-w-23-24": {
-            "id": "tn-64-65-w-23-24",
+        "tn-74-75-w-23-24": {
+            "id": "tn-74-75-w-23-24",
             "Name": "Llama Temple: Near the Trombone Pad to Llama Temple: In the Lava Room",
             "source": "llamatemple",
             "target": "llamatempleback",
@@ -483,8 +483,8 @@
                 ]
             }
         },
-        "tn-65-64-w-24-23": {
-            "id": "tn-65-64-w-24-23",
+        "tn-75-74-w-24-23": {
+            "id": "tn-75-74-w-24-23",
             "Name": "Llama Temple: In the Lava Room to Llama Temple: Near the Trombone Pad",
             "source": "llamatempleback",
             "target": "llamatemple",
@@ -504,8 +504,8 @@
                 ]
             }
         },
-        "tn-70-77-w-25-26": {
-            "id": "tn-70-77-w-25-26",
+        "tn-81-90-w-25-26": {
+            "id": "tn-81-90-w-25-26",
             "Name": "Frantic Factory: Near Hatch Tunnel to Frantic Factory: Storage Room",
             "source": "franticfactorystart",
             "target": "beyondhatch",
@@ -525,8 +525,8 @@
                 ]
             }
         },
-        "tn-77-70-w-26-25": {
-            "id": "tn-77-70-w-26-25",
+        "tn-90-81-w-26-25": {
+            "id": "tn-90-81-w-26-25",
             "Name": "Frantic Factory: Storage Room to Frantic Factory: Near Hatch Tunnel",
             "source": "beyondhatch",
             "target": "franticfactorystart",
@@ -546,8 +546,8 @@
                 ]
             }
         },
-        "tn-70-72-w-27-28": {
-            "id": "tn-70-72-w-27-28",
+        "tn-81-83-w-27-28": {
+            "id": "tn-81-83-w-27-28",
             "Name": "Frantic Factory: Near Block Tower Tunnel to Frantic Factory: R&D",
             "source": "franticfactorystart",
             "target": "randd",
@@ -567,8 +567,8 @@
                 ]
             }
         },
-        "tn-72-70-w-28-27": {
-            "id": "tn-72-70-w-28-27",
+        "tn-83-81-w-28-27": {
+            "id": "tn-83-81-w-28-27",
             "Name": "Frantic Factory: R&D to Frantic Factory: Near Block Tower Tunnel",
             "source": "randd",
             "target": "franticfactorystart",
@@ -588,8 +588,8 @@
                 ]
             }
         },
-        "tn-70-71-w-29-30": {
-            "id": "tn-70-71-w-29-30",
+        "tn-81-82-w-29-30": {
+            "id": "tn-81-82-w-29-30",
             "Name": "Frantic Factory: Lobby Far to Frantic Factory: Outside Snide's",
             "source": "franticfactorystart",
             "target": "testing",
@@ -609,8 +609,8 @@
                 ]
             }
         },
-        "tn-71-70-w-30-29": {
-            "id": "tn-71-70-w-30-29",
+        "tn-82-81-w-30-29": {
+            "id": "tn-82-81-w-30-29",
             "Name": "Frantic Factory: Outside Snide's to Frantic Factory: Lobby Far",
             "source": "testing",
             "target": "franticfactorystart",
@@ -630,11 +630,11 @@
                 ]
             }
         },
-        "tn-77-80-w-31-32": {
-            "id": "tn-77-80-w-31-32",
+        "tn-90-94-w-31-32": {
+            "id": "tn-90-94-w-31-32",
             "Name": "Frantic Factory: Production Room (Bottom) to Frantic Factory: Production Room (Top)",
             "source": "beyondhatch",
-            "target": "middlecore",
+            "target": "spinningcore",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -651,10 +651,10 @@
                 ]
             }
         },
-        "tn-80-77-w-32-31": {
-            "id": "tn-80-77-w-32-31",
+        "tn-94-90-w-32-31": {
+            "id": "tn-94-90-w-32-31",
             "Name": "Frantic Factory: Production Room (Top) to Frantic Factory: Production Room (Bottom)",
-            "source": "middlecore",
+            "source": "spinningcore",
             "target": "beyondhatch",
             "sourceType": "Region",
             "targetType": "Location",
@@ -672,10 +672,10 @@
                 ]
             }
         },
-        "tn-77-71-w-33-34": {
-            "id": "tn-77-71-w-33-34",
+        "tn-85-82-w-33-34": {
+            "id": "tn-85-82-w-33-34",
             "Name": "Frantic Factory: Arcade Room to Frantic Factory: Outside Funky's",
-            "source": "beyondhatch",
+            "source": "factoryarcadetunnel",
             "target": "testing",
             "sourceType": "Region",
             "targetType": "Location",
@@ -693,11 +693,11 @@
                 ]
             }
         },
-        "tn-71-77-w-34-33": {
-            "id": "tn-71-77-w-34-33",
+        "tn-82-85-w-34-33": {
+            "id": "tn-82-85-w-34-33",
             "Name": "Frantic Factory: Outside Funky's to Frantic Factory: Arcade Room",
             "source": "testing",
-            "target": "beyondhatch",
+            "target": "factoryarcadetunnel",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -714,8 +714,8 @@
                 ]
             }
         },
-        "tn-86-90-w-35-36": {
-            "id": "tn-86-90-w-35-36",
+        "tn-101-105-w-35-36": {
+            "id": "tn-101-105-w-35-36",
             "Name": "Gloomy Galleon: Near Tunnel Intersection to Gloomy Galleon: Lighthouse Rear",
             "source": "gloomygalleonstart",
             "target": "lighthouseplatform",
@@ -735,8 +735,8 @@
                 ]
             }
         },
-        "tn-90-86-w-36-35": {
-            "id": "tn-90-86-w-36-35",
+        "tn-105-101-w-36-35": {
+            "id": "tn-105-101-w-36-35",
             "Name": "Gloomy Galleon: Lighthouse Rear to Gloomy Galleon: Near Tunnel Intersection",
             "source": "lighthouseplatform",
             "target": "gloomygalleonstart",
@@ -756,8 +756,8 @@
                 ]
             }
         },
-        "tn-86-96-w-37-38": {
-            "id": "tn-86-96-w-37-38",
+        "tn-101-111-w-37-38": {
+            "id": "tn-101-111-w-37-38",
             "Name": "Gloomy Galleon: Near Chest Room to Gloomy Galleon: Near 2-Door Ship",
             "source": "gloomygalleonstart",
             "target": "shipyard",
@@ -777,8 +777,8 @@
                 ]
             }
         },
-        "tn-96-86-w-38-37": {
-            "id": "tn-96-86-w-38-37",
+        "tn-111-101-w-38-37": {
+            "id": "tn-111-101-w-38-37",
             "Name": "Gloomy Galleon: Near 2-Door Ship to Gloomy Galleon: Near Chest Room",
             "source": "shipyard",
             "target": "gloomygalleonstart",
@@ -798,8 +798,8 @@
                 ]
             }
         },
-        "tn-87-92-w-39-40": {
-            "id": "tn-87-92-w-39-40",
+        "tn-102-107-w-39-40": {
+            "id": "tn-102-107-w-39-40",
             "Name": "Gloomy Galleon: Near Cranky's to Gloomy Galleon: Outside Snide's",
             "source": "galleonpastvines",
             "target": "lighthousesnidealcove",
@@ -819,8 +819,8 @@
                 ]
             }
         },
-        "tn-92-87-w-40-39": {
-            "id": "tn-92-87-w-40-39",
+        "tn-107-102-w-40-39": {
+            "id": "tn-107-102-w-40-39",
             "Name": "Gloomy Galleon: Outside Snide's to Gloomy Galleon: Near Cranky's",
             "source": "lighthousesnidealcove",
             "target": "galleonpastvines",
@@ -840,8 +840,8 @@
                 ]
             }
         },
-        "tn-100-96-w-41-42": {
-            "id": "tn-100-96-w-41-42",
+        "tn-115-111-w-41-42": {
+            "id": "tn-115-111-w-41-42",
             "Name": "Gloomy Galleon: On a Gold Tower to Gloomy Galleon: Near Seal Race",
             "source": "treasureroomdiddygoldtower",
             "target": "shipyard",
@@ -861,8 +861,8 @@
                 ]
             }
         },
-        "tn-96-100-w-42-41": {
-            "id": "tn-96-100-w-42-41",
+        "tn-111-115-w-42-41": {
+            "id": "tn-111-115-w-42-41",
             "Name": "Gloomy Galleon: Near Seal Race to Gloomy Galleon: On a Gold Tower",
             "source": "shipyard",
             "target": "treasureroomdiddygoldtower",
@@ -882,8 +882,8 @@
                 ]
             }
         },
-        "tn-90-96-w-43-44": {
-            "id": "tn-90-96-w-43-44",
+        "tn-105-111-w-43-44": {
+            "id": "tn-105-111-w-43-44",
             "Name": "Gloomy Galleon: Near Lighthouse Rocketbarrel to Gloomy Galleon: Near Funky's",
             "source": "lighthouseplatform",
             "target": "shipyard",
@@ -903,8 +903,8 @@
                 ]
             }
         },
-        "tn-96-90-w-44-43": {
-            "id": "tn-96-90-w-44-43",
+        "tn-111-105-w-44-43": {
+            "id": "tn-111-105-w-44-43",
             "Name": "Gloomy Galleon: Near Funky's to Gloomy Galleon: Near Lighthouse Rocketbarrel",
             "source": "shipyard",
             "target": "lighthouseplatform",
@@ -924,8 +924,8 @@
                 ]
             }
         },
-        "tn-115-129-w-45-46": {
-            "id": "tn-115-129-w-45-46",
+        "tn-131-148-w-45-46": {
+            "id": "tn-131-148-w-45-46",
             "Name": "Fungi Forest: Clock (1) to Fungi Forest: Mill",
             "source": "fungiforeststart",
             "target": "millarea",
@@ -945,8 +945,8 @@
                 ]
             }
         },
-        "tn-129-115-w-46-45": {
-            "id": "tn-129-115-w-46-45",
+        "tn-148-131-w-46-45": {
+            "id": "tn-148-131-w-46-45",
             "Name": "Fungi Forest: Mill to Fungi Forest: Clock (1)",
             "source": "millarea",
             "target": "fungiforeststart",
@@ -966,8 +966,8 @@
                 ]
             }
         },
-        "tn-115-138-w-47-48": {
-            "id": "tn-115-138-w-47-48",
+        "tn-131-157-w-47-48": {
+            "id": "tn-131-157-w-47-48",
             "Name": "Fungi Forest: Clock (2) to Fungi Forest: Outside Funky's",
             "source": "fungiforeststart",
             "target": "wormarea",
@@ -987,8 +987,8 @@
                 ]
             }
         },
-        "tn-138-115-w-48-47": {
-            "id": "tn-138-115-w-48-47",
+        "tn-157-131-w-48-47": {
+            "id": "tn-157-131-w-48-47",
             "Name": "Fungi Forest: Outside Funky's to Fungi Forest: Clock (2)",
             "source": "wormarea",
             "target": "fungiforeststart",
@@ -1008,8 +1008,8 @@
                 ]
             }
         },
-        "tn-115-117-w-49-50": {
-            "id": "tn-115-117-w-49-50",
+        "tn-131-133-w-49-50": {
+            "id": "tn-131-133-w-49-50",
             "Name": "Fungi Forest: Clock (3) to Fungi Forest: Giant Mushroom Lowest Entrance",
             "source": "fungiforeststart",
             "target": "giantmushroomarea",
@@ -1029,8 +1029,8 @@
                 ]
             }
         },
-        "tn-117-115-w-50-49": {
-            "id": "tn-117-115-w-50-49",
+        "tn-133-131-w-50-49": {
+            "id": "tn-133-131-w-50-49",
             "Name": "Fungi Forest: Giant Mushroom Lowest Entrance to Fungi Forest: Clock (3)",
             "source": "giantmushroomarea",
             "target": "fungiforeststart",
@@ -1050,8 +1050,8 @@
                 ]
             }
         },
-        "tn-115-127-w-51-52": {
-            "id": "tn-115-127-w-51-52",
+        "tn-131-146-w-51-52": {
+            "id": "tn-131-146-w-51-52",
             "Name": "Fungi Forest: Clock (4) to Fungi Forest: Owl Tree",
             "source": "fungiforeststart",
             "target": "hollowtreearea",
@@ -1071,8 +1071,8 @@
                 ]
             }
         },
-        "tn-127-115-w-52-51": {
-            "id": "tn-127-115-w-52-51",
+        "tn-146-131-w-52-51": {
+            "id": "tn-146-131-w-52-51",
             "Name": "Fungi Forest: Owl Tree to Fungi Forest: Clock (4)",
             "source": "hollowtreearea",
             "target": "fungiforeststart",
@@ -1092,8 +1092,8 @@
                 ]
             }
         },
-        "tn-123-117-w-53-54": {
-            "id": "tn-123-117-w-53-54",
+        "tn-142-133-w-53-54": {
+            "id": "tn-142-133-w-53-54",
             "Name": "Fungi Forest: Giant Mushroom (Top) to Fungi Forest: Giant Mushroom (Bottom)",
             "source": "mushroomupperexterior",
             "target": "giantmushroomarea",
@@ -1113,8 +1113,8 @@
                 ]
             }
         },
-        "tn-117-123-w-54-53": {
-            "id": "tn-117-123-w-54-53",
+        "tn-133-142-w-54-53": {
+            "id": "tn-133-142-w-54-53",
             "Name": "Fungi Forest: Giant Mushroom (Bottom) to Fungi Forest: Giant Mushroom (Top)",
             "source": "giantmushroomarea",
             "target": "mushroomupperexterior",
@@ -1134,8 +1134,8 @@
                 ]
             }
         },
-        "tn-143-152-w-55-56": {
-            "id": "tn-143-152-w-55-56",
+        "tn-166-175-w-55-56": {
+            "id": "tn-166-175-w-55-56",
             "Name": "Crystal Caves: Near Left to Crystal Caves: Near Chunky Shield",
             "source": "crystalcavesmain",
             "target": "iglooarea",
@@ -1155,8 +1155,8 @@
                 ]
             }
         },
-        "tn-152-143-w-56-55": {
-            "id": "tn-152-143-w-56-55",
+        "tn-175-166-w-56-55": {
+            "id": "tn-175-166-w-56-55",
             "Name": "Crystal Caves: Near Chunky Shield to Crystal Caves: Near Left",
             "source": "iglooarea",
             "target": "crystalcavesmain",
@@ -1176,8 +1176,8 @@
                 ]
             }
         },
-        "tn-143-159-w-57-58": {
-            "id": "tn-143-159-w-57-58",
+        "tn-166-182-w-57-58": {
+            "id": "tn-166-182-w-57-58",
             "Name": "Crystal Caves: Near Right to Crystal Caves: Near Waterfall",
             "source": "crystalcavesmain",
             "target": "cabinarea",
@@ -1197,8 +1197,8 @@
                 ]
             }
         },
-        "tn-159-143-w-58-57": {
-            "id": "tn-159-143-w-58-57",
+        "tn-182-166-w-58-57": {
+            "id": "tn-182-166-w-58-57",
             "Name": "Crystal Caves: Near Waterfall to Crystal Caves: Near Right",
             "source": "cabinarea",
             "target": "crystalcavesmain",
@@ -1218,8 +1218,8 @@
                 ]
             }
         },
-        "tn-152-146-w-59-60": {
-            "id": "tn-152-146-w-59-60",
+        "tn-175-169-w-59-60": {
+            "id": "tn-175-169-w-59-60",
             "Name": "Crystal Caves: Near Igloo Tag to Crystal Caves: Inside Bonus Room",
             "source": "iglooarea",
             "target": "cavesbonuscave",
@@ -1239,8 +1239,8 @@
                 ]
             }
         },
-        "tn-146-152-w-60-59": {
-            "id": "tn-146-152-w-60-59",
+        "tn-169-175-w-60-59": {
+            "id": "tn-169-175-w-60-59",
             "Name": "Crystal Caves: Inside Bonus Room to Crystal Caves: Near Igloo Tag",
             "source": "cavesbonuscave",
             "target": "iglooarea",
@@ -1260,8 +1260,8 @@
                 ]
             }
         },
-        "tn-148-145-w-61-62": {
-            "id": "tn-148-145-w-61-62",
+        "tn-171-168-w-61-62": {
+            "id": "tn-171-168-w-61-62",
             "Name": "Crystal Caves: On the Thin Pillar to Crystal Caves: Inside Blueprint Room",
             "source": "cavesbananaportspire",
             "target": "cavesblueprintcave",
@@ -1281,8 +1281,8 @@
                 ]
             }
         },
-        "tn-145-148-w-62-61": {
-            "id": "tn-145-148-w-62-61",
+        "tn-168-171-w-62-61": {
+            "id": "tn-168-171-w-62-61",
             "Name": "Crystal Caves: Inside Blueprint Room to Crystal Caves: On the Thin Pillar",
             "source": "cavesblueprintcave",
             "target": "cavesbananaportspire",
@@ -1302,8 +1302,8 @@
                 ]
             }
         },
-        "tn-147-159-w-63-64": {
-            "id": "tn-147-159-w-63-64",
+        "tn-170-182-w-63-64": {
+            "id": "tn-170-182-w-63-64",
             "Name": "Crystal Caves: On the Thick Pillar to Crystal Caves: On the 5-Door Cabin",
             "source": "cavesblueprintpillar",
             "target": "cabinarea",
@@ -1323,8 +1323,8 @@
                 ]
             }
         },
-        "tn-159-147-w-64-63": {
-            "id": "tn-159-147-w-64-63",
+        "tn-182-170-w-64-63": {
+            "id": "tn-182-170-w-64-63",
             "Name": "Crystal Caves: On the 5-Door Cabin to Crystal Caves: On the Thick Pillar",
             "source": "cabinarea",
             "target": "cavesblueprintpillar",
@@ -1344,8 +1344,8 @@
                 ]
             }
         },
-        "tn-171-171-w-65-66": {
-            "id": "tn-171-171-w-65-66",
+        "tn-195-195-w-65-66": {
+            "id": "tn-195-195-w-65-66",
             "Name": "Creepy Castle: Center (1) to Creepy Castle: Rear",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1365,8 +1365,8 @@
                 ]
             }
         },
-        "tn-171-171-w-66-65": {
-            "id": "tn-171-171-w-66-65",
+        "tn-195-195-w-66-65": {
+            "id": "tn-195-195-w-66-65",
             "Name": "Creepy Castle: Rear to Creepy Castle: Center (1)",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1386,8 +1386,8 @@
                 ]
             }
         },
-        "tn-171-171-w-67-68": {
-            "id": "tn-171-171-w-67-68",
+        "tn-195-195-w-67-68": {
+            "id": "tn-195-195-w-67-68",
             "Name": "Creepy Castle: Center (2) to Creepy Castle: Rocketbarrel",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1407,8 +1407,8 @@
                 ]
             }
         },
-        "tn-171-171-w-68-67": {
-            "id": "tn-171-171-w-68-67",
+        "tn-195-195-w-68-67": {
+            "id": "tn-195-195-w-68-67",
             "Name": "Creepy Castle: Rocketbarrel to Creepy Castle: Center (2)",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1428,8 +1428,8 @@
                 ]
             }
         },
-        "tn-171-171-w-69-70": {
-            "id": "tn-171-171-w-69-70",
+        "tn-195-195-w-69-70": {
+            "id": "tn-195-195-w-69-70",
             "Name": "Creepy Castle: Center (3) to Creepy Castle: Outside Cranky's",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1449,8 +1449,8 @@
                 ]
             }
         },
-        "tn-171-171-w-70-69": {
-            "id": "tn-171-171-w-70-69",
+        "tn-195-195-w-70-69": {
+            "id": "tn-195-195-w-70-69",
             "Name": "Creepy Castle: Outside Cranky's to Creepy Castle: Center (3)",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1470,8 +1470,8 @@
                 ]
             }
         },
-        "tn-171-171-w-71-72": {
-            "id": "tn-171-171-w-71-72",
+        "tn-195-195-w-71-72": {
+            "id": "tn-195-195-w-71-72",
             "Name": "Creepy Castle: Center (4) to Creepy Castle: Outside Trash Can",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1491,8 +1491,8 @@
                 ]
             }
         },
-        "tn-171-171-w-72-71": {
-            "id": "tn-171-171-w-72-71",
+        "tn-195-195-w-72-71": {
+            "id": "tn-195-195-w-72-71",
             "Name": "Creepy Castle: Outside Trash Can to Creepy Castle: Center (4)",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1512,8 +1512,8 @@
                 ]
             }
         },
-        "tn-171-171-w-73-74": {
-            "id": "tn-171-171-w-73-74",
+        "tn-195-195-w-73-74": {
+            "id": "tn-195-195-w-73-74",
             "Name": "Creepy Castle: Center (5) to Creepy Castle: Top",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1533,8 +1533,8 @@
                 ]
             }
         },
-        "tn-171-171-w-74-73": {
-            "id": "tn-171-171-w-74-73",
+        "tn-195-195-w-74-73": {
+            "id": "tn-195-195-w-74-73",
             "Name": "Creepy Castle: Top to Creepy Castle: Center (5)",
             "source": "creepycastlemain",
             "target": "creepycastlemain",
@@ -1554,8 +1554,8 @@
                 ]
             }
         },
-        "tn-186-186-w-75-76": {
-            "id": "tn-186-186-w-75-76",
+        "tn-212-212-w-75-76": {
+            "id": "tn-212-212-w-75-76",
             "Name": "Crypt: Near Left to Crypt: Far Left",
             "source": "crypt",
             "target": "crypt",
@@ -1575,8 +1575,8 @@
                 ]
             }
         },
-        "tn-186-186-w-76-75": {
-            "id": "tn-186-186-w-76-75",
+        "tn-212-212-w-76-75": {
+            "id": "tn-212-212-w-76-75",
             "Name": "Crypt: Far Left to Crypt: Near Left",
             "source": "crypt",
             "target": "crypt",
@@ -1596,8 +1596,8 @@
                 ]
             }
         },
-        "tn-186-186-w-77-78": {
-            "id": "tn-186-186-w-77-78",
+        "tn-212-212-w-77-78": {
+            "id": "tn-212-212-w-77-78",
             "Name": "Crypt: Near Center to Crypt: Outside Minecart",
             "source": "crypt",
             "target": "crypt",
@@ -1617,8 +1617,8 @@
                 ]
             }
         },
-        "tn-186-186-w-78-77": {
-            "id": "tn-186-186-w-78-77",
+        "tn-212-212-w-78-77": {
+            "id": "tn-212-212-w-78-77",
             "Name": "Crypt: Outside Minecart to Crypt: Near Center",
             "source": "crypt",
             "target": "crypt",
@@ -1638,8 +1638,8 @@
                 ]
             }
         },
-        "tn-186-186-w-79-80": {
-            "id": "tn-186-186-w-79-80",
+        "tn-212-212-w-79-80": {
+            "id": "tn-212-212-w-79-80",
             "Name": "Crypt: Near Right to Crypt: Far Right",
             "source": "crypt",
             "target": "crypt",
@@ -1659,8 +1659,8 @@
                 ]
             }
         },
-        "tn-186-186-w-80-79": {
-            "id": "tn-186-186-w-80-79",
+        "tn-212-212-w-80-79": {
+            "id": "tn-212-212-w-80-79",
             "Name": "Crypt: Far Right to Crypt: Near Right",
             "source": "crypt",
             "target": "crypt",
@@ -1680,8 +1680,8 @@
                 ]
             }
         },
-        "tn-5-5-w-81-82": {
-            "id": "tn-5-5-w-81-82",
+        "tn-6-6-w-81-82": {
+            "id": "tn-6-6-w-81-82",
             "Name": "DK Isles: Ring (1) to DK Isles: Outside K. Lumsy's Prison",
             "source": "islesmain",
             "target": "islesmain",
@@ -1701,8 +1701,8 @@
                 ]
             }
         },
-        "tn-5-5-w-82-81": {
-            "id": "tn-5-5-w-82-81",
+        "tn-6-6-w-82-81": {
+            "id": "tn-6-6-w-82-81",
             "Name": "DK Isles: Outside K. Lumsy's Prison to DK Isles: Ring (1)",
             "source": "islesmain",
             "target": "islesmain",
@@ -1722,8 +1722,8 @@
                 ]
             }
         },
-        "tn-5-7-w-83-84": {
-            "id": "tn-5-7-w-83-84",
+        "tn-6-8-w-83-84": {
+            "id": "tn-6-8-w-83-84",
             "Name": "DK Isles: Ring (2) to DK Isles: Outside Aztec Lobby",
             "source": "islesmain",
             "target": "islesmainupper",
@@ -1743,8 +1743,8 @@
                 ]
             }
         },
-        "tn-7-5-w-84-83": {
-            "id": "tn-7-5-w-84-83",
+        "tn-8-6-w-84-83": {
+            "id": "tn-8-6-w-84-83",
             "Name": "DK Isles: Outside Aztec Lobby to DK Isles: Ring (2)",
             "source": "islesmainupper",
             "target": "islesmain",
@@ -1764,8 +1764,8 @@
                 ]
             }
         },
-        "tn-5-5-w-85-86": {
-            "id": "tn-5-5-w-85-86",
+        "tn-6-6-w-85-86": {
+            "id": "tn-6-6-w-85-86",
             "Name": "DK Isles: Ring (3) to DK Isles: Waterfall",
             "source": "islesmain",
             "target": "islesmain",
@@ -1785,8 +1785,8 @@
                 ]
             }
         },
-        "tn-5-5-w-86-85": {
-            "id": "tn-5-5-w-86-85",
+        "tn-6-6-w-86-85": {
+            "id": "tn-6-6-w-86-85",
             "Name": "DK Isles: Waterfall to DK Isles: Ring (3)",
             "source": "islesmain",
             "target": "islesmain",
@@ -1806,8 +1806,8 @@
                 ]
             }
         },
-        "tn-5-15-w-87-88": {
-            "id": "tn-5-15-w-87-88",
+        "tn-6-17-w-87-88": {
+            "id": "tn-6-17-w-87-88",
             "Name": "DK Isles: Ring (4) to DK Isles: Outside Factory Lobby",
             "source": "islesmain",
             "target": "kremislebeyondlift",
@@ -1827,8 +1827,8 @@
                 ]
             }
         },
-        "tn-15-5-w-88-87": {
-            "id": "tn-15-5-w-88-87",
+        "tn-17-6-w-88-87": {
+            "id": "tn-17-6-w-88-87",
             "Name": "DK Isles: Outside Factory Lobby to DK Isles: Ring (4)",
             "source": "kremislebeyondlift",
             "target": "islesmain",
@@ -1848,8 +1848,8 @@
                 ]
             }
         },
-        "tn-5-6-w-89-90": {
-            "id": "tn-5-6-w-89-90",
+        "tn-6-7-w-89-90": {
+            "id": "tn-6-7-w-89-90",
             "Name": "DK Isles: Ring (5) to DK Isles: Fairy Island",
             "source": "islesmain",
             "target": "outerisles",
@@ -1869,8 +1869,8 @@
                 ]
             }
         },
-        "tn-6-5-w-90-89": {
-            "id": "tn-6-5-w-90-89",
+        "tn-7-6-w-90-89": {
+            "id": "tn-7-6-w-90-89",
             "Name": "DK Isles: Fairy Island to DK Isles: Ring (5)",
             "source": "outerisles",
             "target": "islesmain",

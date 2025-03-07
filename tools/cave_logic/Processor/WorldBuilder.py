@@ -15,7 +15,7 @@ levels = build_levels()
 collectibles = build_collectibles()
 
 world = {
-    "id": "newgen1",
+    "id": "4p0",
     "world": {
         "worlds": {},
         "regions": {**levels['nodes'], **regions['nodes']},
