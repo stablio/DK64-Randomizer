@@ -818,7 +818,7 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "crankyAccess"
+                        "Name": "cranky"
                     },
                     {
                         "Name": "peanut"
@@ -862,7 +862,7 @@
                 "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "crankyAccess"
+                        "Name": "cranky"
                     },
                     {
                         "Name": "fast_start_beginning_of_game"

@@ -8388,7 +8388,7 @@
                                     "Name": "allTrainingChecks"
                                 },
                                 {
-                                    "Name": "crankyAccess"
+                                    "Name": "cranky"
                                 }
                             ]
                         },
@@ -67421,7 +67421,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -68499,7 +68499,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -69551,7 +69551,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -69742,7 +69742,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -70713,7 +70713,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -71343,7 +71343,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "candyAccess"
+                            "Name": "candy"
                         }
                     ]
                 }
@@ -71617,7 +71617,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -71955,7 +71955,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -71973,7 +71973,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -72876,7 +72876,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -72894,7 +72894,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -73320,7 +73320,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -73338,7 +73338,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "candyAccess"
+                            "Name": "candy"
                         }
                     ]
                 }
@@ -74080,7 +74080,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -74687,7 +74687,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -74937,7 +74937,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "candyAccess"
+                            "Name": "candy"
                         }
                     ]
                 }
@@ -74955,7 +74955,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -76377,7 +76377,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -77612,7 +77612,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -78148,7 +78148,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -78648,7 +78648,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -78666,7 +78666,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -78830,7 +78830,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -80081,7 +80081,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "candyAccess"
+                            "Name": "candy"
                         }
                     ]
                 }
@@ -80764,7 +80764,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         }
                     ]
                 }
@@ -80782,7 +80782,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "snideAccess"
+                            "Name": "snide"
                         }
                     ]
                 }
@@ -81762,7 +81762,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "funkyAccess"
+                            "Name": "funky"
                         }
                     ]
                 }
@@ -82128,7 +82128,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "candyAccess"
+                            "Name": "candy"
                         }
                     ]
                 }
@@ -84821,7 +84821,7 @@
                     "combinator": "AND",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         },
                         {
                             "Name": "peanut"
@@ -84865,7 +84865,7 @@
                     "combinator": "OR",
                     "rules": [
                         {
-                            "Name": "crankyAccess"
+                            "Name": "cranky"
                         },
                         {
                             "Name": "fast_start_beginning_of_game"
