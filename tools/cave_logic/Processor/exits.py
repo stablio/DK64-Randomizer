@@ -84,6 +84,16 @@ def build_exits():
                 dest = shufflable_exit.back.regionId
                 exit_name = shufflable_exit.name
                 exit_type = "Warp"
+            elif exit.dest in ShopRegionsCopy:
+                source = region_id
+                dest = exit.dest
+
+                source_name = RegionsOriginal[source].name
+                dest_name = RegionsOriginal[dest].name
+
+                # need to construct the exit name
+                exit_name = source_name + " to " + dest_name
+                exit_type = "Warp"
             else:
                 source = region_id
                 dest = exit.dest
