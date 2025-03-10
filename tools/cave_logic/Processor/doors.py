@@ -14,7 +14,7 @@ from copy import deepcopy
 from tools.cave_logic.Processor.Utils import parse_ast_by_separator, parse_ast_to_dict
 from tools.cave_logic.ast_logic import ast_to_json
 from randomizer.Enums.Levels import Levels
-# from randomizer.Enums.DoorType import DoorType
+from randomizer.Enums.DoorType import DoorType
 from randomizer.Lists.DoorLocations import door_locations,GetBossLobbyRegionIdForRegion
 from randomizer.Enums.Items import Items
 from randomizer.Logic import RegionsOriginal
@@ -30,16 +30,17 @@ def door_to_edge(door):
 
     portal_region = RegionList[door.logicregion]
 
-    edgeType = "Location"
+    edgeClass = "Check"
+    edgeType = "Door"
     edgeTargetType= "Item"
     target = Items.NoItem.name
 
 
-    if(door.door_type == 'boss'): #DoorType.boss
+    if(door.default_placed == DoorType.boss): #DoorType.boss
         target_region = GetBossLobbyRegionIdForRegion(
         door.logicregion, portal_region)
         target = target_region.name
-        edgeType = "Neighbourhood"
+        edgeClass = "Transition"
         edgeTargetType= "Location"
 
     # l = door.logic
@@ -63,11 +64,12 @@ def door_to_edge(door):
         "Name": door.name,
         "source": door.logicregion.name.lower(),
         "target": target.lower(),
-        "Type": edgeType,
+        "sourceType": "Region",
         "targetType": edgeTargetType,
         "Requires": requires,
-        "Level": portal_region.level.name,
-        "Class": "Door",
+        "Class":edgeClass,
+        "Type": edgeType,
+
     }
 
 def build_doors():

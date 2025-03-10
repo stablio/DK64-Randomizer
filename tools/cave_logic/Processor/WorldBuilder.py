@@ -8,18 +8,20 @@ from collectible import build_collectibles
 from events import build_events
 from warps import build_warps
 from levels import build_levels
+from doors import build_doors
 
 regions = build_regions()
 checks = build_checks()
 levels = build_levels()
 collectibles = build_collectibles()
+doors = build_doors()
 
 world = {
     "id": "4p0",
     "world": {
         "worlds": {},
         "regions": {**levels['nodes'], **regions['nodes']},
-        "edges": {**levels['edges'],**regions['edges'], **checks['edges'], **build_exits(), **build_events(), **build_warps(), **collectibles['edges']},
+        "edges": {**levels['edges'],**regions['edges'], **checks['edges'], **build_exits(), **build_events(), **build_warps(), **collectibles['edges'], **doors},
         "items": {**build_items(), **collectibles['nodes'], **checks['nodes']},
     },
     "settings": {
