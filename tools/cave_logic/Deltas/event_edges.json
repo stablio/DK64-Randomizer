@@ -1901,17 +1901,6 @@
                             },
                             {
                                 "Name": "tiny"
-                            },
-                            {
-                                "combinator": "OR",
-                                "rules": [
-                                    {
-                                        "Name": "climbing"
-                                    },
-                                    {
-                                        "Name": "ponytailtwirl"
-                                    }
-                                ]
                             }
                         ]
                     }
@@ -3966,28 +3955,6 @@
                 ]
             }
         },
-        "li-factoryw4atagged90": {
-            "id": "li-factoryw4atagged90",
-            "Name": "FactoryW4aTagged",
-            "source": "beyondhatch",
-            "target": "factoryw4atagged",
-            "Type": "Location",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Types": "Event",
-            "Class": "Event",
-            "Requires": true,
-            "Persona": "any",
-            "Rewards": {
-                "combinator": "and",
-                "rules": [
-                    {
-                        "Name": "factoryw4atagged",
-                        "Amount": 1
-                    }
-                ]
-            }
-        },
         "li-factoryw5atagged85": {
             "id": "li-factoryw5atagged85",
             "Name": "FactoryW5aTagged",
@@ -4215,6 +4182,28 @@
                 "rules": [
                     {
                         "Name": "chunkycoreswitch",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
+        "li-factoryw4atagged91": {
+            "id": "li-factoryw4atagged91",
+            "Name": "FactoryW4aTagged",
+            "source": "lowercore",
+            "target": "factoryw4atagged",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": true,
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "factoryw4atagged",
                         "Amount": 1
                     }
                 ]

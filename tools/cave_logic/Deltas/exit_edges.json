@@ -3884,11 +3884,11 @@
             "Type": "Warp",
             "Requires": true
         },
-        "tn-58-60": {
-            "id": "tn-58-60",
-            "Name": "Angry Aztec Between Vines By Portal to Angry Aztec Oasis",
+        "tn-58-59": {
+            "id": "tn-58-59",
+            "Name": "Angry Aztec Between Vines By Portal to Angry Aztec Tunnel Before Oasis",
             "source": "betweenvinesbyportal",
-            "target": "angryaztecoasis",
+            "target": "aztectunnelbeforeoasis",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -6356,10 +6356,10 @@
                 ]
             }
         },
-        "tn-90-92": {
-            "id": "tn-90-92",
+        "tn-91-92": {
+            "id": "tn-91-92",
             "Name": "Frantic Factory Main to Crusher Room",
-            "source": "beyondhatch",
+            "source": "lowercore",
             "target": "insidecore",
             "sourceType": "Region",
             "targetType": "Location",
@@ -6400,11 +6400,11 @@
                 ]
             }
         },
-        "tn-92-90": {
-            "id": "tn-92-90",
+        "tn-92-91": {
+            "id": "tn-92-91",
             "Name": "Frantic Factory Crusher Room to Main",
             "source": "insidecore",
-            "target": "beyondhatch",
+            "target": "lowercore",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -6462,10 +6462,10 @@
                 ]
             }
         },
-        "tn-90-92-g": {
-            "id": "tn-90-92-g",
+        "tn-91-92-g": {
+            "id": "tn-91-92-g",
             "Name": "Frantic Factory Main to Crusher Room",
-            "source": "beyondhatch",
+            "source": "lowercore",
             "target": "insidecore",
             "sourceType": "Region",
             "targetType": "Location",
