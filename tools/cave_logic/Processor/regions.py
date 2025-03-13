@@ -17,7 +17,7 @@ from randomizer.Logic import RegionsOriginal
 from randomizer.Enums.Regions import Regions
 from randomizer.ShuffleExits import ShufflableExits
 # from randomizer.Enums.HintRegion import HINT_REGION_PAIRING
-from randomizer.Lists.MapsAndExits import RegionMapList
+from randomizer.Lists.MapsAndExits import RegionMapList, ENTRY_HANDLERS
 from randomizer.Enums.Maps import Maps
 
 
@@ -37,7 +37,12 @@ regionNameOverrides = {
 
 def region_to_node(id, region):
     region_name = regionNameOverrides.get(id, region.name)
-    node = RegionNode(id.name.lower(), region_name, "Region", "Region")
+
+    region_type = "Region"
+    if id in ENTRY_HANDLERS:
+        region_type = "Passthrough"
+
+    node = RegionNode(id.name.lower(), region_name, "Region", region_type)
 
     level_id = region.level.name.lower()
     edge_id = "rr-" + id.name.lower() + "-level"

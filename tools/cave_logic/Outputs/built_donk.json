@@ -1458,7 +1458,7 @@
                 "id": "junglejapesentryhandler",
                 "Name": "Jungle Japes Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "junglejapesstart": {
                 "id": "junglejapesstart",
@@ -1608,7 +1608,7 @@
                 "id": "angryaztecentryhandler",
                 "Name": "Angry Aztec Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "angryaztecstart": {
                 "id": "angryaztecstart",
@@ -1794,7 +1794,7 @@
                 "id": "franticfactoryentryhandler",
                 "Name": "Frantic Factory Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "franticfactorystart": {
                 "id": "franticfactorystart",
@@ -1926,7 +1926,7 @@
                 "id": "gloomygalleonentryhandler",
                 "Name": "Gloomy Galleon Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "gloomygalleonstart": {
                 "id": "gloomygalleonstart",
@@ -2118,7 +2118,7 @@
                 "id": "fungiforestentryhandler",
                 "Name": "Fungi Forest Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "fungiforeststart": {
                 "id": "fungiforeststart",
@@ -2352,7 +2352,7 @@
                 "id": "crystalcavesentryhandler",
                 "Name": "Crystal Caves Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "crystalcavesmain": {
                 "id": "crystalcavesmain",
@@ -2544,7 +2544,7 @@
                 "id": "creepycastleentryhandler",
                 "Name": "Creepy Castle Entry Handler",
                 "Class": "Region",
-                "Type": "Region"
+                "Type": "Passthrough"
             },
             "creepycastlemain": {
                 "id": "creepycastlemain",
@@ -68023,7 +68023,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -68056,7 +68056,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -68523,7 +68523,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -68585,7 +68585,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -68997,7 +68997,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -69030,7 +69030,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -69063,7 +69063,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Warp",
+                "Type": "Portal",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -69116,7 +69116,7 @@
             },
             "tn-34-14": {
                 "id": "tn-34-14",
-                "Name": "Jungle Japes Entry Handler Exit Level",
+                "Name": "Jungle Japes to Japes Lobby",
                 "source": "junglejapesentryhandler",
                 "target": "junglejapeslobby",
                 "sourceType": "Region",
@@ -69133,7 +69133,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-35-36": {
@@ -70992,7 +70992,7 @@
             },
             "tn-56-15": {
                 "id": "tn-56-15",
-                "Name": "Angry Aztec Entry Handler Exit Level",
+                "Name": "Angry Aztec to Aztec Lobby",
                 "source": "angryaztecentryhandler",
                 "target": "angryazteclobby",
                 "sourceType": "Region",
@@ -71009,7 +71009,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-57-58": {
@@ -72701,7 +72701,7 @@
             },
             "tn-80-21": {
                 "id": "tn-80-21",
-                "Name": "Frantic Factory Entry Handler Exit Level",
+                "Name": "Frantic Factory to Factory Lobby",
                 "source": "franticfactoryentryhandler",
                 "target": "franticfactorylobby",
                 "sourceType": "Region",
@@ -72718,7 +72718,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-81-82": {
@@ -73840,17 +73840,6 @@
                 "Type": "Warp",
                 "Requires": true
             },
-            "tn-100-23": {
-                "id": "tn-100-23",
-                "Name": "Gloomy Galleon Entry Handler Exit Level",
-                "source": "gloomygalleonentryhandler",
-                "target": "gloomygalleonlobbyentrance",
-                "sourceType": "Region",
-                "targetType": "Location",
-                "Class": "Transition",
-                "Type": "Warp",
-                "Requires": true
-            },
             "tn-100-101": {
                 "id": "tn-100-101",
                 "Name": "Gloomy Galleon Entry Handler to Gloomy Galleon Start",
@@ -73859,7 +73848,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-101-102": {
@@ -76004,7 +75993,7 @@
             },
             "tn-130-28": {
                 "id": "tn-130-28",
-                "Name": "Fungi Forest Entry Handler Exit Level",
+                "Name": "Fungi Forest to Fungi Lobby",
                 "source": "fungiforestentryhandler",
                 "target": "fungiforestlobby",
                 "sourceType": "Region",
@@ -76021,7 +76010,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-131-132": {
@@ -78215,17 +78204,6 @@
                 "Type": "Warp",
                 "Requires": true
             },
-            "tn-165-30": {
-                "id": "tn-165-30",
-                "Name": "Crystal Caves Entry Handler Exit Level",
-                "source": "crystalcavesentryhandler",
-                "target": "creepycastlelobby",
-                "sourceType": "Region",
-                "targetType": "Location",
-                "Class": "Transition",
-                "Type": "Warp",
-                "Requires": true
-            },
             "tn-165-166": {
                 "id": "tn-165-166",
                 "Name": "Crystal Caves Entry Handler to Crystal Caves Main",
@@ -78234,7 +78212,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-166-278": {
@@ -80355,7 +80333,7 @@
             },
             "tn-194-30": {
                 "id": "tn-194-30",
-                "Name": "Creepy Castle Entry Handler Exit Level",
+                "Name": "Creepy Castle to Castle Lobby",
                 "source": "creepycastleentryhandler",
                 "target": "creepycastlelobby",
                 "sourceType": "Region",
@@ -80372,7 +80350,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": true
             },
             "tn-195-198": {

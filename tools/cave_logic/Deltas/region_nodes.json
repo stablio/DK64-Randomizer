@@ -1378,7 +1378,7 @@
             "id": "junglejapesentryhandler",
             "Name": "Jungle Japes Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "junglejapesstart": {
             "id": "junglejapesstart",
@@ -1528,7 +1528,7 @@
             "id": "angryaztecentryhandler",
             "Name": "Angry Aztec Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "angryaztecstart": {
             "id": "angryaztecstart",
@@ -1714,7 +1714,7 @@
             "id": "franticfactoryentryhandler",
             "Name": "Frantic Factory Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "franticfactorystart": {
             "id": "franticfactorystart",
@@ -1846,7 +1846,7 @@
             "id": "gloomygalleonentryhandler",
             "Name": "Gloomy Galleon Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "gloomygalleonstart": {
             "id": "gloomygalleonstart",
@@ -2038,7 +2038,7 @@
             "id": "fungiforestentryhandler",
             "Name": "Fungi Forest Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "fungiforeststart": {
             "id": "fungiforeststart",
@@ -2272,7 +2272,7 @@
             "id": "crystalcavesentryhandler",
             "Name": "Crystal Caves Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "crystalcavesmain": {
             "id": "crystalcavesmain",
@@ -2464,7 +2464,7 @@
             "id": "creepycastleentryhandler",
             "Name": "Creepy Castle Entry Handler",
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Passthrough"
         },
         "creepycastlemain": {
             "id": "creepycastlemain",

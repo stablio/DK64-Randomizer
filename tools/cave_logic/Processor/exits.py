@@ -18,6 +18,7 @@ from randomizer.Lists.ShufflableExit import ShufflableExits
 from randomizer.Lists.LevelInfo import LevelInfoList
 from randomizer.Logic import RegionsOriginal
 from randomizer.Enums.Regions import Regions
+from randomizer.Lists.MapsAndExits import ENTRY_HANDLERS
 from copy import deepcopy
 import json
 
@@ -84,16 +85,8 @@ def build_exits():
                 dest = shufflable_exit.back.regionId
                 exit_name = shufflable_exit.name
                 exit_type = "Warp"
-            elif exit.dest in ShopRegionsCopy:
-                source = region_id
-                dest = exit.dest
-
-                source_name = RegionsOriginal[source].name
-                dest_name = RegionsOriginal[dest].name
-
-                # need to construct the exit name
-                exit_name = source_name + " to " + dest_name
-                exit_type = "Warp"
+                if dest in ENTRY_HANDLERS:
+                   exit_type = "Portal"
             else:
                 source = region_id
                 dest = exit.dest
@@ -104,6 +97,9 @@ def build_exits():
                 # need to construct the exit name
                 exit_name = source_name + " to " + dest_name
                 exit_type = "Neighbourhood"
+
+                if exit.dest in ShopRegionsCopy or source in ENTRY_HANDLERS:
+                   exit_type = "Warp"
             logic = exit.logic if exit.logic else True
 
             
@@ -118,7 +114,7 @@ def build_exits():
             edges.update(r)
 
             # Add the region 'exit to level' nodes
-            if region.level in LevelInfoList:
+            if region.level in LevelInfoList and region_id not in ENTRY_HANDLERS:
                 exit_to_level = LevelInfoList[region.level].TransitionsFrom
                 exit_source = region_id
                 exit_dest = ShufflableExits[exit_to_level].region
