@@ -26,7 +26,7 @@ def strip_name(name):
 
 def door_to_edge(door):
 
-    key = strip_name(door.name)
+    id = strip_name(door.name) + "-door"
 
     portal_region = RegionList[door.logicregion]
 
@@ -36,12 +36,12 @@ def door_to_edge(door):
     target = Items.NoItem.name
 
 
-    if(door.default_placed == DoorType.boss): #DoorType.boss
-        target_region = GetBossLobbyRegionIdForRegion(
-        door.logicregion, portal_region)
-        target = target_region.name
-        edgeClass = "Transition"
-        edgeTargetType= "Location"
+    # if(door.default_placed == DoorType.boss): #DoorType.boss
+    #     target_region = GetBossLobbyRegionIdForRegion(
+    #     door.logicregion, portal_region)
+    #     target = target_region.name
+    #     edgeClass = "Transition"
+    #     edgeTargetType= "Location"
 
     # l = door.logic
     # req_str = inspect.getsource(door.logic).strip()
@@ -60,7 +60,7 @@ def door_to_edge(door):
     requires = req2["Requires"] if req2 is not None else True
 
     return {
-        "id": key,
+        "id": id,
         "Name": door.name,
         "source": door.logicregion.name.lower(),
         "target": target.lower(),
