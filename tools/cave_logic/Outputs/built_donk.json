@@ -68494,7 +68494,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -69546,7 +69546,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -71950,7 +71950,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -72871,7 +72871,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -74671,7 +74671,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -77596,7 +77596,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -78803,7 +78803,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -80755,7 +80755,7 @@
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
-                "Type": "Neighbourhood",
+                "Type": "Warp",
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
@@ -83975,6 +83975,94 @@
                 "Name": "Cranky Isles to Training Grounds",
                 "source": "crankyisles",
                 "target": "traininggrounds",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-20": {
+                "id": "tn-258-20",
+                "Name": "Snide to Isles Snide Room",
+                "source": "snide",
+                "target": "islessnideroom",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-39": {
+                "id": "tn-258-39",
+                "Name": "Snide to Jungle Japes Hilltop",
+                "source": "snide",
+                "target": "japeshilltop",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-66": {
+                "id": "tn-258-66",
+                "Name": "Snide to Angry Aztec Main",
+                "source": "snide",
+                "target": "angryaztecmain",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-82": {
+                "id": "tn-258-82",
+                "Name": "Snide to Testing",
+                "source": "snide",
+                "target": "testing",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-107": {
+                "id": "tn-258-107",
+                "Name": "Snide to Lighthouse Snide Alcove",
+                "source": "snide",
+                "target": "lighthousesnidealcove",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-148": {
+                "id": "tn-258-148",
+                "Name": "Snide to Mill Area",
+                "source": "snide",
+                "target": "millarea",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-167": {
+                "id": "tn-258-167",
+                "Name": "Snide to Caves Snide Area",
+                "source": "snide",
+                "target": "cavessnidearea",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": true
+            },
+            "tn-258-195": {
+                "id": "tn-258-195",
+                "Name": "Snide to Creepy Castle Main",
+                "source": "snide",
+                "target": "creepycastlemain",
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",

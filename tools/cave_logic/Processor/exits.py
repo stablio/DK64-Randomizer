@@ -28,7 +28,7 @@ edges = {}
 # region to exits logic mapping
 RegionsOriginalCopy = deepcopy(RegionsOriginal)
 ShopRegionsCopy = deepcopy(ShopRegions)
-regions_to_remove = [Regions.Snide, Regions.CrankyGeneric,
+regions_to_remove = [Regions.CrankyGeneric,
                      Regions.FunkyGeneric, Regions.CandyGeneric]
 for region in regions_to_remove:
     ShopRegionsCopy.pop(region)
