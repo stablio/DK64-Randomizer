@@ -47,6 +47,7 @@ def collectible_node(id, name):
     return {
         "id": id,
         "Name": name,
+        "Class": "Item",
         "Type": 'Collectible'
     }
 
