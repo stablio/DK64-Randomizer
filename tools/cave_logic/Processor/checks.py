@@ -75,7 +75,7 @@ def location_to_edge(id, location):
             "id": "rr-" + checkId,
             "Name": location.name,
             "Class": "Region",
-            "Type": "Region"
+            "Type": "Minigame"
         }
 
     if bb == MinigameType.HelmBarrelFirst or bb == MinigameType.HelmBarrelSecond:
