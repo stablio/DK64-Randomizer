@@ -2873,6 +2873,372 @@
             "Name": "Snide",
             "Class": "Region",
             "Type": "Region"
+        },
+        "hr-noregion": {
+            "id": "hr-noregion",
+            "Name": "Null Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-islesshops": {
+            "id": "hr-islesshops",
+            "Name": "Isles Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-japesshops": {
+            "id": "hr-japesshops",
+            "Name": "Japes Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-aztecshops": {
+            "id": "hr-aztecshops",
+            "Name": "Aztec Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-factoryshops": {
+            "id": "hr-factoryshops",
+            "Name": "Factory Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-galleonshops": {
+            "id": "hr-galleonshops",
+            "Name": "Galleon Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-forestshops": {
+            "id": "hr-forestshops",
+            "Name": "Forest Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-cavesshops": {
+            "id": "hr-cavesshops",
+            "Name": "Caves Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-castleshops": {
+            "id": "hr-castleshops",
+            "Name": "Castle Shops",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-jetpac": {
+            "id": "hr-jetpac",
+            "Name": "Jetpac Game",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-islescbs": {
+            "id": "hr-islescbs",
+            "Name": "Isles Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-japescbs": {
+            "id": "hr-japescbs",
+            "Name": "Japes Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-azteccbs": {
+            "id": "hr-azteccbs",
+            "Name": "Aztec Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-factorycbs": {
+            "id": "hr-factorycbs",
+            "Name": "Factory Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-galleoncbs": {
+            "id": "hr-galleoncbs",
+            "Name": "Galleon Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-forestcbs": {
+            "id": "hr-forestcbs",
+            "Name": "Forest Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-cavescbs": {
+            "id": "hr-cavescbs",
+            "Name": "Caves Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-castlecbs": {
+            "id": "hr-castlecbs",
+            "Name": "Castle Medal Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-gamestart": {
+            "id": "hr-gamestart",
+            "Name": "Game Start",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-credits": {
+            "id": "hr-credits",
+            "Name": "Credits",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-mainisles": {
+            "id": "hr-mainisles",
+            "Name": "Main Isle",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-outerisles": {
+            "id": "hr-outerisles",
+            "Name": "Outer Isles",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-kremisles": {
+            "id": "hr-kremisles",
+            "Name": "Krem Isle",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-rarewareroom": {
+            "id": "hr-rarewareroom",
+            "Name": "Rareware Room",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-earlylobbies": {
+            "id": "hr-earlylobbies",
+            "Name": "Japes - Forest Lobbies",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-latelobbies": {
+            "id": "hr-latelobbies",
+            "Name": "Caves - Helm Lobbies",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-krool": {
+            "id": "hr-krool",
+            "Name": "K Rool Arena",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-lowlands": {
+            "id": "hr-lowlands",
+            "Name": "Japes Lowlands",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-hillside": {
+            "id": "hr-hillside",
+            "Name": "Japes Hillside",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-stormytunnel": {
+            "id": "hr-stormytunnel",
+            "Name": "Japes Stormy Tunnel Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-hivetunnel": {
+            "id": "hr-hivetunnel",
+            "Name": "Hive Tunnel Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-cavesandmines": {
+            "id": "hr-cavesandmines",
+            "Name": "Japes Caves and Mines",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-oasisandtotem": {
+            "id": "hr-oasisandtotem",
+            "Name": "Aztec Oasis and Totem Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-tinytemple": {
+            "id": "hr-tinytemple",
+            "Name": "Tiny Temple",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-fivedoortemple": {
+            "id": "hr-fivedoortemple",
+            "Name": "5 Door Temple",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-llamatemple": {
+            "id": "hr-llamatemple",
+            "Name": "Llama Temple",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-aztectunnels": {
+            "id": "hr-aztectunnels",
+            "Name": "Various Aztec Tunnels",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-factorystart": {
+            "id": "hr-factorystart",
+            "Name": "Frantic Factory Start",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-testing": {
+            "id": "hr-testing",
+            "Name": "Testing Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-researchanddevelopment": {
+            "id": "hr-researchanddevelopment",
+            "Name": "Research and Development Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-storage": {
+            "id": "hr-storage",
+            "Name": "Storage and Arcade Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-productionroom": {
+            "id": "hr-productionroom",
+            "Name": "Production Room",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-galleoncaverns": {
+            "id": "hr-galleoncaverns",
+            "Name": "Galleon Caverns",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-lighthouse": {
+            "id": "hr-lighthouse",
+            "Name": "Lighthouse Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-shipyardoutskirts": {
+            "id": "hr-shipyardoutskirts",
+            "Name": "Shipyard Outskirts",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-treasureroom": {
+            "id": "hr-treasureroom",
+            "Name": "Treasure Room",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-fivedoorship": {
+            "id": "hr-fivedoorship",
+            "Name": "5 Door Ship",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-forestcenterandbeanstalk": {
+            "id": "hr-forestcenterandbeanstalk",
+            "Name": "Forest Center and Beanstalk",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-mushroomexterior": {
+            "id": "hr-mushroomexterior",
+            "Name": "Giant Mushroom Exterior",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-mushroominterior": {
+            "id": "hr-mushroominterior",
+            "Name": "Giant Mushroom Insides",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-owltree": {
+            "id": "hr-owltree",
+            "Name": "Owl Tree Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-mills": {
+            "id": "hr-mills",
+            "Name": "Forest Mills",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-maincaves": {
+            "id": "hr-maincaves",
+            "Name": "Main Caves Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-igloo": {
+            "id": "hr-igloo",
+            "Name": "Igloo Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-cabins": {
+            "id": "hr-cabins",
+            "Name": "Cabins Area",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-castlesurroundings": {
+            "id": "hr-castlesurroundings",
+            "Name": "Castle Surroundings",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-castlerooms": {
+            "id": "hr-castlerooms",
+            "Name": "Castle Rooms",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-castleunderground": {
+            "id": "hr-castleunderground",
+            "Name": "Castle Underground",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-helm": {
+            "id": "hr-helm",
+            "Name": "Hideout Helm",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-bosses": {
+            "id": "hr-bosses",
+            "Name": "Troff 'n' Scoff",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-error": {
+            "id": "hr-error",
+            "Name": "This should not be hinted",
+            "Class": "Region",
+            "Type": "HintRegion"
         }
     },
     "edges": {
@@ -2886,6 +3252,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-gamestart-hr": {
+            "id": "rr-gamestart-hr",
+            "Name": "Game Start Hint Region",
+            "source": "gamestart",
+            "target": "hr-gamestart",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-dkislesmedals-level": {
             "id": "rr-dkislesmedals-level",
             "Name": "DK Isles Medals Level",
@@ -2896,6 +3272,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-dkislesmedals-hr": {
+            "id": "rr-dkislesmedals-hr",
+            "Name": "DK Isles Medals Hint Region",
+            "source": "dkislesmedals",
+            "target": "hr-islescbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-credits-level": {
             "id": "rr-credits-level",
             "Name": "Credits Level",
@@ -2905,6 +3291,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-credits-hr": {
+            "id": "rr-credits-hr",
+            "Name": "Credits Hint Region",
+            "source": "credits",
+            "target": "hr-credits",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-treehouse-level": {
             "id": "rr-treehouse-level",
@@ -2926,6 +3322,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-treehouse-hr": {
+            "id": "rr-treehouse-hr",
+            "Name": "Treehouse Hint Region",
+            "source": "treehouse",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-traininggrounds-level": {
             "id": "rr-traininggrounds-level",
             "Name": "Training Grounds Level",
@@ -2945,6 +3351,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-traininggrounds-hr": {
+            "id": "rr-traininggrounds-hr",
+            "Name": "Training Grounds Hint Region",
+            "source": "traininggrounds",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-islesmain-level": {
             "id": "rr-islesmain-level",
@@ -2966,6 +3382,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-islesmain-hr": {
+            "id": "rr-islesmain-hr",
+            "Name": "Isles Main Hint Region",
+            "source": "islesmain",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-outerisles-level": {
             "id": "rr-outerisles-level",
             "Name": "Outer Isles Level",
@@ -2985,6 +3411,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-outerisles-hr": {
+            "id": "rr-outerisles-hr",
+            "Name": "Outer Isles Hint Region",
+            "source": "outerisles",
+            "target": "hr-outerisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-isleshill-level": {
             "id": "rr-isleshill-level",
@@ -3006,6 +3442,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-isleshill-hr": {
+            "id": "rr-isleshill-hr",
+            "Name": "Isles Hill Hint Region",
+            "source": "isleshill",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-islesmainupper-level": {
             "id": "rr-islesmainupper-level",
             "Name": "Isles Main Upper Level",
@@ -3025,6 +3471,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-islesmainupper-hr": {
+            "id": "rr-islesmainupper-hr",
+            "Name": "Isles Main Upper Hint Region",
+            "source": "islesmainupper",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-islesear-level": {
             "id": "rr-islesear-level",
@@ -3046,6 +3502,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-islesear-hr": {
+            "id": "rr-islesear-hr",
+            "Name": "Isles Ear Hint Region",
+            "source": "islesear",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-prison-level": {
             "id": "rr-prison-level",
             "Name": "Prison Level",
@@ -3065,6 +3531,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-prison-hr": {
+            "id": "rr-prison-hr",
+            "Name": "Prison Hint Region",
+            "source": "prison",
+            "target": "hr-kremisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-bananafairyroom-level": {
             "id": "rr-bananafairyroom-level",
@@ -3086,6 +3562,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-bananafairyroom-hr": {
+            "id": "rr-bananafairyroom-hr",
+            "Name": "Banana Fairy Room Hint Region",
+            "source": "bananafairyroom",
+            "target": "hr-outerisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-rarewaregbroom-level": {
             "id": "rr-rarewaregbroom-level",
             "Name": "Rareware GB Room Level",
@@ -3105,6 +3591,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-rarewaregbroom-hr": {
+            "id": "rr-rarewaregbroom-hr",
+            "Name": "Rareware GB Room Hint Region",
+            "source": "rarewaregbroom",
+            "target": "hr-outerisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-junglejapeslobby-level": {
             "id": "rr-junglejapeslobby-level",
@@ -3126,6 +3622,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-junglejapeslobby-hr": {
+            "id": "rr-junglejapeslobby-hr",
+            "Name": "Jungle Japes Lobby Hint Region",
+            "source": "junglejapeslobby",
+            "target": "hr-earlylobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-angryazteclobby-level": {
             "id": "rr-angryazteclobby-level",
             "Name": "Angry Aztec Lobby Level",
@@ -3145,6 +3651,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-angryazteclobby-hr": {
+            "id": "rr-angryazteclobby-hr",
+            "Name": "Angry Aztec Lobby Hint Region",
+            "source": "angryazteclobby",
+            "target": "hr-earlylobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-kremisle-level": {
             "id": "rr-kremisle-level",
@@ -3166,6 +3682,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-kremisle-hr": {
+            "id": "rr-kremisle-hr",
+            "Name": "Krem Isle Base Hint Region",
+            "source": "kremisle",
+            "target": "hr-kremisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-kremislebeyondlift-level": {
             "id": "rr-kremislebeyondlift-level",
             "Name": "Krem Isle Beyond Lift Level",
@@ -3185,6 +3711,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-kremislebeyondlift-hr": {
+            "id": "rr-kremislebeyondlift-hr",
+            "Name": "Krem Isle Beyond Lift Hint Region",
+            "source": "kremislebeyondlift",
+            "target": "hr-kremisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-kremisletoplevel-level": {
             "id": "rr-kremisletoplevel-level",
@@ -3206,6 +3742,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-kremisletoplevel-hr": {
+            "id": "rr-kremisletoplevel-hr",
+            "Name": "Krem Isle Top Level Hint Region",
+            "source": "kremisletoplevel",
+            "target": "hr-kremisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-kremislemouth-level": {
             "id": "rr-kremislemouth-level",
             "Name": "Krem Isle Mouth Level",
@@ -3225,6 +3771,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-kremislemouth-hr": {
+            "id": "rr-kremislemouth-hr",
+            "Name": "Krem Isle Mouth Hint Region",
+            "source": "kremislemouth",
+            "target": "hr-kremisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-islessnideroom-level": {
             "id": "rr-islessnideroom-level",
@@ -3246,6 +3802,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-islessnideroom-hr": {
+            "id": "rr-islessnideroom-hr",
+            "Name": "Isles Snide Room Hint Region",
+            "source": "islessnideroom",
+            "target": "hr-kremisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-franticfactorylobby-level": {
             "id": "rr-franticfactorylobby-level",
             "Name": "Frantic Factory Lobby Level",
@@ -3265,6 +3831,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-franticfactorylobby-hr": {
+            "id": "rr-franticfactorylobby-hr",
+            "Name": "Frantic Factory Lobby Hint Region",
+            "source": "franticfactorylobby",
+            "target": "hr-earlylobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-gloomygalleonlobbyentrance-level": {
             "id": "rr-gloomygalleonlobbyentrance-level",
@@ -3286,6 +3862,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-gloomygalleonlobbyentrance-hr": {
+            "id": "rr-gloomygalleonlobbyentrance-hr",
+            "Name": "Gloomy Galleon Lobby Entrance Hint Region",
+            "source": "gloomygalleonlobbyentrance",
+            "target": "hr-earlylobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-gloomygalleonlobby-level": {
             "id": "rr-gloomygalleonlobby-level",
             "Name": "Gloomy Galleon Lobby Level",
@@ -3305,6 +3891,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-gloomygalleonlobby-hr": {
+            "id": "rr-gloomygalleonlobby-hr",
+            "Name": "Gloomy Galleon Lobby Hint Region",
+            "source": "gloomygalleonlobby",
+            "target": "hr-earlylobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cabinisle-level": {
             "id": "rr-cabinisle-level",
@@ -3326,6 +3922,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cabinisle-hr": {
+            "id": "rr-cabinisle-hr",
+            "Name": "Cabin Isle Hint Region",
+            "source": "cabinisle",
+            "target": "hr-outerisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-islesabovewaterfall-level": {
             "id": "rr-islesabovewaterfall-level",
             "Name": "Isles Above Waterfall Level",
@@ -3345,6 +3951,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-islesabovewaterfall-hr": {
+            "id": "rr-islesabovewaterfall-hr",
+            "Name": "Isles Above Waterfall Hint Region",
+            "source": "islesabovewaterfall",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-islesairspace-level": {
             "id": "rr-islesairspace-level",
@@ -3366,6 +3982,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-islesairspace-hr": {
+            "id": "rr-islesairspace-hr",
+            "Name": "Isles Airspace Hint Region",
+            "source": "islesairspace",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-azteclobbyroof-level": {
             "id": "rr-azteclobbyroof-level",
             "Name": "Aztec Lobby Roof Level",
@@ -3385,6 +4011,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-azteclobbyroof-hr": {
+            "id": "rr-azteclobbyroof-hr",
+            "Name": "Aztec Lobby Roof Hint Region",
+            "source": "azteclobbyroof",
+            "target": "hr-mainisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-fungiforestlobby-level": {
             "id": "rr-fungiforestlobby-level",
@@ -3406,6 +4042,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-fungiforestlobby-hr": {
+            "id": "rr-fungiforestlobby-hr",
+            "Name": "Fungi Forest Lobby Hint Region",
+            "source": "fungiforestlobby",
+            "target": "hr-earlylobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crystalcaveslobby-level": {
             "id": "rr-crystalcaveslobby-level",
             "Name": "Crystal Caves Lobby Level",
@@ -3425,6 +4071,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-crystalcaveslobby-hr": {
+            "id": "rr-crystalcaveslobby-hr",
+            "Name": "Crystal Caves Lobby Hint Region",
+            "source": "crystalcaveslobby",
+            "target": "hr-latelobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-creepycastlelobby-level": {
             "id": "rr-creepycastlelobby-level",
@@ -3446,6 +4102,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-creepycastlelobby-hr": {
+            "id": "rr-creepycastlelobby-hr",
+            "Name": "Creepy Castle Lobby Hint Region",
+            "source": "creepycastlelobby",
+            "target": "hr-latelobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmlobby-level": {
             "id": "rr-hideouthelmlobby-level",
             "Name": "Hideout Helm Lobby Level",
@@ -3466,6 +4132,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmlobby-hr": {
+            "id": "rr-hideouthelmlobby-hr",
+            "Name": "Hideout Helm Lobby Hint Region",
+            "source": "hideouthelmlobby",
+            "target": "hr-latelobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-krool-level": {
             "id": "rr-krool-level",
             "Name": "K. Rool Level",
@@ -3476,6 +4152,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-krool-hr": {
+            "id": "rr-krool-hr",
+            "Name": "K. Rool Hint Region",
+            "source": "krool",
+            "target": "hr-krool",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-junglejapesmedals-level": {
             "id": "rr-junglejapesmedals-level",
             "Name": "Jungle Japes Medals Level",
@@ -3485,6 +4171,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-junglejapesmedals-hr": {
+            "id": "rr-junglejapesmedals-hr",
+            "Name": "Jungle Japes Medals Hint Region",
+            "source": "junglejapesmedals",
+            "target": "hr-japescbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-junglejapesentryhandler-level": {
             "id": "rr-junglejapesentryhandler-level",
@@ -3506,6 +4202,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-junglejapesentryhandler-hr": {
+            "id": "rr-junglejapesentryhandler-hr",
+            "Name": "Jungle Japes Entry Handler Hint Region",
+            "source": "junglejapesentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-junglejapesstart-level": {
             "id": "rr-junglejapesstart-level",
             "Name": "Jungle Japes Start Level",
@@ -3525,6 +4231,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-junglejapesstart-hr": {
+            "id": "rr-junglejapesstart-hr",
+            "Name": "Jungle Japes Start Hint Region",
+            "source": "junglejapesstart",
+            "target": "hr-lowlands",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japesblastpadplatform-level": {
             "id": "rr-japesblastpadplatform-level",
@@ -3546,6 +4262,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japesblastpadplatform-hr": {
+            "id": "rr-japesblastpadplatform-hr",
+            "Name": "Japes Blast Pad Platform Hint Region",
+            "source": "japesblastpadplatform",
+            "target": "hr-lowlands",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japescannonplatform-level": {
             "id": "rr-japescannonplatform-level",
             "Name": "Jungle Japes Cannon Platform Level",
@@ -3565,6 +4291,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japescannonplatform-hr": {
+            "id": "rr-japescannonplatform-hr",
+            "Name": "Jungle Japes Cannon Platform Hint Region",
+            "source": "japescannonplatform",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japeshilltop-level": {
             "id": "rr-japeshilltop-level",
@@ -3586,6 +4322,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japeshilltop-hr": {
+            "id": "rr-japeshilltop-hr",
+            "Name": "Jungle Japes Hilltop Hint Region",
+            "source": "japeshilltop",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japeshill-level": {
             "id": "rr-japeshill-level",
             "Name": "Jungle Japes Hill Level",
@@ -3605,6 +4351,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japeshill-hr": {
+            "id": "rr-japeshill-hr",
+            "Name": "Jungle Japes Hill Hint Region",
+            "source": "japeshill",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-junglejapesmain-level": {
             "id": "rr-junglejapesmain-level",
@@ -3626,6 +4382,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-junglejapesmain-hr": {
+            "id": "rr-junglejapesmain-hr",
+            "Name": "Jungle Japes Main Hint Region",
+            "source": "junglejapesmain",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japespaintingroomhill-level": {
             "id": "rr-japespaintingroomhill-level",
             "Name": "Japes Painting Room Hill Level",
@@ -3645,6 +4411,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japespaintingroomhill-hr": {
+            "id": "rr-japespaintingroomhill-hr",
+            "Name": "Japes Painting Room Hill Hint Region",
+            "source": "japespaintingroomhill",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japestnsalcove-level": {
             "id": "rr-japestnsalcove-level",
@@ -3666,6 +4442,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japestnsalcove-hr": {
+            "id": "rr-japestnsalcove-hr",
+            "Name": "Japes T&S Alcove Hint Region",
+            "source": "japestnsalcove",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japestopofmountain-level": {
             "id": "rr-japestopofmountain-level",
             "Name": "Japes Top of Mountain Level",
@@ -3685,6 +4471,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japestopofmountain-hr": {
+            "id": "rr-japestopofmountain-hr",
+            "Name": "Japes Top of Mountain Hint Region",
+            "source": "japestopofmountain",
+            "target": "hr-hillside",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japesbaboonblast-level": {
             "id": "rr-japesbaboonblast-level",
@@ -3706,6 +4502,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japesbaboonblast-hr": {
+            "id": "rr-japesbaboonblast-hr",
+            "Name": "Japes Baboon Blast Hint Region",
+            "source": "japesbaboonblast",
+            "target": "hr-lowlands",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japesbeyondpeanutgate-level": {
             "id": "rr-japesbeyondpeanutgate-level",
             "Name": "Japes Beyond Peanut Gate Level",
@@ -3725,6 +4531,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japesbeyondpeanutgate-hr": {
+            "id": "rr-japesbeyondpeanutgate-hr",
+            "Name": "Japes Beyond Peanut Gate Hint Region",
+            "source": "japesbeyondpeanutgate",
+            "target": "hr-lowlands",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japesbeyondcoconutgate1-level": {
             "id": "rr-japesbeyondcoconutgate1-level",
@@ -3746,6 +4562,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japesbeyondcoconutgate1-hr": {
+            "id": "rr-japesbeyondcoconutgate1-hr",
+            "Name": "Japes Beyond Coconut Gate 1 Hint Region",
+            "source": "japesbeyondcoconutgate1",
+            "target": "hr-hivetunnel",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japesbeyondfeathergate-level": {
             "id": "rr-japesbeyondfeathergate-level",
             "Name": "Japes Beyond Feather Gate Level",
@@ -3765,6 +4591,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japesbeyondfeathergate-hr": {
+            "id": "rr-japesbeyondfeathergate-hr",
+            "Name": "Japes Beyond Feather Gate Hint Region",
+            "source": "japesbeyondfeathergate",
+            "target": "hr-hivetunnel",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-tinyhive-level": {
             "id": "rr-tinyhive-level",
@@ -3786,6 +4622,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-tinyhive-hr": {
+            "id": "rr-tinyhive-hr",
+            "Name": "Tiny Hive Hint Region",
+            "source": "tinyhive",
+            "target": "hr-hivetunnel",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japesbeyondcoconutgate2-level": {
             "id": "rr-japesbeyondcoconutgate2-level",
             "Name": "Japes Beyond Coconut Gate 2 Level",
@@ -3805,6 +4651,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-japesbeyondcoconutgate2-hr": {
+            "id": "rr-japesbeyondcoconutgate2-hr",
+            "Name": "Japes Beyond Coconut Gate 2 Hint Region",
+            "source": "japesbeyondcoconutgate2",
+            "target": "hr-stormytunnel",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japesuselessslope-level": {
             "id": "rr-japesuselessslope-level",
@@ -3826,6 +4682,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japesuselessslope-hr": {
+            "id": "rr-japesuselessslope-hr",
+            "Name": "Japes Useless Slope Hint Region",
+            "source": "japesuselessslope",
+            "target": "hr-stormytunnel",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-beyondrambigate-level": {
             "id": "rr-beyondrambigate-level",
             "Name": "Beyond Rambi Gate Level",
@@ -3845,6 +4711,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-beyondrambigate-hr": {
+            "id": "rr-beyondrambigate-hr",
+            "Name": "Beyond Rambi Gate Hint Region",
+            "source": "beyondrambigate",
+            "target": "hr-stormytunnel",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japeslankycave-level": {
             "id": "rr-japeslankycave-level",
@@ -3866,6 +4742,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japeslankycave-hr": {
+            "id": "rr-japeslankycave-hr",
+            "Name": "Japes Lanky Cave Hint Region",
+            "source": "japeslankycave",
+            "target": "hr-cavesandmines",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mine-level": {
             "id": "rr-mine-level",
             "Name": "Mine Level",
@@ -3885,6 +4771,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mine-hr": {
+            "id": "rr-mine-hr",
+            "Name": "Mine Hint Region",
+            "source": "mine",
+            "target": "hr-cavesandmines",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japesminecarts-level": {
             "id": "rr-japesminecarts-level",
@@ -3906,6 +4802,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japesminecarts-hr": {
+            "id": "rr-japesminecarts-hr",
+            "Name": "Japes Minecarts Hint Region",
+            "source": "japesminecarts",
+            "target": "hr-cavesandmines",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japescatacomb-level": {
             "id": "rr-japescatacomb-level",
             "Name": "Japes Catacomb Level",
@@ -3926,6 +4832,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-japescatacomb-hr": {
+            "id": "rr-japescatacomb-hr",
+            "Name": "Japes Catacomb Hint Region",
+            "source": "japescatacomb",
+            "target": "hr-cavesandmines",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-japesbosslobby-level": {
             "id": "rr-japesbosslobby-level",
             "Name": "Japes Boss Lobby Level",
@@ -3935,6 +4851,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-japesbosslobby-hr": {
+            "id": "rr-japesbosslobby-hr",
+            "Name": "Japes Boss Lobby Hint Region",
+            "source": "japesbosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-japesboss-level": {
             "id": "rr-japesboss-level",
@@ -3946,6 +4872,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-japesboss-hr": {
+            "id": "rr-japesboss-hr",
+            "Name": "Japes Boss Hint Region",
+            "source": "japesboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-angryaztecmedals-level": {
             "id": "rr-angryaztecmedals-level",
             "Name": "Angry Aztec Medals Level",
@@ -3955,6 +4891,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-angryaztecmedals-hr": {
+            "id": "rr-angryaztecmedals-hr",
+            "Name": "Angry Aztec Medals Hint Region",
+            "source": "angryaztecmedals",
+            "target": "hr-azteccbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-angryaztecentryhandler-level": {
             "id": "rr-angryaztecentryhandler-level",
@@ -3976,6 +4922,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-angryaztecentryhandler-hr": {
+            "id": "rr-angryaztecentryhandler-hr",
+            "Name": "Angry Aztec Entry Handler Hint Region",
+            "source": "angryaztecentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-angryaztecstart-level": {
             "id": "rr-angryaztecstart-level",
             "Name": "Angry Aztec Start Level",
@@ -3995,6 +4951,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-angryaztecstart-hr": {
+            "id": "rr-angryaztecstart-hr",
+            "Name": "Angry Aztec Start Hint Region",
+            "source": "angryaztecstart",
+            "target": "hr-aztectunnels",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-betweenvinesbyportal-level": {
             "id": "rr-betweenvinesbyportal-level",
@@ -4016,6 +4982,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-betweenvinesbyportal-hr": {
+            "id": "rr-betweenvinesbyportal-hr",
+            "Name": "Angry Aztec Between Vines By Portal Hint Region",
+            "source": "betweenvinesbyportal",
+            "target": "hr-aztectunnels",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-aztectunnelbeforeoasis-level": {
             "id": "rr-aztectunnelbeforeoasis-level",
             "Name": "Angry Aztec Tunnel Before Oasis Level",
@@ -4035,6 +5011,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-aztectunnelbeforeoasis-hr": {
+            "id": "rr-aztectunnelbeforeoasis-hr",
+            "Name": "Angry Aztec Tunnel Before Oasis Hint Region",
+            "source": "aztectunnelbeforeoasis",
+            "target": "hr-aztectunnels",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-angryaztecoasis-level": {
             "id": "rr-angryaztecoasis-level",
@@ -4056,6 +5042,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-angryaztecoasis-hr": {
+            "id": "rr-angryaztecoasis-hr",
+            "Name": "Angry Aztec Oasis Hint Region",
+            "source": "angryaztecoasis",
+            "target": "hr-oasisandtotem",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-templestart-level": {
             "id": "rr-templestart-level",
             "Name": "Temple Start Level",
@@ -4075,6 +5071,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-templestart-hr": {
+            "id": "rr-templestart-hr",
+            "Name": "Temple Start Hint Region",
+            "source": "templestart",
+            "target": "hr-tinytemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-templeguitarpad-level": {
             "id": "rr-templeguitarpad-level",
@@ -4096,6 +5102,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-templeguitarpad-hr": {
+            "id": "rr-templeguitarpad-hr",
+            "Name": "Temple Guitar Pad Hint Region",
+            "source": "templeguitarpad",
+            "target": "hr-tinytemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-templeunderwater-level": {
             "id": "rr-templeunderwater-level",
             "Name": "Temple Underwater Level",
@@ -4115,6 +5131,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-templeunderwater-hr": {
+            "id": "rr-templeunderwater-hr",
+            "Name": "Temple Underwater Hint Region",
+            "source": "templeunderwater",
+            "target": "hr-tinytemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-templevultureroom-level": {
             "id": "rr-templevultureroom-level",
@@ -4136,6 +5162,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-templevultureroom-hr": {
+            "id": "rr-templevultureroom-hr",
+            "Name": "Temple Vulture Room Hint Region",
+            "source": "templevultureroom",
+            "target": "hr-tinytemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-templekongroom-level": {
             "id": "rr-templekongroom-level",
             "Name": "Temple KONG Room Level",
@@ -4155,6 +5191,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-templekongroom-hr": {
+            "id": "rr-templekongroom-hr",
+            "Name": "Temple KONG Room Hint Region",
+            "source": "templekongroom",
+            "target": "hr-tinytemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-angryaztecconnectortunnel-level": {
             "id": "rr-angryaztecconnectortunnel-level",
@@ -4176,6 +5222,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-angryaztecconnectortunnel-hr": {
+            "id": "rr-angryaztecconnectortunnel-hr",
+            "Name": "Angry Aztec Connector Tunnel Hint Region",
+            "source": "angryaztecconnectortunnel",
+            "target": "hr-aztectunnels",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-angryaztecmain-level": {
             "id": "rr-angryaztecmain-level",
             "Name": "Angry Aztec Main Level",
@@ -4195,6 +5251,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-angryaztecmain-hr": {
+            "id": "rr-angryaztecmain-hr",
+            "Name": "Angry Aztec Main Hint Region",
+            "source": "angryaztecmain",
+            "target": "hr-oasisandtotem",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-aztecdonkeyquicksandcave-level": {
             "id": "rr-aztecdonkeyquicksandcave-level",
@@ -4216,6 +5282,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-aztecdonkeyquicksandcave-hr": {
+            "id": "rr-aztecdonkeyquicksandcave-hr",
+            "Name": "Aztec Donkey Sand Tunnel Hint Region",
+            "source": "aztecdonkeyquicksandcave",
+            "target": "hr-aztectunnels",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-aztecbaboonblast-level": {
             "id": "rr-aztecbaboonblast-level",
             "Name": "Aztec Baboon Blast Level",
@@ -4235,6 +5311,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-aztecbaboonblast-hr": {
+            "id": "rr-aztecbaboonblast-hr",
+            "Name": "Aztec Baboon Blast Hint Region",
+            "source": "aztecbaboonblast",
+            "target": "hr-oasisandtotem",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-donkeytemple-level": {
             "id": "rr-donkeytemple-level",
@@ -4256,6 +5342,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-donkeytemple-hr": {
+            "id": "rr-donkeytemple-hr",
+            "Name": "Donkey Temple Hint Region",
+            "source": "donkeytemple",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-donkeytempledeadendright-level": {
             "id": "rr-donkeytempledeadendright-level",
             "Name": "Donkey Temple Dead End Right Level",
@@ -4275,6 +5371,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-donkeytempledeadendright-hr": {
+            "id": "rr-donkeytempledeadendright-hr",
+            "Name": "Donkey Temple Dead End Right Hint Region",
+            "source": "donkeytempledeadendright",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-diddytemple-level": {
             "id": "rr-diddytemple-level",
@@ -4296,6 +5402,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-diddytemple-hr": {
+            "id": "rr-diddytemple-hr",
+            "Name": "Diddy Temple Hint Region",
+            "source": "diddytemple",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-diddytempledeadendright-level": {
             "id": "rr-diddytempledeadendright-level",
             "Name": "Diddy Temple Dead End Right Level",
@@ -4315,6 +5431,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-diddytempledeadendright-hr": {
+            "id": "rr-diddytempledeadendright-hr",
+            "Name": "Diddy Temple Dead End Right Hint Region",
+            "source": "diddytempledeadendright",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lankytempleentrance-level": {
             "id": "rr-lankytempleentrance-level",
@@ -4336,6 +5462,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lankytempleentrance-hr": {
+            "id": "rr-lankytempleentrance-hr",
+            "Name": "Lanky Temple Entrance Hint Region",
+            "source": "lankytempleentrance",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-lankytemple-level": {
             "id": "rr-lankytemple-level",
             "Name": "Lanky Temple Level",
@@ -4355,6 +5491,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-lankytemple-hr": {
+            "id": "rr-lankytemple-hr",
+            "Name": "Lanky Temple Hint Region",
+            "source": "lankytemple",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-tinytempleentrance-level": {
             "id": "rr-tinytempleentrance-level",
@@ -4376,6 +5522,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-tinytempleentrance-hr": {
+            "id": "rr-tinytempleentrance-hr",
+            "Name": "Tiny Temple Entrance Hint Region",
+            "source": "tinytempleentrance",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-tinytemple-level": {
             "id": "rr-tinytemple-level",
             "Name": "Tiny Temple Level",
@@ -4395,6 +5551,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-tinytemple-hr": {
+            "id": "rr-tinytemple-hr",
+            "Name": "Tiny Temple Hint Region",
+            "source": "tinytemple",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-chunkytempleentrance-level": {
             "id": "rr-chunkytempleentrance-level",
@@ -4416,6 +5582,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-chunkytempleentrance-hr": {
+            "id": "rr-chunkytempleentrance-hr",
+            "Name": "Chunky Temple Entrance Hint Region",
+            "source": "chunkytempleentrance",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-chunkytemple-level": {
             "id": "rr-chunkytemple-level",
             "Name": "Chunky Temple Level",
@@ -4435,6 +5611,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-chunkytemple-hr": {
+            "id": "rr-chunkytemple-hr",
+            "Name": "Chunky Temple Hint Region",
+            "source": "chunkytemple",
+            "target": "hr-fivedoortemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-aztectinyrace-level": {
             "id": "rr-aztectinyrace-level",
@@ -4456,6 +5642,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-aztectinyrace-hr": {
+            "id": "rr-aztectinyrace-hr",
+            "Name": "Aztec Tiny Race Hint Region",
+            "source": "aztectinyrace",
+            "target": "hr-oasisandtotem",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-llamatemple-level": {
             "id": "rr-llamatemple-level",
             "Name": "Llama Temple Level",
@@ -4475,6 +5671,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-llamatemple-hr": {
+            "id": "rr-llamatemple-hr",
+            "Name": "Llama Temple Hint Region",
+            "source": "llamatemple",
+            "target": "hr-llamatemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-llamatemplematching-level": {
             "id": "rr-llamatemplematching-level",
@@ -4496,6 +5702,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-llamatemplematching-hr": {
+            "id": "rr-llamatemplematching-hr",
+            "Name": "Llama Temple Matching Hint Region",
+            "source": "llamatemplematching",
+            "target": "hr-llamatemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-llamatempleback-level": {
             "id": "rr-llamatempleback-level",
             "Name": "Llama Temple Back Level",
@@ -4516,6 +5732,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-llamatempleback-hr": {
+            "id": "rr-llamatempleback-hr",
+            "Name": "Llama Temple Back Hint Region",
+            "source": "llamatempleback",
+            "target": "hr-llamatemple",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-aztecbosslobby-level": {
             "id": "rr-aztecbosslobby-level",
             "Name": "Aztec Boss Lobby Level",
@@ -4525,6 +5751,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-aztecbosslobby-hr": {
+            "id": "rr-aztecbosslobby-hr",
+            "Name": "Aztec Boss Lobby Hint Region",
+            "source": "aztecbosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-aztecboss-level": {
             "id": "rr-aztecboss-level",
@@ -4536,6 +5772,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-aztecboss-hr": {
+            "id": "rr-aztecboss-hr",
+            "Name": "Aztec Boss Hint Region",
+            "source": "aztecboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-franticfactorymedals-level": {
             "id": "rr-franticfactorymedals-level",
             "Name": "Frantic Factory Medals Level",
@@ -4545,6 +5791,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-franticfactorymedals-hr": {
+            "id": "rr-franticfactorymedals-hr",
+            "Name": "Frantic Factory Medals Hint Region",
+            "source": "franticfactorymedals",
+            "target": "hr-factorycbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-franticfactoryentryhandler-level": {
             "id": "rr-franticfactoryentryhandler-level",
@@ -4566,6 +5822,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-franticfactoryentryhandler-hr": {
+            "id": "rr-franticfactoryentryhandler-hr",
+            "Name": "Frantic Factory Entry Handler Hint Region",
+            "source": "franticfactoryentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-franticfactorystart-level": {
             "id": "rr-franticfactorystart-level",
             "Name": "Frantic Factory Start Level",
@@ -4585,6 +5851,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-franticfactorystart-hr": {
+            "id": "rr-franticfactorystart-hr",
+            "Name": "Frantic Factory Start Hint Region",
+            "source": "franticfactorystart",
+            "target": "hr-factorystart",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-testing-level": {
             "id": "rr-testing-level",
@@ -4606,6 +5882,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-testing-hr": {
+            "id": "rr-testing-hr",
+            "Name": "Testing Hint Region",
+            "source": "testing",
+            "target": "hr-testing",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-randdupper-level": {
             "id": "rr-randdupper-level",
             "Name": "R&D Upper Level",
@@ -4625,6 +5911,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-randdupper-hr": {
+            "id": "rr-randdupper-hr",
+            "Name": "R&D Upper Hint Region",
+            "source": "randdupper",
+            "target": "hr-researchanddevelopment",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-randd-level": {
             "id": "rr-randd-level",
@@ -4646,6 +5942,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-randd-hr": {
+            "id": "rr-randd-hr",
+            "Name": "R&D Hint Region",
+            "source": "randd",
+            "target": "hr-researchanddevelopment",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-factorytinyracelobby-level": {
             "id": "rr-factorytinyracelobby-level",
             "Name": "Factory Tiny Race Lobby Level",
@@ -4665,6 +5971,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-factorytinyracelobby-hr": {
+            "id": "rr-factorytinyracelobby-hr",
+            "Name": "Factory Tiny Race Lobby Hint Region",
+            "source": "factorytinyracelobby",
+            "target": "hr-researchanddevelopment",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-factorytinyrace-level": {
             "id": "rr-factorytinyrace-level",
@@ -4686,6 +6002,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-factorytinyrace-hr": {
+            "id": "rr-factorytinyrace-hr",
+            "Name": "Factory Tiny Race Hint Region",
+            "source": "factorytinyrace",
+            "target": "hr-researchanddevelopment",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-chunkyroomplatform-level": {
             "id": "rr-chunkyroomplatform-level",
             "Name": "Chunky Room Platform Level",
@@ -4705,6 +6031,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-chunkyroomplatform-hr": {
+            "id": "rr-chunkyroomplatform-hr",
+            "Name": "Chunky Room Platform Hint Region",
+            "source": "chunkyroomplatform",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-powerhut-level": {
             "id": "rr-powerhut-level",
@@ -4726,6 +6062,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-powerhut-hr": {
+            "id": "rr-powerhut-hr",
+            "Name": "Power Hut Hint Region",
+            "source": "powerhut",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-beyondhatch-level": {
             "id": "rr-beyondhatch-level",
             "Name": "Beyond Hatch Level",
@@ -4745,6 +6091,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-beyondhatch-hr": {
+            "id": "rr-beyondhatch-hr",
+            "Name": "Beyond Hatch Hint Region",
+            "source": "beyondhatch",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-factorystoragepipe-level": {
             "id": "rr-factorystoragepipe-level",
@@ -4766,6 +6122,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-factorystoragepipe-hr": {
+            "id": "rr-factorystoragepipe-hr",
+            "Name": "Factory Storage Pipe Hint Region",
+            "source": "factorystoragepipe",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-factoryarcadetunnel-level": {
             "id": "rr-factoryarcadetunnel-level",
             "Name": "Arcade Tunnel Level",
@@ -4785,6 +6151,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-factoryarcadetunnel-hr": {
+            "id": "rr-factoryarcadetunnel-hr",
+            "Name": "Arcade Tunnel Hint Region",
+            "source": "factoryarcadetunnel",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-factorybaboonblast-level": {
             "id": "rr-factorybaboonblast-level",
@@ -4806,6 +6182,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-factorybaboonblast-hr": {
+            "id": "rr-factorybaboonblast-hr",
+            "Name": "Factory Baboon Blast Hint Region",
+            "source": "factorybaboonblast",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-alcovebeyondhatch-level": {
             "id": "rr-alcovebeyondhatch-level",
             "Name": "Alcove Beyond Hatch Level",
@@ -4825,6 +6211,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-alcovebeyondhatch-hr": {
+            "id": "rr-alcovebeyondhatch-hr",
+            "Name": "Alcove Beyond Hatch Hint Region",
+            "source": "alcovebeyondhatch",
+            "target": "hr-productionroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lowercore-level": {
             "id": "rr-lowercore-level",
@@ -4846,6 +6242,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lowercore-hr": {
+            "id": "rr-lowercore-hr",
+            "Name": "Lower Core Hint Region",
+            "source": "lowercore",
+            "target": "hr-productionroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-insidecore-level": {
             "id": "rr-insidecore-level",
             "Name": "Inside Core Level",
@@ -4865,6 +6271,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-insidecore-hr": {
+            "id": "rr-insidecore-hr",
+            "Name": "Inside Core Hint Region",
+            "source": "insidecore",
+            "target": "hr-productionroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-middlecore-level": {
             "id": "rr-middlecore-level",
@@ -4886,6 +6302,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-middlecore-hr": {
+            "id": "rr-middlecore-hr",
+            "Name": "Middle Core Hint Region",
+            "source": "middlecore",
+            "target": "hr-productionroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-spinningcore-level": {
             "id": "rr-spinningcore-level",
             "Name": "Spinning Core Level",
@@ -4905,6 +6331,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-spinningcore-hr": {
+            "id": "rr-spinningcore-hr",
+            "Name": "Spinning Core Hint Region",
+            "source": "spinningcore",
+            "target": "hr-productionroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-uppercore-level": {
             "id": "rr-uppercore-level",
@@ -4926,6 +6362,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-uppercore-hr": {
+            "id": "rr-uppercore-hr",
+            "Name": "Upper Core Hint Region",
+            "source": "uppercore",
+            "target": "hr-productionroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-factorybosslobby-level": {
             "id": "rr-factorybosslobby-level",
             "Name": "Factory Boss Lobby Level",
@@ -4935,6 +6381,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-factorybosslobby-hr": {
+            "id": "rr-factorybosslobby-hr",
+            "Name": "Factory Boss Lobby Hint Region",
+            "source": "factorybosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-factoryboss-level": {
             "id": "rr-factoryboss-level",
@@ -4946,6 +6402,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-factoryboss-hr": {
+            "id": "rr-factoryboss-hr",
+            "Name": "Factory Boss Hint Region",
+            "source": "factoryboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-gloomygalleonmedals-level": {
             "id": "rr-gloomygalleonmedals-level",
             "Name": "Gloomy Galleon Medals Level",
@@ -4955,6 +6421,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-gloomygalleonmedals-hr": {
+            "id": "rr-gloomygalleonmedals-hr",
+            "Name": "Gloomy Galleon Medals Hint Region",
+            "source": "gloomygalleonmedals",
+            "target": "hr-galleoncbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-gloomygalleonentryhandler-level": {
             "id": "rr-gloomygalleonentryhandler-level",
@@ -4976,6 +6452,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-gloomygalleonentryhandler-hr": {
+            "id": "rr-gloomygalleonentryhandler-hr",
+            "Name": "Gloomy Galleon Entry Handler Hint Region",
+            "source": "gloomygalleonentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-gloomygalleonstart-level": {
             "id": "rr-gloomygalleonstart-level",
             "Name": "Gloomy Galleon Start Level",
@@ -4995,6 +6481,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-gloomygalleonstart-hr": {
+            "id": "rr-gloomygalleonstart-hr",
+            "Name": "Gloomy Galleon Start Hint Region",
+            "source": "gloomygalleonstart",
+            "target": "hr-galleoncaverns",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-galleonpastvines-level": {
             "id": "rr-galleonpastvines-level",
@@ -5016,6 +6512,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-galleonpastvines-hr": {
+            "id": "rr-galleonpastvines-hr",
+            "Name": "Galleon Past Vines Hint Region",
+            "source": "galleonpastvines",
+            "target": "hr-galleoncaverns",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-galleonbeyondpineapplegate-level": {
             "id": "rr-galleonbeyondpineapplegate-level",
             "Name": "Galleon Beyond Pineapple Gate Level",
@@ -5035,6 +6541,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-galleonbeyondpineapplegate-hr": {
+            "id": "rr-galleonbeyondpineapplegate-hr",
+            "Name": "Galleon Beyond Pineapple Gate Hint Region",
+            "source": "galleonbeyondpineapplegate",
+            "target": "hr-galleoncaverns",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lighthousesurface-level": {
             "id": "rr-lighthousesurface-level",
@@ -5056,6 +6572,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lighthousesurface-hr": {
+            "id": "rr-lighthousesurface-hr",
+            "Name": "Lighthouse Surface Hint Region",
+            "source": "lighthousesurface",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-lighthouseplatform-level": {
             "id": "rr-lighthouseplatform-level",
             "Name": "Lighthouse Platform Level",
@@ -5075,6 +6601,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-lighthouseplatform-hr": {
+            "id": "rr-lighthouseplatform-hr",
+            "Name": "Lighthouse Platform Hint Region",
+            "source": "lighthouseplatform",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lighthouseunderwater-level": {
             "id": "rr-lighthouseunderwater-level",
@@ -5096,6 +6632,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lighthouseunderwater-hr": {
+            "id": "rr-lighthouseunderwater-hr",
+            "Name": "Lighthouse Underwater Hint Region",
+            "source": "lighthouseunderwater",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-lighthouseenguardedoor-level": {
             "id": "rr-lighthouseenguardedoor-level",
             "Name": "Lighthouse Enguarde Door Level",
@@ -5115,6 +6661,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-lighthouseenguardedoor-hr": {
+            "id": "rr-lighthouseenguardedoor-hr",
+            "Name": "Lighthouse Enguarde Door Hint Region",
+            "source": "lighthouseenguardedoor",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lighthousesnidealcove-level": {
             "id": "rr-lighthousesnidealcove-level",
@@ -5136,6 +6692,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lighthousesnidealcove-hr": {
+            "id": "rr-lighthousesnidealcove-hr",
+            "Name": "Lighthouse Snide Alcove Hint Region",
+            "source": "lighthousesnidealcove",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-galleonbaboonblast-level": {
             "id": "rr-galleonbaboonblast-level",
             "Name": "Galleon Baboon Blast Level",
@@ -5155,6 +6721,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-galleonbaboonblast-hr": {
+            "id": "rr-galleonbaboonblast-hr",
+            "Name": "Galleon Baboon Blast Hint Region",
+            "source": "galleonbaboonblast",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lighthouse-level": {
             "id": "rr-lighthouse-level",
@@ -5176,6 +6752,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lighthouse-hr": {
+            "id": "rr-lighthouse-hr",
+            "Name": "Lighthouse Hint Region",
+            "source": "lighthouse",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-lighthouseaboveladder-level": {
             "id": "rr-lighthouseaboveladder-level",
             "Name": "Lighthouse Above Ladder Level",
@@ -5195,6 +6781,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-lighthouseaboveladder-hr": {
+            "id": "rr-lighthouseaboveladder-hr",
+            "Name": "Lighthouse Above Ladder Hint Region",
+            "source": "lighthouseaboveladder",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mermaidroom-level": {
             "id": "rr-mermaidroom-level",
@@ -5216,6 +6812,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mermaidroom-hr": {
+            "id": "rr-mermaidroom-hr",
+            "Name": "Mermaid Room Hint Region",
+            "source": "mermaidroom",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-sickbay-level": {
             "id": "rr-sickbay-level",
             "Name": "Sick Bay Level",
@@ -5235,6 +6841,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-sickbay-hr": {
+            "id": "rr-sickbay-hr",
+            "Name": "Sick Bay Hint Region",
+            "source": "sickbay",
+            "target": "hr-lighthouse",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-shipyard-level": {
             "id": "rr-shipyard-level",
@@ -5256,6 +6872,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-shipyard-hr": {
+            "id": "rr-shipyard-hr",
+            "Name": "Shipyard Hint Region",
+            "source": "shipyard",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-shipyardunderwater-level": {
             "id": "rr-shipyardunderwater-level",
             "Name": "Shipyard Underwater Level",
@@ -5275,6 +6901,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-shipyardunderwater-hr": {
+            "id": "rr-shipyardunderwater-hr",
+            "Name": "Shipyard Underwater Hint Region",
+            "source": "shipyardunderwater",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-sealrace-level": {
             "id": "rr-sealrace-level",
@@ -5296,6 +6932,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-sealrace-hr": {
+            "id": "rr-sealrace-hr",
+            "Name": "Seal Race Hint Region",
+            "source": "sealrace",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-treasureroom-level": {
             "id": "rr-treasureroom-level",
             "Name": "Treasure Room Level",
@@ -5315,6 +6961,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-treasureroom-hr": {
+            "id": "rr-treasureroom-hr",
+            "Name": "Treasure Room Hint Region",
+            "source": "treasureroom",
+            "target": "hr-treasureroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-treasureroomdiddygoldtower-level": {
             "id": "rr-treasureroomdiddygoldtower-level",
@@ -5336,6 +6992,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-treasureroomdiddygoldtower-hr": {
+            "id": "rr-treasureroomdiddygoldtower-hr",
+            "Name": "Treasure Room Diddy Gold Tower Hint Region",
+            "source": "treasureroomdiddygoldtower",
+            "target": "hr-treasureroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-tinychest-level": {
             "id": "rr-tinychest-level",
             "Name": "Tiny Chest Level",
@@ -5355,6 +7021,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-tinychest-hr": {
+            "id": "rr-tinychest-hr",
+            "Name": "Tiny Chest Hint Region",
+            "source": "tinychest",
+            "target": "hr-treasureroom",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-submarine-level": {
             "id": "rr-submarine-level",
@@ -5376,6 +7052,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-submarine-hr": {
+            "id": "rr-submarine-hr",
+            "Name": "Submarine Hint Region",
+            "source": "submarine",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mechafish-level": {
             "id": "rr-mechafish-level",
             "Name": "Mechafish Level",
@@ -5395,6 +7081,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mechafish-hr": {
+            "id": "rr-mechafish-hr",
+            "Name": "Mechafish Hint Region",
+            "source": "mechafish",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lankyship-level": {
             "id": "rr-lankyship-level",
@@ -5416,6 +7112,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lankyship-hr": {
+            "id": "rr-lankyship-hr",
+            "Name": "Lanky Ship Hint Region",
+            "source": "lankyship",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-tinyship-level": {
             "id": "rr-tinyship-level",
             "Name": "Tiny Ship Level",
@@ -5435,6 +7141,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-tinyship-hr": {
+            "id": "rr-tinyship-hr",
+            "Name": "Tiny Ship Hint Region",
+            "source": "tinyship",
+            "target": "hr-shipyardoutskirts",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-bongosship-level": {
             "id": "rr-bongosship-level",
@@ -5456,6 +7172,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-bongosship-hr": {
+            "id": "rr-bongosship-hr",
+            "Name": "Bongos Ship Hint Region",
+            "source": "bongosship",
+            "target": "hr-fivedoorship",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-guitarship-level": {
             "id": "rr-guitarship-level",
             "Name": "Guitar Ship Level",
@@ -5475,6 +7201,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-guitarship-hr": {
+            "id": "rr-guitarship-hr",
+            "Name": "Guitar Ship Hint Region",
+            "source": "guitarship",
+            "target": "hr-fivedoorship",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-tromboneship-level": {
             "id": "rr-tromboneship-level",
@@ -5496,6 +7232,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-tromboneship-hr": {
+            "id": "rr-tromboneship-hr",
+            "Name": "Trombone Ship Hint Region",
+            "source": "tromboneship",
+            "target": "hr-fivedoorship",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-saxophoneship-level": {
             "id": "rr-saxophoneship-level",
             "Name": "Saxophone Ship Level",
@@ -5515,6 +7261,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-saxophoneship-hr": {
+            "id": "rr-saxophoneship-hr",
+            "Name": "Saxophone Ship Hint Region",
+            "source": "saxophoneship",
+            "target": "hr-fivedoorship",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-triangleship-level": {
             "id": "rr-triangleship-level",
@@ -5536,6 +7292,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-triangleship-hr": {
+            "id": "rr-triangleship-hr",
+            "Name": "Triangle Ship Hint Region",
+            "source": "triangleship",
+            "target": "hr-fivedoorship",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-galleonbosslobby-level": {
             "id": "rr-galleonbosslobby-level",
             "Name": "Galleon Boss Lobby Level",
@@ -5545,6 +7311,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-galleonbosslobby-hr": {
+            "id": "rr-galleonbosslobby-hr",
+            "Name": "Galleon Boss Lobby Hint Region",
+            "source": "galleonbosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-galleonboss-level": {
             "id": "rr-galleonboss-level",
@@ -5556,6 +7332,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-galleonboss-hr": {
+            "id": "rr-galleonboss-hr",
+            "Name": "Galleon Boss Hint Region",
+            "source": "galleonboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-fungiforestmedals-level": {
             "id": "rr-fungiforestmedals-level",
             "Name": "Fungi Forest Medals Level",
@@ -5565,6 +7351,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-fungiforestmedals-hr": {
+            "id": "rr-fungiforestmedals-hr",
+            "Name": "Fungi Forest Medals Hint Region",
+            "source": "fungiforestmedals",
+            "target": "hr-forestcbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-fungiforestentryhandler-level": {
             "id": "rr-fungiforestentryhandler-level",
@@ -5586,6 +7382,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-fungiforestentryhandler-hr": {
+            "id": "rr-fungiforestentryhandler-hr",
+            "Name": "Fungi Forest Entry Handler Hint Region",
+            "source": "fungiforestentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-fungiforeststart-level": {
             "id": "rr-fungiforeststart-level",
             "Name": "Fungi Forest Start Level",
@@ -5605,6 +7411,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-fungiforeststart-hr": {
+            "id": "rr-fungiforeststart-hr",
+            "Name": "Fungi Forest Start Hint Region",
+            "source": "fungiforeststart",
+            "target": "hr-forestcenterandbeanstalk",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-forestminecarts-level": {
             "id": "rr-forestminecarts-level",
@@ -5626,6 +7442,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-forestminecarts-hr": {
+            "id": "rr-forestminecarts-hr",
+            "Name": "Forest Minecarts Hint Region",
+            "source": "forestminecarts",
+            "target": "hr-forestcenterandbeanstalk",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-giantmushroomarea-level": {
             "id": "rr-giantmushroomarea-level",
             "Name": "Giant Mushroom Area Level",
@@ -5645,6 +7471,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-giantmushroomarea-hr": {
+            "id": "rr-giantmushroomarea-hr",
+            "Name": "Giant Mushroom Area Hint Region",
+            "source": "giantmushroomarea",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomlower-level": {
             "id": "rr-mushroomlower-level",
@@ -5666,6 +7502,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomlower-hr": {
+            "id": "rr-mushroomlower-hr",
+            "Name": "Mushroom Lower Hint Region",
+            "source": "mushroomlower",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomlowerbetweenladders-level": {
             "id": "rr-mushroomlowerbetweenladders-level",
             "Name": "Mushroom Lower Between Ladders Level",
@@ -5685,6 +7531,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomlowerbetweenladders-hr": {
+            "id": "rr-mushroomlowerbetweenladders-hr",
+            "Name": "Mushroom Lower Between Ladders Hint Region",
+            "source": "mushroomlowerbetweenladders",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomlowermid-level": {
             "id": "rr-mushroomlowermid-level",
@@ -5706,6 +7562,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomlowermid-hr": {
+            "id": "rr-mushroomlowermid-hr",
+            "Name": "Mushroom Lower Middle Hint Region",
+            "source": "mushroomlowermid",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomuppermidexterior-level": {
             "id": "rr-mushroomuppermidexterior-level",
             "Name": "Mushroom Upper Mid Exterior Level",
@@ -5725,6 +7591,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomuppermidexterior-hr": {
+            "id": "rr-mushroomuppermidexterior-hr",
+            "Name": "Mushroom Upper Mid Exterior Hint Region",
+            "source": "mushroomuppermidexterior",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomblastlevelexterior-level": {
             "id": "rr-mushroomblastlevelexterior-level",
@@ -5746,6 +7622,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomblastlevelexterior-hr": {
+            "id": "rr-mushroomblastlevelexterior-hr",
+            "Name": "Mushroom Blast Level Exterior Hint Region",
+            "source": "mushroomblastlevelexterior",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomlowerexterior-level": {
             "id": "rr-mushroomlowerexterior-level",
             "Name": "Mushroom Lower Exterior Level",
@@ -5765,6 +7651,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomlowerexterior-hr": {
+            "id": "rr-mushroomlowerexterior-hr",
+            "Name": "Mushroom Lower Exterior Hint Region",
+            "source": "mushroomlowerexterior",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-forestbaboonblast-level": {
             "id": "rr-forestbaboonblast-level",
@@ -5786,6 +7682,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-forestbaboonblast-hr": {
+            "id": "rr-forestbaboonblast-hr",
+            "Name": "Forest Baboon Blast Hint Region",
+            "source": "forestbaboonblast",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroommiddle-level": {
             "id": "rr-mushroommiddle-level",
             "Name": "Mushroom Middle Level",
@@ -5805,6 +7711,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroommiddle-hr": {
+            "id": "rr-mushroommiddle-hr",
+            "Name": "Mushroom Middle Hint Region",
+            "source": "mushroommiddle",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomuppermid-level": {
             "id": "rr-mushroomuppermid-level",
@@ -5826,6 +7742,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomuppermid-hr": {
+            "id": "rr-mushroomuppermid-hr",
+            "Name": "Mushroom Upper Middle Hint Region",
+            "source": "mushroomuppermid",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomupper-level": {
             "id": "rr-mushroomupper-level",
             "Name": "Mushroom Upper Level",
@@ -5845,6 +7771,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomupper-hr": {
+            "id": "rr-mushroomupper-hr",
+            "Name": "Mushroom Upper Hint Region",
+            "source": "mushroomupper",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomnightdoor-level": {
             "id": "rr-mushroomnightdoor-level",
@@ -5866,6 +7802,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomnightdoor-hr": {
+            "id": "rr-mushroomnightdoor-hr",
+            "Name": "Mushroom Night Door Hint Region",
+            "source": "mushroomnightdoor",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomnightexterior-level": {
             "id": "rr-mushroomnightexterior-level",
             "Name": "Mushroom Night Exterior Level",
@@ -5885,6 +7831,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomnightexterior-hr": {
+            "id": "rr-mushroomnightexterior-hr",
+            "Name": "Mushroom Night Exterior Hint Region",
+            "source": "mushroomnightexterior",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomupperexterior-level": {
             "id": "rr-mushroomupperexterior-level",
@@ -5906,6 +7862,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomupperexterior-hr": {
+            "id": "rr-mushroomupperexterior-hr",
+            "Name": "Mushroom Upper Exterior Hint Region",
+            "source": "mushroomupperexterior",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomchunkyroom-level": {
             "id": "rr-mushroomchunkyroom-level",
             "Name": "Mushroom Chunky Room Level",
@@ -5925,6 +7891,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomchunkyroom-hr": {
+            "id": "rr-mushroomchunkyroom-hr",
+            "Name": "Mushroom Chunky Room Hint Region",
+            "source": "mushroomchunkyroom",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-mushroomlankyzingersroom-level": {
             "id": "rr-mushroomlankyzingersroom-level",
@@ -5946,6 +7922,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-mushroomlankyzingersroom-hr": {
+            "id": "rr-mushroomlankyzingersroom-hr",
+            "Name": "Mushroom Lanky Zingers Room Hint Region",
+            "source": "mushroomlankyzingersroom",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomlankymushroomsroom-level": {
             "id": "rr-mushroomlankymushroomsroom-level",
             "Name": "Mushroom Lanky Mushrooms Room Level",
@@ -5965,6 +7951,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mushroomlankymushroomsroom-hr": {
+            "id": "rr-mushroomlankymushroomsroom-hr",
+            "Name": "Mushroom Lanky Mushrooms Room Hint Region",
+            "source": "mushroomlankymushroomsroom",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hollowtreearea-level": {
             "id": "rr-hollowtreearea-level",
@@ -5986,6 +7982,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hollowtreearea-hr": {
+            "id": "rr-hollowtreearea-hr",
+            "Name": "Hollow Tree Area Hint Region",
+            "source": "hollowtreearea",
+            "target": "hr-owltree",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-anthill-level": {
             "id": "rr-anthill-level",
             "Name": "Anthill Level",
@@ -6005,6 +8011,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-anthill-hr": {
+            "id": "rr-anthill-hr",
+            "Name": "Anthill Hint Region",
+            "source": "anthill",
+            "target": "hr-owltree",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-forestmilltopofnightcage-level": {
             "id": "rr-forestmilltopofnightcage-level",
@@ -6026,6 +8042,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-forestmilltopofnightcage-hr": {
+            "id": "rr-forestmilltopofnightcage-hr",
+            "Name": "Mill top of Night Cage Hint Region",
+            "source": "forestmilltopofnightcage",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-forestverytopofmill-level": {
             "id": "rr-forestverytopofmill-level",
             "Name": "Very top of the Mill Level",
@@ -6045,6 +8071,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-forestverytopofmill-hr": {
+            "id": "rr-forestverytopofmill-hr",
+            "Name": "Very top of the Mill Hint Region",
+            "source": "forestverytopofmill",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-foresttopofmill-level": {
             "id": "rr-foresttopofmill-level",
@@ -6066,6 +8102,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-foresttopofmill-hr": {
+            "id": "rr-foresttopofmill-hr",
+            "Name": "Top of the Mill Hint Region",
+            "source": "foresttopofmill",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-millarea-level": {
             "id": "rr-millarea-level",
             "Name": "Mill Area Level",
@@ -6085,6 +8131,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-millarea-hr": {
+            "id": "rr-millarea-hr",
+            "Name": "Mill Area Hint Region",
+            "source": "millarea",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-millchunkytinyarea-level": {
             "id": "rr-millchunkytinyarea-level",
@@ -6106,6 +8162,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-millchunkytinyarea-hr": {
+            "id": "rr-millchunkytinyarea-hr",
+            "Name": "Mill Back Room Hint Region",
+            "source": "millchunkytinyarea",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-spiderroom-level": {
             "id": "rr-spiderroom-level",
             "Name": "Spider Room Level",
@@ -6125,6 +8191,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-spiderroom-hr": {
+            "id": "rr-spiderroom-hr",
+            "Name": "Spider Room Hint Region",
+            "source": "spiderroom",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-grinderroom-level": {
             "id": "rr-grinderroom-level",
@@ -6146,6 +8222,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-grinderroom-hr": {
+            "id": "rr-grinderroom-hr",
+            "Name": "Grinder Room Hint Region",
+            "source": "grinderroom",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-millrafters-level": {
             "id": "rr-millrafters-level",
             "Name": "Mill Rafters Level",
@@ -6165,6 +8251,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-millrafters-hr": {
+            "id": "rr-millrafters-hr",
+            "Name": "Mill Rafters Hint Region",
+            "source": "millrafters",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-winchroom-level": {
             "id": "rr-winchroom-level",
@@ -6186,6 +8282,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-winchroom-hr": {
+            "id": "rr-winchroom-hr",
+            "Name": "Winch Room Hint Region",
+            "source": "winchroom",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-millattic-level": {
             "id": "rr-millattic-level",
             "Name": "Mill Attic Level",
@@ -6205,6 +8311,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-millattic-hr": {
+            "id": "rr-millattic-hr",
+            "Name": "Mill Attic Hint Region",
+            "source": "millattic",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-thornvinearea-level": {
             "id": "rr-thornvinearea-level",
@@ -6226,6 +8342,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-thornvinearea-hr": {
+            "id": "rr-thornvinearea-hr",
+            "Name": "Thornvine Area Hint Region",
+            "source": "thornvinearea",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-thornvinebarn-level": {
             "id": "rr-thornvinebarn-level",
             "Name": "Thornvine Barn Level",
@@ -6245,6 +8371,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-thornvinebarn-hr": {
+            "id": "rr-thornvinebarn-hr",
+            "Name": "Thornvine Barn Hint Region",
+            "source": "thornvinebarn",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-thornvinebarnaboveladder-level": {
             "id": "rr-thornvinebarnaboveladder-level",
@@ -6266,6 +8402,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-thornvinebarnaboveladder-hr": {
+            "id": "rr-thornvinebarnaboveladder-hr",
+            "Name": "Thornvine Barn Above Ladder Hint Region",
+            "source": "thornvinebarnaboveladder",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-wormarea-level": {
             "id": "rr-wormarea-level",
             "Name": "Worm Area Level",
@@ -6286,6 +8432,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-wormarea-hr": {
+            "id": "rr-wormarea-hr",
+            "Name": "Worm Area Hint Region",
+            "source": "wormarea",
+            "target": "hr-forestcenterandbeanstalk",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-forestbosslobby-level": {
             "id": "rr-forestbosslobby-level",
             "Name": "Forest Boss Lobby Level",
@@ -6295,6 +8451,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-forestbosslobby-hr": {
+            "id": "rr-forestbosslobby-hr",
+            "Name": "Forest Boss Lobby Hint Region",
+            "source": "forestbosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-forestboss-level": {
             "id": "rr-forestboss-level",
@@ -6306,6 +8472,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-forestboss-hr": {
+            "id": "rr-forestboss-hr",
+            "Name": "Forest Boss Hint Region",
+            "source": "forestboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crystalcavesmedals-level": {
             "id": "rr-crystalcavesmedals-level",
             "Name": "Crystal Caves Medals Level",
@@ -6315,6 +8491,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-crystalcavesmedals-hr": {
+            "id": "rr-crystalcavesmedals-hr",
+            "Name": "Crystal Caves Medals Hint Region",
+            "source": "crystalcavesmedals",
+            "target": "hr-cavescbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-crystalcavesentryhandler-level": {
             "id": "rr-crystalcavesentryhandler-level",
@@ -6336,6 +8522,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-crystalcavesentryhandler-hr": {
+            "id": "rr-crystalcavesentryhandler-hr",
+            "Name": "Crystal Caves Entry Handler Hint Region",
+            "source": "crystalcavesentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crystalcavesmain-level": {
             "id": "rr-crystalcavesmain-level",
             "Name": "Crystal Caves Main Level",
@@ -6355,6 +8551,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-crystalcavesmain-hr": {
+            "id": "rr-crystalcavesmain-hr",
+            "Name": "Crystal Caves Main Hint Region",
+            "source": "crystalcavesmain",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cavesggroom-level": {
             "id": "rr-cavesggroom-level",
@@ -6376,6 +8582,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cavesggroom-hr": {
+            "id": "rr-cavesggroom-hr",
+            "Name": "Caves GG Room Hint Region",
+            "source": "cavesggroom",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cavessnidearea-level": {
             "id": "rr-cavessnidearea-level",
             "Name": "Caves Snide Area Level",
@@ -6395,6 +8611,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cavessnidearea-hr": {
+            "id": "rr-cavessnidearea-hr",
+            "Name": "Caves Snide Area Hint Region",
+            "source": "cavessnidearea",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cavesblueprintcave-level": {
             "id": "rr-cavesblueprintcave-level",
@@ -6416,6 +8642,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cavesblueprintcave-hr": {
+            "id": "rr-cavesblueprintcave-hr",
+            "Name": "Caves Blueprint Cave Hint Region",
+            "source": "cavesblueprintcave",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cavesbonuscave-level": {
             "id": "rr-cavesbonuscave-level",
             "Name": "Caves Bonus Cave Level",
@@ -6435,6 +8671,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cavesbonuscave-hr": {
+            "id": "rr-cavesbonuscave-hr",
+            "Name": "Caves Bonus Cave Hint Region",
+            "source": "cavesbonuscave",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cavesblueprintpillar-level": {
             "id": "rr-cavesblueprintpillar-level",
@@ -6456,6 +8702,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cavesblueprintpillar-hr": {
+            "id": "rr-cavesblueprintpillar-hr",
+            "Name": "Caves Blueprint Pillar Hint Region",
+            "source": "cavesblueprintpillar",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cavesbananaportspire-level": {
             "id": "rr-cavesbananaportspire-level",
             "Name": "Caves Bananaport Spire Level",
@@ -6475,6 +8731,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cavesbananaportspire-hr": {
+            "id": "rr-cavesbananaportspire-hr",
+            "Name": "Caves Bananaport Spire Hint Region",
+            "source": "cavesbananaportspire",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cavesbaboonblast-level": {
             "id": "rr-cavesbaboonblast-level",
@@ -6496,6 +8762,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cavesbaboonblast-hr": {
+            "id": "rr-cavesbaboonblast-hr",
+            "Name": "Caves Baboon Blast Hint Region",
+            "source": "cavesbaboonblast",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-bouldercave-level": {
             "id": "rr-bouldercave-level",
             "Name": "Boulder Cave Level",
@@ -6515,6 +8791,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-bouldercave-hr": {
+            "id": "rr-bouldercave-hr",
+            "Name": "Boulder Cave Hint Region",
+            "source": "bouldercave",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-caveslankyrace-level": {
             "id": "rr-caveslankyrace-level",
@@ -6536,6 +8822,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-caveslankyrace-hr": {
+            "id": "rr-caveslankyrace-hr",
+            "Name": "Caves Lanky Race Hint Region",
+            "source": "caveslankyrace",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-frozencastle-level": {
             "id": "rr-frozencastle-level",
             "Name": "Frozen Castle Level",
@@ -6555,6 +8851,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-frozencastle-hr": {
+            "id": "rr-frozencastle-hr",
+            "Name": "Frozen Castle Hint Region",
+            "source": "frozencastle",
+            "target": "hr-maincaves",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-iglooarea-level": {
             "id": "rr-iglooarea-level",
@@ -6576,6 +8882,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-iglooarea-hr": {
+            "id": "rr-iglooarea-hr",
+            "Name": "Igloo Area Hint Region",
+            "source": "iglooarea",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-giantkosha-level": {
             "id": "rr-giantkosha-level",
             "Name": "Giant Kosha Level",
@@ -6595,6 +8911,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-giantkosha-hr": {
+            "id": "rr-giantkosha-hr",
+            "Name": "Giant Kosha Hint Region",
+            "source": "giantkosha",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-donkeyigloo-level": {
             "id": "rr-donkeyigloo-level",
@@ -6616,6 +8942,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-donkeyigloo-hr": {
+            "id": "rr-donkeyigloo-hr",
+            "Name": "Donkey Igloo Hint Region",
+            "source": "donkeyigloo",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-diddyigloo-level": {
             "id": "rr-diddyigloo-level",
             "Name": "Diddy Igloo Level",
@@ -6635,6 +8971,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-diddyigloo-hr": {
+            "id": "rr-diddyigloo-hr",
+            "Name": "Diddy Igloo Hint Region",
+            "source": "diddyigloo",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lankyigloo-level": {
             "id": "rr-lankyigloo-level",
@@ -6656,6 +9002,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lankyigloo-hr": {
+            "id": "rr-lankyigloo-hr",
+            "Name": "Lanky Igloo Hint Region",
+            "source": "lankyigloo",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-tinyigloo-level": {
             "id": "rr-tinyigloo-level",
             "Name": "Tiny Igloo Level",
@@ -6675,6 +9031,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-tinyigloo-hr": {
+            "id": "rr-tinyigloo-hr",
+            "Name": "Tiny Igloo Hint Region",
+            "source": "tinyigloo",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-chunkyigloo-level": {
             "id": "rr-chunkyigloo-level",
@@ -6696,6 +9062,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-chunkyigloo-hr": {
+            "id": "rr-chunkyigloo-hr",
+            "Name": "Chunky Igloo Hint Region",
+            "source": "chunkyigloo",
+            "target": "hr-igloo",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cabinarea-level": {
             "id": "rr-cabinarea-level",
             "Name": "Cabin Area Level",
@@ -6715,6 +9091,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cabinarea-hr": {
+            "id": "rr-cabinarea-hr",
+            "Name": "Cabin Area Hint Region",
+            "source": "cabinarea",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cavessprintcabinroof-level": {
             "id": "rr-cavessprintcabinroof-level",
@@ -6736,6 +9122,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cavessprintcabinroof-hr": {
+            "id": "rr-cavessprintcabinroof-hr",
+            "Name": "Caves Sprint Cabin Roof Hint Region",
+            "source": "cavessprintcabinroof",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cavesrotatingcabinroof-level": {
             "id": "rr-cavesrotatingcabinroof-level",
             "Name": "Caves Rotating Cabin Roof Level",
@@ -6755,6 +9151,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cavesrotatingcabinroof-hr": {
+            "id": "rr-cavesrotatingcabinroof-hr",
+            "Name": "Caves Rotating Cabin Roof Hint Region",
+            "source": "cavesrotatingcabinroof",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-rotatingcabin-level": {
             "id": "rr-rotatingcabin-level",
@@ -6776,6 +9182,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-rotatingcabin-hr": {
+            "id": "rr-rotatingcabin-hr",
+            "Name": "Rotating Cabin Hint Region",
+            "source": "rotatingcabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-donkeycabin-level": {
             "id": "rr-donkeycabin-level",
             "Name": "Donkey Cabin Level",
@@ -6795,6 +9211,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-donkeycabin-hr": {
+            "id": "rr-donkeycabin-hr",
+            "Name": "Donkey Cabin Hint Region",
+            "source": "donkeycabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-diddylowercabin-level": {
             "id": "rr-diddylowercabin-level",
@@ -6816,6 +9242,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-diddylowercabin-hr": {
+            "id": "rr-diddylowercabin-hr",
+            "Name": "Diddy Lower Cabin Hint Region",
+            "source": "diddylowercabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-diddyuppercabin-level": {
             "id": "rr-diddyuppercabin-level",
             "Name": "Diddy Upper Cabin Level",
@@ -6835,6 +9271,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-diddyuppercabin-hr": {
+            "id": "rr-diddyuppercabin-hr",
+            "Name": "Diddy Upper Cabin Hint Region",
+            "source": "diddyuppercabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-lankycabin-level": {
             "id": "rr-lankycabin-level",
@@ -6856,6 +9302,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-lankycabin-hr": {
+            "id": "rr-lankycabin-hr",
+            "Name": "Lanky Cabin Hint Region",
+            "source": "lankycabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-tinycabin-level": {
             "id": "rr-tinycabin-level",
             "Name": "Tiny Cabin Level",
@@ -6875,6 +9331,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-tinycabin-hr": {
+            "id": "rr-tinycabin-hr",
+            "Name": "Tiny Cabin Hint Region",
+            "source": "tinycabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-chunkycabin-level": {
             "id": "rr-chunkycabin-level",
@@ -6896,6 +9362,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-chunkycabin-hr": {
+            "id": "rr-chunkycabin-hr",
+            "Name": "Chunky Cabin Hint Region",
+            "source": "chunkycabin",
+            "target": "hr-cabins",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cavesbosslobby-level": {
             "id": "rr-cavesbosslobby-level",
             "Name": "Caves Boss Lobby Level",
@@ -6905,6 +9381,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-cavesbosslobby-hr": {
+            "id": "rr-cavesbosslobby-hr",
+            "Name": "Caves Boss Lobby Hint Region",
+            "source": "cavesbosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cavesboss-level": {
             "id": "rr-cavesboss-level",
@@ -6916,6 +9402,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-cavesboss-hr": {
+            "id": "rr-cavesboss-hr",
+            "Name": "Caves Boss Hint Region",
+            "source": "cavesboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-creepycastlemedals-level": {
             "id": "rr-creepycastlemedals-level",
             "Name": "Creepy Castle Medals Level",
@@ -6925,6 +9421,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-creepycastlemedals-hr": {
+            "id": "rr-creepycastlemedals-hr",
+            "Name": "Creepy Castle Medals Hint Region",
+            "source": "creepycastlemedals",
+            "target": "hr-castlecbs",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-creepycastleentryhandler-level": {
             "id": "rr-creepycastleentryhandler-level",
@@ -6946,6 +9452,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-creepycastleentryhandler-hr": {
+            "id": "rr-creepycastleentryhandler-hr",
+            "Name": "Creepy Castle Entry Handler Hint Region",
+            "source": "creepycastleentryhandler",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-creepycastlemain-level": {
             "id": "rr-creepycastlemain-level",
             "Name": "Creepy Castle Main Level",
@@ -6965,6 +9481,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-creepycastlemain-hr": {
+            "id": "rr-creepycastlemain-hr",
+            "Name": "Creepy Castle Main Hint Region",
+            "source": "creepycastlemain",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-castleverybottom-level": {
             "id": "rr-castleverybottom-level",
@@ -6986,6 +9512,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-castleverybottom-hr": {
+            "id": "rr-castleverybottom-hr",
+            "Name": "Creepy Castle Very Bottom Hint Region",
+            "source": "castleverybottom",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-castlegraveyardplatform-level": {
             "id": "rr-castlegraveyardplatform-level",
             "Name": "Creepy Graveyard Platform Level",
@@ -7005,6 +9541,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-castlegraveyardplatform-hr": {
+            "id": "rr-castlegraveyardplatform-hr",
+            "Name": "Creepy Graveyard Platform Hint Region",
+            "source": "castlegraveyardplatform",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-castlebaboonblast-level": {
             "id": "rr-castlebaboonblast-level",
@@ -7026,6 +9572,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-castlebaboonblast-hr": {
+            "id": "rr-castlebaboonblast-hr",
+            "Name": "Castle Baboon Blast Hint Region",
+            "source": "castlebaboonblast",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-castlewaterfall-level": {
             "id": "rr-castlewaterfall-level",
             "Name": "Castle Waterfall Level",
@@ -7045,6 +9601,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-castlewaterfall-hr": {
+            "id": "rr-castlewaterfall-hr",
+            "Name": "Castle Waterfall Hint Region",
+            "source": "castlewaterfall",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-castletree-level": {
             "id": "rr-castletree-level",
@@ -7066,6 +9632,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-castletree-hr": {
+            "id": "rr-castletree-hr",
+            "Name": "Castle Tree Hint Region",
+            "source": "castletree",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-castletreepastpunch-level": {
             "id": "rr-castletreepastpunch-level",
             "Name": "Castle Tree Past Punch Level",
@@ -7085,6 +9661,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-castletreepastpunch-hr": {
+            "id": "rr-castletreepastpunch-hr",
+            "Name": "Castle Tree Past Punch Hint Region",
+            "source": "castletreepastpunch",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-library-level": {
             "id": "rr-library-level",
@@ -7106,6 +9692,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-library-hr": {
+            "id": "rr-library-hr",
+            "Name": "Library Hint Region",
+            "source": "library",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-librarypastslam-level": {
             "id": "rr-librarypastslam-level",
             "Name": "Library Middle Level",
@@ -7125,6 +9721,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-librarypastslam-hr": {
+            "id": "rr-librarypastslam-hr",
+            "Name": "Library Middle Hint Region",
+            "source": "librarypastslam",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-librarypastbooks-level": {
             "id": "rr-librarypastbooks-level",
@@ -7146,6 +9752,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-librarypastbooks-hr": {
+            "id": "rr-librarypastbooks-hr",
+            "Name": "Library Rear Hint Region",
+            "source": "librarypastbooks",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-ballroom-level": {
             "id": "rr-ballroom-level",
             "Name": "Ballroom Level",
@@ -7165,6 +9781,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-ballroom-hr": {
+            "id": "rr-ballroom-hr",
+            "Name": "Ballroom Hint Region",
+            "source": "ballroom",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-museumbehindglass-level": {
             "id": "rr-museumbehindglass-level",
@@ -7186,6 +9812,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-museumbehindglass-hr": {
+            "id": "rr-museumbehindglass-hr",
+            "Name": "Museum Behind Glass Hint Region",
+            "source": "museumbehindglass",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-castletinyrace-level": {
             "id": "rr-castletinyrace-level",
             "Name": "Castle Tiny Race Level",
@@ -7205,6 +9841,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-castletinyrace-hr": {
+            "id": "rr-castletinyrace-hr",
+            "Name": "Castle Tiny Race Hint Region",
+            "source": "castletinyrace",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-tower-level": {
             "id": "rr-tower-level",
@@ -7226,6 +9872,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-tower-hr": {
+            "id": "rr-tower-hr",
+            "Name": "Tower Hint Region",
+            "source": "tower",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-greenhouse-level": {
             "id": "rr-greenhouse-level",
             "Name": "Greenhouse Level",
@@ -7245,6 +9901,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-greenhouse-hr": {
+            "id": "rr-greenhouse-hr",
+            "Name": "Greenhouse Hint Region",
+            "source": "greenhouse",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-trashcan-level": {
             "id": "rr-trashcan-level",
@@ -7266,6 +9932,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-trashcan-hr": {
+            "id": "rr-trashcan-hr",
+            "Name": "Trash Can Hint Region",
+            "source": "trashcan",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-shed-level": {
             "id": "rr-shed-level",
             "Name": "Shed Level",
@@ -7285,6 +9961,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-shed-hr": {
+            "id": "rr-shed-hr",
+            "Name": "Shed Hint Region",
+            "source": "shed",
+            "target": "hr-castlesurroundings",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-museum-level": {
             "id": "rr-museum-level",
@@ -7306,6 +9992,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-museum-hr": {
+            "id": "rr-museum-hr",
+            "Name": "Museum Hint Region",
+            "source": "museum",
+            "target": "hr-castlerooms",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-lowercave-level": {
             "id": "rr-lowercave-level",
             "Name": "Lower Cave Level",
@@ -7325,6 +10021,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-lowercave-hr": {
+            "id": "rr-lowercave-hr",
+            "Name": "Lower Cave Hint Region",
+            "source": "lowercave",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-crypt-level": {
             "id": "rr-crypt-level",
@@ -7346,6 +10052,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-crypt-hr": {
+            "id": "rr-crypt-hr",
+            "Name": "Crypt Hint Region",
+            "source": "crypt",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cryptdonkeyroom-level": {
             "id": "rr-cryptdonkeyroom-level",
             "Name": "Crypt Donkey Room Level",
@@ -7365,6 +10081,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cryptdonkeyroom-hr": {
+            "id": "rr-cryptdonkeyroom-hr",
+            "Name": "Crypt Donkey Room Hint Region",
+            "source": "cryptdonkeyroom",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-cryptdiddyroom-level": {
             "id": "rr-cryptdiddyroom-level",
@@ -7386,6 +10112,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-cryptdiddyroom-hr": {
+            "id": "rr-cryptdiddyroom-hr",
+            "Name": "Crypt Diddy Room Hint Region",
+            "source": "cryptdiddyroom",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-cryptchunkyroom-level": {
             "id": "rr-cryptchunkyroom-level",
             "Name": "Crypt Chunky Room Level",
@@ -7405,6 +10141,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-cryptchunkyroom-hr": {
+            "id": "rr-cryptchunkyroom-hr",
+            "Name": "Crypt Chunky Room Hint Region",
+            "source": "cryptchunkyroom",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-castleminecarts-level": {
             "id": "rr-castleminecarts-level",
@@ -7426,6 +10172,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-castleminecarts-hr": {
+            "id": "rr-castleminecarts-hr",
+            "Name": "Castle Minecarts Hint Region",
+            "source": "castleminecarts",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mausoleum-level": {
             "id": "rr-mausoleum-level",
             "Name": "Mausoleum Level",
@@ -7445,6 +10201,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-mausoleum-hr": {
+            "id": "rr-mausoleum-hr",
+            "Name": "Mausoleum Hint Region",
+            "source": "mausoleum",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-uppercave-level": {
             "id": "rr-uppercave-level",
@@ -7466,6 +10232,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-uppercave-hr": {
+            "id": "rr-uppercave-hr",
+            "Name": "Upper Cave Hint Region",
+            "source": "uppercave",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-dungeon-level": {
             "id": "rr-dungeon-level",
             "Name": "Dungeon Level",
@@ -7486,6 +10262,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-dungeon-hr": {
+            "id": "rr-dungeon-hr",
+            "Name": "Dungeon Hint Region",
+            "source": "dungeon",
+            "target": "hr-castleunderground",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-castlebosslobby-level": {
             "id": "rr-castlebosslobby-level",
             "Name": "Castle Boss Lobby Level",
@@ -7496,6 +10282,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-castlebosslobby-hr": {
+            "id": "rr-castlebosslobby-hr",
+            "Name": "Castle Boss Lobby Hint Region",
+            "source": "castlebosslobby",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-castleboss-level": {
             "id": "rr-castleboss-level",
             "Name": "Castle Boss Level",
@@ -7505,6 +10301,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-castleboss-hr": {
+            "id": "rr-castleboss-hr",
+            "Name": "Castle Boss Hint Region",
+            "source": "castleboss",
+            "target": "hr-bosses",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmentry-level": {
             "id": "rr-hideouthelmentry-level",
@@ -7526,6 +10332,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmentry-hr": {
+            "id": "rr-hideouthelmentry-hr",
+            "Name": "Hideout Helm Entry Redirect Hint Region",
+            "source": "hideouthelmentry",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmstart-level": {
             "id": "rr-hideouthelmstart-level",
             "Name": "Hideout Helm Start Level",
@@ -7545,6 +10361,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmstart-hr": {
+            "id": "rr-hideouthelmstart-hr",
+            "Name": "Hideout Helm Start Hint Region",
+            "source": "hideouthelmstart",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmswitchroom-level": {
             "id": "rr-hideouthelmswitchroom-level",
@@ -7566,6 +10392,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmswitchroom-hr": {
+            "id": "rr-hideouthelmswitchroom-hr",
+            "Name": "Hideout Helm Start Hint Region",
+            "source": "hideouthelmswitchroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmminiroom-level": {
             "id": "rr-hideouthelmminiroom-level",
             "Name": "Hideout Helm Start Level",
@@ -7585,6 +10421,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmminiroom-hr": {
+            "id": "rr-hideouthelmminiroom-hr",
+            "Name": "Hideout Helm Start Hint Region",
+            "source": "hideouthelmminiroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmmain-level": {
             "id": "rr-hideouthelmmain-level",
@@ -7606,6 +10452,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmmain-hr": {
+            "id": "rr-hideouthelmmain-hr",
+            "Name": "Hideout Helm Main Hint Region",
+            "source": "hideouthelmmain",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmdonkeyroom-level": {
             "id": "rr-hideouthelmdonkeyroom-level",
             "Name": "Hideout Helm Main Level",
@@ -7625,6 +10481,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmdonkeyroom-hr": {
+            "id": "rr-hideouthelmdonkeyroom-hr",
+            "Name": "Hideout Helm Main Hint Region",
+            "source": "hideouthelmdonkeyroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmchunkyroom-level": {
             "id": "rr-hideouthelmchunkyroom-level",
@@ -7646,6 +10512,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmchunkyroom-hr": {
+            "id": "rr-hideouthelmchunkyroom-hr",
+            "Name": "Hideout Helm Main Hint Region",
+            "source": "hideouthelmchunkyroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmtinyroom-level": {
             "id": "rr-hideouthelmtinyroom-level",
             "Name": "Hideout Helm Main Level",
@@ -7665,6 +10541,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmtinyroom-hr": {
+            "id": "rr-hideouthelmtinyroom-hr",
+            "Name": "Hideout Helm Main Hint Region",
+            "source": "hideouthelmtinyroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmlankyroom-level": {
             "id": "rr-hideouthelmlankyroom-level",
@@ -7686,6 +10572,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmlankyroom-hr": {
+            "id": "rr-hideouthelmlankyroom-hr",
+            "Name": "Hideout Helm Main Hint Region",
+            "source": "hideouthelmlankyroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmdiddyroom-level": {
             "id": "rr-hideouthelmdiddyroom-level",
             "Name": "Hideout Helm Main Level",
@@ -7705,6 +10601,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmdiddyroom-hr": {
+            "id": "rr-hideouthelmdiddyroom-hr",
+            "Name": "Hideout Helm Main Hint Region",
+            "source": "hideouthelmdiddyroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmafterbom-level": {
             "id": "rr-hideouthelmafterbom-level",
@@ -7726,6 +10632,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmafterbom-hr": {
+            "id": "rr-hideouthelmafterbom-hr",
+            "Name": "Hideout Helm Navigation Room Hint Region",
+            "source": "hideouthelmafterbom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmthroneroom-level": {
             "id": "rr-hideouthelmthroneroom-level",
             "Name": "Hideout Helm Throne Room Level",
@@ -7745,6 +10661,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmthroneroom-hr": {
+            "id": "rr-hideouthelmthroneroom-hr",
+            "Name": "Hideout Helm Throne Room Hint Region",
+            "source": "hideouthelmthroneroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmkeyroom-level": {
             "id": "rr-hideouthelmkeyroom-level",
@@ -7766,6 +10692,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmkeyroom-hr": {
+            "id": "rr-hideouthelmkeyroom-hr",
+            "Name": "Hideout Helm Key Room Hint Region",
+            "source": "hideouthelmkeyroom",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-hideouthelmoobchunky-level": {
             "id": "rr-hideouthelmoobchunky-level",
             "Name": "Hideout Helm OOB (Chunky Room Elevation) Level",
@@ -7785,6 +10721,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Map"
+        },
+        "rr-hideouthelmoobchunky-hr": {
+            "id": "rr-hideouthelmoobchunky-hr",
+            "Name": "Hideout Helm OOB (Chunky Room Elevation) Hint Region",
+            "source": "hideouthelmoobchunky",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-hideouthelmooblanky-level": {
             "id": "rr-hideouthelmooblanky-level",
@@ -7806,6 +10752,16 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "rr-hideouthelmooblanky-hr": {
+            "id": "rr-hideouthelmooblanky-hr",
+            "Name": "Hideout Helm OOB (Lanky Room Elevation) Hint Region",
+            "source": "hideouthelmooblanky",
+            "target": "hr-helm",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-funkygeneric-level": {
             "id": "rr-funkygeneric-level",
             "Name": "Funky Generic Level",
@@ -7815,6 +10771,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-funkygeneric-hr": {
+            "id": "rr-funkygeneric-hr",
+            "Name": "Funky Generic Hint Region",
+            "source": "funkygeneric",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-funkyjapes-level": {
             "id": "rr-funkyjapes-level",
@@ -7826,6 +10792,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-funkyjapes-hr": {
+            "id": "rr-funkyjapes-hr",
+            "Name": "Funky Japes Hint Region",
+            "source": "funkyjapes",
+            "target": "hr-japesshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-funkyaztec-level": {
             "id": "rr-funkyaztec-level",
             "Name": "Funky Aztec Level",
@@ -7835,6 +10811,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-funkyaztec-hr": {
+            "id": "rr-funkyaztec-hr",
+            "Name": "Funky Aztec Hint Region",
+            "source": "funkyaztec",
+            "target": "hr-aztecshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-funkyfactory-level": {
             "id": "rr-funkyfactory-level",
@@ -7846,6 +10832,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-funkyfactory-hr": {
+            "id": "rr-funkyfactory-hr",
+            "Name": "Funky Factory Hint Region",
+            "source": "funkyfactory",
+            "target": "hr-factoryshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-funkygalleon-level": {
             "id": "rr-funkygalleon-level",
             "Name": "Funky Galleon Level",
@@ -7855,6 +10851,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-funkygalleon-hr": {
+            "id": "rr-funkygalleon-hr",
+            "Name": "Funky Galleon Hint Region",
+            "source": "funkygalleon",
+            "target": "hr-galleonshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-funkyforest-level": {
             "id": "rr-funkyforest-level",
@@ -7866,6 +10872,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-funkyforest-hr": {
+            "id": "rr-funkyforest-hr",
+            "Name": "Funky Forest Hint Region",
+            "source": "funkyforest",
+            "target": "hr-forestshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-funkycaves-level": {
             "id": "rr-funkycaves-level",
             "Name": "Funky Caves Level",
@@ -7875,6 +10891,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-funkycaves-hr": {
+            "id": "rr-funkycaves-hr",
+            "Name": "Funky Caves Hint Region",
+            "source": "funkycaves",
+            "target": "hr-cavesshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-funkycastle-level": {
             "id": "rr-funkycastle-level",
@@ -7886,6 +10912,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-funkycastle-hr": {
+            "id": "rr-funkycastle-hr",
+            "Name": "Funky Castle Hint Region",
+            "source": "funkycastle",
+            "target": "hr-castleshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-candygeneric-level": {
             "id": "rr-candygeneric-level",
             "Name": "Candy Generic Level",
@@ -7895,6 +10931,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-candygeneric-hr": {
+            "id": "rr-candygeneric-hr",
+            "Name": "Candy Generic Hint Region",
+            "source": "candygeneric",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-candyaztec-level": {
             "id": "rr-candyaztec-level",
@@ -7906,6 +10952,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-candyaztec-hr": {
+            "id": "rr-candyaztec-hr",
+            "Name": "Candy Aztec Hint Region",
+            "source": "candyaztec",
+            "target": "hr-aztecshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-candyfactory-level": {
             "id": "rr-candyfactory-level",
             "Name": "Candy Factory Level",
@@ -7915,6 +10971,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-candyfactory-hr": {
+            "id": "rr-candyfactory-hr",
+            "Name": "Candy Factory Hint Region",
+            "source": "candyfactory",
+            "target": "hr-factoryshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-candygalleon-level": {
             "id": "rr-candygalleon-level",
@@ -7926,6 +10992,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-candygalleon-hr": {
+            "id": "rr-candygalleon-hr",
+            "Name": "Candy Galleon Hint Region",
+            "source": "candygalleon",
+            "target": "hr-galleonshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-candycaves-level": {
             "id": "rr-candycaves-level",
             "Name": "Candy Caves Level",
@@ -7935,6 +11011,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-candycaves-hr": {
+            "id": "rr-candycaves-hr",
+            "Name": "Candy Caves Hint Region",
+            "source": "candycaves",
+            "target": "hr-cavesshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-candycastle-level": {
             "id": "rr-candycastle-level",
@@ -7946,6 +11032,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-candycastle-hr": {
+            "id": "rr-candycastle-hr",
+            "Name": "Candy Castle Hint Region",
+            "source": "candycastle",
+            "target": "hr-castleshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crankygeneric-level": {
             "id": "rr-crankygeneric-level",
             "Name": "Cranky Generic Level",
@@ -7955,6 +11051,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-crankygeneric-hr": {
+            "id": "rr-crankygeneric-hr",
+            "Name": "Cranky Generic Hint Region",
+            "source": "crankygeneric",
+            "target": "hr-jetpac",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-crankyjapes-level": {
             "id": "rr-crankyjapes-level",
@@ -7966,6 +11072,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-crankyjapes-hr": {
+            "id": "rr-crankyjapes-hr",
+            "Name": "Cranky Japes Hint Region",
+            "source": "crankyjapes",
+            "target": "hr-japesshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crankyaztec-level": {
             "id": "rr-crankyaztec-level",
             "Name": "Cranky Aztec Level",
@@ -7975,6 +11091,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-crankyaztec-hr": {
+            "id": "rr-crankyaztec-hr",
+            "Name": "Cranky Aztec Hint Region",
+            "source": "crankyaztec",
+            "target": "hr-aztecshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-crankyfactory-level": {
             "id": "rr-crankyfactory-level",
@@ -7986,6 +11112,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-crankyfactory-hr": {
+            "id": "rr-crankyfactory-hr",
+            "Name": "Cranky Factory Hint Region",
+            "source": "crankyfactory",
+            "target": "hr-factoryshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crankygalleon-level": {
             "id": "rr-crankygalleon-level",
             "Name": "Cranky Galleon Level",
@@ -7995,6 +11131,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-crankygalleon-hr": {
+            "id": "rr-crankygalleon-hr",
+            "Name": "Cranky Galleon Hint Region",
+            "source": "crankygalleon",
+            "target": "hr-galleonshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-crankyforest-level": {
             "id": "rr-crankyforest-level",
@@ -8006,6 +11152,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-crankyforest-hr": {
+            "id": "rr-crankyforest-hr",
+            "Name": "Cranky Forest Hint Region",
+            "source": "crankyforest",
+            "target": "hr-forestshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crankycaves-level": {
             "id": "rr-crankycaves-level",
             "Name": "Cranky Caves Level",
@@ -8015,6 +11171,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-crankycaves-hr": {
+            "id": "rr-crankycaves-hr",
+            "Name": "Cranky Caves Hint Region",
+            "source": "crankycaves",
+            "target": "hr-cavesshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         },
         "rr-crankycastle-level": {
             "id": "rr-crankycastle-level",
@@ -8026,6 +11192,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-crankycastle-hr": {
+            "id": "rr-crankycastle-hr",
+            "Name": "Cranky Castle Hint Region",
+            "source": "crankycastle",
+            "target": "hr-castleshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-crankyisles-level": {
             "id": "rr-crankyisles-level",
             "Name": "Cranky Isles Level",
@@ -8036,6 +11212,16 @@
             "Class": "Region",
             "Type": "Level"
         },
+        "rr-crankyisles-hr": {
+            "id": "rr-crankyisles-hr",
+            "Name": "Cranky Isles Hint Region",
+            "source": "crankyisles",
+            "target": "hr-islesshops",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-snide-level": {
             "id": "rr-snide-level",
             "Name": "Snide Level",
@@ -8045,6 +11231,16 @@
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
+        },
+        "rr-snide-hr": {
+            "id": "rr-snide-hr",
+            "Name": "Snide Hint Region",
+            "source": "snide",
+            "target": "hr-error",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
         }
     }
 }

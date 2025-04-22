@@ -16,7 +16,7 @@ from tools.cave_logic.Processor.Classes import RegionNode, RegionEdge
 from randomizer.Logic import RegionsOriginal
 from randomizer.Enums.Regions import Regions
 from randomizer.ShuffleExits import ShufflableExits
-# from randomizer.Enums.HintRegion import HINT_REGION_PAIRING
+from randomizer.Enums.HintRegion import HINT_REGION_PAIRING
 from randomizer.Lists.MapsAndExits import RegionMapList, ENTRY_HANDLERS
 from randomizer.Enums.Maps import Maps
 
@@ -75,6 +75,20 @@ def region_to_node(id, region):
         }
         regionEdges[map_edge_id] = map_edge
 
+    if region.hint_name in HINT_REGION_PAIRING:
+        hint_edge_id = "rr-" + id.name.lower() + "-hr"
+        hint_edge = {
+            "id": hint_edge_id,
+            "Name": region.name + " Hint Region",
+            "source": id.name.lower(),
+            "target": "hr-" + region.hint_name.name.lower(),
+            "sourceType": "Region",
+            "targetType":  "Region",
+            "Class":  "Region",
+            "Type":  "HintRegion"
+        }
+        regionEdges[hint_edge_id] = hint_edge
+
     # for rexit in region.exits:
     #     # get the full region object
     #     exit_region = RegionsOriginal[rexit.dest]
@@ -106,9 +120,9 @@ def build_regions():
         r = region_to_node(id, region)
         nodes[r['node']['id']] = r['node']
         edges.update(r['edges'])
-    # for id, region in HINT_REGION_PAIRING.items():
-    #     node = RegionNode(id.name.lower(), region, "Region", "HintRegion")
-    #     nodes[node.id] = node.to_dict()
+    for id, region in HINT_REGION_PAIRING.items():
+        node = RegionNode('hr-' + id.name.lower(), region, "Region", "HintRegion")
+        nodes[node.id] = node.to_dict()
     return {
         "nodes": nodes,
         "edges": edges
