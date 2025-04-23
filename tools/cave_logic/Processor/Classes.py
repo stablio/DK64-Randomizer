@@ -20,6 +20,12 @@ def split_camel_case(name):
 def strip_name(name):
     return name.replace(" ", "").replace(":", "").replace("-", "").replace("'", "").lower()
 
+def parse_region_id(id: Regions):
+    """Convert a region ID to a string."""
+    if isinstance(id, str):
+        return 
+    # return 'r-'+ str(id.value) + '-' + strip_name(id.name.lower())
+    return strip_name(id.name.lower())
 
 class RegionNode:
     """A node representing a region in the logic graph."""
@@ -32,7 +38,7 @@ class RegionNode:
 
         prefix = Class[0].lower() + Type[0].lower() + "-"
 
-        _id = id if isinstance(id, str) else strip_name(id.name.lower())
+        _id = id if isinstance(id, str) else parse_region_id(id)
 
         # self.id = prefix+_id
         self.id = _id

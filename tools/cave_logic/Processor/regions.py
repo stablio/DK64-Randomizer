@@ -42,14 +42,14 @@ def region_to_node(id, region):
     if id in ENTRY_HANDLERS:
         region_type = "Passthrough"
 
-    node = RegionNode(id.name.lower(), region_name, "Region", region_type)
+    node = RegionNode(id, region_name, "Region", region_type)
 
     level_id = region.level.name.lower()
-    edge_id = "rr-" + id.name.lower() + "-level"
+    edge_id = "rr-" + node.id + "-level"
     level_edge = {
         "id": edge_id,
         "Name": region.name + " Level",
-        "source": id.name.lower(),
+        "source":node.id,
         "target": level_id,
         "sourceType": "Region",
         "targetType":  "Region",
@@ -66,7 +66,7 @@ def region_to_node(id, region):
         map_edge = {
             "id": map_edge_id,
             "Name": region.name + " Map",
-            "source": id.name.lower(),
+            "source": node.id,
             "target": "map-"+str(RegionMapList[id].value),
             "sourceType": "Region",
             "targetType":  "Region",
@@ -80,7 +80,7 @@ def region_to_node(id, region):
         hint_edge = {
             "id": hint_edge_id,
             "Name": region.name + " Hint Region",
-            "source": id.name.lower(),
+            "source":node.id,
             "target": "hr-" + region.hint_name.name.lower(),
             "sourceType": "Region",
             "targetType":  "Region",
