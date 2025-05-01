@@ -1362,6 +1362,12 @@
             "Class": "Region",
             "Type": "Region"
         },
+        "hideouthelmlobbypastvines": {
+            "id": "hideouthelmlobbypastvines",
+            "Name": "Hideout Helm Lobby Past Vines",
+            "Class": "Region",
+            "Type": "Region"
+        },
         "krool": {
             "id": "krool",
             "Name": "K. Rool",
@@ -4136,6 +4142,36 @@
             "id": "rr-hideouthelmlobby-hr",
             "Name": "Hideout Helm Lobby Hint Region",
             "source": "hideouthelmlobby",
+            "target": "hr-latelobbies",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-hideouthelmlobbypastvines-level": {
+            "id": "rr-hideouthelmlobbypastvines-level",
+            "Name": "Hideout Helm Lobby Past Vines Level",
+            "source": "hideouthelmlobbypastvines",
+            "target": "dkisles",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-hideouthelmlobbypastvines-map": {
+            "id": "rr-hideouthelmlobbypastvines-map",
+            "Name": "Hideout Helm Lobby Past Vines Map",
+            "source": "hideouthelmlobbypastvines",
+            "target": "map-170",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-hideouthelmlobbypastvines-hr": {
+            "id": "rr-hideouthelmlobbypastvines-hr",
+            "Name": "Hideout Helm Lobby Past Vines Hint Region",
+            "source": "hideouthelmlobbypastvines",
             "target": "hr-latelobbies",
             "sourceType": "Region",
             "targetType": "Region",

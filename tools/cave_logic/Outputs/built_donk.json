@@ -1442,6 +1442,12 @@
                 "Class": "Region",
                 "Type": "Region"
             },
+            "hideouthelmlobbypastvines": {
+                "id": "hideouthelmlobbypastvines",
+                "Name": "Hideout Helm Lobby Past Vines",
+                "Class": "Region",
+                "Type": "Region"
+            },
             "krool": {
                 "id": "krool",
                 "Name": "K. Rool",
@@ -4316,6 +4322,36 @@
                 "id": "rr-hideouthelmlobby-hr",
                 "Name": "Hideout Helm Lobby Hint Region",
                 "source": "hideouthelmlobby",
+                "target": "hr-latelobbies",
+                "sourceType": "Region",
+                "targetType": "Region",
+                "Class": "Region",
+                "Type": "HintRegion"
+            },
+            "rr-hideouthelmlobbypastvines-level": {
+                "id": "rr-hideouthelmlobbypastvines-level",
+                "Name": "Hideout Helm Lobby Past Vines Level",
+                "source": "hideouthelmlobbypastvines",
+                "target": "dkisles",
+                "sourceType": "Region",
+                "targetType": "Region",
+                "Class": "Region",
+                "Type": "Level"
+            },
+            "rr-hideouthelmlobbypastvines-map": {
+                "id": "rr-hideouthelmlobbypastvines-map",
+                "Name": "Hideout Helm Lobby Past Vines Map",
+                "source": "hideouthelmlobbypastvines",
+                "target": "map-170",
+                "sourceType": "Region",
+                "targetType": "Region",
+                "Class": "Region",
+                "Type": "Map"
+            },
+            "rr-hideouthelmlobbypastvines-hr": {
+                "id": "rr-hideouthelmlobbypastvines-hr",
+                "Name": "Hideout Helm Lobby Past Vines Hint Region",
+                "source": "hideouthelmlobbypastvines",
                 "target": "hr-latelobbies",
                 "sourceType": "Region",
                 "targetType": "Region",
@@ -64350,7 +64386,7 @@
                             "Name": "diddy"
                         },
                         {
-                            "combinator": "OR",
+                            "combinator": "AND",
                             "rules": [
                                 {
                                     "Name": "guitar"
@@ -71656,17 +71692,10 @@
                 "Class": "Transition",
                 "Type": "Neighbourhood",
                 "Requires": {
-                    "combinator": "AND",
+                    "combinator": "NOT",
                     "rules": [
                         {
-                            "Requires": {
-                                "combinator": "NOT",
-                                "rules": [
-                                    {
-                                        "Name": "perma_death"
-                                    }
-                                ]
-                            }
+                            "Name": "perma_death"
                         }
                     ]
                 }
@@ -72284,10 +72313,52 @@
                 "Type": "Warp",
                 "Requires": true
             },
-            "tn-31-220": {
-                "id": "tn-31-220",
-                "Name": "Helm Lobby to Hideout Helm",
+            "tn-31-284": {
+                "id": "tn-31-284",
+                "Name": "Hideout Helm Lobby to Hideout Helm Lobby Past Vines",
                 "source": "hideouthelmlobby",
+                "target": "hideouthelmlobbypastvines",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": {
+                    "combinator": "OR",
+                    "rules": [
+                        {
+                            "Name": "HelmLobbyTraversable",
+                            "Events": true
+                        },
+                        {
+                            "Name": "HelmLobbyW1bTagged",
+                            "Events": true
+                        }
+                    ]
+                }
+            },
+            "tn-284-31": {
+                "id": "tn-284-31",
+                "Name": "Hideout Helm Lobby Past Vines to Hideout Helm Lobby",
+                "source": "hideouthelmlobbypastvines",
+                "target": "hideouthelmlobby",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Neighbourhood",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "HelmLobbyW1aTagged",
+                            "Events": true
+                        }
+                    ]
+                }
+            },
+            "tn-284-220": {
+                "id": "tn-284-220",
+                "Name": "Helm Lobby to Hideout Helm",
+                "source": "hideouthelmlobbypastvines",
                 "target": "hideouthelmentry",
                 "sourceType": "Region",
                 "targetType": "Location",
@@ -72296,10 +72367,6 @@
                 "Requires": {
                     "combinator": "AND",
                     "rules": [
-                        {
-                            "Name": "HelmLobbyTraversable",
-                            "Events": true
-                        },
                         {
                             "Name": "IsLevelEnterable",
                             "Params": [
@@ -73826,31 +73893,24 @@
                 "Class": "Transition",
                 "Type": "Neighbourhood",
                 "Requires": {
-                    "combinator": "AND",
+                    "combinator": "OR",
                     "rules": [
                         {
-                            "Requires": {
-                                "combinator": "OR",
-                                "rules": [
-                                    {
-                                        "combinator": "AND",
-                                        "rules": [
-                                            {
-                                                "Name": "orangstand"
-                                            },
-                                            {
-                                                "Name": "lanky"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "Name": "CanPhase",
-                                        "Params": [],
-                                        "isFunction": true,
-                                        "isGlitch": true
-                                    }
-                                ]
-                            }
+                            "combinator": "AND",
+                            "rules": [
+                                {
+                                    "Name": "orangstand"
+                                },
+                                {
+                                    "Name": "lanky"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "CanPhase",
+                            "Params": [],
+                            "isFunction": true,
+                            "isGlitch": true
                         }
                     ]
                 }
@@ -85410,22 +85470,14 @@
             },
             "tn-220-31": {
                 "id": "tn-220-31",
-                "Name": "Hideout Helm to Helm Lobby",
+                "Name": "Hideout Helm Entry Redirect Exit Level",
                 "source": "hideouthelmentry",
                 "target": "hideouthelmlobby",
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
                 "Type": "Warp",
-                "Requires": {
-                    "combinator": "AND",
-                    "rules": [
-                        {
-                            "Name": "HelmFinished",
-                            "Events": true
-                        }
-                    ]
-                }
+                "Requires": true
             },
             "tn-220-224": {
                 "id": "tn-220-224",
@@ -85474,6 +85526,25 @@
                                 true
                             ],
                             "isFunction": true
+                        }
+                    ]
+                }
+            },
+            "tn-220-284": {
+                "id": "tn-220-284",
+                "Name": "Hideout Helm to Helm Lobby",
+                "source": "hideouthelmentry",
+                "target": "hideouthelmlobbypastvines",
+                "sourceType": "Region",
+                "targetType": "Location",
+                "Class": "Transition",
+                "Type": "Warp",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "HelmFinished",
+                            "Events": true
                         }
                     ]
                 }
@@ -88931,6 +89002,28 @@
                     ]
                 }
             },
+            "li-helmlobbyw1atagged31": {
+                "id": "li-helmlobbyw1atagged31",
+                "Name": "HelmLobbyW1aTagged",
+                "source": "hideouthelmlobby",
+                "target": "helmlobbyw1atagged",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Event",
+                "Class": "Event",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "helmlobbyw1atagged",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
             "li-helmlobbytraversable31": {
                 "id": "li-helmlobbytraversable31",
                 "Name": "HelmLobbyTraversable",
@@ -88981,6 +89074,28 @@
                     "rules": [
                         {
                             "Name": "helmlobbytraversable",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "li-helmlobbyw1btagged284": {
+                "id": "li-helmlobbyw1btagged284",
+                "Name": "HelmLobbyW1bTagged",
+                "source": "hideouthelmlobbypastvines",
+                "target": "helmlobbyw1btagged",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Event",
+                "Class": "Event",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "helmlobbyw1btagged",
                             "Amount": 1
                         }
                     ]
@@ -95205,10 +95320,10 @@
                     ]
                 }
             },
-            "tn-90-94-w-31-32": {
-                "id": "tn-90-94-w-31-32",
+            "tn-91-94-w-31-32": {
+                "id": "tn-91-94-w-31-32",
                 "Name": "Frantic Factory: Production Room (Bottom) to Frantic Factory: Production Room (Top)",
-                "source": "beyondhatch",
+                "source": "lowercore",
                 "target": "spinningcore",
                 "sourceType": "Region",
                 "targetType": "Location",
@@ -95226,11 +95341,11 @@
                     ]
                 }
             },
-            "tn-94-90-w-32-31": {
-                "id": "tn-94-90-w-32-31",
+            "tn-94-91-w-32-31": {
+                "id": "tn-94-91-w-32-31",
                 "Name": "Frantic Factory: Production Room (Top) to Frantic Factory: Production Room (Bottom)",
                 "source": "spinningcore",
-                "target": "beyondhatch",
+                "target": "lowercore",
                 "sourceType": "Region",
                 "targetType": "Location",
                 "Class": "Transition",
@@ -108782,6 +108897,18 @@
             "airspaceentered": {
                 "id": "airspaceentered",
                 "Name": "Air Space Entered",
+                "Class": "Item",
+                "Type": "Event"
+            },
+            "helmlobbyw1atagged": {
+                "id": "helmlobbyw1atagged",
+                "Name": "Helm Lobby W1a Tagged",
+                "Class": "Item",
+                "Type": "Event"
+            },
+            "helmlobbyw1btagged": {
+                "id": "helmlobbyw1btagged",
+                "Name": "Helm Lobby W1b Tagged",
                 "Class": "Item",
                 "Type": "Event"
             },

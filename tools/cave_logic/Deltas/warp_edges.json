@@ -630,10 +630,10 @@
                 ]
             }
         },
-        "tn-90-94-w-31-32": {
-            "id": "tn-90-94-w-31-32",
+        "tn-91-94-w-31-32": {
+            "id": "tn-91-94-w-31-32",
             "Name": "Frantic Factory: Production Room (Bottom) to Frantic Factory: Production Room (Top)",
-            "source": "beyondhatch",
+            "source": "lowercore",
             "target": "spinningcore",
             "sourceType": "Region",
             "targetType": "Location",
@@ -651,11 +651,11 @@
                 ]
             }
         },
-        "tn-94-90-w-32-31": {
-            "id": "tn-94-90-w-32-31",
+        "tn-94-91-w-32-31": {
+            "id": "tn-94-91-w-32-31",
             "Name": "Frantic Factory: Production Room (Top) to Frantic Factory: Production Room (Bottom)",
             "source": "spinningcore",
-            "target": "beyondhatch",
+            "target": "lowercore",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",

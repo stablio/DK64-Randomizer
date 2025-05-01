@@ -2250,6 +2250,18 @@
             "Class": "Item",
             "Type": "Event"
         },
+        "helmlobbyw1atagged": {
+            "id": "helmlobbyw1atagged",
+            "Name": "Helm Lobby W1a Tagged",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "helmlobbyw1btagged": {
+            "id": "helmlobbyw1btagged",
+            "Name": "Helm Lobby W1b Tagged",
+            "Class": "Item",
+            "Type": "Event"
+        },
         "firsttimetalkhint": {
             "id": "firsttimetalkhint",
             "Name": "First Time Talk",

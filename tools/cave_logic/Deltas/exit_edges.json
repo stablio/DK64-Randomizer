@@ -1237,17 +1237,10 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "NOT",
                 "rules": [
                     {
-                        "Requires": {
-                            "combinator": "NOT",
-                            "rules": [
-                                {
-                                    "Name": "perma_death"
-                                }
-                            ]
-                        }
+                        "Name": "perma_death"
                     }
                 ]
             }
@@ -1865,10 +1858,52 @@
             "Type": "Warp",
             "Requires": true
         },
-        "tn-31-220": {
-            "id": "tn-31-220",
-            "Name": "Helm Lobby to Hideout Helm",
+        "tn-31-284": {
+            "id": "tn-31-284",
+            "Name": "Hideout Helm Lobby to Hideout Helm Lobby Past Vines",
             "source": "hideouthelmlobby",
+            "target": "hideouthelmlobbypastvines",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "Name": "HelmLobbyTraversable",
+                        "Events": true
+                    },
+                    {
+                        "Name": "HelmLobbyW1bTagged",
+                        "Events": true
+                    }
+                ]
+            }
+        },
+        "tn-284-31": {
+            "id": "tn-284-31",
+            "Name": "Hideout Helm Lobby Past Vines to Hideout Helm Lobby",
+            "source": "hideouthelmlobbypastvines",
+            "target": "hideouthelmlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "HelmLobbyW1aTagged",
+                        "Events": true
+                    }
+                ]
+            }
+        },
+        "tn-284-220": {
+            "id": "tn-284-220",
+            "Name": "Helm Lobby to Hideout Helm",
+            "source": "hideouthelmlobbypastvines",
             "target": "hideouthelmentry",
             "sourceType": "Region",
             "targetType": "Location",
@@ -1877,10 +1912,6 @@
             "Requires": {
                 "combinator": "AND",
                 "rules": [
-                    {
-                        "Name": "HelmLobbyTraversable",
-                        "Events": true
-                    },
                     {
                         "Name": "IsLevelEnterable",
                         "Params": [
@@ -3407,31 +3438,24 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
-                        "Requires": {
-                            "combinator": "OR",
-                            "rules": [
-                                {
-                                    "combinator": "AND",
-                                    "rules": [
-                                        {
-                                            "Name": "orangstand"
-                                        },
-                                        {
-                                            "Name": "lanky"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Name": "CanPhase",
-                                    "Params": [],
-                                    "isFunction": true,
-                                    "isGlitch": true
-                                }
-                            ]
-                        }
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "orangstand"
+                            },
+                            {
+                                "Name": "lanky"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
                     }
                 ]
             }
@@ -14991,22 +15015,14 @@
         },
         "tn-220-31": {
             "id": "tn-220-31",
-            "Name": "Hideout Helm to Helm Lobby",
+            "Name": "Hideout Helm Entry Redirect Exit Level",
             "source": "hideouthelmentry",
             "target": "hideouthelmlobby",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "HelmFinished",
-                        "Events": true
-                    }
-                ]
-            }
+            "Requires": true
         },
         "tn-220-224": {
             "id": "tn-220-224",
@@ -15055,6 +15071,25 @@
                             true
                         ],
                         "isFunction": true
+                    }
+                ]
+            }
+        },
+        "tn-220-284": {
+            "id": "tn-220-284",
+            "Name": "Hideout Helm to Helm Lobby",
+            "source": "hideouthelmentry",
+            "target": "hideouthelmlobbypastvines",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "HelmFinished",
+                        "Events": true
                     }
                 ]
             }

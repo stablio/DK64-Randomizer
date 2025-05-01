@@ -52928,7 +52928,7 @@
                         "Name": "diddy"
                     },
                     {
-                        "combinator": "OR",
+                        "combinator": "AND",
                         "rules": [
                             {
                                 "Name": "guitar"

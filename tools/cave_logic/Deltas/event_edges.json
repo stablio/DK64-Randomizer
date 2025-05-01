@@ -1666,6 +1666,28 @@
                 ]
             }
         },
+        "li-helmlobbyw1atagged31": {
+            "id": "li-helmlobbyw1atagged31",
+            "Name": "HelmLobbyW1aTagged",
+            "source": "hideouthelmlobby",
+            "target": "helmlobbyw1atagged",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": true,
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "helmlobbyw1atagged",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
         "li-helmlobbytraversable31": {
             "id": "li-helmlobbytraversable31",
             "Name": "HelmLobbyTraversable",
@@ -1716,6 +1738,28 @@
                 "rules": [
                     {
                         "Name": "helmlobbytraversable",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
+        "li-helmlobbyw1btagged284": {
+            "id": "li-helmlobbyw1btagged284",
+            "Name": "HelmLobbyW1bTagged",
+            "source": "hideouthelmlobbypastvines",
+            "target": "helmlobbyw1btagged",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": true,
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "helmlobbyw1btagged",
                         "Amount": 1
                     }
                 ]
