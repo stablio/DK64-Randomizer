@@ -16,6 +16,7 @@ from tools.cave_logic.ast_logic import ast_to_json
 from randomizer.Enums.Levels import Levels
 from randomizer.Enums.DoorType import DoorType
 from randomizer.Lists.DoorLocations import door_locations,GetBossLobbyRegionIdForRegion
+from randomizer.ShuffleDoors import level_to_name
 from randomizer.Enums.Items import Items
 from randomizer.Logic import RegionsOriginal
 
@@ -24,9 +25,10 @@ RegionList = deepcopy(RegionsOriginal)
 def strip_name(name):
     return name.replace(" ", "").replace(":", "").replace("-", "").replace("'","").lower()
 
-def door_to_edge(door):
+def door_to_edge(door, level):
 
-    id = strip_name(door.name) + "-door"
+    id =  "d-" + str(door.map) + "-" + strip_name(door.name)
+    name = f"{level_to_name[level]} Hint Door: {door.name}"
 
     portal_region = RegionList[door.logicregion]
 
@@ -36,23 +38,6 @@ def door_to_edge(door):
     target = Items.NoItem.name
 
 
-    # if(door.default_placed == DoorType.boss): #DoorType.boss
-    #     target_region = GetBossLobbyRegionIdForRegion(
-    #     door.logicregion, portal_region)
-    #     target = target_region.name
-    #     edgeClass = "Transition"
-    #     edgeTargetType= "Location"
-
-    # l = door.logic
-    # req_str = inspect.getsource(door.logic).strip()
-    # # req = req.split("lambda l: ")[1]
-    # # req = req.replace("\n", "")
-    # req_str = req_str.rstrip(',')
-
-    # req = ast.parse(req_str)
-    # req_ast = req.body[0].value
-    # req2 = ast_to_json(req_ast, {})
-
     req = parse_ast_by_separator(door.logic,  "logic = lambda l: ")
     req_ast = req.body[0].value
     req2 = ast_to_json(req_ast, {})
@@ -61,7 +46,7 @@ def door_to_edge(door):
 
     return {
         "id": id,
-        "Name": door.name,
+        "Name": name,
         "source": door.logicregion.name.lower(),
         "target": target.lower(),
         "sourceType": "Region",
@@ -74,9 +59,9 @@ def door_to_edge(door):
 
 def build_doors():
     edges = {}
-    for levels in door_locations.values():
-        for door in levels:
-            edge = door_to_edge(door)
+    for level,doors in door_locations.items():
+        for door in doors:
+            edge = door_to_edge(door, level)
             edges[edge["id"]] = edge
     return edges
 
