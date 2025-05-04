@@ -48,9 +48,10 @@ def location_to_edge(id, location):
     region = checkList[id]["region"] if id in checkList else None
     source = RegionNode(region, '') if region else None
     
-    if region in medal_regions:
-        logic_region = RegionsOriginal[region]
-        source = logic_region.level.name.lower()
+    # move medals to the level region
+    # if region in medal_regions:
+        # logic_region = RegionsOriginal[region]
+        # source = logic_region.level.name.lower()
 
     target = Items.NoItem
 

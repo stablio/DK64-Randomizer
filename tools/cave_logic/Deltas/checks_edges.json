@@ -2946,7 +2946,7 @@
         "li-japesdonkeymedal": {
             "id": "li-japesdonkeymedal",
             "Name": "Japes Donkey Medal",
-            "source": "junglejapes",
+            "source": "junglejapesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -2979,7 +2979,7 @@
         "li-japesdiddymedal": {
             "id": "li-japesdiddymedal",
             "Name": "Japes Diddy Medal",
-            "source": "junglejapes",
+            "source": "junglejapesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -3012,7 +3012,7 @@
         "li-japeslankymedal": {
             "id": "li-japeslankymedal",
             "Name": "Japes Lanky Medal",
-            "source": "junglejapes",
+            "source": "junglejapesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -3045,7 +3045,7 @@
         "li-japestinymedal": {
             "id": "li-japestinymedal",
             "Name": "Japes Tiny Medal",
-            "source": "junglejapes",
+            "source": "junglejapesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -3078,7 +3078,7 @@
         "li-japeschunkymedal": {
             "id": "li-japeschunkymedal",
             "Name": "Japes Chunky Medal",
-            "source": "junglejapes",
+            "source": "junglejapesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -4848,7 +4848,7 @@
         "li-aztecdonkeymedal": {
             "id": "li-aztecdonkeymedal",
             "Name": "Aztec Donkey Medal",
-            "source": "angryaztec",
+            "source": "angryaztecmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -4881,7 +4881,7 @@
         "li-aztecdiddymedal": {
             "id": "li-aztecdiddymedal",
             "Name": "Aztec Diddy Medal",
-            "source": "angryaztec",
+            "source": "angryaztecmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -4914,7 +4914,7 @@
         "li-azteclankymedal": {
             "id": "li-azteclankymedal",
             "Name": "Aztec Lanky Medal",
-            "source": "angryaztec",
+            "source": "angryaztecmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -4947,7 +4947,7 @@
         "li-aztectinymedal": {
             "id": "li-aztectinymedal",
             "Name": "Aztec Tiny Medal",
-            "source": "angryaztec",
+            "source": "angryaztecmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -4980,7 +4980,7 @@
         "li-aztecchunkymedal": {
             "id": "li-aztecchunkymedal",
             "Name": "Aztec Chunky Medal",
-            "source": "angryaztec",
+            "source": "angryaztecmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -6376,7 +6376,7 @@
         "li-factorydonkeymedal": {
             "id": "li-factorydonkeymedal",
             "Name": "Factory Donkey Medal",
-            "source": "franticfactory",
+            "source": "franticfactorymedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -6409,7 +6409,7 @@
         "li-factorydiddymedal": {
             "id": "li-factorydiddymedal",
             "Name": "Factory Diddy Medal",
-            "source": "franticfactory",
+            "source": "franticfactorymedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -6442,7 +6442,7 @@
         "li-factorylankymedal": {
             "id": "li-factorylankymedal",
             "Name": "Factory Lanky Medal",
-            "source": "franticfactory",
+            "source": "franticfactorymedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -6475,7 +6475,7 @@
         "li-factorytinymedal": {
             "id": "li-factorytinymedal",
             "Name": "Factory Tiny Medal",
-            "source": "franticfactory",
+            "source": "franticfactorymedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -6508,7 +6508,7 @@
         "li-factorychunkymedal": {
             "id": "li-factorychunkymedal",
             "Name": "Factory Chunky Medal",
-            "source": "franticfactory",
+            "source": "franticfactorymedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -7817,7 +7817,7 @@
         "li-galleondonkeymedal": {
             "id": "li-galleondonkeymedal",
             "Name": "Galleon Donkey Medal",
-            "source": "gloomygalleon",
+            "source": "gloomygalleonmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -7850,7 +7850,7 @@
         "li-galleondiddymedal": {
             "id": "li-galleondiddymedal",
             "Name": "Galleon Diddy Medal",
-            "source": "gloomygalleon",
+            "source": "gloomygalleonmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -7883,7 +7883,7 @@
         "li-galleonlankymedal": {
             "id": "li-galleonlankymedal",
             "Name": "Galleon Lanky Medal",
-            "source": "gloomygalleon",
+            "source": "gloomygalleonmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -7916,7 +7916,7 @@
         "li-galleontinymedal": {
             "id": "li-galleontinymedal",
             "Name": "Galleon Tiny Medal",
-            "source": "gloomygalleon",
+            "source": "gloomygalleonmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -7949,7 +7949,7 @@
         "li-galleonchunkymedal": {
             "id": "li-galleonchunkymedal",
             "Name": "Galleon Chunky Medal",
-            "source": "gloomygalleon",
+            "source": "gloomygalleonmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -9190,7 +9190,7 @@
         "li-forestdonkeymedal": {
             "id": "li-forestdonkeymedal",
             "Name": "Forest Donkey Medal",
-            "source": "fungiforest",
+            "source": "fungiforestmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -9223,7 +9223,7 @@
         "li-forestdiddymedal": {
             "id": "li-forestdiddymedal",
             "Name": "Forest Diddy Medal",
-            "source": "fungiforest",
+            "source": "fungiforestmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -9256,7 +9256,7 @@
         "li-forestlankymedal": {
             "id": "li-forestlankymedal",
             "Name": "Forest Lanky Medal",
-            "source": "fungiforest",
+            "source": "fungiforestmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -9289,7 +9289,7 @@
         "li-foresttinymedal": {
             "id": "li-foresttinymedal",
             "Name": "Forest Tiny Medal",
-            "source": "fungiforest",
+            "source": "fungiforestmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -9322,7 +9322,7 @@
         "li-forestchunkymedal": {
             "id": "li-forestchunkymedal",
             "Name": "Forest Chunky Medal",
-            "source": "fungiforest",
+            "source": "fungiforestmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -10620,7 +10620,7 @@
         "li-cavesdonkeymedal": {
             "id": "li-cavesdonkeymedal",
             "Name": "Caves Donkey Medal",
-            "source": "crystalcaves",
+            "source": "crystalcavesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -10653,7 +10653,7 @@
         "li-cavesdiddymedal": {
             "id": "li-cavesdiddymedal",
             "Name": "Caves Diddy Medal",
-            "source": "crystalcaves",
+            "source": "crystalcavesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -10686,7 +10686,7 @@
         "li-caveslankymedal": {
             "id": "li-caveslankymedal",
             "Name": "Caves Lanky Medal",
-            "source": "crystalcaves",
+            "source": "crystalcavesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -10719,7 +10719,7 @@
         "li-cavestinymedal": {
             "id": "li-cavestinymedal",
             "Name": "Caves Tiny Medal",
-            "source": "crystalcaves",
+            "source": "crystalcavesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -10752,7 +10752,7 @@
         "li-caveschunkymedal": {
             "id": "li-caveschunkymedal",
             "Name": "Caves Chunky Medal",
-            "source": "crystalcaves",
+            "source": "crystalcavesmedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -12050,7 +12050,7 @@
         "li-castledonkeymedal": {
             "id": "li-castledonkeymedal",
             "Name": "Castle Donkey Medal",
-            "source": "creepycastle",
+            "source": "creepycastlemedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -12083,7 +12083,7 @@
         "li-castlediddymedal": {
             "id": "li-castlediddymedal",
             "Name": "Castle Diddy Medal",
-            "source": "creepycastle",
+            "source": "creepycastlemedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -12116,7 +12116,7 @@
         "li-castlelankymedal": {
             "id": "li-castlelankymedal",
             "Name": "Castle Lanky Medal",
-            "source": "creepycastle",
+            "source": "creepycastlemedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -12149,7 +12149,7 @@
         "li-castletinymedal": {
             "id": "li-castletinymedal",
             "Name": "Castle Tiny Medal",
-            "source": "creepycastle",
+            "source": "creepycastlemedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -12182,7 +12182,7 @@
         "li-castlechunkymedal": {
             "id": "li-castlechunkymedal",
             "Name": "Castle Chunky Medal",
-            "source": "creepycastle",
+            "source": "creepycastlemedals",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
