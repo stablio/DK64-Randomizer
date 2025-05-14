@@ -17,6 +17,10 @@ from randomizer.Enums.Collectibles import Collectibles
 from tools.cave_logic.ast_logic import level_names
 from tools.cave_logic.Processor.Classes import ItemNode, EventNode
 
+cb_level_names = level_names.copy()
+if "HideoutHelm" in cb_level_names:
+    del cb_level_names["HideoutHelm"]
+
 
 def side_effect_edge(id, source, target, name, amount):
     return {
@@ -93,9 +97,9 @@ def build_collectibles():
         edges[rc_kong] = side_effect_edge(
             rc_kong, rc, coin_id, "Rainbow Coin " + kong.name.title(), 5)
 
-    for level in level_names:
+    for level in cb_level_names:
 
-        level_suffix = (level_names[level].lower())
+        level_suffix = (cb_level_names[level].lower())
         level_banana_id = Collectibles.banana.name + "_" + level_suffix
         lcb = collectible_node(level_banana_id, level +
                                " " + Collectibles.banana.name.title())

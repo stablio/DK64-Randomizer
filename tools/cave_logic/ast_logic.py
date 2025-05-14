@@ -49,6 +49,7 @@ level_names = {
     "FungiForest": "Forest",
     "CrystalCaves": "Caves",
     "CreepyCastle": "Castle",
+    "HideoutHelm": "Helm",
 }
 
 glitches = ["CanSTS", "phasewalk", "CanSkew", "CanPhaseswim", "CanPhase",

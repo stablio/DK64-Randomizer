@@ -19,6 +19,7 @@ from randomizer.Enums.Collectibles import Collectibles
 from randomizer.Lists.Location import LocationListOriginal
 from randomizer.Lists.Minigame import MinigameRequirements
 from randomizer.Lists.KasplatLocations import KasplatLocationList
+from randomizer.Lists.FairyLocations import fairy_locations
 from randomizer.Logic import RegionsOriginal, CollectibleRegionsOriginal
 from tools.cave_logic.ast_logic import ast_to_json, normalise_name, get_level_name
 from tools.cave_logic.Processor.Classes import CheckEdge, RegionNode, QueryLogic
@@ -130,6 +131,25 @@ def kasplat_to_edge(key, kasplat):
 
     return CheckEdge(key, kasplat.name,source, Items.NoItem, "Kasplat", Class, requires)
 
+def fairy_to_edge(fairy, level):
+
+    level_name = get_level_name(level.name)
+
+    id = "bananafairy" + strip_name(fairy.name)
+    name = level_name + " Fairy (" + fairy.name + ")"
+
+    req = parse_ast_by_separator(
+        fairy.logic,  "logic=lambda l: ", "self.logic = lambda l: ")
+    req_ast = req.body[0].value
+    req2 = ast_to_json(req_ast, {})
+
+    requires = req2["Requires"] if req2 is not None else True
+
+    Class = "Custom Check" if fairy.is_vanilla else "Check"
+    source = RegionNode(fairy.region, '') if region else None
+
+    return CheckEdge(id, name,source, Items.NoItem, "Fairy", Class, requires)
+
 
 def collectible_to_edge(collectible, region, index):
     portal_region = RegionsOriginal[region]
@@ -227,6 +247,14 @@ def build_checks():
         for kasplat in kasplats:
             key = strip_name(kasplat.name)
             edges[key] = kasplat_to_edge(key, kasplat).to_dict()
+
+    for level in fairy_locations:
+        fairys = fairy_locations[level]
+        for fairy in fairys:
+            if fairy.is_vanilla:
+                continue
+            f = fairy_to_edge(fairy, level).to_dict()
+            edges[f['id']] = f
 
     for region, collectibles in CollectibleRegionsOriginal.items():
         for index, collectible in enumerate(collectibles):

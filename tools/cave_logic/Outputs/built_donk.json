@@ -49867,6 +49867,4047 @@
                     ]
                 }
             },
+            "bananafairynearkongcage": {
+                "id": "bananafairynearkongcage",
+                "Name": "Japes Fairy (Near Kong Cage)",
+                "source": "japeshilltop",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearmountain": {
+                "id": "bananafairynearmountain",
+                "Name": "Japes Fairy (Near Mountain)",
+                "source": "japeshilltop",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaboveundergroundentrance": {
+                "id": "bananafairyaboveundergroundentrance",
+                "Name": "Japes Fairy (Above Underground Entrance)",
+                "source": "junglejapesstart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyhivearea": {
+                "id": "bananafairyhivearea",
+                "Name": "Japes Fairy (Hive Area)",
+                "source": "japesbeyondfeathergate",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairystormarea": {
+                "id": "bananafairystormarea",
+                "Name": "Japes Fairy (Storm Area)",
+                "source": "japesbeyondcoconutgate2",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinsidehive": {
+                "id": "bananafairyinsidehive",
+                "Name": "Japes Fairy (Inside Hive)",
+                "source": "tinyhive",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyundergroundpathway": {
+                "id": "bananafairyundergroundpathway",
+                "Name": "Japes Fairy (Underground Pathway)",
+                "source": "japescatacomb",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyundergroundvinearea": {
+                "id": "bananafairyundergroundvinearea",
+                "Name": "Japes Fairy (Underground Vine Area)",
+                "source": "japescatacomb",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairymineentry": {
+                "id": "bananafairymineentry",
+                "Name": "Japes Fairy (Mine Entry)",
+                "source": "mine",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyvaseroom": {
+                "id": "bananafairyvaseroom",
+                "Name": "Aztec Fairy (Vase Room)",
+                "source": "betweenvinesbyportal",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "pineapple"
+                                        },
+                                        {
+                                            "Name": "chunky"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyoasis": {
+                "id": "bananafairyoasis",
+                "Name": "Aztec Fairy (Oasis)",
+                "source": "angryaztecoasis",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairybehindtinytemple": {
+                "id": "bananafairybehindtinytemple",
+                "Name": "Aztec Fairy (Behind Tiny Temple)",
+                "source": "angryaztecoasis",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearsnakeroad": {
+                "id": "bananafairynearsnakeroad",
+                "Name": "Aztec Fairy (Near Snake Road)",
+                "source": "angryaztecconnectortunnel",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairybonuscage": {
+                "id": "bananafairybonuscage",
+                "Name": "Aztec Fairy (Bonus Cage)",
+                "source": "angryaztecconnectortunnel",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaroundtotem": {
+                "id": "bananafairyaroundtotem",
+                "Name": "Aztec Fairy (Around Totem)",
+                "source": "angryaztecmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairygongtower": {
+                "id": "bananafairygongtower",
+                "Name": "Aztec Fairy (Gong Tower)",
+                "source": "angryaztecmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydonkey5dt": {
+                "id": "bananafairydonkey5dt",
+                "Name": "Aztec Fairy (Donkey 5DT)",
+                "source": "donkeytemple",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "coconut"
+                                        },
+                                        {
+                                            "Name": "donkey"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairychunky5dt": {
+                "id": "bananafairychunky5dt",
+                "Name": "Aztec Fairy (Chunky 5DT)",
+                "source": "chunkytemple",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydiddy5dt": {
+                "id": "bananafairydiddy5dt",
+                "Name": "Aztec Fairy (Diddy 5DT)",
+                "source": "diddytemple",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylanky5dt": {
+                "id": "bananafairylanky5dt",
+                "Name": "Aztec Fairy (Lanky 5DT)",
+                "source": "lankytemple",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairystartofllamatemple": {
+                "id": "bananafairystartofllamatemple",
+                "Name": "Aztec Fairy (Start of Llama Temple)",
+                "source": "llamatemple",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairymatchingroom": {
+                "id": "bananafairymatchingroom",
+                "Name": "Aztec Fairy (Matching Room)",
+                "source": "llamatemple",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "grape"
+                                        },
+                                        {
+                                            "Name": "lanky"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                },
+                                {
+                                    "Name": "CanOStandTBSNoclip",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytinytemplestart": {
+                "id": "bananafairytinytemplestart",
+                "Name": "Aztec Fairy (Tiny Temple Start)",
+                "source": "templestart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytinytemplekongcageroom": {
+                "id": "bananafairytinytemplekongcageroom",
+                "Name": "Aztec Fairy (Tiny Temple Kong Cage Room)",
+                "source": "templekongroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyentrance": {
+                "id": "bananafairyentrance",
+                "Name": "Factory Fairy (Entrance)",
+                "source": "franticfactorystart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairypole": {
+                "id": "bananafairypole",
+                "Name": "Factory Fairy (Pole)",
+                "source": "beyondhatch",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylowerportionofproductionroom": {
+                "id": "bananafairylowerportionofproductionroom",
+                "Name": "Factory Fairy (Lower portion of Production Room)",
+                "source": "lowercore",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairymidsectionofproductionroom": {
+                "id": "bananafairymidsectionofproductionroom",
+                "Name": "Factory Fairy (Mid-section of Production Room)",
+                "source": "spinningcore",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyupperportionofproductionroom": {
+                "id": "bananafairyupperportionofproductionroom",
+                "Name": "Factory Fairy (Upper portion of Production Room)",
+                "source": "uppercore",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairystorageroom": {
+                "id": "bananafairystorageroom",
+                "Name": "Factory Fairy (Storage Room)",
+                "source": "beyondhatch",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearcrankys": {
+                "id": "bananafairynearcrankys",
+                "Name": "Factory Fairy (Near Cranky's)",
+                "source": "beyondhatch",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyarcadetunnel": {
+                "id": "bananafairyarcadetunnel",
+                "Name": "Factory Fairy (Arcade Tunnel)",
+                "source": "factoryarcadetunnel",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyarcaderoom": {
+                "id": "bananafairyarcaderoom",
+                "Name": "Factory Fairy (Arcade Room)",
+                "source": "factoryarcadetunnel",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyupperblocktower": {
+                "id": "bananafairyupperblocktower",
+                "Name": "Factory Fairy (Upper Block Tower)",
+                "source": "testing",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "AND",
+                            "rules": [
+                                {
+                                    "combinator": "OR",
+                                    "rules": [
+                                        {
+                                            "Name": "simianspring"
+                                        },
+                                        {
+                                            "Name": "CanMoontail",
+                                            "Params": [],
+                                            "isFunction": true,
+                                            "isGlitch": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "diddy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyneardartboardboxes": {
+                "id": "bananafairyneardartboardboxes",
+                "Name": "Factory Fairy (Near Dartboard Boxes)",
+                "source": "testing",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyresearchanddevelopmentpole": {
+                "id": "bananafairyresearchanddevelopmentpole",
+                "Name": "Factory Fairy (Research and Development Pole)",
+                "source": "testing",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairycarraceentryway": {
+                "id": "bananafairycarraceentryway",
+                "Name": "Factory Fairy (Car Race Entryway)",
+                "source": "randd",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytoymonsterroom": {
+                "id": "bananafairytoymonsterroom",
+                "Name": "Factory Fairy (Toy Monster Room)",
+                "source": "randdupper",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "triangle"
+                                        },
+                                        {
+                                            "Name": "primatepunch"
+                                        },
+                                        {
+                                            "Name": "chunky"
+                                        },
+                                        {
+                                            "Name": "climbing"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanAccessRNDRoom",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydiddyresearchanddevelopmentroom": {
+                "id": "bananafairydiddyresearchanddevelopmentroom",
+                "Name": "Factory Fairy (Diddy Research and Development Room)",
+                "source": "randdupper",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "guitar"
+                                        },
+                                        {
+                                            "Name": "diddy"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanAccessRNDRoom",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairychutetostorageroom": {
+                "id": "bananafairychutetostorageroom",
+                "Name": "Factory Fairy (Chute to Storage Room)",
+                "source": "randdupper",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydarkroom": {
+                "id": "bananafairydarkroom",
+                "Name": "Factory Fairy (Dark Room)",
+                "source": "beyondhatch",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "primatepunch"
+                                        },
+                                        {
+                                            "Name": "chunky"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairycrusherroom": {
+                "id": "bananafairycrusherroom",
+                "Name": "Factory Fairy (Crusher Room)",
+                "source": "insidecore",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytinyslambutton": {
+                "id": "bananafairytinyslambutton",
+                "Name": "Galleon Fairy (Tiny Slam Button)",
+                "source": "gloomygalleonstart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytunnelintersection": {
+                "id": "bananafairytunnelintersection",
+                "Name": "Galleon Fairy (Tunnel Intersection)",
+                "source": "gloomygalleonstart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyundercrankyplatform": {
+                "id": "bananafairyundercrankyplatform",
+                "Name": "Galleon Fairy (Under Cranky Platform)",
+                "source": "gloomygalleonstart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytunneltochestarea": {
+                "id": "bananafairytunneltochestarea",
+                "Name": "Galleon Fairy (Tunnel to Chest Area)",
+                "source": "gloomygalleonstart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinbetween5doorshipand2doorship": {
+                "id": "bananafairyinbetween5doorshipand2doorship",
+                "Name": "Galleon Fairy (Inbetween 5-Door Ship and 2-Door Ship)",
+                "source": "shipyardunderwater",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinbetween5doorshipandsealrace": {
+                "id": "bananafairyinbetween5doorshipandsealrace",
+                "Name": "Galleon Fairy (Inbetween 5-Door Ship and Seal Race)",
+                "source": "shipyardunderwater",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaroundcactus": {
+                "id": "bananafairyaroundcactus",
+                "Name": "Galleon Fairy (Around Cactus)",
+                "source": "shipyard",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaroundlighthouse": {
+                "id": "bananafairyaroundlighthouse",
+                "Name": "Galleon Fairy (Around Lighthouse)",
+                "source": "lighthouseplatform",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyseasickship": {
+                "id": "bananafairyseasickship",
+                "Name": "Galleon Fairy (Seasick Ship)",
+                "source": "sickbay",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytopoflighthouse": {
+                "id": "bananafairytopoflighthouse",
+                "Name": "Galleon Fairy (Top of Lighthouse)",
+                "source": "lighthouseaboveladder",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairymermaidwindow": {
+                "id": "bananafairymermaidwindow",
+                "Name": "Galleon Fairy (Mermaid Window)",
+                "source": "mermaidroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylankys5doorship": {
+                "id": "bananafairylankys5doorship",
+                "Name": "Galleon Fairy (Lanky's 5-Door Ship)",
+                "source": "tromboneship",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytinys2doorship": {
+                "id": "bananafairytinys2doorship",
+                "Name": "Galleon Fairy (Tiny's 2-Door Ship)",
+                "source": "tinyship",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairysubmarine": {
+                "id": "bananafairysubmarine",
+                "Name": "Galleon Fairy (Submarine)",
+                "source": "submarine",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinsidethetreasurechest": {
+                "id": "bananafairyinsidethetreasurechest",
+                "Name": "Galleon Fairy (Inside the Treasure Chest)",
+                "source": "tinychest",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovebluetunnel": {
+                "id": "bananafairyabovebluetunnel",
+                "Name": "Forest Fairy (Above Blue Tunnel)",
+                "source": "fungiforeststart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovetheclock": {
+                "id": "bananafairyabovetheclock",
+                "Name": "Forest Fairy (Above the Clock)",
+                "source": "fungiforeststart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovethewell": {
+                "id": "bananafairyabovethewell",
+                "Name": "Forest Fairy (Above the Well)",
+                "source": "fungiforeststart",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "combinator": "OR",
+                                            "rules": [
+                                                {
+                                                    "Name": "vines"
+                                                },
+                                                {
+                                                    "Name": "CanMoonkick",
+                                                    "Params": [],
+                                                    "isFunction": true,
+                                                    "isGlitch": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "climbing"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "rocketbarrelboost"
+                                        },
+                                        {
+                                            "Name": "diddy"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovebblastentrance": {
+                "id": "bananafairyabovebblastentrance",
+                "Name": "Forest Fairy (Above BBlast Entrance)",
+                "source": "mushroomblastlevelexterior",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearcrown": {
+                "id": "bananafairynearcrown",
+                "Name": "Forest Fairy (Near Crown)",
+                "source": "mushroomuppermidexterior",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytopofgiantmushroom": {
+                "id": "bananafairytopofgiantmushroom",
+                "Name": "Forest Fairy (Top of Giant Mushroom)",
+                "source": "mushroomupperexterior",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyowltreetunnel": {
+                "id": "bananafairyowltreetunnel",
+                "Name": "Forest Fairy (Owl Tree Tunnel)",
+                "source": "hollowtreearea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaboverabbitrace": {
+                "id": "bananafairyaboverabbitrace",
+                "Name": "Forest Fairy (Above Rabbit Race)",
+                "source": "hollowtreearea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyoppositerabbitrace": {
+                "id": "bananafairyoppositerabbitrace",
+                "Name": "Forest Fairy (Opposite Rabbit Race)",
+                "source": "hollowtreearea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovemill": {
+                "id": "bananafairyabovemill",
+                "Name": "Forest Fairy (Above Mill)",
+                "source": "millarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairybarnalcove": {
+                "id": "bananafairybarnalcove",
+                "Name": "Forest Fairy (Barn Alcove)",
+                "source": "millarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovepathtothornvinebarn": {
+                "id": "bananafairyabovepathtothornvinebarn",
+                "Name": "Forest Fairy (Above path to Thornvine Barn)",
+                "source": "thornvinearea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyanthill": {
+                "id": "bananafairyanthill",
+                "Name": "Forest Fairy (Anthill)",
+                "source": "anthill",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairywinchroom": {
+                "id": "bananafairywinchroom",
+                "Name": "Forest Fairy (Winch Room)",
+                "source": "winchroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyfrontofmill": {
+                "id": "bananafairyfrontofmill",
+                "Name": "Forest Fairy (Front of Mill)",
+                "source": "grinderroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylowergiantmushroominterior": {
+                "id": "bananafairylowergiantmushroominterior",
+                "Name": "Forest Fairy (Lower Giant Mushroom Interior)",
+                "source": "mushroomlowerbetweenladders",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyuppergiantmushroominterior": {
+                "id": "bananafairyuppergiantmushroominterior",
+                "Name": "Forest Fairy (Upper Giant Mushroom Interior)",
+                "source": "mushroomupper",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylankysattic": {
+                "id": "bananafairylankysattic",
+                "Name": "Forest Fairy (Lanky's Attic)",
+                "source": "millattic",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairymillinterior(rear)": {
+                "id": "bananafairymillinterior(rear)",
+                "Name": "Forest Fairy (Mill Interior (Rear))",
+                "source": "millchunkytinyarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyspiderbossroom": {
+                "id": "bananafairyspiderbossroom",
+                "Name": "Forest Fairy (Spider Boss Room)",
+                "source": "spiderroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylevelstart": {
+                "id": "bananafairylevelstart",
+                "Name": "Caves Fairy (Level Start)",
+                "source": "crystalcavesmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairygorillagoneroom": {
+                "id": "bananafairygorillagoneroom",
+                "Name": "Caves Fairy (Gorilla Gone Room)",
+                "source": "cavesggroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyicecastleroof": {
+                "id": "bananafairyicecastleroof",
+                "Name": "Caves Fairy (Ice Castle Roof)",
+                "source": "crystalcavesmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearsmallboulder": {
+                "id": "bananafairynearsmallboulder",
+                "Name": "Caves Fairy (Near Small Boulder)",
+                "source": "crystalcavesmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairybananaportpillar": {
+                "id": "bananafairybananaportpillar",
+                "Name": "Caves Fairy (Bananaport Pillar)",
+                "source": "crystalcavesmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairygiantboulderroom": {
+                "id": "bananafairygiantboulderroom",
+                "Name": "Caves Fairy (Giant Boulder Room)",
+                "source": "bouldercave",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairybonusroom": {
+                "id": "bananafairybonusroom",
+                "Name": "Caves Fairy (Bonus Room)",
+                "source": "cavesbonuscave",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyon5doorigloo": {
+                "id": "bananafairyon5doorigloo",
+                "Name": "Caves Fairy (On 5-Door Igloo)",
+                "source": "iglooarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearbonuswaterfall": {
+                "id": "bananafairynearbonuswaterfall",
+                "Name": "Caves Fairy (Near Bonus Waterfall)",
+                "source": "crystalcavesmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyblueprintcave": {
+                "id": "bananafairyblueprintcave",
+                "Name": "Caves Fairy (Blueprint Cave)",
+                "source": "cavesblueprintcave",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairy5doorcabinexterior": {
+                "id": "bananafairy5doorcabinexterior",
+                "Name": "Caves Fairy (5-Door Cabin Exterior)",
+                "source": "cabinarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearlankycabin": {
+                "id": "bananafairynearlankycabin",
+                "Name": "Caves Fairy (Near Lanky Cabin)",
+                "source": "cabinarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyunderwaterfallbridge": {
+                "id": "bananafairyunderwaterfallbridge",
+                "Name": "Caves Fairy (Under Waterfall Bridge)",
+                "source": "cabinarea",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinsidetilefliproom": {
+                "id": "bananafairyinsidetilefliproom",
+                "Name": "Caves Fairy (Inside Tile Flip Room)",
+                "source": "frozencastle",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairychunky5doorigloo": {
+                "id": "bananafairychunky5doorigloo",
+                "Name": "Caves Fairy (Chunky 5-Door Igloo)",
+                "source": "chunkyigloo",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydiddy5doorigloo": {
+                "id": "bananafairydiddy5doorigloo",
+                "Name": "Caves Fairy (Diddy 5-Door Igloo)",
+                "source": "diddyigloo",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydonkey5doorigloo": {
+                "id": "bananafairydonkey5doorigloo",
+                "Name": "Caves Fairy (Donkey 5-Door Igloo)",
+                "source": "donkeyigloo",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylankycabin": {
+                "id": "bananafairylankycabin",
+                "Name": "Caves Fairy (Lanky Cabin)",
+                "source": "lankycabin",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairychunky5doorcabin": {
+                "id": "bananafairychunky5doorcabin",
+                "Name": "Caves Fairy (Chunky 5-Door Cabin)",
+                "source": "chunkycabin",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairystart": {
+                "id": "bananafairystart",
+                "Name": "Castle Fairy (Start)",
+                "source": "creepycastlemain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyoncastletree": {
+                "id": "bananafairyoncastletree",
+                "Name": "Castle Fairy (On Castle Tree)",
+                "source": "creepycastlemain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovemoat": {
+                "id": "bananafairyabovemoat",
+                "Name": "Castle Fairy (Above Moat)",
+                "source": "creepycastlemain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyoppositelibraryentrance": {
+                "id": "bananafairyoppositelibraryentrance",
+                "Name": "Castle Fairy (Opposite Library Entrance)",
+                "source": "creepycastlemain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovesnides": {
+                "id": "bananafairyabovesnides",
+                "Name": "Castle Fairy (Above Snide's)",
+                "source": "creepycastlemain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearwindtower": {
+                "id": "bananafairynearwindtower",
+                "Name": "Castle Fairy (Near Wind Tower)",
+                "source": "creepycastlemain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyballroom": {
+                "id": "bananafairyballroom",
+                "Name": "Castle Fairy (Ballroom)",
+                "source": "ballroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "Name": "rocketbarrelboost"
+                        },
+                        {
+                            "Name": "diddy"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylankydungeon": {
+                "id": "bananafairylankydungeon",
+                "Name": "Castle Fairy (Lanky Dungeon)",
+                "source": "dungeon",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "Name": "CanSlamSwitch",
+                                    "Params": [
+                                        "CreepyCastle",
+                                        3
+                                    ],
+                                    "isFunction": true
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "trombone"
+                        },
+                        {
+                            "Name": "baboonballoon"
+                        },
+                        {
+                            "Name": "lanky"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairydonkeydungeon": {
+                "id": "bananafairydonkeydungeon",
+                "Name": "Castle Fairy (Donkey Dungeon)",
+                "source": "dungeon",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "CanSlamSwitch",
+                                            "Params": [
+                                                "CreepyCastle",
+                                                3
+                                            ],
+                                            "isFunction": true
+                                        },
+                                        {
+                                            "Name": "donkey"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaboveentrancetomausoleum": {
+                "id": "bananafairyaboveentrancetomausoleum",
+                "Name": "Castle Fairy (Above entrance to Mausoleum)",
+                "source": "lowercave",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynearfunkys": {
+                "id": "bananafairynearfunkys",
+                "Name": "Castle Fairy (Near Funky's)",
+                "source": "lowercave",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovedonkeydiddychunkycryptentrance": {
+                "id": "bananafairyabovedonkeydiddychunkycryptentrance",
+                "Name": "Castle Fairy (Above Donkey Diddy Chunky Crypt Entrance)",
+                "source": "lowercave",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairywindtower": {
+                "id": "bananafairywindtower",
+                "Name": "Castle Fairy (Wind Tower)",
+                "source": "tower",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylibrary": {
+                "id": "bananafairylibrary",
+                "Name": "Castle Fairy (Library)",
+                "source": "library",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyaztecroof": {
+                "id": "bananafairyaztecroof",
+                "Name": "Isles Fairy (Aztec Roof)",
+                "source": "islesmainupper",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairybehindfungibuilding": {
+                "id": "bananafairybehindfungibuilding",
+                "Name": "Isles Fairy (Behind Fungi Building)",
+                "source": "cabinisle",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyonbananafairyisland": {
+                "id": "bananafairyonbananafairyisland",
+                "Name": "Isles Fairy (On Banana Fairy Island)",
+                "source": "cabinisle",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "Name": "rocketbarrelboost"
+                        },
+                        {
+                            "Name": "diddy"
+                        },
+                        {
+                            "Name": "IslesDiddyBarrelSpawn",
+                            "Events": true
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairylowerkremisles": {
+                "id": "bananafairylowerkremisles",
+                "Name": "Isles Fairy (Lower Krem Isles)",
+                "source": "kremisle",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyonk.lumsy": {
+                "id": "bananafairyonk.lumsy",
+                "Name": "Isles Fairy (On K. Lumsy)",
+                "source": "kremisle",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinfrontofkremisles": {
+                "id": "bananafairyinfrontofkremisles",
+                "Name": "Isles Fairy (In Front of Krem Isles)",
+                "source": "kremislebeyondlift",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyinsidefairyisland": {
+                "id": "bananafairyinsidefairyisland",
+                "Name": "Isles Fairy (Inside Fairy Island)",
+                "source": "bananafairyroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyangryazteclobby": {
+                "id": "bananafairyangryazteclobby",
+                "Name": "Isles Fairy (Angry Aztec Lobby)",
+                "source": "angryazteclobby",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "Name": "hasMoveSwitchsanity",
+                                    "Params": [
+                                        "IslesAztecLobbyFeather",
+                                        false
+                                    ],
+                                    "isFunction": true
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairycreepycastlelobby": {
+                "id": "bananafairycreepycastlelobby",
+                "Name": "Isles Fairy (Creepy Castle Lobby)",
+                "source": "creepycastlelobby",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairycrystalcaveslobby": {
+                "id": "bananafairycrystalcaveslobby",
+                "Name": "Isles Fairy (Crystal Caves Lobby)",
+                "source": "crystalcaveslobby",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "combinator": "OR",
+                            "rules": [
+                                {
+                                    "combinator": "AND",
+                                    "rules": [
+                                        {
+                                            "Name": "primatepunch"
+                                        },
+                                        {
+                                            "Name": "chunky"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "CanPhase",
+                                    "Params": [],
+                                    "isFunction": true,
+                                    "isGlitch": true
+                                },
+                                {
+                                    "Name": "ledgeclip",
+                                    "isGlitch": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairysnideroom": {
+                "id": "bananafairysnideroom",
+                "Name": "Isles Fairy (Snide Room)",
+                "source": "islessnideroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytraininggroundsentrance": {
+                "id": "bananafairytraininggroundsentrance",
+                "Name": "Isles Fairy (Training Grounds Entrance)",
+                "source": "traininggrounds",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytraininggroundshiddenmountain": {
+                "id": "bananafairytraininggroundshiddenmountain",
+                "Name": "Isles Fairy (Training Grounds Hidden Mountain)",
+                "source": "traininggrounds",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "Name": "climbing"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairytreehousewindows": {
+                "id": "bananafairytreehousewindows",
+                "Name": "Isles Fairy (Treehouse Windows)",
+                "source": "treehouse",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairypineappleswitchroom": {
+                "id": "bananafairypineappleswitchroom",
+                "Name": "Helm Fairy (Pineapple Switch Room)",
+                "source": "hideouthelmswitchroom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyunderchunkyroomstairs": {
+                "id": "bananafairyunderchunkyroomstairs",
+                "Name": "Helm Fairy (Under Chunky Room Stairs)",
+                "source": "hideouthelmmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairyabovetheblastomatic": {
+                "id": "bananafairyabovetheblastomatic",
+                "Name": "Helm Fairy (Above the Blast-o-Matic)",
+                "source": "hideouthelmmain",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        },
+                        {
+                            "Name": "rocketbarrelboost"
+                        },
+                        {
+                            "Name": "diddy"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bananafairynavigationroom": {
+                "id": "bananafairynavigationroom",
+                "Name": "Helm Fairy (Navigation Room)",
+                "source": "hideouthelmafterbom",
+                "target": "noitem",
+                "Type": "Location",
+                "sourceType": "Region",
+                "targetType": "Item",
+                "Types": "Fairy",
+                "Class": "Check",
+                "Requires": {
+                    "combinator": "AND",
+                    "rules": [
+                        {
+                            "Name": "camera"
+                        }
+                    ]
+                },
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "noitem",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
             "traininggroundsdonkeycoin0": {
                 "id": "traininggroundsdonkeycoin0",
                 "Name": "Training Grounds Donkey Coin 0",
@@ -101090,6 +105131,556 @@
                     ]
                 }
             },
+            "banana_helm_donkey_all_se": {
+                "id": "banana_helm_donkey_all_se",
+                "Name": "All Banana Level HideoutHelm Donkey",
+                "source": "banana_helm_donkey",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_donkey_se": {
+                "id": "bunch_helm_donkey_se",
+                "Name": "Kong Banana Level HideoutHelm Donkey",
+                "source": "bunch_helm_donkey",
+                "target": "banana_helm_donkey",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_donkey",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_donkey_all_se": {
+                "id": "bunch_helm_donkey_all_se",
+                "Name": "All Banana Level HideoutHelm Donkey",
+                "source": "bunch_helm_donkey",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_donkey_se": {
+                "id": "balloon_helm_donkey_se",
+                "Name": "Kong Banana Level HideoutHelm Donkey",
+                "source": "balloon_helm_donkey",
+                "target": "banana_helm_donkey",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_donkey",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_donkey_all_se": {
+                "id": "balloon_helm_donkey_all_se",
+                "Name": "All Banana Level HideoutHelm Donkey",
+                "source": "balloon_helm_donkey",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "banana_helm_diddy_all_se": {
+                "id": "banana_helm_diddy_all_se",
+                "Name": "All Banana Level HideoutHelm Diddy",
+                "source": "banana_helm_diddy",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_diddy_se": {
+                "id": "bunch_helm_diddy_se",
+                "Name": "Kong Banana Level HideoutHelm Diddy",
+                "source": "bunch_helm_diddy",
+                "target": "banana_helm_diddy",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_diddy",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_diddy_all_se": {
+                "id": "bunch_helm_diddy_all_se",
+                "Name": "All Banana Level HideoutHelm Diddy",
+                "source": "bunch_helm_diddy",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_diddy_se": {
+                "id": "balloon_helm_diddy_se",
+                "Name": "Kong Banana Level HideoutHelm Diddy",
+                "source": "balloon_helm_diddy",
+                "target": "banana_helm_diddy",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_diddy",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_diddy_all_se": {
+                "id": "balloon_helm_diddy_all_se",
+                "Name": "All Banana Level HideoutHelm Diddy",
+                "source": "balloon_helm_diddy",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "banana_helm_lanky_all_se": {
+                "id": "banana_helm_lanky_all_se",
+                "Name": "All Banana Level HideoutHelm Lanky",
+                "source": "banana_helm_lanky",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_lanky_se": {
+                "id": "bunch_helm_lanky_se",
+                "Name": "Kong Banana Level HideoutHelm Lanky",
+                "source": "bunch_helm_lanky",
+                "target": "banana_helm_lanky",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_lanky",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_lanky_all_se": {
+                "id": "bunch_helm_lanky_all_se",
+                "Name": "All Banana Level HideoutHelm Lanky",
+                "source": "bunch_helm_lanky",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_lanky_se": {
+                "id": "balloon_helm_lanky_se",
+                "Name": "Kong Banana Level HideoutHelm Lanky",
+                "source": "balloon_helm_lanky",
+                "target": "banana_helm_lanky",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_lanky",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_lanky_all_se": {
+                "id": "balloon_helm_lanky_all_se",
+                "Name": "All Banana Level HideoutHelm Lanky",
+                "source": "balloon_helm_lanky",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "banana_helm_tiny_all_se": {
+                "id": "banana_helm_tiny_all_se",
+                "Name": "All Banana Level HideoutHelm Tiny",
+                "source": "banana_helm_tiny",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_tiny_se": {
+                "id": "bunch_helm_tiny_se",
+                "Name": "Kong Banana Level HideoutHelm Tiny",
+                "source": "bunch_helm_tiny",
+                "target": "banana_helm_tiny",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_tiny",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_tiny_all_se": {
+                "id": "bunch_helm_tiny_all_se",
+                "Name": "All Banana Level HideoutHelm Tiny",
+                "source": "bunch_helm_tiny",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_tiny_se": {
+                "id": "balloon_helm_tiny_se",
+                "Name": "Kong Banana Level HideoutHelm Tiny",
+                "source": "balloon_helm_tiny",
+                "target": "banana_helm_tiny",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_tiny",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_tiny_all_se": {
+                "id": "balloon_helm_tiny_all_se",
+                "Name": "All Banana Level HideoutHelm Tiny",
+                "source": "balloon_helm_tiny",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "banana_helm_chunky_all_se": {
+                "id": "banana_helm_chunky_all_se",
+                "Name": "All Banana Level HideoutHelm Chunky",
+                "source": "banana_helm_chunky",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_chunky_se": {
+                "id": "bunch_helm_chunky_se",
+                "Name": "Kong Banana Level HideoutHelm Chunky",
+                "source": "bunch_helm_chunky",
+                "target": "banana_helm_chunky",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_chunky",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "bunch_helm_chunky_all_se": {
+                "id": "bunch_helm_chunky_all_se",
+                "Name": "All Banana Level HideoutHelm Chunky",
+                "source": "bunch_helm_chunky",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 5
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_chunky_se": {
+                "id": "balloon_helm_chunky_se",
+                "Name": "Kong Banana Level HideoutHelm Chunky",
+                "source": "balloon_helm_chunky",
+                "target": "banana_helm_chunky",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm_chunky",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
+            "balloon_helm_chunky_all_se": {
+                "id": "balloon_helm_chunky_all_se",
+                "Name": "All Banana Level HideoutHelm Chunky",
+                "source": "balloon_helm_chunky",
+                "target": "banana_helm",
+                "Type": "sideeffect",
+                "sourceType": "Item",
+                "targetType": "Item",
+                "Types": "Multi",
+                "Class": "SideEffect",
+                "Requires": true,
+                "Persona": "any",
+                "Rewards": {
+                    "combinator": "and",
+                    "rules": [
+                        {
+                            "Name": "banana_helm",
+                            "Amount": 10
+                        }
+                    ]
+                }
+            },
             "d-169-japeslobbymiddleright": {
                 "id": "d-169-japeslobbymiddleright",
                 "Name": "Japes Hint Door: Japes Lobby - Middle Right",
@@ -109848,6 +114439,102 @@
             "balloon_castle_chunky": {
                 "id": "balloon_castle_chunky",
                 "Name": "CreepyCastle Chunky Balloon",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "banana_helm": {
+                "id": "banana_helm",
+                "Name": "HideoutHelm Banana",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "banana_helm_donkey": {
+                "id": "banana_helm_donkey",
+                "Name": "HideoutHelm Donkey Banana",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "bunch_helm_donkey": {
+                "id": "bunch_helm_donkey",
+                "Name": "HideoutHelm Donkey Bunch",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "balloon_helm_donkey": {
+                "id": "balloon_helm_donkey",
+                "Name": "HideoutHelm Donkey Balloon",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "banana_helm_diddy": {
+                "id": "banana_helm_diddy",
+                "Name": "HideoutHelm Diddy Banana",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "bunch_helm_diddy": {
+                "id": "bunch_helm_diddy",
+                "Name": "HideoutHelm Diddy Bunch",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "balloon_helm_diddy": {
+                "id": "balloon_helm_diddy",
+                "Name": "HideoutHelm Diddy Balloon",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "banana_helm_lanky": {
+                "id": "banana_helm_lanky",
+                "Name": "HideoutHelm Lanky Banana",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "bunch_helm_lanky": {
+                "id": "bunch_helm_lanky",
+                "Name": "HideoutHelm Lanky Bunch",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "balloon_helm_lanky": {
+                "id": "balloon_helm_lanky",
+                "Name": "HideoutHelm Lanky Balloon",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "banana_helm_tiny": {
+                "id": "banana_helm_tiny",
+                "Name": "HideoutHelm Tiny Banana",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "bunch_helm_tiny": {
+                "id": "bunch_helm_tiny",
+                "Name": "HideoutHelm Tiny Bunch",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "balloon_helm_tiny": {
+                "id": "balloon_helm_tiny",
+                "Name": "HideoutHelm Tiny Balloon",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "banana_helm_chunky": {
+                "id": "banana_helm_chunky",
+                "Name": "HideoutHelm Chunky Banana",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "bunch_helm_chunky": {
+                "id": "bunch_helm_chunky",
+                "Name": "HideoutHelm Chunky Bunch",
+                "Class": "Item",
+                "Type": "Collectible"
+            },
+            "balloon_helm_chunky": {
+                "id": "balloon_helm_chunky",
+                "Name": "HideoutHelm Chunky Balloon",
                 "Class": "Item",
                 "Type": "Collectible"
             },
