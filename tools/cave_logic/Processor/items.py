@@ -37,9 +37,6 @@ def build_items():
 
     # Treat events as items albeit there's not much metadata
     for event in Events:
-
-        # in the absence of a name lets just split the name by camel case
-        # we can fix this in the overrides later
         i = EventNode(event)
         edges[i.id] = i.to_dict()
 

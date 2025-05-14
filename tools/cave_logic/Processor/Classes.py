@@ -208,12 +208,12 @@ class ItemNode:
 class EventNode:
     """A node representing an item in the logic graph."""
 
-    def __init__(self, event: Events):
-        prefix = ""
-
+    def __init__(self, event: Events, prefix: str = ""):
         _id = event if isinstance(event, str) else event.name.lower()
 
-        self.id = (prefix+_id).lower()
+        id = (prefix+_id).lower()
+
+        self.id = id
         self.Name = split_camel_case(event.name)
         self.Class = "Item"
         self.Type = "Event"

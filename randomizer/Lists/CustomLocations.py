@@ -799,7 +799,15 @@ CustomLocations = {
         #     group=5,
         # ),
         CustomLocation(
-            map=Maps.JapesMountain, name="Mountain: Near HiLo Machine", x=326, y=133, z=1510, max_size=32, logic_region=Regions.Mine, logic=lambda l: (l.charge and l.isdiddy) or l.CanPhase(), group=5
+            map=Maps.JapesMountain, 
+            name="Mountain: Near HiLo Machine",
+            x=326, 
+            y=133, 
+            z=1510, 
+            max_size=32, 
+            logic_region=Regions.Mine, 
+            logic=lambda l: (l.charge and l.isdiddy) or l.CanPhase(),
+            group=5,
         ),
         CustomLocation(
             map=Maps.JapesMountain,
@@ -1421,7 +1429,15 @@ CustomLocations = {
             group=7,
         ),
         CustomLocation(
-            map=Maps.AztecTiny5DTemple, name="Tiny 5DT: Dead End", x=329, y=123, z=1420, max_size=48, logic_region=Regions.TinyTemple, logic=lambda l: (l.feather and l.istiny) or l.CanPhase(), group=7
+            map=Maps.AztecTiny5DTemple, 
+            name="Tiny 5DT: Dead End", 
+            x=329, 
+            y=123, 
+            z=1420, 
+            max_size=48, 
+            logic_region=Regions.TinyTemple, 
+            logic=lambda l: (l.feather and l.istiny) or l.CanPhase(),
+            group=7,
         ),
         CustomLocation(
             map=Maps.AztecChunky5DTemple,
@@ -1803,7 +1819,16 @@ CustomLocations = {
             logic=lambda l: (l.punch and l.chunky) or l.phasewalk,
             group=4,
         ),
-        CustomLocation(map=Maps.FranticFactory, name="Arcade Room Bench", x=1922, y=1143, z=1515, max_size=40, logic_region=Regions.FactoryArcadeTunnel, group=4),
+        CustomLocation(
+            map=Maps.FranticFactory, 
+            name="Arcade Room Bench", 
+            x=1922, 
+            y=1143, 
+            z=1515, 
+            max_size=40, 
+            logic_region=Regions.FactoryArcadeTunnel, 
+            group=4,
+        ),
         CustomLocation(
             name="Next to DK Arcade",
             map=Maps.FranticFactory,

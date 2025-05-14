@@ -20,13 +20,18 @@ from randomizer.Lists.Location import LocationListOriginal
 from randomizer.Lists.Minigame import MinigameRequirements
 from randomizer.Lists.KasplatLocations import KasplatLocationList
 from randomizer.Lists.FairyLocations import fairy_locations
+from randomizer.Lists.CustomLocations import CustomLocations
 from randomizer.Logic import RegionsOriginal, CollectibleRegionsOriginal
 from tools.cave_logic.ast_logic import ast_to_json, normalise_name, get_level_name
 from tools.cave_logic.Processor.Classes import CheckEdge, RegionNode, QueryLogic
 
 
 def strip_name(name):
-    return name.replace(" ", "").replace(":", "").replace("-", "").replace("'", "").lower()
+    chars_to_remove = [" ", ":", "-", "'", "."]
+    name = name.lower()
+    for char in chars_to_remove:
+        name = name.replace(char, "")
+    return name
 
 
 # build a region to locations mapping
@@ -150,6 +155,25 @@ def fairy_to_edge(fairy, level):
 
     return CheckEdge(id, name,source, Items.NoItem, "Fairy", Class, requires)
 
+def custom_location_to_edge(custom_location, level):
+
+    level_name = get_level_name(level.name)
+
+    id = "cl-" + level_name.lower() + strip_name(custom_location.name)
+    name = level_name + " Custom Location (" + custom_location.name + ")"
+
+    req = parse_ast_by_separator(
+        custom_location.logic,  "logic=lambda l: ","self.logic = lambda l: ")
+    req_ast = req.body[0].value
+    req2 = ast_to_json(req_ast, {})
+
+    requires = req2["Requires"] if req2 is not None else True
+
+    Class = "Custom Check" if custom_location.selected else "Check"
+    source = RegionNode(custom_location.logic_region, '') if region else None
+
+    return CheckEdge(id, name,source, Items.NoItem, "Custom Location", Class, requires)
+
 
 def collectible_to_edge(collectible, region, index):
     portal_region = RegionsOriginal[region]
@@ -254,6 +278,12 @@ def build_checks():
             if fairy.is_vanilla:
                 continue
             f = fairy_to_edge(fairy, level).to_dict()
+            edges[f['id']] = f
+
+    for level in CustomLocations:
+        custom_locations = CustomLocations[level]
+        for location in custom_locations:
+            f = custom_location_to_edge(location, level).to_dict()
             edges[f['id']] = f
 
     for region, collectibles in CollectibleRegionsOriginal.items():
