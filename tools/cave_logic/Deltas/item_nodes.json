@@ -1020,6 +1020,12 @@
             "Class": "Hint",
             "Type": "Hint"
         },
+        "archipelagoitem": {
+            "id": "archipelagoitem",
+            "Name": "Archipelago Item",
+            "Class": "Item",
+            "Type": "ArchipelagoItem"
+        },
         "bananahoard": {
             "id": "bananahoard",
             "Name": "Banana Hoard",

@@ -2118,6 +2118,12 @@
             "Class": "Region",
             "Type": "Region"
         },
+        "mushroomuppervinefloor": {
+            "id": "mushroomuppervinefloor",
+            "Name": "Mushroom Upper Vine Floor",
+            "Class": "Region",
+            "Type": "Region"
+        },
         "mushroomupper": {
             "id": "mushroomupper",
             "Name": "Mushroom Upper",
@@ -7782,6 +7788,36 @@
             "id": "rr-mushroomuppermid-hr",
             "Name": "Mushroom Upper Middle Hint Region",
             "source": "mushroomuppermid",
+            "target": "hr-mushroominterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-mushroomuppervinefloor-level": {
+            "id": "rr-mushroomuppervinefloor-level",
+            "Name": "Mushroom Upper Vine Floor Level",
+            "source": "mushroomuppervinefloor",
+            "target": "fungiforest",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-mushroomuppervinefloor-map": {
+            "id": "rr-mushroomuppervinefloor-map",
+            "Name": "Mushroom Upper Vine Floor Map",
+            "source": "mushroomuppervinefloor",
+            "target": "map-64",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-mushroomuppervinefloor-hr": {
+            "id": "rr-mushroomuppervinefloor-hr",
+            "Name": "Mushroom Upper Vine Floor Hint Region",
+            "source": "mushroomuppervinefloor",
             "target": "hr-mushroominterior",
             "sourceType": "Region",
             "targetType": "Region",

@@ -11878,10 +11878,25 @@
                                 "Name": "simianspring"
                             },
                             {
-                                "Name": "CanMoontail",
-                                "Params": [],
-                                "isFunction": true,
-                                "isGlitch": true
+                                "combinator": "AND",
+                                "rules": [
+                                    {
+                                        "Name": "CanMoontail",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "combinator": "NOT",
+                                        "rules": [
+                                            {
+                                                "Name": "cabinBarrelMoved",
+                                                "Params": [],
+                                                "isFunction": true
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -28786,7 +28801,7 @@
         "li-forestgmenemy_abovenightdoor": {
             "id": "li-forestgmenemy_abovenightdoor",
             "Name": "Forest Giant Mushroom Enemy: Above Night Door",
-            "source": "mushroomupper",
+            "source": "mushroomuppervinefloor",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -33134,7 +33149,7 @@
         },
         "m-stashsnatchhard": {
             "id": "m-stashsnatchhard",
-            "Name": "Stash Snatch (120 seconds, 4 coins, Stash Snatch Hybrid)",
+            "Name": "Stash Snatch (120 seconds, 4 coins, Stealthy Snoop Hybrid)",
             "source": "",
             "target": "noitem",
             "Type": "Location",
@@ -49932,7 +49947,7 @@
         "cl-forestgiantmushroomnexttoacannon": {
             "id": "cl-forestgiantmushroomnexttoacannon",
             "Name": "Forest Custom Location (Giant Mushroom: Next to a cannon)",
-            "source": "mushroomupper",
+            "source": "mushroomuppervinefloor",
             "target": "noitem",
             "Type": "Location",
             "sourceType": "Region",
@@ -69053,6 +69068,35 @@
                 ]
             }
         },
+        "mushroomuppervinefloorchunkybanana0": {
+            "id": "mushroomuppervinefloorchunkybanana0",
+            "Name": "Mushroom Upper Vine Floor Chunky Banana 0",
+            "source": "mushroomuppervinefloor",
+            "target": "banana_forest_chunky",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "banana",
+            "Class": "Collectible",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "chunky"
+                    }
+                ]
+            },
+            "Persona": "chunky",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "banana_forest_chunky",
+                        "Amount": 3
+                    }
+                ]
+            }
+        },
         "mushroomupperlankyballoon0": {
             "id": "mushroomupperlankyballoon0",
             "Name": "Mushroom Upper Lanky Balloon 0",
@@ -69148,38 +69192,9 @@
                 ]
             }
         },
-        "mushroomupperchunkybanana3": {
-            "id": "mushroomupperchunkybanana3",
-            "Name": "Mushroom Upper Chunky Banana 3",
-            "source": "mushroomupper",
-            "target": "banana_forest_chunky",
-            "Type": "Location",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Types": "banana",
-            "Class": "Collectible",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "chunky"
-                    }
-                ]
-            },
-            "Persona": "chunky",
-            "Rewards": {
-                "combinator": "and",
-                "rules": [
-                    {
-                        "Name": "banana_forest_chunky",
-                        "Amount": 3
-                    }
-                ]
-            }
-        },
-        "mushroomupperchunkybunch4": {
-            "id": "mushroomupperchunkybunch4",
-            "Name": "Mushroom Upper Chunky Bunch 4",
+        "mushroomupperchunkybunch3": {
+            "id": "mushroomupperchunkybunch3",
+            "Name": "Mushroom Upper Chunky Bunch 3",
             "source": "mushroomupper",
             "target": "bunch_forest_chunky",
             "Type": "Location",

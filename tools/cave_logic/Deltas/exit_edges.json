@@ -4716,8 +4716,21 @@
                         "isGlitch": true
                     },
                     {
-                        "Name": "generalclips",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "generalclips",
+                                "isGlitch": true
+                            },
+                            {
+                                "combinator": "NOT",
+                                "rules": [
+                                    {
+                                        "Name": "lanky"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -9555,11 +9568,11 @@
             "Type": "Warp",
             "Requires": true
         },
-        "tn-138-139": {
-            "id": "tn-138-139",
-            "Name": "Mushroom Upper Middle to Mushroom Upper",
+        "tn-138-285": {
+            "id": "tn-138-285",
+            "Name": "Mushroom Upper Middle to Mushroom Upper Vine Floor",
             "source": "mushroomuppermid",
-            "target": "mushroomupper",
+            "target": "mushroomuppervinefloor",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -9591,11 +9604,51 @@
                 ]
             }
         },
-        "tn-139-138": {
-            "id": "tn-139-138",
-            "Name": "Mushroom Upper to Mushroom Upper Middle",
-            "source": "mushroomupper",
+        "tn-285-139": {
+            "id": "tn-285-139",
+            "Name": "Mushroom Upper Vine Floor to Mushroom Upper",
+            "source": "mushroomuppervinefloor",
+            "target": "mushroomupper",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "climbing"
+                    }
+                ]
+            }
+        },
+        "tn-285-28": {
+            "id": "tn-285-28",
+            "Name": "Mushroom Upper Vine Floor Exit Level",
+            "source": "mushroomuppervinefloor",
+            "target": "fungiforestlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-285-138": {
+            "id": "tn-285-138",
+            "Name": "Mushroom Upper Vine Floor to Mushroom Upper Middle",
+            "source": "mushroomuppervinefloor",
             "target": "mushroomuppermid",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": true
+        },
+        "tn-139-285": {
+            "id": "tn-139-285",
+            "Name": "Mushroom Upper to Mushroom Upper Vine Floor",
+            "source": "mushroomupper",
+            "target": "mushroomuppervinefloor",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -16188,61 +16241,6 @@
             "Type": "Neighbourhood",
             "Requires": true
         },
-        "tn-235-236": {
-            "id": "tn-235-236",
-            "Name": "Funky Generic to Funky Japes",
-            "source": "funkygeneric",
-            "target": "funkyjapes",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-235-238": {
-            "id": "tn-235-238",
-            "Name": "Funky Generic to Funky Factory",
-            "source": "funkygeneric",
-            "target": "funkyfactory",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-235-240": {
-            "id": "tn-235-240",
-            "Name": "Funky Generic to Funky Forest",
-            "source": "funkygeneric",
-            "target": "funkyforest",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-235-241": {
-            "id": "tn-235-241",
-            "Name": "Funky Generic to Funky Caves",
-            "source": "funkygeneric",
-            "target": "funkycaves",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-235-242": {
-            "id": "tn-235-242",
-            "Name": "Funky Generic to Funky Castle",
-            "source": "funkygeneric",
-            "target": "funkycastle",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
         "tn-236-235": {
             "id": "tn-236-235",
             "Name": "Funky Japes to Funky Generic",
@@ -16252,7 +16250,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-236-38": {
             "id": "tn-236-38",
@@ -16296,7 +16294,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-238-82": {
             "id": "tn-238-82",
@@ -16340,7 +16338,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-240-157": {
             "id": "tn-240-157",
@@ -16362,7 +16360,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-241-166": {
             "id": "tn-241-166",
@@ -16384,7 +16382,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-242-211": {
             "id": "tn-242-211",
@@ -16397,50 +16395,6 @@
             "Type": "Neighbourhood",
             "Requires": true
         },
-        "tn-243-244": {
-            "id": "tn-243-244",
-            "Name": "Candy Generic to Candy Aztec",
-            "source": "candygeneric",
-            "target": "candyaztec",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-243-246": {
-            "id": "tn-243-246",
-            "Name": "Candy Generic to Candy Galleon",
-            "source": "candygeneric",
-            "target": "candygalleon",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-243-247": {
-            "id": "tn-243-247",
-            "Name": "Candy Generic to Candy Caves",
-            "source": "candygeneric",
-            "target": "candycaves",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-243-248": {
-            "id": "tn-243-248",
-            "Name": "Candy Generic to Candy Castle",
-            "source": "candygeneric",
-            "target": "candycastle",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
         "tn-244-243": {
             "id": "tn-244-243",
             "Name": "Candy Aztec to Candy Generic",
@@ -16450,7 +16404,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-244-60": {
             "id": "tn-244-60",
@@ -16494,7 +16448,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-246-111": {
             "id": "tn-246-111",
@@ -16516,7 +16470,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-247-182": {
             "id": "tn-247-182",
@@ -16538,7 +16492,7 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": false
         },
         "tn-248-215": {
             "id": "tn-248-215",
@@ -16550,72 +16504,6 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": true
-        },
-        "tn-249-250": {
-            "id": "tn-249-250",
-            "Name": "Cranky Generic to Cranky Japes",
-            "source": "crankygeneric",
-            "target": "crankyjapes",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-249-251": {
-            "id": "tn-249-251",
-            "Name": "Cranky Generic to Cranky Aztec",
-            "source": "crankygeneric",
-            "target": "crankyaztec",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-249-252": {
-            "id": "tn-249-252",
-            "Name": "Cranky Generic to Cranky Factory",
-            "source": "crankygeneric",
-            "target": "crankyfactory",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-249-254": {
-            "id": "tn-249-254",
-            "Name": "Cranky Generic to Cranky Forest",
-            "source": "crankygeneric",
-            "target": "crankyforest",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-249-255": {
-            "id": "tn-249-255",
-            "Name": "Cranky Generic to Cranky Caves",
-            "source": "crankygeneric",
-            "target": "crankycaves",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
-        },
-        "tn-249-256": {
-            "id": "tn-249-256",
-            "Name": "Cranky Generic to Cranky Castle",
-            "source": "crankygeneric",
-            "target": "crankycastle",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": false
         },
         "tn-250-249": {
             "id": "tn-250-249",
