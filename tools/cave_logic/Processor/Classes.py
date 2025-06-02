@@ -186,6 +186,9 @@ class ItemNode:
 
         _id = id if isinstance(id, str) else id.name.lower()
 
+        if id == Items.Bean:
+            _id = "thebean"
+
         self.id = (prefix+_id).lower()
         self.Name = item.name
         self.Class = "Item"

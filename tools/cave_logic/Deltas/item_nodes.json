@@ -468,11 +468,11 @@
             "Class": "Item",
             "Type": "Crown"
         },
-        "bean": {
-            "id": "bean",
-            "Name": "Bean",
+        "thebean": {
+            "id": "thebean",
+            "Name": "The Bean",
             "Class": "Item",
-            "Type": "Event"
+            "Type": "Bean"
         },
         "pearl": {
             "id": "pearl",
@@ -1389,6 +1389,12 @@
         "donkeymushroomswitch": {
             "id": "donkeymushroomswitch",
             "Name": "Donkey Mushroom Switch",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "bean": {
+            "id": "bean",
+            "Name": "Bean",
             "Class": "Item",
             "Type": "Event"
         },

@@ -32,7 +32,7 @@ def build_items():
         if (id == Items.TestItem):
             continue
 
-        i = ItemNode(id.name, item)
+        i = ItemNode(id,item)
         edges[i.id] = i.to_dict()
 
     # Treat events as items albeit there's not much metadata
