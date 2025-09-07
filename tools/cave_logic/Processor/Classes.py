@@ -89,7 +89,7 @@ class RegionEdge:
 
     def to_dict(self):
         """Convert the RegionEdge to a dictionary."""
-        return {
+        output = {
             "id": self.id,
             "Name": self.Name,
             "source": self.source,
@@ -100,6 +100,9 @@ class RegionEdge:
             "Type": self.Type,
             "Requires": self.Requires
         }
+        if hasattr(self, 'Types'):
+            output["Types"] = self.Types
+        return output
 
     def to_json(self):
         """Convert the RegionEdge to a JSON string."""

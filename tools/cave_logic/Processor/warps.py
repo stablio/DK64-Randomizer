@@ -63,6 +63,9 @@ def build_warps():
 
         r = exit_to_edge(id,source, dest, exit_name, True)
 
+        r.Type = "Warp"
+        r.Types = "Bananaport"
+
         r.Requires = {
             "combinator": "and",
             "rules": [

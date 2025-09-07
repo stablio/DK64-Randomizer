@@ -8,7 +8,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -19,7 +19,8 @@
                         "Name": "JapesW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-35-35-w-2-1": {
             "id": "tn-35-35-w-2-1",
@@ -29,7 +30,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -40,7 +41,8 @@
                         "Name": "JapesW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-35-39-w-3-4": {
             "id": "tn-35-39-w-3-4",
@@ -50,7 +52,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -61,7 +63,8 @@
                         "Name": "JapesW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-39-35-w-4-3": {
             "id": "tn-39-35-w-4-3",
@@ -71,7 +74,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -82,7 +85,8 @@
                         "Name": "JapesW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-36-35-w-5-6": {
             "id": "tn-36-35-w-5-6",
@@ -92,7 +96,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -103,7 +107,8 @@
                         "Name": "JapesW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-35-36-w-6-5": {
             "id": "tn-35-36-w-6-5",
@@ -113,7 +118,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -124,7 +129,8 @@
                         "Name": "JapesW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-45-45-w-7-8": {
             "id": "tn-45-45-w-7-8",
@@ -134,7 +140,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -145,7 +151,8 @@
                         "Name": "JapesW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-45-45-w-8-7": {
             "id": "tn-45-45-w-8-7",
@@ -155,7 +162,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -166,7 +173,8 @@
                         "Name": "JapesW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-43-49-w-9-10": {
             "id": "tn-43-49-w-9-10",
@@ -176,7 +184,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -187,7 +195,8 @@
                         "Name": "JapesW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-49-43-w-10-9": {
             "id": "tn-49-43-w-10-9",
@@ -197,7 +206,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -208,7 +217,8 @@
                         "Name": "JapesW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-58-60-w-11-12": {
             "id": "tn-58-60-w-11-12",
@@ -218,7 +228,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -229,7 +239,8 @@
                         "Name": "AztecW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-60-58-w-12-11": {
             "id": "tn-60-58-w-12-11",
@@ -239,7 +250,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -250,7 +261,8 @@
                         "Name": "AztecW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-60-66-w-13-14": {
             "id": "tn-60-66-w-13-14",
@@ -260,7 +272,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -271,7 +283,8 @@
                         "Name": "AztecW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-66-60-w-14-13": {
             "id": "tn-66-60-w-14-13",
@@ -281,7 +294,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -292,7 +305,8 @@
                         "Name": "AztecW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-66-65-w-15-16": {
             "id": "tn-66-65-w-15-16",
@@ -302,7 +316,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -313,7 +327,8 @@
                         "Name": "AztecW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-65-66-w-16-15": {
             "id": "tn-65-66-w-16-15",
@@ -323,7 +338,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -334,7 +349,8 @@
                         "Name": "AztecW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-66-66-w-17-18": {
             "id": "tn-66-66-w-17-18",
@@ -344,7 +360,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -355,7 +371,8 @@
                         "Name": "AztecW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-66-66-w-18-17": {
             "id": "tn-66-66-w-18-17",
@@ -365,7 +382,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -376,7 +393,8 @@
                         "Name": "AztecW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-66-67-w-19-20": {
             "id": "tn-66-67-w-19-20",
@@ -386,7 +404,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -397,7 +415,8 @@
                         "Name": "AztecW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-67-66-w-20-19": {
             "id": "tn-67-66-w-20-19",
@@ -407,7 +426,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -418,7 +437,8 @@
                         "Name": "AztecW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-74-74-w-21-22": {
             "id": "tn-74-74-w-21-22",
@@ -428,7 +448,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -439,7 +459,8 @@
                         "Name": "LlamaW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-74-74-w-22-21": {
             "id": "tn-74-74-w-22-21",
@@ -449,7 +470,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -460,7 +481,8 @@
                         "Name": "LlamaW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-74-75-w-23-24": {
             "id": "tn-74-75-w-23-24",
@@ -470,7 +492,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -481,7 +503,8 @@
                         "Name": "LlamaW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-75-74-w-24-23": {
             "id": "tn-75-74-w-24-23",
@@ -491,7 +514,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -502,7 +525,8 @@
                         "Name": "LlamaW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-81-90-w-25-26": {
             "id": "tn-81-90-w-25-26",
@@ -512,7 +536,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -523,7 +547,8 @@
                         "Name": "FactoryW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-90-81-w-26-25": {
             "id": "tn-90-81-w-26-25",
@@ -533,7 +558,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -544,7 +569,8 @@
                         "Name": "FactoryW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-81-83-w-27-28": {
             "id": "tn-81-83-w-27-28",
@@ -554,7 +580,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -565,7 +591,8 @@
                         "Name": "FactoryW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-83-81-w-28-27": {
             "id": "tn-83-81-w-28-27",
@@ -575,7 +602,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -586,7 +613,8 @@
                         "Name": "FactoryW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-81-82-w-29-30": {
             "id": "tn-81-82-w-29-30",
@@ -596,7 +624,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -607,7 +635,8 @@
                         "Name": "FactoryW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-82-81-w-30-29": {
             "id": "tn-82-81-w-30-29",
@@ -617,7 +646,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -628,7 +657,8 @@
                         "Name": "FactoryW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-91-94-w-31-32": {
             "id": "tn-91-94-w-31-32",
@@ -638,7 +668,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -649,7 +679,8 @@
                         "Name": "FactoryW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-94-91-w-32-31": {
             "id": "tn-94-91-w-32-31",
@@ -659,7 +690,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -670,7 +701,8 @@
                         "Name": "FactoryW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-85-82-w-33-34": {
             "id": "tn-85-82-w-33-34",
@@ -680,7 +712,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -691,7 +723,8 @@
                         "Name": "FactoryW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-82-85-w-34-33": {
             "id": "tn-82-85-w-34-33",
@@ -701,7 +734,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -712,7 +745,8 @@
                         "Name": "FactoryW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-101-105-w-35-36": {
             "id": "tn-101-105-w-35-36",
@@ -722,7 +756,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -733,7 +767,8 @@
                         "Name": "GalleonW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-105-101-w-36-35": {
             "id": "tn-105-101-w-36-35",
@@ -743,7 +778,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -754,7 +789,8 @@
                         "Name": "GalleonW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-101-111-w-37-38": {
             "id": "tn-101-111-w-37-38",
@@ -764,7 +800,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -775,7 +811,8 @@
                         "Name": "GalleonW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-111-101-w-38-37": {
             "id": "tn-111-101-w-38-37",
@@ -785,7 +822,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -796,7 +833,8 @@
                         "Name": "GalleonW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-102-107-w-39-40": {
             "id": "tn-102-107-w-39-40",
@@ -806,7 +844,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -817,7 +855,8 @@
                         "Name": "GalleonW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-107-102-w-40-39": {
             "id": "tn-107-102-w-40-39",
@@ -827,7 +866,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -838,7 +877,8 @@
                         "Name": "GalleonW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-115-111-w-41-42": {
             "id": "tn-115-111-w-41-42",
@@ -848,7 +888,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -859,7 +899,8 @@
                         "Name": "GalleonW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-111-115-w-42-41": {
             "id": "tn-111-115-w-42-41",
@@ -869,7 +910,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -880,7 +921,8 @@
                         "Name": "GalleonW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-105-111-w-43-44": {
             "id": "tn-105-111-w-43-44",
@@ -890,7 +932,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -901,7 +943,8 @@
                         "Name": "GalleonW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-111-105-w-44-43": {
             "id": "tn-111-105-w-44-43",
@@ -911,7 +954,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -922,7 +965,8 @@
                         "Name": "GalleonW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-131-148-w-45-46": {
             "id": "tn-131-148-w-45-46",
@@ -932,7 +976,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -943,7 +987,8 @@
                         "Name": "ForestW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-148-131-w-46-45": {
             "id": "tn-148-131-w-46-45",
@@ -953,7 +998,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -964,7 +1009,8 @@
                         "Name": "ForestW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-131-157-w-47-48": {
             "id": "tn-131-157-w-47-48",
@@ -974,7 +1020,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -985,7 +1031,8 @@
                         "Name": "ForestW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-157-131-w-48-47": {
             "id": "tn-157-131-w-48-47",
@@ -995,7 +1042,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1006,7 +1053,8 @@
                         "Name": "ForestW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-131-133-w-49-50": {
             "id": "tn-131-133-w-49-50",
@@ -1016,7 +1064,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1027,7 +1075,8 @@
                         "Name": "ForestW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-133-131-w-50-49": {
             "id": "tn-133-131-w-50-49",
@@ -1037,7 +1086,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1048,7 +1097,8 @@
                         "Name": "ForestW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-131-146-w-51-52": {
             "id": "tn-131-146-w-51-52",
@@ -1058,7 +1108,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1069,7 +1119,8 @@
                         "Name": "ForestW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-146-131-w-52-51": {
             "id": "tn-146-131-w-52-51",
@@ -1079,7 +1130,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1090,7 +1141,8 @@
                         "Name": "ForestW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-142-133-w-53-54": {
             "id": "tn-142-133-w-53-54",
@@ -1100,7 +1152,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1111,7 +1163,8 @@
                         "Name": "ForestW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-133-142-w-54-53": {
             "id": "tn-133-142-w-54-53",
@@ -1121,7 +1174,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1132,7 +1185,8 @@
                         "Name": "ForestW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-166-175-w-55-56": {
             "id": "tn-166-175-w-55-56",
@@ -1142,7 +1196,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1153,7 +1207,8 @@
                         "Name": "CavesW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-175-166-w-56-55": {
             "id": "tn-175-166-w-56-55",
@@ -1163,7 +1218,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1174,7 +1229,8 @@
                         "Name": "CavesW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-166-182-w-57-58": {
             "id": "tn-166-182-w-57-58",
@@ -1184,7 +1240,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1195,7 +1251,8 @@
                         "Name": "CavesW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-182-166-w-58-57": {
             "id": "tn-182-166-w-58-57",
@@ -1205,7 +1262,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1216,7 +1273,8 @@
                         "Name": "CavesW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-175-169-w-59-60": {
             "id": "tn-175-169-w-59-60",
@@ -1226,7 +1284,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1237,7 +1295,8 @@
                         "Name": "CavesW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-169-175-w-60-59": {
             "id": "tn-169-175-w-60-59",
@@ -1247,7 +1306,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1258,7 +1317,8 @@
                         "Name": "CavesW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-171-168-w-61-62": {
             "id": "tn-171-168-w-61-62",
@@ -1268,7 +1328,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1279,7 +1339,8 @@
                         "Name": "CavesW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-168-171-w-62-61": {
             "id": "tn-168-171-w-62-61",
@@ -1289,7 +1350,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1300,7 +1361,8 @@
                         "Name": "CavesW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-170-182-w-63-64": {
             "id": "tn-170-182-w-63-64",
@@ -1310,7 +1372,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1321,7 +1383,8 @@
                         "Name": "CavesW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-182-170-w-64-63": {
             "id": "tn-182-170-w-64-63",
@@ -1331,7 +1394,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1342,7 +1405,8 @@
                         "Name": "CavesW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-65-66": {
             "id": "tn-195-195-w-65-66",
@@ -1352,7 +1416,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1363,7 +1427,8 @@
                         "Name": "CastleW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-66-65": {
             "id": "tn-195-195-w-66-65",
@@ -1373,7 +1438,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1384,7 +1449,8 @@
                         "Name": "CastleW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-67-68": {
             "id": "tn-195-195-w-67-68",
@@ -1394,7 +1460,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1405,7 +1471,8 @@
                         "Name": "CastleW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-68-67": {
             "id": "tn-195-195-w-68-67",
@@ -1415,7 +1482,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1426,7 +1493,8 @@
                         "Name": "CastleW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-69-70": {
             "id": "tn-195-195-w-69-70",
@@ -1436,7 +1504,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1447,7 +1515,8 @@
                         "Name": "CastleW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-70-69": {
             "id": "tn-195-195-w-70-69",
@@ -1457,7 +1526,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1468,7 +1537,8 @@
                         "Name": "CastleW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-71-72": {
             "id": "tn-195-195-w-71-72",
@@ -1478,7 +1548,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1489,7 +1559,8 @@
                         "Name": "CastleW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-72-71": {
             "id": "tn-195-195-w-72-71",
@@ -1499,7 +1570,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1510,7 +1581,8 @@
                         "Name": "CastleW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-73-74": {
             "id": "tn-195-195-w-73-74",
@@ -1520,7 +1592,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1531,7 +1603,8 @@
                         "Name": "CastleW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-195-195-w-74-73": {
             "id": "tn-195-195-w-74-73",
@@ -1541,7 +1614,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1552,7 +1625,8 @@
                         "Name": "CastleW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-212-212-w-75-76": {
             "id": "tn-212-212-w-75-76",
@@ -1562,7 +1636,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1573,7 +1647,8 @@
                         "Name": "CryptW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-212-212-w-76-75": {
             "id": "tn-212-212-w-76-75",
@@ -1583,7 +1658,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1594,7 +1669,8 @@
                         "Name": "CryptW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-212-212-w-77-78": {
             "id": "tn-212-212-w-77-78",
@@ -1604,7 +1680,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1615,7 +1691,8 @@
                         "Name": "CryptW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-212-212-w-78-77": {
             "id": "tn-212-212-w-78-77",
@@ -1625,7 +1702,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1636,7 +1713,8 @@
                         "Name": "CryptW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-212-212-w-79-80": {
             "id": "tn-212-212-w-79-80",
@@ -1646,7 +1724,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1657,7 +1735,8 @@
                         "Name": "CryptW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-212-212-w-80-79": {
             "id": "tn-212-212-w-80-79",
@@ -1667,7 +1746,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1678,7 +1757,8 @@
                         "Name": "CryptW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-6-w-81-82": {
             "id": "tn-6-6-w-81-82",
@@ -1688,7 +1768,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1699,7 +1779,8 @@
                         "Name": "IslesW1bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-6-w-82-81": {
             "id": "tn-6-6-w-82-81",
@@ -1709,7 +1790,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1720,7 +1801,8 @@
                         "Name": "IslesW1aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-8-w-83-84": {
             "id": "tn-6-8-w-83-84",
@@ -1730,7 +1812,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1741,7 +1823,8 @@
                         "Name": "IslesW2bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-8-6-w-84-83": {
             "id": "tn-8-6-w-84-83",
@@ -1751,7 +1834,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1762,7 +1845,8 @@
                         "Name": "IslesW2aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-6-w-85-86": {
             "id": "tn-6-6-w-85-86",
@@ -1772,7 +1856,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1783,7 +1867,8 @@
                         "Name": "IslesW3bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-6-w-86-85": {
             "id": "tn-6-6-w-86-85",
@@ -1793,7 +1878,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1804,7 +1889,8 @@
                         "Name": "IslesW3aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-17-w-87-88": {
             "id": "tn-6-17-w-87-88",
@@ -1814,7 +1900,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1825,7 +1911,8 @@
                         "Name": "IslesW4bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-17-6-w-88-87": {
             "id": "tn-17-6-w-88-87",
@@ -1835,7 +1922,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1846,7 +1933,8 @@
                         "Name": "IslesW4aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-6-7-w-89-90": {
             "id": "tn-6-7-w-89-90",
@@ -1856,7 +1944,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1867,7 +1955,8 @@
                         "Name": "IslesW5bTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         },
         "tn-7-6-w-90-89": {
             "id": "tn-7-6-w-90-89",
@@ -1877,7 +1966,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": true,
+            "Type": "Warp",
             "Requires": {
                 "combinator": "and",
                 "rules": [
@@ -1888,7 +1977,8 @@
                         "Name": "IslesW5aTagged"
                     }
                 ]
-            }
+            },
+            "Types": "Bananaport"
         }
     }
 }
