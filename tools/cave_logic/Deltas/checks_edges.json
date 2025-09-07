@@ -5287,10 +5287,19 @@
                                 "Name": "triangle"
                             },
                             {
-                                "Name": "CanPhaseswim",
-                                "Params": [],
-                                "isFunction": true,
-                                "isGlitch": true
+                                "combinator": "AND",
+                                "rules": [
+                                    {
+                                        "Name": "CanPhaseswim",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "AztecIceMelted",
+                                        "Events": true
+                                    }
+                                ]
                             },
                             {
                                 "Name": "CanPhase",
@@ -11818,10 +11827,25 @@
                                 "Name": "simianspring"
                             },
                             {
-                                "Name": "CanMoontail",
-                                "Params": [],
-                                "isFunction": true,
-                                "isGlitch": true
+                                "combinator": "AND",
+                                "rules": [
+                                    {
+                                        "Name": "CanMoontail",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    },
+                                    {
+                                        "combinator": "NOT",
+                                        "rules": [
+                                            {
+                                                "Name": "cabinBarrelMoved",
+                                                "Params": [],
+                                                "isFunction": true
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -56539,9 +56563,38 @@
                 ]
             }
         },
-        "junglejapesstarttinybanana7": {
-            "id": "junglejapesstarttinybanana7",
-            "Name": "Jungle Japes Start Tiny Banana 7",
+        "junglejapesstartlankybanana7": {
+            "id": "junglejapesstartlankybanana7",
+            "Name": "Jungle Japes Start Lanky Banana 7",
+            "source": "junglejapesstart",
+            "target": "banana_japes_lanky",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "banana",
+            "Class": "Collectible",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "lanky"
+                    }
+                ]
+            },
+            "Persona": "lanky",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "banana_japes_lanky",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
+        "junglejapesstarttinybanana8": {
+            "id": "junglejapesstarttinybanana8",
+            "Name": "Jungle Japes Start Tiny Banana 8",
             "source": "junglejapesstart",
             "target": "banana_japes_tiny",
             "Type": "Location",
@@ -56568,9 +56621,9 @@
                 ]
             }
         },
-        "junglejapesstartchunkybanana8": {
-            "id": "junglejapesstartchunkybanana8",
-            "Name": "Jungle Japes Start Chunky Banana 8",
+        "junglejapesstartchunkybanana9": {
+            "id": "junglejapesstartchunkybanana9",
+            "Name": "Jungle Japes Start Chunky Banana 9",
             "source": "junglejapesstart",
             "target": "banana_japes_chunky",
             "Type": "Location",
@@ -56597,9 +56650,9 @@
                 ]
             }
         },
-        "junglejapesstartdonkeycoin9": {
-            "id": "junglejapesstartdonkeycoin9",
-            "Name": "Jungle Japes Start Donkey Coin 9",
+        "junglejapesstartdonkeycoin10": {
+            "id": "junglejapesstartdonkeycoin10",
+            "Name": "Jungle Japes Start Donkey Coin 10",
             "source": "junglejapesstart",
             "target": "coin_donkey",
             "Type": "Location",
@@ -56626,9 +56679,9 @@
                 ]
             }
         },
-        "junglejapesstartdiddycoin10": {
-            "id": "junglejapesstartdiddycoin10",
-            "Name": "Jungle Japes Start Diddy Coin 10",
+        "junglejapesstartdiddycoin11": {
+            "id": "junglejapesstartdiddycoin11",
+            "Name": "Jungle Japes Start Diddy Coin 11",
             "source": "junglejapesstart",
             "target": "coin_diddy",
             "Type": "Location",
@@ -56663,9 +56716,9 @@
                 ]
             }
         },
-        "junglejapesstartlankycoin11": {
-            "id": "junglejapesstartlankycoin11",
-            "Name": "Jungle Japes Start Lanky Coin 11",
+        "junglejapesstartlankycoin12": {
+            "id": "junglejapesstartlankycoin12",
+            "Name": "Jungle Japes Start Lanky Coin 12",
             "source": "junglejapesstart",
             "target": "coin_lanky",
             "Type": "Location",
@@ -56700,9 +56753,9 @@
                 ]
             }
         },
-        "junglejapesstartchunkycoin12": {
-            "id": "junglejapesstartchunkycoin12",
-            "Name": "Jungle Japes Start Chunky Coin 12",
+        "junglejapesstartchunkycoin13": {
+            "id": "junglejapesstartchunkycoin13",
+            "Name": "Jungle Japes Start Chunky Coin 13",
             "source": "junglejapesstart",
             "target": "coin_chunky",
             "Type": "Location",
@@ -56729,9 +56782,9 @@
                 ]
             }
         },
-        "junglejapesstartchunkycoin13": {
-            "id": "junglejapesstartchunkycoin13",
-            "Name": "Jungle Japes Start Chunky Coin 13",
+        "junglejapesstartchunkycoin14": {
+            "id": "junglejapesstartchunkycoin14",
+            "Name": "Jungle Japes Start Chunky Coin 14",
             "source": "junglejapesstart",
             "target": "coin_chunky",
             "Type": "Location",
@@ -57244,7 +57297,7 @@
                 "rules": [
                     {
                         "Name": "banana_japes_lanky",
-                        "Amount": 3
+                        "Amount": 2
                     }
                 ]
             }
@@ -61640,10 +61693,6 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "AztecDonkeySwitch",
-                                "Events": true
-                            },
-                            {
                                 "Name": "strongkong"
                             }
                         ]
@@ -62708,9 +62757,38 @@
                 ]
             }
         },
-        "franticfactorystartchunkybunch2": {
-            "id": "franticfactorystartchunkybunch2",
-            "Name": "Frantic Factory Start Chunky Bunch 2",
+        "franticfactorystarttinybanana2": {
+            "id": "franticfactorystarttinybanana2",
+            "Name": "Frantic Factory Start Tiny Banana 2",
+            "source": "franticfactorystart",
+            "target": "banana_factory_tiny",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "banana",
+            "Class": "Collectible",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "tiny"
+                    }
+                ]
+            },
+            "Persona": "tiny",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "banana_factory_tiny",
+                        "Amount": 3
+                    }
+                ]
+            }
+        },
+        "franticfactorystartchunkybunch3": {
+            "id": "franticfactorystartchunkybunch3",
+            "Name": "Frantic Factory Start Chunky Bunch 3",
             "source": "franticfactorystart",
             "target": "bunch_factory_chunky",
             "Type": "Location",
@@ -62737,9 +62815,9 @@
                 ]
             }
         },
-        "franticfactorystartchunkybanana3": {
-            "id": "franticfactorystartchunkybanana3",
-            "Name": "Frantic Factory Start Chunky Banana 3",
+        "franticfactorystartchunkybanana4": {
+            "id": "franticfactorystartchunkybanana4",
+            "Name": "Frantic Factory Start Chunky Banana 4",
             "source": "franticfactorystart",
             "target": "banana_factory_chunky",
             "Type": "Location",
@@ -62775,9 +62853,9 @@
                 ]
             }
         },
-        "franticfactorystartchunkyballoon4": {
-            "id": "franticfactorystartchunkyballoon4",
-            "Name": "Frantic Factory Start Chunky Balloon 4",
+        "franticfactorystartchunkyballoon5": {
+            "id": "franticfactorystartchunkyballoon5",
+            "Name": "Frantic Factory Start Chunky Balloon 5",
             "source": "franticfactorystart",
             "target": "balloon_factory_chunky",
             "Type": "Location",
@@ -62812,9 +62890,9 @@
                 ]
             }
         },
-        "franticfactorystartchunkycoin5": {
-            "id": "franticfactorystartchunkycoin5",
-            "Name": "Frantic Factory Start Chunky Coin 5",
+        "franticfactorystartchunkycoin6": {
+            "id": "franticfactorystartchunkycoin6",
+            "Name": "Frantic Factory Start Chunky Coin 6",
             "source": "franticfactorystart",
             "target": "coin_chunky",
             "Type": "Location",
@@ -63032,7 +63110,7 @@
                 "rules": [
                     {
                         "Name": "banana_factory_tiny",
-                        "Amount": 10
+                        "Amount": 7
                     }
                 ]
             }

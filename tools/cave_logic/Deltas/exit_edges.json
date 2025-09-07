@@ -545,31 +545,26 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
-                        "combinator": "OR",
-                        "rules": [
-                            {
-                                "Name": "open_lobbies"
-                            },
-                            {
-                                "Name": "ForestKeyTurnedIn",
-                                "Events": true
-                            }
-                        ]
+                        "Name": "CanMoonkick",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
                     },
                     {
-                        "combinator": "OR",
+                        "combinator": "AND",
                         "rules": [
                             {
-                                "combinator": "AND",
+                                "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "tiny"
+                                        "Name": "open_lobbies"
                                     },
                                     {
-                                        "Name": "ponytailtwirl"
+                                        "Name": "ForestKeyTurnedIn",
+                                        "Events": true
                                     }
                                 ]
                             },
@@ -577,14 +572,25 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "Name": "donkey"
-                                    },
-                                    {
-                                        "Name": "chunky"
-                                    },
-                                    {
                                         "combinator": "AND",
                                         "rules": [
+                                            {
+                                                "Name": "tiny"
+                                            },
+                                            {
+                                                "Name": "ponytailtwirl"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "combinator": "OR",
+                                        "rules": [
+                                            {
+                                                "Name": "donkey"
+                                            },
+                                            {
+                                                "Name": "chunky"
+                                            },
                                             {
                                                 "combinator": "AND",
                                                 "rules": [
@@ -602,30 +608,24 @@
                                                     {
                                                         "Name": "advanced_platforming",
                                                         "isGlitch": true
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "combinator": "NOT",
-                                                "rules": [
+                                                    },
                                                     {
-                                                        "Name": "isKrushaAdjacent",
-                                                        "Params": [
-                                                            "kong"
-                                                        ],
-                                                        "isFunction": true
+                                                        "combinator": "NOT",
+                                                        "rules": [
+                                                            {
+                                                                "Name": "isKrushaAdjacent",
+                                                                "Params": [
+                                                                    "kong"
+                                                                ],
+                                                                "isFunction": true
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
                                         ]
                                     }
                                 ]
-                            },
-                            {
-                                "Name": "CanMoonkick",
-                                "Params": [],
-                                "isFunction": true,
-                                "isGlitch": true
                             }
                         ]
                     }
@@ -1963,7 +1963,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-35-38": {
@@ -2271,7 +2271,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-264-54": {
@@ -2314,7 +2314,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-40-36": {
@@ -2372,7 +2372,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-39-37": {
@@ -2516,7 +2516,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-38-40": {
@@ -2585,7 +2585,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-36-40": {
@@ -2998,7 +2998,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-263-47": {
@@ -3065,7 +3065,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-37-52": {
@@ -3105,7 +3105,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-54-264": {
@@ -3127,7 +3127,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-41-35": {
@@ -3149,7 +3149,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-41-52": {
@@ -3189,7 +3189,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-42-43": {
@@ -3263,7 +3263,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-43-44": {
@@ -3392,7 +3392,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-45-35": {
@@ -3414,7 +3414,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-45-36": {
@@ -3559,7 +3559,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-46-45": {
@@ -3581,7 +3581,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-46-52": {
@@ -3621,7 +3621,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-48-39": {
@@ -3643,7 +3643,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-48-50": {
@@ -3733,7 +3733,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-51-35": {
@@ -3755,7 +3755,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-52-53": {
@@ -3788,7 +3788,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-56-15": {
@@ -3859,7 +3859,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-58-57": {
@@ -3905,7 +3905,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-58-59": {
@@ -3989,7 +3989,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-59-60": {
@@ -4022,7 +4022,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-60-61": {
@@ -4186,7 +4186,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-61-266": {
@@ -4259,7 +4259,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-62-61": {
@@ -4289,7 +4289,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-62-63": {
@@ -4340,7 +4340,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-64-62": {
@@ -4369,7 +4369,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-65-60": {
@@ -4391,7 +4391,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-65-66": {
@@ -4442,7 +4442,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-66-68": {
@@ -4913,7 +4913,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-78-66": {
@@ -4935,7 +4935,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-68-66": {
@@ -4957,7 +4957,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-68-267": {
@@ -5011,7 +5011,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-69-66": {
@@ -5033,7 +5033,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-69-268": {
@@ -5087,7 +5087,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-269-66": {
@@ -5109,7 +5109,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-269-70": {
@@ -5163,7 +5163,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-270-66": {
@@ -5185,7 +5185,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-270-71": {
@@ -5239,7 +5239,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-271-66": {
@@ -5261,7 +5261,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-271-72": {
@@ -5315,7 +5315,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-73-66": {
@@ -5337,7 +5337,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-74-66": {
@@ -5359,7 +5359,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-74-265": {
@@ -5455,7 +5455,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-75-74": {
@@ -5477,7 +5477,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-76-77": {
@@ -5510,7 +5510,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-80-21": {
@@ -5576,7 +5576,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-81-91": {
@@ -5656,7 +5656,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-82-83": {
@@ -5750,7 +5750,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-84-83": {
@@ -5783,7 +5783,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-83-84": {
@@ -5942,7 +5942,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-86-87": {
@@ -5996,7 +5996,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-88-89": {
@@ -6045,7 +6045,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-88-90": {
@@ -6078,7 +6078,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-90-85": {
@@ -6107,7 +6107,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-90-91": {
@@ -6120,6 +6120,54 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": true
+        },
+        "tn-90-88": {
+            "id": "tn-90-88",
+            "Name": "Beyond Hatch to Chunky Room Platform",
+            "source": "beyondhatch",
+            "target": "chunkyroomplatform",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "Name": "CanMoonkick",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "ponytailtwirl"
+                            },
+                            {
+                                "Name": "tiny"
+                            },
+                            {
+                                "Name": "advanced_platforming",
+                                "isGlitch": true
+                            }
+                        ]
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "diddy"
+                            },
+                            {
+                                "Name": "advanced_platforming",
+                                "isGlitch": true
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         "tn-90-252": {
             "id": "tn-90-252",
@@ -6236,7 +6284,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-85-90": {
@@ -6258,7 +6306,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-98-90": {
@@ -6280,7 +6328,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-259-91": {
@@ -6302,7 +6350,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-259-81": {
@@ -6346,7 +6394,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-91-259": {
@@ -6456,7 +6504,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-93-91": {
@@ -6478,7 +6526,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-93-94": {
@@ -6537,7 +6585,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-94-95": {
@@ -6578,7 +6626,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-95-94": {
@@ -6640,7 +6688,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-100-22": {
@@ -6697,7 +6745,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-101-103": {
@@ -6907,7 +6955,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-102-126": {
@@ -6977,7 +7025,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-103-111": {
@@ -7068,7 +7116,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-104-106": {
@@ -7226,7 +7274,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-105-108": {
@@ -7337,7 +7385,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-106-273": {
@@ -7434,7 +7482,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-273-126": {
@@ -7474,7 +7522,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-107-258": {
@@ -7514,7 +7562,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-108-105": {
@@ -7536,7 +7584,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-108-274": {
@@ -7576,7 +7624,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-109-106": {
@@ -7598,7 +7646,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-110-105": {
@@ -7620,7 +7668,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-111-101": {
@@ -7650,7 +7698,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-111-112": {
@@ -7800,7 +7848,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-112-114": {
@@ -8179,7 +8227,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-114-112": {
@@ -8223,7 +8271,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-114-116": {
@@ -8339,7 +8387,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-116-114": {
@@ -8361,7 +8409,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-117-112": {
@@ -8383,7 +8431,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-118-112": {
@@ -8405,7 +8453,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-119-112": {
@@ -8427,7 +8475,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-119-120": {
@@ -8470,7 +8518,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-120-119": {
@@ -8513,7 +8561,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-121-124": {
@@ -8556,7 +8604,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-122-125": {
@@ -8620,7 +8668,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-123-122": {
@@ -8684,7 +8732,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-124-121": {
@@ -8727,7 +8775,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-125-122": {
@@ -8802,7 +8850,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-130-28": {
@@ -8856,7 +8904,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-131-133": {
@@ -8931,7 +8979,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-133-131": {
@@ -8953,7 +9001,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-133-134": {
@@ -9211,7 +9259,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-134-133": {
@@ -9263,7 +9311,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-261-136": {
@@ -9303,7 +9351,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-136-135": {
@@ -9336,7 +9384,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-163-260": {
@@ -9380,7 +9428,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-260-163": {
@@ -9441,7 +9489,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-135-260": {
@@ -9492,7 +9540,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-137-136": {
@@ -9514,7 +9562,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-137-138": {
@@ -9565,7 +9613,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-138-285": {
@@ -9630,7 +9678,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-285-138": {
@@ -9663,7 +9711,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-139-142": {
@@ -9703,7 +9751,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-140-137": {
@@ -9747,7 +9795,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-141-133": {
@@ -9780,7 +9828,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-142-141": {
@@ -9996,7 +10044,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-144-142": {
@@ -10018,7 +10066,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-145-142": {
@@ -10040,7 +10088,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-146-133": {
@@ -10076,7 +10124,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-146-147": {
@@ -10181,7 +10229,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-283-148": {
@@ -10203,7 +10251,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-162-161": {
@@ -10225,7 +10273,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-162-148": {
@@ -10295,7 +10343,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-161-154": {
@@ -10339,7 +10387,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-148-149": {
@@ -10610,7 +10658,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-149-150": {
@@ -10679,7 +10727,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-151-148": {
@@ -10701,7 +10749,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-151-149": {
@@ -10759,7 +10807,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-153-162": {
@@ -10781,7 +10829,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-154-161": {
@@ -10803,7 +10851,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-155-148": {
@@ -10825,7 +10873,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-155-156": {
@@ -10905,7 +10953,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-156-275": {
@@ -10945,7 +10993,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-157-131": {
@@ -10975,7 +11023,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-157-240": {
@@ -11044,7 +11092,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-165-29": {
@@ -11122,7 +11170,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-166-168": {
@@ -11646,7 +11694,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-167-258": {
@@ -11675,7 +11723,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-167-166": {
@@ -11755,7 +11803,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-169-166": {
@@ -11806,7 +11854,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-170-166": {
@@ -11828,7 +11876,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-171-166": {
@@ -11850,7 +11898,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-192-166": {
@@ -11872,7 +11920,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-172-166": {
@@ -11894,7 +11942,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-172-190": {
@@ -11934,7 +11982,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-174-166": {
@@ -11956,7 +12004,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-175-166": {
@@ -11978,7 +12026,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-175-176": {
@@ -12373,7 +12421,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-178-175": {
@@ -12395,7 +12443,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-179-175": {
@@ -12417,7 +12465,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-180-175": {
@@ -12439,7 +12487,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-181-175": {
@@ -12461,7 +12509,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-182-166": {
@@ -12483,7 +12531,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-182-276": {
@@ -12937,7 +12985,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-277-190": {
@@ -12977,7 +13025,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-276-190": {
@@ -13017,7 +13065,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-184-182": {
@@ -13039,7 +13087,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-185-182": {
@@ -13061,7 +13109,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-186-182": {
@@ -13083,7 +13131,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-187-182": {
@@ -13105,7 +13153,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-188-182": {
@@ -13127,7 +13175,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-189-182": {
@@ -13149,7 +13197,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-190-191": {
@@ -13182,7 +13230,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-194-30": {
@@ -13226,7 +13274,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-195-199": {
@@ -13677,7 +13725,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-196-197": {
@@ -13760,7 +13808,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-197-196": {
@@ -13793,7 +13841,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-198-195": {
@@ -13815,7 +13863,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-198-215": {
@@ -13886,7 +13934,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-199-279": {
@@ -13940,7 +13988,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-200-195": {
@@ -13962,7 +14010,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-200-201": {
@@ -14050,7 +14098,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-201-202": {
@@ -14129,7 +14177,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-202-195": {
@@ -14172,7 +14220,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-203-204": {
@@ -14225,7 +14273,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-204-205": {
@@ -14300,7 +14348,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-206-195": {
@@ -14322,7 +14370,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-207-195": {
@@ -14354,7 +14402,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-208-195": {
@@ -14376,7 +14424,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-209-195": {
@@ -14398,7 +14446,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-210-195": {
@@ -14420,7 +14468,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-210-204": {
@@ -14463,7 +14511,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-211-212": {
@@ -14636,7 +14684,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-212-281": {
@@ -14787,7 +14835,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-281-213": {
@@ -14845,7 +14893,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-280-212": {
@@ -14867,7 +14915,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-213-281": {
@@ -14889,7 +14937,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-214-211": {
@@ -14911,7 +14959,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-215-195": {
@@ -14933,7 +14981,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-215-216": {
@@ -15002,7 +15050,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-217-218": {
@@ -15035,7 +15083,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-220-221": {
@@ -15074,7 +15122,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-220-224": {
@@ -15155,7 +15203,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-221-222": {
@@ -15234,7 +15282,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-222-223": {
@@ -15323,7 +15371,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-223-233": {
@@ -15405,7 +15453,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-224-229": {
@@ -15625,7 +15673,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-225-233": {
@@ -15680,7 +15728,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-229-233": {
@@ -15723,7 +15771,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-228-233": {
@@ -15766,7 +15814,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-227-234": {
@@ -15809,7 +15857,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-226-234": {
@@ -15852,7 +15900,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-230-224": {
@@ -15947,7 +15995,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-231-232": {
@@ -16020,7 +16068,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-233-221": {
@@ -16042,7 +16090,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-233-222": {
@@ -16173,7 +16221,7 @@
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Warp",
+            "Type": "ExitWarp",
             "Requires": true
         },
         "tn-234-227": {

@@ -120,7 +120,7 @@ def build_exits():
                 exit_dest = ShufflableExits[exit_to_level].region
                 exit_name = region.name + " Exit Level"
                 exit_id = "tn-"+str(exit_source)+"-"+str(exit_dest)
-                rexit = exit_to_edge(exit_id, exit_source, exit_dest, exit_name, 'Warp', True)
+                rexit = exit_to_edge(exit_id, exit_source, exit_dest, exit_name, 'ExitWarp', True)
 
                 edges.update(rexit)
 
