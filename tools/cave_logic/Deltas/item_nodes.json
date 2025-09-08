@@ -2351,6 +2351,12 @@
             "Name": "Snide Helm Hint",
             "Class": "Hint",
             "Type": "Hint"
+        },
+        "blocker": {
+            "id": "blocker",
+            "Name": "B.Locker",
+            "Class": "Item",
+            "Type": "BLocker"
         }
     }
 }

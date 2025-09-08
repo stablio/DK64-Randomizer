@@ -70,6 +70,7 @@ class RegionEdge:
                  Name: str,
                  Logic: object | bool = True,
                  Type: str = "Neighbourhood",
+                 Types: str | None = None
                  ):
 
         if id is None:
@@ -85,6 +86,8 @@ class RegionEdge:
         self.targetType = "Location"
         self.Class = "Transition"
         self.Type = Type
+        if Types is not None:
+            self.Types = Types
         self.Requires = Logic
 
     def to_dict(self):

@@ -56,6 +56,13 @@ def build_items():
         "Type": "Hint"
     }
 
+    edges['blocker'] = {
+        "id": "blocker",
+        "Name": "B.Locker",
+        "Class": "Item",
+        "Type": "BLocker"
+    }
+
     return edges
 
 world = {

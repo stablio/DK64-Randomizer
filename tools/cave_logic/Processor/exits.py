@@ -18,6 +18,7 @@ from randomizer.Lists.ShufflableExit import ShufflableExits
 from randomizer.Lists.LevelInfo import LevelInfoList
 from randomizer.Logic import RegionsOriginal
 from randomizer.Enums.Regions import Regions
+from randomizer.Enums.Transitions import Transitions
 from randomizer.Lists.MapsAndExits import ENTRY_HANDLERS
 from copy import deepcopy
 import json
@@ -42,12 +43,15 @@ for region_id, region in RegionsOriginalCopy.items():
                 TransitionFront(region_id, lambda l: True),
             )
 
+# B.Locker Transitions
+blocker_transitions = [Transitions.IslesToJapes,Transitions.IslesToAztec,Transitions.IslesToFactory,Transitions.IslesToGalleon,
+                       Transitions.IslesToForest,Transitions.IslesToCaves,Transitions.IslesToCastle,Transitions.IslesToHelm]
 
 def strip_name(name):
     return name.replace(" ", "").replace(":", "").replace("-", "").replace("'", "").lower()
 
 
-def exit_to_edge(exit_id, source, dest, exit_name, exit_type, logic=True):
+def exit_to_edge(exit_id, source, dest, exit_name, exit_type, exit_types=None, logic=True):
 
     regionEdges = {}
 
@@ -66,7 +70,7 @@ def exit_to_edge(exit_id, source, dest, exit_name, exit_type, logic=True):
         logic = parse_ast_to_dict(logic,  None)
 
     forward_edge = RegionEdge(
-        exit_id, source_region_node, dest_region_node, exit_name, logic,exit_type)
+        exit_id, source_region_node, dest_region_node, exit_name, logic,exit_type, exit_types)
     regionEdges[forward_edge.id] = forward_edge.to_dict()
 
     return regionEdges
@@ -77,6 +81,8 @@ def build_exits():
 
     for region_id, region in RegionsOriginalCopy.items():
         for exit in region.exits:
+            exit_types = None
+
             if exit.exitShuffleId in ShufflableExits:
                 # use the shufflable exit to get the source and dest regions
                 # as well as the logic
@@ -87,6 +93,9 @@ def build_exits():
                 exit_type = "Warp"
                 if dest in ENTRY_HANDLERS:
                    exit_type = "Portal"
+                
+                if exit.exitShuffleId in blocker_transitions:
+                    exit_types = "BLocker"
             else:
                 source = region_id
                 dest = exit.dest
@@ -110,7 +119,7 @@ def build_exits():
                 # clobbering the logic of the normal transition
                 class_id = "tn-"+str(source)+"-"+str(dest)+"-g"
 
-            r = exit_to_edge(class_id, source, dest, exit_name, exit_type, logic)
+            r = exit_to_edge(class_id, source, dest, exit_name, exit_type, exit_types, logic)
             edges.update(r)
 
             # Add the region 'exit to level' nodes
@@ -120,7 +129,7 @@ def build_exits():
                 exit_dest = ShufflableExits[exit_to_level].region
                 exit_name = region.name + " Exit Level"
                 exit_id = "tn-"+str(exit_source)+"-"+str(exit_dest)
-                rexit = exit_to_edge(exit_id, exit_source, exit_dest, exit_name, 'ExitWarp', True)
+                rexit = exit_to_edge(exit_id, exit_source, exit_dest, exit_name, 'ExitWarp', None, True)
 
                 edges.update(rexit)
 

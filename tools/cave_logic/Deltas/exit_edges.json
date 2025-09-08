@@ -812,7 +812,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-15-8": {
             "id": "tn-15-8",
@@ -845,7 +846,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-16-6": {
             "id": "tn-16-6",
@@ -1305,7 +1307,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-23-6": {
             "id": "tn-23-6",
@@ -1367,7 +1370,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-24-6": {
             "id": "tn-24-6",
@@ -1779,7 +1783,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-29-9": {
             "id": "tn-29-9",
@@ -1812,7 +1817,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-30-6": {
             "id": "tn-30-6",
@@ -1845,7 +1851,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-31-19": {
             "id": "tn-31-19",
@@ -1920,7 +1927,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "Types": "BLocker"
         },
         "tn-34-14": {
             "id": "tn-34-14",
