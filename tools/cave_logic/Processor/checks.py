@@ -222,7 +222,7 @@ def collectible_to_edge(collectible, region, index):
 
     normalised_reward = normalise_name(reward_name.lower())
 
-    coll = CheckEdge(strip_name(name), name, RegionNode(portal_region, ''), normalised_reward, collectible.type.name, "Collectible", requires, collectible.kong.name)
+    coll = CheckEdge(strip_name(name), name, RegionNode(region, ''), normalised_reward, collectible.type.name, "Collectible", requires, collectible.kong.name)
     coll.Rewards = QueryLogic('and', [{"Name": normalised_reward, "Amount": collectible.amount * multiplier}])
 
     # rewards = [

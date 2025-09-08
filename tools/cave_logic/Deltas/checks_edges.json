@@ -56851,7 +56851,7 @@
         "junglejapeshilldonkeybunch0": {
             "id": "junglejapeshilldonkeybunch0",
             "Name": "Jungle Japes Hill Donkey Bunch 0",
-            "source": "junglejapeshill",
+            "source": "japeshill",
             "target": "bunch_japes_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -56888,7 +56888,7 @@
         "junglejapeshilltopdonkeybanana0": {
             "id": "junglejapeshilltopdonkeybanana0",
             "Name": "Jungle Japes Hilltop Donkey Banana 0",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "banana_japes_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -56917,7 +56917,7 @@
         "junglejapeshilltopdonkeybunch1": {
             "id": "junglejapeshilltopdonkeybunch1",
             "Name": "Jungle Japes Hilltop Donkey Bunch 1",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "bunch_japes_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -56954,7 +56954,7 @@
         "junglejapeshilltopdonkeyballoon2": {
             "id": "junglejapeshilltopdonkeyballoon2",
             "Name": "Jungle Japes Hilltop Donkey Balloon 2",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "balloon_japes_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -56991,7 +56991,7 @@
         "junglejapeshilltopdiddybanana3": {
             "id": "junglejapeshilltopdiddybanana3",
             "Name": "Jungle Japes Hilltop Diddy Banana 3",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "banana_japes_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -57020,7 +57020,7 @@
         "junglejapeshilltoplankybunch4": {
             "id": "junglejapeshilltoplankybunch4",
             "Name": "Jungle Japes Hilltop Lanky Bunch 4",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "bunch_japes_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -57057,7 +57057,7 @@
         "junglejapeshilltoplankybunch5": {
             "id": "junglejapeshilltoplankybunch5",
             "Name": "Jungle Japes Hilltop Lanky Bunch 5",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "bunch_japes_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -57086,7 +57086,7 @@
         "junglejapeshilltopchunkybunch6": {
             "id": "junglejapeshilltopchunkybunch6",
             "Name": "Jungle Japes Hilltop Chunky Bunch 6",
-            "source": "junglejapeshilltop",
+            "source": "japeshilltop",
             "target": "bunch_japes_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -57115,7 +57115,7 @@
         "junglejapescannonplatformdonkeybunch0": {
             "id": "junglejapescannonplatformdonkeybunch0",
             "Name": "Jungle Japes Cannon Platform Donkey Bunch 0",
-            "source": "junglejapescannonplatform",
+            "source": "japescannonplatform",
             "target": "bunch_japes_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -57152,7 +57152,7 @@
         "junglejapescannonplatformdiddycoin1": {
             "id": "junglejapescannonplatformdiddycoin1",
             "Name": "Jungle Japes Cannon Platform Diddy Coin 1",
-            "source": "junglejapescannonplatform",
+            "source": "japescannonplatform",
             "target": "coin_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -59783,7 +59783,7 @@
         "angryaztecbetweenvinesbyportalchunkybanana0": {
             "id": "angryaztecbetweenvinesbyportalchunkybanana0",
             "Name": "Angry Aztec Between Vines By Portal Chunky Banana 0",
-            "source": "angryaztecbetweenvinesbyportal",
+            "source": "betweenvinesbyportal",
             "target": "banana_aztec_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -59812,7 +59812,7 @@
         "angryaztecbetweenvinesbyportalchunkybunch1": {
             "id": "angryaztecbetweenvinesbyportalchunkybunch1",
             "Name": "Angry Aztec Between Vines By Portal Chunky Bunch 1",
-            "source": "angryaztecbetweenvinesbyportal",
+            "source": "betweenvinesbyportal",
             "target": "bunch_aztec_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -61676,7 +61676,7 @@
         "aztecdonkeysandtunneldonkeybunch0": {
             "id": "aztecdonkeysandtunneldonkeybunch0",
             "Name": "Aztec Donkey Sand Tunnel Donkey Bunch 0",
-            "source": "aztecdonkeysandtunnel",
+            "source": "aztecdonkeyquicksandcave",
             "target": "bunch_aztec_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -61713,7 +61713,7 @@
         "aztecdonkeysandtunneldiddyballoon1": {
             "id": "aztecdonkeysandtunneldiddyballoon1",
             "Name": "Aztec Donkey Sand Tunnel Diddy Balloon 1",
-            "source": "aztecdonkeysandtunnel",
+            "source": "aztecdonkeyquicksandcave",
             "target": "balloon_aztec_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -61750,7 +61750,7 @@
         "aztecdonkeysandtunnelchunkycoin2": {
             "id": "aztecdonkeysandtunnelchunkycoin2",
             "Name": "Aztec Donkey Sand Tunnel Chunky Coin 2",
-            "source": "aztecdonkeysandtunnel",
+            "source": "aztecdonkeyquicksandcave",
             "target": "coin_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -63562,7 +63562,7 @@
         "r&dupperdonkeyballoon0": {
             "id": "r&dupperdonkeyballoon0",
             "Name": "R&D Upper Donkey Balloon 0",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "balloon_factory_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -63599,7 +63599,7 @@
         "r&dupperdiddyballoon1": {
             "id": "r&dupperdiddyballoon1",
             "Name": "R&D Upper Diddy Balloon 1",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "balloon_factory_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -63650,7 +63650,7 @@
         "r&dupperlankybanana2": {
             "id": "r&dupperlankybanana2",
             "Name": "R&D Upper Lanky Banana 2",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "banana_factory_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -63679,7 +63679,7 @@
         "r&dupperchunkybanana3": {
             "id": "r&dupperchunkybanana3",
             "Name": "R&D Upper Chunky Banana 3",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "banana_factory_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -63733,7 +63733,7 @@
         "r&dupperdiddycoin4": {
             "id": "r&dupperdiddycoin4",
             "Name": "R&D Upper Diddy Coin 4",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "coin_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -63762,7 +63762,7 @@
         "r&dupperchunkycoin5": {
             "id": "r&dupperchunkycoin5",
             "Name": "R&D Upper Chunky Coin 5",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "coin_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -63813,7 +63813,7 @@
         "r&dupperchunkyballoon6": {
             "id": "r&dupperchunkyballoon6",
             "Name": "R&D Upper Chunky Balloon 6",
-            "source": "r&dupper",
+            "source": "randdupper",
             "target": "balloon_factory_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -64129,7 +64129,7 @@
         "arcadetunneldiddybanana0": {
             "id": "arcadetunneldiddybanana0",
             "Name": "Arcade Tunnel Diddy Banana 0",
-            "source": "arcadetunnel",
+            "source": "factoryarcadetunnel",
             "target": "banana_factory_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -64158,7 +64158,7 @@
         "arcadetunneldiddybunch1": {
             "id": "arcadetunneldiddybunch1",
             "Name": "Arcade Tunnel Diddy Bunch 1",
-            "source": "arcadetunnel",
+            "source": "factoryarcadetunnel",
             "target": "bunch_factory_diddy",
             "Type": "Location",
             "sourceType": "Region",
@@ -64187,7 +64187,7 @@
         "arcadetunneltinybunch2": {
             "id": "arcadetunneltinybunch2",
             "Name": "Arcade Tunnel Tiny Bunch 2",
-            "source": "arcadetunnel",
+            "source": "factoryarcadetunnel",
             "target": "bunch_factory_tiny",
             "Type": "Location",
             "sourceType": "Region",
@@ -64216,7 +64216,7 @@
         "arcadetunnelchunkycoin3": {
             "id": "arcadetunnelchunkycoin3",
             "Name": "Arcade Tunnel Chunky Coin 3",
-            "source": "arcadetunnel",
+            "source": "factoryarcadetunnel",
             "target": "coin_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -68793,7 +68793,7 @@
         "mushroomlowermiddlechunkybanana0": {
             "id": "mushroomlowermiddlechunkybanana0",
             "Name": "Mushroom Lower Middle Chunky Banana 0",
-            "source": "mushroomlowermiddle",
+            "source": "mushroomlowermid",
             "target": "banana_forest_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -68822,7 +68822,7 @@
         "mushroomlowermiddlechunkybunch1": {
             "id": "mushroomlowermiddlechunkybunch1",
             "Name": "Mushroom Lower Middle Chunky Bunch 1",
-            "source": "mushroomlowermiddle",
+            "source": "mushroomlowermid",
             "target": "bunch_forest_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -69062,7 +69062,7 @@
         "mushroomuppermiddlechunkybanana0": {
             "id": "mushroomuppermiddlechunkybanana0",
             "Name": "Mushroom Upper Middle Chunky Banana 0",
-            "source": "mushroomuppermiddle",
+            "source": "mushroomuppermid",
             "target": "banana_forest_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -69091,7 +69091,7 @@
         "mushroomuppermiddlechunkybunch1": {
             "id": "mushroomuppermiddlechunkybunch1",
             "Name": "Mushroom Upper Middle Chunky Bunch 1",
-            "source": "mushroomuppermiddle",
+            "source": "mushroomuppermid",
             "target": "bunch_forest_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -69120,7 +69120,7 @@
         "mushroomuppermiddlechunkybanana2": {
             "id": "mushroomuppermiddlechunkybanana2",
             "Name": "Mushroom Upper Middle Chunky Banana 2",
-            "source": "mushroomuppermiddle",
+            "source": "mushroomuppermid",
             "target": "banana_forest_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -70035,7 +70035,7 @@
         "verytopofthemilllankybanana0": {
             "id": "verytopofthemilllankybanana0",
             "Name": "Very top of the Mill Lanky Banana 0",
-            "source": "verytopofthemill",
+            "source": "forestverytopofmill",
             "target": "banana_forest_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -70064,7 +70064,7 @@
         "topofthemilllankybanana0": {
             "id": "topofthemilllankybanana0",
             "Name": "Top of the Mill Lanky Banana 0",
-            "source": "topofthemill",
+            "source": "foresttopofmill",
             "target": "banana_forest_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -70093,7 +70093,7 @@
         "topofthemilllankybunch1": {
             "id": "topofthemilllankybunch1",
             "Name": "Top of the Mill Lanky Bunch 1",
-            "source": "topofthemill",
+            "source": "foresttopofmill",
             "target": "bunch_forest_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -70122,7 +70122,7 @@
         "topofthemilllankybunch2": {
             "id": "topofthemilllankybunch2",
             "Name": "Top of the Mill Lanky Bunch 2",
-            "source": "topofthemill",
+            "source": "foresttopofmill",
             "target": "bunch_forest_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -70504,7 +70504,7 @@
         "millbackroomchunkybunch0": {
             "id": "millbackroomchunkybunch0",
             "Name": "Mill Back Room Chunky Bunch 0",
-            "source": "millbackroom",
+            "source": "millchunkytinyarea",
             "target": "bunch_forest_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -70541,7 +70541,7 @@
         "millbackroomtinybunch1": {
             "id": "millbackroomtinybunch1",
             "Name": "Mill Back Room Tiny Bunch 1",
-            "source": "millbackroom",
+            "source": "millchunkytinyarea",
             "target": "bunch_forest_tiny",
             "Type": "Location",
             "sourceType": "Region",
@@ -70570,7 +70570,7 @@
         "millbackroomtinybunch2": {
             "id": "millbackroomtinybunch2",
             "Name": "Mill Back Room Tiny Bunch 2",
-            "source": "millbackroom",
+            "source": "millchunkytinyarea",
             "target": "bunch_forest_tiny",
             "Type": "Location",
             "sourceType": "Region",
@@ -70608,7 +70608,7 @@
         "millbackroomchunkycoin3": {
             "id": "millbackroomchunkycoin3",
             "Name": "Mill Back Room Chunky Coin 3",
-            "source": "millbackroom",
+            "source": "millchunkytinyarea",
             "target": "coin_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -74583,7 +74583,7 @@
         "creepycastleverybottomdonkeycoin0": {
             "id": "creepycastleverybottomdonkeycoin0",
             "Name": "Creepy Castle Very Bottom Donkey Coin 0",
-            "source": "creepycastleverybottom",
+            "source": "castleverybottom",
             "target": "coin_donkey",
             "Type": "Location",
             "sourceType": "Region",
@@ -74612,7 +74612,7 @@
         "creepycastleverybottomlankycoin1": {
             "id": "creepycastleverybottomlankycoin1",
             "Name": "Creepy Castle Very Bottom Lanky Coin 1",
-            "source": "creepycastleverybottom",
+            "source": "castleverybottom",
             "target": "coin_lanky",
             "Type": "Location",
             "sourceType": "Region",
@@ -74649,7 +74649,7 @@
         "creepycastleverybottomchunkycoin2": {
             "id": "creepycastleverybottomchunkycoin2",
             "Name": "Creepy Castle Very Bottom Chunky Coin 2",
-            "source": "creepycastleverybottom",
+            "source": "castleverybottom",
             "target": "coin_chunky",
             "Type": "Location",
             "sourceType": "Region",
@@ -74678,7 +74678,7 @@
         "creepycastleverybottomtinycoin3": {
             "id": "creepycastleverybottomtinycoin3",
             "Name": "Creepy Castle Very Bottom Tiny Coin 3",
-            "source": "creepycastleverybottom",
+            "source": "castleverybottom",
             "target": "coin_tiny",
             "Type": "Location",
             "sourceType": "Region",
@@ -74934,7 +74934,7 @@
         "librarymiddledonkeybunch0": {
             "id": "librarymiddledonkeybunch0",
             "Name": "Library Middle Donkey Bunch 0",
-            "source": "librarymiddle",
+            "source": "librarypastslam",
             "target": "bunch_castle_donkey",
             "Type": "Location",
             "sourceType": "Region",
