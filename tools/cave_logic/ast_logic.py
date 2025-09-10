@@ -91,8 +91,9 @@ def ast_to_json(node, params):
         }
         shortlevel = get_level_name(node.left.value.slice.attr).lower()
         cond3 = {
-            "Name": "_".join(["banana", shortlevel, kong]),
-            "Amount": 40
+            "Name": node.comparators[0].attr,
+            "Params": ["_".join(["banana", shortlevel, kong]), 40],
+            "isFunction": True,
         }
         return {"combinator": "AND", "rules": [cond3, cond2]}
     elif isinstance(node, ast.Compare) and not hasattr(node.left, 'func') and isinstance(node.ops[0], ast.GtE):

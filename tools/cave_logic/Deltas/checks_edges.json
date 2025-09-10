@@ -1098,8 +1098,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_isles_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_isles_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -1131,8 +1135,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_isles_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_isles_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -1164,8 +1172,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_isles_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_isles_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -1197,8 +1209,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_isles_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_isles_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -1230,8 +1246,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_isles_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_isles_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -2957,8 +2977,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_japes_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_japes_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -2990,8 +3014,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_japes_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_japes_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -3023,8 +3051,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_japes_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_japes_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -3056,8 +3088,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_japes_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_japes_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -3089,8 +3125,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_japes_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_japes_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -4859,8 +4899,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_aztec_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_aztec_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -4892,8 +4936,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_aztec_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_aztec_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -4925,8 +4973,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_aztec_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_aztec_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -4958,8 +5010,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_aztec_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_aztec_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -4991,8 +5047,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_aztec_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_aztec_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -6396,8 +6456,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_factory_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_factory_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -6429,8 +6493,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_factory_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_factory_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -6462,8 +6530,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_factory_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_factory_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -6495,8 +6567,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_factory_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_factory_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -6528,8 +6604,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_factory_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_factory_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -7837,8 +7917,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_galleon_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_galleon_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -7870,8 +7954,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_galleon_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_galleon_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -7903,8 +7991,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_galleon_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_galleon_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -7936,8 +8028,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_galleon_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_galleon_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -7969,8 +8065,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_galleon_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_galleon_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -9210,8 +9310,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_forest_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_forest_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -9243,8 +9347,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_forest_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_forest_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -9276,8 +9384,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_forest_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_forest_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -9309,8 +9421,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_forest_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_forest_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -9342,8 +9458,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_forest_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_forest_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -10640,8 +10760,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_caves_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_caves_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -10673,8 +10797,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_caves_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_caves_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -10706,8 +10834,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_caves_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_caves_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -10739,8 +10871,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_caves_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_caves_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -10772,8 +10908,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_caves_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_caves_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
@@ -12100,8 +12240,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_castle_donkey",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_castle_donkey",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "donkey"
@@ -12133,8 +12277,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_castle_diddy",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_castle_diddy",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "diddy"
@@ -12166,8 +12314,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_castle_lanky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_castle_lanky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "lanky"
@@ -12199,8 +12351,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_castle_tiny",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_castle_tiny",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "tiny"
@@ -12232,8 +12388,12 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "banana_castle_chunky",
-                        "Amount": 40
+                        "Name": "medal_cb_req",
+                        "Params": [
+                            "banana_castle_chunky",
+                            40
+                        ],
+                        "isFunction": true
                     },
                     {
                         "Name": "chunky"
