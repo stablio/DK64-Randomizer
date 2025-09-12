@@ -440,6 +440,39 @@
                 ]
             }
         },
+        "li-maincoreactivated1": {
+            "id": "li-maincoreactivated1",
+            "Name": "MainCoreActivated",
+            "source": "gamestart",
+            "target": "maincoreactivated",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "checkBarrier",
+                        "Params": [
+                            "factory_production_room"
+                        ],
+                        "isFunction": true
+                    }
+                ]
+            },
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "maincoreactivated",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
         "li-lighthousegateopened1": {
             "id": "li-lighthousegateopened1",
             "Name": "LighthouseGateOpened",
@@ -3198,39 +3231,6 @@
                 ]
             }
         },
-        "li-aztecicemelted61": {
-            "id": "li-aztecicemelted61",
-            "Name": "AztecIceMelted",
-            "source": "templestart",
-            "target": "aztecicemelted",
-            "Type": "Location",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Types": "Event",
-            "Class": "Event",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "checkBarrier",
-                        "Params": [
-                            "aztec_tiny_temple_ice"
-                        ],
-                        "isFunction": true
-                    }
-                ]
-            },
-            "Persona": "any",
-            "Rewards": {
-                "combinator": "and",
-                "rules": [
-                    {
-                        "Name": "aztecicemelted",
-                        "Amount": 1
-                    }
-                ]
-            }
-        },
         "li-aztecicemelted266": {
             "id": "li-aztecicemelted266",
             "Name": "AztecIceMelted",
@@ -4045,39 +4045,6 @@
                 "rules": [
                     {
                         "Name": "arcadeleverspawned",
-                        "Amount": 1
-                    }
-                ]
-            }
-        },
-        "li-maincoreactivated91": {
-            "id": "li-maincoreactivated91",
-            "Name": "MainCoreActivated",
-            "source": "lowercore",
-            "target": "maincoreactivated",
-            "Type": "Location",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Types": "Event",
-            "Class": "Event",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "checkBarrier",
-                        "Params": [
-                            "factory_production_room"
-                        ],
-                        "isFunction": true
-                    }
-                ]
-            },
-            "Persona": "any",
-            "Rewards": {
-                "combinator": "and",
-                "rules": [
-                    {
-                        "Name": "maincoreactivated",
                         "Amount": 1
                     }
                 ]

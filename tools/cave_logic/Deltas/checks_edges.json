@@ -58117,9 +58117,38 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2tinybunch13": {
-            "id": "japesbeyondcoconutgate2tinybunch13",
-            "Name": "Japes Beyond Coconut Gate 2 Tiny Bunch 13",
+        "japesbeyondcoconutgate2tinybanana13": {
+            "id": "japesbeyondcoconutgate2tinybanana13",
+            "Name": "Japes Beyond Coconut Gate 2 Tiny Banana 13",
+            "source": "japesbeyondcoconutgate2",
+            "target": "banana_japes_tiny",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "banana",
+            "Class": "Collectible",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "tiny"
+                    }
+                ]
+            },
+            "Persona": "tiny",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "banana_japes_tiny",
+                        "Amount": 2
+                    }
+                ]
+            }
+        },
+        "japesbeyondcoconutgate2tinybunch14": {
+            "id": "japesbeyondcoconutgate2tinybunch14",
+            "Name": "Japes Beyond Coconut Gate 2 Tiny Bunch 14",
             "source": "japesbeyondcoconutgate2",
             "target": "bunch_japes_tiny",
             "Type": "Location",
@@ -58154,9 +58183,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2tinybunch14": {
-            "id": "japesbeyondcoconutgate2tinybunch14",
-            "Name": "Japes Beyond Coconut Gate 2 Tiny Bunch 14",
+        "japesbeyondcoconutgate2tinybunch15": {
+            "id": "japesbeyondcoconutgate2tinybunch15",
+            "Name": "Japes Beyond Coconut Gate 2 Tiny Bunch 15",
             "source": "japesbeyondcoconutgate2",
             "target": "bunch_japes_tiny",
             "Type": "Location",
@@ -58198,9 +58227,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2tinyballoon15": {
-            "id": "japesbeyondcoconutgate2tinyballoon15",
-            "Name": "Japes Beyond Coconut Gate 2 Tiny Balloon 15",
+        "japesbeyondcoconutgate2tinyballoon16": {
+            "id": "japesbeyondcoconutgate2tinyballoon16",
+            "Name": "Japes Beyond Coconut Gate 2 Tiny Balloon 16",
             "source": "japesbeyondcoconutgate2",
             "target": "balloon_japes_tiny",
             "Type": "Location",
@@ -58235,9 +58264,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2chunkybunch16": {
-            "id": "japesbeyondcoconutgate2chunkybunch16",
-            "Name": "Japes Beyond Coconut Gate 2 Chunky Bunch 16",
+        "japesbeyondcoconutgate2chunkybunch17": {
+            "id": "japesbeyondcoconutgate2chunkybunch17",
+            "Name": "Japes Beyond Coconut Gate 2 Chunky Bunch 17",
             "source": "japesbeyondcoconutgate2",
             "target": "bunch_japes_chunky",
             "Type": "Location",
@@ -58272,9 +58301,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2donkeycoin17": {
-            "id": "japesbeyondcoconutgate2donkeycoin17",
-            "Name": "Japes Beyond Coconut Gate 2 Donkey Coin 17",
+        "japesbeyondcoconutgate2donkeycoin18": {
+            "id": "japesbeyondcoconutgate2donkeycoin18",
+            "Name": "Japes Beyond Coconut Gate 2 Donkey Coin 18",
             "source": "japesbeyondcoconutgate2",
             "target": "coin_donkey",
             "Type": "Location",
@@ -58309,9 +58338,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2donkeycoin18": {
-            "id": "japesbeyondcoconutgate2donkeycoin18",
-            "Name": "Japes Beyond Coconut Gate 2 Donkey Coin 18",
+        "japesbeyondcoconutgate2donkeycoin19": {
+            "id": "japesbeyondcoconutgate2donkeycoin19",
+            "Name": "Japes Beyond Coconut Gate 2 Donkey Coin 19",
             "source": "japesbeyondcoconutgate2",
             "target": "coin_donkey",
             "Type": "Location",
@@ -58357,9 +58386,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2diddycoin19": {
-            "id": "japesbeyondcoconutgate2diddycoin19",
-            "Name": "Japes Beyond Coconut Gate 2 Diddy Coin 19",
+        "japesbeyondcoconutgate2diddycoin20": {
+            "id": "japesbeyondcoconutgate2diddycoin20",
+            "Name": "Japes Beyond Coconut Gate 2 Diddy Coin 20",
             "source": "japesbeyondcoconutgate2",
             "target": "coin_diddy",
             "Type": "Location",
@@ -58386,9 +58415,9 @@
                 ]
             }
         },
-        "japesbeyondcoconutgate2lankycoin20": {
-            "id": "japesbeyondcoconutgate2lankycoin20",
-            "Name": "Japes Beyond Coconut Gate 2 Lanky Coin 20",
+        "japesbeyondcoconutgate2lankycoin21": {
+            "id": "japesbeyondcoconutgate2lankycoin21",
+            "Name": "Japes Beyond Coconut Gate 2 Lanky Coin 21",
             "source": "japesbeyondcoconutgate2",
             "target": "coin_lanky",
             "Type": "Location",
@@ -59473,7 +59502,7 @@
                 "rules": [
                     {
                         "Name": "banana_japes_tiny",
-                        "Amount": 7
+                        "Amount": 5
                     }
                 ]
             }
@@ -68411,6 +68440,13 @@
                     {
                         "combinator": "OR",
                         "rules": [
+                            {
+                                "Name": "checkBarrier",
+                                "Params": [
+                                    "forest_green_tunnel"
+                                ],
+                                "isFunction": true
+                            },
                             {
                                 "Name": "hasMoveSwitchsanity",
                                 "Params": [

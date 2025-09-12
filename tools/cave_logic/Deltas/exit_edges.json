@@ -9060,6 +9060,29 @@
                                 "Name": "tiny"
                             }
                         ]
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "climbing"
+                            },
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "donkey"
+                                    },
+                                    {
+                                        "Name": "chunky"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "advanced_platforming",
+                                "isGlitch": true
+                            }
+                        ]
                     }
                 ]
             }
@@ -10496,7 +10519,17 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": true
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "CanPhaseswim",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            }
         },
         "tn-148-258": {
             "id": "tn-148-258",

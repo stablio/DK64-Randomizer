@@ -3313,17 +3313,6 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-outsidediddysbarn": {
-            "id": "d-48-outsidediddysbarn",
-            "Name": "Forest Hint Door: Outside Diddy's Barn",
-            "source": "millarea",
-            "target": "noitem",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Requires": true,
-            "Class": "Check",
-            "Type": "Door"
-        },
         "d-48-immediatelyinsidethethornvinearearight": {
             "id": "d-48-immediatelyinsidethethornvinearearight",
             "Name": "Forest Hint Door: Immediately Inside the Thornvine Area - right",
