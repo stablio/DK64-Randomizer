@@ -2003,6 +2003,9 @@ def compileHints(spoiler: Spoiler) -> bool:
             # Maps.CastleUpperCave: [Regions.UpperCave],
             # Maps.CastleLowerCave: [Regions.LowerCave],
         }
+        # If warps are pre-activated and cross-map, we can't treat the Castle Crypt as a connector because you are decently likely to just warp into it.
+        if spoiler.settings.activate_all_bananaports == ActivateAllBananaports.all and spoiler.settings.bananaport_rando in (BananaportRando.crossmap_coupled, BananaportRando.crossmap_decoupled):
+            del connector_maps[Maps.CastleCrypt]
         # First identify which maps contain WotH items - some maps are more interesting than others
         isolated_interesting_transitions = []
         # Lists to prevent duplicate entrance hints from existing
@@ -3492,3 +3495,15 @@ def ScoreCompleteHintSet(spoiler, hint_distribution, multipath_dict_goals):
             if node_score > 0.25:
                 node_location = spoiler.LocationList[node.node_location_id]
                 spoiler.poor_scoring_locations[node_location.name + " (" + ItemList[node_location.item].name + ")"] = node_score
+
+
+def CompileArchipelagoHints(spoiler: Spoiler, woth_hints: list, major_hints: list, deep_hints: list):
+    """Insert Archipelago hints."""
+    # All input lists are in the form of [loc.name, multiworld.get_player_name(loc.player), loc.item.name, multiworld.get_player_name(loc.item.player), isForeign]
+    replaceKongNameWithKrusha(spoiler)
+    ClearHintMessages()
+    hints = woth_hints + major_hints + deep_hints
+    for hint in hints:
+        hint_location = getRandomHintLocation(random=spoiler.settings.random)
+        UpdateHint(hint_location, hint)
+    UpdateSpoilerHintList(spoiler)

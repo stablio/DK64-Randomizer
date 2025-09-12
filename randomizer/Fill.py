@@ -3130,6 +3130,13 @@ def SetNewProgressionRequirementsUnordered(spoiler: Spoiler) -> None:
         Events.HelmKeyTurnedIn,
     ]
 
+    # Limit the B. Locker amounts based on a fraction of the accessible GBs
+    BLOCKER_MIN = 0.4
+    BLOCKER_MAX = 0.7
+    if settings.hard_blockers:
+        BLOCKER_MIN = 0.6
+        BLOCKER_MAX = 0.95
+
     # Before doing anything else, determine how many GBs we can access without entering any levels
     # This is likely to be 1, but depending on the settings there are pretty good odds more are available
     BlockAccessToLevel(settings, 0)
@@ -3177,6 +3184,11 @@ def SetNewProgressionRequirementsUnordered(spoiler: Spoiler) -> None:
             else:
                 # If guaranteed to be 8, Helm will be a max roll of a random item
                 settings.BLockerEntryCount[7] = ceil(settings.blocker_limits[settings.BLockerEntryItems[7]] * settings.chaos_ratio)
+        # Add a buffer to the Helm B. Locker value if it's your last B. Locker. This should make it less likely you need every item available to enter Helm.
+        # This protection does not apply if your last B. Locker could be a huge number. You'll have to face the music then.
+        settings.BLockerEntryCount[7] = min(
+            ceil(settings.BLockerEntryCount[7] / BLOCKER_MAX), max(settings.BLockerEntryCount[7], ceil(settings.blocker_limits[settings.BLockerEntryItems[7]] * BLOCKER_MAX))
+        )
     # We also need to remember T&S values in an array as we'll overwrite the settings value in the process of determining location availability
     initialTNS = [
         settings.troff_0,
@@ -3191,12 +3203,6 @@ def SetNewProgressionRequirementsUnordered(spoiler: Spoiler) -> None:
     # Reshuffle these values to the correct level index
     ShuffleExits.UpdateLevelProgression(settings)
 
-    # Cap the B. Locker amounts based on a random fraction of accessible GBs
-    BLOCKER_MIN = 0.4
-    BLOCKER_MAX = 0.7
-    if settings.hard_blockers:
-        BLOCKER_MIN = 0.6
-        BLOCKER_MAX = 0.95
     maximumMinRoll = round((settings.blocker_max / BLOCKER_MAX) * BLOCKER_MIN)
 
     levelsProgressed = []
@@ -3487,12 +3493,14 @@ def SetNewProgressionRequirementsUnordered(spoiler: Spoiler) -> None:
     # If we're not shuffling Helm with the rest of the levels, we need to sort out its B. Locker value here
     if not settings.shuffle_helm_location:
         mostExpensiveBLocker = max(settings.BLockerEntryCount[0:7])
+        settings.BLockerEntryCount[7] = settings.blocker_7  # Reset the buffer that we applied earlier (Chaos B. Lockers is about to ignore this and that's good)
         # Chaos B. Lockers needs to also update the Helm B. Locker - max roll whatever the item there is
         if settings.chaos_blockers:
             settings.BLockerEntryCount[7] = ceil(settings.blocker_limits[settings.BLockerEntryItems[7]] * settings.chaos_ratio)
         # Because we might not have sorted the B. Lockers when they're randomly generated, Helm might be a surprisingly low number if it's not maximized
         elif settings.randomize_blocker_required_amounts and not settings.maximize_helm_blocker and settings.BLockerEntryCount[7] < mostExpensiveBLocker:
             # Ensure that Helm is the most expensive B. Locker
+            # This may raise the Helm B. Locker and in some ***rare*** scenarios violate the B. Locker buffer, but it'll be a relatively small violation.
             settings.BLockerEntryCount[7] = spoiler.settings.random.randint(mostExpensiveBLocker, settings.blocker_max)
     # Only if keys are shuffled off of bosses do we need to reshuffle the bosses
     if not isKeyItemRando:
@@ -3573,11 +3581,14 @@ def Generate_Spoiler(spoiler: Spoiler) -> Tuple[bytes, Spoiler]:
     if spoiler.settings.wrinkly_hints == WrinklyHints.fixed_racing:
         ValidateFixedHints(spoiler.settings)
     # Reset LocationList for a new fill
-    spoiler.ResetLocationList()
+    if not spoiler.settings.archipelago:
+        spoiler.ResetLocationList()
     # Initiate kasplat map with default
     spoiler.InitKasplatMap()
     # Handle misc randomizations
     ShuffleMisc(spoiler)
+    if spoiler.settings.archipelago:
+        return
     # Handle Loading Zones - this will handle LO and LZR appropriately
     if spoiler.settings.shuffle_loading_zones != ShuffleLoadingZones.none:
         ShuffleExits.ExitShuffle(spoiler)
@@ -3638,7 +3649,13 @@ def ShuffleMisc(spoiler: Spoiler) -> None:
         ShuffleVanillaDoors(spoiler)
         if spoiler.settings.dk_portal_location_rando_v2 != DKPortalRando.off:
             ShuffleDoors(spoiler, True)
-    elif spoiler.settings.wrinkly_location_rando or spoiler.settings.tns_location_rando or spoiler.settings.remove_wrinkly_puzzles or spoiler.settings.dk_portal_location_rando_v2 != DKPortalRando.off:
+    elif (
+        spoiler.settings.wrinkly_location_rando
+        or spoiler.settings.tns_location_rando
+        or spoiler.settings.remove_wrinkly_puzzles
+        or spoiler.settings.dk_portal_location_rando_v2 != DKPortalRando.off
+        or (spoiler.settings.progressive_hint_item != ProgressiveHintItem.off and Types.Hint in spoiler.settings.shuffled_location_types)
+    ):
         ShuffleDoors(spoiler, False)
     if Types.Hint in spoiler.settings.shuffled_location_types:
         UpdateDoorLevels(spoiler)
