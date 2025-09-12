@@ -223,3 +223,4 @@ static/compiled.jsonc
 vendor/
 *.apworld
 /dk64/
+!tools/cave_logic
