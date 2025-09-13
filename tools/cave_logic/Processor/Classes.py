@@ -70,7 +70,8 @@ class RegionEdge:
                  Name: str,
                  Logic: object | bool = True,
                  Type: str = "Neighbourhood",
-                 Types: str | None = None
+                 Types: str | None = None,
+                 ReverseName: str | None = None
                  ):
 
         if id is None:
@@ -89,6 +90,8 @@ class RegionEdge:
         if Types is not None:
             self.Types = Types
         self.Requires = Logic
+        if ReverseName is not None:
+            self.ReverseName = ReverseName
 
     def to_dict(self):
         """Convert the RegionEdge to a dictionary."""
@@ -101,8 +104,10 @@ class RegionEdge:
             "targetType": self.targetType,
             "Class": self.Class,
             "Type": self.Type,
-            "Requires": self.Requires
+            "Requires": self.Requires,
         }
+        if hasattr(self, 'ReverseName'):
+            output["ReverseName"] = self.ReverseName
         if hasattr(self, 'Types'):
             output["Types"] = self.Types
         return output

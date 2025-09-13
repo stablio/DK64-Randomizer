@@ -51,7 +51,7 @@ def strip_name(name):
     return name.replace(" ", "").replace(":", "").replace("-", "").replace("'", "").lower()
 
 
-def exit_to_edge(exit_id, source, dest, exit_name, exit_type, exit_types=None, logic=True):
+def exit_to_edge(exit_id, source, dest, exit_name, exit_type, exit_types=None, logic=True, reverseName=None):
 
     regionEdges = {}
 
@@ -70,7 +70,7 @@ def exit_to_edge(exit_id, source, dest, exit_name, exit_type, exit_types=None, l
         logic = parse_ast_to_dict(logic,  None)
 
     forward_edge = RegionEdge(
-        exit_id, source_region_node, dest_region_node, exit_name, logic,exit_type, exit_types)
+        exit_id, source_region_node, dest_region_node, exit_name, logic,exit_type, exit_types,reverseName)
     regionEdges[forward_edge.id] = forward_edge.to_dict()
 
     return regionEdges
@@ -78,10 +78,12 @@ def exit_to_edge(exit_id, source, dest, exit_name, exit_type, exit_types=None, l
 
 def build_exits():
     edges = {}
+    transitionCount = {}
 
     for region_id, region in RegionsOriginalCopy.items():
         for exit in region.exits:
             exit_types = None
+            reverseName = None
 
             if exit.exitShuffleId in ShufflableExits:
                 # use the shufflable exit to get the source and dest regions
@@ -93,7 +95,9 @@ def build_exits():
                 exit_type = "Warp"
                 if dest in ENTRY_HANDLERS:
                    exit_type = "Portal"
-                
+
+                reverseName = shufflable_exit.back.spoilerName
+
                 if exit.exitShuffleId in blocker_transitions:
                     exit_types = "BLocker"
             else:
@@ -114,12 +118,16 @@ def build_exits():
             
             class_id = "tn-"+str(source)+"-"+str(dest)
 
+            transitionCount[class_id] = transitionCount.get(class_id, 0) + 1
+            if transitionCount[class_id] > 1:
+                class_id = class_id + "-" + str(transitionCount[class_id])
+
             if exit.isGlitchTransition:
                 # glitched transitions can re-use the same transition
                 # clobbering the logic of the normal transition
                 class_id = "tn-"+str(source)+"-"+str(dest)+"-g"
 
-            r = exit_to_edge(class_id, source, dest, exit_name, exit_type, exit_types, logic)
+            r = exit_to_edge(class_id, source, dest, exit_name, exit_type, exit_types, logic, reverseName)
             edges.update(r)
 
             # Add the region 'exit to level' nodes

@@ -144,7 +144,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Training Grounds from DK's Treehouse"
         },
         "tn-5-6": {
             "id": "tn-5-6",
@@ -165,7 +166,8 @@
                         "Name": "fast_start_beginning_of_game"
                     }
                 ]
-            }
+            },
+            "ReverseName": "DK Isles Main from Training Grounds"
         },
         "tn-5-4": {
             "id": "tn-5-4",
@@ -183,7 +185,8 @@
                         "Name": "climbing"
                     }
                 ]
-            }
+            },
+            "ReverseName": "DK's Treehouse (Training Grounds)"
         },
         "tn-5-257": {
             "id": "tn-5-257",
@@ -212,7 +215,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Training Grounds from DK Isles Main"
         },
         "tn-6-7": {
             "id": "tn-6-7",
@@ -257,7 +261,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Japes Lobby from DK Isles Main"
         },
         "tn-6-16": {
             "id": "tn-6-16",
@@ -333,7 +338,8 @@
                         "Events": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Castle Lobby from DK Isles Main"
         },
         "tn-6-18": {
             "id": "tn-6-18",
@@ -424,7 +430,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Banana Fairy Isle"
         },
         "tn-10-6": {
             "id": "tn-10-6",
@@ -533,7 +540,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Aztec Lobby from DK Isles Main"
         },
         "tn-8-9": {
             "id": "tn-8-9",
@@ -641,7 +649,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Caves Lobby from DK Isles Main"
         },
         "tn-9-6": {
             "id": "tn-9-6",
@@ -737,7 +746,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from K-Lumsy"
         },
         "tn-12-7": {
             "id": "tn-12-7",
@@ -748,7 +758,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Banana Fairy Isle"
         },
         "tn-12-13": {
             "id": "tn-12-13",
@@ -790,7 +801,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Japes Lobby"
         },
         "tn-14-34": {
             "id": "tn-14-34",
@@ -813,6 +825,7 @@
                     }
                 ]
             },
+            "ReverseName": "Jungle Japes from Japes Lobby",
             "Types": "BLocker"
         },
         "tn-15-8": {
@@ -824,7 +837,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Aztec Lobby"
         },
         "tn-15-56": {
             "id": "tn-15-56",
@@ -847,6 +861,7 @@
                     }
                 ]
             },
+            "ReverseName": "Angry Aztec from Aztec Lobby",
             "Types": "BLocker"
         },
         "tn-16-6": {
@@ -869,7 +884,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "K-Lumsy"
         },
         "tn-6-23": {
             "id": "tn-6-23",
@@ -913,7 +929,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Galleon Lobby from DK Isles Main"
         },
         "tn-16-17": {
             "id": "tn-16-17",
@@ -1021,7 +1038,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Snide's Room (DK Isles)"
         },
         "tn-17-21": {
             "id": "tn-17-21",
@@ -1043,7 +1061,8 @@
                         "Events": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Factory Lobby from DK Isles Main"
         },
         "tn-19-31-g": {
             "id": "tn-19-31-g",
@@ -1074,7 +1093,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Helm Lobby from DK Isles Main"
         },
         "tn-18-19": {
             "id": "tn-18-19",
@@ -1118,8 +1138,8 @@
             "Type": "Neighbourhood",
             "Requires": true
         },
-        "tn-19-31": {
-            "id": "tn-19-31",
+        "tn-19-31-2": {
+            "id": "tn-19-31-2",
             "Name": "DK Isles Main to Helm Lobby",
             "source": "kremislemouth",
             "target": "hideouthelmlobby",
@@ -1147,7 +1167,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Helm Lobby from DK Isles Main"
         },
         "tn-19-18": {
             "id": "tn-19-18",
@@ -1256,7 +1277,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Snide's Room"
         },
         "tn-20-258": {
             "id": "tn-20-258",
@@ -1285,7 +1307,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Factory Lobby"
         },
         "tn-21-80": {
             "id": "tn-21-80",
@@ -1308,6 +1331,7 @@
                     }
                 ]
             },
+            "ReverseName": "Frantic Factory from Factory Lobby",
             "Types": "BLocker"
         },
         "tn-23-6": {
@@ -1319,7 +1343,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Galleon Lobby"
         },
         "tn-23-22": {
             "id": "tn-23-22",
@@ -1371,6 +1396,7 @@
                     }
                 ]
             },
+            "ReverseName": "Gloomy Galleon from Galleon Lobby",
             "Types": "BLocker"
         },
         "tn-24-6": {
@@ -1509,7 +1535,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Lobby from DK Isles Main"
         },
         "tn-25-6": {
             "id": "tn-25-6",
@@ -1761,7 +1788,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Fungi Lobby"
         },
         "tn-28-130": {
             "id": "tn-28-130",
@@ -1784,6 +1812,7 @@
                     }
                 ]
             },
+            "ReverseName": "Fungi Forest from Fungi Lobby",
             "Types": "BLocker"
         },
         "tn-29-9": {
@@ -1795,7 +1824,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Caves Lobby"
         },
         "tn-29-165": {
             "id": "tn-29-165",
@@ -1818,6 +1848,7 @@
                     }
                 ]
             },
+            "ReverseName": "Crystal Caves from Caves Lobby",
             "Types": "BLocker"
         },
         "tn-30-6": {
@@ -1829,7 +1860,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Castle Lobby"
         },
         "tn-30-194": {
             "id": "tn-30-194",
@@ -1852,6 +1884,7 @@
                     }
                 ]
             },
+            "ReverseName": "Creepy Castle from Castle Lobby",
             "Types": "BLocker"
         },
         "tn-31-19": {
@@ -1863,7 +1896,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "DK Isles Main from Helm Lobby"
         },
         "tn-31-284": {
             "id": "tn-31-284",
@@ -1928,6 +1962,7 @@
                     }
                 ]
             },
+            "ReverseName": "Hideout Helm from Helm Lobby",
             "Types": "BLocker"
         },
         "tn-34-14": {
@@ -1939,7 +1974,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Japes Lobby from Jungle Japes"
         },
         "tn-34-35": {
             "id": "tn-34-35",
@@ -2212,7 +2248,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Jungle Japes Underground"
         },
         "tn-35-264": {
             "id": "tn-35-264",
@@ -2431,7 +2468,8 @@
                         "Name": "diddy"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Jungle Japes Mountain from Main"
         },
         "tn-39-49": {
             "id": "tn-39-49",
@@ -2906,7 +2944,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Jungle Japes Painting Room"
         },
         "tn-36-46": {
             "id": "tn-36-46",
@@ -3009,8 +3048,8 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-263-47": {
-            "id": "tn-263-47",
+        "tn-263-47-2": {
+            "id": "tn-263-47-2",
             "Name": "Jungle Japes Main to Painting Room",
             "source": "japespaintingroomhill",
             "target": "japeslankycave",
@@ -3052,7 +3091,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Jungle Japes Painting Room"
         },
         "tn-37-36": {
             "id": "tn-37-36",
@@ -3335,7 +3375,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Jungle Japes Beehive"
         },
         "tn-43-46": {
             "id": "tn-43-46",
@@ -3390,7 +3431,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Jungle Japes Main from Beehive"
         },
         "tn-44-14": {
             "id": "tn-44-14",
@@ -3619,7 +3661,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Jungle Japes Main from Painting Room"
         },
         "tn-47-14": {
             "id": "tn-47-14",
@@ -3641,7 +3684,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Jungle Japes Main from Mountain"
         },
         "tn-48-14": {
             "id": "tn-48-14",
@@ -3753,7 +3797,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Jungle Japes Main from Underground"
         },
         "tn-51-14": {
             "id": "tn-51-14",
@@ -3808,7 +3853,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Aztec Lobby from Angry Aztec"
         },
         "tn-56-57": {
             "id": "tn-56-57",
@@ -4101,7 +4147,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Tiny Temple"
         },
         "tn-60-65": {
             "id": "tn-60-65",
@@ -4184,7 +4231,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Tiny Temple"
         },
         "tn-61-15": {
             "id": "tn-61-15",
@@ -4491,7 +4539,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec DK 5DTemple"
         },
         "tn-66-69": {
             "id": "tn-66-69",
@@ -4542,7 +4591,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Diddy 5DTemple"
         },
         "tn-66-269": {
             "id": "tn-66-269",
@@ -4578,7 +4628,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Lanky 5DTemple"
         },
         "tn-66-270": {
             "id": "tn-66-270",
@@ -4614,7 +4665,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Tiny 5DTemple"
         },
         "tn-66-271": {
             "id": "tn-66-271",
@@ -4665,7 +4717,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Chunky 5DTemple"
         },
         "tn-66-73": {
             "id": "tn-66-73",
@@ -4698,7 +4751,8 @@
                         "Name": "tiny"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Beetle Race"
         },
         "tn-66-74": {
             "id": "tn-66-74",
@@ -4741,7 +4795,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Angry Aztec Llama Temple"
         },
         "tn-66-78": {
             "id": "tn-66-78",
@@ -4955,7 +5010,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from DK 5DTemple"
         },
         "tn-68-15": {
             "id": "tn-68-15",
@@ -5031,7 +5087,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Diddy 5DTemple"
         },
         "tn-69-15": {
             "id": "tn-69-15",
@@ -5107,7 +5164,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Lanky 5DTemple"
         },
         "tn-269-15": {
             "id": "tn-269-15",
@@ -5183,7 +5241,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Tiny 5DTemple"
         },
         "tn-270-15": {
             "id": "tn-270-15",
@@ -5259,7 +5318,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Chunky 5DTemple"
         },
         "tn-271-15": {
             "id": "tn-271-15",
@@ -5335,7 +5395,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Beetle Race"
         },
         "tn-73-15": {
             "id": "tn-73-15",
@@ -5357,7 +5418,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Angry Aztec Main from Llama Temple"
         },
         "tn-74-15": {
             "id": "tn-74-15",
@@ -5530,7 +5592,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Factory Lobby from Frantic Factory"
         },
         "tn-80-81": {
             "id": "tn-80-81",
@@ -5890,7 +5953,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Frantic Factory Car Race"
         },
         "tn-83-96": {
             "id": "tn-83-96",
@@ -5953,8 +6017,8 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-86-87": {
-            "id": "tn-86-87",
+        "tn-86-87-2": {
+            "id": "tn-86-87-2",
             "Name": "Frantic Factory Research and Development to Car Race",
             "source": "factorytinyracelobby",
             "target": "factorytinyrace",
@@ -5983,7 +6047,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Frantic Factory Car Race"
         },
         "tn-87-86": {
             "id": "tn-87-86",
@@ -5994,7 +6059,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Frantic Factory Main from Car Race"
         },
         "tn-87-21": {
             "id": "tn-87-21",
@@ -6043,7 +6109,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Frantic Factory Power Shed"
         },
         "tn-88-21": {
             "id": "tn-88-21",
@@ -6076,7 +6143,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Frantic Factory Main from Power Shed"
         },
         "tn-89-21": {
             "id": "tn-89-21",
@@ -6472,7 +6540,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Frantic Factory Crusher Room"
         },
         "tn-91-93": {
             "id": "tn-91-93",
@@ -6502,7 +6571,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Frantic Factory Main from Crusher Room"
         },
         "tn-92-21": {
             "id": "tn-92-21",
@@ -6572,7 +6642,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Frantic Factory Crusher Room"
         },
         "tn-94-93": {
             "id": "tn-94-93",
@@ -6708,7 +6779,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Galleon Lobby from Gloomy Galleon"
         },
         "tn-100-101": {
             "id": "tn-100-101",
@@ -7326,7 +7398,8 @@
                         "Name": "climbing"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Lighthouse"
         },
         "tn-105-110": {
             "id": "tn-105-110",
@@ -7351,7 +7424,8 @@
                         "Name": "chunky"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Seasick Ship"
         },
         "tn-105-128": {
             "id": "tn-105-128",
@@ -7451,7 +7525,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Mermaid"
         },
         "tn-106-126": {
             "id": "tn-106-126",
@@ -7582,7 +7657,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Lighthouse"
         },
         "tn-108-23": {
             "id": "tn-108-23",
@@ -7644,7 +7720,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Mermaid"
         },
         "tn-109-23": {
             "id": "tn-109-23",
@@ -7666,7 +7743,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Seasick Ship"
         },
         "tn-110-23": {
             "id": "tn-110-23",
@@ -7781,7 +7859,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Seal Race"
         },
         "tn-111-246": {
             "id": "tn-111-246",
@@ -7925,7 +8004,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Submarine"
         },
         "tn-112-118": {
             "id": "tn-112-118",
@@ -7947,7 +8027,8 @@
                         "Name": "diddy"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Mech Fish"
         },
         "tn-112-119": {
             "id": "tn-112-119",
@@ -7980,7 +8061,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Lanky 2DShip"
         },
         "tn-112-120": {
             "id": "tn-112-120",
@@ -8013,7 +8095,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Tiny 2DShip"
         },
         "tn-112-121": {
             "id": "tn-112-121",
@@ -8046,7 +8129,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon DK 5DShip"
         },
         "tn-112-122": {
             "id": "tn-112-122",
@@ -8079,7 +8163,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Diddy 5DShip"
         },
         "tn-112-123": {
             "id": "tn-112-123",
@@ -8112,7 +8197,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Lanky 5DShip"
         },
         "tn-112-124": {
             "id": "tn-112-124",
@@ -8145,7 +8231,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Tiny 5DShip"
         },
         "tn-112-125": {
             "id": "tn-112-125",
@@ -8178,7 +8265,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Chunky 5DShip"
         },
         "tn-112-126": {
             "id": "tn-112-126",
@@ -8225,7 +8313,8 @@
                         "Amount": "2"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Main from Seal Race"
         },
         "tn-113-23": {
             "id": "tn-113-23",
@@ -8315,7 +8404,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Gloomy Galleon Treasure Chest"
         },
         "tn-114-115": {
             "id": "tn-114-115",
@@ -8407,7 +8497,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Treasure Chest"
         },
         "tn-116-23": {
             "id": "tn-116-23",
@@ -8429,7 +8520,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Submarine"
         },
         "tn-117-23": {
             "id": "tn-117-23",
@@ -8451,7 +8543,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Mech Fish"
         },
         "tn-118-23": {
             "id": "tn-118-23",
@@ -8473,7 +8566,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Lanky 2DShip"
         },
         "tn-119-23": {
             "id": "tn-119-23",
@@ -8516,7 +8610,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Tiny 2DShip"
         },
         "tn-120-23": {
             "id": "tn-120-23",
@@ -8559,7 +8654,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from DK 5DShip"
         },
         "tn-121-23": {
             "id": "tn-121-23",
@@ -8602,7 +8698,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Diddy 5DShip"
         },
         "tn-122-23": {
             "id": "tn-122-23",
@@ -8666,7 +8763,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Lanky 5DShip"
         },
         "tn-123-23": {
             "id": "tn-123-23",
@@ -8730,7 +8828,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Tiny 5DShip"
         },
         "tn-124-23": {
             "id": "tn-124-23",
@@ -8773,7 +8872,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Gloomy Galleon Main from Chunky 5DShip"
         },
         "tn-125-23": {
             "id": "tn-125-23",
@@ -8870,7 +8970,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Lobby from Fungi Forest"
         },
         "tn-130-131": {
             "id": "tn-130-131",
@@ -9021,7 +9122,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Giant Mushroom (Lower) from Low door"
         },
         "tn-133-135": {
             "id": "tn-133-135",
@@ -9244,7 +9346,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Anthill"
         },
         "tn-133-254": {
             "id": "tn-133-254",
@@ -9302,7 +9405,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Giant Mushroom (Bottom)"
         },
         "tn-134-139": {
             "id": "tn-134-139",
@@ -9394,7 +9498,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Giant Mushroom (Middle low)"
         },
         "tn-163-133": {
             "id": "tn-163-133",
@@ -9438,7 +9543,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Giant Mushroom (Middle High)"
         },
         "tn-260-135": {
             "id": "tn-260-135",
@@ -9550,7 +9656,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Giant Mushroom (Middle Low)"
         },
         "tn-160-260": {
             "id": "tn-160-260",
@@ -9623,7 +9730,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Giant Mushroom (Middle high)"
         },
         "tn-138-137": {
             "id": "tn-138-137",
@@ -9754,7 +9862,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Giant Mushroom (Top)"
         },
         "tn-140-138": {
             "id": "tn-140-138",
@@ -9805,7 +9914,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Giant Mushroom (Night door)"
         },
         "tn-141-140": {
             "id": "tn-141-140",
@@ -9816,7 +9926,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Giant Mushroom from Night door"
         },
         "tn-141-28": {
             "id": "tn-141-28",
@@ -9849,7 +9960,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Giant Mushroom (Top)"
         },
         "tn-142-28": {
             "id": "tn-142-28",
@@ -9950,7 +10062,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Face Puzzle (Chunky)"
         },
         "tn-142-144": {
             "id": "tn-142-144",
@@ -9990,7 +10103,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Bouncy Shrooms (Lanky)"
         },
         "tn-142-145": {
             "id": "tn-142-145",
@@ -10036,7 +10150,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Mushroom Puzzle (Lanky)"
         },
         "tn-142-158": {
             "id": "tn-142-158",
@@ -10065,7 +10180,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Face Puzzle (Chunky)"
         },
         "tn-143-28": {
             "id": "tn-143-28",
@@ -10087,7 +10203,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Bouncy Shrooms (Lanky)"
         },
         "tn-144-28": {
             "id": "tn-144-28",
@@ -10109,7 +10226,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Mushroom Puzzle (Lanky)"
         },
         "tn-145-28": {
             "id": "tn-145-28",
@@ -10158,8 +10276,8 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-146-147": {
-            "id": "tn-146-147",
+        "tn-146-147-2": {
+            "id": "tn-146-147-2",
             "Name": "Fungi Forest Main to Anthill",
             "source": "hollowtreearea",
             "target": "anthill",
@@ -10180,7 +10298,8 @@
                         "Name": "tiny"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Anthill"
         },
         "tn-146-158": {
             "id": "tn-146-158",
@@ -10250,7 +10369,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Main from Anthill"
         },
         "tn-147-28": {
             "id": "tn-147-28",
@@ -10353,7 +10473,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Winch Room"
         },
         "tn-161-148": {
             "id": "tn-161-148",
@@ -10386,7 +10507,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Mill Attic (Lanky)"
         },
         "tn-161-283": {
             "id": "tn-161-283",
@@ -10423,6 +10545,49 @@
         },
         "tn-148-149": {
             "id": "tn-148-149",
+            "Name": "Fungi Forest Main to Mill Back Door",
+            "source": "millarea",
+            "target": "millchunkytinyarea",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "primatepunch"
+                            },
+                            {
+                                "Name": "chunky"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    },
+                    {
+                        "Name": "CanPhaseswim",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    },
+                    {
+                        "Name": "ledgeclip",
+                        "isGlitch": true
+                    }
+                ]
+            },
+            "ReverseName": "Fungi Forest Back Mill from Back Door"
+        },
+        "tn-148-149-2": {
+            "id": "tn-148-149-2",
             "Name": "Fungi Forest Main to Mill Tiny Hole",
             "source": "millarea",
             "target": "millchunkytinyarea",
@@ -10465,7 +10630,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Back Mill from Tiny Hole"
         },
         "tn-148-151": {
             "id": "tn-148-151",
@@ -10476,7 +10642,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Front Mill from Main"
         },
         "tn-148-152": {
             "id": "tn-148-152",
@@ -10508,10 +10675,22 @@
                         "Name": "diddy"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Dark Rafters"
         },
         "tn-148-155": {
             "id": "tn-148-155",
+            "Name": "Mill Area to Thornvine Area",
+            "source": "millarea",
+            "target": "thornvinearea",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": true
+        },
+        "tn-148-155-2": {
+            "id": "tn-148-155-2",
             "Name": "Mill Area to Thornvine Area",
             "source": "millarea",
             "target": "thornvinearea",
@@ -10586,7 +10765,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Thornvine Barn"
         },
         "tn-148-162": {
             "id": "tn-148-162",
@@ -10653,6 +10833,29 @@
         },
         "tn-149-148": {
             "id": "tn-149-148",
+            "Name": "Fungi Forest Mill Back Door to Main",
+            "source": "millchunkytinyarea",
+            "target": "millarea",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Mill (Back Door)"
+        },
+        "tn-149-28": {
+            "id": "tn-149-28",
+            "Name": "Mill Back Room Exit Level",
+            "source": "millchunkytinyarea",
+            "target": "fungiforestlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
+        },
+        "tn-149-148-2": {
+            "id": "tn-149-148-2",
             "Name": "Fungi Forest Mill Tiny Hole to Main",
             "source": "millchunkytinyarea",
             "target": "millarea",
@@ -10689,18 +10892,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
-        },
-        "tn-149-28": {
-            "id": "tn-149-28",
-            "Name": "Mill Back Room Exit Level",
-            "source": "millchunkytinyarea",
-            "target": "fungiforestlobby",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "ExitWarp",
-            "Requires": true
+            },
+            "ReverseName": "Fungi Forest Main from Mill (Tiny Hole)"
         },
         "tn-149-150": {
             "id": "tn-149-150",
@@ -10711,7 +10904,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Spider"
         },
         "tn-149-151": {
             "id": "tn-149-151",
@@ -10747,7 +10941,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Front Mill from Back Mill"
         },
         "tn-150-149": {
             "id": "tn-150-149",
@@ -10758,7 +10953,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Back Mill from Spider"
         },
         "tn-150-28": {
             "id": "tn-150-28",
@@ -10780,7 +10976,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Mill (Front)"
         },
         "tn-151-28": {
             "id": "tn-151-28",
@@ -10827,7 +11024,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Back Mill from Front Mill"
         },
         "tn-152-148": {
             "id": "tn-152-148",
@@ -10838,7 +11036,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Dark Rafters"
         },
         "tn-152-28": {
             "id": "tn-152-28",
@@ -10860,7 +11059,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Winch Room"
         },
         "tn-153-28": {
             "id": "tn-153-28",
@@ -10882,7 +11082,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Mill Attic (Lanky)"
         },
         "tn-154-28": {
             "id": "tn-154-28",
@@ -10917,8 +11118,8 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-155-156": {
-            "id": "tn-155-156",
+        "tn-155-156-2": {
+            "id": "tn-155-156-2",
             "Name": "Fungi Forest Main to Thornvine Barn",
             "source": "thornvinearea",
             "target": "thornvinebarn",
@@ -10955,7 +11156,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Fungi Forest Thornvine Barn"
         },
         "tn-155-158": {
             "id": "tn-155-158",
@@ -10984,7 +11186,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Fungi Forest Main from Thornvine Barn"
         },
         "tn-156-28": {
             "id": "tn-156-28",
@@ -11145,7 +11348,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Caves Lobby from Crystal Caves"
         },
         "tn-165-166": {
             "id": "tn-165-166",
@@ -11493,7 +11697,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Beetle Race"
         },
         "tn-166-174": {
             "id": "tn-166-174",
@@ -11532,7 +11737,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Ice Castle"
         },
         "tn-166-175": {
             "id": "tn-166-175",
@@ -12013,7 +12219,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Beetle Race"
         },
         "tn-173-29": {
             "id": "tn-173-29",
@@ -12035,7 +12242,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Ice Castle"
         },
         "tn-174-29": {
             "id": "tn-174-29",
@@ -12159,7 +12367,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves DK 5DIgloo"
         },
         "tn-175-178": {
             "id": "tn-175-178",
@@ -12225,7 +12434,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Diddy 5DIgloo"
         },
         "tn-175-179": {
             "id": "tn-175-179",
@@ -12291,7 +12501,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Lanky 5DIgloo"
         },
         "tn-175-180": {
             "id": "tn-175-180",
@@ -12357,7 +12568,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Tiny 5DIgloo"
         },
         "tn-175-181": {
             "id": "tn-175-181",
@@ -12423,7 +12635,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Chunky 5DIgloo"
         },
         "tn-175-190": {
             "id": "tn-175-190",
@@ -12452,7 +12665,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from DK5DIgloo"
         },
         "tn-177-29": {
             "id": "tn-177-29",
@@ -12474,7 +12688,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Diddy 5DIgloo"
         },
         "tn-178-29": {
             "id": "tn-178-29",
@@ -12496,7 +12711,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Lanky 5DIgloo"
         },
         "tn-179-29": {
             "id": "tn-179-29",
@@ -12518,7 +12734,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Tiny 5DIgloo"
         },
         "tn-180-29": {
             "id": "tn-180-29",
@@ -12540,7 +12757,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Chunky 5DIgloo"
         },
         "tn-181-29": {
             "id": "tn-181-29",
@@ -12691,7 +12909,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Rotating Room"
         },
         "tn-182-184": {
             "id": "tn-182-184",
@@ -12735,7 +12954,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves DK 5DCabin"
         },
         "tn-182-185": {
             "id": "tn-182-185",
@@ -12775,7 +12995,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Diddy Lower 5DCabin"
         },
         "tn-182-186": {
             "id": "tn-182-186",
@@ -12815,7 +13036,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Diddy Upper 5DCabin"
         },
         "tn-182-277": {
             "id": "tn-182-277",
@@ -12907,7 +13129,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Lanky 1DCabin"
         },
         "tn-182-188": {
             "id": "tn-182-188",
@@ -12947,7 +13170,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Tiny 5DCabin"
         },
         "tn-182-189": {
             "id": "tn-182-189",
@@ -12987,7 +13211,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Crystal Caves Chunky 5DCabin"
         },
         "tn-182-247": {
             "id": "tn-182-247",
@@ -13096,7 +13321,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Rotating Room"
         },
         "tn-183-29": {
             "id": "tn-183-29",
@@ -13118,7 +13344,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from DK 5DCabin"
         },
         "tn-184-29": {
             "id": "tn-184-29",
@@ -13140,7 +13367,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Diddy Lower 5DCabin"
         },
         "tn-185-29": {
             "id": "tn-185-29",
@@ -13162,7 +13390,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Diddy Upper 5DCabin"
         },
         "tn-186-29": {
             "id": "tn-186-29",
@@ -13184,7 +13413,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Lanky 1DCabin"
         },
         "tn-187-29": {
             "id": "tn-187-29",
@@ -13206,7 +13436,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Tiny 5DCabin"
         },
         "tn-188-29": {
             "id": "tn-188-29",
@@ -13228,7 +13459,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Crystal Caves Main from Chunky 5DCabin"
         },
         "tn-189-29": {
             "id": "tn-189-29",
@@ -13283,7 +13515,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Castle Lobby from Creepy Castle"
         },
         "tn-194-195": {
             "id": "tn-194-195",
@@ -13347,7 +13580,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Tree (Entrance)"
         },
         "tn-195-197": {
             "id": "tn-195-197",
@@ -13395,7 +13629,8 @@
                         "Name": "donkey"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Library (Entrance)"
         },
         "tn-195-203": {
             "id": "tn-195-203",
@@ -13440,7 +13675,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Ballroom (Entrance)"
         },
         "tn-195-206": {
             "id": "tn-195-206",
@@ -13485,7 +13721,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Tower"
         },
         "tn-195-207": {
             "id": "tn-195-207",
@@ -13534,7 +13771,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Greenhouse (Entrance)"
         },
         "tn-195-208": {
             "id": "tn-195-208",
@@ -13574,7 +13812,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Trash Can"
         },
         "tn-195-209": {
             "id": "tn-195-209",
@@ -13614,7 +13853,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Shed"
         },
         "tn-195-210": {
             "id": "tn-195-210",
@@ -13659,7 +13899,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Museum (Entrance)"
         },
         "tn-195-215": {
             "id": "tn-195-215",
@@ -13670,7 +13911,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Upper Cave from Main (Back door)"
         },
         "tn-195-256": {
             "id": "tn-195-256",
@@ -13756,7 +13998,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Lower Cave from Main"
         },
         "tn-196-30": {
             "id": "tn-196-30",
@@ -13916,10 +14159,66 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Upper Cave from Main (Moat door)"
         },
         "tn-199-195": {
             "id": "tn-199-195",
+            "Name": "Creepy Castle Tree to Main",
+            "source": "castletree",
+            "target": "creepycastlemain",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Tree (Entrance)"
+        },
+        "tn-199-30": {
+            "id": "tn-199-30",
+            "Name": "Castle Tree Exit Level",
+            "source": "castletree",
+            "target": "creepycastlelobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
+        },
+        "tn-199-279": {
+            "id": "tn-199-279",
+            "Name": "Castle Tree to Castle Tree Past Punch",
+            "source": "castletree",
+            "target": "castletreepastpunch",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "primatepunch"
+                            },
+                            {
+                                "Name": "chunky"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            }
+        },
+        "tn-199-195-2": {
+            "id": "tn-199-195-2",
             "Name": "Creepy Castle Tree Drain to Main",
             "source": "castletree",
             "target": "creepycastlemain",
@@ -13965,50 +14264,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
-        },
-        "tn-199-30": {
-            "id": "tn-199-30",
-            "Name": "Castle Tree Exit Level",
-            "source": "castletree",
-            "target": "creepycastlelobby",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "ExitWarp",
-            "Requires": true
-        },
-        "tn-199-279": {
-            "id": "tn-199-279",
-            "Name": "Castle Tree to Castle Tree Past Punch",
-            "source": "castletree",
-            "target": "castletreepastpunch",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Neighbourhood",
-            "Requires": {
-                "combinator": "OR",
-                "rules": [
-                    {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "primatepunch"
-                            },
-                            {
-                                "Name": "chunky"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "CanPhase",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
-                    }
-                ]
-            }
+            },
+            "ReverseName": "Creepy Castle Main from Tree (Drain)"
         },
         "tn-279-199": {
             "id": "tn-279-199",
@@ -14041,7 +14298,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Library (Entrance)"
         },
         "tn-200-30": {
             "id": "tn-200-30",
@@ -14118,7 +14376,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Main from Library (Exit)"
         },
         "tn-201-200": {
             "id": "tn-201-200",
@@ -14221,8 +14480,8 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-202-195": {
-            "id": "tn-202-195",
+        "tn-202-195-2": {
+            "id": "tn-202-195-2",
             "Name": "Creepy Castle Library (Exit) to Main",
             "source": "librarypastbooks",
             "target": "creepycastlemain",
@@ -14240,7 +14499,8 @@
                         "Name": "coconut"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Main from Library (Exit)"
         },
         "tn-203-195": {
             "id": "tn-203-195",
@@ -14251,7 +14511,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Ballroom"
         },
         "tn-203-30": {
             "id": "tn-203-30",
@@ -14283,7 +14544,8 @@
                         "Name": "tiny"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Museum (Monkeyport)"
         },
         "tn-204-203": {
             "id": "tn-204-203",
@@ -14304,7 +14566,8 @@
                         "Name": "tiny"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Ballroom (Monkeyport)"
         },
         "tn-204-30": {
             "id": "tn-204-30",
@@ -14347,7 +14610,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Car Race"
         },
         "tn-204-210": {
             "id": "tn-204-210",
@@ -14379,7 +14643,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Museum from Car Race"
         },
         "tn-205-30": {
             "id": "tn-205-30",
@@ -14401,7 +14666,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Tower"
         },
         "tn-206-30": {
             "id": "tn-206-30",
@@ -14416,6 +14682,29 @@
         },
         "tn-207-195": {
             "id": "tn-207-195",
+            "Name": "Creepy Castle Greenhouse (Entrance) to Main",
+            "source": "greenhouse",
+            "target": "creepycastlemain",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Greenhouse (Entrance)"
+        },
+        "tn-207-30": {
+            "id": "tn-207-30",
+            "Name": "Greenhouse Exit Level",
+            "source": "greenhouse",
+            "target": "creepycastlelobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
+        },
+        "tn-207-195-2": {
+            "id": "tn-207-195-2",
             "Name": "Creepy Castle Greenhouse (Exit) to Main",
             "source": "greenhouse",
             "target": "creepycastlemain",
@@ -14433,18 +14722,8 @@
                         "Name": "free_trade_items"
                     }
                 ]
-            }
-        },
-        "tn-207-30": {
-            "id": "tn-207-30",
-            "Name": "Greenhouse Exit Level",
-            "source": "greenhouse",
-            "target": "creepycastlelobby",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "ExitWarp",
-            "Requires": true
+            },
+            "ReverseName": "Creepy Castle Main from Greenhouse (Exit)"
         },
         "tn-208-195": {
             "id": "tn-208-195",
@@ -14455,7 +14734,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Trash Can"
         },
         "tn-208-30": {
             "id": "tn-208-30",
@@ -14477,7 +14757,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Shed"
         },
         "tn-209-30": {
             "id": "tn-209-30",
@@ -14499,7 +14780,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Museum"
         },
         "tn-210-30": {
             "id": "tn-210-30",
@@ -14542,7 +14824,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Lower Cave"
         },
         "tn-211-30": {
             "id": "tn-211-30",
@@ -14618,7 +14901,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Crypt (Entrance)"
         },
         "tn-211-214": {
             "id": "tn-211-214",
@@ -14668,7 +14952,8 @@
                         "isFunction": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Mausoleum"
         },
         "tn-211-242": {
             "id": "tn-211-242",
@@ -14715,7 +15000,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Lower Cave from Crypt"
         },
         "tn-212-30": {
             "id": "tn-212-30",
@@ -14913,7 +15199,8 @@
                         "isGlitch": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Creepy Castle Minecart"
         },
         "tn-282-212": {
             "id": "tn-282-212",
@@ -14968,7 +15255,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Crypt from Minecart"
         },
         "tn-213-30": {
             "id": "tn-213-30",
@@ -14990,7 +15278,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Lower Cave from Mausoleum"
         },
         "tn-214-30": {
             "id": "tn-214-30",
@@ -15005,14 +15294,15 @@
         },
         "tn-215-195": {
             "id": "tn-215-195",
-            "Name": "Creepy Castle Upper Cave to Main (Moat door)",
+            "Name": "Creepy Castle Upper Cave to Main (Back door)",
             "source": "uppercave",
             "target": "creepycastlemain",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Upper Cave (Back door)"
         },
         "tn-215-30": {
             "id": "tn-215-30",
@@ -15025,6 +15315,18 @@
             "Type": "ExitWarp",
             "Requires": true
         },
+        "tn-215-195-2": {
+            "id": "tn-215-195-2",
+            "Name": "Creepy Castle Upper Cave to Main (Moat door)",
+            "source": "uppercave",
+            "target": "creepycastlemain",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true,
+            "ReverseName": "Creepy Castle Main from Upper Cave (Moat door)"
+        },
         "tn-215-216": {
             "id": "tn-215-216",
             "Name": "Creepy Castle Upper Cave to Dungeon",
@@ -15034,7 +15336,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Dungeon"
         },
         "tn-215-248": {
             "id": "tn-215-248",
@@ -15081,7 +15384,8 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Warp",
-            "Requires": true
+            "Requires": true,
+            "ReverseName": "Creepy Castle Upper Cave from Dungeon"
         },
         "tn-216-30": {
             "id": "tn-216-30",
@@ -15234,7 +15538,8 @@
                         "Events": true
                     }
                 ]
-            }
+            },
+            "ReverseName": "Helm Lobby from Hideout Helm"
         },
         "tn-221-31": {
             "id": "tn-221-31",
