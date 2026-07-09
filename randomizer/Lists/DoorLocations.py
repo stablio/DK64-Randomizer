@@ -723,7 +723,7 @@ door_locations = {
             location=[1498.8, 438.167, 299, 270],
             group=11,
             logic=lambda l: l.can_use_vines and l.climbing,
-            door_type=[DoorType.wrinkly],
+            door_type=[DoorType.wrinkly],  # Note: revert in 6.0
             moveless=False,
         ),
         DoorData(
@@ -2934,7 +2934,7 @@ door_locations = {
             rx=-54.458709399833616,
             rz=-2.2464418296590756,
             door_tags=[DoorTags.Season5Door],
-            door_type=[DoorType.wrinkly],
+            door_type=[DoorType.wrinkly],  # Note: revert in 6.0
             group=4,
         ),
         DoorData(
@@ -3334,7 +3334,7 @@ door_locations = {
             location=[481.998441919847, 1247.9489978887038, 1112.7816908753691, -68.0916195979442],
             rx=-32.23957607313838,
             door_tags=[DoorTags.Season5Door],
-            door_type=[DoorType.wrinkly],
+            door_type=[DoorType.wrinkly],  # Note: revert in 6.0
             group=5,
         ),
         DoorData(
