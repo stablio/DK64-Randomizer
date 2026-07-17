@@ -1,8 +1,5 @@
 """Shuffle Dirt Patch Locations."""
 
-from randomizer.Enums.Plandomizer import PlandoItems
-from randomizer.Lists import Exceptions
-
 import randomizer.LogicFiles.AngryAztec
 import randomizer.LogicFiles.CreepyCastle
 import randomizer.LogicFiles.CrystalCaves
@@ -13,7 +10,7 @@ import randomizer.LogicFiles.GloomyGalleon
 import randomizer.LogicFiles.JungleJapes
 from randomizer.Enums.Levels import Levels
 from randomizer.Enums.Locations import Locations
-from randomizer.Lists.CustomLocations import CustomLocation, CustomLocations, LocationTypes
+from randomizer.Lists.CustomLocations import CustomLocation, CustomLocations, LocationTags, LocationTypes
 from randomizer.LogicClasses import LocationLogic
 
 
@@ -30,7 +27,7 @@ def addPatch(spoiler, patch: CustomLocation, enum_val: int, name: str, level: Le
         Levels.CreepyCastle: "Castle",
     }
     spoiler.RegionList[patch.logic_region].locations.append(LocationLogic(enum_val, patch.logic))
-    spoiler.LocationList[enum_val].name = f"{level_to_name[level]} Dirt: {name}"
+    spoiler.LocationList[enum_val].name = f"{level_to_name[level]} Dirt ({name})"
     spoiler.LocationList[enum_val].default_mapid_data[0].map = patch.map
     spoiler.LocationList[enum_val].level = level
 
@@ -121,11 +118,16 @@ def ShufflePatches(spoiler, human_spoiler):
         Levels.CrystalCaves: [],
         Levels.CreepyCastle: [],
     }
+    excluded_tags = []
+    if spoiler.settings.season5_crate_rando:
+        excluded_tags.append(LocationTags.Season5CrateRando)
     if spoiler.settings.enable_plandomizer and spoiler.settings.plandomizer_dict["plando_dirt_patches"] != []:
         fillPlandoDict(plando_dict, spoiler.settings.plandomizer_dict["plando_dirt_patches"])
 
     for key in total_dirt_patch_list.keys():
         for SingleDirtPatchLocation in CustomLocations[key]:
+            if any(excluded_tags) and any(tag in SingleDirtPatchLocation.tags for tag in excluded_tags):
+                continue
             if SingleDirtPatchLocation.is_fungi_hidden_patch or SingleDirtPatchLocation.isValidLocation(LocationTypes.DirtPatch):
                 SingleDirtPatchLocation.setCustomLocation(False)
                 if not spoiler.settings.enable_plandomizer or (SingleDirtPatchLocation.name not in spoiler.settings.plandomizer_dict["reserved_custom_locations"][key]):

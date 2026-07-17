@@ -43,6 +43,7 @@ class CustomLocation:
         banned_types: list = [],
         default_index=0,
         tied_warp_event: Events = None,
+        tags: list[LocationTags] = [],
     ) -> None:
         """Initialize with given data."""
         self.map = map
@@ -67,9 +68,10 @@ class CustomLocation:
         self.default_index = default_index
         self.placement_subindex = default_index
         self.tied_warp_event = tied_warp_event
+        self.tags = tags
         if logic is None:
             self.has_access_logic = False
-            self.logic = lambda l: True
+            self.logic = lambda _: True
         else:
             self.has_access_logic = True
             self.logic = logic
@@ -104,7 +106,7 @@ def getBannedWarps(spoiler) -> list[Events]:
         Events.GalleonW4aTagged,
     ]
     WARP_SHUFFLE_SETTING = spoiler.settings.bananaport_placement_rando
-    PLATFORMING_SETTING = spoiler.LogicVariables.advanced_platforming
+    PLATFORMING_SETTING = spoiler.LogicVariables.monkey_maneuvers
     if WARP_SHUFFLE_SETTING in [ShufflePortLocations.on, ShufflePortLocations.half_vanilla]:
         # Access to the Lanky Kasplat and potential coins or coloured bananas
         lst.append(Events.LlamaW2bTagged)
@@ -196,11 +198,17 @@ class LocationTypes(IntEnum):
     Bananaport = auto()
 
 
+class LocationTags(IntEnum):
+    """Location tags for custom locations."""
+
+    Season5CrateRando = auto()
+
+
 CustomLocations = {
     Levels.JungleJapes: [
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Near Funky",
+            name="Near Low Hill Shop",
             x=1989.7,
             y=520,
             z=2086.71,
@@ -256,7 +264,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Diddy Cavern",
+            name="First Tunnel Cave",
             x=2381,
             y=280,
             z=392,
@@ -265,7 +273,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Inside Diddy's Cavern",
+            name="In First Tunnel Cave",
             map=Maps.JungleJapes,
             x=2475.0,
             y=280.0,
@@ -276,7 +284,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Inside the first tunnel - later half",
+            name="First tunnel - later half",
             map=Maps.JungleJapes,
             x=1812.0,
             y=280.0,
@@ -295,11 +303,11 @@ CustomLocations = {
             max_size=56,
             logic_region=Regions.JapesPaintingRoomHill,
             group=1,
-            banned_types=[LocationTypes.MelonCrate],
+            banned_types=[LocationTypes.MelonCrate, LocationTypes.Bananaport],
         ),
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Shellhive Island",
+            name="Hive area near Hunky barrel",
             x=2337,
             y=551,
             z=3156,
@@ -362,7 +370,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Lanky Alcove Hill",
+            name="Useless Lanky Slope - Middle",
             x=2209,
             y=339,
             z=3205,
@@ -371,7 +379,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="On the useless Lanky ramp",
+            name="Useless Lanky Slope - Left",
             map=Maps.JungleJapes,
             x=2263.0,
             y=338.0,
@@ -383,7 +391,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Cranky-tunnel Crossing",
+            name="Stormy Tunnel Crossing",
             map=Maps.JungleJapes,
             x=1633.0,
             y=210.0,
@@ -408,7 +416,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Fairy Pool",
+            name="Rambi Pool",
             x=597,
             y=240,
             z=3123,
@@ -428,7 +436,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Behind DK Hut (1)",
+            name="Behind DK Hut",
             x=1307,
             y=280,
             z=4327,
@@ -437,7 +445,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Next to DK hut (2)",
+            name="Left of DK hut",
             map=Maps.JungleJapes,
             x=1409.0,
             y=280.0,
@@ -450,7 +458,7 @@ CustomLocations = {
         # CrownLocation(map=Maps.JungleJapes, name="On Cranky's Lab", x=1696, y=360, z=4002, max_size=40, logic_region=0, group=2), # Doesn't work with shop rando
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Behind Storm Area Shop (1)",
+            name="Near the Rambi cage",
             x=1705,
             y=280,
             z=4233,
@@ -459,7 +467,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Behind Storm Area Shop (2)",
+            name="Behind Stormy Shop",
             map=Maps.JungleJapes,
             x=1697.0,
             y=280.0,
@@ -493,7 +501,7 @@ CustomLocations = {
         # ),
         CustomLocation(
             map=Maps.JungleJapes,
-            name="Near High Shop",
+            name="Near highest shop",
             x=2045,
             y=680,
             z=2522,
@@ -524,7 +532,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Near Cannon to Diddy-freeing cage",
+            name="Near the cannon",
             map=Maps.JungleJapes,
             x=1274.0,
             y=520.0,
@@ -705,7 +713,7 @@ CustomLocations = {
             tied_warp_event=Events.JapesW5bTagged,
         ),
         CustomLocation(
-            name="Vanilla Cranky Warp 4",
+            name="Vanilla Stormy Warp 4",
             map=Maps.JungleJapes,
             x=1696.499,
             y=280,
@@ -718,7 +726,7 @@ CustomLocations = {
             tied_warp_event=Events.JapesW4bTagged,
         ),
         CustomLocation(
-            name="Behind Chunky Boulder",
+            name="Behind the boulder",
             map=Maps.JungleJapes,
             x=2433.0,
             y=280.0,
@@ -746,6 +754,7 @@ CustomLocations = {
             z=814,
             max_size=56,
             logic_region=Regions.JapesCatacomb,
+            tags=[LocationTags.Season5CrateRando],
             group=1,
         ),
         CustomLocation(
@@ -767,6 +776,7 @@ CustomLocations = {
             z=471,
             max_size=48,
             logic_region=Regions.Mine,
+            tags=[LocationTags.Season5CrateRando],
             group=5,
         ),
         CustomLocation(
@@ -826,7 +836,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JapesTinyHive,
-            name="Shell: Main Room",
+            name="Hive: Main Room",
             x=1385,
             y=212,
             z=1381,
@@ -836,7 +846,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JapesTinyHive,
-            name="Shell: 1st Room",
+            name="Hive: 1st Room",
             x=610,
             y=130,
             z=1279,
@@ -846,7 +856,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.JapesTinyHive,
-            name="Shell: 3rd Room",
+            name="Hive: 3rd Room",
             x=2547,
             y=254,
             z=1354,
@@ -894,7 +904,7 @@ CustomLocations = {
             group=7,
         ),
         CustomLocation(
-            name="Tiny Temple: Main room back-left",
+            name="Tiny Temple: Main room back left",
             map=Maps.AztecTinyTemple,
             x=1727.0,
             y=284.0,
@@ -936,7 +946,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Tiny Temple: Next to Tiny cage",
+            name="Tiny Temple: Next to Kong cage",
             map=Maps.AztecTinyTemple,
             x=565.0,
             y=344.0,
@@ -959,7 +969,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="Blueprint Room",
+            name="Quicksand Bridge Room",
             x=1224,
             y=120,
             z=740,
@@ -968,6 +978,7 @@ CustomLocations = {
             logic=lambda l: l.CanPhase() or (l.hasMoveSwitchsanity(Switches.AztecBlueprintDoor, False) and ((l.strongKong and l.isdonkey) or (l.twirl and l.istiny))),
             group=1,
             banned_types=[LocationTypes.Bananaport],  # Hard to detect that it's bad to link to Quicksand Cave, in which case it tricks the seed into assuming any kong can use this port
+            tags=[LocationTags.Season5CrateRando],
         ),
         CustomLocation(
             map=Maps.AngryAztec,
@@ -1067,7 +1078,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="Next to Chunky Cage (1)",
+            name="Left of Hunky Cage",
             x=4276.6,
             y=120,
             z=2266,
@@ -1077,7 +1088,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="Next to Chunky Cage (2)",
+            name="Right of Hunky Cage",
             x=4283,
             y=120,
             z=2543.6,
@@ -1086,7 +1097,7 @@ CustomLocations = {
             group=5,
         ),
         CustomLocation(
-            name="Behind Chunky Cage",
+            name="Behind Hunky Cage",
             map=Maps.AngryAztec,
             x=4395.0,
             y=120.0,
@@ -1129,7 +1140,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="On Llama Temple",
+            name="On Llama Temple - back",
             x=2884,
             y=437,
             z=2903,
@@ -1140,7 +1151,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="On Llama Temple (1)",
+            name="On Llama Temple",
             x=2892.8391113281,
             y=437.5,
             z=2952.9016113281,
@@ -1153,7 +1164,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="Near Sealed Quicksand Tunnel Shop",
+            name="Near Quicksand Tunnel Shop",
             x=3000,
             y=120,
             z=4532,
@@ -1174,7 +1185,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztec,
-            name="Near Sealed Quicksand Tunnel Exterior Warp",
+            name="Near Strong Kong Warp",
             x=3422,
             y=120,
             z=4514,
@@ -1204,7 +1215,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Next to Snide",
+            name="Next to Vulture cage shop",
             map=Maps.AngryAztec,
             x=4028.0,
             y=120.0,
@@ -1215,7 +1226,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Behind Gong-tower",
+            name="Behind Gong tower",
             map=Maps.AngryAztec,
             x=4524.0,
             y=80.0,
@@ -1226,7 +1237,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Left of Gong-tower",
+            name="Left of Gong tower",
             map=Maps.AngryAztec,
             x=4190.0,
             y=80.0,
@@ -1260,7 +1271,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Vanilla Near Warp 1",
+            name="Vanilla Tunnel Warp 1",
             map=Maps.AngryAztec,
             x=805.376,
             y=120,
@@ -1338,7 +1349,7 @@ CustomLocations = {
             tied_warp_event=Events.AztecW1bTagged,
         ),
         CustomLocation(
-            name="Vanilla Near Warp 4",
+            name="Vanilla Totem Warp 4",
             map=Maps.AngryAztec,
             x=3412.203,
             y=121.381,
@@ -1391,7 +1402,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AztecDonkey5DTemple,
-            name="DK 5DT: Dead End",
+            name="Donkey 5DT: Dead End",
             x=99,
             y=20,
             z=464,
@@ -1423,7 +1434,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AztecLanky5DTemple,
-            name="Lanky 5DT: Near Vanilla Balloon",
+            name="Lanky 5DT: Right side",
             x=180,
             y=47,
             z=658,
@@ -1443,8 +1454,19 @@ CustomLocations = {
             group=7,
         ),
         CustomLocation(
+            map=Maps.AztecTiny5DTemple,
+            name="Tiny 5DT: Right side",
+            x=640,
+            y=47,
+            z=632,
+            max_size=72,
+            logic_region=Regions.TinyTemple,
+            tags=[LocationTags.Season5CrateRando],
+            group=7,
+        ),
+        CustomLocation(
             map=Maps.AztecChunky5DTemple,
-            name="Chunky 5DT: Path Split (1)",
+            name="Chunky 5DT: Right side",
             x=375,
             y=20,
             z=321,
@@ -1454,7 +1476,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AztecChunky5DTemple,
-            name="Chunky 5DT: Path Split (2)",
+            name="Chunky 5DT: Left side",
             x=779,
             y=47,
             z=678,
@@ -1475,7 +1497,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AztecLlamaTemple,
-            name="Llama Temple Entrance",
+            name="Llama Temple: Entrance",
             x=2634.7512207031,
             y=371.66665649414,
             z=2420.3410644531,
@@ -1542,7 +1564,7 @@ CustomLocations = {
             tied_warp_event=Events.LlamaW1aTagged,
         ),
         CustomLocation(
-            name="Llama Temple: Vanilla Matching Warp 1",
+            name="Llama Temple: Vanilla Far Warp 1",
             map=Maps.AztecLlamaTemple,
             x=1529.909,
             y=641.333,
@@ -1594,7 +1616,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AztecLlamaTemple,
-            name="Llama Temple: Snoop Switch",
+            name="Llama Temple: DK Switch",
             x=1695,
             y=433,
             z=1704,
@@ -1616,7 +1638,7 @@ CustomLocations = {
     Levels.FranticFactory: [
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Under R and D Grate (1)",
+            name="Under R&D Grate",
             x=4119,
             y=1313,
             z=1165.81,
@@ -1642,7 +1664,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Foyer Carpet",
+            name="On Foyer Carpet",
             x=1265,
             y=830,
             z=2504,
@@ -1651,7 +1673,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Middle of Entrance Room",
+            name="Near Foyer carpet",
             map=Maps.FranticFactory,
             x=1264.0,
             y=830.0,
@@ -1770,7 +1792,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="On Production outside box",
+            name="Vent platform near elevators",
             x=988,
             y=322,
             z=1175,
@@ -1790,7 +1812,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Cranky and Candy Room",
+            name="Near left storage shop",
             x=316,
             y=165,
             z=805,
@@ -1801,7 +1823,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Near Candy",
+            name="Near Right Storage Shop",
             x=319.03137207031,
             y=165.5,
             z=596.36285400391,
@@ -1845,7 +1867,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Near Snide (1)",
+            name="Glass Window Shop",
             x=1702,
             y=810,
             z=2240,
@@ -1854,7 +1876,7 @@ CustomLocations = {
             group=5,
         ),
         CustomLocation(
-            name="Near Snide (2)",
+            name="Glass Window Shop (hidden)",
             map=Maps.FranticFactory,
             x=1603.0,
             y=810.0,
@@ -1907,7 +1929,7 @@ CustomLocations = {
         #     group=2,
         # ),
         CustomLocation(
-            name="On Diddy's Block Tower",
+            name="On the Block Tower",
             map=Maps.FranticFactory,
             x=2375.0,
             y=1266.0,
@@ -1921,7 +1943,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Block Tower Lower Bonus",
+            name="Under Testing barrel",
             x=2634,
             y=1026,
             z=1101,
@@ -1931,7 +1953,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Funky Room (1)",
+            name="Testing shop entrance left",
             x=1595,
             y=1113,
             z=760,
@@ -1942,7 +1964,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Funky Room (2)",
+            name="Testing shop left",
             x=1370,
             y=1131,
             z=551,
@@ -1951,7 +1973,7 @@ CustomLocations = {
             group=5,
         ),
         CustomLocation(
-            name="Funky Room (3)",
+            name="Testing shop right",
             map=Maps.FranticFactory,
             x=1656.0,
             y=1113.0,
@@ -1963,7 +1985,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Near Funky",
+            name="Testing Shop Entrance Right",
             x=1735.7963867188,
             y=1113.1666259766,
             z=641.83825683594,
@@ -1975,7 +1997,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Piano Room",
+            name="Piano Room left corner",
             x=3382,
             y=1264,
             z=641,
@@ -1986,7 +2008,7 @@ CustomLocations = {
             banned_types=[LocationTypes.CrownPad, LocationTypes.Bananaport],
         ),
         CustomLocation(
-            name="In Lanky's Piano Room",
+            name="Piano Room right",
             map=Maps.FranticFactory,
             x=3470.0,
             y=1264.0,
@@ -2000,7 +2022,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Diddy R and D",
+            name="Diddy R&D corner",
             x=4450,
             y=1336,
             z=735,
@@ -2011,7 +2033,7 @@ CustomLocations = {
             banned_types=[LocationTypes.CrownPad, LocationTypes.Bananaport],
         ),
         CustomLocation(
-            name="In Diddy's Pincode enemies room",
+            name="Diddy R&D",
             map=Maps.FranticFactory,
             x=4463.0,
             y=1336.0,
@@ -2025,7 +2047,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Chunky R and D",
+            name="Chunky R&D",
             x=4574,
             y=1336,
             z=1350,
@@ -2039,7 +2061,7 @@ CustomLocations = {
             ],  # Entering a crown battle during the Toy Boss fight would break the fight until level re-entry
         ),
         CustomLocation(
-            name="In front of Chunky's toy boss room",
+            name="In front of toy monster room",
             map=Maps.FranticFactory,
             x=4345.0,
             y=1416.0,
@@ -2056,7 +2078,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Near Car Race",
+            name="Car Race room",
             x=3553,
             y=1264,
             z=1383,
@@ -2065,7 +2087,7 @@ CustomLocations = {
             logic=lambda l: (l.mini and l.istiny) or l.phasewalk,
         ),
         CustomLocation(
-            name="Tiny race entry area",
+            name="Car Race Lobby",
             map=Maps.FranticFactory,
             x=3544.0,
             y=1264.0,
@@ -2074,10 +2096,11 @@ CustomLocations = {
             max_size=64,
             logic_region=Regions.FactoryTinyRaceLobby,
             logic=lambda l: ((l.mini and l.istiny) or l.CanPhase()),
+            tags=[LocationTags.Season5CrateRando],
             group=3,
         ),
         CustomLocation(
-            name="R and D lever room - by Tiny's barrel",
+            name="R&D lever room",
             map=Maps.FranticFactory,
             x=3693.0,
             y=1263.0,
@@ -2089,7 +2112,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FranticFactory,
-            name="Under R and D Grate (2)",
+            name="Under second R&D Grate",
             x=4054,
             y=1313,
             z=776,
@@ -2100,7 +2123,7 @@ CustomLocations = {
             banned_types=[LocationTypes.MelonCrate, LocationTypes.Bananaport],
         ),
         CustomLocation(
-            name="Vanilla Close Warp 2",
+            name="Vanilla Foyer Warp 2",
             map=Maps.FranticFactory,
             x=1372.674,
             y=845.667,
@@ -2113,7 +2136,7 @@ CustomLocations = {
             tied_warp_event=Events.FactoryW1aTagged,
         ),
         CustomLocation(
-            name="Vanilla Close Warp 3",
+            name="Vanilla Foyer Warp 3",
             map=Maps.FranticFactory,
             x=1435.392,
             y=842.667,
@@ -2126,7 +2149,7 @@ CustomLocations = {
             tied_warp_event=Events.FactoryW3aTagged,
         ),
         CustomLocation(
-            name="Vanilla Far Warp 2",
+            name="Vanilla R&D Warp 2",
             map=Maps.FranticFactory,
             x=3802.578,
             y=1264,
@@ -2152,7 +2175,7 @@ CustomLocations = {
             tied_warp_event=Events.FactoryW3bTagged,
         ),
         CustomLocation(
-            name="Vanilla Upper Warp 4",
+            name="Vanilla High Warp 4",
             map=Maps.FranticFactory,
             x=907.894,
             y=422.5,
@@ -2165,7 +2188,7 @@ CustomLocations = {
             tied_warp_event=Events.FactoryW4bTagged,
         ),
         CustomLocation(
-            name="Vanilla Lower Warp 4",
+            name="Vanilla Low Warp 4",
             map=Maps.FranticFactory,
             x=916.314,
             y=0,
@@ -2178,7 +2201,7 @@ CustomLocations = {
             tied_warp_event=Events.FactoryW4aTagged,
         ),
         CustomLocation(
-            name="Vanilla Funky Warp 5",
+            name="Vanilla Testing Warp 5",
             map=Maps.FranticFactory,
             x=1624.949,
             y=1113.167,
@@ -2191,7 +2214,7 @@ CustomLocations = {
             tied_warp_event=Events.FactoryW5bTagged,
         ),
         CustomLocation(
-            name="Vanilla Near Warp 1",
+            name="Vanilla Foyer Warp 1",
             map=Maps.FranticFactory,
             x=1153.009,
             y=845.667,
@@ -2242,7 +2265,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FactoryPowerHut,
-            name="Power Shed: Corner",
+            name="Power Hut: Corner",
             x=62,
             y=0,
             z=64,
@@ -2254,7 +2277,7 @@ CustomLocations = {
     Levels.GloomyGalleon: [
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Under Cranky",
+            name="Under Cavern Shop",
             x=3296.94,
             y=1670,
             z=2450.29,
@@ -2291,7 +2314,7 @@ CustomLocations = {
             group=6,
         ),
         CustomLocation(
-            name="Next to Cannonball - in front",
+            name="Front of cannonball",
             map=Maps.GloomyGalleon,
             x=1366.0,
             y=1610.0,
@@ -2303,7 +2326,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Next to Cannonball - behind",
+            name="Behind the cannonball",
             map=Maps.GloomyGalleon,
             x=1261.0,
             y=1610.0,
@@ -2315,7 +2338,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Next to cannon in cannonball room",
+            name="Next to cannonball cannon",
             map=Maps.GloomyGalleon,
             x=1310.0,
             y=1610.0,
@@ -2327,7 +2350,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Entrance tunnel - under tag barrel",
+            name="Entrance tunnel crossing",
             map=Maps.GloomyGalleon,
             x=2534.0,
             y=1610.0,
@@ -2335,10 +2358,11 @@ CustomLocations = {
             rot_y=3094,
             max_size=64,
             logic_region=Regions.GloomyGalleonStart,
+            tags=[LocationTags.Season5CrateRando],
             group=3,
         ),
         CustomLocation(
-            name="Near Chest Cannon (1)",
+            name="Tunnel to chests far",
             map=Maps.GloomyGalleon,
             x=3072,
             y=1790,
@@ -2349,7 +2373,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Near Chest Cannon (2)",
+            name="Tunnel to chests close",
             x=3072,
             y=1790,
             z=3360,
@@ -2360,7 +2384,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Near Chest GB Tunnel",
+            name="Chests tunnel alcove",
             x=3048,
             y=1670,
             z=3832,
@@ -2370,7 +2394,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="In Punch GB Chest Room",
+            name="Chests room",
             x=3506,
             y=1670,
             z=3802,
@@ -2390,7 +2414,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Behind the ship you shoot onto with the cannon",
+            name="Behind the cannon wreck",
             map=Maps.GloomyGalleon,
             x=3199.0,
             y=1670.0,
@@ -2402,7 +2426,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Galleon2DShip,
-            name="Galleon Lanky 2DS Inside Chest",
+            name="Lanky 2DS: Inside Chest",
             x=2423,
             y=2.158,
             z=862,
@@ -2414,7 +2438,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Left of Cranky",
+            name="Left of cavern shop",
             x=3175,
             y=1670,
             z=2527,
@@ -2444,7 +2468,7 @@ CustomLocations = {
         #     group=3,
         # ),
         CustomLocation(
-            name="In front of Cranky",
+            name="Front of cavern shop",
             map=Maps.GloomyGalleon,
             x=3357.0,
             y=1790.0,
@@ -2467,7 +2491,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="On Lighthouse Platform (Rocketbarrel)",
+            name="Near the Rocketbarrel",
             x=1396,
             y=1610,
             z=4150,
@@ -2477,7 +2501,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="On Lighthouse Platform (Baboon Blast)",
+            name="Near the Baboon Blast",
             x=1618,
             y=1610,
             z=4175,
@@ -2498,7 +2522,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Lighthouse: Under Enguarde Box",
+            name="Under lighthouse Enguarde box",
             x=1987,
             y=969,
             z=3693,
@@ -2506,6 +2530,7 @@ CustomLocations = {
             logic_region=Regions.LighthouseUnderwater,
             group=7,
             logic=lambda l: Events.LighthouseEnguarde in l.Events,
+            tags=[LocationTags.Season5CrateRando],
             banned_types=[LocationTypes.CrownPad, LocationTypes.DirtPatch, LocationTypes.Bananaport],
         ),
         CustomLocation(
@@ -2556,7 +2581,7 @@ CustomLocations = {
         # ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Blueprint Alcove",
+            name="Lighthouse Alcove",
             x=680,
             y=1564,
             z=3940,
@@ -2568,7 +2593,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Behind Snide's",
+            name="Behind lighthouse shop",
             x=2071,
             y=1610,
             z=4823,
@@ -2579,7 +2604,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.GloomyGalleon,
-            name="Shipyard: On top of Tiny Submarine",
+            name="On the submarine",
             x=3918,
             y=442,
             z=1362,
@@ -2630,12 +2655,12 @@ CustomLocations = {
             z=487,
             max_size=40,
             logic_region=Regions.TreasureRoom,
-            logic=lambda l: ((l.balloon and l.islanky) and Events.WaterRaised in l.Events or (Events.ShipyardTreasureRoomOpened in l.Events and l.advanced_platforming)) or l.CanMoonkick(),
+            logic=lambda l: ((l.balloon and l.islanky) and Events.WaterRaised in l.Events or (Events.ShipyardTreasureRoomOpened in l.Events and l.monkey_maneuvers)) or l.CanMoonkick(),
             group=5,
             banned_types=[LocationTypes.Bananaport],  # Hard to detect that it's bad to link to Diddy's tower, in which case it bricks seed gen
         ),
         CustomLocation(
-            name="Galleon Treasure Room UnderWater",
+            name="Treasure Room UnderWater",
             map=Maps.GloomyGalleon,
             x=1548,
             y=1458,
@@ -2673,7 +2698,7 @@ CustomLocations = {
             tied_warp_event=Events.GalleonW1bTagged,
         ),
         CustomLocation(
-            name="Vanilla Snide Warp 3",
+            name="Vanilla Alcove Warp 3",
             map=Maps.GloomyGalleon,
             x=1981.99,
             y=1610,
@@ -2699,7 +2724,7 @@ CustomLocations = {
             tied_warp_event=Events.GalleonW5aTagged,
         ),
         CustomLocation(
-            name="Vanilla Start Warp 2",
+            name="Vanilla Cavern Warp 2",
             map=Maps.GloomyGalleon,
             x=2905.288,
             y=1700,
@@ -2712,7 +2737,7 @@ CustomLocations = {
             tied_warp_event=Events.GalleonW2aTagged,
         ),
         CustomLocation(
-            name="Vanilla Start Warp 3",
+            name="Vanilla Bridge Warp 3",
             map=Maps.GloomyGalleon,
             x=3067.098,
             y=1890,
@@ -2751,7 +2776,7 @@ CustomLocations = {
             tied_warp_event=Events.GalleonW4aTagged,
         ),
         CustomLocation(
-            name="Vanilla Start Warp 1",
+            name="Vanilla Cavern Warp 1",
             map=Maps.GloomyGalleon,
             x=2844.223,
             y=1673.752,
@@ -2789,7 +2814,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Sick Bay: Chunky ship entrance",
+            name="Seasick Ship: Entrance",
             map=Maps.GalleonSickBay,
             x=628.0,
             y=20.0,
@@ -2820,7 +2845,7 @@ CustomLocations = {
         #     group=2,
         # ),
         CustomLocation(
-            name="Sick Bay: Chunky ship - back left corner",
+            name="Seasick Ship: Back left corner",
             map=Maps.GalleonSickBay,
             x=701.0,
             y=20.0,
@@ -2831,7 +2856,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Sick Bay: Chunky ship - behind the non-alcoholic tower",
+            name="Seasick Ship: Behind the non-alcoholic tower",
             map=Maps.GalleonSickBay,
             x=159.0,
             y=20.0,
@@ -2899,7 +2924,7 @@ CustomLocations = {
     Levels.FungiForest: [
         CustomLocation(
             map=Maps.FungiForest,
-            name="Giant Mushroom High Ladder Platform",
+            name="Mushroom Exterior Top Ladder",
             x=1254.33,
             y=1079.33,
             z=1307.16,
@@ -2947,6 +2972,17 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
+            name="Clocktower Stumps",
+            x=2556,
+            y=392,
+            z=2327,
+            max_size=56,
+            logic_region=Regions.FungiForestStart,
+            tags=[LocationTags.Season5CrateRando],
+            group=1,
+        ),
+        CustomLocation(
+            map=Maps.FungiForest,
             name="Behind Clock",
             x=2300,
             y=603,
@@ -2977,18 +3013,17 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near Snide's HQ",
+            name="Near Mills shop",
             x=3154,
             y=268,
             z=3682,
             max_size=56,
-            logic_region=Regions.MillArea,
+            logic_region=Regions.SnideArea,
             group=2,
-            logic=lambda l: (l.TimeAccess(Regions.MillArea, Time.Day)),
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Behind Diddy Barn",
+            name="Behind rafters barn",
             x=3139,
             y=272,
             z=4343,
@@ -2998,7 +3033,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Left of Diddy Barn",
+            name="Left of rafters barn",
             x=3400,
             y=272,
             z=4652,
@@ -3019,7 +3054,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Behind Dark Attic",
+            name="Behind Rafters Barn",
             x=3175.0856933594,
             y=272.33334350586,
             z=4425.095703125,
@@ -3031,7 +3066,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near Mill Tag",
+            name="Near Mill Tag Barrel",
             x=4706,
             y=139,
             z=4373,
@@ -3082,7 +3117,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="En route to DK Barn",
+            name="En route to Thornvine Barn",
             x=4604,
             y=206,
             z=2844,
@@ -3092,7 +3127,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Right of DK Barn",
+            name="Right of Thornvine Barn",
             x=4492,
             y=116,
             z=1959,
@@ -3102,7 +3137,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Far Right of DK Barn",
+            name="Far Right of Thornvine Barn",
             x=4147,
             y=115,
             z=1496,
@@ -3112,7 +3147,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Behind DK Barn",
+            name="Behind Thornvine Barn",
             x=3486,
             y=115,
             z=1427,
@@ -3122,7 +3157,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Far Left of DK Barn",
+            name="Far Left of Thornvine Barn",
             x=3529,
             y=115,
             z=2035,
@@ -3132,7 +3167,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near DK Barn",
+            name="Near Thornvine Barn",
             x=4151,
             y=115,
             z=1784,
@@ -3142,7 +3177,7 @@ CustomLocations = {
         ),
         # CrownLocation(map=Maps.FungiForest, name="Behind Beanstalk Night Gate", x=3621, y=186, z=936, max_size=48, logic_region=0, group=1),
         CustomLocation(
-            name="Near Funky with the fenced in Chunky coins",
+            name="Alcove near the apple",
             map=Maps.FungiForest,
             x=3635.0,
             y=186.0,
@@ -3166,7 +3201,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near Funky's",
+            name="Near beanstalk shop",
             x=2890,
             y=174,
             z=189,
@@ -3278,7 +3313,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Highest Giant Mushroom Platform",
+            name="Mushroom Exterior Top Floor",
             x=1196,
             y=1250,
             z=1315,
@@ -3330,7 +3365,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near Owl Tree",
+            name="Owl Tree Clearing",
             x=443.95544433594,
             y=189.33332824707,
             z=3946.9885253906,
@@ -3342,7 +3377,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near Owl Rocketbarrel (1)",
+            name="Near Owl Rocketbarrel",
             x=534,
             y=189,
             z=3948,
@@ -3364,7 +3399,7 @@ CustomLocations = {
         # ),
         CustomLocation(
             map=Maps.FungiForest,
-            name="Near Owl Rocketbarrel (2)",
+            name="Grass Near Owl Rocketbarrel",
             x=278,
             y=190,
             z=3707,
@@ -3482,7 +3517,7 @@ CustomLocations = {
             tied_warp_event=Events.ForestW4aTagged,
         ),
         CustomLocation(
-            name="Vanilla Tree Warp 4",
+            name="Vanilla Owl Tree Warp 4",
             map=Maps.FungiForest,
             x=1276.934,
             y=249.333,
@@ -3569,7 +3604,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.ForestThornvineBarn,
-            name="DK Barn: Near Entrance",
+            name="Thornvine Barn: Near Entrance",
             x=537,
             y=4,
             z=143,
@@ -3579,7 +3614,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.ForestThornvineBarn,
-            name="DK Barn: Near Ladder",
+            name="Thornvine Barn: Near Ladder",
             x=106,
             y=4,
             z=590,
@@ -3600,7 +3635,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.ForestThornvineBarn,
-            name="In Thornvine Barn",
+            name="Thornvine Barn: Back Left",
             x=566.02142333984,
             y=4,
             z=524.61657714844,
@@ -3631,7 +3666,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="near DK's levers",
+            name="Mill front: Near levers",
             map=Maps.ForestMillFront,
             x=234.0,
             y=0.0,
@@ -3684,7 +3719,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.ForestGiantMushroom,
-            name="Giant Mushroom: Near Night Door Vines",
+            name="Giant Mushroom: Near vines",
             x=218,
             y=979,
             z=529,
@@ -3706,7 +3741,7 @@ CustomLocations = {
         ),
         CustomLocation(
             # With reduced fall damage threshold and OHKO, you have to slide off of the night door platform to avoid fall damage
-            name="Giant Mushroom: Next to the cannon below the night door",
+            name="Giant Mushroom: Cannon below night door",
             map=Maps.ForestGiantMushroom,
             x=763.0,
             y=739.0,
@@ -3727,6 +3762,17 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
+            map=Maps.ForestGiantMushroom,
+            name="Giant Mushroom: Top Floor",
+            x=795,
+            y=1839,
+            z=538,
+            max_size=80,
+            logic_region=Regions.MushroomUpper,
+            tags=[LocationTags.Season5CrateRando],
+            group=4,
+        ),
+        CustomLocation(
             map=Maps.ForestMillAttic,
             name="Mill Attic: Near Box",
             x=138,
@@ -3738,7 +3784,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.ForestLankyZingersRoom,
-            name="Mushroom Leap: Opposite Entrance",
+            name="Mushroom Zingers: Opposite Entrance",
             x=414,
             y=0,
             z=282,
@@ -3768,7 +3814,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.ForestMillBack,
-            name="Mill Rear: Near Thatch",
+            name="Mill Back: Near Thatch",
             x=449,
             y=0,
             z=610,
@@ -3790,7 +3836,7 @@ CustomLocations = {
     Levels.CrystalCaves: [
         CustomLocation(
             map=Maps.CavesRotatingCabin,
-            name="Rotating Room: Left Portion",
+            name="Rotating Cabin: Wall",
             x=329,
             y=0,
             z=193,
@@ -3802,7 +3848,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Giant Kosha Room",
+            name="Giant Kosha",
             map=Maps.CrystalCaves,
             x=1820.313,
             y=231.833,
@@ -3815,7 +3861,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="In Tiny Ice Shield",
+            name="In Monkeyport igloo",
             x=311,
             y=48,
             z=1719,
@@ -3826,7 +3872,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="In Chunky Ice Shield",
+            name="In breakable igloo",
             x=755,
             y=48,
             z=818,
@@ -3837,7 +3883,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="On 5DI Pillar",
+            name="On igloo Pillar",
             x=328,
             y=132.5,
             z=1522,
@@ -3885,7 +3931,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="In Hidden Bonus Room",
+            name="In the Mini Bonus Cave",
             x=453,
             y=180,
             z=2571,
@@ -3894,7 +3940,19 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Near Primate Punch wall opposite cranky",
+            name="Near ice wall to boulder",
+            map=Maps.CrystalCaves,
+            x=1488.0,
+            y=293.0,
+            z=2663.0,
+            rot_y=2275,
+            max_size=64,
+            logic_region=Regions.BoulderCave,
+            tags=[LocationTags.Season5CrateRando],
+            group=4,
+        ),
+        CustomLocation(
+            name="Path to Giant boulder",
             map=Maps.CrystalCaves,
             x=1416.0,
             y=298.0,
@@ -3927,7 +3985,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Ice Castle Tag (1)",
+            name="Below Ice Castle (yellow)",
             x=2066,
             y=151,
             z=1145,
@@ -3937,7 +3995,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Ice Castle Tag (2)",
+            name="Below Ice castle (blue)",
             x=1952,
             y=172,
             z=1181,
@@ -3947,7 +4005,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Ice Castle Tag (3)",
+            name="Ice Castle Tag barrel",
             x=2164,
             y=280,
             z=1304,
@@ -3974,7 +4032,7 @@ CustomLocations = {
             z=1002,
             max_size=32,
             logic_region=Regions.CrystalCavesMain,
-            logic=lambda l: (l.balloon and l.islanky) or (l.jetpack and l.isdiddy) or l.advanced_platforming,
+            logic=lambda l: (l.balloon and l.islanky) or (l.jetpack and l.isdiddy) or l.monkey_maneuvers,
             group=2,
         ),
         CustomLocation(
@@ -3988,7 +4046,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Near Primate Punch wall near snide",
+            name="Near ice wall to shop",
             map=Maps.CrystalCaves,
             x=1473.0,
             y=98.0,
@@ -4000,7 +4058,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Snide's HQ",
+            name="Near cave shop",
             x=1220,
             y=64,
             z=587,
@@ -4021,7 +4079,7 @@ CustomLocations = {
         ),
         # CrownLocation(map=Maps.CrystalCaves, name="Near Entrance (OoB)", x=1718, y=-29, z=30, max_size=64, logic_region=0, group=0),
         CustomLocation(
-            name="Near Primate Punch wall near entrance",
+            name="Near ice wall to Gone room",
             map=Maps.CrystalCaves,
             x=2264.0,
             y=13.0,
@@ -4063,7 +4121,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Funky's",
+            name="Near Waterfall Shop",
             x=2543,
             y=172,
             z=1173,
@@ -4072,7 +4130,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Near Funky under Diddy's barrel",
+            name="Under Bridge Rocketbarrel",
             map=Maps.CrystalCaves,
             x=3013.0,
             y=253.0,
@@ -4084,7 +4142,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Hidden Kasplat Room",
+            name="Mini Monkeyport cave",
             x=3554,
             y=286,
             z=619,
@@ -4093,7 +4151,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Near lanky's 1DC - lower",
+            name="Near headphones",
             map=Maps.CrystalCaves,
             x=2735.0,
             y=162.0,
@@ -4105,7 +4163,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near 1DC Headphones",
+            name="Headphones ledge",
             x=2987,
             y=118,
             z=1615,
@@ -4125,7 +4183,7 @@ CustomLocations = {
         #     group=1,
         # ),
         CustomLocation(
-            name="Next to Lanky 1DC - upper",
+            name="Next to Lanky cabin",
             map=Maps.CrystalCaves,
             x=2404.0,
             y=276.0,
@@ -4136,7 +4194,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Next to Donkey 1DC - left",
+            name="Left of rotating cabin",
             map=Maps.CrystalCaves,
             x=2961.0,
             y=281.0,
@@ -4148,7 +4206,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Rotating Room (1)",
+            name="Next to rotating cabin",
             x=2903.5,
             y=281.8,
             z=2312,
@@ -4159,7 +4217,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Rotating Room (2)",
+            name="Right of rotating cabin",
             x=2672,
             y=281,
             z=2500,
@@ -4181,7 +4239,7 @@ CustomLocations = {
         # ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="High Cabin Kasplat Platform",
+            name="Cabins Center Rise",
             x=2984,
             y=379,
             z=1848,
@@ -4192,7 +4250,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Rotating Room Rocketbarrel",
+            name="Near cabins Rocketbarrel",
             x=2465,
             y=206.8,
             z=2530,
@@ -4202,7 +4260,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Tiny 5DC",
+            name="Near Tiny cabin",
             x=3551,
             y=260,
             z=1900,
@@ -4211,7 +4269,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Near Tag barrel at 5D Cabin",
+            name="Near cabins Tag barrel",
             map=Maps.CrystalCaves,
             x=3631.0,
             y=260.0,
@@ -4223,7 +4281,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCaves,
-            name="Near Diddy Upper 5DC",
+            name="Near Diddy Upper cabin",
             x=3684,
             y=343,
             z=1886,
@@ -4232,7 +4290,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Near Diddy top 5D Cabin door",
+            name="Near Diddy upper Cabin door",
             map=Maps.CrystalCaves,
             x=3610.0,
             y=343.0,
@@ -4378,7 +4436,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CavesDiddyIgloo,
-            name="Diddy 5DI: Center",
+            name="Diddy igloo: Center",
             x=286,
             y=0,
             z=295,
@@ -4389,7 +4447,7 @@ CustomLocations = {
         ),  # crown pad removed due to potential crash
         CustomLocation(
             map=Maps.CavesDonkeyIgloo,
-            name="DK 5DI: Behind Maze",
+            name="DK igloo: Behind Maze",
             x=469,
             y=0,
             z=177,
@@ -4399,18 +4457,18 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CavesLankyIgloo,
-            name="Lanky 5DI: High Platform",
+            name="Lanky igloo: High Platform",
             x=273,
             y=123.3,
             z=245,
             max_size=40,
             logic_region=Regions.LankyIgloo,
-            logic=lambda l: ((l.balloon or l.advanced_platforming) and l.islanky) or (l.advanced_platforming and (l.isdiddy or l.istiny)),
+            logic=lambda l: ((l.balloon or l.monkey_maneuvers) and l.islanky) or (l.monkey_maneuvers and (l.isdiddy or l.istiny)),
             group=3,
         ),
         CustomLocation(
             map=Maps.CavesTinyIgloo,
-            name="Tiny 5DI: Opposite Entrance",
+            name="Tiny igloo: Opposite Entrance",
             x=385,
             y=0,
             z=200,
@@ -4420,7 +4478,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CavesLankyCabin,
-            name="Lanky 1DC: Carpet",
+            name="Lanky cabin: Carpet",
             x=448,
             y=0,
             z=332,
@@ -4430,7 +4488,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CavesChunkyCabin,
-            name="Chunky 5DC: Back Left Corner",
+            name="Chunky cabin: Back Left Corner",
             x=493,
             y=0,
             z=536,
@@ -4441,7 +4499,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CavesDiddyUpperCabin,
-            name="Diddy Upper 5DC: Right",
+            name="Diddy Upper cabin: Right",
             x=106,
             y=0,
             z=353,
@@ -4451,7 +4509,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CavesDonkeyCabin,
-            name="DK 5DC: Opposite Entrance",
+            name="DK cabin: Opposite Entrance",
             x=165,
             y=0,
             z=463,
@@ -4460,7 +4518,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Frozen Castle: Next to Slam Puzzle - left",
+            name="Ice Castle: Left of puzzle",
             map=Maps.CavesFrozenCastle,
             x=311.0,
             y=0.0,
@@ -4471,7 +4529,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Frozen Castle: Next to Slam Puzzle - right",
+            name="Ice Castle: Right of puzzle",
             map=Maps.CavesFrozenCastle,
             x=227.0,
             y=0.0,
@@ -4508,7 +4566,7 @@ CustomLocations = {
             banned_types=[LocationTypes.DirtPatch],
         ),
         CustomLocation(
-            name="Top of Castle near shop",
+            name="Top of Castle Near Shop",
             map=Maps.CreepyCastle,
             x=655.9,
             y=1794.167,
@@ -4523,7 +4581,7 @@ CustomLocations = {
         # CustomLocation(map=Maps.CastleGreenhouse, name="Greenhouse: Dead End (2)", x=874, y=0, z=522, max_size=32, logic_region=Regions.Greenhouse, group=5, banned_types=[LocationTypes.DirtPatch]),
         CustomLocation(
             map=Maps.CastleGreenhouse,
-            name="Greenhouse: GB Box",
+            name="Greenhouse: GB area",
             x=170,
             y=0,
             z=227,
@@ -4535,7 +4593,7 @@ CustomLocations = {
         # CustomLocation(map=Maps.CastleGreenhouse, name="Greenhouse: Dead End (3)", x=779, y=0, z=125, max_size=32, logic_region=Regions.Greenhouse, group=5, banned_types=[LocationTypes.DirtPatch]),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Tree",
+            name="Near the Tree",
             x=1201,
             y=471.5,
             z=105,
@@ -4544,7 +4602,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Next to Lanky coin tree (near catacombs door)",
+            name="Next to lowest tree",
             map=Maps.CreepyCastle,
             x=1691.0,
             y=372.0,
@@ -4556,7 +4614,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Crypt Entrance (1)",
+            name="Near lower entrance - right",
             x=1361,
             y=366,
             z=2108,
@@ -4566,7 +4624,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Crypt Entrance (2)",
+            name="Lowest ledge near ladder",
             x=420,
             y=366,
             z=1934,
@@ -4576,7 +4634,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Crypt Entrance (3)",
+            name="Graveyard behind stone",
             x=500,
             y=523,
             z=1660,
@@ -4585,7 +4643,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Between the catacombs door and Tiny Kasplat",
+            name="Lowest ledge towards Lone Cliff",
             map=Maps.CreepyCastle,
             x=245.0,
             y=366.0,
@@ -4596,7 +4654,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Near the Catacombs Door",
+            name="Near the lower door",
             map=Maps.CreepyCastle,
             x=1319.0,
             y=523.0,
@@ -4639,7 +4697,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Kasplat Pole",
+            name="On square stone",
             x=204,
             y=628,
             z=1433,
@@ -4658,7 +4716,7 @@ CustomLocations = {
         #     group=4,
         # ),
         CustomLocation(
-            name="Next to the Drawing Drawbridge",
+            name="Next to the drawbridge",
             map=Maps.CreepyCastle,
             x=662.0,
             y=548.0,
@@ -4710,7 +4768,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Cranky",
+            name="Near middle shop",
             x=483,
             y=1135,
             z=1379,
@@ -4741,7 +4799,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Wind Tower (1)",
+            name="Near Wind Tower",
             x=1707,
             y=1731,
             z=1255,
@@ -4772,7 +4830,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CreepyCastle,
-            name="Near Snide's HQ",
+            name="Near top shop",
             x=713,
             y=1794,
             z=1243,
@@ -4792,7 +4850,7 @@ CustomLocations = {
             group=5,
         ),
         CustomLocation(
-            name="Vanilla Upper Warp 2",
+            name="Vanilla Overhang Warp 2",
             map=Maps.CreepyCastle,
             x=1899.247,
             y=904.136,
@@ -4805,7 +4863,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW2bTagged,
         ),
         CustomLocation(
-            name="Vanilla Upper Warp 5",
+            name="Vanilla Top Warp 5",
             map=Maps.CreepyCastle,
             x=1341.102,
             y=1731.167,
@@ -4818,7 +4876,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW5bTagged,
         ),
         CustomLocation(
-            name="Vanilla Close Warp 1",
+            name="Vanilla Moat Warp 1",
             map=Maps.CreepyCastle,
             x=1532.901,
             y=673.575,
@@ -4831,7 +4889,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW1aTagged,
         ),
         CustomLocation(
-            name="Vanilla Close Warp 5",
+            name="Vanilla Moat Warp 5",
             map=Maps.CreepyCastle,
             x=938.578,
             y=673.5,
@@ -4844,7 +4902,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW5aTagged,
         ),
         CustomLocation(
-            name="Vanilla Rear Warp 1",
+            name="Vanilla Back Warp 1",
             map=Maps.CreepyCastle,
             x=1023.578,
             y=648.279,
@@ -4857,7 +4915,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW1bTagged,
         ),
         CustomLocation(
-            name="Vanilla Close Warp 3",
+            name="Vanilla Moat Warp 3",
             map=Maps.CreepyCastle,
             x=1214.247,
             y=673.5,
@@ -4870,7 +4928,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW3aTagged,
         ),
         CustomLocation(
-            name="Vanilla Close Warp 2",
+            name="Vanilla Moat Warp 2",
             map=Maps.CreepyCastle,
             x=1384.938,
             y=673.742,
@@ -4883,7 +4941,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW2aTagged,
         ),
         CustomLocation(
-            name="Vanilla Close Warp 4",
+            name="Vanilla Moat Warp 4",
             map=Maps.CreepyCastle,
             x=1082.711,
             y=673.5,
@@ -4896,7 +4954,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW4aTagged,
         ),
         CustomLocation(
-            name="Vanilla Upper Warp 3",
+            name="Vanilla Shop Warp 3",
             map=Maps.CreepyCastle,
             x=389.7,
             y=1135.469,
@@ -4909,7 +4967,7 @@ CustomLocations = {
             tied_warp_event=Events.CastleW3bTagged,
         ),
         CustomLocation(
-            name="Vanilla Upper Warp 4",
+            name="Vanilla Shed Warp 4",
             map=Maps.CreepyCastle,
             x=1536.106,
             y=1381.167,
@@ -4942,7 +5000,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Ballroom - Back Left",
+            name="Ballroom: Back Left",
             map=Maps.CastleBallroom,
             x=261.0,
             y=40.0,
@@ -4953,7 +5011,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Ballroom - Back Right",
+            name="Ballroom: Back Right",
             map=Maps.CastleBallroom,
             x=825.0,
             y=40.0,
@@ -4966,7 +5024,7 @@ CustomLocations = {
         # CrownLocation(map=Maps.CastleDungeon, name="Dungeon: Diddy Room (OoB)", x=403, y=90, z=3307, max_size=72, logic_region=0, group=0),
         CustomLocation(
             map=Maps.CastleDungeon,
-            name="Dungeon: Near Diddy Room Entrance",
+            name="Dungeon: Near Diddy Room",
             x=442,
             y=115,
             z=2595,
@@ -4976,7 +5034,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleDungeon,
-            name="Dungeon: DK Dungeon Room",
+            name="Dungeon: Donkey Room",
             x=1492,
             y=170,
             z=2000,
@@ -4986,7 +5044,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="Dungeon: Under the chunky balloon without coins",
+            name="Dungeon: Behind punch gate",
             map=Maps.CastleDungeon,
             x=316.0,
             y=115.0,
@@ -5009,7 +5067,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleLowerCave,
-            name="Crypt Hub: Lower Portion",
+            name="Lower cave: Lower Portion",
             x=559,
             y=90,
             z=1153,
@@ -5019,7 +5077,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleLowerCave,
-            name="Crypt Hub: Behind Lanky Crypt",
+            name="Lower cave: Also Behind Mausoleum",
             x=1848,
             y=320,
             z=1186,
@@ -5029,7 +5087,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleLowerCave,
-            name="Crypt Hub: Near Funky's",
+            name="Lower cave: Near shop",
             x=1359,
             y=200,
             z=433,
@@ -5039,7 +5097,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleLowerCave,
-            name="Behind Mausoleum Entrance",
+            name="Lower Cave: Behind Mausoleum",
             x=1889.9437255859,
             y=320,
             z=1260.7548828125,
@@ -5050,7 +5108,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="3Kong crypt entrance",
+            name="Crypt: entrance",
             map=Maps.CastleCrypt,
             x=626.0,
             y=240.0,
@@ -5062,7 +5120,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleCrypt,
-            name="Chunky Crypt: Near Coffin",
+            name="Crypt: Near Chunky Coffin",
             x=1280,
             y=160,
             z=2867,
@@ -5072,7 +5130,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleCrypt,
-            name="Diddy Crypt: Near Coffin",
+            name="Crypt: Near Diddy Coffin",
             x=2069,
             y=0,
             z=593,
@@ -5159,7 +5217,7 @@ CustomLocations = {
             tied_warp_event=Events.CryptW2bTagged,
         ),
         CustomLocation(
-            name="2kong crypt entrance",
+            name="Mausoleum: entrance",
             map=Maps.CastleMausoleum,
             x=731.0,
             y=240.0,
@@ -5171,7 +5229,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleMausoleum,
-            name="Lanky Crypt: Lanky Tunnel",
+            name="Mausoleum: Lanky Tunnel",
             x=1186,
             y=160,
             z=130,
@@ -5181,7 +5239,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleUpperCave,
-            name="Tunnel: Near Pit",
+            name="Upper cave: Near Pit",
             x=704,
             y=200,
             z=852,
@@ -5191,13 +5249,24 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CastleUpperCave,
-            name="Tunnel: Near Candy's",
+            name="Upper cave: Near shop",
             x=1104,
             y=300,
             z=2241,
             max_size=64,
             logic_region=Regions.UpperCave,
             group=3,
+        ),
+        CustomLocation(
+            map=Maps.CastleLibrary,
+            name="Library: Crossroads",
+            x=1296,
+            y=100,
+            z=735,
+            max_size=64,
+            logic_region=Regions.Library,
+            tags=[LocationTags.Season5CrateRando],
+            group=6,
         ),
         CustomLocation(
             map=Maps.CastleLibrary,
@@ -5231,7 +5300,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Museum - Pillar Front",
+            name="Museum: Pillar Front",
             map=Maps.CastleMuseum,
             x=1003.0,
             y=200.0,
@@ -5243,7 +5312,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Museum - Pillar Back Right",
+            name="Museum: Pillar Back Right",
             map=Maps.CastleMuseum,
             x=1238.0,
             y=200.0,
@@ -5266,7 +5335,7 @@ CustomLocations = {
             group=2,
         ),
         CustomLocation(
-            name="Museum - Pillar Back Left",
+            name="Museum: Pillar Back Left",
             map=Maps.CastleMuseum,
             x=1236.0,
             y=200.0,
@@ -5275,6 +5344,20 @@ CustomLocations = {
             max_size=64,
             logic_region=Regions.MuseumBehindGlass,
             logic=lambda l: ((l.monkeyport and l.istiny) or l.CanPhase()),
+            group=2,
+        ),
+        CustomLocation(
+            name="Museum: Atop the Pillar",
+            map=Maps.CastleMuseum,
+            x=1138.0,
+            y=258.0,
+            z=1518.0,
+            rot_y=3697,
+            max_size=64,
+            logic_region=Regions.MuseumBehindGlass,
+            logic=lambda l: ((l.monkeyport and l.istiny) or l.CanPhase()),
+            tags=[LocationTags.Season5CrateRando],
+            banned_types=[LocationTypes.CrownPad],
             group=2,
         ),
         CustomLocation(
@@ -5330,7 +5413,7 @@ CustomLocations = {
             z=637.07,
             max_size=56,
             logic_region=Regions.FungiForestLobby,
-            logic=lambda l: ((l.coconut and l.peanut and l.grape and l.feather and l.pineapple and l.donkey and l.diddy and l.lanky and l.tiny) or l.CanPhase()) and l.chunky and l.gorillaGone,
+            logic=lambda l: l.CanOpenForestLobbyGoneDoor() and l.chunky and l.gorillaGone,
             group=12,
             vanilla_crown=True,
         ),
@@ -5380,11 +5463,11 @@ CustomLocations = {
             max_size=64,
             vanilla_patch=True,
             logic_region=Regions.CreepyCastleLobby,
-            logic=lambda l: ((l.chunky and l.balloon and l.islanky and l.barrels) or l.CanMoonkick() or (l.advanced_platforming and l.istiny and l.twirl and (not l.isKrushaAdjacent(Kongs.tiny)))),
+            logic=lambda l: ((l.chunky and l.balloon and l.islanky and l.barrels) or l.CanMoonkick() or (l.monkey_maneuvers and l.istiny and l.twirl and (not l.isKrushaAdjacent(Kongs.tiny)))),
             group=14,
         ),
         CustomLocation(
-            name="Banana Hoard",
+            name="Training Grounds: Banana Hoard",
             map=Maps.TrainingGrounds,
             x=2497.648,
             y=191.0,
@@ -5397,7 +5480,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Training Grounds Rear Tunnel",
+            name="Training Grounds: Rear Tunnel",
             map=Maps.TrainingGrounds,
             x=1223.714,
             y=37.208,
@@ -5409,7 +5492,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Back of Prison",
+            name="Prison: Back",
             map=Maps.KLumsy,
             x=1499.675,
             y=95.0,
@@ -5433,7 +5516,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Fungi Platform",
+            name="Fungi floating island",
             x=2683,
             y=1498,
             z=818,
@@ -5453,7 +5536,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Near Caves Lobby Tree (1)",
+            name="Down Near Caves Lobby Tree",
             x=2497,
             y=507,
             z=1903,
@@ -5482,7 +5565,7 @@ CustomLocations = {
             group=3,
         ),
         CustomLocation(
-            name="In Fungi Boulder",
+            name="In Fungi cannon rock",
             map=Maps.Isles,
             x=3516.0,
             y=500.0,
@@ -5495,7 +5578,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Near Caves Lobby Tree (2)",
+            name="Next to Caves Lobby Tree",
             x=2427,
             y=600,
             z=1822,
@@ -5547,7 +5630,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Outside K. Lumsy",
+            name="Outside Prison",
             x=3107,
             y=520,
             z=3500,
@@ -5557,7 +5640,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Near Monkeyport (1)",
+            name="Near Monkeyport pad",
             x=2519,
             y=550,
             z=4152,
@@ -5567,7 +5650,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Near Monkeyport (2)",
+            name="Back of Krem Isle",
             x=1852,
             y=600,
             z=3920,
@@ -5586,7 +5669,7 @@ CustomLocations = {
             group=6,
         ),
         CustomLocation(
-            name="Back of Kroc Isle (Lower)",
+            name="Back of Krem Isle (Lower)",
             map=Maps.Isles,
             x=2019.0,
             y=590.0,
@@ -5639,7 +5722,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Left Kroc Isle Arm (1)",
+            name="Left Krem Isle Arm (side)",
             x=2218,
             y=1620,
             z=3488,
@@ -5648,7 +5731,7 @@ CustomLocations = {
             group=6,
         ),
         CustomLocation(
-            name="Left Kroc Isle Arm (2)",
+            name="Left Krem Isle Arm",
             map=Maps.Isles,
             x=2313.0,
             y=1620.0,
@@ -5660,7 +5743,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.Isles,
-            name="Right Kroc Isle Arm",
+            name="Right Krem Isle Arm",
             x=2700,
             y=1620,
             z=3315,
@@ -5679,7 +5762,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Behind BFI",
+            name="Behind Fairy Isle",
             map=Maps.Isles,
             x=754.0,
             y=500.0,
@@ -5688,7 +5771,7 @@ CustomLocations = {
             max_size=64,
             group=4,
             logic_region=Regions.OuterIsles,
-            logic=lambda l: True,
+            logic=lambda _: True,
         ),
         CustomLocation(
             map=Maps.Isles,
@@ -5806,7 +5889,7 @@ CustomLocations = {
             tied_warp_event=Events.IslesW4aTagged,
         ),
         CustomLocation(
-            name="Vanilla Upper Warp 4",
+            name="Vanilla Krem Warp 4",
             map=Maps.Isles,
             x=2494.455,
             y=1200,
@@ -5832,7 +5915,7 @@ CustomLocations = {
             tied_warp_event=Events.IslesW5bTagged,
         ),
         CustomLocation(
-            name="Jungle Japes Lobby: Near Tag Barrel",
+            name="Japes Lobby: Near Tag Barrel",
             map=Maps.JungleJapesLobby,
             x=713.0,
             y=4.0,
@@ -5854,7 +5937,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztecLobby,
-            name="Aztec Lobby: In Front of Feather Door",
+            name="Aztec Lobby: Front of Door",
             x=680,
             y=0,
             z=439,
@@ -5864,7 +5947,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.AngryAztecLobby,
-            name="Aztec Lobby: Behind Feather Door (1)",
+            name="Aztec Lobby: back room right",
             x=930,
             y=0,
             z=637,
@@ -5874,7 +5957,7 @@ CustomLocations = {
             group=9,
         ),
         CustomLocation(
-            name="Aztec Lobby: Behind Feather Door (2)",
+            name="Aztec Lobby: back room left",
             map=Maps.AngryAztecLobby,
             x=1128.0,
             y=0.0,
@@ -5904,7 +5987,7 @@ CustomLocations = {
             rot_y=2048,
             max_size=64,
             logic_region=Regions.FranticFactoryLobby,
-            logic=lambda l: ((l.grab and l.isdonkey) or l.CanMoonkick() or (l.advanced_platforming and (l.isdiddy or l.istiny))),
+            logic=lambda l: ((l.grab and l.isdonkey) or l.CanMoonkick() or (l.monkey_maneuvers and (l.isdiddy or l.istiny))),
             group=10,
         ),
         CustomLocation(
@@ -5915,7 +5998,7 @@ CustomLocations = {
             z=367,
             max_size=64,
             logic_region=Regions.FranticFactoryLobby,
-            logic=lambda l: ((l.grab and l.donkey) or (l.advanced_platforming and (l.isdiddy or l.istiny))),
+            logic=lambda l: ((l.grab and l.donkey) or (l.monkey_maneuvers and (l.isdiddy or l.istiny))),
             group=10,
         ),
         CustomLocation(
@@ -5939,7 +6022,7 @@ CustomLocations = {
             group=11,
         ),
         CustomLocation(
-            name="Galleon Lobby: Behind Mini Monkey Gate",
+            name="Galleon Lobby: Mini room",
             map=Maps.GloomyGalleonLobby,
             x=838.0,
             y=99.0,
@@ -5947,7 +6030,7 @@ CustomLocations = {
             rot_y=978,
             max_size=64,
             logic_region=Regions.GloomyGalleonLobby,
-            logic=lambda l: ((l.mini and l.CanSlamSwitch(Levels.GloomyGalleon, 2) and l.istiny and l.chunky and l.swim) or l.CanPhaseswim()) and (not l.IsLavaWater() or l.Melons >= 3),
+            logic=lambda l: ((l.mini and l.CanSlamSwitch(Levels.GloomyGalleon, 2) and l.istiny and l.chunky and l.swim and l.twirl) or l.CanPhaseswim()) and (not l.IsLavaWater() or l.Melons >= 3),
             group=11,
             banned_types=[LocationTypes.CrownPad],  # Crown pad would need testing if it's possible to get up.
         ),
@@ -5988,7 +6071,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCavesLobby,
-            name="Caves Lobby: High Platform",
+            name="Caves Lobby: Diddy ledge",
             x=794,
             y=280.4,
             z=739,
@@ -5999,7 +6082,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.CrystalCavesLobby,
-            name="Caves Lobby: Blueprint Room",
+            name="Caves Lobby: boulder room",
             x=1751,
             y=13.5,
             z=532,
@@ -6058,11 +6141,11 @@ CustomLocations = {
             z=638,
             max_size=48,
             logic_region=Regions.HideoutHelmLobby,
-            logic=lambda l: (l.hasMoveSwitchsanity(Switches.IslesHelmLobbyGone, False) and l.can_use_vines) or (l.advanced_platforming and l.istiny and l.twirl),
+            logic=lambda l: (l.hasMoveSwitchsanity(Switches.IslesHelmLobbyGone, False) and l.can_use_vines) or (l.monkey_maneuvers and l.istiny and l.twirl),
             group=7,
         ),
         CustomLocation(
-            name="Helm Lobby: Blueprint Platform",
+            name="Helm Lobby: Kasplat island",
             map=Maps.HideoutHelmLobby,
             x=325.0,
             y=191.0,
@@ -6070,7 +6153,7 @@ CustomLocations = {
             rot_y=0,
             max_size=64,
             logic_region=Regions.HideoutHelmLobby,
-            logic=lambda l: ((l.coconut and l.scope) or (l.twirl and l.istiny and l.advanced_platforming)),
+            logic=lambda l: ((l.coconut and l.scope) or (l.twirl and l.istiny and l.monkey_maneuvers)),
             group=7,
         ),
         CustomLocation(
@@ -6105,7 +6188,7 @@ CustomLocations = {
             rot_y=3026,
             max_size=64,
             logic_region=Regions.TrainingGrounds,
-            logic=lambda l: l.climbing and ((l.twirl and l.istiny) or (l.advanced_platforming and l.isdonkey and (not l.isKrushaAdjacent(Kongs.donkey)))),
+            logic=lambda l: l.climbing and ((l.twirl and l.istiny) or (l.monkey_maneuvers and l.isdonkey and (not l.isKrushaAdjacent(Kongs.donkey)))),
             group=1,
         ),
         CustomLocation(
@@ -6116,7 +6199,7 @@ CustomLocations = {
             z=734,
             max_size=72,
             logic_region=Regions.TrainingGrounds,
-            logic=lambda l: l.climbing and ((l.twirl and l.istiny) or (l.advanced_platforming and l.isdonkey and (not l.isKrushaAdjacent(Kongs.donkey)))),
+            logic=lambda l: l.climbing and ((l.twirl and l.istiny) or (l.monkey_maneuvers and l.isdonkey and (not l.isKrushaAdjacent(Kongs.donkey)))),
             group=1,
         ),
         CustomLocation(
@@ -6131,7 +6214,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.TrainingGrounds,
-            name="Training Grounds: Banana Hoard",
+            name="Training Grounds: Banana Hoard (back)",
             x=2500,
             y=211,
             z=920,
@@ -6142,7 +6225,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.TrainingGrounds,
-            name="Training Grounds: Under Water",
+            name="Training Grounds: Underwater",
             x=1874,
             y=-176,
             z=1159,
@@ -6175,7 +6258,7 @@ CustomLocations = {
             group=1,
         ),
         CustomLocation(
-            name="Back of the treehouse",
+            name="Treehouse: back",
             map=Maps.Treehouse,
             x=288.0,
             y=85.0,
@@ -6187,7 +6270,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.BananaFairyRoom,
-            name="Fairy Island: Right of Queen",
+            name="Banana Fairy Room: Right of Queen",
             x=648,
             y=37.5,
             z=133,
@@ -6197,7 +6280,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.BananaFairyRoom,
-            name="Fairy Island: Behind Queen",
+            name="Banana Fairy Room: Behind Queen",
             x=1025,
             y=37.5,
             z=508,
@@ -6217,7 +6300,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Behind the Rareware Door",
+            name="Banana Fairy Room: Rareware room",
             map=Maps.BananaFairyRoom,
             x=644.0,
             y=37.0,
@@ -6229,7 +6312,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.BananaFairyRoom,
-            name="Fairy Island: Rareware Room",
+            name="Banana Fairy Room: Rareware Room right",
             x=446,
             y=37.5,
             z=1227,
@@ -6238,7 +6321,7 @@ CustomLocations = {
             group=4,
         ),
         CustomLocation(
-            name="Next to Snides",
+            name="Snide's Room: Next to Snide's",
             map=Maps.IslesSnideRoom,
             x=576.0,
             y=0.0,
@@ -6250,7 +6333,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.KLumsy,
-            name="K. Lumsy: Back Right",
+            name="Prison: Back Right",
             x=1580,
             y=95,
             z=868,
@@ -6260,7 +6343,7 @@ CustomLocations = {
         ),
         CustomLocation(
             map=Maps.KLumsy,
-            name="K. Lumsy: Near Left",
+            name="Prison: Near Left",
             x=560,
             y=95,
             z=1340,
@@ -6269,7 +6352,7 @@ CustomLocations = {
             group=5,
         ),
         CustomLocation(
-            name="Under K. Lumsy",
+            name="Prison: Under K. Lumsy",
             map=Maps.KLumsy,
             x=1020.0,
             y=50.0,
@@ -6472,6 +6555,17 @@ CustomLocations = {
             max_size=64,
             logic_region=Regions.HideoutHelmMain,
             group=2,
+        ),
+        CustomLocation(
+            map=Maps.HideoutHelm,
+            name="Just past K. Rool door",
+            x=1059,
+            y=-31,
+            z=3852,
+            max_size=64,
+            logic_region=Regions.HideoutHelmAfterBoM,
+            tags=[LocationTags.Season5CrateRando],
+            group=3,
         ),
         CustomLocation(
             map=Maps.HideoutHelm,

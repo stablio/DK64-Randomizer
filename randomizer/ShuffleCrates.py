@@ -1,8 +1,5 @@
 """Shuffle Melon Crate Locations."""
 
-from randomizer.Enums.Plandomizer import PlandoItems
-from randomizer.Lists import Exceptions
-
 import randomizer.LogicFiles.AngryAztec
 import randomizer.LogicFiles.CreepyCastle
 import randomizer.LogicFiles.CrystalCaves
@@ -14,7 +11,7 @@ import randomizer.LogicFiles.HideoutHelm
 import randomizer.LogicFiles.JungleJapes
 from randomizer.Enums.Levels import Levels
 from randomizer.Enums.Locations import Locations
-from randomizer.Lists.CustomLocations import CustomLocation, CustomLocations, LocationTypes
+from randomizer.Lists.CustomLocations import CustomLocation, CustomLocations, LocationTags, LocationTypes
 from randomizer.LogicClasses import LocationLogic
 
 
@@ -32,7 +29,7 @@ def addCrate(spoiler, MelonCrate: CustomLocation, enum_val: int, name: str, leve
         Levels.HideoutHelm: "Helm",
     }
     spoiler.RegionList[MelonCrate.logic_region].locations.append(LocationLogic(enum_val, MelonCrate.logic))
-    spoiler.LocationList[enum_val].name = f"{level_to_name[level]} Melon Crate: {name}"
+    spoiler.LocationList[enum_val].name = f"{level_to_name[level]} Melon Crate ({name})"
     spoiler.LocationList[enum_val].default_mapid_data[0].map = MelonCrate.map
     spoiler.LocationList[enum_val].level = level
 
@@ -140,6 +137,23 @@ def ShuffleMelonCrates(spoiler, human_spoiler):
             select_random_meloncrate_from_area(area_meloncrate, distribution[count], level, spoiler, human_spoiler, plando_dict)
             del total_MelonCrate_list[level]
             count += 1
+    elif spoiler.settings.season5_crate_rando:
+        # In this seasonal crate shuffle, we don't select random crates
+        for level in total_MelonCrate_list.keys():
+            seasonal_crates = [loc for loc in CustomLocations[level] if LocationTags.Season5CrateRando in loc.tags]
+            for meloncrate in seasonal_crates:
+                meloncrate.setCustomLocation(True)
+                human_spoiler[level.name].append(meloncrate.name)
+                local_map_index = len([x for x in spoiler.meloncrate_placement if x["map"] == meloncrate.map])
+                spoiler.meloncrate_placement.append(
+                    {
+                        "name": meloncrate.name,
+                        "map": meloncrate.map,
+                        "MelonCrate": meloncrate,
+                        "level": level,
+                        "score": (meloncrate.map * 100) + local_map_index,
+                    },
+                )
     else:
         for SingleMelonCrateLocation in range(4):
             area_key = spoiler.settings.random.choice(list(total_MelonCrate_list.keys()))

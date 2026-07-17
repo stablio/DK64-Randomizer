@@ -1,6 +1,5 @@
 """Shuffle Bananaport Locations."""
 
-from randomizer.Lists.MapsAndExits import RegionMapList
 import randomizer.LogicFiles.AngryAztec
 import randomizer.LogicFiles.CreepyCastle
 import randomizer.LogicFiles.CrystalCaves
@@ -14,7 +13,7 @@ from randomizer.Enums.Events import Events
 from randomizer.Enums.Maps import Maps
 from randomizer.Enums.Regions import Regions
 from randomizer.Enums.Settings import ActivateAllBananaports, ShufflePortLocations
-from randomizer.Lists.CustomLocations import CustomLocation, CustomLocations, LocationTypes, getBannedWarps
+from randomizer.Lists.CustomLocations import CustomLocation, CustomLocations, LocationTags, LocationTypes, getBannedWarps
 from randomizer.Lists.Warps import BananaportVanilla
 from randomizer.LogicClasses import Event
 
@@ -114,8 +113,10 @@ def ResetPorts():
         BananaportVanilla[k].reset()
 
 
-def isCustomLocationValid(spoiler, location: CustomLocation, map_id: Maps, level: Levels) -> bool:
+def isCustomLocationValid(spoiler, location: CustomLocation, map_id: Maps, level: Levels, excluded_tags: list) -> bool:
     """Determine whether a custom location is valid for a warp pad."""
+    if any(excluded_tags) and any(tag in location.tags for tag in excluded_tags):
+        return False
     if location.map != map_id:
         # Has to be in the right map
         return False
@@ -175,7 +176,7 @@ REGION_KLUMPS = {
     Regions.Lighthouse: [Regions.LighthouseAboveLadder],
     Regions.MushroomUpperExterior: [Regions.MushroomNightExterior],
     Regions.MushroomLowerExterior: [Regions.MushroomUpperMidExterior, Regions.MushroomBlastLevelExterior, Regions.GiantMushroomArea],
-    Regions.MillArea: [Regions.ForestTopOfMill, Regions.ForestVeryTopOfMill, Regions.ForestMillTopOfNightCage],
+    Regions.MillArea: [Regions.ForestTopOfMill, Regions.ForestVeryTopOfMill, Regions.ForestMillTopOfNightCage, Regions.SnideArea],
     Regions.CrystalCavesMain: [Regions.CavesBlueprintPillar, Regions.CavesBananaportSpire, Regions.CavesBonusCave],
     Regions.CabinArea: [Regions.CavesGGRoom, Regions.CavesRotatingCabinRoof, Regions.CavesSprintCabinRoof],
     Regions.CastleTree: [Regions.CastleTreePastPunch],
@@ -193,6 +194,7 @@ ONE_KONG_REGIONS = [
     Regions.CavesBlueprintCave,
     Regions.CavesBlueprintPillar,
     Regions.CavesBananaportSpire,
+    Regions.GiantKosha,
 ]
 
 warp_event_pairs = {}
@@ -283,6 +285,9 @@ def ShufflePorts(spoiler, port_selection, human_ports):
         Maps.CreepyCastle,
         Maps.CastleCrypt,
     ]
+    excluded_tags = []
+    if spoiler.settings.season5_crate_rando:
+        excluded_tags.append(LocationTags.Season5CrateRando)
     if len(port_list) > 0:
         maps_to_check = port_list.copy()
     removePorts(spoiler, maps_to_check)
@@ -292,7 +297,7 @@ def ShufflePorts(spoiler, port_selection, human_ports):
         for map in PortShufflerData:
             if PortShufflerData[map]["level"] == level and map in maps_to_check:
                 index_lst = list(range(len(level_lst)))
-                index_lst = [x for x in index_lst if isCustomLocationValid(spoiler, level_lst[x], map, level)]
+                index_lst = [x for x in index_lst if isCustomLocationValid(spoiler, level_lst[x], map, level, excluded_tags)]
                 global_count = PortShufflerData[map]["global_warp_count"]
                 start_event = PortShufflerData[map]["starting_warp"]
                 end_event = start_event + PortShufflerData[map]["global_warp_count"]
