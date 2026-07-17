@@ -251,3 +251,4 @@ seed.textproto
 tools/dump_lanky.py
 tools/pack_lanky.py
 base-hack/src/minigames/rom_cache.txt
+!tools/cave_logic
