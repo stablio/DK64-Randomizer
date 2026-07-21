@@ -1,11 +1,3 @@
-from tools.cave_logic.utils import array_to_object
-import ast
-import copy
-import json
-import re
-from copy import deepcopy
-
-
 import sys
 import os
 
@@ -13,11 +5,18 @@ import os
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
 sys.path.append(parent_dir)
 
+from tools.cave_logic.utils import array_to_object
+import ast
+import copy
+import json
+import re
+from copy import deepcopy
+
 from randomizer.Logic import CollectibleRegionsOriginal, LogicVarHolder, RegionsOriginal
 from randomizer.Enums.Regions import Regions
 from randomizer.Lists.DoorLocations import GetBossLobbyRegionIdForRegion
 from randomizer.Enums.Maps import Maps
-# from randomizer.Enums.HintRegion import HintRegion, HINT_REGION_PAIRING
+from randomizer.Enums.HintRegion import HintRegion, HINT_REGION_PAIRING
 from randomizer.Lists.DoorLocations import door_locations
 
 RegionList = deepcopy(RegionsOriginal)
@@ -60,6 +59,31 @@ glitches = ["CanSTS", "phasewalk", "CanSkew", "CanPhaseswim", "CanPhase",
 def get_level_name(level):
     return level_names[level.replace(" ", "")]
 
+def parse_ast_comparator(subscript):
+    # 'l.ColoredBananas[Levels.DKIsles][Kongs.donkey] >= max(1, int(l.settings.medal_cb_req_level[7] * (l.settings.half_medal_percentage / 100)))'
+    # walk the subscript tree to the root
+    if isinstance(subscript, ast.Name):
+        return "" if subscript.id == 'l' else subscript.id
+    elif isinstance(subscript, ast.Attribute):
+        prefix = parse_ast_comparator(subscript.value)
+        return f"{prefix}.{subscript.attr}" if prefix else subscript.attr
+    elif isinstance(subscript, ast.Subscript):
+        value = parse_ast_comparator(subscript.value)
+        slice_val = parse_ast_comparator(subscript.slice)
+        return f"{value}{slice_val}"
+    else:
+        return ""
+
+def parse_ast_comparator_leaf_only(subscript):
+    #'l.ColoredBananas[Levels.DKIsles][Kongs.donkey]'
+    if isinstance(subscript, ast.Name):
+        return "" if subscript.id == 'l' else subscript.id
+    elif isinstance(subscript, ast.Attribute):
+        return subscript.attr
+    elif isinstance(subscript, ast.Subscript):
+        return parse_ast_comparator_leaf_only(subscript.slice)
+    else:
+        return ""
 
 def ast_to_json(node, params):
     if isinstance(node, ast.BoolOp):
@@ -97,9 +121,21 @@ def ast_to_json(node, params):
         }
         return {"combinator": "AND", "rules": [cond3, cond2]}
     elif isinstance(node, ast.Compare) and not hasattr(node.left, 'func') and isinstance(node.ops[0], ast.GtE):
+        if hasattr(node.comparators[0], 'func'):
+            # 'l.ColoredBananas[Levels.DKIsles][Kongs.donkey] >= max(1, int(l.settings.medal_cb_req_level[7] * (l.settings.half_medal_percentage / 100)))'
+            # lets hack around this and do a string compare
+            unparsed = ast.unparse(node)
+            if "l.ColoredBananas" in unparsed and "l.settings.half_medal_percentage" in unparsed:
+                comp_params =  [parse_ast_comparator_leaf_only(node.left), node.ops[0].__doc__, 'half_medal_percentage'],
+                return {"Name": 'Compare', "Params": comp_params,  "isFunction": True}
+            else:
+                print(f"Unhandled case in ast_to_json: {unparsed}")
+                return {"Name": 'Compare', "Params": parse_ast_comparator(node),  "isFunction": True}
+
         amount = node.comparators[0].value
         if (isinstance(amount, ast.Attribute)):
-            return {"Name": 'Compare', "Params": [node.left.attr, node.ops[0].__doc__, node.comparators[0].attr],  "isFunction": True}
+            # l.ColoredBananas[Levels.DKIsles][Kongs.donkey] >= l.settings.medal_cb_req_level[7]
+            return {"Name": 'Compare', "Params": [parse_ast_comparator_leaf_only(node.left), node.ops[0].__doc__, node.comparators[0].value.attr],  "isFunction": True}
 
         return {
             "Name": normalise_name(f"{node.left.attr}"),
@@ -169,8 +205,8 @@ def ast_to_json(node, params):
             return e
         elif func_name == "TransitionFront":
 
-            if (params["direct"] == True):
-                return ast_to_json(node.args[1], params)
+            # if (params["direct"] == True):
+            #     return ast_to_json(node.args[1], params)
 
 
             arrive = vals[0]['Name']
@@ -272,10 +308,15 @@ def ast_to_json(node, params):
                 door_obj.update(val)
             length = len(vals)
 
+            if length > 3 and 'logic' in door_obj:
+                req_d = door_obj['logic']['Requires']
+            else:
+                req_d = True
+
             return {
                 "Key": params['special'],
                 "Name": door_obj['name'],
-                "Requires": door_obj['logic']['Requires'],
+                "Requires": req_d,
                 "Class": "Minigame",
                 "Types": door_obj['group'],
             }
@@ -447,7 +488,10 @@ def ast_to_json(node, params):
     elif isinstance(node, ast.Call):
         return ast_to_json(node.func, params)
     elif isinstance(node, ast.Attribute) and hasattr(node.value, 'id') and node.value.id == "HintRegion":
-        return HINT_REGION_PAIRING[HintRegion[node.attr]];
+        if hasattr(node, 'attr') and node.attr in HINT_REGION_PAIRING:
+            return HINT_REGION_PAIRING[HintRegion[node.attr]]
+        else:
+            return ast.unparse(node)
     elif isinstance(node, ast.Attribute):
         name = normalise_name(node.attr)
         if name in glitches:
@@ -471,10 +515,6 @@ def ast_to_json(node, params):
         return {"Requires": requires}
     elif isinstance(node, ast.Constant):
         return node.value
-    elif isinstance(node, ast.NameConstant):
-        return node.value
-    elif isinstance(node, ast.Num):
-        return node.n
     elif isinstance(node, ast.Dict):
         # return [ast_to_json(item) for item in node.values]
         result = {}

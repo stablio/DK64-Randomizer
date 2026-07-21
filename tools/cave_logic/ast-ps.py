@@ -261,6 +261,12 @@ for kasplat in build_data['shuffle']['Kasplats']:
 
 # same for fairies
 for fairy in build_data['shuffle']['fairy_locations']:
+
+    # handle the shuffled 5ds one
+    if 'Region' not in fairy and fairy['Name'] == 'relocated_5ds_fairy':
+        # skipp
+        continue
+
     location = fairy['Region']
     key = fairy['Key']
     name = fairy['Name']
