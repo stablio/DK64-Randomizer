@@ -205,8 +205,8 @@ def ast_to_json(node, params):
             return e
         elif func_name == "TransitionFront":
 
-            # if (params["direct"] == True):
-            #     return ast_to_json(node.args[1], params)
+            if (params["direct"] == True):
+                return ast_to_json(node.args[1], params)
 
 
             arrive = vals[0]['Name']

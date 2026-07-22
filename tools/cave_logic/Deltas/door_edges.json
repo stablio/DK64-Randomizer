@@ -55,9 +55,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-diddycave": {
-            "id": "d-7-diddycave",
-            "Name": "Japes Hint Door: Diddy Cave",
+        "d-7-firsttunnelcave": {
+            "id": "d-7-firsttunnelcave",
+            "Name": "Japes Hint Door: First Tunnel Cave",
             "source": "japesbeyondpeanutgate",
             "target": "noitem",
             "sourceType": "Region",
@@ -77,9 +77,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-fairycave": {
-            "id": "d-7-fairycave",
-            "Name": "Japes Hint Door: Fairy Cave",
+        "d-7-rambibouldercave": {
+            "id": "d-7-rambibouldercave",
+            "Name": "Japes Hint Door: Rambi Boulder Cave",
             "source": "beyondrambigate",
             "target": "noitem",
             "sourceType": "Region",
@@ -99,9 +99,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-alcoveabovediddytunnelright": {
-            "id": "d-7-alcoveabovediddytunnelright",
-            "Name": "Japes Hint Door: Alcove Above Diddy Tunnel - right",
+        "d-7-alcoveabovestormytunnelright": {
+            "id": "d-7-alcoveabovestormytunnelright",
+            "Name": "Japes Hint Door: Alcove Above Stormy Tunnel - right",
             "source": "japestnsalcove",
             "target": "noitem",
             "sourceType": "Region",
@@ -110,9 +110,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-alcoveabovediddytunnelleft": {
-            "id": "d-7-alcoveabovediddytunnelleft",
-            "Name": "Japes Hint Door: Alcove Above Diddy Tunnel - left",
+        "d-7-alcoveabovestormytunnelleft": {
+            "id": "d-7-alcoveabovestormytunnelleft",
+            "Name": "Japes Hint Door: Alcove Above Stormy Tunnel - left",
             "source": "japestnsalcove",
             "target": "noitem",
             "sourceType": "Region",
@@ -123,7 +123,7 @@
         },
         "d-7-nexttominecartexitright": {
             "id": "d-7-nexttominecartexitright",
-            "Name": "Japes Hint Door: Next to Minecart Exit -right",
+            "Name": "Japes Hint Door: Next to Minecart Exit - right",
             "source": "junglejapesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -143,9 +143,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-mainareanexttotunneltotinygate": {
-            "id": "d-7-mainareanexttotunneltotinygate",
-            "Name": "Japes Hint Door: Main Area - Next to Tunnel to Tiny Gate",
+        "d-7-nexttohivetunnel": {
+            "id": "d-7-nexttohivetunnel",
+            "Name": "Japes Hint Door: Next to Hive Tunnel",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -154,9 +154,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-beehiveareanexttobeehivefarleft": {
-            "id": "d-7-beehiveareanexttobeehivefarleft",
-            "Name": "Japes Hint Door: Beehive Area - Next to Beehive - far left",
+        "d-7-hiveareanexttohivefarleft": {
+            "id": "d-7-hiveareanexttohivefarleft",
+            "Name": "Japes Hint Door: Hive Area - Next to Hive - far left",
             "source": "japesbeyondfeathergate",
             "target": "noitem",
             "sourceType": "Region",
@@ -165,9 +165,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-beehiveareanexttobeehiveleft": {
-            "id": "d-7-beehiveareanexttobeehiveleft",
-            "Name": "Japes Hint Door: Beehive Area - Next to Beehive - left",
+        "d-7-hiveareanexttohiveleft": {
+            "id": "d-7-hiveareanexttohiveleft",
+            "Name": "Japes Hint Door: Hive Area - Next to Hive - left",
             "source": "japesbeyondfeathergate",
             "target": "noitem",
             "sourceType": "Region",
@@ -176,9 +176,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-behindrambidoorwateryroomleft": {
-            "id": "d-7-behindrambidoorwateryroomleft",
-            "Name": "Japes Hint Door: Behind Rambi Door - watery room - left",
+        "d-7-rambipoolleft": {
+            "id": "d-7-rambipoolleft",
+            "Name": "Japes Hint Door: Rambi Pool - left",
             "source": "beyondrambigate",
             "target": "noitem",
             "sourceType": "Region",
@@ -187,9 +187,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-behindrambidoorwateryroomright": {
-            "id": "d-7-behindrambidoorwateryroomright",
-            "Name": "Japes Hint Door: Behind Rambi Door - watery room - right",
+        "d-7-rambipoolright": {
+            "id": "d-7-rambipoolright",
+            "Name": "Japes Hint Door: Rambi Pool - right",
             "source": "beyondrambigate",
             "target": "noitem",
             "sourceType": "Region",
@@ -198,9 +198,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-topoflankysuselessslopeleft": {
-            "id": "d-7-topoflankysuselessslopeleft",
-            "Name": "Japes Hint Door: Top of Lanky's Useless Slope - left",
+        "d-7-topoflankyuselessslopeleft": {
+            "id": "d-7-topoflankyuselessslopeleft",
+            "Name": "Japes Hint Door: Top of Lanky Useless Slope - left",
             "source": "japesuselessslope",
             "target": "noitem",
             "sourceType": "Region",
@@ -209,9 +209,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-topoflankysuselesssloperight": {
-            "id": "d-7-topoflankysuselesssloperight",
-            "Name": "Japes Hint Door: Top of Lanky's Useless Slope - right",
+        "d-7-topoflankyuselesssloperight": {
+            "id": "d-7-topoflankyuselesssloperight",
+            "Name": "Japes Hint Door: Top of Lanky Useless Slope - right",
             "source": "japesuselessslope",
             "target": "noitem",
             "sourceType": "Region",
@@ -220,9 +220,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-underwaterbywarp2": {
-            "id": "d-7-underwaterbywarp2",
-            "Name": "Japes Hint Door: Underwater by Warp 2",
+        "d-7-riverbytagbarrel": {
+            "id": "d-7-riverbytagbarrel",
+            "Name": "Japes Hint Door: River by Tag Barrel",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -238,9 +238,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-underwaterbychunkysunderground": {
-            "id": "d-7-underwaterbychunkysunderground",
-            "Name": "Japes Hint Door: Underwater by Chunky's underground",
+        "d-7-riverbychunkyunderground": {
+            "id": "d-7-riverbychunkyunderground",
+            "Name": "Japes Hint Door: River by Chunky Underground",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -256,9 +256,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-nexttofunkyright": {
-            "id": "d-7-nexttofunkyright",
-            "Name": "Japes Hint Door: Next to Funky - right",
+        "d-7-lowhillshopright": {
+            "id": "d-7-lowhillshopright",
+            "Name": "Japes Hint Door: Low Hill Shop - right",
             "source": "japeshill",
             "target": "noitem",
             "sourceType": "Region",
@@ -267,9 +267,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-nexttolankyspaintingroomleft": {
-            "id": "d-7-nexttolankyspaintingroomleft",
-            "Name": "Japes Hint Door: Next to Lanky's Painting Room - left",
+        "d-7-paintinghillleft": {
+            "id": "d-7-paintinghillleft",
+            "Name": "Japes Hint Door: Painting Hill - left",
             "source": "japespaintingroomhill",
             "target": "noitem",
             "sourceType": "Region",
@@ -278,9 +278,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-nexttolankyspaintingroomright": {
-            "id": "d-7-nexttolankyspaintingroomright",
-            "Name": "Japes Hint Door: Next to Lanky's Painting Room - right",
+        "d-7-paintinghillright": {
+            "id": "d-7-paintinghillright",
+            "Name": "Japes Hint Door: Painting Hill - right",
             "source": "japespaintingroomhill",
             "target": "noitem",
             "sourceType": "Region",
@@ -289,9 +289,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-outsidediddycaveswitchleft": {
-            "id": "d-7-outsidediddycaveswitchleft",
-            "Name": "Japes Hint Door: Outside Diddy Cave Switch - left",
+        "d-7-firsttunnelswitchleft": {
+            "id": "d-7-firsttunnelswitchleft",
+            "Name": "Japes Hint Door: First Tunnel Switch - left",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -300,9 +300,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-outsidediddycaveswitchright": {
-            "id": "d-7-outsidediddycaveswitchright",
-            "Name": "Japes Hint Door: Outside Diddy Cave Switch - right",
+        "d-7-firsttunnelswitchright": {
+            "id": "d-7-firsttunnelswitchright",
+            "Name": "Japes Hint Door: First Tunnel Switch - right",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -311,9 +311,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-entrancetunnelneardiddycavebackleft": {
-            "id": "d-7-entrancetunnelneardiddycavebackleft",
-            "Name": "Japes Hint Door: Entrance Tunnel - Near Diddy Cave - back left",
+        "d-7-firsttunnelbackleft": {
+            "id": "d-7-firsttunnelbackleft",
+            "Name": "Japes Hint Door: First Tunnel - back left",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -322,9 +322,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-entrancetunnelneardiddycavefrontleft": {
-            "id": "d-7-entrancetunnelneardiddycavefrontleft",
-            "Name": "Japes Hint Door: Entrance Tunnel - Near Diddy Cave - front left",
+        "d-7-firsttunnelfrontleft": {
+            "id": "d-7-firsttunnelfrontleft",
+            "Name": "Japes Hint Door: First Tunnel - front left",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -333,9 +333,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-entrancetunnelnearwarppad1and2": {
-            "id": "d-7-entrancetunnelnearwarppad1and2",
-            "Name": "Japes Hint Door: Entrance Tunnel - Near Warppad 1 and 2",
+        "d-7-firsttunnelnearriverexit": {
+            "id": "d-7-firsttunnelnearriverexit",
+            "Name": "Japes Hint Door: First Tunnel - Near River Exit",
             "source": "junglejapesstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -344,9 +344,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-diddytunnelnexttoholeriverside": {
-            "id": "d-7-diddytunnelnexttoholeriverside",
-            "Name": "Japes Hint Door: Diddy Tunnel - next to hole - river side",
+        "d-7-stormytunnelnearpitriverside": {
+            "id": "d-7-stormytunnelnearpitriverside",
+            "Name": "Japes Hint Door: Stormy Tunnel - Near Pit River Side",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -355,9 +355,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-diddytunnelriverside": {
-            "id": "d-7-diddytunnelriverside",
-            "Name": "Japes Hint Door: Diddy Tunnel - river side",
+        "d-7-stormytunnelriverside": {
+            "id": "d-7-stormytunnelriverside",
+            "Name": "Japes Hint Door: Stormy Tunnel - River Side",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -366,9 +366,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-nearwarp4andtunnelthreewaycrossing": {
-            "id": "d-7-nearwarp4andtunnelthreewaycrossing",
-            "Name": "Japes Hint Door: Near Warp 4 and Tunnel Threeway crossing",
+        "d-7-stormytunnelthreewaycrossing": {
+            "id": "d-7-stormytunnelthreewaycrossing",
+            "Name": "Japes Hint Door: Stormy Tunnel Threeway crossing",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -377,9 +377,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankytunnelcrossroad": {
-            "id": "d-7-crankytunnelcrossroad",
-            "Name": "Japes Hint Door: Cranky Tunnel - Crossroad",
+        "d-7-stormytunnelcrossroad": {
+            "id": "d-7-stormytunnelcrossroad",
+            "Name": "Japes Hint Door: Stormy Tunnel - Crossroad",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -388,9 +388,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankyareafrontright": {
-            "id": "d-7-crankyareafrontright",
-            "Name": "Japes Hint Door: Cranky Area - front-right",
+        "d-7-stormyareafrontright": {
+            "id": "d-7-stormyareafrontright",
+            "Name": "Japes Hint Door: Stormy Area - front right",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -399,9 +399,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankyareafrontleft": {
-            "id": "d-7-crankyareafrontleft",
-            "Name": "Japes Hint Door: Cranky Area - front left",
+        "d-7-stormyareafrontleft": {
+            "id": "d-7-stormyareafrontleft",
+            "Name": "Japes Hint Door: Stormy Area - front left",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -410,9 +410,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankyareacenterleft": {
-            "id": "d-7-crankyareacenterleft",
-            "Name": "Japes Hint Door: Cranky Area - center left",
+        "d-7-stormyareacenterleft": {
+            "id": "d-7-stormyareacenterleft",
+            "Name": "Japes Hint Door: Stormy Area - center left",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -421,9 +421,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankyareacenterright": {
-            "id": "d-7-crankyareacenterright",
-            "Name": "Japes Hint Door: Cranky Area - center right",
+        "d-7-stormyareacenterright": {
+            "id": "d-7-stormyareacenterright",
+            "Name": "Japes Hint Door: Stormy Area - center right",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -432,9 +432,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankyareabackleft": {
-            "id": "d-7-crankyareabackleft",
-            "Name": "Japes Hint Door: Cranky Area - back left",
+        "d-7-stormyareabackleft": {
+            "id": "d-7-stormyareabackleft",
+            "Name": "Japes Hint Door: Stormy Area - back left",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -443,9 +443,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-7-crankyareabackright": {
-            "id": "d-7-crankyareabackright",
-            "Name": "Japes Hint Door: Cranky Area - back right",
+        "d-7-stormyareabackright": {
+            "id": "d-7-stormyareabackright",
+            "Name": "Japes Hint Door: Stormy Area - back right",
             "source": "japesbeyondcoconutgate2",
             "target": "noitem",
             "sourceType": "Region",
@@ -454,9 +454,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-12-beehiveroom2left": {
-            "id": "d-12-beehiveroom2left",
-            "Name": "Japes Hint Door: Beehive Room 2 - left",
+        "d-12-hiveroom2left": {
+            "id": "d-12-hiveroom2left",
+            "Name": "Japes Hint Door: Hive Room 2 - left",
             "source": "tinyhive",
             "target": "noitem",
             "sourceType": "Region",
@@ -487,9 +487,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-12-beehiveroom2right": {
-            "id": "d-12-beehiveroom2right",
-            "Name": "Japes Hint Door: Beehive Room 2 - right",
+        "d-12-hiveroom2right": {
+            "id": "d-12-hiveroom2right",
+            "Name": "Japes Hint Door: Hive Room 2 - right",
             "source": "tinyhive",
             "target": "noitem",
             "sourceType": "Region",
@@ -772,6 +772,17 @@
             "Class": "Check",
             "Type": "Door"
         },
+        "d-7-slopetokongcage": {
+            "id": "d-7-slopetokongcage",
+            "Name": "Japes Hint Door: Slope to Kong Cage",
+            "source": "japeshilltop",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
         "d-173-azteclobbypillarwall": {
             "id": "d-173-azteclobbypillarwall",
             "Name": "Aztec Hint Door: Aztec Lobby - Pillar Wall",
@@ -816,9 +827,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-173-azteclobbybehindfeatherdoor": {
-            "id": "d-173-azteclobbybehindfeatherdoor",
-            "Name": "Aztec Hint Door: Aztec Lobby - Behind Feather Door",
+        "d-173-azteclobbybackroom": {
+            "id": "d-173-azteclobbybackroom",
+            "Name": "Aztec Hint Door: Aztec Lobby - Back Room",
             "source": "angryazteclobby",
             "target": "noitem",
             "sourceType": "Region",
@@ -845,9 +856,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-nearfunkys": {
-            "id": "d-38-nearfunkys",
-            "Name": "Aztec Hint Door: Near Funky's",
+        "d-38-rightofquicksandtunnelshop": {
+            "id": "d-38-rightofquicksandtunnelshop",
+            "Name": "Aztec Hint Door: Right of Quicksand Tunnel Shop",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -856,9 +867,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-nearcrankys": {
-            "id": "d-38-nearcrankys",
-            "Name": "Aztec Hint Door: Near Cranky's",
+        "d-38-leftoftunnelshop": {
+            "id": "d-38-leftoftunnelshop",
+            "Name": "Aztec Hint Door: Left of Tunnel Shop",
             "source": "angryaztecconnectortunnel",
             "target": "noitem",
             "sourceType": "Region",
@@ -867,9 +878,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-nearcandys": {
-            "id": "d-38-nearcandys",
-            "Name": "Aztec Hint Door: Near Candy's",
+        "d-38-nearoasisshop": {
+            "id": "d-38-nearoasisshop",
+            "Name": "Aztec Hint Door: Near Oasis Shop",
             "source": "angryaztecoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -878,9 +889,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-nearsnides": {
-            "id": "d-38-nearsnides",
-            "Name": "Aztec Hint Door: Near Snide's",
+        "d-38-nearvulturecageshop": {
+            "id": "d-38-nearvulturecageshop",
+            "Name": "Aztec Hint Door: Near Vulture Cage Shop",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -900,9 +911,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-nexttocandyright": {
-            "id": "d-38-nexttocandyright",
-            "Name": "Aztec Hint Door: Next to Candy - right",
+        "d-38-oasisshopright": {
+            "id": "d-38-oasisshopright",
+            "Name": "Aztec Hint Door: Oasis Shop - right",
             "source": "angryaztecoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -911,9 +922,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-underdiddystinytempleswitch": {
-            "id": "d-38-underdiddystinytempleswitch",
-            "Name": "Aztec Hint Door: Under Diddy's Tiny Temple Switch",
+        "d-38-undertinytemplepeanutswitch": {
+            "id": "d-38-undertinytemplepeanutswitch",
+            "Name": "Aztec Hint Door: Under Tiny Temple Peanut Switch",
             "source": "angryaztecoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -922,9 +933,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-underchunkystinytempleswitch": {
-            "id": "d-38-underchunkystinytempleswitch",
-            "Name": "Aztec Hint Door: Under Chunky's Tiny Temple Switch",
+        "d-38-undertinytemplepineappleswitch": {
+            "id": "d-38-undertinytemplepineappleswitch",
+            "Name": "Aztec Hint Door: Under Tiny Temple Pineapple Switch",
             "source": "angryaztecoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -933,9 +944,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-undertinystinytempleswitch": {
-            "id": "d-38-undertinystinytempleswitch",
-            "Name": "Aztec Hint Door: Under Tiny's Tiny Temple Switch",
+        "d-38-undertinytemplefeatherswitch": {
+            "id": "d-38-undertinytemplefeatherswitch",
+            "Name": "Aztec Hint Door: Under Tiny Temple Feather Switch",
             "source": "angryaztecoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -944,9 +955,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-underlankystinytempleswitch": {
-            "id": "d-38-underlankystinytempleswitch",
-            "Name": "Aztec Hint Door: Under Lanky's Tiny Temple Switch",
+        "d-38-undertinytemplegrapeswitch": {
+            "id": "d-38-undertinytemplegrapeswitch",
+            "Name": "Aztec Hint Door: Under Tiny Temple Grape Switch",
             "source": "angryaztecoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -955,9 +966,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-diddytowerstairsleft": {
-            "id": "d-38-diddytowerstairsleft",
-            "Name": "Aztec Hint Door: Diddy Tower Stairs - left",
+        "d-38-gongtowerstairsleft": {
+            "id": "d-38-gongtowerstairsleft",
+            "Name": "Aztec Hint Door: Gong Tower Stairs - left",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -966,9 +977,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-nexttotagbarrelnearsnides": {
-            "id": "d-38-nexttotagbarrelnearsnides",
-            "Name": "Aztec Hint Door: Next to Tag Barrel near Snides",
+        "d-38-nexttotagbarrelnearvulturecage": {
+            "id": "d-38-nexttotagbarrelnearvulturecage",
+            "Name": "Aztec Hint Door: Next to Tag Barrel near Vulture Cage",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -990,7 +1001,7 @@
         },
         "d-38-5doortemples6thdoor": {
             "id": "d-38-5doortemples6thdoor",
-            "Name": "Aztec Hint Door: 5Door Temple's 6th Door",
+            "Name": "Aztec Hint Door: 5 Door Temple's 6th Door",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -999,9 +1010,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-crankytunnelnearchunkybarrelleft": {
-            "id": "d-38-crankytunnelnearchunkybarrelleft",
-            "Name": "Aztec Hint Door: Cranky Tunnel - Near Chunky Barrel - left",
+        "d-38-rightoftunnelshop": {
+            "id": "d-38-rightoftunnelshop",
+            "Name": "Aztec Hint Door: Right of Tunnel Shop",
             "source": "angryaztecconnectortunnel",
             "target": "noitem",
             "sourceType": "Region",
@@ -1010,9 +1021,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-crankytunnelnearchunkybarrelright": {
-            "id": "d-38-crankytunnelnearchunkybarrelright",
-            "Name": "Aztec Hint Door: Cranky Tunnel - Near Chunky Barrel - right",
+        "d-38-nearhunkybarrelleft": {
+            "id": "d-38-nearhunkybarrelleft",
+            "Name": "Aztec Hint Door: Near Hunky Barrel - left",
             "source": "angryaztecconnectortunnel",
             "target": "noitem",
             "sourceType": "Region",
@@ -1021,9 +1032,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-crankytunnelnearroadtocrankyleft": {
-            "id": "d-38-crankytunnelnearroadtocrankyleft",
-            "Name": "Aztec Hint Door: Cranky Tunnel - Near Road to Cranky - left",
+        "d-38-nearhunkybarrelright": {
+            "id": "d-38-nearhunkybarrelright",
+            "Name": "Aztec Hint Door: Near Hunky Barrel - right",
             "source": "angryaztecconnectortunnel",
             "target": "noitem",
             "sourceType": "Region",
@@ -1032,9 +1043,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-crankytunnelnearroadtocrankyright": {
-            "id": "d-38-crankytunnelnearroadtocrankyright",
-            "Name": "Aztec Hint Door: Cranky Tunnel - Near Road to Cranky - right",
+        "d-38-nearsnakeroadleft": {
+            "id": "d-38-nearsnakeroadleft",
+            "Name": "Aztec Hint Door: Near Snake Road - left",
+            "source": "angryaztecconnectortunnel",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-38-nearsnakeroadright": {
+            "id": "d-38-nearsnakeroadright",
+            "Name": "Aztec Hint Door: Near Snake Road - right",
             "source": "angryaztecconnectortunnel",
             "target": "noitem",
             "sourceType": "Region",
@@ -1045,7 +1067,7 @@
         },
         "d-38-5doortemplestaircasefront": {
             "id": "d-38-5doortemplestaircasefront",
-            "Name": "Aztec Hint Door: 5Door Temple Staircase - front",
+            "Name": "Aztec Hint Door: 5 Door Temple Staircase - front",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -1056,7 +1078,7 @@
         },
         "d-38-5doortemplestaircaseback": {
             "id": "d-38-5doortemplestaircaseback",
-            "Name": "Aztec Hint Door: 5Door Temple Staircase - back",
+            "Name": "Aztec Hint Door: 5 Door Temple Staircase - back",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -1065,9 +1087,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-entrancetunnelnexttococonutswitch": {
-            "id": "d-38-entrancetunnelnexttococonutswitch",
-            "Name": "Aztec Hint Door: Entrance Tunnel - next to Coconut Switch",
+        "d-38-acrossfromvasesroom": {
+            "id": "d-38-acrossfromvasesroom",
+            "Name": "Aztec Hint Door: Across from Vases Room",
+            "source": "betweenvinesbyportal",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-38-firsttunnelnexttodkdoor": {
+            "id": "d-38-firsttunnelnexttodkdoor",
+            "Name": "Aztec Hint Door: First Tunnel - next to DK Door",
             "source": "aztectunnelbeforeoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -1076,9 +1109,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-entrancetunnelleft(neartheoasisend)": {
-            "id": "d-38-entrancetunnelleft(neartheoasisend)",
-            "Name": "Aztec Hint Door: Entrance Tunnel - left (near the oasis end)",
+        "d-38-firsttunnelnearoasis": {
+            "id": "d-38-firsttunnelnearoasis",
+            "Name": "Aztec Hint Door: First Tunnel - Near Oasis",
             "source": "aztectunnelbeforeoasis",
             "target": "noitem",
             "sourceType": "Region",
@@ -1108,9 +1141,31 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-neartagbarrelnearsnidesstrongkong": {
-            "id": "d-38-neartagbarrelnearsnidesstrongkong",
-            "Name": "Aztec Hint Door: Near Tag Barrel near Snides - strong kong",
+        "d-38-insidequicksandbonuscave": {
+            "id": "d-38-insidequicksandbonuscave",
+            "Name": "Aztec Hint Door: Inside Quicksand Bonus Cave",
+            "source": "aztecdonkeyquicksandcave",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-38-leftofquicksandtunnelshop": {
+            "id": "d-38-leftofquicksandtunnelshop",
+            "Name": "Aztec Hint Door: Left of Quicksand Tunnel Shop",
+            "source": "angryaztecmain",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-38-farbacktriplestairsquicksand": {
+            "id": "d-38-farbacktriplestairsquicksand",
+            "Name": "Aztec Hint Door: Far Back Triple Stairs Quicksand",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -1129,9 +1184,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-20-infacematchinggameright": {
-            "id": "d-20-infacematchinggameright",
-            "Name": "Aztec Hint Door: In Face Matching Game - right",
+        "d-20-llamatemplematchingroomright": {
+            "id": "d-20-llamatemplematchingroomright",
+            "Name": "Aztec Hint Door: Llama Temple Matching Room - right",
             "source": "llamatemplematching",
             "target": "noitem",
             "sourceType": "Region",
@@ -1140,14 +1195,38 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-20-infacematchinggameleft": {
-            "id": "d-20-infacematchinggameleft",
-            "Name": "Aztec Hint Door: In Face Matching Game - left",
+        "d-20-llamatemplematchingroomleft": {
+            "id": "d-20-llamatemplematchingroomleft",
+            "Name": "Aztec Hint Door: Llama Temple Matching Room - left",
             "source": "llamatemplematching",
             "target": "noitem",
             "sourceType": "Region",
             "targetType": "Item",
             "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-38-atoptinytemple": {
+            "id": "d-38-atoptinytemple",
+            "Name": "Aztec Hint Door: Atop Tiny Temple",
+            "source": "angryaztecoasis",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    },
+                    {
+                        "Name": "diddy"
+                    },
+                    {
+                        "Name": "climbing"
+                    }
+                ]
+            },
             "Class": "Check",
             "Type": "Door"
         },
@@ -1195,9 +1274,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-38-betweensnidesanddiddygongtower": {
-            "id": "d-38-betweensnidesanddiddygongtower",
-            "Name": "Aztec Hint Door: Between Snides and Diddy Gong Tower",
+        "d-38-farbacktriplestairswall": {
+            "id": "d-38-farbacktriplestairswall",
+            "Name": "Aztec Hint Door: Far Back Triple Stairs Wall",
             "source": "angryaztecmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -1250,9 +1329,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-16-tinytempleacrossfromslopetotinycageleft": {
-            "id": "d-16-tinytempleacrossfromslopetotinycageleft",
-            "Name": "Aztec Hint Door: Tiny Temple - Across from Slope to Tiny Cage - left",
+        "d-16-tinytempleacrossfromkongroomleft": {
+            "id": "d-16-tinytempleacrossfromkongroomleft",
+            "Name": "Aztec Hint Door: Tiny Temple - Across from KONG Room - left",
             "source": "templeunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -1261,9 +1340,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-16-tinytempleacrossfromslopetotinycageright": {
-            "id": "d-16-tinytempleacrossfromslopetotinycageright",
-            "Name": "Aztec Hint Door: Tiny Temple - Across from Slope to Tiny Cage - right",
+        "d-16-tinytempleacrossfromkongroomright": {
+            "id": "d-16-tinytempleacrossfromkongroomright",
+            "Name": "Aztec Hint Door: Tiny Temple - Across from KONG Room - right",
             "source": "templeunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -1697,8 +1776,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "combinator": "OR",
@@ -1746,8 +1824,7 @@
                         "isGlitch": true
                     },
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     }
                 ]
             },
@@ -1785,8 +1862,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "combinator": "OR",
@@ -1839,9 +1915,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-randd": {
-            "id": "d-26-randd",
-            "Name": "Factory Hint Door: R and D",
+        "d-26-r&dacrossfrompianogame": {
+            "id": "d-26-r&dacrossfrompianogame",
+            "Name": "Factory Hint Door: R&D across from Piano Game",
             "source": "randd",
             "target": "noitem",
             "sourceType": "Region",
@@ -1872,9 +1948,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-behindchunkystoyboxbig": {
-            "id": "d-26-behindchunkystoyboxbig",
-            "Name": "Factory Hint Door: Behind Chunky's Toy Box - big",
+        "d-26-behindtoymonsterbox": {
+            "id": "d-26-behindtoymonsterbox",
+            "Name": "Factory Hint Door: Behind Toy Monster Box",
             "source": "randdupper",
             "target": "noitem",
             "sourceType": "Region",
@@ -1910,9 +1986,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-nexttohatchwithtallpoleleft": {
-            "id": "d-26-nexttohatchwithtallpoleleft",
-            "Name": "Factory Hint Door: Next to Hatch with Tall Pole - left",
+        "d-26-nexttohatchleft": {
+            "id": "d-26-nexttohatchleft",
+            "Name": "Factory Hint Door: Next to Hatch - left",
             "source": "franticfactorystart",
             "target": "noitem",
             "sourceType": "Region",
@@ -1921,9 +1997,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-nexttohatchwithtallpoleright": {
-            "id": "d-26-nexttohatchwithtallpoleright",
-            "Name": "Factory Hint Door: Next to Hatch with Tall Pole - right",
+        "d-26-nexttohatchright": {
+            "id": "d-26-nexttohatchright",
+            "Name": "Factory Hint Door: Next to Hatch - right",
             "source": "franticfactorystart",
             "target": "noitem",
             "sourceType": "Region",
@@ -1932,9 +2008,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-bottomofthetallpole": {
-            "id": "d-26-bottomofthetallpole",
-            "Name": "Factory Hint Door: Bottom of the Tall Pole",
+        "d-26-bottomofthehatchpole": {
+            "id": "d-26-bottomofthehatchpole",
+            "Name": "Factory Hint Door: Bottom of the Hatch Pole",
             "source": "beyondhatch",
             "target": "noitem",
             "sourceType": "Region",
@@ -1943,9 +2019,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-productionroomundertinyconveyors": {
-            "id": "d-26-productionroomundertinyconveyors",
-            "Name": "Factory Hint Door: Production Room - Under Tiny Conveyors",
+        "d-26-productionroomunderconveyors": {
+            "id": "d-26-productionroomunderconveyors",
+            "Name": "Factory Hint Door: Production Room - Under Conveyors",
             "source": "uppercore",
             "target": "noitem",
             "sourceType": "Region",
@@ -1954,9 +2030,52 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-kongcageroombehindtagbarrel": {
-            "id": "d-26-kongcageroombehindtagbarrel",
-            "Name": "Factory Hint Door: Kong Cage Room - Behind Tag Barrel",
+        "d-26-abovestoragespringpad": {
+            "id": "d-26-abovestoragespringpad",
+            "Name": "Factory Hint Door: Above Storage Spring Pad",
+            "source": "beyondhatch",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "simianspring"
+                                    },
+                                    {
+                                        "Name": "CanMoontail",
+                                        "Params": [],
+                                        "isFunction": true,
+                                        "isGlitch": true
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "diddy"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "CanPhase",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            },
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-26-storageroombehindtagbarrel": {
+            "id": "d-26-storageroombehindtagbarrel",
+            "Name": "Factory Hint Door: Storage Room - Behind Tag Barrel",
             "source": "beyondhatch",
             "target": "noitem",
             "sourceType": "Region",
@@ -1965,9 +2084,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-undercrankyslab": {
-            "id": "d-26-undercrankyslab",
-            "Name": "Factory Hint Door: Under Cranky's Lab",
+        "d-26-underleftstorageshop": {
+            "id": "d-26-underleftstorageshop",
+            "Name": "Factory Hint Door: Under Left Storage Shop",
             "source": "beyondhatch",
             "target": "noitem",
             "sourceType": "Region",
@@ -1976,9 +2095,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-undercandysstore": {
-            "id": "d-26-undercandysstore",
-            "Name": "Factory Hint Door: Under Candy's Store",
+        "d-26-underrightstorageshop": {
+            "id": "d-26-underrightstorageshop",
+            "Name": "Factory Hint Door: Under Right Storage Shop",
             "source": "beyondhatch",
             "target": "noitem",
             "sourceType": "Region",
@@ -1987,9 +2106,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-nexttodkscountto16puzzle": {
-            "id": "d-26-nexttodkscountto16puzzle",
-            "Name": "Factory Hint Door: Next to DK's Count to 16 Puzzle",
+        "d-26-nexttonumbergame": {
+            "id": "d-26-nexttonumbergame",
+            "Name": "Factory Hint Door: Next to Number Game",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -1998,9 +2117,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-randdroomnexttotunneltocarrace": {
-            "id": "d-26-randdroomnexttotunneltocarrace",
-            "Name": "Factory Hint Door: R and D Room - Next to Tunnel to Car Race",
+        "d-26-r&dacrossfromcarrace": {
+            "id": "d-26-r&dacrossfromcarrace",
+            "Name": "Factory Hint Door: R&D across from Car Race",
             "source": "randd",
             "target": "noitem",
             "sourceType": "Region",
@@ -2009,20 +2128,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-blocktowerroomundertunneltofunkys": {
-            "id": "d-26-blocktowerroomundertunneltofunkys",
-            "Name": "Factory Hint Door: Block Tower Room - Under Tunnel to Funky's",
-            "source": "testing",
-            "target": "noitem",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Requires": true,
-            "Class": "Check",
-            "Type": "Door"
-        },
-        "d-26-randdroomdeadend": {
-            "id": "d-26-randdroomdeadend",
-            "Name": "Factory Hint Door: R and D Room - Dead End",
+        "d-26-r&dnexttotunneltocarrace": {
+            "id": "d-26-r&dnexttotunneltocarrace",
+            "Name": "Factory Hint Door: R&D - Next to Tunnel to Car Race",
             "source": "randd",
             "target": "noitem",
             "sourceType": "Region",
@@ -2031,9 +2139,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-randdroomblindcornernexttotunneltocarrace": {
-            "id": "d-26-randdroomblindcornernexttotunneltocarrace",
-            "Name": "Factory Hint Door: R and D Room - Blind Corner Next to Tunnel to Car Race",
+        "d-26-testingareaundertunneltoshop": {
+            "id": "d-26-testingareaundertunneltoshop",
+            "Name": "Factory Hint Door: Testing Area - Under Tunnel to Shop",
+            "source": "testing",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-26-r&ddeadend": {
+            "id": "d-26-r&ddeadend",
+            "Name": "Factory Hint Door: R&D - Dead End",
             "source": "randd",
             "target": "noitem",
             "sourceType": "Region",
@@ -2042,9 +2161,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-funkysroomacrossfrommeloncrate": {
-            "id": "d-26-funkysroomacrossfrommeloncrate",
-            "Name": "Factory Hint Door: Funky's Room - Across from Melon Crate",
+        "d-26-r&dblindcornernexttotunneltocarrace": {
+            "id": "d-26-r&dblindcornernexttotunneltocarrace",
+            "Name": "Factory Hint Door: R&D - Blind Corner Next to Tunnel to Car Race",
+            "source": "randd",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-26-testingareashoproomleftwall": {
+            "id": "d-26-testingareashoproomleftwall",
+            "Name": "Factory Hint Door: Testing Area - Shop Room Left Wall",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -2053,9 +2183,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-blocktowerroomairventunderarcadewindow": {
-            "id": "d-26-blocktowerroomairventunderarcadewindow",
-            "Name": "Factory Hint Door: Block Tower Room - Air Vent Under Arcade Window",
+        "d-26-testingareaairventunderarcadewindow": {
+            "id": "d-26-testingareaairventunderarcadewindow",
+            "Name": "Factory Hint Door: Testing Area - Air Vent Under Arcade Window",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -2064,9 +2194,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-blocktowerroomunderarcadewindowleft": {
-            "id": "d-26-blocktowerroomunderarcadewindowleft",
-            "Name": "Factory Hint Door: Block Tower Room - Under Arcade Window - left",
+        "d-26-testingareaunderarcadewindowleft": {
+            "id": "d-26-testingareaunderarcadewindowleft",
+            "Name": "Factory Hint Door: Testing Area - Under Arcade Window - left",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -2075,9 +2205,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-blocktowerroombehindtagbarrel": {
-            "id": "d-26-blocktowerroombehindtagbarrel",
-            "Name": "Factory Hint Door: Block Tower Room - Behind Tag Barrel",
+        "d-26-testingareabehindtagbarrel": {
+            "id": "d-26-testingareabehindtagbarrel",
+            "Name": "Factory Hint Door: Testing Area - Behind Tag Barrel",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -2086,9 +2216,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-randdroomnexttodiddyspincoderoom": {
-            "id": "d-26-randdroomnexttodiddyspincoderoom",
-            "Name": "Factory Hint Door: R and D Room - Next to Diddy's Pincode Room",
+        "d-26-r&dnexttodiddysroom": {
+            "id": "d-26-r&dnexttodiddysroom",
+            "Name": "Factory Hint Door: R&D - Next to Diddy's Room",
             "source": "randdupper",
             "target": "noitem",
             "sourceType": "Region",
@@ -2097,9 +2227,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-tinysraceentryarea": {
-            "id": "d-26-tinysraceentryarea",
-            "Name": "Factory Hint Door: Tiny's Race Entry Area",
+        "d-26-r&dtinysraceentryarea": {
+            "id": "d-26-r&dtinysraceentryarea",
+            "Name": "Factory Hint Door: R&D - Tiny's Race Entry Area",
             "source": "factorytinyracelobby",
             "target": "noitem",
             "sourceType": "Region",
@@ -2108,9 +2238,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-kongcageroomnexttotagbarrel": {
-            "id": "d-26-kongcageroomnexttotagbarrel",
-            "Name": "Factory Hint Door: Kong Cage Room - Next to Tag Barrel",
+        "d-26-storageroomnexttotagbarrel": {
+            "id": "d-26-storageroomnexttotagbarrel",
+            "Name": "Factory Hint Door: Storage Room - Next to Tag Barrel",
             "source": "beyondhatch",
             "target": "noitem",
             "sourceType": "Region",
@@ -2151,9 +2281,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-arcaderoominacorner": {
-            "id": "d-26-arcaderoominacorner",
-            "Name": "Factory Hint Door: Arcade Room - in a corner",
+        "d-26-abovecrusherentrance": {
+            "id": "d-26-abovecrusherentrance",
+            "Name": "Factory Hint Door: Above Crusher Entrance",
+            "source": "lowercore",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-26-arcaderoomcorner": {
+            "id": "d-26-arcaderoomcorner",
+            "Name": "Factory Hint Door: Arcade Room - Corner",
             "source": "factoryarcadetunnel",
             "target": "noitem",
             "sourceType": "Region",
@@ -2162,9 +2303,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-blocktowerroomnexttotinybarrel": {
-            "id": "d-26-blocktowerroomnexttotinybarrel",
-            "Name": "Factory Hint Door: Block Tower Room - Next to Tiny Barrel",
+        "d-26-underarcadeshelves": {
+            "id": "d-26-underarcadeshelves",
+            "Name": "Factory Hint Door: Under Arcade Shelves",
+            "source": "factoryarcadetunnel",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-26-testingareanexttominibarrel": {
+            "id": "d-26-testingareanexttominibarrel",
+            "Name": "Factory Hint Door: Testing Area - Next to Mini Barrel",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -2173,9 +2325,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-blocktowerroomatthebaseoftheblocktower": {
-            "id": "d-26-blocktowerroomatthebaseoftheblocktower",
-            "Name": "Factory Hint Door: Block Tower Room - at the Base of the Block Tower",
+        "d-26-testingareabaseoftheblocktower": {
+            "id": "d-26-testingareabaseoftheblocktower",
+            "Name": "Factory Hint Door: Testing Area - Base of the Block Tower",
             "source": "testing",
             "target": "noitem",
             "sourceType": "Region",
@@ -2184,9 +2336,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-clockroomunderclock": {
-            "id": "d-26-clockroomunderclock",
-            "Name": "Factory Hint Door: Clock Room - Under Clock",
+        "d-26-byfoyershop": {
+            "id": "d-26-byfoyershop",
+            "Name": "Factory Hint Door: By Foyer Shop",
+            "source": "testing",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-26-foyerunderclock": {
+            "id": "d-26-foyerunderclock",
+            "Name": "Factory Hint Door: Foyer - Under Clock",
             "source": "franticfactorystart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2195,9 +2358,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-clockroomfrontleft": {
-            "id": "d-26-clockroomfrontleft",
-            "Name": "Factory Hint Door: Clock Room - front left",
+        "d-26-foyerfrontleft": {
+            "id": "d-26-foyerfrontleft",
+            "Name": "Factory Hint Door: Foyer - front left",
             "source": "franticfactorystart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2206,9 +2369,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-clockroombackleft": {
-            "id": "d-26-clockroombackleft",
-            "Name": "Factory Hint Door: Clock Room - back left",
+        "d-26-foyerbackleft": {
+            "id": "d-26-foyerbackleft",
+            "Name": "Factory Hint Door: Foyer - back left",
             "source": "franticfactorystart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2217,9 +2380,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-clockroomfrontright": {
-            "id": "d-26-clockroomfrontright",
-            "Name": "Factory Hint Door: Clock Room - front right",
+        "d-26-foyerfrontright": {
+            "id": "d-26-foyerfrontright",
+            "Name": "Factory Hint Door: Foyer - front right",
             "source": "franticfactorystart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2228,9 +2391,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-topofpipenearkongfreeingswitch": {
-            "id": "d-26-topofpipenearkongfreeingswitch",
-            "Name": "Factory Hint Door: Top of Pipe Near Kong-freeing Switch",
+        "d-26-storageroomtopoforangstandpipe": {
+            "id": "d-26-storageroomtopoforangstandpipe",
+            "Name": "Factory Hint Door: Storage Room - Top of Orangstand Pipe",
             "source": "factorystoragepipe",
             "target": "noitem",
             "sourceType": "Region",
@@ -2239,9 +2402,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-pincoderoomfrontright": {
-            "id": "d-26-pincoderoomfrontright",
-            "Name": "Factory Hint Door: Pin Code Room - front-right",
+        "d-26-diddyr&droomfrontright": {
+            "id": "d-26-diddyr&droomfrontright",
+            "Name": "Factory Hint Door: Diddy R&D Room - front-right",
             "source": "randdupper",
             "target": "noitem",
             "sourceType": "Region",
@@ -2271,9 +2434,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-lankyspianoroomright": {
-            "id": "d-26-lankyspianoroomright",
-            "Name": "Factory Hint Door: Lanky's Piano Room - right",
+        "d-26-lankypianoroomright": {
+            "id": "d-26-lankypianoroomright",
+            "Name": "Factory Hint Door: Lanky Piano Room - right",
             "source": "randd",
             "target": "noitem",
             "sourceType": "Region",
@@ -2303,9 +2466,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-lankyspianoroomleft": {
-            "id": "d-26-lankyspianoroomleft",
-            "Name": "Factory Hint Door: Lanky's Piano Room - left",
+        "d-26-lankypianoroomleft": {
+            "id": "d-26-lankypianoroomleft",
+            "Name": "Factory Hint Door: Lanky Piano Room - left",
             "source": "randd",
             "target": "noitem",
             "sourceType": "Region",
@@ -2335,9 +2498,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-26-chunkysdarkroom": {
-            "id": "d-26-chunkysdarkroom",
-            "Name": "Factory Hint Door: Chunky's Dark Room",
+        "d-26-darkroom": {
+            "id": "d-26-darkroom",
+            "Name": "Factory Hint Door: Dark Room",
             "source": "beyondhatch",
             "target": "noitem",
             "sourceType": "Region",
@@ -2459,9 +2622,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-nearcrankys": {
-            "id": "d-30-nearcrankys",
-            "Name": "Galleon Hint Door: Near Cranky's",
+        "d-30-cavernalcovepastplanks": {
+            "id": "d-30-cavernalcovepastplanks",
+            "Name": "Galleon Hint Door: Cavern Alcove Past Planks",
             "source": "galleonpastvines",
             "target": "noitem",
             "sourceType": "Region",
@@ -2514,9 +2677,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-inhallwaytoshipyardtinyswitch": {
-            "id": "d-30-inhallwaytoshipyardtinyswitch",
-            "Name": "Galleon Hint Door: In hallway to Shipyard - Tiny switch",
+        "d-30-tunneltoshipyardtinyswitch": {
+            "id": "d-30-tunneltoshipyardtinyswitch",
+            "Name": "Galleon Hint Door: Tunnel to Shipyard - Tiny switch",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2525,9 +2688,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-inhallwaytoshipyardlankyswitch": {
-            "id": "d-30-inhallwaytoshipyardlankyswitch",
-            "Name": "Galleon Hint Door: In hallway to Shipyard - Lanky switch",
+        "d-30-tunneltoshipyardlankyswitch": {
+            "id": "d-30-tunneltoshipyardlankyswitch",
+            "Name": "Galleon Hint Door: Tunnel to Shipyard - Lanky switch",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2536,10 +2699,21 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-inhallwaytoprimatepunchchests": {
-            "id": "d-30-inhallwaytoprimatepunchchests",
-            "Name": "Galleon Hint Door: In hallway to Primate Punch Chests",
+        "d-30-tunneltopunchchests": {
+            "id": "d-30-tunneltopunchchests",
+            "Name": "Galleon Hint Door: Tunnel to Punch Chests",
             "source": "gloomygalleonstart",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-30-edgeofblastpad": {
+            "id": "d-30-edgeofblastpad",
+            "Name": "Galleon Hint Door: Edge of Blast pad",
+            "source": "lighthouseplatform",
             "target": "noitem",
             "sourceType": "Region",
             "targetType": "Item",
@@ -2589,9 +2763,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-nexttococonutswitch": {
-            "id": "d-30-nexttococonutswitch",
-            "Name": "Galleon Hint Door: Next to Coconut switch",
+        "d-30-nexttolighthousegateswitch": {
+            "id": "d-30-nexttolighthousegateswitch",
+            "Name": "Galleon Hint Door: Next to Lighthouse Gate switch",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2611,9 +2785,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-nexttopeanutswitch": {
-            "id": "d-30-nexttopeanutswitch",
-            "Name": "Galleon Hint Door: Next to Peanut switch",
+        "d-30-nexttoshipyardgateswitch": {
+            "id": "d-30-nexttoshipyardgateswitch",
+            "Name": "Galleon Hint Door: Next to Shipyard Gate switch",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2622,9 +2796,28 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-musiccactusbottombackleft": {
-            "id": "d-30-musiccactusbottombackleft",
-            "Name": "Galleon Hint Door: Music Cactus - bottom back left",
+        "d-30-abovethewaternexttothefloatingwarp5": {
+            "id": "d-30-abovethewaternexttothefloatingwarp5",
+            "Name": "Galleon Hint Door: Above the water next to the floating warp 5",
+            "source": "shipyard",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "WaterRaised",
+                        "Events": true
+                    }
+                ]
+            },
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-30-cactusbottombackleft": {
+            "id": "d-30-cactusbottombackleft",
+            "Name": "Galleon Hint Door: Cactus - bottom back left",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2633,9 +2826,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-musiccactusbottomfrontleft": {
-            "id": "d-30-musiccactusbottomfrontleft",
-            "Name": "Galleon Hint Door: Music Cactus - bottom front left",
+        "d-30-cactusbottomfrontleft": {
+            "id": "d-30-cactusbottomfrontleft",
+            "Name": "Galleon Hint Door: Cactus - bottom front left",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2644,9 +2837,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-musiccactusbottombackright": {
-            "id": "d-30-musiccactusbottombackright",
-            "Name": "Galleon Hint Door: Music Cactus - bottom back right",
+        "d-30-cactusbottombackright": {
+            "id": "d-30-cactusbottombackright",
+            "Name": "Galleon Hint Door: Cactus - bottom back right",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2655,9 +2848,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-musiccactusbottomfrontright": {
-            "id": "d-30-musiccactusbottomfrontright",
-            "Name": "Galleon Hint Door: Music Cactus - bottom front right",
+        "d-30-cactusbottomfrontright": {
+            "id": "d-30-cactusbottomfrontright",
+            "Name": "Galleon Hint Door: Cactus - bottom front right",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2687,6 +2880,17 @@
             "Class": "Check",
             "Type": "Door"
         },
+        "d-30-diddygoldtower": {
+            "id": "d-30-diddygoldtower",
+            "Name": "Galleon Hint Door: Diddy Gold Tower",
+            "source": "treasureroomdiddygoldtower",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
         "d-30-treasurechestexterior": {
             "id": "d-30-treasurechestexterior",
             "Name": "Galleon Hint Door: Treasure Chest Exterior",
@@ -2698,9 +2902,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-nexttowarp3incrankysarea": {
-            "id": "d-30-nexttowarp3incrankysarea",
-            "Name": "Galleon Hint Door: Next to Warp 3 in Cranky's Area",
+        "d-30-cavernmasttop": {
+            "id": "d-30-cavernmasttop",
+            "Name": "Galleon Hint Door: Cavern Mast Top",
             "source": "galleonpastvines",
             "target": "noitem",
             "sourceType": "Region",
@@ -2709,9 +2913,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-inprimatepunchchestroomright": {
-            "id": "d-30-inprimatepunchchestroomright",
-            "Name": "Galleon Hint Door: In Primate Punch Chest Room - right",
+        "d-30-punchchestsroomright": {
+            "id": "d-30-punchchestsroomright",
+            "Name": "Galleon Hint Door: Punch Chests Room - right",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2720,9 +2924,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-behindchunkypunchgateincrankyarea": {
-            "id": "d-30-behindchunkypunchgateincrankyarea",
-            "Name": "Galleon Hint Door: Behind Chunky punch gate in Cranky Area",
+        "d-30-punchundercavernshop": {
+            "id": "d-30-punchundercavernshop",
+            "Name": "Galleon Hint Door: Punch Under Cavern Shop",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2763,9 +2967,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-behindboxesincrankyarea": {
-            "id": "d-30-behindboxesincrankyarea",
-            "Name": "Galleon Hint Door: Behind boxes in Cranky Area",
+        "d-30-behindboxesnearcavernwreck": {
+            "id": "d-30-behindboxesnearcavernwreck",
+            "Name": "Galleon Hint Door: Behind boxes near Cavern Wreck",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2776,7 +2980,7 @@
         },
         "d-30-mechfishgatefarleft": {
             "id": "d-30-mechfishgatefarleft",
-            "Name": "Galleon Hint Door: Mech Fish Gate - far left",
+            "Name": "Galleon Hint Door: Mechfish Gate - far left",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2787,7 +2991,7 @@
         },
         "d-30-mechfishgateleft": {
             "id": "d-30-mechfishgateleft",
-            "Name": "Galleon Hint Door: Mech Fish Gate - left",
+            "Name": "Galleon Hint Door: Mechfish Gate - left",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2798,7 +3002,7 @@
         },
         "d-30-mechfishgatemiddle": {
             "id": "d-30-mechfishgatemiddle",
-            "Name": "Galleon Hint Door: Mech Fish Gate - middle",
+            "Name": "Galleon Hint Door: Mechfish Gate - middle",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2809,7 +3013,7 @@
         },
         "d-30-mechfishgateright": {
             "id": "d-30-mechfishgateright",
-            "Name": "Galleon Hint Door: Mech Fish Gate - right",
+            "Name": "Galleon Hint Door: Mechfish Gate - right",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2820,7 +3024,7 @@
         },
         "d-30-mechfishgatefarright": {
             "id": "d-30-mechfishgatefarright",
-            "Name": "Galleon Hint Door: Mech Fish Gate - far right",
+            "Name": "Galleon Hint Door: Mechfish Gate - far right",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2829,9 +3033,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-cannonballareaexit": {
-            "id": "d-30-cannonballareaexit",
-            "Name": "Galleon Hint Door: Cannonball Area Exit",
+        "d-30-cannonballroomexit": {
+            "id": "d-30-cannonballroomexit",
+            "Name": "Galleon Hint Door: Cannonball Room Exit",
             "source": "galleonbeyondpineapplegate",
             "target": "noitem",
             "sourceType": "Region",
@@ -2847,9 +3051,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-2dshipssecret3rddoor": {
-            "id": "d-30-2dshipssecret3rddoor",
-            "Name": "Galleon Hint Door: 2Dship's secret 3rd door",
+        "d-30-2dssecret3rddoor": {
+            "id": "d-30-2dssecret3rddoor",
+            "Name": "Galleon Hint Door: 2DS secret 3rd door",
             "source": "shipyardunderwater",
             "target": "noitem",
             "sourceType": "Region",
@@ -2935,9 +3139,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-46-tinys5dship": {
-            "id": "d-46-tinys5dship",
-            "Name": "Galleon Hint Door: Tiny's 5D ship",
+        "d-46-tiny5ds": {
+            "id": "d-46-tiny5ds",
+            "Name": "Galleon Hint Door: Tiny 5DS",
             "source": "saxophoneship",
             "target": "noitem",
             "sourceType": "Region",
@@ -2946,9 +3150,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-43-lankys5dship": {
-            "id": "d-43-lankys5dship",
-            "Name": "Galleon Hint Door: Lanky's 5D ship",
+        "d-43-lanky5ds": {
+            "id": "d-43-lanky5ds",
+            "Name": "Galleon Hint Door: Lanky 5DS",
             "source": "tromboneship",
             "target": "noitem",
             "sourceType": "Region",
@@ -2957,9 +3161,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-47-lankys2dship": {
-            "id": "d-47-lankys2dship",
-            "Name": "Galleon Hint Door: Lanky's 2D ship",
+        "d-47-lanky2ds": {
+            "id": "d-47-lanky2ds",
+            "Name": "Galleon Hint Door: Lanky 2DS",
             "source": "lankyship",
             "target": "noitem",
             "sourceType": "Region",
@@ -2979,9 +3183,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-pineapplegatetunnelright": {
-            "id": "d-30-pineapplegatetunnelright",
-            "Name": "Galleon Hint Door: Pineapple gate tunnel - right",
+        "d-30-cannonballgatetunnelright": {
+            "id": "d-30-cannonballgatetunnelright",
+            "Name": "Galleon Hint Door: Cannonball gate tunnel - right",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -2990,9 +3194,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-30-pineapplegatetunnelleft": {
-            "id": "d-30-pineapplegatetunnelleft",
-            "Name": "Galleon Hint Door: Pineapple gate tunnel - left",
+        "d-30-cannonballgatetunnelleft": {
+            "id": "d-30-cannonballgatetunnelleft",
+            "Name": "Galleon Hint Door: Cannonball gate tunnel - left",
             "source": "gloomygalleonstart",
             "target": "noitem",
             "sourceType": "Region",
@@ -3056,9 +3260,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-51-leftwallofmechfish": {
-            "id": "d-51-leftwallofmechfish",
-            "Name": "Galleon Hint Door: Left wall of Mech Fish",
+        "d-51-mechfishleftwall": {
+            "id": "d-51-mechfishleftwall",
+            "Name": "Galleon Hint Door: Mechfish - Left wall",
             "source": "mechafish",
             "target": "noitem",
             "sourceType": "Region",
@@ -3067,9 +3271,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-51-rightwallofmechfish": {
-            "id": "d-51-rightwallofmechfish",
-            "Name": "Galleon Hint Door: Right wall of Mech Fish",
+        "d-51-mechfishrightwall": {
+            "id": "d-51-mechfishrightwall",
+            "Name": "Galleon Hint Door: Mechfish - Right wall",
             "source": "mechafish",
             "target": "noitem",
             "sourceType": "Region",
@@ -3176,9 +3380,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-behinddkbarn": {
-            "id": "d-48-behinddkbarn",
-            "Name": "Forest Hint Door: Behind DK Barn",
+        "d-48-behindthornvinebarn": {
+            "id": "d-48-behindthornvinebarn",
+            "Name": "Forest Hint Door: Behind Thornvine Barn",
             "source": "thornvinearea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3187,9 +3391,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-beanstalkarea": {
-            "id": "d-48-beanstalkarea",
-            "Name": "Forest Hint Door: Beanstalk Area",
+        "d-48-beanstalkareaalcove": {
+            "id": "d-48-beanstalkareaalcove",
+            "Name": "Forest Hint Door: Beanstalk Area Alcove",
             "source": "wormarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3206,22 +3410,14 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-nearsnides": {
-            "id": "d-48-nearsnides",
-            "Name": "Forest Hint Door: Near Snide's",
-            "source": "millarea",
+        "d-48-nearmillsshop": {
+            "id": "d-48-nearmillsshop",
+            "Name": "Forest Hint Door: Near Mills Shop",
+            "source": "snidearea",
             "target": "noitem",
             "sourceType": "Region",
             "targetType": "Item",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "Day",
-                        "Events": true
-                    }
-                ]
-            },
+            "Requires": true,
             "Class": "Check",
             "Type": "Door"
         },
@@ -3236,9 +3432,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-owlarea": {
-            "id": "d-48-owlarea",
-            "Name": "Forest Hint Door: Owl Area",
+        "d-48-owlareaclearing": {
+            "id": "d-48-owlareaclearing",
+            "Name": "Forest Hint Door: Owl Area Clearing",
             "source": "hollowtreearea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3247,9 +3443,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-ontopofcageoutsideconveyorbelt": {
-            "id": "d-48-ontopofcageoutsideconveyorbelt",
-            "Name": "Forest Hint Door: On top of Cage outside Conveyor Belt",
+        "d-48-ontopofmillcrusheroutput": {
+            "id": "d-48-ontopofmillcrusheroutput",
+            "Name": "Forest Hint Door: On top of Mill Crusher Output",
             "source": "forestmilltopofnightcage",
             "target": "noitem",
             "sourceType": "Region",
@@ -3258,9 +3454,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-watermillfrontright": {
-            "id": "d-48-watermillfrontright",
-            "Name": "Forest Hint Door: Watermill - front - right",
+        "d-48-millfrontsideright": {
+            "id": "d-48-millfrontsideright",
+            "Name": "Forest Hint Door: Mill front side - right",
             "source": "millarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3269,9 +3465,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-watermillrightleft": {
-            "id": "d-48-watermillrightleft",
-            "Name": "Forest Hint Door: Watermill - right - left",
+        "d-48-millrightsideleft": {
+            "id": "d-48-millrightsideleft",
+            "Name": "Forest Hint Door: Mill right side - left",
             "source": "millarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3280,9 +3476,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-watermillrightright": {
-            "id": "d-48-watermillrightright",
-            "Name": "Forest Hint Door: Watermill - right - right",
+        "d-48-millrightsideright": {
+            "id": "d-48-millrightsideright",
+            "Name": "Forest Hint Door: Mill right side - right",
             "source": "millarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3291,9 +3487,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-watermillrooftower": {
-            "id": "d-48-watermillrooftower",
-            "Name": "Forest Hint Door: Watermill Roof - tower",
+        "d-48-millroofsloped": {
+            "id": "d-48-millroofsloped",
+            "Name": "Forest Hint Door: Mill Roof - Sloped",
             "source": "foresttopofmill",
             "target": "noitem",
             "sourceType": "Region",
@@ -3302,9 +3498,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-boxesoutsideofdiddysbarn": {
-            "id": "d-48-boxesoutsideofdiddysbarn",
-            "Name": "Forest Hint Door: Boxes outside of Diddy's Barn",
+        "d-48-millrooftower": {
+            "id": "d-48-millrooftower",
+            "Name": "Forest Hint Door: Mill Roof - tower",
+            "source": "foresttopofmill",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-48-boxesoutsideofraftersbarn": {
+            "id": "d-48-boxesoutsideofraftersbarn",
+            "Name": "Forest Hint Door: Boxes outside of Rafters Barn",
             "source": "millarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3313,9 +3520,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-immediatelyinsidethethornvinearearight": {
-            "id": "d-48-immediatelyinsidethethornvinearearight",
-            "Name": "Forest Hint Door: Immediately Inside the Thornvine Area - right",
+        "d-48-behindnightthornsright": {
+            "id": "d-48-behindnightthornsright",
+            "Name": "Forest Hint Door: Behind Night Thorns - right",
             "source": "thornvinearea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3324,9 +3531,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-immediatelyinsidethethornvinearealeft": {
-            "id": "d-48-immediatelyinsidethethornvinearealeft",
-            "Name": "Forest Hint Door: Immediately Inside the Thornvine Area - left",
+        "d-48-behindnightthornsleft": {
+            "id": "d-48-behindnightthornsleft",
+            "Name": "Forest Hint Door: Behind Night Thorns - left",
             "source": "thornvinearea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3335,9 +3542,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-outsidedksbarn": {
-            "id": "d-48-outsidedksbarn",
-            "Name": "Forest Hint Door: Outside DK's Barn",
+        "d-48-outsidethornvinebarn": {
+            "id": "d-48-outsidethornvinebarn",
+            "Name": "Forest Hint Door: Outside Thornvine Barn",
             "source": "thornvinearea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3368,9 +3575,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-funkyareaneartinycoins": {
-            "id": "d-48-funkyareaneartinycoins",
-            "Name": "Forest Hint Door: Funky Area - Near Tiny Coins",
+        "d-48-beanstalkarealeftofshop": {
+            "id": "d-48-beanstalkarealeftofshop",
+            "Name": "Forest Hint Door: Beanstalk Area - Left of Shop",
             "source": "wormarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3379,9 +3586,20 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-mushroomareanexttotagbarrelnearcrankys": {
-            "id": "d-48-mushroomareanexttotagbarrelnearcrankys",
-            "Name": "Forest Hint Door: Mushroom Area - Next to Tag Barrel near Cranky's",
+        "d-48-beanstalkareabehindbeanstalkright": {
+            "id": "d-48-beanstalkareabehindbeanstalkright",
+            "Name": "Forest Hint Door: Beanstalk Area - Behind Beanstalk right",
+            "source": "wormarea",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-48-mushroomareanexttotagbarrelnearshop": {
+            "id": "d-48-mushroomareanexttotagbarrelnearshop",
+            "Name": "Forest Hint Door: Mushroom Area - Next to Tag Barrel near Shop",
             "source": "giantmushroomarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3412,9 +3630,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-mushroomareanexttocranky": {
-            "id": "d-48-mushroomareanexttocranky",
-            "Name": "Forest Hint Door: Mushroom Area - Next to Cranky",
+        "d-48-mushroomareanexttoshop": {
+            "id": "d-48-mushroomareanexttoshop",
+            "Name": "Forest Hint Door: Mushroom Area - Next to Shop",
             "source": "giantmushroomarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3423,9 +3641,46 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-clockareanexttopurpletunnelleft": {
-            "id": "d-48-clockareanexttopurpletunnelleft",
-            "Name": "Forest Hint Door: Clock Area - Next to Purple Tunnel - left",
+        "d-48-behindclocktowertree": {
+            "id": "d-48-behindclocktowertree",
+            "Name": "Forest Hint Door: Behind Clocktower Tree",
+            "source": "fungiforeststart",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "orangstand"
+                            },
+                            {
+                                "Name": "lanky"
+                            }
+                        ]
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "rocketbarrelboost"
+                            },
+                            {
+                                "Name": "diddy"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-48-centernexttopinktunnelleft": {
+            "id": "d-48-centernexttopinktunnelleft",
+            "Name": "Forest Hint Door: Center - Next to Pink Tunnel - left",
             "source": "fungiforeststart",
             "target": "noitem",
             "sourceType": "Region",
@@ -3434,9 +3689,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-clockareanexttopurpletunnelright": {
-            "id": "d-48-clockareanexttopurpletunnelright",
-            "Name": "Forest Hint Door: Clock Area - Next to Purple Tunnel - right",
+        "d-48-centernexttopinktunnelright": {
+            "id": "d-48-centernexttopinktunnelright",
+            "Name": "Forest Hint Door: Center - Next to Pink Tunnel - right",
             "source": "fungiforeststart",
             "target": "noitem",
             "sourceType": "Region",
@@ -3445,9 +3700,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-clockareanexttoclockleft": {
-            "id": "d-48-clockareanexttoclockleft",
-            "Name": "Forest Hint Door: Clock Area - Next to Clock - left",
+        "d-48-nexttoclockleft": {
+            "id": "d-48-nexttoclockleft",
+            "Name": "Forest Hint Door: Next to Clock - left",
             "source": "fungiforeststart",
             "target": "noitem",
             "sourceType": "Region",
@@ -3456,9 +3711,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-clockareanexttoclockright": {
-            "id": "d-48-clockareanexttoclockright",
-            "Name": "Forest Hint Door: Clock Area - Next to Clock - right",
+        "d-48-nexttoclockright": {
+            "id": "d-48-nexttoclockright",
+            "Name": "Forest Hint Door: Next to Clock - right",
             "source": "fungiforeststart",
             "target": "noitem",
             "sourceType": "Region",
@@ -3467,9 +3722,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-funkyareanearbeanstalkleft": {
-            "id": "d-48-funkyareanearbeanstalkleft",
-            "Name": "Forest Hint Door: Funky Area - Near Beanstalk - left",
+        "d-48-beanstalkareabehindbeanstalkleft": {
+            "id": "d-48-beanstalkareabehindbeanstalkleft",
+            "Name": "Forest Hint Door: Beanstalk Area - Behind Beanstalk left",
             "source": "wormarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3478,9 +3733,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-48-funkyareanearbeanstalkback": {
-            "id": "d-48-funkyareanearbeanstalkback",
-            "Name": "Forest Hint Door: Funky Area - Near Beanstalk - back",
+        "d-48-beanstalkareabehindbeanstalk": {
+            "id": "d-48-beanstalkareabehindbeanstalk",
+            "Name": "Forest Hint Door: Beanstalk Area - Behind Beanstalk",
             "source": "wormarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3489,9 +3744,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-64-insidethemushroomallkonggunswitchright": {
-            "id": "d-64-insidethemushroomallkonggunswitchright",
-            "Name": "Forest Hint Door: Inside the Mushroom - All Kong Gun Switch - right",
+        "d-64-giantmushroomallkonggunswitchright": {
+            "id": "d-64-giantmushroomallkonggunswitchright",
+            "Name": "Forest Hint Door: Giant Mushroom - All Kong Gun Switch - right",
             "source": "mushroomlower",
             "target": "noitem",
             "sourceType": "Region",
@@ -3500,9 +3755,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-64-insidethemushroomallkonggunswitchleft": {
-            "id": "d-64-insidethemushroomallkonggunswitchleft",
-            "Name": "Forest Hint Door: Inside the Mushroom - All Kong Gun Switch - left",
+        "d-64-giantmushroomallkonggunswitchleft": {
+            "id": "d-64-giantmushroomallkonggunswitchleft",
+            "Name": "Forest Hint Door: Giant Mushroom - All Kong Gun Switch - left",
             "source": "mushroomlower",
             "target": "noitem",
             "sourceType": "Region",
@@ -3511,9 +3766,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-64-insidethemushroomhalfwayalongthedeadend": {
-            "id": "d-64-insidethemushroomhalfwayalongthedeadend",
-            "Name": "Forest Hint Door: Inside the Mushroom - halfway along the Dead End",
+        "d-64-giantmushroomhalfwayalongthedeadend": {
+            "id": "d-64-giantmushroomhalfwayalongthedeadend",
+            "Name": "Forest Hint Door: Giant Mushroom - halfway along the Dead End",
             "source": "mushroomlowerbetweenladders",
             "target": "noitem",
             "sourceType": "Region",
@@ -3522,9 +3777,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-64-insidethemushroomalongthewallnearklumpandoranges": {
-            "id": "d-64-insidethemushroomalongthewallnearklumpandoranges",
-            "Name": "Forest Hint Door: Inside the Mushroom - Along the Wall near Klump and Oranges",
+        "d-64-giantmushroomvinemeshwall": {
+            "id": "d-64-giantmushroomvinemeshwall",
+            "Name": "Forest Hint Door: Giant Mushroom - Vine Mesh Wall",
             "source": "mushroomuppervinefloor",
             "target": "noitem",
             "sourceType": "Region",
@@ -3544,9 +3799,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-70-lankys2mushroomroom": {
-            "id": "d-70-lankys2mushroomroom",
-            "Name": "Forest Hint Door: Lanky's 2-Mushroom Room",
+        "d-70-lankyszingerbounceroom": {
+            "id": "d-70-lankyszingerbounceroom",
+            "Name": "Forest Hint Door: Lanky's Zinger Bounce Room",
             "source": "mushroomlankyzingersroom",
             "target": "noitem",
             "sourceType": "Region",
@@ -3555,9 +3810,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-61-dkleverpuzzlearea": {
-            "id": "d-61-dkleverpuzzlearea",
-            "Name": "Forest Hint Door: DK Lever puzzle Area",
+        "d-61-millfrontsideleversarea": {
+            "id": "d-61-millfrontsideleversarea",
+            "Name": "Forest Hint Door: Mill - front side - Levers Area",
             "source": "grinderroom",
             "target": "noitem",
             "sourceType": "Region",
@@ -3596,9 +3851,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-62-millbacksidenearchunkycoins": {
-            "id": "d-62-millbacksidenearchunkycoins",
-            "Name": "Forest Hint Door: Mill - back side - Near Chunky Coins",
+        "d-62-millbacksideleftwall": {
+            "id": "d-62-millbacksideleftwall",
+            "Name": "Forest Hint Door: Mill - back side - Left Wall",
             "source": "millchunkytinyarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3710,6 +3965,17 @@
             "id": "d-64-giantmushroomtoptowardstagbarrel",
             "Name": "Forest Hint Door: Giant mushroom - Top towards tag barrel",
             "source": "mushroomupper",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-48-topofgiantmushroomexteriorexit": {
+            "id": "d-48-topofgiantmushroomexteriorexit",
+            "Name": "Forest Hint Door: Top of Giant Mushroom Exterior Exit",
+            "source": "mushroomverytopexterior",
             "target": "noitem",
             "sourceType": "Region",
             "targetType": "Item",
@@ -3844,9 +4110,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-onrotatingroom": {
-            "id": "d-72-onrotatingroom",
-            "Name": "Caves Hint Door: On Rotating Room",
+        "d-72-onrotatingcabin": {
+            "id": "d-72-onrotatingcabin",
+            "Name": "Caves Hint Door: On Rotating Cabin",
             "source": "cavesrotatingcabinroof",
             "target": "noitem",
             "sourceType": "Region",
@@ -3855,9 +4121,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-nearsnides": {
-            "id": "d-72-nearsnides",
-            "Name": "Caves Hint Door: Near Snide's",
+        "d-72-icecavenearshop": {
+            "id": "d-72-icecavenearshop",
+            "Name": "Caves Hint Door: Ice Cave Near Shop",
             "source": "cavessnidearea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3877,9 +4143,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-onsprintcabin": {
-            "id": "d-72-onsprintcabin",
-            "Name": "Caves Hint Door: On Sprint Cabin",
+        "d-72-onlankycabin": {
+            "id": "d-72-onlankycabin",
+            "Name": "Caves Hint Door: On Lanky Cabin",
             "source": "cavessprintcabinroof",
             "target": "noitem",
             "sourceType": "Region",
@@ -3888,9 +4154,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-near5di": {
-            "id": "d-72-near5di",
-            "Name": "Caves Hint Door: Near 5DI",
+        "d-72-nearigloo": {
+            "id": "d-72-nearigloo",
+            "Name": "Caves Hint Door: Near Igloo",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3899,9 +4165,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-outsidelankyscabin": {
-            "id": "d-72-outsidelankyscabin",
-            "Name": "Caves Hint Door: Outside Lanky's Cabin",
+        "d-72-outsidelankycabin": {
+            "id": "d-72-outsidelankycabin",
+            "Name": "Caves Hint Door: Outside Lanky Cabin",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3910,9 +4176,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-outsidechunkyscabin": {
-            "id": "d-72-outsidechunkyscabin",
-            "Name": "Caves Hint Door: Outside Chunky's Cabin",
+        "d-72-outsidechunkycabin": {
+            "id": "d-72-outsidechunkycabin",
+            "Name": "Caves Hint Door: Outside Chunky Cabin",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3921,9 +4187,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-outsidediddyslowercabin": {
-            "id": "d-72-outsidediddyslowercabin",
-            "Name": "Caves Hint Door: Outside Diddy's Lower Cabin",
+        "d-72-outsidediddylowercabin": {
+            "id": "d-72-outsidediddylowercabin",
+            "Name": "Caves Hint Door: Outside Diddy Lower Cabin",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3932,9 +4198,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-outsidediddysuppercabin": {
-            "id": "d-72-outsidediddysuppercabin",
-            "Name": "Caves Hint Door: Outside Diddy's Upper Cabin",
+        "d-72-outsidediddyuppercabin": {
+            "id": "d-72-outsidediddyuppercabin",
+            "Name": "Caves Hint Door: Outside Diddy Upper Cabin",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3943,9 +4209,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-underthewaterfall(cabinarea)": {
-            "id": "d-72-underthewaterfall(cabinarea)",
-            "Name": "Caves Hint Door: Under the Waterfall (Cabin Area)",
+        "d-72-underthewaterfall(cabinsarea)": {
+            "id": "d-72-underthewaterfall(cabinsarea)",
+            "Name": "Caves Hint Door: Under the Waterfall (Cabins Area)",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3961,9 +4227,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-acrossfromthe5doorcabin": {
-            "id": "d-72-acrossfromthe5doorcabin",
-            "Name": "Caves Hint Door: Across from the 5Door Cabin",
+        "d-72-cabinsuselessledge": {
+            "id": "d-72-cabinsuselessledge",
+            "Name": "Caves Hint Door: Cabins Useless Ledge",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3972,9 +4238,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloodksright": {
-            "id": "d-72-5doorigloodksright",
-            "Name": "Caves Hint Door: 5Door Igloo - DK's right",
+        "d-72-betweendkanddiddyigloos": {
+            "id": "d-72-betweendkanddiddyigloos",
+            "Name": "Caves Hint Door: Between DK and Diddy Igloos",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3983,9 +4249,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloodiddysright": {
-            "id": "d-72-5doorigloodiddysright",
-            "Name": "Caves Hint Door: 5Door Igloo - Diddy's right",
+        "d-72-betweendiddyandtinyigloos": {
+            "id": "d-72-betweendiddyandtinyigloos",
+            "Name": "Caves Hint Door: Between Diddy and Tiny Igloos",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -3994,9 +4260,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5dooriglootinysright": {
-            "id": "d-72-5dooriglootinysright",
-            "Name": "Caves Hint Door: 5Door Igloo - Tiny's right",
+        "d-72-betweentinyandchunkyigloos": {
+            "id": "d-72-betweentinyandchunkyigloos",
+            "Name": "Caves Hint Door: Between Tiny and Chunky Igloos",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4005,9 +4271,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloochunkysright": {
-            "id": "d-72-5doorigloochunkysright",
-            "Name": "Caves Hint Door: 5Door Igloo - Chunky's right",
+        "d-72-betweenchunkyandlankyigloos": {
+            "id": "d-72-betweenchunkyandlankyigloos",
+            "Name": "Caves Hint Door: Between Chunky and Lanky Igloos",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4016,9 +4282,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloolankysright": {
-            "id": "d-72-5doorigloolankysright",
-            "Name": "Caves Hint Door: 5Door Igloo - Lanky's right",
+        "d-72-betweenlankyanddkigloos": {
+            "id": "d-72-betweenlankyanddkigloos",
+            "Name": "Caves Hint Door: Between Lanky and DK Igloos",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4027,9 +4293,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloodksinstrumentpad": {
-            "id": "d-72-5doorigloodksinstrumentpad",
-            "Name": "Caves Hint Door: 5Door Igloo - DK's instrument pad",
+        "d-72-beneathigloobongopad": {
+            "id": "d-72-beneathigloobongopad",
+            "Name": "Caves Hint Door: Beneath Igloo bongo pad",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4045,9 +4311,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloodiddysinstrumentpad": {
-            "id": "d-72-5doorigloodiddysinstrumentpad",
-            "Name": "Caves Hint Door: 5Door Igloo - Diddy's instrument pad",
+        "d-72-beneathiglooguitarpad": {
+            "id": "d-72-beneathiglooguitarpad",
+            "Name": "Caves Hint Door: Beneath Igloo guitar pad",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4063,9 +4329,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5dooriglootinysinstrumentpad": {
-            "id": "d-72-5dooriglootinysinstrumentpad",
-            "Name": "Caves Hint Door: 5Door Igloo - Tiny's instrument pad",
+        "d-72-beneathigloosaxophonepad": {
+            "id": "d-72-beneathigloosaxophonepad",
+            "Name": "Caves Hint Door: Beneath Igloo saxophone pad",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4081,9 +4347,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloochunkysinstrumentpad": {
-            "id": "d-72-5doorigloochunkysinstrumentpad",
-            "Name": "Caves Hint Door: 5Door Igloo - Chunky's instrument pad",
+        "d-72-beneathiglootrianglepad": {
+            "id": "d-72-beneathiglootrianglepad",
+            "Name": "Caves Hint Door: Beneath Igloo triangle pad",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4099,9 +4365,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-5doorigloolankysinstrumentpad": {
-            "id": "d-72-5doorigloolankysinstrumentpad",
-            "Name": "Caves Hint Door: 5Door Igloo - Lanky's instrument pad",
+        "d-72-beneathiglootrombonepad": {
+            "id": "d-72-beneathiglootrombonepad",
+            "Name": "Caves Hint Door: Beneath Igloo trombone pad",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4117,9 +4383,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-icecastleareanearrockswitch": {
-            "id": "d-72-icecastleareanearrockswitch",
-            "Name": "Caves Hint Door: Ice Castle Area - Near Rock Switch",
+        "d-72-nearthesmallboulderswitch": {
+            "id": "d-72-nearthesmallboulderswitch",
+            "Name": "Caves Hint Door: Near the small Boulder Switch",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4128,9 +4394,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-betweenfunkyandicecastleonland": {
-            "id": "d-72-betweenfunkyandicecastleonland",
-            "Name": "Caves Hint Door: Between Funky and Ice Castle - on land",
+        "d-72-beneathicecastleonland": {
+            "id": "d-72-beneathicecastleonland",
+            "Name": "Caves Hint Door: Beneath Ice Castle - on land",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4139,27 +4405,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-betweenfunkyandicecastleunderwater": {
-            "id": "d-72-betweenfunkyandicecastleunderwater",
-            "Name": "Caves Hint Door: Between Funky and Ice Castle - underwater",
-            "source": "crystalcavesmain",
-            "target": "noitem",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "swim"
-                    }
-                ]
-            },
-            "Class": "Check",
-            "Type": "Door"
-        },
-        "d-72-inwaternearw4oppositecrankyright": {
-            "id": "d-72-inwaternearw4oppositecrankyright",
-            "Name": "Caves Hint Door: In Water Near W4 Opposite Cranky - right",
+        "d-72-beneathicecastleunderwater": {
+            "id": "d-72-beneathicecastleunderwater",
+            "Name": "Caves Hint Door: Beneath Ice Castle - underwater",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4175,9 +4423,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-inwaternearw4oppositecrankyleft": {
-            "id": "d-72-inwaternearw4oppositecrankyleft",
-            "Name": "Caves Hint Door: In Water Near W4 Opposite Cranky - left",
+        "d-72-waterunderblastpillarright": {
+            "id": "d-72-waterunderblastpillarright",
+            "Name": "Caves Hint Door: Water under Blast pillar - right",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4193,9 +4441,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-underbridgetocranky": {
-            "id": "d-72-underbridgetocranky",
-            "Name": "Caves Hint Door: Under Bridge to Cranky",
+        "d-72-waterunderblastpillarleft": {
+            "id": "d-72-waterunderblastpillarleft",
+            "Name": "Caves Hint Door: Water under Blast pillar - left",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4211,9 +4459,27 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-underhandstandslope": {
-            "id": "d-72-underhandstandslope",
-            "Name": "Caves Hint Door: Under Handstand Slope",
+        "d-72-underbridgetoshopnearigloo": {
+            "id": "d-72-underbridgetoshopnearigloo",
+            "Name": "Caves Hint Door: Under Bridge to Shop near Igloo",
+            "source": "crystalcavesmain",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "swim"
+                    }
+                ]
+            },
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-72-bottomofthesloperight": {
+            "id": "d-72-bottomofthesloperight",
+            "Name": "Caves Hint Door: Bottom of the Slope - right",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4233,9 +4499,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-acrossfromsnide": {
-            "id": "d-72-acrossfromsnide",
-            "Name": "Caves Hint Door: Across from Snide",
+        "d-72-acrossfromiceshop": {
+            "id": "d-72-acrossfromiceshop",
+            "Name": "Caves Hint Door: Across from Ice Shop",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4244,10 +4510,21 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-slopetocrankywithminimonkeyhole": {
-            "id": "d-72-slopetocrankywithminimonkeyhole",
-            "Name": "Caves Hint Door: Slope to Cranky with Mini Monkey Hole",
+        "d-72-leftofminibonuscave": {
+            "id": "d-72-leftofminibonuscave",
+            "Name": "Caves Hint Door: Left of Mini Bonus Cave",
             "source": "crystalcavesmain",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-72-minibonuscave": {
+            "id": "d-72-minibonuscave",
+            "Name": "Caves Hint Door: Mini Bonus Cave",
+            "source": "cavesbonuscave",
             "target": "noitem",
             "sourceType": "Region",
             "targetType": "Item",
@@ -4313,9 +4590,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-iglooareabehindwarp1": {
-            "id": "d-72-iglooareabehindwarp1",
-            "Name": "Caves Hint Door: Igloo Area - Behind Warp 1",
+        "d-72-iglooareabehindloneplatform": {
+            "id": "d-72-iglooareabehindloneplatform",
+            "Name": "Caves Hint Door: Igloo Area - Behind Lone Platform",
             "source": "iglooarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4349,9 +4626,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-underfunkysstore": {
-            "id": "d-72-underfunkysstore",
-            "Name": "Caves Hint Door: Under Funky's Store",
+        "d-72-waterundershopnearcabinsarea": {
+            "id": "d-72-waterundershopnearcabinsarea",
+            "Name": "Caves Hint Door: Water Under Shop Near Cabins Area",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4367,9 +4644,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-nexttowaterfallthatsnexttofunky": {
-            "id": "d-72-nexttowaterfallthatsnexttofunky",
-            "Name": "Caves Hint Door: Next to Waterfall that's Next to Funky",
+        "d-72-waterunderminimonkeyledge": {
+            "id": "d-72-waterunderminimonkeyledge",
+            "Name": "Caves Hint Door: Water Under Mini Monkey Ledge",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4385,9 +4662,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-inwaterunderfunkyleft": {
-            "id": "d-72-inwaterunderfunkyleft",
-            "Name": "Caves Hint Door: In Water Under Funky - left",
+        "d-72-waterunderminirocketbridgeleft": {
+            "id": "d-72-waterunderminirocketbridgeleft",
+            "Name": "Caves Hint Door: Water Under Mini-Rocket Bridge - left",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4403,9 +4680,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-inwaterunderfunkycenter": {
-            "id": "d-72-inwaterunderfunkycenter",
-            "Name": "Caves Hint Door: In Water Under Funky - center",
+        "d-72-waterunderminirocketbridgecenter": {
+            "id": "d-72-waterunderminirocketbridgecenter",
+            "Name": "Caves Hint Door: Water Under Mini-Rocket Bridge - center",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4421,9 +4698,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-inwaterunderfunkyright": {
-            "id": "d-72-inwaterunderfunkyright",
-            "Name": "Caves Hint Door: In Water Under Funky - right",
+        "d-72-waterunderminirocketbridgeright": {
+            "id": "d-72-waterunderminirocketbridgeright",
+            "Name": "Caves Hint Door: Water Under Mini-Rocket Bridge - right",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4439,9 +4716,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-98-icecastleinteriorleft": {
-            "id": "d-98-icecastleinteriorleft",
-            "Name": "Caves Hint Door: Ice Castle Interior - left",
+        "d-98-tomatogameroomleft": {
+            "id": "d-98-tomatogameroomleft",
+            "Name": "Caves Hint Door: Tomato Game Room - left",
             "source": "frozencastle",
             "target": "noitem",
             "sourceType": "Region",
@@ -4450,9 +4727,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-98-icecastleinteriorright": {
-            "id": "d-98-icecastleinteriorright",
-            "Name": "Caves Hint Door: Ice Castle Interior - right",
+        "d-98-tomatogameroomright": {
+            "id": "d-98-tomatogameroomright",
+            "Name": "Caves Hint Door: Tomato Game Room - right",
             "source": "frozencastle",
             "target": "noitem",
             "sourceType": "Region",
@@ -4461,9 +4738,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-90-inchunkys5doorcabinonabookshelf": {
-            "id": "d-90-inchunkys5doorcabinonabookshelf",
-            "Name": "Caves Hint Door: In Chunky's 5Door Cabin on a Book Shelf",
+        "d-90-chunkycabinbookshelf": {
+            "id": "d-90-chunkycabinbookshelf",
+            "Name": "Caves Hint Door: Chunky Cabin - Bookshelf",
             "source": "chunkycabin",
             "target": "noitem",
             "sourceType": "Region",
@@ -4472,9 +4749,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-cabinareanearcandyright": {
-            "id": "d-72-cabinareanearcandyright",
-            "Name": "Caves Hint Door: Cabin Area - Near Candy - right",
+        "d-72-cabinareanearshopright": {
+            "id": "d-72-cabinareanearshopright",
+            "Name": "Caves Hint Door: Cabin Area - Near Shop - right",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4483,9 +4760,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-cabinareanearcandyfarright": {
-            "id": "d-72-cabinareanearcandyfarright",
-            "Name": "Caves Hint Door: Cabin Area - Near Candy - far right",
+        "d-72-cabinareanearshopfarright": {
+            "id": "d-72-cabinareanearshopfarright",
+            "Name": "Caves Hint Door: Cabin Area - Near Shop - far right",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4494,9 +4771,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-outsidetinyscabin": {
-            "id": "d-72-outsidetinyscabin",
-            "Name": "Caves Hint Door: Outside Tiny's Cabin",
+        "d-72-outsidetinycabin": {
+            "id": "d-72-outsidetinycabin",
+            "Name": "Caves Hint Door: Outside Tiny Cabin",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4505,9 +4782,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-cabinareanexttotagbarrelon2ndfloor": {
-            "id": "d-72-cabinareanexttotagbarrelon2ndfloor",
-            "Name": "Caves Hint Door: Cabin Area - Next to Tag Barrel on 2nd Floor",
+        "d-72-nearcabintagbarrel": {
+            "id": "d-72-nearcabintagbarrel",
+            "Name": "Caves Hint Door: Near Cabin Tag Barrel",
             "source": "cabinarea",
             "target": "noitem",
             "sourceType": "Region",
@@ -4516,9 +4793,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-undercrankyslopesmall": {
-            "id": "d-72-undercrankyslopesmall",
-            "Name": "Caves Hint Door: Under Cranky Slope - small",
+        "d-72-bottomoftheslopeleft": {
+            "id": "d-72-bottomoftheslopeleft",
+            "Name": "Caves Hint Door: Bottom of the Slope - left",
             "source": "crystalcavesmain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4549,9 +4826,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-91-donkey5doorcabinrightofentrance": {
-            "id": "d-91-donkey5doorcabinrightofentrance",
-            "Name": "Caves Hint Door: Donkey 5door cabin - Right of entrance",
+        "d-91-donkeycabinrightofentrance": {
+            "id": "d-91-donkeycabinrightofentrance",
+            "Name": "Caves Hint Door: Donkey cabin - Right of entrance",
             "source": "donkeycabin",
             "target": "noitem",
             "sourceType": "Region",
@@ -4560,9 +4837,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-91-donkey5doorcabinbackwall": {
-            "id": "d-91-donkey5doorcabinbackwall",
-            "Name": "Caves Hint Door: Donkey 5door cabin - Back wall",
+        "d-91-donkeycabinbackwall": {
+            "id": "d-91-donkeycabinbackwall",
+            "Name": "Caves Hint Door: Donkey cabin - Back wall",
             "source": "donkeycabin",
             "target": "noitem",
             "sourceType": "Region",
@@ -4681,17 +4958,6 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-72-nearcranky": {
-            "id": "d-72-nearcranky",
-            "Name": "Caves Hint Door: Near Cranky",
-            "source": "crystalcavesmain",
-            "target": "noitem",
-            "sourceType": "Region",
-            "targetType": "Item",
-            "Requires": true,
-            "Class": "Check",
-            "Type": "Door"
-        },
         "d-72-behindgiantbouldericewall": {
             "id": "d-72-behindgiantbouldericewall",
             "Name": "Caves Hint Door: Behind giant boulder ice wall",
@@ -4791,9 +5057,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-smallplateau": {
-            "id": "d-87-smallplateau",
-            "Name": "Castle Hint Door: Small Plateau",
+        "d-87-rocketbarreloverhang": {
+            "id": "d-87-rocketbarreloverhang",
+            "Name": "Castle Hint Door: Rocketbarrel Overhang",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4802,9 +5068,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-backofcastle": {
-            "id": "d-87-backofcastle",
-            "Name": "Castle Hint Door: Back of Castle",
+        "d-87-lowestledgeneartree": {
+            "id": "d-87-lowestledgeneartree",
+            "Name": "Castle Hint Door: Lowest ledge near tree",
             "source": "castleverybottom",
             "target": "noitem",
             "sourceType": "Region",
@@ -4813,9 +5079,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-183-nearfunkys": {
-            "id": "d-183-nearfunkys",
-            "Name": "Castle Hint Door: Near Funky's",
+        "d-183-nearlowercaveshop": {
+            "id": "d-183-nearlowercaveshop",
+            "Name": "Castle Hint Door: Near Lower Cave Shop",
             "source": "lowercave",
             "target": "noitem",
             "sourceType": "Region",
@@ -4824,9 +5090,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-151-nearcandys": {
-            "id": "d-151-nearcandys",
-            "Name": "Castle Hint Door: Near Candy's",
+        "d-151-nearuppercaveshop": {
+            "id": "d-151-nearuppercaveshop",
+            "Name": "Castle Hint Door: Near Upper Cave Shop",
             "source": "uppercave",
             "target": "noitem",
             "sourceType": "Region",
@@ -4835,9 +5101,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-nexttosmallpooloutsideofthebigtree": {
-            "id": "d-87-nexttosmallpooloutsideofthebigtree",
-            "Name": "Castle Hint Door: Next to Small Pool outside of the Big Tree",
+        "d-87-nearsewergrate": {
+            "id": "d-87-nearsewergrate",
+            "Name": "Castle Hint Door: Near Sewer Grate",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4857,9 +5123,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-nexttotagbarrelatthewarppadhub": {
-            "id": "d-87-nexttotagbarrelatthewarppadhub",
-            "Name": "Castle Hint Door: Next to Tag Barrel at the Warp Pad Hub",
+        "d-87-nexttomoattagbarrel": {
+            "id": "d-87-nexttomoattagbarrel",
+            "Name": "Castle Hint Door: Next to Moat Tag Barrel",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4868,9 +5134,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-nexttocrankys": {
-            "id": "d-87-nexttocrankys",
-            "Name": "Castle Hint Door: Next to Cranky's",
+        "d-87-nexttomiddleshop": {
+            "id": "d-87-nexttomiddleshop",
+            "Name": "Castle Hint Door: Next to Middle Shop",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4890,9 +5156,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-onstairstotagbarrelatthewarppadhub": {
-            "id": "d-87-onstairstotagbarrelatthewarppadhub",
-            "Name": "Castle Hint Door: On Stairs to Tag Barrel at the Warp Pad Hub",
+        "d-87-warphubbattlement": {
+            "id": "d-87-warphubbattlement",
+            "Name": "Castle Hint Door: warp Hub Battlement",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4901,9 +5167,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-nexttocastlemoatabovetinyskasplat": {
-            "id": "d-87-nexttocastlemoatabovetinyskasplat",
-            "Name": "Castle Hint Door: Next to Castle Moat - Above Tiny's Kasplat",
+        "d-87-onstairstomoattagbarrel": {
+            "id": "d-87-onstairstomoattagbarrel",
+            "Name": "Castle Hint Door: On Stairs to Moat Tag Barrel",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4912,9 +5178,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-snidesbattlementleft": {
-            "id": "d-87-snidesbattlementleft",
-            "Name": "Castle Hint Door: Snide's Battlement - left",
+        "d-87-betweenmoatandcliff": {
+            "id": "d-87-betweenmoatandcliff",
+            "Name": "Castle Hint Door: Between Moat and Cliff",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4923,9 +5189,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-snidesbattlementcenter": {
-            "id": "d-87-snidesbattlementcenter",
-            "Name": "Castle Hint Door: Snide's Battlement - center",
+        "d-87-topshopbattlementleft": {
+            "id": "d-87-topshopbattlementleft",
+            "Name": "Castle Hint Door: Top Shop Battlement - left",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4934,9 +5200,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-snidesbattlementright": {
-            "id": "d-87-snidesbattlementright",
-            "Name": "Castle Hint Door: Snide's Battlement - right",
+        "d-87-topshopbattlementcenter": {
+            "id": "d-87-topshopbattlementcenter",
+            "Name": "Castle Hint Door: Top Shop Battlement - center",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4945,9 +5211,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-nexttostairstodrawingdrawbridge": {
-            "id": "d-87-nexttostairstodrawingdrawbridge",
-            "Name": "Castle Hint Door: Next to Stairs to Drawing Drawbridge",
+        "d-87-topshopbattlementright": {
+            "id": "d-87-topshopbattlementright",
+            "Name": "Castle Hint Door: Top Shop Battlement - right",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4956,9 +5222,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-battlementwithrocketbarrelbarrelleft": {
-            "id": "d-87-battlementwithrocketbarrelbarrelleft",
-            "Name": "Castle Hint Door: Battlement with Rocketbarrel Barrel - left",
+        "d-87-outsidelankytower": {
+            "id": "d-87-outsidelankytower",
+            "Name": "Castle Hint Door: Outside Lanky Tower",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4967,9 +5233,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-battlementwithrocketbarrelbarrelright": {
-            "id": "d-87-battlementwithrocketbarrelbarrelright",
-            "Name": "Castle Hint Door: Battlement with Rocketbarrel Barrel - right",
+        "d-87-nexttostairstodrawbridge": {
+            "id": "d-87-nexttostairstodrawbridge",
+            "Name": "Castle Hint Door: Next to Stairs to Drawbridge",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4978,9 +5244,31 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-moatunderwaterbydiddybarrel": {
-            "id": "d-87-moatunderwaterbydiddybarrel",
-            "Name": "Castle Hint Door: Moat - Underwater by Diddy Barrel",
+        "d-87-rocketbarrelbattlementleft": {
+            "id": "d-87-rocketbarrelbattlementleft",
+            "Name": "Castle Hint Door: Rocketbarrel Battlement - left",
+            "source": "creepycastlemain",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-87-rocketbarrelbattlementright": {
+            "id": "d-87-rocketbarrelbattlementright",
+            "Name": "Castle Hint Door: Rocketbarrel Battlement - right",
+            "source": "creepycastlemain",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-87-moatunderwaterbyrocketbarrel": {
+            "id": "d-87-moatunderwaterbyrocketbarrel",
+            "Name": "Castle Hint Door: Moat Underwater by RocketBarrel",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -4996,9 +5284,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-moatunderdrawingdrawbridge": {
-            "id": "d-87-moatunderdrawingdrawbridge",
-            "Name": "Castle Hint Door: Moat - Under Drawing Drawbridge",
+        "d-87-moatunderdrawbridge": {
+            "id": "d-87-moatunderdrawbridge",
+            "Name": "Castle Hint Door: Moat Under Drawbridge",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -5014,9 +5302,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-moatnexttotunnelentranceleft": {
-            "id": "d-87-moatnexttotunnelentranceleft",
-            "Name": "Castle Hint Door: Moat - Next to Tunnel Entrance - left",
+        "d-87-nexttomoatdoorleft": {
+            "id": "d-87-nexttomoatdoorleft",
+            "Name": "Castle Hint Door: Next to Moat Door - left",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -5032,9 +5320,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-87-moatnexttotunnelentranceright": {
-            "id": "d-87-moatnexttotunnelentranceright",
-            "Name": "Castle Hint Door: Moat - Next to Tunnel Entrance - right",
+        "d-87-nexttomoatdoorright": {
+            "id": "d-87-nexttomoatdoorright",
+            "Name": "Castle Hint Door: Next to Moat Door - right",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -5052,7 +5340,7 @@
         },
         "d-87-moatnexttoladderleft": {
             "id": "d-87-moatnexttoladderleft",
-            "Name": "Castle Hint Door: Moat - Next to Ladder - left",
+            "Name": "Castle Hint Door: Moat Next to Ladder - left",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -5070,7 +5358,7 @@
         },
         "d-87-moatnexttoladderright": {
             "id": "d-87-moatnexttoladderright",
-            "Name": "Castle Hint Door: Moat - Next to Ladder - right",
+            "Name": "Castle Hint Door: Moat Next to Ladder - right",
             "source": "creepycastlemain",
             "target": "noitem",
             "sourceType": "Region",
@@ -5086,9 +5374,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-164-insidethetree": {
-            "id": "d-164-insidethetree",
-            "Name": "Castle Hint Door: Inside the Tree",
+        "d-164-treefirstroom": {
+            "id": "d-164-treefirstroom",
+            "Name": "Castle Hint Door: Tree - First Room",
             "source": "castletree",
             "target": "noitem",
             "sourceType": "Region",
@@ -5218,9 +5506,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-166-insidechunkysshed": {
-            "id": "d-166-insidechunkysshed",
-            "Name": "Castle Hint Door: Inside Chunky's Shed",
+        "d-166-insidetheshed": {
+            "id": "d-166-insidetheshed",
+            "Name": "Castle Hint Door: Inside the Shed",
             "source": "shed",
             "target": "noitem",
             "sourceType": "Region",
@@ -5229,9 +5517,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-183-lowertunnelunderpeanutswitch": {
-            "id": "d-183-lowertunnelunderpeanutswitch",
-            "Name": "Castle Hint Door: Lower Tunnel - Under Peanut Switch",
+        "d-183-lowercavecryptskullleft": {
+            "id": "d-183-lowercavecryptskullleft",
+            "Name": "Castle Hint Door: Lower Cave - Crypt skull left",
             "source": "lowercave",
             "target": "noitem",
             "sourceType": "Region",
@@ -5240,9 +5528,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-183-lowertunnelundercoconutandpineappleswitches": {
-            "id": "d-183-lowertunnelundercoconutandpineappleswitches",
-            "Name": "Castle Hint Door: Lower Tunnel - Under Coconut and Pineapple Switches",
+        "d-183-lowercavecryptskullright": {
+            "id": "d-183-lowercavecryptskullright",
+            "Name": "Castle Hint Door: Lower Cave - Crypt skull right",
             "source": "lowercave",
             "target": "noitem",
             "sourceType": "Region",
@@ -5251,9 +5539,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-108-cryptunderlankysswitch": {
-            "id": "d-108-cryptunderlankysswitch",
-            "Name": "Castle Hint Door: Crypt - Under Lanky's Switch",
+        "d-108-mausoleumundergrapeswitch": {
+            "id": "d-108-mausoleumundergrapeswitch",
+            "Name": "Castle Hint Door: Mausoleum - Under Grape Switch",
             "source": "mausoleum",
             "target": "noitem",
             "sourceType": "Region",
@@ -5555,9 +5843,9 @@
             "Class": "Check",
             "Type": "Door"
         },
-        "d-151-candyintersection": {
-            "id": "d-151-candyintersection",
-            "Name": "Castle Hint Door: Candy intersection",
+        "d-151-uppercaveshopintersection": {
+            "id": "d-151-uppercaveshopintersection",
+            "Name": "Castle Hint Door: Upper Cave Shop Intersection",
             "source": "uppercave",
             "target": "noitem",
             "sourceType": "Region",
@@ -5581,6 +5869,17 @@
             "id": "d-151-nexttothechasm",
             "Name": "Castle Hint Door: Next to the chasm",
             "source": "uppercave",
+            "target": "noitem",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Requires": true,
+            "Class": "Check",
+            "Type": "Door"
+        },
+        "d-87-lowestleveltombstone": {
+            "id": "d-87-lowestleveltombstone",
+            "Name": "Castle Hint Door: Lowest Level Tombstone",
+            "source": "castleverybottom",
             "target": "noitem",
             "sourceType": "Region",
             "targetType": "Item",

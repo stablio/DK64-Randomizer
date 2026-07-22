@@ -1170,6 +1170,36 @@
             "Class": "Region",
             "Type": "Map"
         },
+        "map-216": {
+            "id": "map-216",
+            "Name": "Arcade25",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "map-217": {
+            "id": "map-217",
+            "Name": "Arcade50",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "map-218": {
+            "id": "map-218",
+            "Name": "Arcade75",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "map-219": {
+            "id": "map-219",
+            "Name": "Arcade100",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "map-220": {
+            "id": "map-220",
+            "Name": "JetpacRocket",
+            "Class": "Region",
+            "Type": "Map"
+        },
         "map-76": {
             "id": "map-76",
             "Name": "DKRap",
@@ -1724,7 +1754,7 @@
         },
         "franticfactorystart": {
             "id": "franticfactorystart",
-            "Name": "Frantic Factory Start",
+            "Name": "Frantic Factory Foyer",
             "Class": "Region",
             "Type": "Region"
         },
@@ -1779,6 +1809,12 @@
         "factorystoragepipe": {
             "id": "factorystoragepipe",
             "Name": "Factory Storage Pipe",
+            "Class": "Region",
+            "Type": "Region"
+        },
+        "factoryarcadepole": {
+            "id": "factoryarcadepole",
+            "Name": "Factory Arcade Upper Pole",
             "Class": "Region",
             "Type": "Region"
         },
@@ -2148,6 +2184,12 @@
             "Class": "Region",
             "Type": "Region"
         },
+        "mushroomverytopexterior": {
+            "id": "mushroomverytopexterior",
+            "Name": "Very Top of Mushroom",
+            "Class": "Region",
+            "Type": "Region"
+        },
         "mushroomchunkyroom": {
             "id": "mushroomchunkyroom",
             "Name": "Mushroom Chunky Room",
@@ -2199,6 +2241,12 @@
         "millarea": {
             "id": "millarea",
             "Name": "Mill Area",
+            "Class": "Region",
+            "Type": "Region"
+        },
+        "snidearea": {
+            "id": "snidearea",
+            "Name": "Snide Area",
             "Class": "Region",
             "Type": "Region"
         },
@@ -2886,6 +2934,36 @@
             "Class": "Region",
             "Type": "Region"
         },
+        "snidefirstgroup": {
+            "id": "snidefirstgroup",
+            "Name": "Snide First Group",
+            "Class": "Region",
+            "Type": "Region"
+        },
+        "snidesecondgroup": {
+            "id": "snidesecondgroup",
+            "Name": "Snide Second Group",
+            "Class": "Region",
+            "Type": "Region"
+        },
+        "snidethirdgroup": {
+            "id": "snidethirdgroup",
+            "Name": "Snide Third Group",
+            "Class": "Region",
+            "Type": "Region"
+        },
+        "snidefourthgroup": {
+            "id": "snidefourthgroup",
+            "Name": "Snide Fourth Group",
+            "Class": "Region",
+            "Type": "Region"
+        },
+        "snidelastgroup": {
+            "id": "snidelastgroup",
+            "Name": "Snide Last Group",
+            "Class": "Region",
+            "Type": "Region"
+        },
         "hr-noregion": {
             "id": "hr-noregion",
             "Name": "Null Region",
@@ -2943,6 +3021,36 @@
         "hr-jetpac": {
             "id": "hr-jetpac",
             "Name": "Jetpac Game",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-snidefirstgroup": {
+            "id": "hr-snidefirstgroup",
+            "Name": "1st to 8th Blueprint Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-snidesecondgroup": {
+            "id": "hr-snidesecondgroup",
+            "Name": "9th to 16th Blueprint Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-snidethirdgroup": {
+            "id": "hr-snidethirdgroup",
+            "Name": "17th to 24th Blueprint Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-snidefourthgroup": {
+            "id": "hr-snidefourthgroup",
+            "Name": "25th to 32nd Blueprint Rewards",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "hr-snidelastgroup": {
+            "id": "hr-snidelastgroup",
+            "Name": "33rd to 40th Blueprint Rewards",
             "Class": "Region",
             "Type": "HintRegion"
         },
@@ -3074,13 +3182,13 @@
         },
         "hr-cavesandmines": {
             "id": "hr-cavesandmines",
-            "Name": "Japes Caves and Mines",
+            "Name": "Japes Caves & Mines",
             "Class": "Region",
             "Type": "HintRegion"
         },
         "hr-oasisandtotem": {
             "id": "hr-oasisandtotem",
-            "Name": "Aztec Oasis and Totem Area",
+            "Name": "Aztec Oasis & Totem Area",
             "Class": "Region",
             "Type": "HintRegion"
         },
@@ -3110,7 +3218,7 @@
         },
         "hr-factorystart": {
             "id": "hr-factorystart",
-            "Name": "Frantic Factory Start",
+            "Name": "Frantic Factory Foyer",
             "Class": "Region",
             "Type": "HintRegion"
         },
@@ -3122,13 +3230,13 @@
         },
         "hr-researchanddevelopment": {
             "id": "hr-researchanddevelopment",
-            "Name": "Research and Development Area",
+            "Name": "R&D Area",
             "Class": "Region",
             "Type": "HintRegion"
         },
         "hr-storage": {
             "id": "hr-storage",
-            "Name": "Storage and Arcade Area",
+            "Name": "Storage & Arcade Area",
             "Class": "Region",
             "Type": "HintRegion"
         },
@@ -3170,7 +3278,7 @@
         },
         "hr-forestcenterandbeanstalk": {
             "id": "hr-forestcenterandbeanstalk",
-            "Name": "Forest Center and Beanstalk",
+            "Name": "Forest Center & Beanstalk",
             "Class": "Region",
             "Type": "HintRegion"
         },
@@ -5876,7 +5984,7 @@
         },
         "rr-franticfactorystart-level": {
             "id": "rr-franticfactorystart-level",
-            "Name": "Frantic Factory Start Level",
+            "Name": "Frantic Factory Foyer Level",
             "source": "franticfactorystart",
             "target": "franticfactory",
             "sourceType": "Region",
@@ -5886,7 +5994,7 @@
         },
         "rr-franticfactorystart-map": {
             "id": "rr-franticfactorystart-map",
-            "Name": "Frantic Factory Start Map",
+            "Name": "Frantic Factory Foyer Map",
             "source": "franticfactorystart",
             "target": "map-26",
             "sourceType": "Region",
@@ -5896,7 +6004,7 @@
         },
         "rr-franticfactorystart-hr": {
             "id": "rr-franticfactorystart-hr",
-            "Name": "Frantic Factory Start Hint Region",
+            "Name": "Frantic Factory Foyer Hint Region",
             "source": "franticfactorystart",
             "target": "hr-factorystart",
             "sourceType": "Region",
@@ -6168,6 +6276,36 @@
             "id": "rr-factorystoragepipe-hr",
             "Name": "Factory Storage Pipe Hint Region",
             "source": "factorystoragepipe",
+            "target": "hr-storage",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-factoryarcadepole-level": {
+            "id": "rr-factoryarcadepole-level",
+            "Name": "Factory Arcade Upper Pole Level",
+            "source": "factoryarcadepole",
+            "target": "franticfactory",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-factoryarcadepole-map": {
+            "id": "rr-factoryarcadepole-map",
+            "Name": "Factory Arcade Upper Pole Map",
+            "source": "factoryarcadepole",
+            "target": "map-26",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-factoryarcadepole-hr": {
+            "id": "rr-factoryarcadepole-hr",
+            "Name": "Factory Arcade Upper Pole Hint Region",
+            "source": "factoryarcadepole",
             "target": "hr-storage",
             "sourceType": "Region",
             "targetType": "Region",
@@ -7944,6 +8082,36 @@
             "Class": "Region",
             "Type": "HintRegion"
         },
+        "rr-mushroomverytopexterior-level": {
+            "id": "rr-mushroomverytopexterior-level",
+            "Name": "Very Top of Mushroom Level",
+            "source": "mushroomverytopexterior",
+            "target": "fungiforest",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-mushroomverytopexterior-map": {
+            "id": "rr-mushroomverytopexterior-map",
+            "Name": "Very Top of Mushroom Map",
+            "source": "mushroomverytopexterior",
+            "target": "map-48",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-mushroomverytopexterior-hr": {
+            "id": "rr-mushroomverytopexterior-hr",
+            "Name": "Very Top of Mushroom Hint Region",
+            "source": "mushroomverytopexterior",
+            "target": "hr-mushroomexterior",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
         "rr-mushroomchunkyroom-level": {
             "id": "rr-mushroomchunkyroom-level",
             "Name": "Mushroom Chunky Room Level",
@@ -8208,6 +8376,36 @@
             "id": "rr-millarea-hr",
             "Name": "Mill Area Hint Region",
             "source": "millarea",
+            "target": "hr-mills",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-snidearea-level": {
+            "id": "rr-snidearea-level",
+            "Name": "Snide Area Level",
+            "source": "snidearea",
+            "target": "fungiforest",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-snidearea-map": {
+            "id": "rr-snidearea-map",
+            "Name": "Snide Area Map",
+            "source": "snidearea",
+            "target": "map-48",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidearea-hr": {
+            "id": "rr-snidearea-hr",
+            "Name": "Snide Area Hint Region",
+            "source": "snidearea",
             "target": "hr-mills",
             "sourceType": "Region",
             "targetType": "Region",
@@ -11298,17 +11496,167 @@
             "id": "rr-snide-level",
             "Name": "Snide Level",
             "source": "snide",
-            "target": "shops",
+            "target": "snide",
             "sourceType": "Region",
             "targetType": "Region",
             "Class": "Region",
             "Type": "Level"
         },
-        "rr-snide-hr": {
-            "id": "rr-snide-hr",
-            "Name": "Snide Hint Region",
+        "rr-snide-map": {
+            "id": "rr-snide-map",
+            "Name": "Snide Map",
             "source": "snide",
-            "target": "hr-error",
+            "target": "map-15",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidefirstgroup-level": {
+            "id": "rr-snidefirstgroup-level",
+            "Name": "Snide First Group Level",
+            "source": "snidefirstgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-snidefirstgroup-map": {
+            "id": "rr-snidefirstgroup-map",
+            "Name": "Snide First Group Map",
+            "source": "snidefirstgroup",
+            "target": "map-15",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidefirstgroup-hr": {
+            "id": "rr-snidefirstgroup-hr",
+            "Name": "Snide First Group Hint Region",
+            "source": "snidefirstgroup",
+            "target": "hr-snidefirstgroup",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-snidesecondgroup-level": {
+            "id": "rr-snidesecondgroup-level",
+            "Name": "Snide Second Group Level",
+            "source": "snidesecondgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-snidesecondgroup-map": {
+            "id": "rr-snidesecondgroup-map",
+            "Name": "Snide Second Group Map",
+            "source": "snidesecondgroup",
+            "target": "map-15",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidesecondgroup-hr": {
+            "id": "rr-snidesecondgroup-hr",
+            "Name": "Snide Second Group Hint Region",
+            "source": "snidesecondgroup",
+            "target": "hr-snidesecondgroup",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-snidethirdgroup-level": {
+            "id": "rr-snidethirdgroup-level",
+            "Name": "Snide Third Group Level",
+            "source": "snidethirdgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-snidethirdgroup-map": {
+            "id": "rr-snidethirdgroup-map",
+            "Name": "Snide Third Group Map",
+            "source": "snidethirdgroup",
+            "target": "map-15",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidethirdgroup-hr": {
+            "id": "rr-snidethirdgroup-hr",
+            "Name": "Snide Third Group Hint Region",
+            "source": "snidethirdgroup",
+            "target": "hr-snidethirdgroup",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-snidefourthgroup-level": {
+            "id": "rr-snidefourthgroup-level",
+            "Name": "Snide Fourth Group Level",
+            "source": "snidefourthgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-snidefourthgroup-map": {
+            "id": "rr-snidefourthgroup-map",
+            "Name": "Snide Fourth Group Map",
+            "source": "snidefourthgroup",
+            "target": "map-15",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidefourthgroup-hr": {
+            "id": "rr-snidefourthgroup-hr",
+            "Name": "Snide Fourth Group Hint Region",
+            "source": "snidefourthgroup",
+            "target": "hr-snidefourthgroup",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "HintRegion"
+        },
+        "rr-snidelastgroup-level": {
+            "id": "rr-snidelastgroup-level",
+            "Name": "Snide Last Group Level",
+            "source": "snidelastgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Level"
+        },
+        "rr-snidelastgroup-map": {
+            "id": "rr-snidelastgroup-map",
+            "Name": "Snide Last Group Map",
+            "source": "snidelastgroup",
+            "target": "map-15",
+            "sourceType": "Region",
+            "targetType": "Region",
+            "Class": "Region",
+            "Type": "Map"
+        },
+        "rr-snidelastgroup-hr": {
+            "id": "rr-snidelastgroup-hr",
+            "Name": "Snide Last Group Hint Region",
+            "source": "snidelastgroup",
+            "target": "hr-snidelastgroup",
             "sourceType": "Region",
             "targetType": "Region",
             "Class": "Region",

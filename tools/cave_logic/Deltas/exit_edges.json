@@ -471,6 +471,27 @@
                 ]
             }
         },
+        "tn-10-9": {
+            "id": "tn-10-9",
+            "Name": "Isles Hill to Isles Ear",
+            "source": "isleshill",
+            "target": "islesear",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "CanMoonkick",
+                        "Params": [],
+                        "isFunction": true,
+                        "isGlitch": true
+                    }
+                ]
+            }
+        },
         "tn-8-6": {
             "id": "tn-8-6",
             "Name": "Isles Main Upper to Isles Main",
@@ -553,26 +574,31 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "OR",
+                "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "CanMoonkick",
-                        "Params": [],
-                        "isFunction": true,
-                        "isGlitch": true
-                    },
-                    {
-                        "combinator": "AND",
+                        "combinator": "OR",
                         "rules": [
                             {
-                                "combinator": "OR",
+                                "Name": "open_lobbies"
+                            },
+                            {
+                                "Name": "ForestKeyTurnedIn",
+                                "Events": true
+                            }
+                        ]
+                    },
+                    {
+                        "combinator": "OR",
+                        "rules": [
+                            {
+                                "combinator": "AND",
                                 "rules": [
                                     {
-                                        "Name": "open_lobbies"
+                                        "Name": "tiny"
                                     },
                                     {
-                                        "Name": "ForestKeyTurnedIn",
-                                        "Events": true
+                                        "Name": "ponytailtwirl"
                                     }
                                 ]
                             },
@@ -580,25 +606,14 @@
                                 "combinator": "OR",
                                 "rules": [
                                     {
-                                        "combinator": "AND",
-                                        "rules": [
-                                            {
-                                                "Name": "tiny"
-                                            },
-                                            {
-                                                "Name": "ponytailtwirl"
-                                            }
-                                        ]
+                                        "Name": "donkey"
                                     },
                                     {
-                                        "combinator": "OR",
+                                        "Name": "chunky"
+                                    },
+                                    {
+                                        "combinator": "AND",
                                         "rules": [
-                                            {
-                                                "Name": "donkey"
-                                            },
-                                            {
-                                                "Name": "chunky"
-                                            },
                                             {
                                                 "combinator": "AND",
                                                 "rules": [
@@ -614,20 +629,19 @@
                                                         ]
                                                     },
                                                     {
-                                                        "Name": "advanced_platforming",
-                                                        "isGlitch": true
-                                                    },
+                                                        "Name": "monkey_maneuvers"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "combinator": "NOT",
+                                                "rules": [
                                                     {
-                                                        "combinator": "NOT",
-                                                        "rules": [
-                                                            {
-                                                                "Name": "isKrushaAdjacent",
-                                                                "Params": [
-                                                                    "kong"
-                                                                ],
-                                                                "isFunction": true
-                                                            }
-                                                        ]
+                                                        "Name": "isKrushaAdjacent",
+                                                        "Params": [
+                                                            "kong"
+                                                        ],
+                                                        "isFunction": true
                                                     }
                                                 ]
                                             }
@@ -652,11 +666,11 @@
             "Requires": true,
             "ReverseName": "Caves Lobby from DK Isles Main"
         },
-        "tn-9-6": {
-            "id": "tn-9-6",
-            "Name": "Isles Ear to Isles Main",
+        "tn-9-10": {
+            "id": "tn-9-10",
+            "Name": "Isles Ear to Isles Hill",
             "source": "islesear",
-            "target": "islesmain",
+            "target": "isleshill",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -713,8 +727,7 @@
                                                 ]
                                             },
                                             {
-                                                "Name": "advanced_platforming",
-                                                "isGlitch": true
+                                                "Name": "monkey_maneuvers"
                                             }
                                         ]
                                     },
@@ -887,10 +900,10 @@
             "Requires": true,
             "ReverseName": "K-Lumsy"
         },
-        "tn-6-23": {
-            "id": "tn-6-23",
+        "tn-16-23": {
+            "id": "tn-16-23",
             "Name": "DK Isles Main to Galleon Lobby",
-            "source": "islesmain",
+            "source": "kremisle",
             "target": "gloomygalleonlobbyentrance",
             "sourceType": "Region",
             "targetType": "Location",
@@ -1260,10 +1273,23 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "NOT",
+                "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "perma_death"
+                        "combinator": "NOT",
+                        "rules": [
+                            {
+                                "Name": "perma_death"
+                            }
+                        ]
+                    },
+                    {
+                        "combinator": "NOT",
+                        "rules": [
+                            {
+                                "Name": "wipe_file_on_death"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1334,11 +1360,11 @@
             "ReverseName": "Frantic Factory from Factory Lobby",
             "Types": "BLocker"
         },
-        "tn-23-6": {
-            "id": "tn-23-6",
+        "tn-23-16": {
+            "id": "tn-23-16",
             "Name": "DK Isles Galleon Lobby to Main",
             "source": "gloomygalleonlobbyentrance",
-            "target": "islesmain",
+            "target": "kremisle",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -1429,8 +1455,7 @@
                         "Name": "tiny"
                     },
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     }
                 ]
             }
@@ -1448,8 +1473,7 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     },
                     {
                         "combinator": "OR",
@@ -1562,8 +1586,7 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     }
                 ]
             }
@@ -1590,8 +1613,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "combinator": "OR",
@@ -1658,8 +1680,7 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     },
                     {
                         "Name": "tiny"
@@ -2433,8 +2454,7 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     },
                     {
                         "combinator": "NOT",
@@ -2644,14 +2664,44 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "orangstand"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "orangstand"
+                            },
+                            {
+                                "Name": "lanky"
+                            },
+                            {
+                                "Name": "monkey_maneuvers"
+                            }
+                        ]
                     },
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "combinator": "NOT",
+                                "rules": [
+                                    {
+                                        "Name": "isKrushaAdjacent",
+                                        "Params": [
+                                            "tiny"
+                                        ],
+                                        "isFunction": true
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "tiny"
+                            },
+                            {
+                                "Name": "slope_resets"
+                            }
+                        ]
                     }
                 ]
             }
@@ -2772,6 +2822,9 @@
                         ],
                         "isFunction": true,
                         "isGlitch": true
+                    },
+                    {
+                        "Name": "slope_resets"
                     }
                 ]
             }
@@ -2853,6 +2906,9 @@
                                         "Params": [],
                                         "isFunction": true,
                                         "isGlitch": true
+                                    },
+                                    {
+                                        "Name": "slope_resets"
                                     }
                                 ]
                             }
@@ -3506,6 +3562,9 @@
                         "Params": [],
                         "isFunction": true,
                         "isGlitch": true
+                    },
+                    {
+                        "Name": "slope_resets"
                     }
                 ]
             }
@@ -3753,8 +3812,7 @@
                                 "combinator": "AND",
                                 "rules": [
                                     {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
+                                        "Name": "monkey_maneuvers"
                                     },
                                     {
                                         "Name": "diddy"
@@ -5597,7 +5655,7 @@
         },
         "tn-80-81": {
             "id": "tn-80-81",
-            "Name": "Frantic Factory Entry Handler to Frantic Factory Start",
+            "Name": "Frantic Factory Entry Handler to Frantic Factory Foyer",
             "source": "franticfactoryentryhandler",
             "target": "franticfactorystart",
             "sourceType": "Region",
@@ -5608,7 +5666,7 @@
         },
         "tn-81-82": {
             "id": "tn-81-82",
-            "Name": "Frantic Factory Start to Testing",
+            "Name": "Frantic Factory Foyer to Testing",
             "source": "franticfactorystart",
             "target": "testing",
             "sourceType": "Region",
@@ -5641,7 +5699,7 @@
         },
         "tn-81-21": {
             "id": "tn-81-21",
-            "Name": "Frantic Factory Start Exit Level",
+            "Name": "Frantic Factory Foyer Exit Level",
             "source": "franticfactorystart",
             "target": "franticfactorylobby",
             "sourceType": "Region",
@@ -5652,7 +5710,7 @@
         },
         "tn-81-91": {
             "id": "tn-81-91",
-            "Name": "Frantic Factory Start to Lower Core",
+            "Name": "Frantic Factory Foyer to Lower Core",
             "source": "franticfactorystart",
             "target": "lowercore",
             "sourceType": "Region",
@@ -5677,7 +5735,7 @@
         },
         "tn-81-259": {
             "id": "tn-81-259",
-            "Name": "Frantic Factory Start to Alcove Beyond Hatch",
+            "Name": "Frantic Factory Foyer to Alcove Beyond Hatch",
             "source": "franticfactorystart",
             "target": "alcovebeyondhatch",
             "sourceType": "Region",
@@ -5696,7 +5754,7 @@
         },
         "tn-82-81": {
             "id": "tn-82-81",
-            "Name": "Testing to Frantic Factory Start",
+            "Name": "Testing to Frantic Factory Foyer",
             "source": "testing",
             "target": "franticfactorystart",
             "sourceType": "Region",
@@ -5884,8 +5942,7 @@
                         ]
                     },
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     }
                 ]
             }
@@ -5930,7 +5987,7 @@
         },
         "tn-86-87-g": {
             "id": "tn-86-87-g",
-            "Name": "Frantic Factory Research and Development to Car Race",
+            "Name": "Frantic Factory R&D to Car Race",
             "source": "factorytinyracelobby",
             "target": "factorytinyrace",
             "sourceType": "Region",
@@ -6019,7 +6076,7 @@
         },
         "tn-86-87-2": {
             "id": "tn-86-87-2",
-            "Name": "Frantic Factory Research and Development to Car Race",
+            "Name": "Frantic Factory R&D to Car Race",
             "source": "factorytinyracelobby",
             "target": "factorytinyrace",
             "sourceType": "Region",
@@ -6052,7 +6109,7 @@
         },
         "tn-87-86": {
             "id": "tn-87-86",
-            "Name": "Frantic Factory Car Race to Research and Development",
+            "Name": "Frantic Factory Car Race to R&D",
             "source": "factorytinyrace",
             "target": "factorytinyracelobby",
             "sourceType": "Region",
@@ -6157,15 +6214,15 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-90-85": {
-            "id": "tn-90-85",
-            "Name": "Beyond Hatch to Arcade Tunnel",
+        "tn-90-291": {
+            "id": "tn-90-291",
+            "Name": "Frantic Factory Storage to Arcade",
             "source": "beyondhatch",
-            "target": "factoryarcadetunnel",
+            "target": "factoryarcadepole",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
-            "Type": "Neighbourhood",
+            "Type": "Warp",
             "Requires": {
                 "combinator": "AND",
                 "rules": [
@@ -6173,7 +6230,8 @@
                         "Name": "climbing"
                     }
                 ]
-            }
+            },
+            "ReverseName": "Frantic Factory Arcade from Storage"
         },
         "tn-90-21": {
             "id": "tn-90-21",
@@ -6225,8 +6283,7 @@
                                 "Name": "tiny"
                             },
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             }
                         ]
                     },
@@ -6237,8 +6294,7 @@
                                 "Name": "diddy"
                             },
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             }
                         ]
                     }
@@ -6291,13 +6347,21 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
-                        "Name": "lanky"
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "lanky"
+                            },
+                            {
+                                "Name": "orangstand"
+                            }
+                        ]
                     },
                     {
-                        "Name": "orangstand"
+                        "Name": "slope_resets"
                     }
                 ]
             }
@@ -6363,11 +6427,52 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-85-90": {
-            "id": "tn-85-90",
-            "Name": "Arcade Tunnel to Beyond Hatch",
-            "source": "factoryarcadetunnel",
+        "tn-291-85": {
+            "id": "tn-291-85",
+            "Name": "Factory Arcade Upper Pole to Arcade Tunnel",
+            "source": "factoryarcadepole",
+            "target": "factoryarcadetunnel",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "climbing"
+                    }
+                ]
+            }
+        },
+        "tn-291-21": {
+            "id": "tn-291-21",
+            "Name": "Factory Arcade Upper Pole Exit Level",
+            "source": "factoryarcadepole",
+            "target": "franticfactorylobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
+        },
+        "tn-291-90": {
+            "id": "tn-291-90",
+            "Name": "Frantic Factory Arcade to Storage",
+            "source": "factoryarcadepole",
             "target": "beyondhatch",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true,
+            "ReverseName": "Frantic Factory Storage from Arcade"
+        },
+        "tn-85-291": {
+            "id": "tn-85-291",
+            "Name": "Arcade Tunnel to Factory Arcade Upper Pole",
+            "source": "factoryarcadetunnel",
+            "target": "factoryarcadepole",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -6431,7 +6536,7 @@
         },
         "tn-259-81": {
             "id": "tn-259-81",
-            "Name": "Alcove Beyond Hatch to Frantic Factory Start",
+            "Name": "Alcove Beyond Hatch to Frantic Factory Foyer",
             "source": "alcovebeyondhatch",
             "target": "franticfactorystart",
             "sourceType": "Region",
@@ -6497,7 +6602,7 @@
         },
         "tn-91-81": {
             "id": "tn-91-81",
-            "Name": "Lower Core to Frantic Factory Start",
+            "Name": "Lower Core to Frantic Factory Foyer",
             "source": "lowercore",
             "target": "franticfactorystart",
             "sourceType": "Region",
@@ -7256,8 +7361,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "combinator": "OR",
@@ -7295,8 +7399,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "combinator": "OR",
@@ -8452,8 +8555,7 @@
                                 "Events": true
                             },
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "Name": "baboonballoon"
@@ -9152,8 +9254,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "Name": "ponytailtwirl"
@@ -9181,8 +9282,7 @@
                                 ]
                             },
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             }
                         ]
                     }
@@ -9257,6 +9357,27 @@
             "Name": "Giant Mushroom Area to Mushroom Night Exterior",
             "source": "giantmushroomarea",
             "target": "mushroomnightexterior",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "rocketbarrelboost"
+                    },
+                    {
+                        "Name": "diddy"
+                    }
+                ]
+            }
+        },
+        "tn-133-292": {
+            "id": "tn-133-292",
+            "Name": "Giant Mushroom Area to Very Top of Mushroom",
+            "source": "giantmushroomarea",
+            "target": "mushroomverytopexterior",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -10021,6 +10142,43 @@
             "Type": "Neighbourhood",
             "Requires": true
         },
+        "tn-142-292": {
+            "id": "tn-142-292",
+            "Name": "Mushroom Upper Exterior to Very Top of Mushroom",
+            "source": "mushroomupperexterior",
+            "target": "mushroomverytopexterior",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "OR",
+                "rules": [
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "orangstand"
+                            },
+                            {
+                                "Name": "lanky"
+                            }
+                        ]
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "slope_resets"
+                            },
+                            {
+                                "Name": "diddy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
         "tn-142-143": {
             "id": "tn-142-143",
             "Name": "Fungi Forest Main to Face Puzzle (Chunky)",
@@ -10078,23 +10236,8 @@
                 "combinator": "OR",
                 "rules": [
                     {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "orangstand"
-                            },
-                            {
-                                "Name": "CanSlamSwitch",
-                                "Params": [
-                                    "FungiForest",
-                                    2
-                                ],
-                                "isFunction": true
-                            },
-                            {
-                                "Name": "lanky"
-                            }
-                        ]
+                        "Name": "LankyMushroomSlamSwitch",
+                        "Events": true
                     },
                     {
                         "Name": "CanOStandTBSNoclip",
@@ -10119,23 +10262,8 @@
                 "combinator": "OR",
                 "rules": [
                     {
-                        "combinator": "AND",
-                        "rules": [
-                            {
-                                "Name": "orangstand"
-                            },
-                            {
-                                "Name": "CanSlamSwitch",
-                                "Params": [
-                                    "FungiForest",
-                                    2
-                                ],
-                                "isFunction": true
-                            },
-                            {
-                                "Name": "lanky"
-                            }
-                        ]
+                        "Name": "LankyMushroomSlamSwitch",
+                        "Events": true
                     },
                     {
                         "Name": "CanPhase",
@@ -10170,6 +10298,28 @@
                     }
                 ]
             }
+        },
+        "tn-292-142": {
+            "id": "tn-292-142",
+            "Name": "Very Top of Mushroom to Mushroom Upper Exterior",
+            "source": "mushroomverytopexterior",
+            "target": "mushroomupperexterior",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": true
+        },
+        "tn-292-28": {
+            "id": "tn-292-28",
+            "Name": "Very Top of Mushroom Exit Level",
+            "source": "mushroomverytopexterior",
+            "target": "fungiforestlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
         },
         "tn-143-142": {
             "id": "tn-143-142",
@@ -10710,41 +10860,16 @@
                 ]
             }
         },
-        "tn-148-258": {
-            "id": "tn-148-258",
-            "Name": "Mill Area to Snide",
+        "tn-148-293": {
+            "id": "tn-148-293",
+            "Name": "Mill Area to Snide Area",
             "source": "millarea",
-            "target": "snide",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "Warp",
-            "Requires": {
-                "combinator": "AND",
-                "rules": [
-                    {
-                        "Name": "snide"
-                    }
-                ]
-            }
-        },
-        "tn-148-158": {
-            "id": "tn-148-158",
-            "Name": "Mill Area to Forest Boss Lobby",
-            "source": "millarea",
-            "target": "forestbosslobby",
+            "target": "snidearea",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
-            "Requires": {
-                "combinator": "NOT",
-                "rules": [
-                    {
-                        "Name": "tns_location_rando"
-                    }
-                ]
-            }
+            "Requires": true
         },
         "tn-155-156-g": {
             "id": "tn-155-156-g",
@@ -10827,6 +10952,64 @@
                     },
                     {
                         "Name": "chunky"
+                    }
+                ]
+            }
+        },
+        "tn-293-148": {
+            "id": "tn-293-148",
+            "Name": "Snide Area to Mill Area",
+            "source": "snidearea",
+            "target": "millarea",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": true
+        },
+        "tn-293-28": {
+            "id": "tn-293-28",
+            "Name": "Snide Area Exit Level",
+            "source": "snidearea",
+            "target": "fungiforestlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
+        },
+        "tn-293-258": {
+            "id": "tn-293-258",
+            "Name": "Snide Area to Snide",
+            "source": "snidearea",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "snide"
+                    }
+                ]
+            }
+        },
+        "tn-293-158": {
+            "id": "tn-293-158",
+            "Name": "Snide Area to Forest Boss Lobby",
+            "source": "snidearea",
+            "target": "forestbosslobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Neighbourhood",
+            "Requires": {
+                "combinator": "NOT",
+                "rules": [
+                    {
+                        "Name": "tns_location_rando"
                     }
                 ]
             }
@@ -11528,8 +11711,7 @@
                         "combinator": "AND",
                         "rules": [
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             },
                             {
                                 "combinator": "OR",
@@ -11595,8 +11777,7 @@
                         ]
                     },
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "monkey_maneuvers"
                     }
                 ]
             }
@@ -11672,8 +11853,7 @@
                                         "Name": "baboonballoon"
                                     },
                                     {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
+                                        "Name": "monkey_maneuvers"
                                     }
                                 ]
                             },
@@ -12857,8 +13037,7 @@
                                 ]
                             },
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             }
                         ]
                     },
@@ -14022,10 +14201,29 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
                         "Name": "climbing"
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "monkey_maneuvers"
+                            },
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "diddy"
+                                    },
+                                    {
+                                        "Name": "tiny"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -14040,10 +14238,29 @@
             "Class": "Transition",
             "Type": "Neighbourhood",
             "Requires": {
-                "combinator": "AND",
+                "combinator": "OR",
                 "rules": [
                     {
                         "Name": "climbing"
+                    },
+                    {
+                        "combinator": "AND",
+                        "rules": [
+                            {
+                                "Name": "monkey_maneuvers"
+                            },
+                            {
+                                "combinator": "OR",
+                                "rules": [
+                                    {
+                                        "Name": "diddy"
+                                    },
+                                    {
+                                        "Name": "tiny"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -15315,11 +15532,11 @@
             "Type": "ExitWarp",
             "Requires": true
         },
-        "tn-215-195-2": {
-            "id": "tn-215-195-2",
+        "tn-215-198": {
+            "id": "tn-215-198",
             "Name": "Creepy Castle Upper Cave to Main (Moat door)",
             "source": "uppercave",
-            "target": "creepycastlemain",
+            "target": "castlewaterfall",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -15541,17 +15758,6 @@
             },
             "ReverseName": "Helm Lobby from Hideout Helm"
         },
-        "tn-221-31": {
-            "id": "tn-221-31",
-            "Name": "Hideout Helm Start Exit Level",
-            "source": "hideouthelmstart",
-            "target": "hideouthelmlobby",
-            "sourceType": "Region",
-            "targetType": "Location",
-            "Class": "Transition",
-            "Type": "ExitWarp",
-            "Requires": true
-        },
         "tn-221-222": {
             "id": "tn-221-222",
             "Name": "Hideout Helm Start to Hideout Helm Start",
@@ -15576,11 +15782,21 @@
                         ]
                     },
                     {
-                        "Name": "advanced_platforming",
-                        "isGlitch": true
+                        "Name": "slope_resets"
                     }
                 ]
             }
+        },
+        "tn-221-31": {
+            "id": "tn-221-31",
+            "Name": "Hideout Helm Start Exit Level",
+            "source": "hideouthelmstart",
+            "target": "hideouthelmlobby",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "ExitWarp",
+            "Requires": true
         },
         "tn-221-230": {
             "id": "tn-221-230",
@@ -17075,6 +17291,61 @@
             "Type": "Neighbourhood",
             "Requires": true
         },
+        "tn-258-286": {
+            "id": "tn-258-286",
+            "Name": "Snide to Snide First Group",
+            "source": "snide",
+            "target": "snidefirstgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-287": {
+            "id": "tn-258-287",
+            "Name": "Snide to Snide Second Group",
+            "source": "snide",
+            "target": "snidesecondgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-288": {
+            "id": "tn-258-288",
+            "Name": "Snide to Snide Third Group",
+            "source": "snide",
+            "target": "snidethirdgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-289": {
+            "id": "tn-258-289",
+            "Name": "Snide to Snide Fourth Group",
+            "source": "snide",
+            "target": "snidefourthgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-290": {
+            "id": "tn-258-290",
+            "Name": "Snide to Snide Last Group",
+            "source": "snide",
+            "target": "snidelastgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
         "tn-258-20": {
             "id": "tn-258-20",
             "Name": "Snide to Isles Snide Room",
@@ -17130,11 +17401,11 @@
             "Type": "Neighbourhood",
             "Requires": true
         },
-        "tn-258-148": {
-            "id": "tn-258-148",
-            "Name": "Snide to Mill Area",
+        "tn-258-293": {
+            "id": "tn-258-293",
+            "Name": "Snide to Snide Area",
             "source": "snide",
-            "target": "millarea",
+            "target": "snidearea",
             "sourceType": "Region",
             "targetType": "Location",
             "Class": "Transition",
@@ -17161,6 +17432,116 @@
             "targetType": "Location",
             "Class": "Transition",
             "Type": "Neighbourhood",
+            "Requires": true
+        },
+        "tn-258-286-2": {
+            "id": "tn-258-286-2",
+            "Name": "Snide to Snide First Group",
+            "source": "snide",
+            "target": "snidefirstgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-287-2": {
+            "id": "tn-258-287-2",
+            "Name": "Snide to Snide Second Group",
+            "source": "snide",
+            "target": "snidesecondgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-288-2": {
+            "id": "tn-258-288-2",
+            "Name": "Snide to Snide Third Group",
+            "source": "snide",
+            "target": "snidethirdgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-289-2": {
+            "id": "tn-258-289-2",
+            "Name": "Snide to Snide Fourth Group",
+            "source": "snide",
+            "target": "snidefourthgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-258-290-2": {
+            "id": "tn-258-290-2",
+            "Name": "Snide to Snide Last Group",
+            "source": "snide",
+            "target": "snidelastgroup",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-286-258": {
+            "id": "tn-286-258",
+            "Name": "Snide First Group to Snide",
+            "source": "snidefirstgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-287-258": {
+            "id": "tn-287-258",
+            "Name": "Snide Second Group to Snide",
+            "source": "snidesecondgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-288-258": {
+            "id": "tn-288-258",
+            "Name": "Snide Third Group to Snide",
+            "source": "snidethirdgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-289-258": {
+            "id": "tn-289-258",
+            "Name": "Snide Fourth Group to Snide",
+            "source": "snidefourthgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
+            "Requires": true
+        },
+        "tn-290-258": {
+            "id": "tn-290-258",
+            "Name": "Snide Last Group to Snide",
+            "source": "snidelastgroup",
+            "target": "snide",
+            "sourceType": "Region",
+            "targetType": "Location",
+            "Class": "Transition",
+            "Type": "Warp",
             "Requires": true
         }
     }

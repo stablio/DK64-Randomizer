@@ -3038,8 +3038,7 @@
                                 "Name": "peanut"
                             },
                             {
-                                "Name": "advanced_platforming",
-                                "isGlitch": true
+                                "Name": "monkey_maneuvers"
                             }
                         ]
                     },
@@ -3148,8 +3147,7 @@
                                 "combinator": "AND",
                                 "rules": [
                                     {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
+                                        "Name": "monkey_maneuvers"
                                     },
                                     {
                                         "combinator": "OR",
@@ -3994,6 +3992,37 @@
                 "rules": [
                     {
                         "Name": "factoryw1btagged",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
+        "li-chunkyfreed272": {
+            "id": "li-chunkyfreed272",
+            "Name": "ChunkyFreed",
+            "source": "factorystoragepipe",
+            "target": "chunkyfreed",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "CanFreeChunky",
+                        "Params": [],
+                        "isFunction": true
+                    }
+                ]
+            },
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "chunkyfreed",
                         "Amount": 1
                     }
                 ]
@@ -4990,8 +5019,7 @@
                                         "Events": true
                                     },
                                     {
-                                        "Name": "advanced_platforming",
-                                        "isGlitch": true
+                                        "Name": "monkey_maneuvers"
                                     }
                                 ]
                             }
@@ -5541,6 +5569,9 @@
                         ],
                         "isFunction": true
                     },
+                    {
+                        "Name": "adv_orange_usage"
+                    },
                     null
                 ]
             },
@@ -5574,6 +5605,9 @@
                             "any"
                         ],
                         "isFunction": true
+                    },
+                    {
+                        "Name": "adv_orange_usage"
                     },
                     null
                 ]
@@ -5924,6 +5958,43 @@
                 ]
             }
         },
+        "li-lankymushroomslamswitch292": {
+            "id": "li-lankymushroomslamswitch292",
+            "Name": "LankyMushroomSlamSwitch",
+            "source": "mushroomverytopexterior",
+            "target": "lankymushroomslamswitch",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": {
+                "combinator": "AND",
+                "rules": [
+                    {
+                        "Name": "CanSlamSwitch",
+                        "Params": [
+                            "FungiForest",
+                            2
+                        ],
+                        "isFunction": true
+                    },
+                    {
+                        "Name": "lanky"
+                    }
+                ]
+            },
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "lankymushroomslamswitch",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
         "li-forestw4btagged146": {
             "id": "li-forestw4btagged146",
             "Name": "ForestW4bTagged",
@@ -6125,11 +6196,11 @@
                 ]
             }
         },
-        "li-forestw2atagged157": {
-            "id": "li-forestw2atagged157",
-            "Name": "ForestW2aTagged",
+        "li-forestw2btagged157": {
+            "id": "li-forestw2btagged157",
+            "Name": "ForestW2bTagged",
             "source": "wormarea",
-            "target": "forestw2atagged",
+            "target": "forestw2btagged",
             "Type": "Location",
             "sourceType": "Region",
             "targetType": "Item",
@@ -6141,7 +6212,7 @@
                 "combinator": "and",
                 "rules": [
                     {
-                        "Name": "forestw2atagged",
+                        "Name": "forestw2btagged",
                         "Amount": 1
                     }
                 ]
@@ -6487,6 +6558,28 @@
                 "rules": [
                     {
                         "Name": "giantkoshadefeated",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
+        "li-killedrabbit181": {
+            "id": "li-killedrabbit181",
+            "Name": "KilledRabbit",
+            "source": "chunkyigloo",
+            "target": "killedrabbit",
+            "Type": "Location",
+            "sourceType": "Region",
+            "targetType": "Item",
+            "Types": "Event",
+            "Class": "Event",
+            "Requires": true,
+            "Persona": "any",
+            "Rewards": {
+                "combinator": "and",
+                "rules": [
+                    {
+                        "Name": "killedrabbit",
                         "Amount": 1
                     }
                 ]
@@ -6953,10 +7046,9 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "helm_setting",
+                        "Name": "checkBarrier",
                         "Params": [
-                            "default",
-                            false
+                            "helm_star_gates"
                         ],
                         "isFunction": true
                     }
@@ -6987,12 +7079,15 @@
                 "combinator": "AND",
                 "rules": [
                     {
-                        "Name": "helm_setting",
+                        "Name": "checkBarrier",
                         "Params": [
-                            "default",
-                            false
+                            "helm_punch_gates"
                         ],
                         "isFunction": true
+                    },
+                    {
+                        "Name": "HelmDoorsOpened",
+                        "Events": true
                     }
                 ]
             },

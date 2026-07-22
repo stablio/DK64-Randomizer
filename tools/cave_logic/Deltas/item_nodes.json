@@ -84,12 +84,6 @@
             "Class": "Item",
             "Type": "Constant"
         },
-        "progressivedonkeypotion": {
-            "id": "progressivedonkeypotion",
-            "Name": "Progressive Donkey Potion",
-            "Class": "Item",
-            "Type": "Move"
-        },
         "baboonblast": {
             "id": "baboonblast",
             "Name": "Baboon Blast",
@@ -105,12 +99,6 @@
         "gorillagrab": {
             "id": "gorillagrab",
             "Name": "Gorilla Grab",
-            "Class": "Item",
-            "Type": "Move"
-        },
-        "progressivediddypotion": {
-            "id": "progressivediddypotion",
-            "Name": "Progressive Diddy Potion",
             "Class": "Item",
             "Type": "Move"
         },
@@ -132,12 +120,6 @@
             "Class": "Item",
             "Type": "Move"
         },
-        "progressivelankypotion": {
-            "id": "progressivelankypotion",
-            "Name": "Progressive Lanky Potion",
-            "Class": "Item",
-            "Type": "Move"
-        },
         "orangstand": {
             "id": "orangstand",
             "Name": "Orangstand",
@@ -156,12 +138,6 @@
             "Class": "Item",
             "Type": "Move"
         },
-        "progressivetinypotion": {
-            "id": "progressivetinypotion",
-            "Name": "Progressive Tiny Potion",
-            "Class": "Item",
-            "Type": "Move"
-        },
         "minimonkey": {
             "id": "minimonkey",
             "Name": "Mini Monkey",
@@ -177,12 +153,6 @@
         "monkeyport": {
             "id": "monkeyport",
             "Name": "Monkeyport",
-            "Class": "Item",
-            "Type": "Move"
-        },
-        "progressivechunkypotion": {
-            "id": "progressivechunkypotion",
-            "Name": "Progressive Chunky Potion",
             "Class": "Item",
             "Type": "Move"
         },
@@ -486,21 +456,393 @@
             "Class": "Item",
             "Type": "RainbowCoin"
         },
+        "fillerrainbowcoin": {
+            "id": "fillerrainbowcoin",
+            "Name": "Rainbow Coin",
+            "Class": "Item",
+            "Type": "FillerRainbowCoin"
+        },
         "icetrapbubble": {
             "id": "icetrapbubble",
-            "Name": "Ice Trap (Bubble)",
+            "Name": "Ice Trap (Bubble - GB)",
             "Class": "Item",
             "Type": "FakeItem"
         },
         "icetrapreverse": {
             "id": "icetrapreverse",
-            "Name": "Ice Trap (Reverse)",
+            "Name": "Ice Trap (Reverse - GB)",
             "Class": "Item",
             "Type": "FakeItem"
         },
         "icetrapslow": {
             "id": "icetrapslow",
-            "Name": "Ice Trap (Slow)",
+            "Name": "Ice Trap (Slow - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapbubblebean": {
+            "id": "icetrapbubblebean",
+            "Name": "Ice Trap (Bubble - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapreversebean": {
+            "id": "icetrapreversebean",
+            "Name": "Ice Trap (Reverse - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslowbean": {
+            "id": "icetrapslowbean",
+            "Name": "Ice Trap (Slow - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapbubblekey": {
+            "id": "icetrapbubblekey",
+            "Name": "Ice Trap (Bubble - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapreversekey": {
+            "id": "icetrapreversekey",
+            "Name": "Ice Trap (Reverse - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslowkey": {
+            "id": "icetrapslowkey",
+            "Name": "Ice Trap (Slow - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablea": {
+            "id": "icetrapdisablea",
+            "Name": "Ice Trap (Disable A - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisableabean": {
+            "id": "icetrapdisableabean",
+            "Name": "Ice Trap (Disable A - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisableakey": {
+            "id": "icetrapdisableakey",
+            "Name": "Ice Trap (Disable A - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisableb": {
+            "id": "icetrapdisableb",
+            "Name": "Ice Trap (Disable B - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablebbean": {
+            "id": "icetrapdisablebbean",
+            "Name": "Ice Trap (Disable B - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablebkey": {
+            "id": "icetrapdisablebkey",
+            "Name": "Ice Trap (Disable B - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablez": {
+            "id": "icetrapdisablez",
+            "Name": "Ice Trap (Disable Z - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablezbean": {
+            "id": "icetrapdisablezbean",
+            "Name": "Ice Trap (Disable Z - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablezkey": {
+            "id": "icetrapdisablezkey",
+            "Name": "Ice Trap (Disable Z - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablecu": {
+            "id": "icetrapdisablecu",
+            "Name": "Ice Trap (Disable C Up - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablecubean": {
+            "id": "icetrapdisablecubean",
+            "Name": "Ice Trap (Disable C Up - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablecukey": {
+            "id": "icetrapdisablecukey",
+            "Name": "Ice Trap (Disable C Up - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapgetoutgb": {
+            "id": "icetrapgetoutgb",
+            "Name": "Ice Trap (Get Out - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapgetoutbean": {
+            "id": "icetrapgetoutbean",
+            "Name": "Ice Trap (Get Out - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapgetoutkey": {
+            "id": "icetrapgetoutkey",
+            "Name": "Ice Trap (Get Out - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdrygb": {
+            "id": "icetrapdrygb",
+            "Name": "Ice Trap (Dry - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdrybean": {
+            "id": "icetrapdrybean",
+            "Name": "Ice Trap (Dry - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdrykey": {
+            "id": "icetrapdrykey",
+            "Name": "Ice Trap (Dry - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapflipgb": {
+            "id": "icetrapflipgb",
+            "Name": "Ice Trap (Flip - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapflipbean": {
+            "id": "icetrapflipbean",
+            "Name": "Ice Trap (Flip - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapflipkey": {
+            "id": "icetrapflipkey",
+            "Name": "Ice Trap (Flip - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapbubblefairy": {
+            "id": "icetrapbubblefairy",
+            "Name": "Ice Trap (Bubble - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapreversefairy": {
+            "id": "icetrapreversefairy",
+            "Name": "Ice Trap (Reverse - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslowfairy": {
+            "id": "icetrapslowfairy",
+            "Name": "Ice Trap (Slow - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisableafairy": {
+            "id": "icetrapdisableafairy",
+            "Name": "Ice Trap (Disable A - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablebfairy": {
+            "id": "icetrapdisablebfairy",
+            "Name": "Ice Trap (Disable B - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablezfairy": {
+            "id": "icetrapdisablezfairy",
+            "Name": "Ice Trap (Disable Z - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisablecufairy": {
+            "id": "icetrapdisablecufairy",
+            "Name": "Ice Trap (Disable C Up - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapgetoutfairy": {
+            "id": "icetrapgetoutfairy",
+            "Name": "Ice Trap (Get Out - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdryfairy": {
+            "id": "icetrapdryfairy",
+            "Name": "Ice Trap (Dry - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapflipfairy": {
+            "id": "icetrapflipfairy",
+            "Name": "Ice Trap (Flip - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapicefloorgb": {
+            "id": "icetrapicefloorgb",
+            "Name": "Ice Trap (Ice Floor - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapicefloorbean": {
+            "id": "icetrapicefloorbean",
+            "Name": "Ice Trap (Ice Floor - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapicefloorkey": {
+            "id": "icetrapicefloorkey",
+            "Name": "Ice Trap (Ice Floor - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapicefloorfairy": {
+            "id": "icetrapicefloorfairy",
+            "Name": "Ice Trap (Ice Floor - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrappapergb": {
+            "id": "icetrappapergb",
+            "Name": "Ice Trap (Paper - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrappaperbean": {
+            "id": "icetrappaperbean",
+            "Name": "Ice Trap (Paper - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrappaperkey": {
+            "id": "icetrappaperkey",
+            "Name": "Ice Trap (Paper - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrappaperfairy": {
+            "id": "icetrappaperfairy",
+            "Name": "Ice Trap (Paper - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslipgb": {
+            "id": "icetrapslipgb",
+            "Name": "Ice Trap (Slip - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslipbean": {
+            "id": "icetrapslipbean",
+            "Name": "Ice Trap (Slip - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslipkey": {
+            "id": "icetrapslipkey",
+            "Name": "Ice Trap (Slip - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapslipfairy": {
+            "id": "icetrapslipfairy",
+            "Name": "Ice Trap (Slip - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapanimalgb": {
+            "id": "icetrapanimalgb",
+            "Name": "Ice Trap (Animal - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapanimalbean": {
+            "id": "icetrapanimalbean",
+            "Name": "Ice Trap (Animal - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapanimalkey": {
+            "id": "icetrapanimalkey",
+            "Name": "Ice Trap (Animal - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapanimalfairy": {
+            "id": "icetrapanimalfairy",
+            "Name": "Ice Trap (Animal - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetraprockfallgb": {
+            "id": "icetraprockfallgb",
+            "Name": "Ice Trap (Rockfall - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetraprockfallbean": {
+            "id": "icetraprockfallbean",
+            "Name": "Ice Trap (Rockfall - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetraprockfallkey": {
+            "id": "icetraprockfallkey",
+            "Name": "Ice Trap (Rockfall - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetraprockfallfairy": {
+            "id": "icetraprockfallfairy",
+            "Name": "Ice Trap (Rockfall - Fairy)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisabletaggb": {
+            "id": "icetrapdisabletaggb",
+            "Name": "Ice Trap (Disable Tag - GB)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisabletagbean": {
+            "id": "icetrapdisabletagbean",
+            "Name": "Ice Trap (Disable Tag - Bean)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisabletagkey": {
+            "id": "icetrapdisabletagkey",
+            "Name": "Ice Trap (Disable Tag - Key)",
+            "Class": "Item",
+            "Type": "FakeItem"
+        },
+        "icetrapdisabletagfairy": {
+            "id": "icetrapdisabletagfairy",
+            "Name": "Ice Trap (Disable Tag - Fairy)",
             "Class": "Item",
             "Type": "FakeItem"
         },
@@ -534,11 +876,53 @@
             "Class": "Item",
             "Type": "JunkItem"
         },
+        "fillerbanana": {
+            "id": "fillerbanana",
+            "Name": "Golden Banana",
+            "Class": "Item",
+            "Type": "FillerBanana"
+        },
+        "fillercrown": {
+            "id": "fillercrown",
+            "Name": "Battle Crown",
+            "Class": "Item",
+            "Type": "FillerCrown"
+        },
+        "fillerfairy": {
+            "id": "fillerfairy",
+            "Name": "Banana Fairy",
+            "Class": "Item",
+            "Type": "FillerFairy"
+        },
+        "fillerpearl": {
+            "id": "fillerpearl",
+            "Name": "Pearl",
+            "Class": "Item",
+            "Type": "FillerPearl"
+        },
+        "fillermedal": {
+            "id": "fillermedal",
+            "Name": "Banana Medal",
+            "Class": "Item",
+            "Type": "FillerMedal"
+        },
         "cratemelon": {
             "id": "cratemelon",
             "Name": "Crate Melon",
             "Class": "Item",
             "Type": "CrateItem"
+        },
+        "halfmedal": {
+            "id": "halfmedal",
+            "Name": "Half Medal",
+            "Class": "Item",
+            "Type": "HalfMedal"
+        },
+        "boulderitem": {
+            "id": "boulderitem",
+            "Name": "Boulder Drop",
+            "Class": "Item",
+            "Type": "BoulderItem"
         },
         "enemyitem": {
             "id": "enemyitem",
@@ -569,6 +953,36 @@
             "Name": "Snide",
             "Class": "Item",
             "Type": "Snide"
+        },
+        "donkeyblueprint": {
+            "id": "donkeyblueprint",
+            "Name": "Donkey Blueprint",
+            "Class": "Item",
+            "Type": "Blueprint"
+        },
+        "diddyblueprint": {
+            "id": "diddyblueprint",
+            "Name": "Diddy Blueprint",
+            "Class": "Item",
+            "Type": "Blueprint"
+        },
+        "lankyblueprint": {
+            "id": "lankyblueprint",
+            "Name": "Lanky Blueprint",
+            "Class": "Item",
+            "Type": "Blueprint"
+        },
+        "tinyblueprint": {
+            "id": "tinyblueprint",
+            "Name": "Tiny Blueprint",
+            "Class": "Item",
+            "Type": "Blueprint"
+        },
+        "chunkyblueprint": {
+            "id": "chunkyblueprint",
+            "Name": "Chunky Blueprint",
+            "Class": "Item",
+            "Type": "Blueprint"
         },
         "dkislesdonkeyblueprint": {
             "id": "dkislesdonkeyblueprint",
@@ -1026,11 +1440,281 @@
             "Class": "Item",
             "Type": "ArchipelagoItem"
         },
+        "specialarchipelagoitem": {
+            "id": "specialarchipelagoitem",
+            "Name": "Special Archipelago Item",
+            "Class": "Item",
+            "Type": "ArchipelagoItem"
+        },
+        "foolsarchipelagoitem": {
+            "id": "foolsarchipelagoitem",
+            "Name": "Junk Archipelago Item",
+            "Class": "Item",
+            "Type": "ArchipelagoItem"
+        },
+        "traparchipelagoitem": {
+            "id": "traparchipelagoitem",
+            "Name": "Trap Archipelago Item",
+            "Class": "Item",
+            "Type": "ArchipelagoItem"
+        },
         "bananahoard": {
             "id": "bananahoard",
             "Name": "Banana Hoard",
             "Class": "Item",
             "Type": "Constant"
+        },
+        "photobeaverblue": {
+            "id": "photobeaverblue",
+            "Name": "Photo (Beaver Blue)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photobook": {
+            "id": "photobook",
+            "Name": "Photo (Book)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photozingercharger": {
+            "id": "photozingercharger",
+            "Name": "Photo (Zinger Charger)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoklobber": {
+            "id": "photoklobber",
+            "Name": "Photo (Klobber)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoklump": {
+            "id": "photoklump",
+            "Name": "Photo (Klump)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokaboom": {
+            "id": "photokaboom",
+            "Name": "Photo (Kaboom)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoklaptrapgreen": {
+            "id": "photoklaptrapgreen",
+            "Name": "Photo (Klaptrap Green)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photozingerlime": {
+            "id": "photozingerlime",
+            "Name": "Photo (Zinger Lime)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoklaptrappurple": {
+            "id": "photoklaptrappurple",
+            "Name": "Photo (Klaptrap Purple)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoklaptrapred": {
+            "id": "photoklaptrapred",
+            "Name": "Photo (Klaptrap Red)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photobeavergold": {
+            "id": "photobeavergold",
+            "Name": "Photo (Beaver Gold)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photofireball": {
+            "id": "photofireball",
+            "Name": "Photo (Fireball)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photomushroomman": {
+            "id": "photomushroomman",
+            "Name": "Photo (Mushroom Man)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoruler": {
+            "id": "photoruler",
+            "Name": "Photo (Ruler)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photorobokremling": {
+            "id": "photorobokremling",
+            "Name": "Photo (Robo Kremling)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokremling": {
+            "id": "photokremling",
+            "Name": "Photo (Kremling)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokasplatdk": {
+            "id": "photokasplatdk",
+            "Name": "Photo (Kasplat DK)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokasplatdiddy": {
+            "id": "photokasplatdiddy",
+            "Name": "Photo (Kasplat Diddy)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokasplatlanky": {
+            "id": "photokasplatlanky",
+            "Name": "Photo (Kasplat Lanky)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokasplattiny": {
+            "id": "photokasplattiny",
+            "Name": "Photo (Kasplat Tiny)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokasplatchunky": {
+            "id": "photokasplatchunky",
+            "Name": "Photo (Kasplat Chunky)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photozingerrobo": {
+            "id": "photozingerrobo",
+            "Name": "Photo (Zinger Robo)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokrossbones": {
+            "id": "photokrossbones",
+            "Name": "Photo (Krossbones)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoshuri": {
+            "id": "photoshuri",
+            "Name": "Photo (Shuri)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photogimpfish": {
+            "id": "photogimpfish",
+            "Name": "Photo (Gimpfish)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photomrdice0": {
+            "id": "photomrdice0",
+            "Name": "Photo (MrDice0)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photosirdomino": {
+            "id": "photosirdomino",
+            "Name": "Photo (SirDomino)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photomrdice1": {
+            "id": "photomrdice1",
+            "Name": "Photo (MrDice1)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photobat": {
+            "id": "photobat",
+            "Name": "Photo (Bat)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoghost": {
+            "id": "photoghost",
+            "Name": "Photo (Ghost)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photopufftup": {
+            "id": "photopufftup",
+            "Name": "Photo (Pufftup)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokosha": {
+            "id": "photokosha",
+            "Name": "Photo (Kosha)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photospider": {
+            "id": "photospider",
+            "Name": "Photo (Spider)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photobug": {
+            "id": "photobug",
+            "Name": "Photo (Bug)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photokop": {
+            "id": "photokop",
+            "Name": "Photo (Kop)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "phototomato": {
+            "id": "phototomato",
+            "Name": "Photo (Tomato)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photobfi": {
+            "id": "photobfi",
+            "Name": "Photo (BFI Queen)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoicetomato": {
+            "id": "photoicetomato",
+            "Name": "Photo (Ice Tomato)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photomermaid": {
+            "id": "photomermaid",
+            "Name": "Photo (Mermaid)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photollama": {
+            "id": "photollama",
+            "Name": "Photo (Llama)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photomechfish": {
+            "id": "photomechfish",
+            "Name": "Photo (Mechfish)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
+        },
+        "photoseal": {
+            "id": "photoseal",
+            "Name": "Photo (Seal)",
+            "Class": "Item",
+            "Type": "EnemyPhoto"
         },
         "islesdiddybarrelspawn": {
             "id": "islesdiddybarrelspawn",
@@ -2274,6 +2958,24 @@
             "Class": "Item",
             "Type": "Event"
         },
+        "killedrabbit": {
+            "id": "killedrabbit",
+            "Name": "Killed Rabbit",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "lankymushroomslamswitch": {
+            "id": "lankymushroomslamswitch",
+            "Name": "Lanky Mushroom Slam Switch",
+            "Class": "Item",
+            "Type": "Event"
+        },
+        "chunkyfreed": {
+            "id": "chunkyfreed",
+            "Name": "Chunky Freed",
+            "Class": "Item",
+            "Type": "Event"
+        },
         "firsttimetalkhint": {
             "id": "firsttimetalkhint",
             "Name": "First Time Talk",
@@ -2343,6 +3045,12 @@
         "castledkhint": {
             "id": "castledkhint",
             "Name": "Castle DK",
+            "Class": "Hint",
+            "Type": "Hint"
+        },
+        "lockedhinttalkhint": {
+            "id": "lockedhinttalkhint",
+            "Name": "Locked Hint Talk",
             "Class": "Hint",
             "Type": "Hint"
         },

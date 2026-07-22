@@ -13,7 +13,8 @@ from tools.cave_logic.Processor.Classes import ItemNode, EventNode, strip_name
 from randomizer.Enums.Events import Events
 from randomizer.Enums.Items import Items
 from randomizer.Lists.Item import ItemList
-from randomizer.Lists.WrinklyHints import hints
+from randomizer.Lists.WrinklyHints import getDefaultHintList
+hints = getDefaultHintList()
 import json
 
 import sys
